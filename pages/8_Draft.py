@@ -34,19 +34,22 @@ st.divider()
 draft_orders = {
 
     2026: [
-        "Team Alpha",
-        "Team Bravo",
-        "Team Charlie",
-        "Team Delta",
-        "Team Echo",
-        "Team Foxtrot",
-        "Team Golf",
-        "Team Hotel",
-        "Team India",
-        "Team Juliet",
-        "Team Kilo",
-        "Team Lima",
-    ],
+        "Currently waiting on malle to distribute the draft order"
+    ]
+    # 2026: [
+    #     "Team Alpha",
+    #     "Team Bravo",
+    #     "Team Charlie",
+    #     "Team Delta",
+    #     "Team Echo",
+    #     "Team Foxtrot",
+    #     "Team Golf",
+    #     "Team Hotel",
+    #     "Team India",
+    #     "Team Juliet",
+    #     "Team Kilo",
+    #     "Team Lima",
+    # ],
 
     2025: [
         "Team Lima",
