@@ -35,7 +35,7 @@ draft_orders = {
 
     2026: [
         "Currently waiting on malle to distribute the draft order"
-    ]
+    ],
     # 2026: [
     #     "Team Alpha",
     #     "Team Bravo",
