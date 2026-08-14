@@ -9,8 +9,8 @@ import pandas as pd
 st.set_page_config(
     page_title="Malle Is The Worst Commissioner",
     page_icon="🏈",
-    layout="wide",
-    initial_sidebar_state="expanded",
+    layout="centered",
+    initial_sidebar_state="collapsed",
 )
 
 
