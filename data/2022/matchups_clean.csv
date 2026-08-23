@@ -1,0 +1,85 @@
+year,week,team_1,team_1_record,team_1_score,team_1_projected,team_2,team_2_record,team_2_score,team_2_projected,winner,loser,margin,is_playoffs
+2022,1,Joe Mantegna,8-6-0 | 10th,118.46,115.68,Post Mahomes,7-7-0 | 9th,96.58,121.87,Joe Mantegna,Post Mahomes,21.88,False
+2022,1,Pop Lockett Drop it,4-10-0 | 12th,100.0,114.13,Big Sack Jack,10-4-0 | 4th,105.02,116.61,Big Sack Jack,Pop Lockett Drop it,5.02,False
+2022,1,The Big Gronkowski,9-5-0 | 2nd,99.18,115.3,Voldemort,10-4-0 | 3rd,156.38,120.51,Voldemort,The Big Gronkowski,57.2,False
+2022,1,ThreatLevelMidnight,8-6-0 | 6th,66.36,113.4,Ginger FC,8-6-0 | 5th,126.72,120.43,Ginger FC,ThreatLevelMidnight,60.36,False
+2022,1,Uncle Rico,5-9-0 | 7th,138.4,122.18,Malle ❤️ 🐸,4-10-0 | 8th,104.82,111.41,Uncle Rico,Malle ❤️ 🐸,33.58,False
+2022,1,malle_dips_pouches,8-6-0 | 1st,106.32,124.32,Patty Primetimes,3-11-0 | 11th,104.7,118.12,malle_dips_pouches,Patty Primetimes,1.62,False
+2022,2,Joe Mantegna,8-6-0 | 10th,121.86,121.37,Pop Lockett Drop it,4-10-0 | 12th,76.66,105.76,Joe Mantegna,Pop Lockett Drop it,45.2,False
+2022,2,Malle ❤️ 🐸,4-10-0 | 8th,124.82,111.69,Voldemort,10-4-0 | 3rd,122.68,127.8,Malle ❤️ 🐸,Voldemort,2.14,False
+2022,2,Post Mahomes,7-7-0 | 9th,80.3,115.31,Ginger FC,8-6-0 | 5th,88.18,115.33,Ginger FC,Post Mahomes,7.88,False
+2022,2,The Big Gronkowski,9-5-0 | 2nd,109.84,118.91,Big Sack Jack,10-4-0 | 4th,145.66,115.74,Big Sack Jack,The Big Gronkowski,35.82,False
+2022,2,ThreatLevelMidnight,8-6-0 | 6th,102.38,105.34,Patty Primetimes,3-11-0 | 11th,91.88,110.56,ThreatLevelMidnight,Patty Primetimes,10.5,False
+2022,2,Uncle Rico,5-9-0 | 7th,95.5,125.14,malle_dips_pouches,8-6-0 | 1st,168.52,120.96,malle_dips_pouches,Uncle Rico,73.02,False
+2022,3,Malle ❤️ 🐸,4-10-0 | 8th,132.7,109.46,Big Sack Jack,10-4-0 | 4th,85.5,115.93,Malle ❤️ 🐸,Big Sack Jack,47.2,False
+2022,3,Pop Lockett Drop it,4-10-0 | 12th,89.18,83.2,Ginger FC,8-6-0 | 5th,79.36,119.0,Pop Lockett Drop it,Ginger FC,9.82,False
+2022,3,The Big Gronkowski,9-5-0 | 2nd,95.3,122.48,Joe Mantegna,8-6-0 | 10th,104.58,114.6,Joe Mantegna,The Big Gronkowski,9.28,False
+2022,3,ThreatLevelMidnight,8-6-0 | 6th,61.54,101.75,Post Mahomes,7-7-0 | 9th,82.24,109.65,Post Mahomes,ThreatLevelMidnight,20.7,False
+2022,3,Uncle Rico,5-9-0 | 7th,114.08,122.7,Patty Primetimes,3-11-0 | 11th,89.66,107.11,Uncle Rico,Patty Primetimes,24.42,False
+2022,3,Voldemort,10-4-0 | 3rd,82.0,133.61,malle_dips_pouches,8-6-0 | 1st,157.92,121.98,malle_dips_pouches,Voldemort,75.92,False
+2022,4,Big Sack Jack,10-4-0 | 4th,120.68,109.57,malle_dips_pouches,8-6-0 | 1st,102.36,121.83,Big Sack Jack,malle_dips_pouches,18.32,False
+2022,4,Malle ❤️ 🐸,4-10-0 | 8th,114.66,112.13,Joe Mantegna,8-6-0 | 10th,118.9,111.46,Joe Mantegna,Malle ❤️ 🐸,4.24,False
+2022,4,Pop Lockett Drop it,4-10-0 | 12th,98.62,102.84,Post Mahomes,7-7-0 | 9th,105.2,111.92,Post Mahomes,Pop Lockett Drop it,6.58,False
+2022,4,The Big Gronkowski,9-5-0 | 2nd,130.82,116.88,Ginger FC,8-6-0 | 5th,113.98,99.7,The Big Gronkowski,Ginger FC,16.84,False
+2022,4,Uncle Rico,5-9-0 | 7th,115.86,123.03,ThreatLevelMidnight,8-6-0 | 6th,164.68,110.0,ThreatLevelMidnight,Uncle Rico,48.82,False
+2022,4,Voldemort,10-4-0 | 3rd,130.82,121.07,Patty Primetimes,3-11-0 | 11th,107.04,108.17,Voldemort,Patty Primetimes,23.78,False
+2022,5,Big Sack Jack,10-4-0 | 4th,101.58,110.01,Patty Primetimes,3-11-0 | 11th,107.38,102.71,Patty Primetimes,Big Sack Jack,5.8,False
+2022,5,Joe Mantegna,8-6-0 | 10th,111.52,114.83,malle_dips_pouches,8-6-0 | 1st,122.06,125.27,malle_dips_pouches,Joe Mantegna,10.54,False
+2022,5,Malle ❤️ 🐸,4-10-0 | 8th,76.16,114.86,Ginger FC,8-6-0 | 5th,182.3,119.68,Ginger FC,Malle ❤️ 🐸,106.14,False
+2022,5,The Big Gronkowski,9-5-0 | 2nd,119.14,120.35,Post Mahomes,7-7-0 | 9th,80.84,108.98,The Big Gronkowski,Post Mahomes,38.3,False
+2022,5,ThreatLevelMidnight,8-6-0 | 6th,75.16,109.03,Pop Lockett Drop it,4-10-0 | 12th,109.16,106.32,Pop Lockett Drop it,ThreatLevelMidnight,34.0,False
+2022,5,Uncle Rico,5-9-0 | 7th,106.48,113.96,Voldemort,10-4-0 | 3rd,155.78,126.06,Voldemort,Uncle Rico,49.3,False
+2022,6,Ginger FC,8-6-0 | 5th,111.08,129.39,malle_dips_pouches,8-6-0 | 1st,106.7,106.54,Ginger FC,malle_dips_pouches,4.38,False
+2022,6,Joe Mantegna,8-6-0 | 10th,69.22,109.74,Patty Primetimes,3-11-0 | 11th,67.14,91.46,Joe Mantegna,Patty Primetimes,2.08,False
+2022,6,Malle ❤️ 🐸,4-10-0 | 8th,75.0,106.8,Post Mahomes,7-7-0 | 9th,95.36,102.56,Post Mahomes,Malle ❤️ 🐸,20.36,False
+2022,6,The Big Gronkowski,9-5-0 | 2nd,102.3,116.83,Pop Lockett Drop it,4-10-0 | 12th,87.74,106.52,The Big Gronkowski,Pop Lockett Drop it,14.56,False
+2022,6,Uncle Rico,5-9-0 | 7th,107.82,110.78,Big Sack Jack,10-4-0 | 4th,115.0,100.49,Big Sack Jack,Uncle Rico,7.18,False
+2022,6,Voldemort,10-4-0 | 3rd,122.86,122.19,ThreatLevelMidnight,8-6-0 | 6th,118.78,101.18,Voldemort,ThreatLevelMidnight,4.08,False
+2022,7,Ginger FC,8-6-0 | 5th,109.46,120.52,Patty Primetimes,3-11-0 | 11th,102.76,99.79,Ginger FC,Patty Primetimes,6.7,False
+2022,7,Malle ❤️ 🐸,4-10-0 | 8th,80.5,102.37,Pop Lockett Drop it,4-10-0 | 12th,81.52,99.42,Pop Lockett Drop it,Malle ❤️ 🐸,1.02,False
+2022,7,Post Mahomes,7-7-0 | 9th,100.72,110.5,malle_dips_pouches,8-6-0 | 1st,96.0,116.84,Post Mahomes,malle_dips_pouches,4.72,False
+2022,7,The Big Gronkowski,9-5-0 | 2nd,122.92,104.69,ThreatLevelMidnight,8-6-0 | 6th,88.6,96.13,The Big Gronkowski,ThreatLevelMidnight,34.32,False
+2022,7,Uncle Rico,5-9-0 | 7th,132.12,112.29,Joe Mantegna,8-6-0 | 10th,110.22,111.55,Uncle Rico,Joe Mantegna,21.9,False
+2022,7,Voldemort,10-4-0 | 3rd,106.98,115.97,Big Sack Jack,10-4-0 | 4th,117.34,95.91,Big Sack Jack,Voldemort,10.36,False
+2022,8,Pop Lockett Drop it,4-10-0 | 12th,82.84,96.65,malle_dips_pouches,8-6-0 | 1st,143.58,124.66,malle_dips_pouches,Pop Lockett Drop it,60.74,False
+2022,8,Post Mahomes,7-7-0 | 9th,114.4,114.38,Patty Primetimes,3-11-0 | 11th,136.68,105.21,Patty Primetimes,Post Mahomes,22.28,False
+2022,8,The Big Gronkowski,9-5-0 | 2nd,132.08,107.44,Malle ❤️ 🐸,4-10-0 | 8th,102.6,91.96,The Big Gronkowski,Malle ❤️ 🐸,29.48,False
+2022,8,ThreatLevelMidnight,8-6-0 | 6th,161.18,114.74,Big Sack Jack,10-4-0 | 4th,128.28,109.69,ThreatLevelMidnight,Big Sack Jack,32.9,False
+2022,8,Uncle Rico,5-9-0 | 7th,122.64,110.31,Ginger FC,8-6-0 | 5th,142.54,107.82,Ginger FC,Uncle Rico,19.9,False
+2022,8,Voldemort,10-4-0 | 3rd,107.72,127.65,Joe Mantegna,8-6-0 | 10th,87.82,102.95,Voldemort,Joe Mantegna,19.9,False
+2022,9,Joe Mantegna,8-6-0 | 10th,100.3,105.84,Big Sack Jack,10-4-0 | 4th,91.84,113.73,Joe Mantegna,Big Sack Jack,8.46,False
+2022,9,Malle ❤️ 🐸,4-10-0 | 8th,96.52,97.36,ThreatLevelMidnight,8-6-0 | 6th,107.4,114.19,ThreatLevelMidnight,Malle ❤️ 🐸,10.88,False
+2022,9,Pop Lockett Drop it,4-10-0 | 12th,90.92,86.58,Patty Primetimes,3-11-0 | 11th,113.54,109.89,Patty Primetimes,Pop Lockett Drop it,22.62,False
+2022,9,The Big Gronkowski,9-5-0 | 2nd,123.8,113.34,malle_dips_pouches,8-6-0 | 1st,82.72,106.67,The Big Gronkowski,malle_dips_pouches,41.08,False
+2022,9,Uncle Rico,5-9-0 | 7th,102.74,98.31,Post Mahomes,7-7-0 | 9th,108.0,108.01,Post Mahomes,Uncle Rico,5.26,False
+2022,9,Voldemort,10-4-0 | 3rd,153.1,126.07,Ginger FC,8-6-0 | 5th,97.5,118.21,Voldemort,Ginger FC,55.6,False
+2022,10,Ginger FC,8-6-0 | 5th,74.78,112.61,Big Sack Jack,10-4-0 | 4th,102.12,105.11,Big Sack Jack,Ginger FC,27.34,False
+2022,10,Joe Mantegna,8-6-0 | 10th,103.74,106.13,ThreatLevelMidnight,8-6-0 | 6th,108.0,111.11,ThreatLevelMidnight,Joe Mantegna,4.26,False
+2022,10,Malle ❤️ 🐸,4-10-0 | 8th,91.7,101.29,malle_dips_pouches,8-6-0 | 1st,110.36,113.59,malle_dips_pouches,Malle ❤️ 🐸,18.66,False
+2022,10,The Big Gronkowski,9-5-0 | 2nd,98.18,111.16,Patty Primetimes,3-11-0 | 11th,88.04,109.8,The Big Gronkowski,Patty Primetimes,10.14,False
+2022,10,Uncle Rico,5-9-0 | 7th,126.04,112.8,Pop Lockett Drop it,4-10-0 | 12th,135.88,90.87,Pop Lockett Drop it,Uncle Rico,9.84,False
+2022,10,Voldemort,10-4-0 | 3rd,98.4,115.28,Post Mahomes,7-7-0 | 9th,131.1,116.16,Post Mahomes,Voldemort,32.7,False
+2022,11,Joe Mantegna,8-6-0 | 10th,120.5,101.44,Ginger FC,8-6-0 | 5th,126.34,107.9,Ginger FC,Joe Mantegna,5.84,False
+2022,11,Malle ❤️ 🐸,4-10-0 | 8th,90.2,96.29,Patty Primetimes,3-11-0 | 11th,84.96,96.25,Malle ❤️ 🐸,Patty Primetimes,5.24,False
+2022,11,Post Mahomes,7-7-0 | 9th,77.48,111.33,Big Sack Jack,10-4-0 | 4th,89.8,97.04,Big Sack Jack,Post Mahomes,12.32,False
+2022,11,ThreatLevelMidnight,8-6-0 | 6th,102.24,113.42,malle_dips_pouches,8-6-0 | 1st,122.26,116.53,malle_dips_pouches,ThreatLevelMidnight,20.02,False
+2022,11,Uncle Rico,5-9-0 | 7th,101.76,110.11,The Big Gronkowski,9-5-0 | 2nd,156.2,108.79,The Big Gronkowski,Uncle Rico,54.44,False
+2022,11,Voldemort,10-4-0 | 3rd,114.38,109.91,Pop Lockett Drop it,4-10-0 | 12th,76.72,93.26,Voldemort,Pop Lockett Drop it,37.66,False
+2022,12,Joe Mantegna,8-6-0 | 10th,108.76,102.58,Post Mahomes,7-7-0 | 9th,92.06,119.43,Joe Mantegna,Post Mahomes,16.7,False
+2022,12,Pop Lockett Drop it,4-10-0 | 12th,112.84,105.64,Big Sack Jack,10-4-0 | 4th,118.6,96.65,Big Sack Jack,Pop Lockett Drop it,5.76,False
+2022,12,The Big Gronkowski,9-5-0 | 2nd,112.46,117.4,Voldemort,10-4-0 | 3rd,144.76,122.82,Voldemort,The Big Gronkowski,32.3,False
+2022,12,ThreatLevelMidnight,8-6-0 | 6th,131.64,119.79,Ginger FC,8-6-0 | 5th,94.84,112.43,ThreatLevelMidnight,Ginger FC,36.8,False
+2022,12,Uncle Rico,5-9-0 | 7th,86.9,111.84,Malle ❤️ 🐸,4-10-0 | 8th,129.12,107.56,Malle ❤️ 🐸,Uncle Rico,42.22,False
+2022,12,malle_dips_pouches,8-6-0 | 1st,142.66,124.98,Patty Primetimes,3-11-0 | 11th,72.0,106.18,malle_dips_pouches,Patty Primetimes,70.66,False
+2022,13,Joe Mantegna,8-6-0 | 10th,107.5,107.1,Pop Lockett Drop it,4-10-0 | 12th,102.76,105.15,Joe Mantegna,Pop Lockett Drop it,4.74,False
+2022,13,Malle ❤️ 🐸,4-10-0 | 8th,130.6,105.88,Voldemort,10-4-0 | 3rd,134.72,122.2,Voldemort,Malle ❤️ 🐸,4.12,False
+2022,13,Post Mahomes,7-7-0 | 9th,124.54,114.99,Ginger FC,8-6-0 | 5th,106.5,110.41,Post Mahomes,Ginger FC,18.04,False
+2022,13,The Big Gronkowski,9-5-0 | 2nd,80.62,115.23,Big Sack Jack,10-4-0 | 4th,147.24,107.76,Big Sack Jack,The Big Gronkowski,66.62,False
+2022,13,ThreatLevelMidnight,8-6-0 | 6th,88.2,105.68,Patty Primetimes,3-11-0 | 11th,87.44,110.29,ThreatLevelMidnight,Patty Primetimes,0.76,False
+2022,13,Uncle Rico,5-9-0 | 7th,128.12,116.96,malle_dips_pouches,8-6-0 | 1st,93.44,125.23,Uncle Rico,malle_dips_pouches,34.68,False
+2022,14,Malle ❤️ 🐸,4-10-0 | 8th,94.98,108.27,Big Sack Jack,10-4-0 | 4th,113.26,114.66,Big Sack Jack,Malle ❤️ 🐸,18.28,False
+2022,14,Pop Lockett Drop it,4-10-0 | 12th,70.76,99.95,Ginger FC,8-6-0 | 5th,93.56,110.09,Ginger FC,Pop Lockett Drop it,22.8,False
+2022,14,The Big Gronkowski,9-5-0 | 2nd,102.2,114.27,Joe Mantegna,8-6-0 | 10th,97.38,99.75,The Big Gronkowski,Joe Mantegna,4.82,False
+2022,14,ThreatLevelMidnight,8-6-0 | 6th,119.06,115.89,Post Mahomes,7-7-0 | 9th,91.9,106.49,ThreatLevelMidnight,Post Mahomes,27.16,False
+2022,14,Uncle Rico,5-9-0 | 7th,135.58,113.03,Patty Primetimes,3-11-0 | 11th,95.9,97.88,Uncle Rico,Patty Primetimes,39.68,False
+2022,14,Voldemort,10-4-0 | 3rd,114.38,127.36,malle_dips_pouches,8-6-0 | 1st,102.22,119.78,Voldemort,malle_dips_pouches,12.16,False

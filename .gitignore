@@ -1,4 +1,9 @@
 .DS_Store
+yahoo_credentials.json
+yahoo_browser_profile/
+OAuth.json
+.yahoofantasy
+yahoo_credentials.json
 .vscode/
 __pycache__/
 *.pyc

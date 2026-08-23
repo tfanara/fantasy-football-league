@@ -1,0 +1,79 @@
+year,week,team_1,team_1_record,team_1_score,team_1_projected,team_2,team_2_record,team_2_score,team_2_projected,winner,loser,result,margin,is_playoffs
+2018,1,Dillon Panthers,6-7-0 | 10th,122.46,106.55,Ginger FC,4-9-0 | 11th,127.62,109.48,Ginger FC,Dillon Panthers,team_2,5.16,False
+2018,1,PickUpYourBratsMalle,7-6-0 | 6th,98.66,107.91,Post Mahomes,6-7-0 | 7th,122.36,106.62,Post Mahomes,PickUpYourBratsMalle,team_2,23.7,False
+2018,1,Pop Lockett Drop it,8-5-0 | 1st,80.14,103.34,malle_dips_pouches,11-2-0 | 4th,98.42,110.62,malle_dips_pouches,Pop Lockett Drop it,team_2,18.28,False
+2018,1,The Big Gronkowski,7-6-0 | 5th,83.66,105.22,Malle ❤️ 🐸,4-9-0 | 12th,79.84,108.44,The Big Gronkowski,Malle ❤️ 🐸,team_1,3.82,False
+2018,1,Uncle Rico,6-7-0 | 8th,101.54,112.41,Joe Mantegna,4-9-0 | 9th,88.84,105.96,Uncle Rico,Joe Mantegna,team_1,12.7,False
+2018,1,Voldemort,7-6-0 | 2nd,121.58,107.73,Big Sack Jack,8-5-0 | 3rd,123.04,105.12,Big Sack Jack,Voldemort,team_2,1.46,False
+2018,2,Joe Mantegna,4-9-0 | 9th,97.6,104.53,Big Sack Jack,8-5-0 | 3rd,107.4,104.12,Big Sack Jack,Joe Mantegna,team_2,9.8,False
+2018,2,Malle ❤️ 🐸,4-9-0 | 12th,97.8,103.03,malle_dips_pouches,11-2-0 | 4th,102.26,92.55,malle_dips_pouches,Malle ❤️ 🐸,team_2,4.46,False
+2018,2,PickUpYourBratsMalle,7-6-0 | 6th,127.1,104.58,Ginger FC,4-9-0 | 11th,83.04,103.5,PickUpYourBratsMalle,Ginger FC,team_1,44.06,False
+2018,2,Pop Lockett Drop it,8-5-0 | 1st,101.08,104.75,Post Mahomes,6-7-0 | 7th,98.56,106.39,Pop Lockett Drop it,Post Mahomes,team_1,2.52,False
+2018,2,The Big Gronkowski,7-6-0 | 5th,94.74,102.73,Voldemort,7-6-0 | 2nd,103.96,101.44,Voldemort,The Big Gronkowski,team_2,9.22,False
+2018,2,Uncle Rico,6-7-0 | 8th,98.54,101.28,Dillon Panthers,6-7-0 | 10th,100.02,96.46,Dillon Panthers,Uncle Rico,team_2,1.48,False
+2018,3,Dillon Panthers,6-7-0 | 10th,120.84,101.6,Big Sack Jack,8-5-0 | 3rd,106.58,116.7,Dillon Panthers,Big Sack Jack,team_1,14.26,False
+2018,3,Malle ❤️ 🐸,4-9-0 | 12th,96.5,105.48,Voldemort,7-6-0 | 2nd,82.22,106.2,Malle ❤️ 🐸,Voldemort,team_1,14.28,False
+2018,3,Pop Lockett Drop it,8-5-0 | 1st,127.26,106.0,Ginger FC,4-9-0 | 11th,56.9,95.63,Pop Lockett Drop it,Ginger FC,team_1,70.36,False
+2018,3,Post Mahomes,6-7-0 | 7th,72.76,101.42,malle_dips_pouches,11-2-0 | 4th,93.16,87.24,malle_dips_pouches,Post Mahomes,team_2,20.4,False
+2018,3,The Big Gronkowski,7-6-0 | 5th,87.74,99.99,Joe Mantegna,4-9-0 | 9th,108.16,112.78,Joe Mantegna,The Big Gronkowski,team_2,20.42,False
+2018,3,Uncle Rico,6-7-0 | 8th,86.6,101.47,PickUpYourBratsMalle,7-6-0 | 6th,98.84,100.59,PickUpYourBratsMalle,Uncle Rico,team_2,12.24,False
+2018,4,Malle ❤️ 🐸,4-9-0 | 12th,77.46,102.17,Joe Mantegna,4-9-0 | 9th,131.56,116.18,Joe Mantegna,Malle ❤️ 🐸,team_2,54.1,False
+2018,4,PickUpYourBratsMalle,7-6-0 | 6th,154.38,103.82,Big Sack Jack,8-5-0 | 3rd,130.98,107.31,PickUpYourBratsMalle,Big Sack Jack,team_1,23.4,False
+2018,4,Post Mahomes,6-7-0 | 7th,152.36,105.17,Ginger FC,4-9-0 | 11th,110.52,92.39,Post Mahomes,Ginger FC,team_1,41.84,False
+2018,4,The Big Gronkowski,7-6-0 | 5th,98.5,89.7,Dillon Panthers,6-7-0 | 10th,93.18,107.57,The Big Gronkowski,Dillon Panthers,team_1,5.32,False
+2018,4,Uncle Rico,6-7-0 | 8th,84.62,93.59,Pop Lockett Drop it,8-5-0 | 1st,158.96,104.22,Pop Lockett Drop it,Uncle Rico,team_2,74.34,False
+2018,4,Voldemort,7-6-0 | 2nd,93.16,101.08,malle_dips_pouches,11-2-0 | 4th,112.2,96.59,malle_dips_pouches,Voldemort,team_2,19.04,False
+2018,5,Ginger FC,4-9-0 | 11th,88.24,101.28,malle_dips_pouches,11-2-0 | 4th,95.54,94.93,malle_dips_pouches,Ginger FC,team_2,7.3,False
+2018,5,Malle ❤️ 🐸,4-9-0 | 12th,100.6,95.46,Dillon Panthers,6-7-0 | 10th,108.52,98.22,Dillon Panthers,Malle ❤️ 🐸,team_2,7.92,False
+2018,5,Pop Lockett Drop it,8-5-0 | 1st,100.88,107.83,Big Sack Jack,8-5-0 | 3rd,102.22,105.56,Big Sack Jack,Pop Lockett Drop it,team_2,1.34,False
+2018,5,The Big Gronkowski,7-6-0 | 5th,93.86,100.87,PickUpYourBratsMalle,7-6-0 | 6th,86.94,102.19,The Big Gronkowski,PickUpYourBratsMalle,team_1,6.92,False
+2018,5,Uncle Rico,6-7-0 | 8th,94.98,107.16,Post Mahomes,6-7-0 | 7th,114.6,106.28,Post Mahomes,Uncle Rico,team_2,19.62,False
+2018,5,Voldemort,7-6-0 | 2nd,122.04,108.76,Joe Mantegna,4-9-0 | 9th,100.92,104.22,Voldemort,Joe Mantegna,team_1,21.12,False
+2018,6,Joe Mantegna,4-9-0 | 9th,116.08,113.36,malle_dips_pouches,11-2-0 | 4th,70.24,94.78,Joe Mantegna,malle_dips_pouches,team_1,45.84,False
+2018,6,Malle ❤️ 🐸,4-9-0 | 12th,95.06,92.47,PickUpYourBratsMalle,7-6-0 | 6th,92.92,108.15,Malle ❤️ 🐸,PickUpYourBratsMalle,team_1,2.14,False
+2018,6,Post Mahomes,6-7-0 | 7th,118.9,99.54,Big Sack Jack,8-5-0 | 3rd,122.68,105.09,Big Sack Jack,Post Mahomes,team_2,3.78,False
+2018,6,The Big Gronkowski,7-6-0 | 5th,88.58,99.1,Pop Lockett Drop it,8-5-0 | 1st,125.6,106.3,Pop Lockett Drop it,The Big Gronkowski,team_2,37.02,False
+2018,6,Uncle Rico,6-7-0 | 8th,124.1,101.67,Ginger FC,4-9-0 | 11th,81.08,88.41,Uncle Rico,Ginger FC,team_1,43.02,False
+2018,6,Voldemort,7-6-0 | 2nd,95.7,103.51,Dillon Panthers,6-7-0 | 10th,106.52,98.33,Dillon Panthers,Voldemort,team_2,10.82,False
+2018,7,Ginger FC,4-9-0 | 11th,80.1,90.97,Big Sack Jack,8-5-0 | 3rd,111.78,108.6,Big Sack Jack,Ginger FC,team_2,31.68,False
+2018,7,Joe Mantegna,4-9-0 | 9th,101.32,109.59,Dillon Panthers,6-7-0 | 10th,104.6,99.07,Dillon Panthers,Joe Mantegna,team_2,3.28,False
+2018,7,Malle ❤️ 🐸,4-9-0 | 12th,107.34,101.12,Pop Lockett Drop it,8-5-0 | 1st,142.86,103.64,Pop Lockett Drop it,Malle ❤️ 🐸,team_2,35.52,False
+2018,7,The Big Gronkowski,7-6-0 | 5th,87.64,96.5,Post Mahomes,6-7-0 | 7th,86.66,108.23,The Big Gronkowski,Post Mahomes,team_1,0.98,False
+2018,7,Uncle Rico,6-7-0 | 8th,73.24,95.59,malle_dips_pouches,11-2-0 | 4th,93.78,90.07,malle_dips_pouches,Uncle Rico,team_2,20.54,False
+2018,7,Voldemort,7-6-0 | 2nd,111.38,95.27,PickUpYourBratsMalle,7-6-0 | 6th,119.34,102.72,PickUpYourBratsMalle,Voldemort,team_2,7.96,False
+2018,8,Dillon Panthers,6-7-0 | 10th,94.8,111.94,malle_dips_pouches,11-2-0 | 4th,111.4,95.07,malle_dips_pouches,Dillon Panthers,team_2,16.6,False
+2018,8,Joe Mantegna,4-9-0 | 9th,95.72,100.12,PickUpYourBratsMalle,7-6-0 | 6th,117.96,99.77,PickUpYourBratsMalle,Joe Mantegna,team_2,22.24,False
+2018,8,Malle ❤️ 🐸,4-9-0 | 12th,89.06,100.46,Post Mahomes,6-7-0 | 7th,107.34,107.11,Post Mahomes,Malle ❤️ 🐸,team_2,18.28,False
+2018,8,The Big Gronkowski,7-6-0 | 5th,83.2,94.85,Ginger FC,4-9-0 | 11th,95.94,89.31,Ginger FC,The Big Gronkowski,team_2,12.74,False
+2018,8,Uncle Rico,6-7-0 | 8th,111.24,102.25,Big Sack Jack,8-5-0 | 3rd,98.9,111.86,Uncle Rico,Big Sack Jack,team_1,12.34,False
+2018,8,Voldemort,7-6-0 | 2nd,121.96,107.64,Pop Lockett Drop it,8-5-0 | 1st,101.1,106.55,Voldemort,Pop Lockett Drop it,team_1,20.86,False
+2018,9,Big Sack Jack,8-5-0 | 3rd,104.76,107.95,malle_dips_pouches,11-2-0 | 4th,88.24,97.57,Big Sack Jack,malle_dips_pouches,team_1,16.52,False
+2018,9,Dillon Panthers,6-7-0 | 10th,79.04,97.83,PickUpYourBratsMalle,7-6-0 | 6th,92.16,106.39,PickUpYourBratsMalle,Dillon Panthers,team_2,13.12,False
+2018,9,Joe Mantegna,4-9-0 | 9th,134.1,97.35,Pop Lockett Drop it,8-5-0 | 1st,138.2,103.27,Pop Lockett Drop it,Joe Mantegna,team_2,4.1,False
+2018,9,Malle ❤️ 🐸,4-9-0 | 12th,105.4,93.15,Ginger FC,4-9-0 | 11th,68.8,88.64,Malle ❤️ 🐸,Ginger FC,team_1,36.6,False
+2018,9,Uncle Rico,6-7-0 | 8th,87.26,107.94,The Big Gronkowski,7-6-0 | 5th,102.4,90.76,The Big Gronkowski,Uncle Rico,team_2,15.14,False
+2018,9,Voldemort,7-6-0 | 2nd,98.74,100.87,Post Mahomes,6-7-0 | 7th,97.48,110.52,Voldemort,Post Mahomes,team_1,1.26,False
+2018,10,Dillon Panthers,6-7-0 | 10th,122.9,95.37,Pop Lockett Drop it,8-5-0 | 1st,83.4,115.42,Dillon Panthers,Pop Lockett Drop it,team_1,39.5,False
+2018,10,Joe Mantegna,4-9-0 | 9th,110.56,116.32,Post Mahomes,6-7-0 | 7th,120.62,112.83,Post Mahomes,Joe Mantegna,team_2,10.06,False
+2018,10,PickUpYourBratsMalle,7-6-0 | 6th,85.22,104.42,malle_dips_pouches,11-2-0 | 4th,121.52,101.66,malle_dips_pouches,PickUpYourBratsMalle,team_2,36.3,False
+2018,10,The Big Gronkowski,7-6-0 | 5th,111.72,103.07,Big Sack Jack,8-5-0 | 3rd,97.26,106.78,The Big Gronkowski,Big Sack Jack,team_1,14.46,False
+2018,10,Uncle Rico,6-7-0 | 8th,102.96,103.38,Malle ❤️ 🐸,4-9-0 | 12th,117.52,100.1,Malle ❤️ 🐸,Uncle Rico,team_2,14.56,False
+2018,10,Voldemort,7-6-0 | 2nd,104.38,106.09,Ginger FC,4-9-0 | 11th,86.7,85.1,Voldemort,Ginger FC,team_1,17.68,False
+2018,11,Dillon Panthers,6-7-0 | 10th,105.82,99.94,Post Mahomes,6-7-0 | 7th,135.48,122.56,Post Mahomes,Dillon Panthers,team_2,29.66,False
+2018,11,Joe Mantegna,4-9-0 | 9th,119.92,82.66,Ginger FC,4-9-0 | 11th,104.94,91.83,Joe Mantegna,Ginger FC,team_1,14.98,False
+2018,11,Malle ❤️ 🐸,4-9-0 | 12th,90.06,105.94,Big Sack Jack,8-5-0 | 3rd,120.7,102.12,Big Sack Jack,Malle ❤️ 🐸,team_2,30.64,False
+2018,11,PickUpYourBratsMalle,7-6-0 | 6th,81.08,105.69,Pop Lockett Drop it,8-5-0 | 1st,100.74,103.21,Pop Lockett Drop it,PickUpYourBratsMalle,team_2,19.66,False
+2018,11,The Big Gronkowski,7-6-0 | 5th,90.14,105.28,malle_dips_pouches,11-2-0 | 4th,147.62,107.32,malle_dips_pouches,The Big Gronkowski,team_2,57.48,False
+2018,11,Uncle Rico,6-7-0 | 8th,98.68,112.0,Voldemort,7-6-0 | 2nd,71.98,102.24,Uncle Rico,Voldemort,team_1,26.7,False
+2018,12,Dillon Panthers,6-7-0 | 10th,92.24,92.81,Ginger FC,4-9-0 | 11th,95.26,95.91,Ginger FC,Dillon Panthers,team_2,3.02,False
+2018,12,PickUpYourBratsMalle,7-6-0 | 6th,118.88,108.11,Post Mahomes,6-7-0 | 7th,109.14,127.08,PickUpYourBratsMalle,Post Mahomes,team_1,9.74,False
+2018,12,Pop Lockett Drop it,8-5-0 | 1st,107.28,107.98,malle_dips_pouches,11-2-0 | 4th,153.22,109.54,malle_dips_pouches,Pop Lockett Drop it,team_2,45.94,False
+2018,12,The Big Gronkowski,7-6-0 | 5th,148.46,101.5,Malle ❤️ 🐸,4-9-0 | 12th,96.18,100.14,The Big Gronkowski,Malle ❤️ 🐸,team_1,52.28,False
+2018,12,Uncle Rico,6-7-0 | 8th,83.2,95.47,Joe Mantegna,4-9-0 | 9th,67.8,75.13,Uncle Rico,Joe Mantegna,team_1,15.4,False
+2018,12,Voldemort,7-6-0 | 2nd,106.22,116.67,Big Sack Jack,8-5-0 | 3rd,61.04,90.24,Voldemort,Big Sack Jack,team_1,45.18,False
+2018,13,Joe Mantegna,4-9-0 | 9th,90.4,108.26,Big Sack Jack,8-5-0 | 3rd,95.1,106.16,Big Sack Jack,Joe Mantegna,team_2,4.7,False
+2018,13,Malle ❤️ 🐸,4-9-0 | 12th,54.72,100.32,malle_dips_pouches,11-2-0 | 4th,72.58,103.55,malle_dips_pouches,Malle ❤️ 🐸,team_2,17.86,False
+2018,13,PickUpYourBratsMalle,7-6-0 | 6th,80.34,98.83,Ginger FC,4-9-0 | 11th,106.7,98.36,Ginger FC,PickUpYourBratsMalle,team_2,26.36,False
+2018,13,Pop Lockett Drop it,8-5-0 | 1st,112.7,103.53,Post Mahomes,6-7-0 | 7th,109.0,120.19,Pop Lockett Drop it,Post Mahomes,team_1,3.7,False
+2018,13,The Big Gronkowski,7-6-0 | 5th,91.76,110.9,Voldemort,7-6-0 | 2nd,93.0,107.14,Voldemort,The Big Gronkowski,team_2,1.24,False
+2018,13,Uncle Rico,6-7-0 | 8th,111.32,112.06,Dillon Panthers,6-7-0 | 10th,74.62,101.76,Uncle Rico,Dillon Panthers,team_1,36.7,False
