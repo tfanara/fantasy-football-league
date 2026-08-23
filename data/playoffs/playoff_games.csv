@@ -1,0 +1,41 @@
+year,week,round,team_1,team_1_record,team_1_score,team_1_projected,team_2,team_2_record,team_2_score,team_2_projected,winner,winner_score,loser,loser_score,margin,is_championship
+2018,14,Quarterfinal,The Big Gronkowski,7-6-0 | 5th,91.5,109.35,Big Sack Jack,8-5-0 | 3rd,115.2,107.41,Big Sack Jack,115.2,The Big Gronkowski,91.5,23.7,False
+2018,14,Quarterfinal,Voldemort,7-6-0 | 2nd,88.68,99.66,ThreatLevelMidnight,7-6-0 | 6th,63.98,95.14,Voldemort,88.68,ThreatLevelMidnight,63.98,24.7,False
+2018,15,Semifinal,Pop Lockett Drop it,8-5-0 | 1st,82.5,93.12,Big Sack Jack,8-5-0 | 3rd,66.64,110.13,Pop Lockett Drop it,82.5,Big Sack Jack,66.64,15.86,False
+2018,15,Semifinal,Voldemort,7-6-0 | 2nd,124.46,105.52,malle_dips_pouches,11-2-0 | 4th,55.66,111.14,Voldemort,124.46,malle_dips_pouches,55.66,68.8,False
+2018,16,Championship,Voldemort,7-6-0 | 2nd,98.84,109.9,Pop Lockett Drop it,8-5-0 | 1st,121.22,96.79,Pop Lockett Drop it,121.22,Voldemort,98.84,22.38,True
+2019,14,Quarterfinal,Post Mahomes,8-5-0 | 4th,106.98,106.86,Big Sack Jack,7-6-0 | 6th,102.52,98.15,Post Mahomes,106.98,Big Sack Jack,102.52,4.46,False
+2019,14,Quarterfinal,ThreatLevelMidnight,7-6-0 | 3rd,144.14,92.49,Pop Lockett Drop it,10-3-0 | 5th,57.4,103.21,ThreatLevelMidnight,144.14,Pop Lockett Drop it,57.4,86.74,False
+2019,15,Semifinal,Patty Primetimes,10-3-0 | 2nd,151.28,107.1,ThreatLevelMidnight,7-6-0 | 3rd,97.86,97.28,Patty Primetimes,151.28,ThreatLevelMidnight,97.86,53.42,False
+2019,15,Semifinal,Voldemort,12-1-0 | 1st,111.7,114.04,Post Mahomes,8-5-0 | 4th,89.42,104.95,Voldemort,111.7,Post Mahomes,89.42,22.28,False
+2019,16,Championship,Voldemort,12-1-0 | 1st,88.34,116.87,Patty Primetimes,10-3-0 | 2nd,83.22,106.12,Voldemort,88.34,Patty Primetimes,83.22,5.12,True
+2020,14,Quarterfinal,Malle ❤️ 🐸,8-5-0 | 1st,132.28,122.7,Joe Mantegna,7-6-0 | 6th,103.84,105.39,Malle ❤️ 🐸,132.28,Joe Mantegna,103.84,28.44,False
+2020,14,Quarterfinal,Uncle Rico,8-5-0 | 2nd,152.22,125.1,The Big Gronkowski,8-5-0 | 5th,99.56,119.84,Uncle Rico,152.22,The Big Gronkowski,99.56,52.66,False
+2020,15,Semifinal,Malle ❤️ 🐸,8-5-0 | 1st,118.7,123.8,Voldemort,9-4-0 | 4th,104.26,120.08,Malle ❤️ 🐸,118.7,Voldemort,104.26,14.44,False
+2020,15,Semifinal,Uncle Rico,8-5-0 | 2nd,123.22,122.56,Pop Lockett Drop it,10-3-0 | 3rd,100.72,115.04,Uncle Rico,123.22,Pop Lockett Drop it,100.72,22.5,False
+2020,16,Championship,Uncle Rico,8-5-0 | 2nd,111.52,126.26,Malle ❤️ 🐸,8-5-0 | 1st,181.62,132.42,Malle ❤️ 🐸,181.62,Uncle Rico,111.52,70.1,True
+2021,15,Quarterfinal,Joe Mantegna,9-5-0 | 6th,88.94,133.34,Post Mahomes,8-6-0 | 3rd,96.88,117.56,Post Mahomes,96.88,Joe Mantegna,88.94,7.94,False
+2021,15,Quarterfinal,The Big Gronkowski,7-7-0 | 5th,84.06,124.03,Voldemort,9-5-0 | 1st,86.88,127.33,Voldemort,86.88,The Big Gronkowski,84.06,2.82,False
+2021,16,Semifinal,Malle ❤️ 🐸,11-3-0 | 4th,74.18,115.6,Voldemort,9-5-0 | 1st,162.0,120.11,Voldemort,162.0,Malle ❤️ 🐸,74.18,87.82,False
+2021,16,Semifinal,ThreatLevelMidnight,11-3-0 | 2nd,145.44,121.23,Post Mahomes,8-6-0 | 3rd,112.7,129.48,ThreatLevelMidnight,145.44,Post Mahomes,112.7,32.74,False
+2021,17,Championship,Voldemort,9-5-0 | 1st,102.14,127.58,ThreatLevelMidnight,11-3-0 | 2nd,101.26,129.35,Voldemort,102.14,ThreatLevelMidnight,101.26,0.88,True
+2022,15,Quarterfinal,Ginger FC,8-6-0 | 5th,98.26,110.23,malle_dips_pouches,8-6-0 | 1st,121.28,117.99,malle_dips_pouches,121.28,Ginger FC,98.26,23.02,False
+2022,15,Quarterfinal,The Big Gronkowski,9-5-0 | 2nd,135.7,110.04,ThreatLevelMidnight,8-6-0 | 6th,72.34,117.66,The Big Gronkowski,135.7,ThreatLevelMidnight,72.34,63.36,False
+2022,16,Semifinal,The Big Gronkowski,9-5-0 | 2nd,137.96,114.77,Big Sack Jack,10-4-0 | 4th,120.8,117.19,The Big Gronkowski,137.96,Big Sack Jack,120.8,17.16,False
+2022,16,Semifinal,Voldemort,10-4-0 | 3rd,99.58,120.33,malle_dips_pouches,8-6-0 | 1st,124.24,121.64,malle_dips_pouches,124.24,Voldemort,99.58,24.66,False
+2022,17,Championship,The Big Gronkowski,9-5-0 | 2nd,66.1,113.26,malle_dips_pouches,8-6-0 | 1st,166.48,116.24,malle_dips_pouches,166.48,The Big Gronkowski,66.1,100.38,True
+2023,15,Quarterfinal,The Big Gronkowski,7-7-0 | 6th,71.42,104.06,malle_dips_pouches,8-6-0 | 4th,137.76,107.5,malle_dips_pouches,137.76,The Big Gronkowski,71.42,66.34,False
+2023,15,Quarterfinal,Voldemort,7-7-0 | 5th,109.14,107.26,Post Mahomes,8-6-0 | 3rd,144.2,115.62,Post Mahomes,144.2,Voldemort,109.14,35.06,False
+2023,16,Semifinal,Joe Mantegna,13-1-0 | 1st,148.9,102.66,malle_dips_pouches,8-6-0 | 4th,134.18,108.08,Joe Mantegna,148.9,malle_dips_pouches,134.18,14.72,False
+2023,16,Semifinal,ThreatLevelMidnight,10-4-0 | 2nd,131.0,104.04,Post Mahomes,8-6-0 | 3rd,108.3,120.26,ThreatLevelMidnight,131.0,Post Mahomes,108.3,22.7,False
+2023,17,Championship,Joe Mantegna,13-1-0 | 1st,133.38,106.94,ThreatLevelMidnight,10-4-0 | 2nd,107.56,109.97,Joe Mantegna,133.38,ThreatLevelMidnight,107.56,25.82,True
+2024,15,Quarterfinal,The Big Gronkowski,9-5-0 | 5th,123.74,110.09,Patty Primetimes,8-6-0 | 3rd,137.34,108.39,Patty Primetimes,137.34,The Big Gronkowski,123.74,13.6,False
+2024,15,Quarterfinal,ThreatLevelMidnight,9-5-0 | 2nd,105.16,113.45,malle_dips_pouches,8-6-0 | 6th,104.64,111.91,ThreatLevelMidnight,105.16,malle_dips_pouches,104.64,0.52,False
+2024,16,Semifinal,Malle ❤️ 🐸,10-4-0 | 4th,94.04,107.46,ThreatLevelMidnight,9-5-0 | 2nd,147.02,115.02,ThreatLevelMidnight,147.02,Malle ❤️ 🐸,94.04,52.98,False
+2024,16,Semifinal,Post Mahomes,10-4-0 | 1st,147.18,119.41,Patty Primetimes,8-6-0 | 3rd,122.12,110.87,Post Mahomes,147.18,Patty Primetimes,122.12,25.06,False
+2024,17,Championship,ThreatLevelMidnight,9-5-0 | 2nd,132.86,110.75,Post Mahomes,10-4-0 | 1st,137.52,121.19,Post Mahomes,137.52,ThreatLevelMidnight,132.86,4.66,True
+2025,15,Quarterfinal,ThreatLevelMidnight,9-5-0 | 3rd,116.78,112.22,Pop Lockett Drop it,8-6-0 | 6th,109.52,116.93,ThreatLevelMidnight,116.78,Pop Lockett Drop it,109.52,7.26,False
+2025,15,Quarterfinal,Uncle Rico,7-7-0 | 5th,77.6,115.94,Post Mahomes,9-5-0 | 4th,85.76,89.64,Post Mahomes,85.76,Uncle Rico,77.6,8.16,False
+2025,16,Semifinal,Post Mahomes,9-5-0 | 4th,89.38,115.69,Ginger FC,10-4-0 | 1st,165.5,119.89,Ginger FC,165.5,Post Mahomes,89.38,76.12,False
+2025,16,Semifinal,ThreatLevelMidnight,9-5-0 | 3rd,96.62,102.54,Patty Primetimes,12-2-0 | 2nd,112.2,105.23,Patty Primetimes,112.2,ThreatLevelMidnight,96.62,15.58,False
+2025,17,Championship,Ginger FC,10-4-0 | 1st,140.54,117.29,Patty Primetimes,12-2-0 | 2nd,81.68,109.1,Ginger FC,140.54,Patty Primetimes,81.68,58.86,True
