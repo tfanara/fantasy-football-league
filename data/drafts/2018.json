@@ -1,0 +1,1622 @@
+[
+  {
+    "year": 2018,
+    "round": 1,
+    "pick_in_round": 1,
+    "overall_pick": 1,
+    "team": "Uncle Rico",
+    "player": "Todd Gurley",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 1,
+    "pick_in_round": 2,
+    "overall_pick": 2,
+    "team": "Post Mahomes",
+    "player": "Ezekiel Elliott",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 1,
+    "pick_in_round": 3,
+    "overall_pick": 3,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "David Johnson",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 1,
+    "pick_in_round": 4,
+    "overall_pick": 4,
+    "team": "Big Sack Jack",
+    "player": "Alvin Kamara",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 1,
+    "pick_in_round": 5,
+    "overall_pick": 5,
+    "team": "Dillon Panthers",
+    "player": "Antonio Brown",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 1,
+    "pick_in_round": 6,
+    "overall_pick": 6,
+    "team": "Ginger FC",
+    "player": "DeAndre Hopkins",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 1,
+    "pick_in_round": 7,
+    "overall_pick": 7,
+    "team": "Joe Mantegna",
+    "player": "Saquon Barkley",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 1,
+    "pick_in_round": 8,
+    "overall_pick": 8,
+    "team": "ThreatLevelMidnight",
+    "player": "Melvin Gordon III",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 1,
+    "pick_in_round": 9,
+    "overall_pick": 9,
+    "team": "Voldemort",
+    "player": "Le'Veon Bell",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 1,
+    "pick_in_round": 10,
+    "overall_pick": 10,
+    "team": "malle_dips_pouches",
+    "player": "Leonard Fournette",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 1,
+    "pick_in_round": 11,
+    "overall_pick": 11,
+    "team": "Pop Lockett Drop it",
+    "player": "Kareem Hunt",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 1,
+    "pick_in_round": 12,
+    "overall_pick": 12,
+    "team": "The Big Gronkowski",
+    "player": "Christian McCaffrey",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 2,
+    "pick_in_round": 1,
+    "overall_pick": 13,
+    "team": "The Big Gronkowski",
+    "player": "Dalvin Cook",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 2,
+    "pick_in_round": 2,
+    "overall_pick": 14,
+    "team": "Pop Lockett Drop it",
+    "player": "Odell Beckham Jr.",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 2,
+    "pick_in_round": 3,
+    "overall_pick": 15,
+    "team": "malle_dips_pouches",
+    "player": "Davante Adams",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 2,
+    "pick_in_round": 4,
+    "overall_pick": 16,
+    "team": "Voldemort",
+    "player": "Devonta Freeman",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 2,
+    "pick_in_round": 5,
+    "overall_pick": 17,
+    "team": "ThreatLevelMidnight",
+    "player": "Jordan Howard",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 2,
+    "pick_in_round": 6,
+    "overall_pick": 18,
+    "team": "Joe Mantegna",
+    "player": "Julio Jones",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 2,
+    "pick_in_round": 7,
+    "overall_pick": 19,
+    "team": "Ginger FC",
+    "player": "Rob Gronkowski",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 2,
+    "pick_in_round": 8,
+    "overall_pick": 20,
+    "team": "Dillon Panthers",
+    "player": "A.J. Green",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 2,
+    "pick_in_round": 9,
+    "overall_pick": 21,
+    "team": "Big Sack Jack",
+    "player": "Tyreek Hill",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 2,
+    "pick_in_round": 10,
+    "overall_pick": 22,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Mike Evans",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 2,
+    "pick_in_round": 11,
+    "overall_pick": 23,
+    "team": "Post Mahomes",
+    "player": "Michael Thomas",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 2,
+    "pick_in_round": 12,
+    "overall_pick": 24,
+    "team": "Uncle Rico",
+    "player": "Keenan Allen",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 3,
+    "pick_in_round": 1,
+    "overall_pick": 25,
+    "team": "Uncle Rico",
+    "player": "Aaron Rodgers",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 3,
+    "pick_in_round": 2,
+    "overall_pick": 26,
+    "team": "Post Mahomes",
+    "player": "Joe Mixon",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 3,
+    "pick_in_round": 3,
+    "overall_pick": 27,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Kenyan Drake",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 3,
+    "pick_in_round": 4,
+    "overall_pick": 28,
+    "team": "Big Sack Jack",
+    "player": "Travis Kelce",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 3,
+    "pick_in_round": 5,
+    "overall_pick": 29,
+    "team": "Dillon Panthers",
+    "player": "Alex Collins",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 3,
+    "pick_in_round": 6,
+    "overall_pick": 30,
+    "team": "Ginger FC",
+    "player": "Jay Ajayi",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 3,
+    "pick_in_round": 7,
+    "overall_pick": 31,
+    "team": "Joe Mantegna",
+    "player": "Zach Ertz",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 3,
+    "pick_in_round": 8,
+    "overall_pick": 32,
+    "team": "ThreatLevelMidnight",
+    "player": "Adam Thielen",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 3,
+    "pick_in_round": 9,
+    "overall_pick": 33,
+    "team": "Voldemort",
+    "player": "Stefon Diggs",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 3,
+    "pick_in_round": 10,
+    "overall_pick": 34,
+    "team": "malle_dips_pouches",
+    "player": "Amari Cooper",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 3,
+    "pick_in_round": 11,
+    "overall_pick": 35,
+    "team": "Pop Lockett Drop it",
+    "player": "Royce Freeman",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 3,
+    "pick_in_round": 12,
+    "overall_pick": 36,
+    "team": "The Big Gronkowski",
+    "player": "JuJu Smith-Schuster",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 4,
+    "pick_in_round": 1,
+    "overall_pick": 37,
+    "team": "The Big Gronkowski",
+    "player": "Larry Fitzgerald",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 4,
+    "pick_in_round": 2,
+    "overall_pick": 38,
+    "team": "Pop Lockett Drop it",
+    "player": "Golden Tate",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 4,
+    "pick_in_round": 3,
+    "overall_pick": 39,
+    "team": "malle_dips_pouches",
+    "player": "Lamar Miller",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 4,
+    "pick_in_round": 4,
+    "overall_pick": 40,
+    "team": "Voldemort",
+    "player": "Tom Brady",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 4,
+    "pick_in_round": 5,
+    "overall_pick": 41,
+    "team": "ThreatLevelMidnight",
+    "player": "LeSean McCoy",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 4,
+    "pick_in_round": 6,
+    "overall_pick": 42,
+    "team": "Joe Mantegna",
+    "player": "Deshaun Watson",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 4,
+    "pick_in_round": 7,
+    "overall_pick": 43,
+    "team": "Ginger FC",
+    "player": "Russell Wilson",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 4,
+    "pick_in_round": 8,
+    "overall_pick": 44,
+    "team": "Dillon Panthers",
+    "player": "Drew Brees",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 4,
+    "pick_in_round": 9,
+    "overall_pick": 45,
+    "team": "Big Sack Jack",
+    "player": "Derrick Henry",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 4,
+    "pick_in_round": 10,
+    "overall_pick": 46,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Cam Newton",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 4,
+    "pick_in_round": 11,
+    "overall_pick": 47,
+    "team": "Post Mahomes",
+    "player": "T.Y. Hilton",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 4,
+    "pick_in_round": 12,
+    "overall_pick": 48,
+    "team": "Uncle Rico",
+    "player": "Chris Hogan",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 5,
+    "pick_in_round": 1,
+    "overall_pick": 49,
+    "team": "Uncle Rico",
+    "player": "Doug Baldwin",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 5,
+    "pick_in_round": 2,
+    "overall_pick": 50,
+    "team": "Post Mahomes",
+    "player": "Mark Ingram II",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 5,
+    "pick_in_round": 3,
+    "overall_pick": 51,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Allen Robinson",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 5,
+    "pick_in_round": 4,
+    "overall_pick": 52,
+    "team": "Big Sack Jack",
+    "player": "Jarvis Landry",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 5,
+    "pick_in_round": 5,
+    "overall_pick": 53,
+    "team": "Dillon Panthers",
+    "player": "Carlos Hyde",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 5,
+    "pick_in_round": 6,
+    "overall_pick": 54,
+    "team": "Ginger FC",
+    "player": "Carson Wentz",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 5,
+    "pick_in_round": 7,
+    "overall_pick": 55,
+    "team": "Joe Mantegna",
+    "player": "Corey Davis",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 5,
+    "pick_in_round": 8,
+    "overall_pick": 56,
+    "team": "ThreatLevelMidnight",
+    "player": "Marvin Jones Jr.",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 5,
+    "pick_in_round": 9,
+    "overall_pick": 57,
+    "team": "Voldemort",
+    "player": "Demaryius Thomas",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 5,
+    "pick_in_round": 10,
+    "overall_pick": 58,
+    "team": "malle_dips_pouches",
+    "player": "Dion Lewis",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 5,
+    "pick_in_round": 11,
+    "overall_pick": 59,
+    "team": "Pop Lockett Drop it",
+    "player": "Jimmy Graham",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 5,
+    "pick_in_round": 12,
+    "overall_pick": 60,
+    "team": "The Big Gronkowski",
+    "player": "Rex Burkhead",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 6,
+    "pick_in_round": 1,
+    "overall_pick": 61,
+    "team": "The Big Gronkowski",
+    "player": "Brandin Cooks",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 6,
+    "pick_in_round": 2,
+    "overall_pick": 62,
+    "team": "Pop Lockett Drop it",
+    "player": "Josh Gordon",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 6,
+    "pick_in_round": 3,
+    "overall_pick": 63,
+    "team": "malle_dips_pouches",
+    "player": "Delanie Walker",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 6,
+    "pick_in_round": 4,
+    "overall_pick": 64,
+    "team": "Voldemort",
+    "player": "Marshawn Lynch",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 6,
+    "pick_in_round": 5,
+    "overall_pick": 65,
+    "team": "ThreatLevelMidnight",
+    "player": "Greg Olsen",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 6,
+    "pick_in_round": 6,
+    "overall_pick": 66,
+    "team": "Joe Mantegna",
+    "player": "Alfred Morris",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 6,
+    "pick_in_round": 7,
+    "overall_pick": 67,
+    "team": "Ginger FC",
+    "player": "Jamaal Williams",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 6,
+    "pick_in_round": 8,
+    "overall_pick": 68,
+    "team": "Dillon Panthers",
+    "player": "Emmanuel Sanders",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 6,
+    "pick_in_round": 9,
+    "overall_pick": 69,
+    "team": "Big Sack Jack",
+    "player": "Matthew Stafford",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 6,
+    "pick_in_round": 10,
+    "overall_pick": 70,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Tevin Coleman",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 6,
+    "pick_in_round": 11,
+    "overall_pick": 71,
+    "team": "Post Mahomes",
+    "player": "Evan Engram",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 6,
+    "pick_in_round": 12,
+    "overall_pick": 72,
+    "team": "Uncle Rico",
+    "player": "Chris Carson",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 7,
+    "pick_in_round": 1,
+    "overall_pick": 73,
+    "team": "Uncle Rico",
+    "player": "Kyle Rudolph",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 7,
+    "pick_in_round": 2,
+    "overall_pick": 74,
+    "team": "Post Mahomes",
+    "player": "Marquise Goodwin",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 7,
+    "pick_in_round": 3,
+    "overall_pick": 75,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Ben Roethlisberger",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 7,
+    "pick_in_round": 4,
+    "overall_pick": 76,
+    "team": "Big Sack Jack",
+    "player": "Robert Woods",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 7,
+    "pick_in_round": 5,
+    "overall_pick": 77,
+    "team": "Dillon Panthers",
+    "player": "Trey Burton",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 7,
+    "pick_in_round": 6,
+    "overall_pick": 78,
+    "team": "Ginger FC",
+    "player": "Devin Funchess",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 7,
+    "pick_in_round": 7,
+    "overall_pick": 79,
+    "team": "Joe Mantegna",
+    "player": "Jamison Crowder",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 7,
+    "pick_in_round": 8,
+    "overall_pick": 80,
+    "team": "ThreatLevelMidnight",
+    "player": "Kirk Cousins",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 7,
+    "pick_in_round": 9,
+    "overall_pick": 81,
+    "team": "Voldemort",
+    "player": "James Conner",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 7,
+    "pick_in_round": 10,
+    "overall_pick": 82,
+    "team": "malle_dips_pouches",
+    "player": "Michael Crabtree",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 7,
+    "pick_in_round": 11,
+    "overall_pick": 83,
+    "team": "Pop Lockett Drop it",
+    "player": "Adrian Peterson",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 7,
+    "pick_in_round": 12,
+    "overall_pick": 84,
+    "team": "The Big Gronkowski",
+    "player": "Philip Rivers",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 8,
+    "pick_in_round": 1,
+    "overall_pick": 85,
+    "team": "The Big Gronkowski",
+    "player": "David Njoku",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 8,
+    "pick_in_round": 2,
+    "overall_pick": 86,
+    "team": "Pop Lockett Drop it",
+    "player": "Matt Ryan",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 8,
+    "pick_in_round": 3,
+    "overall_pick": 87,
+    "team": "malle_dips_pouches",
+    "player": "Cooper Kupp",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 8,
+    "pick_in_round": 4,
+    "overall_pick": 88,
+    "team": "Voldemort",
+    "player": "Jordan Reed",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 8,
+    "pick_in_round": 5,
+    "overall_pick": 89,
+    "team": "ThreatLevelMidnight",
+    "player": "Will Fuller V",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 8,
+    "pick_in_round": 6,
+    "overall_pick": 90,
+    "team": "Joe Mantegna",
+    "player": "Jaguars",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 8,
+    "pick_in_round": 7,
+    "overall_pick": 91,
+    "team": "Ginger FC",
+    "player": "Chris Thompson",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 8,
+    "pick_in_round": 8,
+    "overall_pick": 92,
+    "team": "Dillon Panthers",
+    "player": "Kerryon Johnson",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 8,
+    "pick_in_round": 9,
+    "overall_pick": 93,
+    "team": "Big Sack Jack",
+    "player": "Sony Michel",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 8,
+    "pick_in_round": 10,
+    "overall_pick": 94,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Cameron Brate",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 8,
+    "pick_in_round": 11,
+    "overall_pick": 95,
+    "team": "Post Mahomes",
+    "player": "Sammy Watkins",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 8,
+    "pick_in_round": 12,
+    "overall_pick": 96,
+    "team": "Uncle Rico",
+    "player": "Robbie Chosen",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 9,
+    "pick_in_round": 1,
+    "overall_pick": 97,
+    "team": "Uncle Rico",
+    "player": "Duke Johnson",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 9,
+    "pick_in_round": 2,
+    "overall_pick": 98,
+    "team": "Post Mahomes",
+    "player": "Andrew Luck",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 9,
+    "pick_in_round": 3,
+    "overall_pick": 99,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Alshon Jeffery",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 9,
+    "pick_in_round": 4,
+    "overall_pick": 100,
+    "team": "Big Sack Jack",
+    "player": "Jordy Nelson",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 9,
+    "pick_in_round": 5,
+    "overall_pick": 101,
+    "team": "Dillon Panthers",
+    "player": "Jimmy Garoppolo",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 9,
+    "pick_in_round": 6,
+    "overall_pick": 102,
+    "team": "Ginger FC",
+    "player": "Pierre Garcon",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 9,
+    "pick_in_round": 7,
+    "overall_pick": 103,
+    "team": "Joe Mantegna",
+    "player": "Stephen Gostkowski",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 9,
+    "pick_in_round": 8,
+    "overall_pick": 104,
+    "team": "ThreatLevelMidnight",
+    "player": "Rashaad Penny",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 9,
+    "pick_in_round": 9,
+    "overall_pick": 105,
+    "team": "Voldemort",
+    "player": "Julian Edelman",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 9,
+    "pick_in_round": 10,
+    "overall_pick": 106,
+    "team": "malle_dips_pouches",
+    "player": "Jared Goff",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 9,
+    "pick_in_round": 11,
+    "overall_pick": 107,
+    "team": "Pop Lockett Drop it",
+    "player": "Nelson Agholor",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 9,
+    "pick_in_round": 12,
+    "overall_pick": 108,
+    "team": "The Big Gronkowski",
+    "player": "Jack Doyle",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 10,
+    "pick_in_round": 1,
+    "overall_pick": 109,
+    "team": "The Big Gronkowski",
+    "player": "Alex Smith",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 10,
+    "pick_in_round": 2,
+    "overall_pick": 110,
+    "team": "Pop Lockett Drop it",
+    "player": "Ronald Jones",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 10,
+    "pick_in_round": 3,
+    "overall_pick": 111,
+    "team": "malle_dips_pouches",
+    "player": "Bilal Powell",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 10,
+    "pick_in_round": 4,
+    "overall_pick": 112,
+    "team": "Voldemort",
+    "player": "Peyton Barber",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 10,
+    "pick_in_round": 5,
+    "overall_pick": 113,
+    "team": "ThreatLevelMidnight",
+    "player": "Dak Prescott",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 10,
+    "pick_in_round": 6,
+    "overall_pick": 114,
+    "team": "Joe Mantegna",
+    "player": "Patrick Mahomes",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 10,
+    "pick_in_round": 7,
+    "overall_pick": 115,
+    "team": "Ginger FC",
+    "player": "Greg Zuerlein",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 10,
+    "pick_in_round": 8,
+    "overall_pick": 116,
+    "team": "Dillon Panthers",
+    "player": "Tarik Cohen",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 10,
+    "pick_in_round": 9,
+    "overall_pick": 117,
+    "team": "Big Sack Jack",
+    "player": "Latavius Murray",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 10,
+    "pick_in_round": 10,
+    "overall_pick": 118,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Sterling Shepard",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 10,
+    "pick_in_round": 11,
+    "overall_pick": 119,
+    "team": "Post Mahomes",
+    "player": "Isaiah Crowell",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 10,
+    "pick_in_round": 12,
+    "overall_pick": 120,
+    "team": "Uncle Rico",
+    "player": "Aaron Jones Sr.",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 11,
+    "pick_in_round": 1,
+    "overall_pick": 121,
+    "team": "Uncle Rico",
+    "player": "Kenny Stills",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 11,
+    "pick_in_round": 2,
+    "overall_pick": 122,
+    "team": "Post Mahomes",
+    "player": "Marcus Mariota",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 11,
+    "pick_in_round": 3,
+    "overall_pick": 123,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Marlon Mack",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 11,
+    "pick_in_round": 4,
+    "overall_pick": 124,
+    "team": "Big Sack Jack",
+    "player": "Vikings",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 11,
+    "pick_in_round": 5,
+    "overall_pick": 125,
+    "team": "Dillon Panthers",
+    "player": "Eagles",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 11,
+    "pick_in_round": 6,
+    "overall_pick": 126,
+    "team": "Ginger FC",
+    "player": "Rishard Matthews",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 11,
+    "pick_in_round": 7,
+    "overall_pick": 127,
+    "team": "Joe Mantegna",
+    "player": "George Kittle",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 11,
+    "pick_in_round": 8,
+    "overall_pick": 128,
+    "team": "ThreatLevelMidnight",
+    "player": "Justin Tucker",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 11,
+    "pick_in_round": 9,
+    "overall_pick": 129,
+    "team": "Voldemort",
+    "player": "Matt Breida",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 11,
+    "pick_in_round": 10,
+    "overall_pick": 130,
+    "team": "malle_dips_pouches",
+    "player": "Rams",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 11,
+    "pick_in_round": 11,
+    "overall_pick": 131,
+    "team": "Pop Lockett Drop it",
+    "player": "Texans",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 11,
+    "pick_in_round": 12,
+    "overall_pick": 132,
+    "team": "The Big Gronkowski",
+    "player": "Chargers",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 12,
+    "pick_in_round": 1,
+    "overall_pick": 133,
+    "team": "The Big Gronkowski",
+    "player": "Matt Bryant",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 12,
+    "pick_in_round": 2,
+    "overall_pick": 134,
+    "team": "Pop Lockett Drop it",
+    "player": "Jake Elliott",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 12,
+    "pick_in_round": 3,
+    "overall_pick": 135,
+    "team": "malle_dips_pouches",
+    "player": "Matt Prater",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 12,
+    "pick_in_round": 4,
+    "overall_pick": 136,
+    "team": "Voldemort",
+    "player": "C.J. Anderson",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 12,
+    "pick_in_round": 5,
+    "overall_pick": 137,
+    "team": "ThreatLevelMidnight",
+    "player": "Broncos",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 12,
+    "pick_in_round": 6,
+    "overall_pick": 138,
+    "team": "Joe Mantegna",
+    "player": "O.J. Howard",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 12,
+    "pick_in_round": 7,
+    "overall_pick": 139,
+    "team": "Ginger FC",
+    "player": "Steelers",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 12,
+    "pick_in_round": 8,
+    "overall_pick": 140,
+    "team": "Dillon Panthers",
+    "player": "Daniel Carlson",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 12,
+    "pick_in_round": 9,
+    "overall_pick": 141,
+    "team": "Big Sack Jack",
+    "player": "Mike Williams",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 12,
+    "pick_in_round": 10,
+    "overall_pick": 142,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Harrison Butker",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 12,
+    "pick_in_round": 11,
+    "overall_pick": 143,
+    "team": "Post Mahomes",
+    "player": "Kenny Golladay",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 12,
+    "pick_in_round": 12,
+    "overall_pick": 144,
+    "team": "Uncle Rico",
+    "player": "Nick Chubb",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 13,
+    "pick_in_round": 1,
+    "overall_pick": 145,
+    "team": "Uncle Rico",
+    "player": "Blake Bortles",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 13,
+    "pick_in_round": 2,
+    "overall_pick": 146,
+    "team": "Post Mahomes",
+    "player": "Ravens",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 13,
+    "pick_in_round": 3,
+    "overall_pick": 147,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Saints",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 13,
+    "pick_in_round": 4,
+    "overall_pick": 148,
+    "team": "Big Sack Jack",
+    "player": "LeGarrette Blount",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 13,
+    "pick_in_round": 5,
+    "overall_pick": 149,
+    "team": "Dillon Panthers",
+    "player": "Tyler Lockett",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 13,
+    "pick_in_round": 6,
+    "overall_pick": 150,
+    "team": "Ginger FC",
+    "player": "DJ Moore",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 13,
+    "pick_in_round": 7,
+    "overall_pick": 151,
+    "team": "Joe Mantegna",
+    "player": "Keelan Cole Sr.",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 13,
+    "pick_in_round": 8,
+    "overall_pick": 152,
+    "team": "ThreatLevelMidnight",
+    "player": "Kelvin Benjamin",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 13,
+    "pick_in_round": 9,
+    "overall_pick": 153,
+    "team": "Voldemort",
+    "player": "Josh Doctson",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 13,
+    "pick_in_round": 10,
+    "overall_pick": 154,
+    "team": "malle_dips_pouches",
+    "player": "Randall Cobb",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 13,
+    "pick_in_round": 11,
+    "overall_pick": 155,
+    "team": "Pop Lockett Drop it",
+    "player": "Danny Amendola",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 13,
+    "pick_in_round": 12,
+    "overall_pick": 156,
+    "team": "The Big Gronkowski",
+    "player": "Tyrell Williams",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 14,
+    "pick_in_round": 1,
+    "overall_pick": 157,
+    "team": "The Big Gronkowski",
+    "player": "Corey Clement",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 14,
+    "pick_in_round": 2,
+    "overall_pick": 158,
+    "team": "Pop Lockett Drop it",
+    "player": "James White",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 14,
+    "pick_in_round": 3,
+    "overall_pick": 159,
+    "team": "malle_dips_pouches",
+    "player": "Tyler Eifert",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 14,
+    "pick_in_round": 4,
+    "overall_pick": 160,
+    "team": "Voldemort",
+    "player": "Wil Lutz",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 14,
+    "pick_in_round": 5,
+    "overall_pick": 161,
+    "team": "ThreatLevelMidnight",
+    "player": "Ben Watson",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 14,
+    "pick_in_round": 6,
+    "overall_pick": 162,
+    "team": "Joe Mantegna",
+    "player": "Bears",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 14,
+    "pick_in_round": 7,
+    "overall_pick": 163,
+    "team": "Ginger FC",
+    "player": "DeVante Parker",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 14,
+    "pick_in_round": 8,
+    "overall_pick": 164,
+    "team": "Dillon Panthers",
+    "player": "Austin Hooper",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 14,
+    "pick_in_round": 9,
+    "overall_pick": 165,
+    "team": "Big Sack Jack",
+    "player": "Chris Boswell",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 14,
+    "pick_in_round": 10,
+    "overall_pick": 166,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Ricky Seals-Jones",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 14,
+    "pick_in_round": 11,
+    "overall_pick": 167,
+    "team": "Post Mahomes",
+    "player": "Jordan Wilkins",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 14,
+    "pick_in_round": 12,
+    "overall_pick": 168,
+    "team": "Uncle Rico",
+    "player": "Patriots",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 15,
+    "pick_in_round": 1,
+    "overall_pick": 169,
+    "team": "Uncle Rico",
+    "player": "Robbie Gould",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 15,
+    "pick_in_round": 2,
+    "overall_pick": 170,
+    "team": "Post Mahomes",
+    "player": "Ryan Succop",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 15,
+    "pick_in_round": 3,
+    "overall_pick": 171,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Falcons",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 15,
+    "pick_in_round": 4,
+    "overall_pick": 172,
+    "team": "Big Sack Jack",
+    "player": "Derek Carr",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 15,
+    "pick_in_round": 5,
+    "overall_pick": 173,
+    "team": "Dillon Panthers",
+    "player": "Mohamed Sanu",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 15,
+    "pick_in_round": 6,
+    "overall_pick": 174,
+    "team": "Ginger FC",
+    "player": "Vance McDonald",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 15,
+    "pick_in_round": 7,
+    "overall_pick": 175,
+    "team": "Joe Mantegna",
+    "player": "Giovani Bernard",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 15,
+    "pick_in_round": 8,
+    "overall_pick": 176,
+    "team": "ThreatLevelMidnight",
+    "player": "Chris Godwin Jr.",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 15,
+    "pick_in_round": 9,
+    "overall_pick": 177,
+    "team": "Voldemort",
+    "player": "Panthers",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 15,
+    "pick_in_round": 10,
+    "overall_pick": 178,
+    "team": "malle_dips_pouches",
+    "player": "Theo Riddick",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 15,
+    "pick_in_round": 11,
+    "overall_pick": 179,
+    "team": "Pop Lockett Drop it",
+    "player": "Cameron Meredith",
+    "keeper": false
+  },
+  {
+    "year": 2018,
+    "round": 15,
+    "pick_in_round": 12,
+    "overall_pick": 180,
+    "team": "The Big Gronkowski",
+    "player": "Calvin Ridley",
+    "keeper": false
+  }
+]

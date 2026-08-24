@@ -1,0 +1,181 @@
+year,round,pick_in_round,overall_pick,team,player,keeper
+2020,1,1,1,Ginger FC,Christian McCaffrey,False
+2020,1,2,2,Post Mahomes,Saquon Barkley,False
+2020,1,3,3,Big Sack Jack,Ezekiel Elliott,False
+2020,1,4,4,Uncle Rico,Michael Thomas,False
+2020,1,5,5,Malle ❤️ 🐸,Alvin Kamara,False
+2020,1,6,6,The Big Gronkowski,Dalvin Cook,False
+2020,1,7,7,Joe Mantegna,Clyde Edwards-Helaire,False
+2020,1,8,8,Voldemort,Tyreek Hill,False
+2020,1,9,9,ThreatLevelMidnight,Joe Mixon,False
+2020,1,10,10,malle_dips_pouches,Aaron Jones Sr.,False
+2020,1,11,11,Patty Primetimes,Nick Chubb,False
+2020,1,12,12,Pop Lockett Drop it,David Johnson,False
+2020,2,1,13,Pop Lockett Drop it,Julio Jones,False
+2020,2,2,14,Patty Primetimes,Austin Ekeler,False
+2020,2,3,15,malle_dips_pouches,DeAndre Hopkins,False
+2020,2,4,16,ThreatLevelMidnight,Davante Adams,False
+2020,2,5,17,Voldemort,Kenyan Drake,False
+2020,2,6,18,Joe Mantegna,George Kittle,False
+2020,2,7,19,The Big Gronkowski,James Conner,False
+2020,2,8,20,Malle ❤️ 🐸,Travis Kelce,False
+2020,2,9,21,Uncle Rico,Chris Godwin Jr.,False
+2020,2,10,22,Big Sack Jack,Patrick Mahomes,False
+2020,2,11,23,Post Mahomes,Kenny Golladay,False
+2020,2,12,24,Ginger FC,Mike Evans,False
+2020,3,1,25,Ginger FC,Russell Wilson,False
+2020,3,2,26,Post Mahomes,Chris Carson,False
+2020,3,3,27,Big Sack Jack,Odell Beckham Jr.,False
+2020,3,4,28,Uncle Rico,Derrick Henry,True
+2020,3,5,29,Malle ❤️ 🐸,Adam Thielen,False
+2020,3,6,30,The Big Gronkowski,Allen Robinson,False
+2020,3,7,31,Joe Mantegna,Todd Gurley,False
+2020,3,8,32,Voldemort,Jonathan Taylor,False
+2020,3,9,33,ThreatLevelMidnight,A.J. Brown,False
+2020,3,10,34,malle_dips_pouches,Le'Veon Bell,False
+2020,3,11,35,Patty Primetimes,Mark Andrews,False
+2020,3,12,36,Pop Lockett Drop it,Josh Jacobs,True
+2020,4,1,37,Pop Lockett Drop it,Courtland Sutton,False
+2020,4,2,38,Patty Primetimes,Tyler Lockett,False
+2020,4,3,39,malle_dips_pouches,Amari Cooper,False
+2020,4,4,40,ThreatLevelMidnight,Raheem Mostert,False
+2020,4,5,41,Voldemort,Mark Ingram II,False
+2020,4,6,42,Joe Mantegna,JuJu Smith-Schuster,False
+2020,4,7,43,The Big Gronkowski,Cooper Kupp,False
+2020,4,8,44,Malle ❤️ 🐸,Calvin Ridley,False
+2020,4,9,45,Uncle Rico,Zach Ertz,False
+2020,4,10,46,Big Sack Jack,Hollywood Brown,False
+2020,4,11,47,Post Mahomes,DJ Moore,False
+2020,4,12,48,Ginger FC,Cam Akers,False
+2020,5,1,49,Ginger FC,DK Metcalf,False
+2020,5,2,50,Post Mahomes,David Montgomery,False
+2020,5,3,51,Big Sack Jack,Melvin Gordon III,True
+2020,5,4,52,Uncle Rico,D'Andre Swift,False
+2020,5,5,53,Malle ❤️ 🐸,Tom Brady,False
+2020,5,6,54,The Big Gronkowski,Keenan Allen,False
+2020,5,7,55,Joe Mantegna,DJ Chark,False
+2020,5,8,56,Voldemort,Dak Prescott,False
+2020,5,9,57,ThreatLevelMidnight,Michael Gallup,False
+2020,5,10,58,malle_dips_pouches,Hunter Henry,False
+2020,5,11,59,Patty Primetimes,T.Y. Hilton,False
+2020,5,12,60,Pop Lockett Drop it,Stefon Diggs,False
+2020,6,1,61,Pop Lockett Drop it,Austin Hooper,False
+2020,6,2,62,Patty Primetimes,J.K. Dobbins,False
+2020,6,3,63,malle_dips_pouches,Devin Singletary,False
+2020,6,4,64,ThreatLevelMidnight,Tyler Boyd,False
+2020,6,5,65,Voldemort,Leonard Fournette,False
+2020,6,6,66,Joe Mantegna,Deshaun Watson,False
+2020,6,7,67,The Big Gronkowski,Darren Waller,False
+2020,6,8,68,Malle ❤️ 🐸,Jordan Howard,False
+2020,6,9,69,Uncle Rico,Antonio Gibson,False
+2020,6,10,70,Big Sack Jack,Julian Edelman,False
+2020,6,11,71,Post Mahomes,Robert Woods,False
+2020,6,12,72,Ginger FC,DeVante Parker,False
+2020,7,1,73,Ginger FC,Sony Michel,False
+2020,7,2,74,Post Mahomes,A.J. Green,False
+2020,7,3,75,Big Sack Jack,Evan Engram,False
+2020,7,4,76,Uncle Rico,Josh Allen,False
+2020,7,5,77,Malle ❤️ 🐸,Kareem Hunt,True
+2020,7,6,78,The Big Gronkowski,Ronald Jones,False
+2020,7,7,79,Joe Mantegna,Jarvis Landry,False
+2020,7,8,80,Voldemort,Tyler Higbee,False
+2020,7,9,81,ThreatLevelMidnight,Matt Ryan,False
+2020,7,10,82,malle_dips_pouches,Deebo Samuel Sr.,False
+2020,7,11,83,Patty Primetimes,Rob Gronkowski,False
+2020,7,12,84,Pop Lockett Drop it,Aaron Rodgers,False
+2020,8,1,85,Pop Lockett Drop it,Will Fuller V,False
+2020,8,2,86,Patty Primetimes,Lamar Jackson,True
+2020,8,3,87,malle_dips_pouches,Mecole Hardman Jr.,False
+2020,8,4,88,ThreatLevelMidnight,Marvin Jones Jr.,False
+2020,8,5,89,Voldemort,Brandin Cooks,False
+2020,8,6,90,Joe Mantegna,Zack Moss,False
+2020,8,7,91,The Big Gronkowski,Sterling Shepard,False
+2020,8,8,92,Malle ❤️ 🐸,Latavius Murray,False
+2020,8,9,93,Uncle Rico,Diontae Johnson,False
+2020,8,10,94,Big Sack Jack,James White,False
+2020,8,11,95,Post Mahomes,Phillip Lindsay,False
+2020,8,12,96,Ginger FC,Matt Breida,False
+2020,9,1,97,Ginger FC,Jared Cook,False
+2020,9,2,98,Post Mahomes,Kyler Murray,True
+2020,9,3,99,Big Sack Jack,CeeDee Lamb,False
+2020,9,4,100,Uncle Rico,Tevin Coleman,False
+2020,9,5,101,Malle ❤️ 🐸,Justin Tucker,False
+2020,9,6,102,The Big Gronkowski,Drew Brees,False
+2020,9,7,103,Joe Mantegna,Tarik Cohen,False
+2020,9,8,104,Voldemort,John Brown,False
+2020,9,9,105,ThreatLevelMidnight,Kerryon Johnson,False
+2020,9,10,106,malle_dips_pouches,Jerry Jeudy,False
+2020,9,11,107,Patty Primetimes,Matthew Stafford,False
+2020,9,12,108,Pop Lockett Drop it,Henry Ruggs III,False
+2020,10,1,109,Pop Lockett Drop it,Emmanuel Sanders,False
+2020,10,2,110,Patty Primetimes,Christian Kirk,False
+2020,10,3,111,malle_dips_pouches,Marlon Mack,False
+2020,10,4,112,ThreatLevelMidnight,Joe Burrow,False
+2020,10,5,113,Voldemort,Terry McLaurin,True
+2020,10,6,114,Joe Mantegna,Miles Sanders,True
+2020,10,7,115,The Big Gronkowski,Darius Slayton,False
+2020,10,8,116,Malle ❤️ 🐸,Ben Roethlisberger,False
+2020,10,9,117,Uncle Rico,Jamison Crowder,False
+2020,10,10,118,Big Sack Jack,Sammy Watkins,False
+2020,10,11,119,Post Mahomes,Hayden Hurst,False
+2020,10,12,120,Ginger FC,Allen Lazard,False
+2020,11,1,121,Ginger FC,Harrison Butker,False
+2020,11,2,122,Post Mahomes,Carson Wentz,False
+2020,11,3,123,Big Sack Jack,Anthony Miller,False
+2020,11,4,124,Uncle Rico,Cam Newton,False
+2020,11,5,125,Malle ❤️ 🐸,DeSean Jackson,False
+2020,11,6,126,The Big Gronkowski,49ers,False
+2020,11,7,127,Joe Mantegna,Cole Beasley,False
+2020,11,8,128,Voldemort,Alexander Mattison,False
+2020,11,9,129,ThreatLevelMidnight,Tony Pollard,False
+2020,11,10,130,malle_dips_pouches,Bills,False
+2020,11,11,131,Patty Primetimes,Golden Tate,False
+2020,11,12,132,Pop Lockett Drop it,Ryquell Armstead,False
+2020,12,1,133,Pop Lockett Drop it,Justin Jefferson,False
+2020,12,2,134,Patty Primetimes,Adrian Peterson,False
+2020,12,3,135,malle_dips_pouches,Ryan Tannehill,False
+2020,12,4,136,ThreatLevelMidnight,Mike Williams,False
+2020,12,5,137,Voldemort,T.J. Hockenson,False
+2020,12,6,138,Joe Mantegna,Curtis Samuel,False
+2020,12,7,139,The Big Gronkowski,Wil Lutz,False
+2020,12,8,140,Malle ❤️ 🐸,Preston Williams,False
+2020,12,9,141,Uncle Rico,Mike Gesicki,False
+2020,12,10,142,Big Sack Jack,Ravens,False
+2020,12,11,143,Post Mahomes,Noah Fant,False
+2020,12,12,144,Ginger FC,Steelers,False
+2020,13,1,145,Ginger FC,Jimmy Garoppolo,False
+2020,13,2,146,Post Mahomes,Darrell Henderson Jr.,False
+2020,13,3,147,Big Sack Jack,Greg Zuerlein,False
+2020,13,4,148,Uncle Rico,Darrynton Evans,False
+2020,13,5,149,Malle ❤️ 🐸,Bears,False
+2020,13,6,150,The Big Gronkowski,Jared Goff,False
+2020,13,7,151,Joe Mantegna,Patriots,False
+2020,13,8,152,Voldemort,Duke Johnson,False
+2020,13,9,153,ThreatLevelMidnight,Chris Herndon,False
+2020,13,10,154,malle_dips_pouches,Eric Ebron,False
+2020,13,11,155,Patty Primetimes,Chase Edmonds,False
+2020,13,12,156,Pop Lockett Drop it,Vikings,False
+2020,14,1,157,Pop Lockett Drop it,Daniel Jones,False
+2020,14,2,158,Patty Primetimes,Colts,False
+2020,14,3,159,malle_dips_pouches,Robbie Gould,False
+2020,14,4,160,ThreatLevelMidnight,Saints,False
+2020,14,5,161,Voldemort,Chiefs,False
+2020,14,6,162,Joe Mantegna,Zane Gonzalez,False
+2020,14,7,163,The Big Gronkowski,Boston Scott,False
+2020,14,8,164,Malle ❤️ 🐸,Blake Jarwin,False
+2020,14,9,165,Uncle Rico,Rams,False
+2020,14,10,166,Big Sack Jack,Baker Mayfield,False
+2020,14,11,167,Post Mahomes,Broncos,False
+2020,14,12,168,Ginger FC,Brandon Aiyuk,False
+2020,15,1,169,Ginger FC,Chris Thompson,False
+2020,15,2,170,Post Mahomes,Matt Prater,False
+2020,15,3,171,Big Sack Jack,Dallas Goedert,False
+2020,15,4,172,Uncle Rico,Jake Elliott,False
+2020,15,5,173,Malle ❤️ 🐸,Damien Harris,False
+2020,15,6,174,The Big Gronkowski,Jonnu Smith,False
+2020,15,7,175,Joe Mantegna,Kirk Cousins,False
+2020,15,8,176,Voldemort,Ka'imi Fairbairn,False
+2020,15,9,177,ThreatLevelMidnight,Jason Myers,False
+2020,15,10,178,malle_dips_pouches,Derek Carr,False
+2020,15,11,179,Patty Primetimes,Michael Badgley,False
+2020,15,12,180,Pop Lockett Drop it,Mason Crosby,False

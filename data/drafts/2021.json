@@ -1,0 +1,1622 @@
+[
+  {
+    "year": 2021,
+    "round": 1,
+    "pick_in_round": 1,
+    "overall_pick": 1,
+    "team": "Uncle Rico",
+    "player": "Christian McCaffrey",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 1,
+    "pick_in_round": 2,
+    "overall_pick": 2,
+    "team": "Joe Mantegna",
+    "player": "Dalvin Cook",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 1,
+    "pick_in_round": 3,
+    "overall_pick": 3,
+    "team": "Patty Primetimes",
+    "player": "Alvin Kamara",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 1,
+    "pick_in_round": 4,
+    "overall_pick": 4,
+    "team": "malle_dips_pouches",
+    "player": "Aaron Jones Sr.",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 1,
+    "pick_in_round": 5,
+    "overall_pick": 5,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Tyreek Hill",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 1,
+    "pick_in_round": 6,
+    "overall_pick": 6,
+    "team": "Ginger FC",
+    "player": "Ezekiel Elliott",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 1,
+    "pick_in_round": 7,
+    "overall_pick": 7,
+    "team": "Big Sack Jack",
+    "player": "Patrick Mahomes",
+    "keeper": true
+  },
+  {
+    "year": 2021,
+    "round": 1,
+    "pick_in_round": 8,
+    "overall_pick": 8,
+    "team": "Voldemort",
+    "player": "Nick Chubb",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 1,
+    "pick_in_round": 9,
+    "overall_pick": 9,
+    "team": "Post Mahomes",
+    "player": "Jonathan Taylor",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 1,
+    "pick_in_round": 10,
+    "overall_pick": 10,
+    "team": "ThreatLevelMidnight",
+    "player": "Davante Adams",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 1,
+    "pick_in_round": 11,
+    "overall_pick": 11,
+    "team": "Pop Lockett Drop it",
+    "player": "Austin Ekeler",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 1,
+    "pick_in_round": 12,
+    "overall_pick": 12,
+    "team": "The Big Gronkowski",
+    "player": "Antonio Gibson",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 2,
+    "pick_in_round": 1,
+    "overall_pick": 13,
+    "team": "The Big Gronkowski",
+    "player": "Najee Harris",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 2,
+    "pick_in_round": 2,
+    "overall_pick": 14,
+    "team": "Pop Lockett Drop it",
+    "player": "Travis Kelce",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 2,
+    "pick_in_round": 3,
+    "overall_pick": 15,
+    "team": "ThreatLevelMidnight",
+    "player": "Joe Mixon",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 2,
+    "pick_in_round": 4,
+    "overall_pick": 16,
+    "team": "Post Mahomes",
+    "player": "Saquon Barkley",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 2,
+    "pick_in_round": 5,
+    "overall_pick": 17,
+    "team": "Voldemort",
+    "player": "Calvin Ridley",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 2,
+    "pick_in_round": 6,
+    "overall_pick": 18,
+    "team": "Big Sack Jack",
+    "player": "Josh Jacobs",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 2,
+    "pick_in_round": 7,
+    "overall_pick": 19,
+    "team": "Ginger FC",
+    "player": "DeAndre Hopkins",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 2,
+    "pick_in_round": 8,
+    "overall_pick": 20,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Keenan Allen",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 2,
+    "pick_in_round": 9,
+    "overall_pick": 21,
+    "team": "malle_dips_pouches",
+    "player": "A.J. Brown",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 2,
+    "pick_in_round": 10,
+    "overall_pick": 22,
+    "team": "Patty Primetimes",
+    "player": "Clyde Edwards-Helaire",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 2,
+    "pick_in_round": 11,
+    "overall_pick": 23,
+    "team": "Joe Mantegna",
+    "player": "Terry McLaurin",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 2,
+    "pick_in_round": 12,
+    "overall_pick": 24,
+    "team": "Uncle Rico",
+    "player": "Derrick Henry",
+    "keeper": true
+  },
+  {
+    "year": 2021,
+    "round": 3,
+    "pick_in_round": 1,
+    "overall_pick": 25,
+    "team": "Uncle Rico",
+    "player": "Allen Robinson",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 3,
+    "pick_in_round": 2,
+    "overall_pick": 26,
+    "team": "Joe Mantegna",
+    "player": "George Kittle",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 3,
+    "pick_in_round": 3,
+    "overall_pick": 27,
+    "team": "Patty Primetimes",
+    "player": "Chris Carson",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 3,
+    "pick_in_round": 4,
+    "overall_pick": 28,
+    "team": "malle_dips_pouches",
+    "player": "D'Andre Swift",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 3,
+    "pick_in_round": 5,
+    "overall_pick": 29,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Mike Evans",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 3,
+    "pick_in_round": 6,
+    "overall_pick": 30,
+    "team": "Ginger FC",
+    "player": "Amari Cooper",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 3,
+    "pick_in_round": 7,
+    "overall_pick": 31,
+    "team": "Big Sack Jack",
+    "player": "James Robinson",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 3,
+    "pick_in_round": 8,
+    "overall_pick": 32,
+    "team": "Voldemort",
+    "player": "David Montgomery",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 3,
+    "pick_in_round": 9,
+    "overall_pick": 33,
+    "team": "Post Mahomes",
+    "player": "CeeDee Lamb",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 3,
+    "pick_in_round": 10,
+    "overall_pick": 34,
+    "team": "ThreatLevelMidnight",
+    "player": "Chris Godwin Jr.",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 3,
+    "pick_in_round": 11,
+    "overall_pick": 35,
+    "team": "Pop Lockett Drop it",
+    "player": "Robbie Chosen",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 3,
+    "pick_in_round": 12,
+    "overall_pick": 36,
+    "team": "The Big Gronkowski",
+    "player": "Cooper Kupp",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 4,
+    "pick_in_round": 1,
+    "overall_pick": 37,
+    "team": "The Big Gronkowski",
+    "player": "Tyler Lockett",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 4,
+    "pick_in_round": 2,
+    "overall_pick": 38,
+    "team": "Pop Lockett Drop it",
+    "player": "Stefon Diggs",
+    "keeper": true
+  },
+  {
+    "year": 2021,
+    "round": 4,
+    "pick_in_round": 3,
+    "overall_pick": 39,
+    "team": "ThreatLevelMidnight",
+    "player": "Darrell Henderson Jr.",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 4,
+    "pick_in_round": 4,
+    "overall_pick": 40,
+    "team": "Post Mahomes",
+    "player": "Gus Edwards",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 4,
+    "pick_in_round": 5,
+    "overall_pick": 41,
+    "team": "Voldemort",
+    "player": "Robert Woods",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 4,
+    "pick_in_round": 6,
+    "overall_pick": 42,
+    "team": "Big Sack Jack",
+    "player": "DJ Moore",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 4,
+    "pick_in_round": 7,
+    "overall_pick": 43,
+    "team": "Ginger FC",
+    "player": "DK Metcalf",
+    "keeper": true
+  },
+  {
+    "year": 2021,
+    "round": 4,
+    "pick_in_round": 8,
+    "overall_pick": 44,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Adam Thielen",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 4,
+    "pick_in_round": 9,
+    "overall_pick": 45,
+    "team": "malle_dips_pouches",
+    "player": "Kareem Hunt",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 4,
+    "pick_in_round": 10,
+    "overall_pick": 46,
+    "team": "Patty Primetimes",
+    "player": "Julio Jones",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 4,
+    "pick_in_round": 11,
+    "overall_pick": 47,
+    "team": "Joe Mantegna",
+    "player": "Diontae Johnson",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 4,
+    "pick_in_round": 12,
+    "overall_pick": 48,
+    "team": "Uncle Rico",
+    "player": "Lamar Jackson",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 5,
+    "pick_in_round": 1,
+    "overall_pick": 49,
+    "team": "Uncle Rico",
+    "player": "Mark Andrews",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 5,
+    "pick_in_round": 2,
+    "overall_pick": 50,
+    "team": "Joe Mantegna",
+    "player": "Myles Gaskin",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 5,
+    "pick_in_round": 3,
+    "overall_pick": 51,
+    "team": "Patty Primetimes",
+    "player": "Tee Higgins",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 5,
+    "pick_in_round": 4,
+    "overall_pick": 52,
+    "team": "malle_dips_pouches",
+    "player": "Tyler Boyd",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 5,
+    "pick_in_round": 5,
+    "overall_pick": 53,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Raheem Mostert",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 5,
+    "pick_in_round": 6,
+    "overall_pick": 54,
+    "team": "Ginger FC",
+    "player": "Aaron Rodgers",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 5,
+    "pick_in_round": 7,
+    "overall_pick": 55,
+    "team": "Big Sack Jack",
+    "player": "Robert Tonyan",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 5,
+    "pick_in_round": 8,
+    "overall_pick": 56,
+    "team": "Voldemort",
+    "player": "Dak Prescott",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 5,
+    "pick_in_round": 9,
+    "overall_pick": 57,
+    "team": "Post Mahomes",
+    "player": "Kyle Pitts Sr.",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 5,
+    "pick_in_round": 10,
+    "overall_pick": 58,
+    "team": "ThreatLevelMidnight",
+    "player": "Trey Sermon",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 5,
+    "pick_in_round": 11,
+    "overall_pick": 59,
+    "team": "Pop Lockett Drop it",
+    "player": "Jamaal Williams",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 5,
+    "pick_in_round": 12,
+    "overall_pick": 60,
+    "team": "The Big Gronkowski",
+    "player": "Darren Waller",
+    "keeper": true
+  },
+  {
+    "year": 2021,
+    "round": 6,
+    "pick_in_round": 1,
+    "overall_pick": 61,
+    "team": "The Big Gronkowski",
+    "player": "Chase Claypool",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 6,
+    "pick_in_round": 2,
+    "overall_pick": 62,
+    "team": "Pop Lockett Drop it",
+    "player": "Courtland Sutton",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 6,
+    "pick_in_round": 3,
+    "overall_pick": 63,
+    "team": "ThreatLevelMidnight",
+    "player": "Russell Wilson",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 6,
+    "pick_in_round": 4,
+    "overall_pick": 64,
+    "team": "Post Mahomes",
+    "player": "Brandon Aiyuk",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 6,
+    "pick_in_round": 5,
+    "overall_pick": 65,
+    "team": "Voldemort",
+    "player": "Chase Edmonds",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 6,
+    "pick_in_round": 6,
+    "overall_pick": 66,
+    "team": "Big Sack Jack",
+    "player": "JuJu Smith-Schuster",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 6,
+    "pick_in_round": 7,
+    "overall_pick": 67,
+    "team": "Ginger FC",
+    "player": "Javonte Williams",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 6,
+    "pick_in_round": 8,
+    "overall_pick": 68,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Tom Brady",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 6,
+    "pick_in_round": 9,
+    "overall_pick": 69,
+    "team": "malle_dips_pouches",
+    "player": "Logan Thomas",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 6,
+    "pick_in_round": 10,
+    "overall_pick": 70,
+    "team": "Patty Primetimes",
+    "player": "Josh Allen",
+    "keeper": true
+  },
+  {
+    "year": 2021,
+    "round": 6,
+    "pick_in_round": 11,
+    "overall_pick": 71,
+    "team": "Joe Mantegna",
+    "player": "Justin Herbert",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 6,
+    "pick_in_round": 12,
+    "overall_pick": 72,
+    "team": "Uncle Rico",
+    "player": "Odell Beckham Jr.",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 7,
+    "pick_in_round": 1,
+    "overall_pick": 73,
+    "team": "Uncle Rico",
+    "player": "Ja'Marr Chase",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 7,
+    "pick_in_round": 2,
+    "overall_pick": 74,
+    "team": "Joe Mantegna",
+    "player": "Ronald Jones",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 7,
+    "pick_in_round": 3,
+    "overall_pick": 75,
+    "team": "Patty Primetimes",
+    "player": "DeVonta Smith",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 7,
+    "pick_in_round": 4,
+    "overall_pick": 76,
+    "team": "malle_dips_pouches",
+    "player": "James Conner",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 7,
+    "pick_in_round": 5,
+    "overall_pick": 77,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "T.J. Hockenson",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 7,
+    "pick_in_round": 6,
+    "overall_pick": 78,
+    "team": "Ginger FC",
+    "player": "Devin Singletary",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 7,
+    "pick_in_round": 7,
+    "overall_pick": 79,
+    "team": "Big Sack Jack",
+    "player": "Melvin Gordon III",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 7,
+    "pick_in_round": 8,
+    "overall_pick": 80,
+    "team": "Voldemort",
+    "player": "Tyler Higbee",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 7,
+    "pick_in_round": 9,
+    "overall_pick": 81,
+    "team": "Post Mahomes",
+    "player": "Kenny Golladay",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 7,
+    "pick_in_round": 10,
+    "overall_pick": 82,
+    "team": "ThreatLevelMidnight",
+    "player": "Noah Fant",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 7,
+    "pick_in_round": 11,
+    "overall_pick": 83,
+    "team": "Pop Lockett Drop it",
+    "player": "Michael Gallup",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 7,
+    "pick_in_round": 12,
+    "overall_pick": 84,
+    "team": "The Big Gronkowski",
+    "player": "Matthew Stafford",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 8,
+    "pick_in_round": 1,
+    "overall_pick": 85,
+    "team": "The Big Gronkowski",
+    "player": "AJ Dillon",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 8,
+    "pick_in_round": 2,
+    "overall_pick": 86,
+    "team": "Pop Lockett Drop it",
+    "player": "Sony Michel",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 8,
+    "pick_in_round": 3,
+    "overall_pick": 87,
+    "team": "ThreatLevelMidnight",
+    "player": "Corey Davis",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 8,
+    "pick_in_round": 4,
+    "overall_pick": 88,
+    "team": "Post Mahomes",
+    "player": "Kyler Murray",
+    "keeper": true
+  },
+  {
+    "year": 2021,
+    "round": 8,
+    "pick_in_round": 5,
+    "overall_pick": 89,
+    "team": "Voldemort",
+    "player": "Deebo Samuel Sr.",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 8,
+    "pick_in_round": 6,
+    "overall_pick": 90,
+    "team": "Big Sack Jack",
+    "player": "Mecole Hardman Jr.",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 8,
+    "pick_in_round": 7,
+    "overall_pick": 91,
+    "team": "Ginger FC",
+    "player": "Leonard Fournette",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 8,
+    "pick_in_round": 8,
+    "overall_pick": 92,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Rams",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 8,
+    "pick_in_round": 9,
+    "overall_pick": 93,
+    "team": "malle_dips_pouches",
+    "player": "Jerry Jeudy",
+    "keeper": true
+  },
+  {
+    "year": 2021,
+    "round": 8,
+    "pick_in_round": 10,
+    "overall_pick": 94,
+    "team": "Patty Primetimes",
+    "player": "Dallas Goedert",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 8,
+    "pick_in_round": 11,
+    "overall_pick": 95,
+    "team": "Joe Mantegna",
+    "player": "Commanders",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 8,
+    "pick_in_round": 12,
+    "overall_pick": 96,
+    "team": "Uncle Rico",
+    "player": "Antonio Brown",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 9,
+    "pick_in_round": 1,
+    "overall_pick": 97,
+    "team": "Uncle Rico",
+    "player": "Michael Carter",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 9,
+    "pick_in_round": 2,
+    "overall_pick": 98,
+    "team": "Joe Mantegna",
+    "player": "Miles Sanders",
+    "keeper": true
+  },
+  {
+    "year": 2021,
+    "round": 9,
+    "pick_in_round": 3,
+    "overall_pick": 99,
+    "team": "Patty Primetimes",
+    "player": "Kenyan Drake",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 9,
+    "pick_in_round": 4,
+    "overall_pick": 100,
+    "team": "malle_dips_pouches",
+    "player": "Ryan Tannehill",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 9,
+    "pick_in_round": 5,
+    "overall_pick": 101,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Justin Tucker",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 9,
+    "pick_in_round": 6,
+    "overall_pick": 102,
+    "team": "Ginger FC",
+    "player": "Rob Gronkowski",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 9,
+    "pick_in_round": 7,
+    "overall_pick": 103,
+    "team": "Big Sack Jack",
+    "player": "Marquez Callaway",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 9,
+    "pick_in_round": 8,
+    "overall_pick": 104,
+    "team": "Voldemort",
+    "player": "Zack Moss",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 9,
+    "pick_in_round": 9,
+    "overall_pick": 105,
+    "team": "Post Mahomes",
+    "player": "Brandin Cooks",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 9,
+    "pick_in_round": 10,
+    "overall_pick": 106,
+    "team": "ThreatLevelMidnight",
+    "player": "Jakobi Meyers",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 9,
+    "pick_in_round": 11,
+    "overall_pick": 107,
+    "team": "Pop Lockett Drop it",
+    "player": "David Johnson",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 9,
+    "pick_in_round": 12,
+    "overall_pick": 108,
+    "team": "The Big Gronkowski",
+    "player": "Michael Pittman Jr.",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 10,
+    "pick_in_round": 1,
+    "overall_pick": 109,
+    "team": "The Big Gronkowski",
+    "player": "Nyheim Miller-Hines",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 10,
+    "pick_in_round": 2,
+    "overall_pick": 110,
+    "team": "Pop Lockett Drop it",
+    "player": "Henry Ruggs III",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 10,
+    "pick_in_round": 3,
+    "overall_pick": 111,
+    "team": "ThreatLevelMidnight",
+    "player": "Mike Davis",
+    "keeper": true
+  },
+  {
+    "year": 2021,
+    "round": 10,
+    "pick_in_round": 4,
+    "overall_pick": 112,
+    "team": "Post Mahomes",
+    "player": "Tony Pollard",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 10,
+    "pick_in_round": 5,
+    "overall_pick": 113,
+    "team": "Voldemort",
+    "player": "Michael Thomas",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 10,
+    "pick_in_round": 6,
+    "overall_pick": 114,
+    "team": "Big Sack Jack",
+    "player": "Steelers",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 10,
+    "pick_in_round": 7,
+    "overall_pick": 115,
+    "team": "Ginger FC",
+    "player": "Laviska Shenault Jr.",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 10,
+    "pick_in_round": 8,
+    "overall_pick": 116,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Jalen Hurts",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 10,
+    "pick_in_round": 9,
+    "overall_pick": 117,
+    "team": "malle_dips_pouches",
+    "player": "Mike Williams",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 10,
+    "pick_in_round": 10,
+    "overall_pick": 118,
+    "team": "Patty Primetimes",
+    "player": "Matt Ryan",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 10,
+    "pick_in_round": 11,
+    "overall_pick": 119,
+    "team": "Joe Mantegna",
+    "player": "Harrison Butker",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 10,
+    "pick_in_round": 12,
+    "overall_pick": 120,
+    "team": "Uncle Rico",
+    "player": "DJ Chark",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 11,
+    "pick_in_round": 1,
+    "overall_pick": 121,
+    "team": "Uncle Rico",
+    "player": "James White",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 11,
+    "pick_in_round": 2,
+    "overall_pick": 122,
+    "team": "Joe Mantegna",
+    "player": "Will Fuller V",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 11,
+    "pick_in_round": 3,
+    "overall_pick": 123,
+    "team": "Patty Primetimes",
+    "player": "Mike Gesicki",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 11,
+    "pick_in_round": 4,
+    "overall_pick": 124,
+    "team": "malle_dips_pouches",
+    "player": "Marvin Jones Jr.",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 11,
+    "pick_in_round": 5,
+    "overall_pick": 125,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Phillip Lindsay",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 11,
+    "pick_in_round": 6,
+    "overall_pick": 126,
+    "team": "Ginger FC",
+    "player": "Jarvis Landry",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 11,
+    "pick_in_round": 7,
+    "overall_pick": 127,
+    "team": "Big Sack Jack",
+    "player": "Amon-Ra St. Brown",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 11,
+    "pick_in_round": 8,
+    "overall_pick": 128,
+    "team": "Voldemort",
+    "player": "Justin Jefferson",
+    "keeper": true
+  },
+  {
+    "year": 2021,
+    "round": 11,
+    "pick_in_round": 9,
+    "overall_pick": 129,
+    "team": "Post Mahomes",
+    "player": "J.D. McKissic",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 11,
+    "pick_in_round": 10,
+    "overall_pick": 130,
+    "team": "ThreatLevelMidnight",
+    "player": "Jaylen Waddle",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 11,
+    "pick_in_round": 11,
+    "overall_pick": 131,
+    "team": "Pop Lockett Drop it",
+    "player": "Hollywood Brown",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 11,
+    "pick_in_round": 12,
+    "overall_pick": 132,
+    "team": "The Big Gronkowski",
+    "player": "Gerald Everett",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 12,
+    "pick_in_round": 1,
+    "overall_pick": 133,
+    "team": "The Big Gronkowski",
+    "player": "Joe Burrow",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 12,
+    "pick_in_round": 2,
+    "overall_pick": 134,
+    "team": "Pop Lockett Drop it",
+    "player": "Tevin Coleman",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 12,
+    "pick_in_round": 3,
+    "overall_pick": 135,
+    "team": "ThreatLevelMidnight",
+    "player": "Cam Akers",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 12,
+    "pick_in_round": 4,
+    "overall_pick": 136,
+    "team": "Post Mahomes",
+    "player": "Curtis Samuel",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 12,
+    "pick_in_round": 5,
+    "overall_pick": 137,
+    "team": "Voldemort",
+    "player": "Younghoe Koo",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 12,
+    "pick_in_round": 6,
+    "overall_pick": 138,
+    "team": "Big Sack Jack",
+    "player": "Greg Zuerlein",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 12,
+    "pick_in_round": 7,
+    "overall_pick": 139,
+    "team": "Ginger FC",
+    "player": "Tyrell Williams",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 12,
+    "pick_in_round": 8,
+    "overall_pick": 140,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Jonnu Smith",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 12,
+    "pick_in_round": 9,
+    "overall_pick": 141,
+    "team": "malle_dips_pouches",
+    "player": "Evan Engram",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 12,
+    "pick_in_round": 10,
+    "overall_pick": 142,
+    "team": "Patty Primetimes",
+    "player": "Darnell Mooney",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 12,
+    "pick_in_round": 11,
+    "overall_pick": 143,
+    "team": "Joe Mantegna",
+    "player": "Irv Smith Jr.",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 12,
+    "pick_in_round": 12,
+    "overall_pick": 144,
+    "team": "Uncle Rico",
+    "player": "Trevor Lawrence",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 13,
+    "pick_in_round": 1,
+    "overall_pick": 145,
+    "team": "Uncle Rico",
+    "player": "Giovani Bernard",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 13,
+    "pick_in_round": 2,
+    "overall_pick": 146,
+    "team": "Joe Mantegna",
+    "player": "Kirk Cousins",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 13,
+    "pick_in_round": 3,
+    "overall_pick": 147,
+    "team": "Patty Primetimes",
+    "player": "Matt Gay",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 13,
+    "pick_in_round": 4,
+    "overall_pick": 148,
+    "team": "malle_dips_pouches",
+    "player": "Darrel Williams",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 13,
+    "pick_in_round": 5,
+    "overall_pick": 149,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Alexander Mattison",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 13,
+    "pick_in_round": 6,
+    "overall_pick": 150,
+    "team": "Ginger FC",
+    "player": "Buccaneers",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 13,
+    "pick_in_round": 7,
+    "overall_pick": 151,
+    "team": "Big Sack Jack",
+    "player": "Austin Hooper",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 13,
+    "pick_in_round": 8,
+    "overall_pick": 152,
+    "team": "Voldemort",
+    "player": "49ers",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 13,
+    "pick_in_round": 9,
+    "overall_pick": 153,
+    "team": "Post Mahomes",
+    "player": "Ravens",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 13,
+    "pick_in_round": 10,
+    "overall_pick": 154,
+    "team": "ThreatLevelMidnight",
+    "player": "Browns",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 13,
+    "pick_in_round": 11,
+    "overall_pick": 155,
+    "team": "Pop Lockett Drop it",
+    "player": "Baker Mayfield",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 13,
+    "pick_in_round": 12,
+    "overall_pick": 156,
+    "team": "The Big Gronkowski",
+    "player": "Robbie Gould",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 14,
+    "pick_in_round": 1,
+    "overall_pick": 157,
+    "team": "The Big Gronkowski",
+    "player": "Chiefs",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 14,
+    "pick_in_round": 2,
+    "overall_pick": 158,
+    "team": "Pop Lockett Drop it",
+    "player": "Rodrigo Blankenship",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 14,
+    "pick_in_round": 3,
+    "overall_pick": 159,
+    "team": "ThreatLevelMidnight",
+    "player": "Tyler Bass",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 14,
+    "pick_in_round": 4,
+    "overall_pick": 160,
+    "team": "Post Mahomes",
+    "player": "Devontae Booker",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 14,
+    "pick_in_round": 5,
+    "overall_pick": 161,
+    "team": "Voldemort",
+    "player": "Latavius Murray",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 14,
+    "pick_in_round": 6,
+    "overall_pick": 162,
+    "team": "Big Sack Jack",
+    "player": "Jalen Reagor",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 14,
+    "pick_in_round": 7,
+    "overall_pick": 163,
+    "team": "Ginger FC",
+    "player": "Ryan Succop",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 14,
+    "pick_in_round": 8,
+    "overall_pick": 164,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Damien Harris",
+    "keeper": true
+  },
+  {
+    "year": 2021,
+    "round": 14,
+    "pick_in_round": 9,
+    "overall_pick": 165,
+    "team": "malle_dips_pouches",
+    "player": "Bills",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 14,
+    "pick_in_round": 10,
+    "overall_pick": 166,
+    "team": "Patty Primetimes",
+    "player": "Patriots",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 14,
+    "pick_in_round": 11,
+    "overall_pick": 167,
+    "team": "Joe Mantegna",
+    "player": "Rashaad Penny",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 14,
+    "pick_in_round": 12,
+    "overall_pick": 168,
+    "team": "Uncle Rico",
+    "player": "Colts",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 15,
+    "pick_in_round": 1,
+    "overall_pick": 169,
+    "team": "Uncle Rico",
+    "player": "Jason Sanders",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 15,
+    "pick_in_round": 2,
+    "overall_pick": 170,
+    "team": "Joe Mantegna",
+    "player": "Broncos",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 15,
+    "pick_in_round": 3,
+    "overall_pick": 171,
+    "team": "Patty Primetimes",
+    "player": "Travis Etienne Jr.",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 15,
+    "pick_in_round": 4,
+    "overall_pick": 172,
+    "team": "malle_dips_pouches",
+    "player": "Chris Boswell",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 15,
+    "pick_in_round": 5,
+    "overall_pick": 173,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Ryan Fitzpatrick",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 15,
+    "pick_in_round": 6,
+    "overall_pick": 174,
+    "team": "Ginger FC",
+    "player": "Jameis Winston",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 15,
+    "pick_in_round": 7,
+    "overall_pick": 175,
+    "team": "Big Sack Jack",
+    "player": "Rhamondre Stevenson",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 15,
+    "pick_in_round": 8,
+    "overall_pick": 176,
+    "team": "Voldemort",
+    "player": "Ben Roethlisberger",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 15,
+    "pick_in_round": 9,
+    "overall_pick": 177,
+    "team": "Post Mahomes",
+    "player": "Matt Prater",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 15,
+    "pick_in_round": 10,
+    "overall_pick": 178,
+    "team": "ThreatLevelMidnight",
+    "player": "Chuba Hubbard",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 15,
+    "pick_in_round": 11,
+    "overall_pick": 179,
+    "team": "Pop Lockett Drop it",
+    "player": "Vikings",
+    "keeper": false
+  },
+  {
+    "year": 2021,
+    "round": 15,
+    "pick_in_round": 12,
+    "overall_pick": 180,
+    "team": "The Big Gronkowski",
+    "player": "Cole Beasley",
+    "keeper": false
+  }
+]

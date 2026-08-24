@@ -1,0 +1,3206 @@
+[
+  {
+    "year": 2022,
+    "date": "Dec 29, 2:07 pm",
+    "team": "The Big Gronkowski",
+    "added_player": "Hassan Haskins",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "T.Y. Hilton",
+    "raw_text": "\ue035\n\ue033\n\t\nHassan Haskins NE - RB\nFree Agent\nT.Y. Hilton Dal - WR NA\nTo Waivers\n\t\nThe Big Gronkowski\nDec 29, 2:07 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 29, 10:25 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Calvin Ridley",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nCalvin Ridley Ten - WR\nFree Agent\n\t\nThreatLevelMidnight\nDec 29, 10:25 am"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 27, 12:13 pm",
+    "team": "ThreatLevelMidnight",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Chig Okonkwo",
+    "raw_text": "\ue033\n\t\nChig Okonkwo Was - TE\nTo Waivers\n\t\nThreatLevelMidnight\nDec 27, 12:13 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 27, 12:12 pm",
+    "team": "ThreatLevelMidnight",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Broncos",
+    "raw_text": "\ue033\n\t\nBroncos Den - DEF\nTo Waivers\n\t\nThreatLevelMidnight\nDec 27, 12:12 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 24, 11:35 am",
+    "team": "malle_dips_pouches",
+    "added_player": "Jason Sanders",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Jason Myers",
+    "raw_text": "\ue035\n\ue033\n\t\nJason Sanders NYJ - K\nFree Agent\nJason Myers Sea - K\nTo Waivers\n\t\nmalle_dips_pouches\nDec 24, 11:35 am"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 23, 3:56 pm",
+    "team": "Ginger FC",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Devin Duvernay",
+    "raw_text": "\ue033\n\t\nDevin Duvernay Ari - WR Q\nTo Waivers\n\t\nGinger FC\nDec 23, 3:56 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 22, 6:11 pm",
+    "team": "malle_dips_pouches",
+    "added_player": "Jets",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Michael Carter",
+    "raw_text": "\ue035\n\ue033\n\t\nJets NYJ - DEF\nFree Agent\nMichael Carter Ten - RB\nTo Waivers\n\t\nmalle_dips_pouches\nDec 22, 6:11 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 22, 1:31 pm",
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "added_player": "Browns",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Packers",
+    "raw_text": "\ue035\n\ue033\n\t\nBrowns Cle - DEF\nFree Agent\nPackers GB - DEF\nTo Waivers\n\t\nMalle \u2764\ufe0f \ud83d\udc38\nDec 22, 1:31 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 21, 11:05 am",
+    "team": "Voldemort",
+    "added_player": "Tyler Allgeier",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "George Pickens",
+    "raw_text": "\ue035\n\ue033\n\t\nTyler Allgeier Ari - RB\nFree Agent\nGeorge Pickens Dal - WR\nTo Waivers\n\t\nVoldemort\nDec 21, 11:05 am"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 21, 9:39 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Chig Okonkwo",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nChig Okonkwo Was - TE\nFree Agent\n\t\nThreatLevelMidnight\nDec 21, 9:39 am"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 21, 7:44 am",
+    "team": "Voldemort",
+    "added_player": "Deon Jackson",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Samaje Perine",
+    "raw_text": "\ue035\n\ue033\n\t\nDeon Jackson Det - RB NA\nFree Agent\nSamaje Perine Cin - RB\nTo Waivers\n\t\nVoldemort\nDec 21, 7:44 am"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 21, 7:25 am",
+    "team": "Post Mahomes",
+    "added_player": "Zack Moss",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nZack Moss Cin - RB NA\nFree Agent\n\t\nPost Mahomes\nDec 21, 7:25 am"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 21, 2:43 am",
+    "team": "Ginger FC",
+    "added_player": "Rams",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Cardinals",
+    "raw_text": "\ue035\n\ue033\n\t\nRams LAR - DEF\nWaiver\nCardinals Ari - DEF\nTo Waivers\n\t\nGinger FC\nDec 21, 2:43 am"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 21, 2:43 am",
+    "team": "Voldemort",
+    "added_player": "Nick Folk",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Cameron Dicker",
+    "raw_text": "\ue035\n\ue033\n\t\nNick Folk Atl - K\nWaiver\nCameron Dicker LAC - K\nTo Waivers\n\t\nVoldemort\nDec 21, 2:43 am"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 18, 3:51 pm",
+    "team": "ThreatLevelMidnight",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Jeff Driskel",
+    "raw_text": "\ue033\n\t\nJeff Driskel Was - QB,TE NA\nTo Waivers\n\t\nThreatLevelMidnight\nDec 18, 3:51 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 18, 6:18 am",
+    "team": "Voldemort",
+    "added_player": "Titans",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Jets",
+    "raw_text": "\ue035\n\ue033\n\t\nTitans Ten - DEF\nFree Agent\nJets NYJ - DEF\nTo Waivers\n\t\nVoldemort\nDec 18, 6:18 am"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 16, 12:46 pm",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Saints",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Vikings",
+    "raw_text": "\ue035\n\ue033\n\t\nSaints NO - DEF\nFree Agent\nVikings Min - DEF\nTo Waivers\n\t\nPop Lockett Drop it\nDec 16, 12:46 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 15, 3:00 pm",
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "added_player": "Packers",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Titans",
+    "raw_text": "\ue035\n\ue033\n\t\nPackers GB - DEF\nFree Agent\nTitans Ten - DEF\nTo Waivers\n\t\nMalle \u2764\ufe0f \ud83d\udc38\nDec 15, 3:00 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 14, 12:11 pm",
+    "team": "Ginger FC",
+    "added_player": "Daniel Jones",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nDaniel Jones Ind - QB\nFree Agent\n\t\nGinger FC\nDec 14, 12:11 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 14, 12:10 pm",
+    "team": "Ginger FC",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Kyler Murray",
+    "raw_text": "\ue033\n\t\nKyler Murray Min - QB Q\nTo Waivers\n\t\nGinger FC\nDec 14, 12:10 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 14, 12:04 pm",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Jeff Driskel",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Jordan Mason",
+    "raw_text": "\ue035\n\ue033\n\t\nJeff Driskel Was - QB,TE NA\nFree Agent\nJordan Mason Min - RB\nTo Waivers\n\t\nThreatLevelMidnight\nDec 14, 12:04 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 14, 5:37 am",
+    "team": "Voldemort",
+    "added_player": "Jets",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nJets NYJ - DEF\nFree Agent\n\t\nVoldemort\nDec 14, 5:37 am"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 14, 3:55 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Broncos",
+    "acquisition_type": "Waiver",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nBroncos Den - DEF\nWaiver\n\t\nThreatLevelMidnight\nDec 14, 3:55 am"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 14, 3:55 am",
+    "team": "The Big Gronkowski",
+    "added_player": "T.Y. Hilton",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Jimmy Garoppolo",
+    "raw_text": "\ue035\n\ue033\n\t\nT.Y. Hilton Dal - WR NA\nWaiver\nJimmy Garoppolo LAR - QB NA\nTo Waivers\n\t\nThe Big Gronkowski\nDec 14, 3:55 am"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 13, 10:15 pm",
+    "team": "ThreatLevelMidnight",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Matt Breida",
+    "raw_text": "\ue033\n\t\nMatt Breida SF - RB NA\nTo Waivers\n\t\nThreatLevelMidnight\nDec 13, 10:15 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 13, 9:30 pm",
+    "team": "ThreatLevelMidnight",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Travis Homer",
+    "raw_text": "\ue033\n\t\nTravis Homer Pit - RB\nTo Waivers\n\t\nThreatLevelMidnight\nDec 13, 9:30 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 11, 11:52 am",
+    "team": "Big Sack Jack",
+    "added_player": "Chuba Hubbard",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Jake Elliott",
+    "raw_text": "\ue035\n\ue033\n\t\nChuba Hubbard Car - RB\nFree Agent\nJake Elliott Phi - K\nTo Waivers\n\t\nBig Sack Jack\nDec 11, 11:52 am"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 11, 11:33 am",
+    "team": "malle_dips_pouches",
+    "added_player": "Tom Brady",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Jets",
+    "raw_text": "\ue035\n\ue033\n\t\nTom Brady TB - QB NA\nFree Agent\nJets NYJ - DEF\nTo Waivers\n\t\nmalle_dips_pouches\nDec 11, 11:33 am"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 11, 10:20 am",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Gus Edwards",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\ue033\n\t\nGus Edwards LAC - RB NA\nFree Agent\nChuba Hubbard Car - RB\nTo Free Agent\n\t\nPop Lockett Drop it\nDec 11, 10:20 am"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 11, 9:26 am",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Chuba Hubbard",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Eno Benjamin",
+    "raw_text": "\ue035\n\ue033\n\t\nChuba Hubbard Car - RB\nFree Agent\nEno Benjamin NO - RB NA\nTo Waivers\n\t\nPop Lockett Drop it\nDec 11, 9:26 am"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 10, 11:10 pm",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Matt Breida",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nMatt Breida SF - RB NA\nFree Agent\n\t\nThreatLevelMidnight\nDec 10, 11:10 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 10, 3:48 am",
+    "team": "Ginger FC",
+    "added_player": "Aaron Rodgers",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Daniel Jones",
+    "raw_text": "\ue035\n\ue033\n\t\nAaron Rodgers Pit - QB\nWaiver\nDaniel Jones Ind - QB\nTo Waivers\n\t\nGinger FC\nDec 10, 3:48 am"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 10, 3:48 am",
+    "team": "Joe Mantegna",
+    "added_player": "James Cook III",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Marcus Mariota",
+    "raw_text": "\ue035\n\ue033\n\t\nJames Cook III Buf - RB\nWaiver\nMarcus Mariota Was - QB Q\nTo Waivers\n\t\nJoe Mantegna\nDec 10, 3:48 am"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 9, 2:25 am",
+    "team": "Patty Primetimes",
+    "added_player": "Tyler Conklin",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Robert Tonyan",
+    "raw_text": "\ue035\n\ue033\n\t\nTyler Conklin Det - TE\nWaiver\nRobert Tonyan Pit - TE\nTo Waivers\n\t\nPatty Primetimes\nDec 9, 2:25 am"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 8, 10:41 pm",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Vikings",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Chargers",
+    "raw_text": "\ue035\n\ue033\n\t\nVikings Min - DEF\nFree Agent\nChargers LAC - DEF\nTo Waivers\n\t\nPop Lockett Drop it\nDec 8, 10:41 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 8, 8:32 pm",
+    "team": "Joe Mantegna",
+    "added_player": "DJ Chark",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Foster Moreau",
+    "raw_text": "\ue035\n\ue033\n\t\nDJ Chark Atl - WR NA\nFree Agent\nFoster Moreau Hou - TE Q\nTo Waivers\n\t\nJoe Mantegna\nDec 8, 8:32 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 8, 8:30 pm",
+    "team": "Joe Mantegna",
+    "added_player": "Tony Jones",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Darrell Henderson Jr.",
+    "raw_text": "\ue035\n\ue033\n\t\nTony Jones Ari - RB NA\nFree Agent\nDarrell Henderson Jr. LAR - RB NA\nTo Waivers\n\t\nJoe Mantegna\nDec 8, 8:30 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 8, 8:29 pm",
+    "team": "Joe Mantegna",
+    "added_player": "Michael Badgley",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Younghoe Koo",
+    "raw_text": "\ue035\n\ue033\n\t\nMichael Badgley Ind - K NA\nFree Agent\nYounghoe Koo NYG - K NA\nTo Waivers\n\t\nJoe Mantegna\nDec 8, 8:29 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 8, 8:28 pm",
+    "team": "Joe Mantegna",
+    "added_player": "Bengals",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Commanders",
+    "raw_text": "\ue035\n\ue033\n\t\nBengals Cin - DEF\nFree Agent\nCommanders Was - DEF\nTo Waivers\n\t\nJoe Mantegna\nDec 8, 8:28 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 8, 12:08 pm",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Ryan Tannehill",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Tom Brady",
+    "raw_text": "\ue035\n\ue033\n\t\nRyan Tannehill Ten - QB NA\nFree Agent\nTom Brady TB - QB NA\nTo Waivers\n\t\nPop Lockett Drop it\nDec 8, 12:08 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 7, 9:07 pm",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Travis Homer",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\ue033\n\t\nTravis Homer Pit - RB\nFree Agent\nTony Jones Ari - RB NA\nTo Free Agent\n\t\nThreatLevelMidnight\nDec 7, 9:07 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 7, 8:25 pm",
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "added_player": "Titans",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Browns",
+    "raw_text": "\ue035\n\ue033\n\t\nTitans Ten - DEF\nFree Agent\nBrowns Cle - DEF\nTo Waivers\n\t\nMalle \u2764\ufe0f \ud83d\udc38\nDec 7, 8:25 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 7, 8:25 pm",
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "added_player": "Robert Woods",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Matthew Stafford",
+    "raw_text": "\ue035\n\ue033\n\t\nRobert Woods Pit - WR NA\nFree Agent\nMatthew Stafford LAR - QB\nTo Waivers\n\t\nMalle \u2764\ufe0f \ud83d\udc38\nDec 7, 8:25 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 7, 3:24 pm",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Tony Jones",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "James Cook III",
+    "raw_text": "\ue035\n\ue033\n\t\nTony Jones Ari - RB NA\nFree Agent\nJames Cook III Buf - RB\nTo Waivers\n\t\nThreatLevelMidnight\nDec 7, 3:24 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 7, 9:40 am",
+    "team": "Uncle Rico",
+    "added_player": "Evan Engram",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Parris Campbell",
+    "raw_text": "\ue035\n\ue033\n\t\nEvan Engram Den - TE\nFree Agent\nParris Campbell Dal - WR NA\nTo Waivers\n\t\nUncle Rico\nDec 7, 9:40 am"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 7, 8:25 am",
+    "team": "Patty Primetimes",
+    "added_player": "Isaiah McKenzie",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Tyler Allgeier",
+    "raw_text": "\ue035\n\ue033\n\t\nIsaiah McKenzie Mia - WR NA\nFree Agent\nTyler Allgeier Ari - RB\nTo Waivers\n\t\nPatty Primetimes\nDec 7, 8:25 am"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 7, 2:34 am",
+    "team": "Patty Primetimes",
+    "added_player": "Greg Zuerlein",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Chase McLaughlin",
+    "raw_text": "\ue035\n\ue033\n\t\nGreg Zuerlein NYJ - K NA\nWaiver\nChase McLaughlin TB - K\nTo Waivers\n\t\nPatty Primetimes\nDec 7, 2:34 am"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 7, 2:34 am",
+    "team": "Ginger FC",
+    "added_player": "Devin Duvernay",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Packers",
+    "raw_text": "\ue035\n\ue033\n\t\nDevin Duvernay Ari - WR Q\nWaiver\nPackers GB - DEF\nTo Waivers\n\t\nGinger FC\nDec 7, 2:34 am"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 7, 2:34 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "James Cook III",
+    "acquisition_type": "Waiver",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nJames Cook III Buf - RB\nWaiver\n\t\nThreatLevelMidnight\nDec 7, 2:34 am"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 7, 2:34 am",
+    "team": "Patty Primetimes",
+    "added_player": "Van Jefferson",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Aaron Rodgers",
+    "raw_text": "\ue035\n\ue033\n\t\nVan Jefferson Was - WR\nWaiver\nAaron Rodgers Pit - QB\nTo Waivers\n\t\nPatty Primetimes\nDec 7, 2:34 am"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 7, 2:34 am",
+    "team": "Ginger FC",
+    "added_player": "Cardinals",
+    "acquisition_type": "Waiver",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nCardinals Ari - DEF\nWaiver\n\t\nGinger FC\nDec 7, 2:34 am"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 6, 5:55 pm",
+    "team": "ThreatLevelMidnight",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Gus Edwards",
+    "raw_text": "\ue033\n\t\nGus Edwards LAC - RB NA\nTo Waivers\n\t\nThreatLevelMidnight\nDec 6, 5:55 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 6, 1:00 pm",
+    "team": "Ginger FC",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Mike White",
+    "raw_text": "\ue033\n\t\nMike White Cin - QB NA\nTo Waivers\n\t\nGinger FC\nDec 6, 1:00 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 6, 7:03 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Tyler Conklin",
+    "raw_text": "\ue033\n\t\nTyler Conklin Det - TE\nTo Waivers\n\t\nThreatLevelMidnight\nDec 6, 7:03 am"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 4, 11:21 am",
+    "team": "malle_dips_pouches",
+    "added_player": "Jason Myers",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Matt Gay",
+    "raw_text": "\ue035\n\ue033\n\t\nJason Myers Sea - K\nFree Agent\nMatt Gay LV - K\nTo Waivers\n\t\nmalle_dips_pouches\nDec 4, 11:21 am"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 4, 8:10 am",
+    "team": "Joe Mantegna",
+    "added_player": "Zay Jones",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Mack Hollins",
+    "raw_text": "\ue035\n\ue033\n\t\nZay Jones Hou - WR\nFree Agent\nMack Hollins NE - WR\nTo Waivers\n\t\nJoe Mantegna\nDec 4, 8:10 am"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 3, 8:21 pm",
+    "team": "Patty Primetimes",
+    "added_player": "Jameson Williams",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Mecole Hardman Jr.",
+    "raw_text": "\ue035\n\ue033\n\t\nJameson Williams Det - WR SUSP\nFree Agent\nMecole Hardman Jr. Buf - WR Q\nTo Waivers\n\t\nPatty Primetimes\nDec 3, 8:21 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 3, 8:21 pm",
+    "team": "Patty Primetimes",
+    "added_player": "JaMycal Hasty",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Kadarius Toney",
+    "raw_text": "\ue035\n\ue033\n\t\nJaMycal Hasty NE - RB\nFree Agent\nKadarius Toney Cle - WR NA\nTo Waivers\n\t\nPatty Primetimes\nDec 3, 8:21 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 3, 5:25 am",
+    "team": "Post Mahomes",
+    "added_player": "Taysom Hill",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Hunter Henry",
+    "raw_text": "\ue035\n\ue033\n\t\nTaysom Hill NO - QB,TE NA\nFree Agent\nHunter Henry NE - TE\nTo Waivers\n\t\nPost Mahomes\nDec 3, 5:25 am"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 2, 11:54 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Tyler Conklin",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nTyler Conklin Det - TE\nFree Agent\n\t\nThreatLevelMidnight\nDec 2, 11:54 am"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 1, 6:29 pm",
+    "team": "Joe Mantegna",
+    "added_player": "Mack Hollins",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Marquez Valdes-Scantling",
+    "raw_text": "\ue035\n\ue033\n\t\nMack Hollins NE - WR\nFree Agent\nMarquez Valdes-Scantling Dal - WR\nTo Waivers\n\t\nJoe Mantegna\nDec 1, 6:29 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Dec 1, 4:49 pm",
+    "team": "Ginger FC",
+    "added_player": "Mike White",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Devin Duvernay",
+    "raw_text": "\ue035\n\ue033\n\t\nMike White Cin - QB NA\nFree Agent\nDevin Duvernay Ari - WR Q\nTo Waivers\n\t\nGinger FC\nDec 1, 4:49 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 30, 2:50 pm",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Jordan Mason",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Alexander Mattison",
+    "raw_text": "\ue035\n\ue033\n\t\nJordan Mason Min - RB\nFree Agent\nAlexander Mattison Mia - RB NA\nTo Waivers\n\t\nThreatLevelMidnight\nNov 30, 2:50 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 30, 2:00 pm",
+    "team": "ThreatLevelMidnight",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Elijah Mitchell",
+    "raw_text": "\ue033\n\t\nElijah Mitchell KC - RB NA\nTo Waivers\n\t\nThreatLevelMidnight\nNov 30, 2:00 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 30, 10:40 am",
+    "team": "Ginger FC",
+    "added_player": "Packers",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Colts",
+    "raw_text": "\ue035\n\ue033\n\t\nPackers GB - DEF\nFree Agent\nColts Ind - DEF\nTo Waivers\n\t\nGinger FC\nNov 30, 10:40 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 30, 10:38 am",
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "added_player": "Browns",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Dolphins",
+    "raw_text": "\ue035\n\ue033\n\t\nBrowns Cle - DEF\nFree Agent\nDolphins Mia - DEF\nTo Waivers\n\t\nMalle \u2764\ufe0f \ud83d\udc38\nNov 30, 10:38 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 30, 7:26 am",
+    "team": "Post Mahomes",
+    "added_player": "Hunter Henry",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Jaylen Warren",
+    "raw_text": "\ue035\n\ue033\n\t\nHunter Henry NE - TE\nFree Agent\nJaylen Warren Pit - RB\nTo Waivers\n\t\nPost Mahomes\nNov 30, 7:26 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 30, 3:20 am",
+    "team": "Voldemort",
+    "added_player": "Bam Knight",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Taysom Hill",
+    "raw_text": "\ue035\n\ue033\n\t\nBam Knight Ari - RB\nWaiver\nTaysom Hill NO - QB,TE NA\nTo Waivers\n\t\nVoldemort\nNov 30, 3:20 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 30, 3:20 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Alexander Mattison",
+    "acquisition_type": "Waiver",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nAlexander Mattison Mia - RB NA\nWaiver\n\t\nThreatLevelMidnight\nNov 30, 3:20 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 30, 3:20 am",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Chargers",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Broncos",
+    "raw_text": "\ue035\n\ue033\n\t\nChargers LAC - DEF\nWaiver\nBroncos Den - DEF\nTo Waivers\n\t\nPop Lockett Drop it\nNov 30, 3:20 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 30, 3:20 am",
+    "team": "Patty Primetimes",
+    "added_player": "Seahawks",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Titans",
+    "raw_text": "\ue035\n\ue033\n\t\nSeahawks Sea - DEF\nWaiver\nTitans Ten - DEF\nTo Waivers\n\t\nPatty Primetimes\nNov 30, 3:20 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 29, 5:55 pm",
+    "team": "Voldemort",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Deon Jackson",
+    "raw_text": "\ue033\n\t\nDeon Jackson Det - RB NA\nTo Waivers\n\t\nVoldemort\nNov 29, 5:55 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 28, 11:16 am",
+    "team": "Post Mahomes",
+    "added_player": "Jaylen Warren",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nJaylen Warren Pit - RB\nFree Agent\n\t\nPost Mahomes\nNov 28, 11:16 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 28, 11:16 am",
+    "team": "Post Mahomes",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Odell Beckham Jr.",
+    "raw_text": "\ue033\n\t\nOdell Beckham Jr. NYG - WR\nTo Waivers\n\t\nPost Mahomes\nNov 28, 11:16 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 28, 10:02 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Jameson Williams",
+    "raw_text": "\ue033\n\t\nJameson Williams Det - WR SUSP\nTo Waivers\n\t\nThreatLevelMidnight\nNov 28, 10:02 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 27, 8:11 pm",
+    "team": "Voldemort",
+    "added_player": "Deon Jackson",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Darnell Mooney",
+    "raw_text": "\ue035\n\ue033\n\t\nDeon Jackson Det - RB NA\nFree Agent\nDarnell Mooney NYG - WR Q\nTo Waivers\n\t\nVoldemort\nNov 27, 8:11 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 27, 10:44 am",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Tom Brady",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Melvin Gordon III",
+    "raw_text": "\ue035\n\ue033\n\t\nTom Brady TB - QB NA\nFree Agent\nMelvin Gordon III Bal - RB NA\nTo Waivers\n\t\nPop Lockett Drop it\nNov 27, 10:44 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 25, 12:25 pm",
+    "team": "Voldemort",
+    "added_player": "Taysom Hill",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Zach Ertz",
+    "raw_text": "\ue035\n\ue033\n\t\nTaysom Hill NO - QB,TE NA\nFree Agent\nZach Ertz Was - TE NA\nTo Waivers\n\t\nVoldemort\nNov 25, 12:25 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 24, 1:35 pm",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Broncos",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Bengals",
+    "raw_text": "\ue035\n\ue033\n\t\nBroncos Den - DEF\nFree Agent\nBengals Cin - DEF\nTo Waivers\n\t\nPop Lockett Drop it\nNov 24, 1:35 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 23, 12:04 pm",
+    "team": "Ginger FC",
+    "added_player": "Colts",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Rams",
+    "raw_text": "\ue035\n\ue033\n\t\nColts Ind - DEF\nFree Agent\nRams LAR - DEF\nTo Waivers\n\t\nGinger FC\nNov 23, 12:04 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 23, 10:30 am",
+    "team": "Post Mahomes",
+    "added_player": "Cam Akers",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nCam Akers Sea - RB NA\nFree Agent\n\t\nPost Mahomes\nNov 23, 10:30 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 23, 4:14 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Jameson Williams",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nJameson Williams Det - WR SUSP\nFree Agent\n\t\nThreatLevelMidnight\nNov 23, 4:14 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 23, 4:14 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Treylon Burks",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Kenyan Drake",
+    "raw_text": "\ue035\n\ue033\n\t\nTreylon Burks Was - WR\nFree Agent\nKenyan Drake Bal - RB NA\nTo Waivers\n\t\nThreatLevelMidnight\nNov 23, 4:14 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 23, 2:31 am",
+    "team": "Voldemort",
+    "added_player": "Samaje Perine",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Keaontay Ingram",
+    "raw_text": "\ue035\n\ue033\n\t\nSamaje Perine Cin - RB\nWaiver\nKeaontay Ingram KC - RB NA\nTo Waivers\n\t\nVoldemort\nNov 23, 2:31 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 23, 2:31 am",
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "added_player": "Dolphins",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Raiders",
+    "raw_text": "\ue035\n\ue033\n\t\nDolphins Mia - DEF\nWaiver\nRaiders LV - DEF\nTo Waivers\n\t\nMalle \u2764\ufe0f \ud83d\udc38\nNov 23, 2:31 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 23, 2:31 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Latavius Murray",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Isaiah Likely",
+    "raw_text": "\ue035\n\ue033\n\t\nLatavius Murray Buf - RB NA\nWaiver\nIsaiah Likely NYG - TE\nTo Waivers\n\t\nThreatLevelMidnight\nNov 23, 2:31 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 22, 8:52 am",
+    "team": "Post Mahomes",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Russell Wilson",
+    "raw_text": "\ue033\n\t\nRussell Wilson NYG - QB NA\nTo Waivers\n\t\nPost Mahomes\nNov 22, 8:52 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 21, 5:42 pm",
+    "team": "Voldemort",
+    "added_player": "Keaontay Ingram",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Isaiah Spiller",
+    "raw_text": "\ue035\n\ue033\n\t\nKeaontay Ingram KC - RB NA\nFree Agent\nIsaiah Spiller LV - RB NA\nTo Waivers\n\t\nVoldemort\nNov 21, 5:42 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 21, 3:16 pm",
+    "team": "Uncle Rico",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Kyle Pitts Sr.",
+    "raw_text": "\ue033\n\t\nKyle Pitts Sr. Atl - TE Q\nTo Waivers\n\t\nUncle Rico\nNov 21, 3:16 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 20, 7:19 pm",
+    "team": "Voldemort",
+    "added_player": "Isaiah Spiller",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\ue033\n\t\nIsaiah Spiller LV - RB NA\nFree Agent\nTre' McKitty Was - TE\nTo Free Agent\n\t\nVoldemort\nNov 20, 7:19 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 20, 6:28 pm",
+    "team": "Voldemort",
+    "added_player": "Tre' McKitty",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\ue033\n\t\nTre' McKitty Was - TE\nFree Agent\nAlexander Mattison Mia - RB NA\nTo Free Agent\n\t\nVoldemort\nNov 20, 6:28 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 20, 2:46 pm",
+    "team": "Voldemort",
+    "added_player": "Alexander Mattison",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Chuba Hubbard",
+    "raw_text": "\ue035\n\ue033\n\t\nAlexander Mattison Mia - RB NA\nFree Agent\nChuba Hubbard Car - RB\nTo Waivers\n\t\nVoldemort\nNov 20, 2:46 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 20, 11:51 am",
+    "team": "Voldemort",
+    "added_player": "Cameron Dicker",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Nick Folk",
+    "raw_text": "\ue035\n\ue033\n\t\nCameron Dicker LAC - K\nFree Agent\nNick Folk Atl - K\nTo Waivers\n\t\nVoldemort\nNov 20, 11:51 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 20, 11:17 am",
+    "team": "malle_dips_pouches",
+    "added_player": "Jets",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Kenny Pickett",
+    "raw_text": "\ue035\n\ue033\n\t\nJets NYJ - DEF\nFree Agent\nKenny Pickett Car - QB\nTo Waivers\n\t\nmalle_dips_pouches\nNov 20, 11:17 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 20, 8:00 am",
+    "team": "The Big Gronkowski",
+    "added_player": "Darius Slayton",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Isaiah McKenzie",
+    "raw_text": "\ue035\n\ue033\n\t\nDarius Slayton NYG - WR\nFree Agent\nIsaiah McKenzie Mia - WR NA\nTo Waivers\n\t\nThe Big Gronkowski\nNov 20, 8:00 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 19, 2:17 am",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Eno Benjamin",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Jaylen Warren",
+    "raw_text": "\ue035\n\ue033\n\t\nEno Benjamin NO - RB NA\nWaiver\nJaylen Warren Pit - RB\nTo Waivers\n\t\nPop Lockett Drop it\nNov 19, 2:17 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 19, 2:17 am",
+    "team": "Joe Mantegna",
+    "added_player": "Greg Dulcich",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Robert Woods",
+    "raw_text": "\ue035\n\ue033\n\t\nGreg Dulcich Mia - TE Q\nWaiver\nRobert Woods Pit - WR NA\nTo Waivers\n\t\nJoe Mantegna\nNov 19, 2:17 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 18, 6:46 pm",
+    "team": "Voldemort",
+    "added_player": "Chuba Hubbard",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Dontrell Hilliard",
+    "raw_text": "\ue035\n\ue033\n\t\nChuba Hubbard Car - RB\nFree Agent\nDontrell Hilliard Ten - RB NA\nTo Waivers\n\t\nVoldemort\nNov 18, 6:46 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 17, 6:21 pm",
+    "team": "Joe Mantegna",
+    "added_player": "Commanders",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Dolphins",
+    "raw_text": "\ue035\n\ue033\n\t\nCommanders Was - DEF\nFree Agent\nDolphins Mia - DEF\nTo Waivers\n\t\nJoe Mantegna\nNov 17, 6:21 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 17, 6:17 pm",
+    "team": "Joe Mantegna",
+    "added_player": "Foster Moreau",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Cade Otton",
+    "raw_text": "\ue035\n\ue033\n\t\nFoster Moreau Hou - TE Q\nFree Agent\nCade Otton TB - TE\nTo Waivers\n\t\nJoe Mantegna\nNov 17, 6:17 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 17, 7:34 am",
+    "team": "Post Mahomes",
+    "added_player": "Russell Wilson",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Davis Mills",
+    "raw_text": "\ue035\n\ue033\n\t\nRussell Wilson NYG - QB NA\nFree Agent\nDavis Mills Hou - QB\nTo Waivers\n\t\nPost Mahomes\nNov 17, 7:34 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 16, 12:44 pm",
+    "team": "Voldemort",
+    "added_player": "Dontrell Hilliard",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\ue033\n\t\nDontrell Hilliard Ten - RB NA\nFree Agent\nFoster Moreau Hou - TE Q\nTo Free Agent\n\t\nVoldemort\nNov 16, 12:44 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 16, 10:22 am",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Bengals",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Saints",
+    "raw_text": "\ue035\n\ue033\n\t\nBengals Cin - DEF\nFree Agent\nSaints NO - DEF\nTo Waivers\n\t\nPop Lockett Drop it\nNov 16, 10:22 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 16, 7:12 am",
+    "team": "Post Mahomes",
+    "added_player": "Davis Mills",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nDavis Mills Hou - QB\nFree Agent\n\t\nPost Mahomes\nNov 16, 7:12 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 16, 6:30 am",
+    "team": "Uncle Rico",
+    "added_player": "Robbie Gould",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Jason Myers",
+    "raw_text": "\ue035\n\ue033\n\t\nRobbie Gould SF - K NA\nFree Agent\nJason Myers Sea - K\nTo Waivers\n\t\nUncle Rico\nNov 16, 6:30 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 16, 6:17 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Isaiah Likely",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nIsaiah Likely NYG - TE\nFree Agent\n\t\nThreatLevelMidnight\nNov 16, 6:17 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 16, 3:45 am",
+    "team": "Voldemort",
+    "added_player": "Foster Moreau",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nFoster Moreau Hou - TE Q\nFree Agent\n\t\nVoldemort\nNov 16, 3:45 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 16, 2:37 am",
+    "team": "Uncle Rico",
+    "added_player": "Jerick McKinnon",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Clyde Edwards-Helaire",
+    "raw_text": "\ue035\n\ue033\n\t\nJerick McKinnon KC - RB NA\nWaiver\nClyde Edwards-Helaire KC - RB NA\nTo Waivers\n\t\nUncle Rico\nNov 16, 2:37 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 16, 2:37 am",
+    "team": "Uncle Rico",
+    "added_player": "DeAndre Carter",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Wan'Dale Robinson",
+    "raw_text": "\ue035\n\ue033\n\t\nDeAndre Carter Cle - WR NA\nWaiver\nWan'Dale Robinson Ten - WR Q\nTo Waivers\n\t\nUncle Rico\nNov 16, 2:37 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 16, 2:37 am",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Allen Robinson",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Romeo Doubs",
+    "raw_text": "\ue035\n\ue033\n\t\nAllen Robinson Det - WR NA\nWaiver\nRomeo Doubs NE - WR\nTo Waivers\n\t\nPop Lockett Drop it\nNov 16, 2:37 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 16, 2:37 am",
+    "team": "Uncle Rico",
+    "added_player": "Parris Campbell",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Eno Benjamin",
+    "raw_text": "\ue035\n\ue033\n\t\nParris Campbell Dal - WR NA\nWaiver\nEno Benjamin NO - RB NA\nTo Waivers\n\t\nUncle Rico\nNov 16, 2:37 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 16, 2:37 am",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Evan McPherson",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Cameron Dicker",
+    "raw_text": "\ue035\n\ue033\n\t\nEvan McPherson Cin - K\nWaiver\nCameron Dicker LAC - K\nTo Waivers\n\t\nPop Lockett Drop it\nNov 16, 2:37 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 16, 2:37 am",
+    "team": "Patty Primetimes",
+    "added_player": "Deshaun Watson",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Latavius Murray",
+    "raw_text": "\ue035\n\ue033\n\t\nDeshaun Watson Cle - QB\nWaiver\nLatavius Murray Buf - RB NA\nTo Waivers\n\t\nPatty Primetimes\nNov 16, 2:37 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 16, 2:37 am",
+    "team": "Ginger FC",
+    "added_player": "Donovan Peoples-Jones",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Mark Ingram II",
+    "raw_text": "\ue035\n\ue033\n\t\nDonovan Peoples-Jones NO - WR NA\nWaiver\nMark Ingram II NO - RB NA\nTo Waivers\n\t\nGinger FC\nNov 16, 2:37 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 16, 2:37 am",
+    "team": "Voldemort",
+    "added_player": "Christian Watson",
+    "acquisition_type": "Waiver",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nChristian Watson GB - WR\nWaiver\n\t\nVoldemort\nNov 16, 2:37 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 16, 2:37 am",
+    "team": "The Big Gronkowski",
+    "added_player": "Ravens",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Brandon McManus",
+    "raw_text": "\ue035\n\ue033\n\t\nRavens Bal - DEF\nWaiver\nBrandon McManus GB - K NA\nTo Waivers\n\t\nThe Big Gronkowski\nNov 16, 2:37 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 16, 2:37 am",
+    "team": "Uncle Rico",
+    "added_player": "Cole Kmet",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Greg Dulcich",
+    "raw_text": "\ue035\n\ue033\n\t\nCole Kmet Chi - TE\nWaiver\nGreg Dulcich Mia - TE Q\nTo Waivers\n\t\nUncle Rico\nNov 16, 2:37 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 15, 5:10 pm",
+    "team": "Voldemort",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Ryan Succop",
+    "raw_text": "\ue033\n\t\nRyan Succop TB - K NA\nTo Waivers\n\t\nVoldemort\nNov 15, 5:10 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 15, 8:15 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Evan Engram",
+    "raw_text": "\ue033\n\t\nEvan Engram Den - TE\nTo Waivers\n\t\nThreatLevelMidnight\nNov 15, 8:15 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 15, 8:15 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Giants",
+    "raw_text": "\ue033\n\t\nGiants NYG - DEF\nTo Waivers\n\t\nThreatLevelMidnight\nNov 15, 8:15 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 15, 7:57 am",
+    "team": "Post Mahomes",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Kenny Gainwell",
+    "raw_text": "\ue033\n\t\nKenny Gainwell TB - RB\nTo Waivers\n\t\nPost Mahomes\nNov 15, 7:57 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 14, 2:02 pm",
+    "team": "Post Mahomes",
+    "added_player": "Kenny Gainwell",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nKenny Gainwell TB - RB\nFree Agent\n\t\nPost Mahomes\nNov 14, 2:02 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 14, 1:42 pm",
+    "team": "Post Mahomes",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Tom Brady",
+    "raw_text": "\ue033\n\t\nTom Brady TB - QB NA\nTo Waivers\n\t\nPost Mahomes\nNov 14, 1:42 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 14, 5:51 am",
+    "team": "Voldemort",
+    "added_player": "Nick Folk",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Russell Wilson",
+    "raw_text": "\ue035\n\ue033\n\t\nNick Folk Atl - K\nFree Agent\nRussell Wilson NYG - QB NA\nTo Waivers\n\t\nVoldemort\nNov 14, 5:51 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 13, 1:02 pm",
+    "team": "Big Sack Jack",
+    "added_player": "Jake Elliott",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Hunter Henry",
+    "raw_text": "\ue035\n\ue033\n\t\nJake Elliott Phi - K\nFree Agent\nHunter Henry NE - TE\nTo Waivers\n\t\nBig Sack Jack\nNov 13, 1:02 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 13, 12:05 pm",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Cameron Dicker",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Matt Prater",
+    "raw_text": "\ue035\n\ue033\n\t\nCameron Dicker LAC - K\nFree Agent\nMatt Prater Buf - K NA\nTo Waivers\n\t\nPop Lockett Drop it\nNov 13, 12:05 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 13, 11:39 am",
+    "team": "malle_dips_pouches",
+    "added_player": "Steelers",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Ravens",
+    "raw_text": "\ue035\n\ue033\n\t\nSteelers Pit - DEF\nFree Agent\nRavens Bal - DEF\nTo Waivers\n\t\nmalle_dips_pouches\nNov 13, 11:39 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 13, 11:36 am",
+    "team": "malle_dips_pouches",
+    "added_player": "Kenny Pickett",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Logan Thomas",
+    "raw_text": "\ue035\n\ue033\n\t\nKenny Pickett Car - QB\nFree Agent\nLogan Thomas SF - TE NA\nTo Waivers\n\t\nmalle_dips_pouches\nNov 13, 11:36 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 12, 8:37 pm",
+    "team": "Post Mahomes",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Cole Kmet",
+    "raw_text": "\ue033\n\t\nCole Kmet Chi - TE\nTo Waivers\n\t\nPost Mahomes\nNov 12, 8:37 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 12, 7:13 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Evan Engram",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Deshaun Watson",
+    "raw_text": "\ue035\n\ue033\n\t\nEvan Engram Den - TE\nFree Agent\nDeshaun Watson Cle - QB\nTo Waivers\n\t\nThreatLevelMidnight\nNov 12, 7:13 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 11, 10:44 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Deshaun Watson",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nDeshaun Watson Cle - QB\nFree Agent\n\t\nThreatLevelMidnight\nNov 11, 10:44 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 10, 4:27 pm",
+    "team": "ThreatLevelMidnight",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Deon Jackson",
+    "raw_text": "\ue033\n\t\nDeon Jackson Det - RB NA\nTo Waivers\n\t\nThreatLevelMidnight\nNov 10, 4:27 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 9, 4:16 pm",
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "added_player": "Matthew Stafford",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Evan McPherson",
+    "raw_text": "\ue035\n\ue033\n\t\nMatthew Stafford LAR - QB\nFree Agent\nEvan McPherson Cin - K\nTo Waivers\n\t\nMalle \u2764\ufe0f \ud83d\udc38\nNov 9, 4:16 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 9, 12:12 pm",
+    "team": "Post Mahomes",
+    "added_player": "Cole Kmet",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nCole Kmet Chi - TE\nFree Agent\n\t\nPost Mahomes\nNov 9, 12:12 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 9, 12:12 pm",
+    "team": "Post Mahomes",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Jameson Williams",
+    "raw_text": "\ue033\n\t\nJameson Williams Det - WR SUSP\nTo Waivers\n\t\nPost Mahomes\nNov 9, 12:12 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 9, 12:11 pm",
+    "team": "Post Mahomes",
+    "added_player": "Odell Beckham Jr.",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Taysom Hill",
+    "raw_text": "\ue035\n\ue033\n\t\nOdell Beckham Jr. NYG - WR\nFree Agent\nTaysom Hill NO - QB,TE NA\nTo Waivers\n\t\nPost Mahomes\nNov 9, 12:11 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 9, 12:11 pm",
+    "team": "Post Mahomes",
+    "added_player": "Brett Maher",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Jake Elliott",
+    "raw_text": "\ue035\n\ue033\n\t\nBrett Maher LAR - K NA\nFree Agent\nJake Elliott Phi - K\nTo Waivers\n\t\nPost Mahomes\nNov 9, 12:11 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 9, 10:15 am",
+    "team": "Voldemort",
+    "added_player": "Russell Wilson",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Andy Dalton",
+    "raw_text": "\ue035\n\ue033\n\t\nRussell Wilson NYG - QB NA\nFree Agent\nAndy Dalton Phi - QB\nTo Waivers\n\t\nVoldemort\nNov 9, 10:15 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 9, 7:26 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "David Njoku",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Evan Engram",
+    "raw_text": "\ue035\n\ue033\n\t\nDavid Njoku LAC - TE\nFree Agent\nEvan Engram Den - TE\nTo Waivers\n\t\nThreatLevelMidnight\nNov 9, 7:26 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 9, 7:23 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Giants",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nGiants NYG - DEF\nFree Agent\n\t\nThreatLevelMidnight\nNov 9, 7:23 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 9, 7:07 am",
+    "team": "Uncle Rico",
+    "added_player": "Wan'Dale Robinson",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Alec Pierce",
+    "raw_text": "\ue035\n\ue033\n\t\nWan'Dale Robinson Ten - WR Q\nFree Agent\nAlec Pierce Ind - WR\nTo Waivers\n\t\nUncle Rico\nNov 9, 7:07 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 9, 2:35 am",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Jaylen Warren",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Caleb Huntley",
+    "raw_text": "\ue035\n\ue033\n\t\nJaylen Warren Pit - RB\nWaiver\nCaleb Huntley Atl - RB NA\nTo Waivers\n\t\nPop Lockett Drop it\nNov 9, 2:35 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 9, 2:35 am",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Saints",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Vikings",
+    "raw_text": "\ue035\n\ue033\n\t\nSaints NO - DEF\nWaiver\nVikings Min - DEF\nTo Waivers\n\t\nPop Lockett Drop it\nNov 9, 2:35 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 9, 2:35 am",
+    "team": "Patty Primetimes",
+    "added_player": "Titans",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Colts",
+    "raw_text": "\ue035\n\ue033\n\t\nTitans Ten - DEF\nWaiver\nColts Ind - DEF\nTo Waivers\n\t\nPatty Primetimes\nNov 9, 2:35 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 9, 2:35 am",
+    "team": "Post Mahomes",
+    "added_player": "Garrett Wilson",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Chuba Hubbard",
+    "raw_text": "\ue035\n\ue033\n\t\nGarrett Wilson NYJ - WR\nWaiver\nChuba Hubbard Car - RB\nTo Waivers\n\t\nPost Mahomes\nNov 9, 2:35 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 9, 2:35 am",
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "added_player": "Graham Gano",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Irv Smith Jr.",
+    "raw_text": "\ue035\n\ue033\n\t\nGraham Gano NYG - K NA\nWaiver\nIrv Smith Jr. Hou - TE NA\nTo Waivers\n\t\nMalle \u2764\ufe0f \ud83d\udc38\nNov 9, 2:35 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 8, 8:07 am",
+    "team": "Voldemort",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Bengals",
+    "raw_text": "\ue033\n\t\nBengals Cin - DEF\nTo Waivers\n\t\nVoldemort\nNov 8, 8:07 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 7, 9:08 pm",
+    "team": "ThreatLevelMidnight",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Isaiah Likely",
+    "raw_text": "\ue033\n\t\nIsaiah Likely NYG - TE\nTo Waivers\n\t\nThreatLevelMidnight\nNov 7, 9:08 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 7, 5:42 pm",
+    "team": "Voldemort",
+    "added_player": "Andy Dalton",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Alexander Mattison",
+    "raw_text": "\ue035\n\ue033\n\t\nAndy Dalton Phi - QB\nFree Agent\nAlexander Mattison Mia - RB NA\nTo Waivers\n\t\nVoldemort\nNov 7, 5:42 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 6, 9:47 am",
+    "team": "malle_dips_pouches",
+    "added_player": "Logan Thomas",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Graham Gano",
+    "raw_text": "\ue035\n\ue033\n\t\nLogan Thomas SF - TE NA\nFree Agent\nGraham Gano NYG - K NA\nTo Waivers\n\t\nmalle_dips_pouches\nNov 6, 9:47 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 5, 8:38 am",
+    "team": "Voldemort",
+    "added_player": "Alexander Mattison",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Ronnie Rivers",
+    "raw_text": "\ue035\n\ue033\n\t\nAlexander Mattison Mia - RB NA\nFree Agent\nRonnie Rivers LAR - RB\nTo Waivers\n\t\nVoldemort\nNov 5, 8:38 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 5, 2:17 am",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Brian Robinson",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Dontrell Hilliard",
+    "raw_text": "\ue035\n\ue033\n\t\nBrian Robinson Atl - RB Q\nWaiver\nDontrell Hilliard Ten - RB NA\nTo Waivers\n\t\nPop Lockett Drop it\nNov 5, 2:17 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 5, 2:17 am",
+    "team": "Patty Primetimes",
+    "added_player": "Colts",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Broncos",
+    "raw_text": "\ue035\n\ue033\n\t\nColts Ind - DEF\nWaiver\nBroncos Den - DEF\nTo Waivers\n\t\nPatty Primetimes\nNov 5, 2:17 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 4, 8:20 am",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Dontrell Hilliard",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Mike Gesicki",
+    "raw_text": "\ue035\n\ue033\n\t\nDontrell Hilliard Ten - RB NA\nFree Agent\nMike Gesicki Cin - TE\nTo Waivers\n\t\nPop Lockett Drop it\nNov 4, 8:20 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 3, 3:07 pm",
+    "team": "Patty Primetimes",
+    "added_player": "Mecole Hardman Jr.",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nMecole Hardman Jr. Buf - WR Q\nFree Agent\n\t\nPatty Primetimes\nNov 3, 3:07 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 3, 11:28 am",
+    "team": "Post Mahomes",
+    "added_player": "Joshua Palmer",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Parris Campbell",
+    "raw_text": "\ue035\n\ue033\n\t\nJoshua Palmer Buf - WR\nFree Agent\nParris Campbell Dal - WR NA\nTo Waivers\n\t\nPost Mahomes\nNov 3, 11:28 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 2, 10:17 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Dak Prescott",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Brian Robinson",
+    "raw_text": "\ue035\n\ue033\n\t\nDak Prescott Dal - QB\nFree Agent\nBrian Robinson Atl - RB Q\nTo Waivers\n\t\nThreatLevelMidnight\nNov 2, 10:17 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 2, 8:55 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Deon Jackson",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\ue033\n\t\nDeon Jackson Det - RB NA\nFree Agent\nAlexander Mattison Mia - RB NA\nTo Free Agent\n\t\nThreatLevelMidnight\nNov 2, 8:55 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 2, 6:45 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Alexander Mattison",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Samaje Perine",
+    "raw_text": "\ue035\n\ue033\n\t\nAlexander Mattison Mia - RB NA\nFree Agent\nSamaje Perine Cin - RB\nTo Waivers\n\t\nThreatLevelMidnight\nNov 2, 6:45 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 2, 6:44 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Kenyan Drake",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nKenyan Drake Bal - RB NA\nFree Agent\n\t\nThreatLevelMidnight\nNov 2, 6:44 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 2, 6:44 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Isaiah Likely",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nIsaiah Likely NYG - TE\nFree Agent\n\t\nThreatLevelMidnight\nNov 2, 6:44 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 2, 6:09 am",
+    "team": "Patty Primetimes",
+    "added_player": "Jared Goff",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Matthew Stafford",
+    "raw_text": "\ue035\n\ue033\n\t\nJared Goff Det - QB\nFree Agent\nMatthew Stafford LAR - QB\nTo Waivers\n\t\nPatty Primetimes\nNov 2, 6:09 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 2, 4:34 am",
+    "team": "Voldemort",
+    "added_player": "Bengals",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "D'Ernest Johnson",
+    "raw_text": "\ue035\n\ue033\n\t\nBengals Cin - DEF\nFree Agent\nD'Ernest Johnson Ten - RB\nTo Waivers\n\t\nVoldemort\nNov 2, 4:34 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 2, 2:34 am",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Vikings",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Colts",
+    "raw_text": "\ue035\n\ue033\n\t\nVikings Min - DEF\nWaiver\nColts Ind - DEF\nTo Waivers\n\t\nPop Lockett Drop it\nNov 2, 2:34 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 2, 2:34 am",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Matt Prater",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Robbie Gould",
+    "raw_text": "\ue035\n\ue033\n\t\nMatt Prater Buf - K NA\nWaiver\nRobbie Gould SF - K NA\nTo Waivers\n\t\nPop Lockett Drop it\nNov 2, 2:34 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 2, 2:34 am",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Caleb Huntley",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Hunter Renfrow",
+    "raw_text": "\ue035\n\ue033\n\t\nCaleb Huntley Atl - RB NA\nWaiver\nHunter Renfrow Car - WR NA\nTo Waivers\n\t\nPop Lockett Drop it\nNov 2, 2:34 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 2, 2:34 am",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Justin Fields",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Sam Ehlinger",
+    "raw_text": "\ue035\n\ue033\n\t\nJustin Fields KC - QB\nWaiver\nSam Ehlinger Den - QB\nTo Waivers\n\t\nPop Lockett Drop it\nNov 2, 2:34 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 2, 2:34 am",
+    "team": "Patty Primetimes",
+    "added_player": "Chase McLaughlin",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Cade York",
+    "raw_text": "\ue035\n\ue033\n\t\nChase McLaughlin TB - K\nWaiver\nCade York NYJ - K\nTo Waivers\n\t\nPatty Primetimes\nNov 2, 2:34 am"
+  },
+  {
+    "year": 2022,
+    "date": "Nov 1, 6:49 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Brett Maher",
+    "raw_text": "\ue033\n\t\nBrett Maher LAR - K NA\nTo Waivers\n\t\nThreatLevelMidnight\nNov 1, 6:49 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 31, 6:06 pm",
+    "team": "Voldemort",
+    "added_player": "D'Ernest Johnson",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Wan'Dale Robinson",
+    "raw_text": "\ue035\n\ue033\n\t\nD'Ernest Johnson Ten - RB\nFree Agent\nWan'Dale Robinson Ten - WR Q\nTo Waivers\n\t\nVoldemort\nOct 31, 6:06 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 31, 8:20 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Harrison Butker",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Chase Edmonds",
+    "raw_text": "\ue035\n\ue033\n\t\nHarrison Butker KC - K\nFree Agent\nChase Edmonds Was - RB NA\nTo Waivers\n\t\nThreatLevelMidnight\nOct 31, 8:20 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 30, 2:32 pm",
+    "team": "Voldemort",
+    "added_player": "Ronnie Rivers",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "JaMycal Hasty",
+    "raw_text": "\ue035\n\ue033\n\t\nRonnie Rivers LAR - RB\nFree Agent\nJaMycal Hasty NE - RB\nTo Waivers\n\t\nVoldemort\nOct 30, 2:32 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 28, 4:22 pm",
+    "team": "Voldemort",
+    "added_player": "JaMycal Hasty",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nJaMycal Hasty NE - RB\nFree Agent\n\t\nVoldemort\nOct 28, 4:22 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 28, 12:05 pm",
+    "team": "Post Mahomes",
+    "added_player": "Parris Campbell",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nParris Campbell Dal - WR NA\nFree Agent\n\t\nPost Mahomes\nOct 28, 12:05 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 28, 10:15 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Chase Edmonds",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Jaylen Warren",
+    "raw_text": "\ue035\n\ue033\n\t\nChase Edmonds Was - RB NA\nFree Agent\nJaylen Warren Pit - RB\nTo Waivers\n\t\nThreatLevelMidnight\nOct 28, 10:15 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 27, 10:00 pm",
+    "team": "ThreatLevelMidnight",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Rashod Bateman",
+    "raw_text": "\ue033\n\t\nRashod Bateman Bal - WR Q\nTo Waivers\n\t\nThreatLevelMidnight\nOct 27, 10:00 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 27, 11:36 am",
+    "team": "Patty Primetimes",
+    "added_player": "Kadarius Toney",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Robbie Chosen",
+    "raw_text": "\ue035\n\ue033\n\t\nKadarius Toney Cle - WR NA\nFree Agent\nRobbie Chosen Was - WR NA\nTo Waivers\n\t\nPatty Primetimes\nOct 27, 11:36 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 26, 10:16 pm",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Sam Ehlinger",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Jameis Winston",
+    "raw_text": "\ue035\n\ue033\n\t\nSam Ehlinger Den - QB\nFree Agent\nJameis Winston NYG - QB\nTo Waivers\n\t\nPop Lockett Drop it\nOct 26, 10:16 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 26, 2:38 pm",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Mike Gesicki",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Alexander Mattison",
+    "raw_text": "\ue035\n\ue033\n\t\nMike Gesicki Cin - TE\nFree Agent\nAlexander Mattison Mia - RB NA\nTo Waivers\n\t\nPop Lockett Drop it\nOct 26, 2:38 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 26, 8:26 am",
+    "team": "Uncle Rico",
+    "added_player": "Greg Dulcich",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Jets",
+    "raw_text": "\ue035\n\ue033\n\t\nGreg Dulcich Mia - TE Q\nFree Agent\nJets NYJ - DEF\nTo Waivers\n\t\nUncle Rico\nOct 26, 8:26 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 26, 7:55 am",
+    "team": "Post Mahomes",
+    "added_player": "Jake Elliott",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Harrison Butker",
+    "raw_text": "\ue035\n\ue033\n\t\nJake Elliott Phi - K\nFree Agent\nHarrison Butker KC - K\nTo Waivers\n\t\nPost Mahomes\nOct 26, 7:55 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 26, 7:05 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Evan Engram",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nEvan Engram Den - TE\nFree Agent\n\t\nThreatLevelMidnight\nOct 26, 7:05 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 26, 2:36 am",
+    "team": "Ginger FC",
+    "added_player": "Dalton Schultz",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Chargers",
+    "raw_text": "\ue035\n\ue033\n\t\nDalton Schultz Hou - TE\nWaiver\nChargers LAC - DEF\nTo Waivers\n\t\nGinger FC\nOct 26, 2:36 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 26, 2:36 am",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Jameis Winston",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Jared Goff",
+    "raw_text": "\ue035\n\ue033\n\t\nJameis Winston NYG - QB\nWaiver\nJared Goff Det - QB\nTo Waivers\n\t\nPop Lockett Drop it\nOct 26, 2:36 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 26, 2:36 am",
+    "team": "Ginger FC",
+    "added_player": "Daniel Jones",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Matt Ryan",
+    "raw_text": "\ue035\n\ue033\n\t\nDaniel Jones Ind - QB\nWaiver\nMatt Ryan Ind - QB NA\nTo Waivers\n\t\nGinger FC\nOct 26, 2:36 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 26, 2:36 am",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Colts",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Titans",
+    "raw_text": "\ue035\n\ue033\n\t\nColts Ind - DEF\nWaiver\nTitans Ten - DEF\nTo Waivers\n\t\nPop Lockett Drop it\nOct 26, 2:36 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 26, 2:36 am",
+    "team": "Joe Mantegna",
+    "added_player": "Robert Woods",
+    "acquisition_type": "Waiver",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nRobert Woods Pit - WR NA\nWaiver\n\t\nJoe Mantegna\nOct 26, 2:36 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 26, 2:36 am",
+    "team": "Voldemort",
+    "added_player": "Wan'Dale Robinson",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Dak Prescott",
+    "raw_text": "\ue035\n\ue033\n\t\nWan'Dale Robinson Ten - WR Q\nWaiver\nDak Prescott Dal - QB\nTo Waivers\n\t\nVoldemort\nOct 26, 2:36 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 25, 6:38 pm",
+    "team": "Voldemort",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Chase Edmonds",
+    "raw_text": "\ue033\n\t\nChase Edmonds Was - RB NA\nTo Waivers\n\t\nVoldemort\nOct 25, 6:38 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 25, 10:20 am",
+    "team": "Post Mahomes",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Packers",
+    "raw_text": "\ue033\n\t\nPackers GB - DEF\nTo Waivers\n\t\nPost Mahomes\nOct 25, 10:20 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 25, 9:05 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "David Njoku",
+    "raw_text": "\ue033\n\t\nDavid Njoku LAC - TE\nTo Waivers\n\t\nThreatLevelMidnight\nOct 25, 9:05 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 24, 10:13 am",
+    "team": "Post Mahomes",
+    "added_player": "Kyren Williams",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nKyren Williams LAR - RB\nFree Agent\n\t\nPost Mahomes\nOct 24, 10:13 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 24, 10:12 am",
+    "team": "Post Mahomes",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Kenyan Drake",
+    "raw_text": "\ue033\n\t\nKenyan Drake Bal - RB NA\nTo Waivers\n\t\nPost Mahomes\nOct 24, 10:12 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 23, 5:20 pm",
+    "team": "Voldemort",
+    "added_player": "Chase Edmonds",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\ue033\n\t\nChase Edmonds Was - RB NA\nFree Agent\nJosh Reynolds NYJ - WR NA\nTo Free Agent\n\t\nVoldemort\nOct 23, 5:20 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 23, 11:33 am",
+    "team": "malle_dips_pouches",
+    "added_player": "Graham Gano",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Phillip Lindsay",
+    "raw_text": "\ue035\n\ue033\n\t\nGraham Gano NYG - K NA\nFree Agent\nPhillip Lindsay Ind - RB NA\nTo Waivers\n\t\nmalle_dips_pouches\nOct 23, 11:33 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 23, 10:50 am",
+    "team": "Voldemort",
+    "added_player": "Josh Reynolds",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nJosh Reynolds NYJ - WR NA\nFree Agent\n\t\nVoldemort\nOct 23, 10:50 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 23, 8:57 am",
+    "team": "Post Mahomes",
+    "added_player": "Packers",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Bengals",
+    "raw_text": "\ue035\n\ue033\n\t\nPackers GB - DEF\nFree Agent\nBengals Cin - DEF\nTo Waivers\n\t\nPost Mahomes\nOct 23, 8:57 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 23, 7:57 am",
+    "team": "Uncle Rico",
+    "added_player": "Isiah Pacheco",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Wan'Dale Robinson",
+    "raw_text": "\ue035\n\ue033\n\t\nIsiah Pacheco Det - RB Q\nFree Agent\nWan'Dale Robinson Ten - WR Q\nTo Waivers\n\t\nUncle Rico\nOct 23, 7:57 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 23, 7:01 am",
+    "team": "The Big Gronkowski",
+    "added_player": "Jimmy Garoppolo",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Jacoby Brissett",
+    "raw_text": "\ue035\n\ue033\n\t\nJimmy Garoppolo LAR - QB NA\nFree Agent\nJacoby Brissett Ari - QB\nTo Waivers\n\t\nThe Big Gronkowski\nOct 23, 7:01 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 22, 2:19 am",
+    "team": "Patty Primetimes",
+    "added_player": "Broncos",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Colts",
+    "raw_text": "\ue035\n\ue033\n\t\nBroncos Den - DEF\nWaiver\nColts Ind - DEF\nTo Waivers\n\t\nPatty Primetimes\nOct 22, 2:19 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 20, 10:36 pm",
+    "team": "ThreatLevelMidnight",
+    "added_player": "D'Onta Foreman",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\ue033\n\t\nD'Onta Foreman Cle - RB NA\nFree Agent\nKyren Williams LAR - RB\nTo Free Agent\n\t\nThreatLevelMidnight\nOct 20, 10:36 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 20, 10:25 pm",
+    "team": "Post Mahomes",
+    "added_player": "Chuba Hubbard",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Cam Akers",
+    "raw_text": "\ue035\n\ue033\n\t\nChuba Hubbard Car - RB\nFree Agent\nCam Akers Sea - RB NA\nTo Waivers\n\t\nPost Mahomes\nOct 20, 10:25 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 20, 12:58 pm",
+    "team": "The Big Gronkowski",
+    "added_player": "Jacoby Brissett",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Packers",
+    "raw_text": "\ue035\n\ue033\n\t\nJacoby Brissett Ari - QB\nFree Agent\nPackers GB - DEF\nTo Waivers\n\t\nThe Big Gronkowski\nOct 20, 12:58 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 20, 10:06 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Kyren Williams",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nKyren Williams LAR - RB\nFree Agent\n\t\nThreatLevelMidnight\nOct 20, 10:06 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 20, 8:52 am",
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "added_player": "Raiders",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Browns",
+    "raw_text": "\ue035\n\ue033\n\t\nRaiders LV - DEF\nFree Agent\nBrowns Cle - DEF\nTo Waivers\n\t\nMalle \u2764\ufe0f \ud83d\udc38\nOct 20, 8:52 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 19, 2:22 pm",
+    "team": "ThreatLevelMidnight",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Deon Jackson",
+    "raw_text": "\ue033\n\t\nDeon Jackson Det - RB NA\nTo Waivers\n\t\nThreatLevelMidnight\nOct 19, 2:22 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 19, 1:53 pm",
+    "team": "Joe Mantegna",
+    "added_player": "Brandin Cooks",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Elijah Moore",
+    "raw_text": "\ue035\n\ue033\n\t\nBrandin Cooks NO - WR NA\nFree Agent\nElijah Moore Phi - WR\nTo Waivers\n\t\nJoe Mantegna\nOct 19, 1:53 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 19, 1:51 pm",
+    "team": "Joe Mantegna",
+    "added_player": "Cade Otton",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Tyler Conklin",
+    "raw_text": "\ue035\n\ue033\n\t\nCade Otton TB - TE\nFree Agent\nTyler Conklin Det - TE\nTo Waivers\n\t\nJoe Mantegna\nOct 19, 1:51 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 19, 10:10 am",
+    "team": "Voldemort",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Josh Reynolds",
+    "raw_text": "\ue033\n\t\nJosh Reynolds NYJ - WR NA\nTo Waivers\n\t\nVoldemort\nOct 19, 10:10 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 19, 9:07 am",
+    "team": "Post Mahomes",
+    "added_player": "Bengals",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nBengals Cin - DEF\nFree Agent\n\t\nPost Mahomes\nOct 19, 9:07 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 19, 8:14 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Samaje Perine",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nSamaje Perine Cin - RB\nFree Agent\n\t\nThreatLevelMidnight\nOct 19, 8:14 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 19, 8:08 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Gus Edwards",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nGus Edwards LAC - RB NA\nFree Agent\n\t\nThreatLevelMidnight\nOct 19, 8:08 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 19, 8:01 am",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Titans",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Bears",
+    "raw_text": "\ue035\n\ue033\n\t\nTitans Ten - DEF\nFree Agent\nBears Chi - DEF\nTo Waivers\n\t\nPop Lockett Drop it\nOct 19, 8:01 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 19, 6:55 am",
+    "team": "Patty Primetimes",
+    "added_player": "Cade York",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Greg Joseph",
+    "raw_text": "\ue035\n\ue033\n\t\nCade York NYJ - K\nFree Agent\nGreg Joseph LV - K NA\nTo Waivers\n\t\nPatty Primetimes\nOct 19, 6:55 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 19, 6:09 am",
+    "team": "Uncle Rico",
+    "added_player": "Tua Tagovailoa",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nTua Tagovailoa Atl - QB\nFree Agent\n\t\nUncle Rico\nOct 19, 6:09 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 19, 6:06 am",
+    "team": "Uncle Rico",
+    "added_player": "Wan'Dale Robinson",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Jahan Dotson",
+    "raw_text": "\ue035\n\ue033\n\t\nWan'Dale Robinson Ten - WR Q\nFree Agent\nJahan Dotson Atl - WR\nTo Waivers\n\t\nUncle Rico\nOct 19, 6:06 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 19, 6:04 am",
+    "team": "Uncle Rico",
+    "added_player": "Jason Myers",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Riley Patterson",
+    "raw_text": "\ue035\n\ue033\n\t\nJason Myers Sea - K\nFree Agent\nRiley Patterson Mia - K\nTo Waivers\n\t\nUncle Rico\nOct 19, 6:04 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 19, 6:03 am",
+    "team": "Uncle Rico",
+    "added_player": "Jets",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Isiah Pacheco",
+    "raw_text": "\ue035\n\ue033\n\t\nJets NYJ - DEF\nFree Agent\nIsiah Pacheco Det - RB Q\nTo Waivers\n\t\nUncle Rico\nOct 19, 6:03 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 19, 2:38 am",
+    "team": "Ginger FC",
+    "added_player": "Chargers",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Graham Gano",
+    "raw_text": "\ue035\n\ue033\n\t\nChargers LAC - DEF\nWaiver\nGraham Gano NYG - K NA\nTo Waivers\n\t\nGinger FC\nOct 19, 2:38 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 19, 2:38 am",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Hunter Renfrow",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Jimmy Garoppolo",
+    "raw_text": "\ue035\n\ue033\n\t\nHunter Renfrow Car - WR NA\nWaiver\nJimmy Garoppolo LAR - QB NA\nTo Waivers\n\t\nPop Lockett Drop it\nOct 19, 2:38 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 19, 2:38 am",
+    "team": "Post Mahomes",
+    "added_player": "Kenyan Drake",
+    "acquisition_type": "Waiver",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nKenyan Drake Bal - RB NA\nWaiver\n\t\nPost Mahomes\nOct 19, 2:38 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 19, 2:38 am",
+    "team": "Ginger FC",
+    "added_player": "Matt Ryan",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Carson Wentz",
+    "raw_text": "\ue035\n\ue033\n\t\nMatt Ryan Ind - QB NA\nWaiver\nCarson Wentz Min - QB\nTo Waivers\n\t\nGinger FC\nOct 19, 2:38 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 19, 2:38 am",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Bears",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Broncos",
+    "raw_text": "\ue035\n\ue033\n\t\nBears Chi - DEF\nWaiver\nBroncos Den - DEF\nTo Waivers\n\t\nPop Lockett Drop it\nOct 19, 2:38 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 19, 2:38 am",
+    "team": "Joe Mantegna",
+    "added_player": "Dolphins",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Vikings",
+    "raw_text": "\ue035\n\ue033\n\t\nDolphins Mia - DEF\nWaiver\nVikings Min - DEF\nTo Waivers\n\t\nJoe Mantegna\nOct 19, 2:38 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 19, 2:38 am",
+    "team": "Patty Primetimes",
+    "added_player": "Robbie Chosen",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Garrett Wilson",
+    "raw_text": "\ue035\n\ue033\n\t\nRobbie Chosen Was - WR NA\nWaiver\nGarrett Wilson NYJ - WR\nTo Waivers\n\t\nPatty Primetimes\nOct 19, 2:38 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 19, 2:38 am",
+    "team": "The Big Gronkowski",
+    "added_player": "Brandon McManus",
+    "acquisition_type": "Waiver",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nBrandon McManus GB - K NA\nWaiver\n\t\nThe Big Gronkowski\nOct 19, 2:38 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 18, 5:04 pm",
+    "team": "ThreatLevelMidnight",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Joshua Kelley",
+    "raw_text": "\ue033\n\t\nJoshua Kelley Ten - RB NA\nTo Waivers\n\t\nThreatLevelMidnight\nOct 18, 5:04 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 18, 4:43 pm",
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Jarvis Landry",
+    "raw_text": "\ue033\n\t\nJarvis Landry NO - WR NA\nTo Waivers\n\t\nMalle \u2764\ufe0f \ud83d\udc38\nOct 18, 4:43 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 18, 8:17 am",
+    "team": "Uncle Rico",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Will Dissly",
+    "raw_text": "\ue033\n\t\nWill Dissly LAC - TE NA\nTo Waivers\n\t\nUncle Rico\nOct 18, 8:17 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 18, 7:12 am",
+    "team": "Post Mahomes",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Jaguars",
+    "raw_text": "\ue033\n\t\nJaguars Jax - DEF\nTo Waivers\n\t\nPost Mahomes\nOct 18, 7:12 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 17, 11:55 pm",
+    "team": "ThreatLevelMidnight",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Mike Boone",
+    "raw_text": "\ue033\n\t\nMike Boone Mia - RB NA\nTo Waivers\n\t\nThreatLevelMidnight\nOct 17, 11:55 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 16, 9:47 am",
+    "team": "Patty Primetimes",
+    "added_player": "Garrett Wilson",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Hunter Renfrow",
+    "raw_text": "\ue035\n\ue033\n\t\nGarrett Wilson NYJ - WR\nFree Agent\nHunter Renfrow Car - WR NA\nTo Waivers\n\t\nPatty Primetimes\nOct 16, 9:47 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 16, 7:40 am",
+    "team": "malle_dips_pouches",
+    "added_player": "Phillip Lindsay",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Corey Davis",
+    "raw_text": "\ue035\n\ue033\n\t\nPhillip Lindsay Ind - RB NA\nFree Agent\nCorey Davis NYJ - WR NA\nTo Waivers\n\t\nmalle_dips_pouches\nOct 16, 7:40 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 16, 2:13 am",
+    "team": "Post Mahomes",
+    "added_player": "Bills",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Saints",
+    "raw_text": "\ue035\n\ue033\n\t\nBills Buf - DEF\nWaiver\nSaints NO - DEF\nTo Waivers\n\t\nPost Mahomes\nOct 16, 2:13 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 15, 12:42 pm",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Deon Jackson",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Chase Edmonds",
+    "raw_text": "\ue035\n\ue033\n\t\nDeon Jackson Det - RB NA\nFree Agent\nChase Edmonds Was - RB NA\nTo Waivers\n\t\nThreatLevelMidnight\nOct 15, 12:42 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 13, 6:50 pm",
+    "team": "Voldemort",
+    "added_player": "Dak Prescott",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Skyy Moore",
+    "raw_text": "\ue035\n\ue033\n\t\nDak Prescott Dal - QB\nFree Agent\nSkyy Moore GB - WR\nTo Waivers\n\t\nVoldemort\nOct 13, 6:50 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 13, 11:11 am",
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "added_player": "Browns",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Bills",
+    "raw_text": "\ue035\n\ue033\n\t\nBrowns Cle - DEF\nFree Agent\nBills Buf - DEF\nTo Waivers\n\t\nMalle \u2764\ufe0f \ud83d\udc38\nOct 13, 11:11 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 13, 11:11 am",
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "added_player": "Irv Smith Jr.",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Cole Kmet",
+    "raw_text": "\ue035\n\ue033\n\t\nIrv Smith Jr. Hou - TE NA\nFree Agent\nCole Kmet Chi - TE\nTo Waivers\n\t\nMalle \u2764\ufe0f \ud83d\udc38\nOct 13, 11:11 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 13, 6:03 am",
+    "team": "Joe Mantegna",
+    "added_player": "Marquez Valdes-Scantling",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Russell Gage Jr.",
+    "raw_text": "\ue035\n\ue033\n\t\nMarquez Valdes-Scantling Dal - WR\nFree Agent\nRussell Gage Jr. SF - WR NA\nTo Waivers\n\t\nJoe Mantegna\nOct 13, 6:03 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 12, 10:22 am",
+    "team": "Post Mahomes",
+    "added_player": "Harrison Butker",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Matthew Wright",
+    "raw_text": "\ue035\n\ue033\n\t\nHarrison Butker KC - K\nFree Agent\nMatthew Wright Buf - K NA\nTo Waivers\n\t\nPost Mahomes\nOct 12, 10:22 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 12, 3:34 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Patriots",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\ue033\n\t\nPatriots NE - DEF\nFree Agent\nBears Chi - DEF\nTo Free Agent\n\t\nThreatLevelMidnight\nOct 12, 3:34 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 12, 3:22 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Joshua Kelley",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nJoshua Kelley Ten - RB NA\nFree Agent\n\t\nThreatLevelMidnight\nOct 12, 3:22 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 12, 3:22 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Jaylen Warren",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nJaylen Warren Pit - RB\nFree Agent\n\t\nThreatLevelMidnight\nOct 12, 3:22 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 12, 3:20 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Bears",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nBears Chi - DEF\nFree Agent\n\t\nThreatLevelMidnight\nOct 12, 3:20 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 12, 2:44 am",
+    "team": "Uncle Rico",
+    "added_player": "Alec Pierce",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Zay Jones",
+    "raw_text": "\ue035\n\ue033\n\t\nAlec Pierce Ind - WR\nWaiver\nZay Jones Hou - WR\nTo Waivers\n\t\nUncle Rico\nOct 12, 2:44 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 12, 2:44 am",
+    "team": "Post Mahomes",
+    "added_player": "Taysom Hill",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Brandin Cooks",
+    "raw_text": "\ue035\n\ue033\n\t\nTaysom Hill NO - QB,TE NA\nWaiver\nBrandin Cooks NO - WR NA\nTo Waivers\n\t\nPost Mahomes\nOct 12, 2:44 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 12, 2:44 am",
+    "team": "Uncle Rico",
+    "added_player": "Eno Benjamin",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Caleb Huntley",
+    "raw_text": "\ue035\n\ue033\n\t\nEno Benjamin NO - RB NA\nWaiver\nCaleb Huntley Atl - RB NA\nTo Waivers\n\t\nUncle Rico\nOct 12, 2:44 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 12, 2:44 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Geno Smith",
+    "acquisition_type": "Waiver",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nGeno Smith NYJ - QB\nWaiver\n\t\nThreatLevelMidnight\nOct 12, 2:44 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 12, 2:44 am",
+    "team": "Post Mahomes",
+    "added_player": "Kenneth Walker III",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Garrett Wilson",
+    "raw_text": "\ue035\n\ue033\n\t\nKenneth Walker III KC - RB\nWaiver\nGarrett Wilson NYJ - WR\nTo Waivers\n\t\nPost Mahomes\nOct 12, 2:44 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 12, 2:44 am",
+    "team": "Ginger FC",
+    "added_player": "Graham Gano",
+    "acquisition_type": "Waiver",
+    "dropped_player": "DJ Chark",
+    "raw_text": "\ue035\n\ue033\n\t\nGraham Gano NYG - K NA\nWaiver\nDJ Chark Atl - WR NA\nTo Waivers\n\t\nGinger FC\nOct 12, 2:44 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 12, 2:44 am",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Jimmy Garoppolo",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Dalton Schultz",
+    "raw_text": "\ue035\n\ue033\n\t\nJimmy Garoppolo LAR - QB NA\nWaiver\nDalton Schultz Hou - TE\nTo Waivers\n\t\nPop Lockett Drop it\nOct 12, 2:44 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 11, 6:48 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Dolphins",
+    "raw_text": "\ue033\n\t\nDolphins Mia - DEF\nTo Waivers\n\t\nThreatLevelMidnight\nOct 11, 6:48 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 11, 6:45 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Russell Wilson",
+    "raw_text": "\ue033\n\t\nRussell Wilson NYG - QB NA\nTo Waivers\n\t\nThreatLevelMidnight\nOct 11, 6:45 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 11, 6:45 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Rashaad Penny",
+    "raw_text": "\ue033\n\t\nRashaad Penny Phi - RB NA\nTo Waivers\n\t\nThreatLevelMidnight\nOct 11, 6:45 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 10, 7:59 am",
+    "team": "Voldemort",
+    "added_player": "Skyy Moore",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Robert Woods",
+    "raw_text": "\ue035\n\ue033\n\t\nSkyy Moore GB - WR\nFree Agent\nRobert Woods Pit - WR NA\nTo Waivers\n\t\nVoldemort\nOct 10, 7:59 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 9, 4:21 pm",
+    "team": "ThreatLevelMidnight",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Dak Prescott",
+    "raw_text": "\ue033\n\t\nDak Prescott Dal - QB\nTo Waivers\n\t\nThreatLevelMidnight\nOct 9, 4:21 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 7, 3:48 pm",
+    "team": "Voldemort",
+    "added_player": "Robert Woods",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nRobert Woods Pit - WR NA\nFree Agent\n\t\nVoldemort\nOct 7, 3:48 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 7, 11:57 am",
+    "team": "Post Mahomes",
+    "added_player": "Matthew Wright",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Harrison Butker",
+    "raw_text": "\ue035\n\ue033\n\t\nMatthew Wright Buf - K NA\nFree Agent\nHarrison Butker KC - K\nTo Waivers\n\t\nPost Mahomes\nOct 7, 11:57 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 6, 12:20 pm",
+    "team": "Uncle Rico",
+    "added_player": "Will Dissly",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Taysom Hill",
+    "raw_text": "\ue035\n\ue033\n\t\nWill Dissly LAC - TE NA\nFree Agent\nTaysom Hill NO - QB,TE NA\nTo Waivers\n\t\nUncle Rico\nOct 6, 12:20 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 6, 11:19 am",
+    "team": "Post Mahomes",
+    "added_player": "Jameson Williams",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nJameson Williams Det - WR SUSP\nFree Agent\n\t\nPost Mahomes\nOct 6, 11:19 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 6, 7:48 am",
+    "team": "Uncle Rico",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Greg Dortch",
+    "raw_text": "\ue033\n\t\nGreg Dortch Det - WR\nTo Waivers\n\t\nUncle Rico\nOct 6, 7:48 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 6, 7:20 am",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Broncos",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Steelers",
+    "raw_text": "\ue035\n\ue033\n\t\nBroncos Den - DEF\nFree Agent\nSteelers Pit - DEF\nTo Waivers\n\t\nPop Lockett Drop it\nOct 6, 7:20 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 5, 9:44 am",
+    "team": "Post Mahomes",
+    "added_player": "Jaguars",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nJaguars Jax - DEF\nFree Agent\n\t\nPost Mahomes\nOct 5, 9:44 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 5, 9:23 am",
+    "team": "malle_dips_pouches",
+    "added_player": "Corey Davis",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Justin Fields",
+    "raw_text": "\ue035\n\ue033\n\t\nCorey Davis NYJ - WR NA\nFree Agent\nJustin Fields KC - QB\nTo Waivers\n\t\nmalle_dips_pouches\nOct 5, 9:23 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 5, 8:08 am",
+    "team": "Uncle Rico",
+    "added_player": "Riley Patterson",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Jake Elliott",
+    "raw_text": "\ue035\n\ue033\n\t\nRiley Patterson Mia - K\nFree Agent\nJake Elliott Phi - K\nTo Waivers\n\t\nUncle Rico\nOct 5, 8:08 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 5, 7:11 am",
+    "team": "Patty Primetimes",
+    "added_player": "Latavius Murray",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Falcons",
+    "raw_text": "\ue035\n\ue033\n\t\nLatavius Murray Buf - RB NA\nFree Agent\nFalcons Atl - DEF\nTo Waivers\n\t\nPatty Primetimes\nOct 5, 7:11 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 5, 6:56 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Dolphins",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nDolphins Mia - DEF\nFree Agent\n\t\nThreatLevelMidnight\nOct 5, 6:56 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 5, 5:30 am",
+    "team": "Voldemort",
+    "added_player": "Josh Reynolds",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Treylon Burks",
+    "raw_text": "\ue035\n\ue033\n\t\nJosh Reynolds NYJ - WR NA\nFree Agent\nTreylon Burks Was - WR\nTo Waivers\n\t\nVoldemort\nOct 5, 5:30 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 5, 2:37 am",
+    "team": "Joe Mantegna",
+    "added_player": "Tyler Conklin",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Robbie Chosen",
+    "raw_text": "\ue035\n\ue033\n\t\nTyler Conklin Det - TE\nWaiver\nRobbie Chosen Was - WR NA\nTo Waivers\n\t\nJoe Mantegna\nOct 5, 2:37 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 5, 2:37 am",
+    "team": "Uncle Rico",
+    "added_player": "Caleb Huntley",
+    "acquisition_type": "Waiver",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nCaleb Huntley Atl - RB NA\nWaiver\n\t\nUncle Rico\nOct 5, 2:37 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 5, 2:37 am",
+    "team": "Voldemort",
+    "added_player": "George Pickens",
+    "acquisition_type": "Waiver",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nGeorge Pickens Dal - WR\nWaiver\n\t\nVoldemort\nOct 5, 2:37 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 5, 2:37 am",
+    "team": "Patty Primetimes",
+    "added_player": "Tyler Allgeier",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Javonte Williams",
+    "raw_text": "\ue035\n\ue033\n\t\nTyler Allgeier Ari - RB\nWaiver\nJavonte Williams Dal - RB Q\nTo Waivers\n\t\nPatty Primetimes\nOct 5, 2:37 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 5, 2:37 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Mike Boone",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Allen Robinson",
+    "raw_text": "\ue035\n\ue033\n\t\nMike Boone Mia - RB NA\nWaiver\nAllen Robinson Det - WR NA\nTo Waivers\n\t\nThreatLevelMidnight\nOct 5, 2:37 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 4, 3:25 pm",
+    "team": "ThreatLevelMidnight",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Giants",
+    "raw_text": "\ue033\n\t\nGiants NYG - DEF\nTo Waivers\n\t\nThreatLevelMidnight\nOct 4, 3:25 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 4, 10:03 am",
+    "team": "Post Mahomes",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Matt Prater",
+    "raw_text": "\ue033\n\t\nMatt Prater Buf - K NA\nTo Waivers\n\t\nPost Mahomes\nOct 4, 10:03 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 4, 5:16 am",
+    "team": "Voldemort",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Craig Reynolds",
+    "raw_text": "\ue033\n\t\nCraig Reynolds Was - RB\nTo Waivers\n\t\nVoldemort\nOct 4, 5:16 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 4, 5:15 am",
+    "team": "Voldemort",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Jordan Mason",
+    "raw_text": "\ue033\n\t\nJordan Mason Min - RB\nTo Waivers\n\t\nVoldemort\nOct 4, 5:15 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 3, 9:16 am",
+    "team": "Voldemort",
+    "added_player": "Jordan Mason",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Jerick McKinnon",
+    "raw_text": "\ue035\n\ue033\n\t\nJordan Mason Min - RB\nFree Agent\nJerick McKinnon KC - RB NA\nTo Waivers\n\t\nVoldemort\nOct 3, 9:16 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 2, 7:13 pm",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Rachaad White",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "D'Onta Foreman",
+    "raw_text": "\ue035\n\ue033\n\t\nRachaad White Was - RB\nFree Agent\nD'Onta Foreman Cle - RB NA\nTo Waivers\n\t\nThreatLevelMidnight\nOct 2, 7:13 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 2, 6:59 pm",
+    "team": "Voldemort",
+    "added_player": "Jerick McKinnon",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Chuba Hubbard",
+    "raw_text": "\ue035\n\ue033\n\t\nJerick McKinnon KC - RB NA\nFree Agent\nChuba Hubbard Car - RB\nTo Waivers\n\t\nVoldemort\nOct 2, 6:59 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 2, 11:49 am",
+    "team": "Ginger FC",
+    "added_player": "Carson Wentz",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\ue033\n\t\nCarson Wentz Min - QB\nFree Agent\nCooper Rush Atl - QB\nTo Free Agent\n\t\nGinger FC\nOct 2, 11:49 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 2, 11:47 am",
+    "team": "Ginger FC",
+    "added_player": "Cooper Rush",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Tua Tagovailoa",
+    "raw_text": "\ue035\n\ue033\n\t\nCooper Rush Atl - QB\nFree Agent\nTua Tagovailoa Atl - QB\nTo Waivers\n\t\nGinger FC\nOct 2, 11:47 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 2, 7:48 am",
+    "team": "Joe Mantegna",
+    "added_player": "Vikings",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Broncos",
+    "raw_text": "\ue035\n\ue033\n\t\nVikings Min - DEF\nFree Agent\nBroncos Den - DEF\nTo Waivers\n\t\nJoe Mantegna\nOct 2, 7:48 am"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 1, 1:18 pm",
+    "team": "Post Mahomes",
+    "added_player": "Matt Prater",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nMatt Prater Buf - K NA\nFree Agent\n\t\nPost Mahomes\nOct 1, 1:18 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Oct 1, 8:38 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "David Njoku",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Tyler Conklin",
+    "raw_text": "\ue035\n\ue033\n\t\nDavid Njoku LAC - TE\nFree Agent\nTyler Conklin Det - TE\nTo Waivers\n\t\nThreatLevelMidnight\nOct 1, 8:38 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 30, 2:08 pm",
+    "team": "Voldemort",
+    "added_player": "Craig Reynolds",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nCraig Reynolds Was - RB\nFree Agent\n\t\nVoldemort\nSep 30, 2:08 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 29, 10:17 am",
+    "team": "Uncle Rico",
+    "added_player": "Taysom Hill",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Irv Smith Jr.",
+    "raw_text": "\ue035\n\ue033\n\t\nTaysom Hill NO - QB,TE NA\nFree Agent\nIrv Smith Jr. Hou - TE NA\nTo Waivers\n\t\nUncle Rico\nSep 29, 10:17 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 29, 9:18 am",
+    "team": "Pop Lockett Drop it",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Donovan Peoples-Jones",
+    "raw_text": "\ue033\n\t\nDonovan Peoples-Jones NO - WR NA\nTo Waivers\n\t\nPop Lockett Drop it\nSep 29, 9:18 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 28, 8:14 pm",
+    "team": "ThreatLevelMidnight",
+    "added_player": "D'Onta Foreman",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Rachaad White",
+    "raw_text": "\ue035\n\ue033\n\t\nD'Onta Foreman Cle - RB NA\nFree Agent\nRachaad White Was - RB\nTo Waivers\n\t\nThreatLevelMidnight\nSep 28, 8:14 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 28, 4:23 pm",
+    "team": "Voldemort",
+    "added_player": "Chuba Hubbard",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\ue033\n\t\nChuba Hubbard Car - RB\nFree Agent\nSamaje Perine Cin - RB\nTo Free Agent\n\t\nVoldemort\nSep 28, 4:23 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 28, 7:04 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Brett Maher",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Dustin Hopkins",
+    "raw_text": "\ue035\n\ue033\n\t\nBrett Maher LAR - K NA\nFree Agent\nDustin Hopkins Cle - K NA\nTo Waivers\n\t\nThreatLevelMidnight\nSep 28, 7:04 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 28, 7:03 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Russell Wilson",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Carson Wentz",
+    "raw_text": "\ue035\n\ue033\n\t\nRussell Wilson NYG - QB NA\nFree Agent\nCarson Wentz Min - QB\nTo Waivers\n\t\nThreatLevelMidnight\nSep 28, 7:03 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 28, 7:00 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Tyler Conklin",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Logan Thomas",
+    "raw_text": "\ue035\n\ue033\n\t\nTyler Conklin Det - TE\nFree Agent\nLogan Thomas SF - TE NA\nTo Waivers\n\t\nThreatLevelMidnight\nSep 28, 7:00 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 28, 6:58 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Giants",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Bengals",
+    "raw_text": "\ue035\n\ue033\n\t\nGiants NYG - DEF\nFree Agent\nBengals Cin - DEF\nTo Waivers\n\t\nThreatLevelMidnight\nSep 28, 6:58 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 28, 6:08 am",
+    "team": "Uncle Rico",
+    "added_player": "Zay Jones",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Corey Davis",
+    "raw_text": "\ue035\n\ue033\n\t\nZay Jones Hou - WR\nFree Agent\nCorey Davis NYJ - WR NA\nTo Waivers\n\t\nUncle Rico\nSep 28, 6:08 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 28, 6:05 am",
+    "team": "Uncle Rico",
+    "added_player": "Eagles",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Chargers",
+    "raw_text": "\ue035\n\ue033\n\t\nEagles Phi - DEF\nFree Agent\nChargers LAC - DEF\nTo Waivers\n\t\nUncle Rico\nSep 28, 6:05 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 28, 3:19 am",
+    "team": "Voldemort",
+    "added_player": "Samaje Perine",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Marquez Valdes-Scantling",
+    "raw_text": "\ue035\n\ue033\n\t\nSamaje Perine Cin - RB\nFree Agent\nMarquez Valdes-Scantling Dal - WR\nTo Waivers\n\t\nVoldemort\nSep 28, 3:19 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 28, 3:13 am",
+    "team": "Voldemort",
+    "added_player": "Treylon Burks",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Darrel Williams",
+    "raw_text": "\ue035\n\ue033\n\t\nTreylon Burks Was - WR\nFree Agent\nDarrel Williams NO - RB NA\nTo Waivers\n\t\nVoldemort\nSep 28, 3:13 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 28, 2:35 am",
+    "team": "Joe Mantegna",
+    "added_player": "Marcus Mariota",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Jimmy Garoppolo",
+    "raw_text": "\ue035\n\ue033\n\t\nMarcus Mariota Was - QB Q\nWaiver\nJimmy Garoppolo LAR - QB NA\nTo Waivers\n\t\nJoe Mantegna\nSep 28, 2:35 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 27, 1:35 pm",
+    "team": "Voldemort",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Sterling Shepard",
+    "raw_text": "\ue033\n\t\nSterling Shepard Hou - WR Q\nTo Waivers\n\t\nVoldemort\nSep 27, 1:35 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 27, 9:59 am",
+    "team": "Post Mahomes",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Brandon McManus",
+    "raw_text": "\ue033\n\t\nBrandon McManus GB - K NA\nTo Waivers\n\t\nPost Mahomes\nSep 27, 9:59 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 25, 11:58 am",
+    "team": "Voldemort",
+    "added_player": "Cowboys",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Bears",
+    "raw_text": "\ue035\n\ue033\n\t\nCowboys Dal - DEF\nFree Agent\nBears Chi - DEF\nTo Waivers\n\t\nVoldemort\nSep 25, 11:58 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 25, 8:32 am",
+    "team": "Joe Mantegna",
+    "added_player": "Jimmy Garoppolo",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Jameis Winston",
+    "raw_text": "\ue035\n\ue033\n\t\nJimmy Garoppolo LAR - QB NA\nFree Agent\nJameis Winston NYG - QB\nTo Waivers\n\t\nJoe Mantegna\nSep 25, 8:32 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 25, 8:17 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Rachaad White",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Treylon Burks",
+    "raw_text": "\ue035\n\ue033\n\t\nRachaad White Was - RB\nFree Agent\nTreylon Burks Was - WR\nTo Waivers\n\t\nThreatLevelMidnight\nSep 25, 8:17 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 24, 12:53 pm",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Treylon Burks",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Jaylen Warren",
+    "raw_text": "\ue035\n\ue033\n\t\nTreylon Burks Was - WR\nFree Agent\nJaylen Warren Pit - RB\nTo Waivers\n\t\nThreatLevelMidnight\nSep 24, 12:53 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 24, 2:18 am",
+    "team": "malle_dips_pouches",
+    "added_player": "Michael Gallup",
+    "acquisition_type": "Waiver",
+    "dropped_player": "DeVante Parker",
+    "raw_text": "\ue035\n\ue033\n\t\nMichael Gallup Was - WR NA\nWaiver\nDeVante Parker NE - WR NA\nTo Waivers\n\t\nmalle_dips_pouches\nSep 24, 2:18 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 23, 4:17 pm",
+    "team": "Voldemort",
+    "added_player": "Darrel Williams",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nDarrel Williams NO - RB NA\nFree Agent\n\t\nVoldemort\nSep 23, 4:17 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 23, 2:54 pm",
+    "team": "Voldemort",
+    "added_player": "Sterling Shepard",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nSterling Shepard Hou - WR Q\nFree Agent\n\t\nVoldemort\nSep 23, 2:54 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 23, 2:46 pm",
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Eagles",
+    "raw_text": "\ue033\n\t\nEagles Phi - DEF\nTo Waivers\n\t\nMalle \u2764\ufe0f \ud83d\udc38\nSep 23, 2:46 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 23, 1:13 pm",
+    "team": "Post Mahomes",
+    "added_player": "Brandon McManus",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nBrandon McManus GB - K NA\nFree Agent\n\t\nPost Mahomes\nSep 23, 1:13 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 23, 1:12 pm",
+    "team": "Post Mahomes",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Jameson Williams",
+    "raw_text": "\ue033\n\t\nJameson Williams Det - WR SUSP\nTo Waivers\n\t\nPost Mahomes\nSep 23, 1:12 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 23, 11:02 am",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Jared Goff",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Russell Wilson",
+    "raw_text": "\ue035\n\ue033\n\t\nJared Goff Det - QB\nFree Agent\nRussell Wilson NYG - QB NA\nTo Waivers\n\t\nPop Lockett Drop it\nSep 23, 11:02 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 21, 12:47 pm",
+    "team": "Post Mahomes",
+    "added_player": "Jameson Williams",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nJameson Williams Det - WR SUSP\nFree Agent\n\t\nPost Mahomes\nSep 21, 12:47 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 21, 11:45 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Logan Thomas",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nLogan Thomas SF - TE NA\nFree Agent\n\t\nThreatLevelMidnight\nSep 21, 11:45 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 21, 11:44 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Albert Okwuegbunam Jr.",
+    "raw_text": "\ue033\n\t\nAlbert Okwuegbunam Jr. LV - TE\nTo Waivers\n\t\nThreatLevelMidnight\nSep 21, 11:44 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 21, 8:44 am",
+    "team": "Joe Mantegna",
+    "added_player": "Jameis Winston",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Julio Jones",
+    "raw_text": "\ue035\n\ue033\n\t\nJameis Winston NYG - QB\nFree Agent\nJulio Jones Phi - WR NA\nTo Waivers\n\t\nJoe Mantegna\nSep 21, 8:44 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 21, 8:38 am",
+    "team": "Patty Primetimes",
+    "added_player": "Falcons",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Skyy Moore",
+    "raw_text": "\ue035\n\ue033\n\t\nFalcons Atl - DEF\nFree Agent\nSkyy Moore GB - WR\nTo Waivers\n\t\nPatty Primetimes\nSep 21, 8:38 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 21, 8:37 am",
+    "team": "Patty Primetimes",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Michael Gallup",
+    "raw_text": "\ue033\n\t\nMichael Gallup Was - WR NA\nTo Waivers\n\t\nPatty Primetimes\nSep 21, 8:37 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 21, 8:33 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Dustin Hopkins",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nDustin Hopkins Cle - K NA\nFree Agent\n\t\nThreatLevelMidnight\nSep 21, 8:33 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 21, 6:02 am",
+    "team": "Uncle Rico",
+    "added_player": "Chargers",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Browns",
+    "raw_text": "\ue035\n\ue033\n\t\nChargers LAC - DEF\nFree Agent\nBrowns Cle - DEF\nTo Waivers\n\t\nUncle Rico\nSep 21, 6:02 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 21, 3:32 am",
+    "team": "Voldemort",
+    "added_player": "Raheem Mostert",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Rachaad White",
+    "raw_text": "\ue035\n\ue033\n\t\nRaheem Mostert LV - RB NA\nFree Agent\nRachaad White Was - RB\nTo Waivers\n\t\nVoldemort\nSep 21, 3:32 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 21, 3:29 am",
+    "team": "Voldemort",
+    "added_player": "Bears",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Patriots",
+    "raw_text": "\ue035\n\ue033\n\t\nBears Chi - DEF\nFree Agent\nPatriots NE - DEF\nTo Waivers\n\t\nVoldemort\nSep 21, 3:29 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 21, 2:36 am",
+    "team": "Uncle Rico",
+    "added_player": "Irv Smith Jr.",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Taysom Hill",
+    "raw_text": "\ue035\n\ue033\n\t\nIrv Smith Jr. Hou - TE NA\nWaiver\nTaysom Hill NO - QB,TE NA\nTo Waivers\n\t\nUncle Rico\nSep 21, 2:36 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 21, 2:36 am",
+    "team": "Uncle Rico",
+    "added_player": "Corey Davis",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Kadarius Toney",
+    "raw_text": "\ue035\n\ue033\n\t\nCorey Davis NYJ - WR NA\nWaiver\nKadarius Toney Cle - WR NA\nTo Waivers\n\t\nUncle Rico\nSep 21, 2:36 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 21, 2:36 am",
+    "team": "Uncle Rico",
+    "added_player": "Greg Dortch",
+    "acquisition_type": "Waiver",
+    "dropped_player": "George Pickens",
+    "raw_text": "\ue035\n\ue033\n\t\nGreg Dortch Det - WR\nWaiver\nGeorge Pickens Dal - WR\nTo Waivers\n\t\nUncle Rico\nSep 21, 2:36 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 21, 2:36 am",
+    "team": "Post Mahomes",
+    "added_player": "Garrett Wilson",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Kenneth Walker III",
+    "raw_text": "\ue035\n\ue033\n\t\nGarrett Wilson NYJ - WR\nWaiver\nKenneth Walker III KC - RB\nTo Waivers\n\t\nPost Mahomes\nSep 21, 2:36 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 21, 2:36 am",
+    "team": "Ginger FC",
+    "added_player": "Tua Tagovailoa",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Sammy Watkins",
+    "raw_text": "\ue035\n\ue033\n\t\nTua Tagovailoa Atl - QB\nWaiver\nSammy Watkins Bal - WR NA\nTo Waivers\n\t\nGinger FC\nSep 21, 2:36 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 20, 11:51 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Matt Prater",
+    "raw_text": "\ue033\n\t\nMatt Prater Buf - K NA\nTo Waivers\n\t\nThreatLevelMidnight\nSep 20, 11:51 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 20, 11:18 am",
+    "team": "Post Mahomes",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Brandon McManus",
+    "raw_text": "\ue033\n\t\nBrandon McManus GB - K NA\nTo Waivers\n\t\nPost Mahomes\nSep 20, 11:18 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 20, 8:56 am",
+    "team": "Voldemort",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Zack Moss",
+    "raw_text": "\ue033\n\t\nZack Moss Cin - RB NA\nTo Waivers\n\t\nVoldemort\nSep 20, 8:56 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 19, 8:36 am",
+    "team": "Voldemort",
+    "added_player": "Zack Moss",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Christian Watson",
+    "raw_text": "\ue035\n\ue033\n\t\nZack Moss Cin - RB NA\nFree Agent\nChristian Watson GB - WR\nTo Waivers\n\t\nVoldemort\nSep 19, 8:36 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 18, 5:37 pm",
+    "team": "Voldemort",
+    "added_player": "Christian Watson",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Jordan Mason",
+    "raw_text": "\ue035\n\ue033\n\t\nChristian Watson GB - WR\nFree Agent\nJordan Mason Min - RB\nTo Waivers\n\t\nVoldemort\nSep 18, 5:37 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 18, 9:31 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Carson Wentz",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Jameis Winston",
+    "raw_text": "\ue035\n\ue033\n\t\nCarson Wentz Min - QB\nFree Agent\nJameis Winston NYG - QB\nTo Waivers\n\t\nThreatLevelMidnight\nSep 18, 9:31 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 18, 8:43 am",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Donovan Peoples-Jones",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Tua Tagovailoa",
+    "raw_text": "\ue035\n\ue033\n\t\nDonovan Peoples-Jones NO - WR NA\nFree Agent\nTua Tagovailoa Atl - QB\nTo Waivers\n\t\nPop Lockett Drop it\nSep 18, 8:43 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 18, 8:07 am",
+    "team": "The Big Gronkowski",
+    "added_player": "Hayden Hurst",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "David Njoku",
+    "raw_text": "\ue035\n\ue033\n\t\nHayden Hurst LAC - TE NA\nFree Agent\nDavid Njoku LAC - TE\nTo Waivers\n\t\nThe Big Gronkowski\nSep 18, 8:07 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 16, 4:02 pm",
+    "team": "Voldemort",
+    "added_player": "Jordan Mason",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nJordan Mason Min - RB\nFree Agent\n\t\nVoldemort\nSep 16, 4:02 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 15, 9:22 pm",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Jaylen Warren",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Treylon Burks",
+    "raw_text": "\ue035\n\ue033\n\t\nJaylen Warren Pit - RB\nFree Agent\nTreylon Burks Was - WR\nTo Waivers\n\t\nThreatLevelMidnight\nSep 15, 9:22 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 14, 7:54 pm",
+    "team": "Voldemort",
+    "added_player": "Rachaad White",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\ue033\n\t\nRachaad White Was - RB\nFree Agent\nJaylen Warren Pit - RB\nTo Free Agent\n\t\nVoldemort\nSep 14, 7:54 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 14, 5:19 pm",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Steelers",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Titans",
+    "raw_text": "\ue035\n\ue033\n\t\nSteelers Pit - DEF\nFree Agent\nTitans Ten - DEF\nTo Waivers\n\t\nPop Lockett Drop it\nSep 14, 5:19 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 14, 1:40 pm",
+    "team": "Post Mahomes",
+    "added_player": "Brandon McManus",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nBrandon McManus GB - K NA\nFree Agent\n\t\nPost Mahomes\nSep 14, 1:40 pm"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 14, 9:44 am",
+    "team": "Post Mahomes",
+    "added_player": "Gerald Everett",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nGerald Everett Chi - TE NA\nFree Agent\n\t\nPost Mahomes\nSep 14, 9:44 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 14, 9:44 am",
+    "team": "Post Mahomes",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Irv Smith Jr.",
+    "raw_text": "\ue033\n\t\nIrv Smith Jr. Hou - TE NA\nTo Waivers\n\t\nPost Mahomes\nSep 14, 9:44 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 14, 8:36 am",
+    "team": "Voldemort",
+    "added_player": "Jaylen Warren",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Kenny Gainwell",
+    "raw_text": "\ue035\n\ue033\n\t\nJaylen Warren Pit - RB\nFree Agent\nKenny Gainwell TB - RB\nTo Waivers\n\t\nVoldemort\nSep 14, 8:36 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 14, 7:29 am",
+    "team": "Post Mahomes",
+    "added_player": "Tyler Higbee",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nTyler Higbee LAR - TE\nFree Agent\n\t\nPost Mahomes\nSep 14, 7:29 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 14, 5:54 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Jameis Winston",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Raheem Mostert",
+    "raw_text": "\ue035\n\ue033\n\t\nJameis Winston NYG - QB\nFree Agent\nRaheem Mostert LV - RB NA\nTo Waivers\n\t\nThreatLevelMidnight\nSep 14, 5:54 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 14, 2:40 am",
+    "team": "Uncle Rico",
+    "added_player": "Taysom Hill",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Tyler Allgeier",
+    "raw_text": "\ue035\n\ue033\n\t\nTaysom Hill NO - QB,TE NA\nWaiver\nTyler Allgeier Ari - RB\nTo Waivers\n\t\nUncle Rico\nSep 14, 2:40 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 14, 2:40 am",
+    "team": "Voldemort",
+    "added_player": "Curtis Samuel",
+    "acquisition_type": "Waiver",
+    "dropped_player": "James Cook III",
+    "raw_text": "\ue035\n\ue033\n\t\nCurtis Samuel Buf - WR NA\nWaiver\nJames Cook III Buf - RB\nTo Waivers\n\t\nVoldemort\nSep 14, 2:40 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 14, 2:40 am",
+    "team": "Uncle Rico",
+    "added_player": "Jahan Dotson",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Robert Woods",
+    "raw_text": "\ue035\n\ue033\n\t\nJahan Dotson Atl - WR\nWaiver\nRobert Woods Pit - WR NA\nTo Waivers\n\t\nUncle Rico\nSep 14, 2:40 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 14, 2:40 am",
+    "team": "Joe Mantegna",
+    "added_player": "Robbie Chosen",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Ronald Jones",
+    "raw_text": "\ue035\n\ue033\n\t\nRobbie Chosen Was - WR NA\nWaiver\nRonald Jones Dal - RB NA\nTo Waivers\n\t\nJoe Mantegna\nSep 14, 2:40 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 13, 11:56 am",
+    "team": "Post Mahomes",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Zamir White",
+    "raw_text": "\ue033\n\t\nZamir White SF - RB\nTo Waivers\n\t\nPost Mahomes\nSep 13, 11:56 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 8, 2:22 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Bengals",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nBengals Cin - DEF\nFree Agent\n\t\nThreatLevelMidnight\nSep 8, 2:22 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 8, 2:22 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Cowboys",
+    "raw_text": "\ue033\n\t\nCowboys Dal - DEF\nTo Waivers\n\t\nThreatLevelMidnight\nSep 8, 2:22 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 8, 2:13 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Matt Prater",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nMatt Prater Buf - K NA\nFree Agent\n\t\nThreatLevelMidnight\nSep 8, 2:13 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 8, 2:13 am",
+    "team": "Patty Primetimes",
+    "added_player": "Michael Gallup",
+    "acquisition_type": "Waiver",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nMichael Gallup Was - WR NA\nWaiver\n\t\nPatty Primetimes\nSep 8, 2:13 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 8, 2:13 am",
+    "team": "Patty Primetimes",
+    "added_player": "Robert Tonyan",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Rachaad White",
+    "raw_text": "\ue035\n\ue033\n\t\nRobert Tonyan Pit - TE\nWaiver\nRachaad White Was - RB\nTo Waivers\n\t\nPatty Primetimes\nSep 8, 2:13 am"
+  },
+  {
+    "year": 2022,
+    "date": "Sep 8, 2:13 am",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Titans",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Chargers",
+    "raw_text": "\ue035\n\ue033\n\t\nTitans Ten - DEF\nWaiver\nChargers LAC - DEF\nTo Waivers\n\t\nPop Lockett Drop it\nSep 8, 2:13 am"
+  }
+]

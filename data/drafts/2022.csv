@@ -1,0 +1,181 @@
+year,round,pick_in_round,overall_pick,team,player,keeper
+2022,1,1,1,Post Mahomes,Jonathan Taylor,False
+2022,1,2,2,malle_dips_pouches,Christian McCaffrey,False
+2022,1,3,3,The Big Gronkowski,Austin Ekeler,False
+2022,1,4,4,Patty Primetimes,Derrick Henry,False
+2022,1,5,5,Voldemort,Joe Mixon,False
+2022,1,6,6,Pop Lockett Drop it,Najee Harris,False
+2022,1,7,7,Big Sack Jack,Dalvin Cook,False
+2022,1,8,8,ThreatLevelMidnight,Stefon Diggs,False
+2022,1,9,9,Malle ❤️ 🐸,CeeDee Lamb,False
+2022,1,10,10,Ginger FC,Alvin Kamara,False
+2022,1,11,11,Uncle Rico,Saquon Barkley,False
+2022,1,12,12,Joe Mantegna,Davante Adams,False
+2022,2,1,13,Joe Mantegna,Aaron Jones Sr.,False
+2022,2,2,14,Uncle Rico,Nick Chubb,False
+2022,2,3,15,Ginger FC,Travis Kelce,False
+2022,2,4,16,Malle ❤️ 🐸,D'Andre Swift,False
+2022,2,5,17,ThreatLevelMidnight,Mike Evans,False
+2022,2,6,18,Big Sack Jack,Tyreek Hill,False
+2022,2,7,19,Pop Lockett Drop it,Michael Pittman Jr.,False
+2022,2,8,20,Voldemort,Deebo Samuel Sr.,False
+2022,2,9,21,Patty Primetimes,Javonte Williams,False
+2022,2,10,22,The Big Gronkowski,Cooper Kupp,True
+2022,2,11,23,malle_dips_pouches,Mark Andrews,False
+2022,2,12,24,Post Mahomes,A.J. Brown,False
+2022,3,1,25,Post Mahomes,Ezekiel Elliott,False
+2022,3,2,26,malle_dips_pouches,Josh Jacobs,False
+2022,3,3,27,The Big Gronkowski,Tee Higgins,False
+2022,3,4,28,Patty Primetimes,Terry McLaurin,False
+2022,3,5,29,Voldemort,Josh Allen,False
+2022,3,6,30,Pop Lockett Drop it,Keenan Allen,False
+2022,3,7,31,Big Sack Jack,DJ Moore,True
+2022,3,8,32,ThreatLevelMidnight,Allen Robinson,False
+2022,3,9,33,Malle ❤️ 🐸,Adam Thielen,True
+2022,3,10,34,Ginger FC,Mike Williams,False
+2022,3,11,35,Uncle Rico,Kyle Pitts Sr.,False
+2022,3,12,36,Joe Mantegna,Breece Hall,False
+2022,4,1,37,Joe Mantegna,Courtland Sutton,False
+2022,4,2,38,Uncle Rico,Patrick Mahomes,False
+2022,4,3,39,Ginger FC,Kyler Murray,False
+2022,4,4,40,Malle ❤️ 🐸,Diontae Johnson,False
+2022,4,5,41,ThreatLevelMidnight,Chase Edmonds,False
+2022,4,6,42,Big Sack Jack,AJ Dillon,False
+2022,4,7,43,Pop Lockett Drop it,Dameon Pierce,False
+2022,4,8,44,Voldemort,David Montgomery,False
+2022,4,9,45,Patty Primetimes,Darren Waller,False
+2022,4,10,46,The Big Gronkowski,George Kittle,False
+2022,4,11,47,malle_dips_pouches,Lamar Jackson,False
+2022,4,12,48,Post Mahomes,Gabe Davis,False
+2022,5,1,49,Post Mahomes,Brandin Cooks,False
+2022,5,2,50,malle_dips_pouches,Jaylen Waddle,False
+2022,5,3,51,The Big Gronkowski,JuJu Smith-Schuster,False
+2022,5,4,52,Patty Primetimes,DK Metcalf,False
+2022,5,5,53,Voldemort,Antonio Gibson,False
+2022,5,6,54,Pop Lockett Drop it,Dalton Schultz,False
+2022,5,7,55,Big Sack Jack,Amon-Ra St. Brown,False
+2022,5,8,56,ThreatLevelMidnight,Rashaad Penny,False
+2022,5,9,57,Malle ❤️ 🐸,J.K. Dobbins,False
+2022,5,10,58,Ginger FC,Jerry Jeudy,False
+2022,5,11,59,Uncle Rico,Brandon Aiyuk,False
+2022,5,12,60,Joe Mantegna,Justin Herbert,True
+2022,6,1,61,Joe Mantegna,Dallas Goedert,False
+2022,6,2,62,Uncle Rico,Ja'Marr Chase,True
+2022,6,3,63,Ginger FC,Rhamondre Stevenson,False
+2022,6,4,64,Malle ❤️ 🐸,Jalen Hurts,False
+2022,6,5,65,ThreatLevelMidnight,Rashod Bateman,False
+2022,6,6,66,Big Sack Jack,Joe Burrow,False
+2022,6,7,67,Pop Lockett Drop it,Russell Wilson,False
+2022,6,8,68,Voldemort,Darnell Mooney,False
+2022,6,9,69,Patty Primetimes,Hunter Renfrow,False
+2022,6,10,70,The Big Gronkowski,Damien Harris,False
+2022,6,11,71,malle_dips_pouches,James Conner,True
+2022,6,12,72,Post Mahomes,Tom Brady,False
+2022,7,1,73,Post Mahomes,Clyde Edwards-Helaire,False
+2022,7,2,74,malle_dips_pouches,Amari Cooper,False
+2022,7,3,75,The Big Gronkowski,Tony Pollard,False
+2022,7,4,76,Patty Primetimes,Michael Thomas,False
+2022,7,5,77,Voldemort,Chris Godwin Jr.,False
+2022,7,6,78,Pop Lockett Drop it,Christian Kirk,False
+2022,7,7,79,Big Sack Jack,Dawson Knox,False
+2022,7,8,80,ThreatLevelMidnight,Miles Sanders,False
+2022,7,9,81,Malle ❤️ 🐸,T.J. Hockenson,False
+2022,7,10,82,Ginger FC,Leonard Fournette,True
+2022,7,11,83,Uncle Rico,Robert Woods,False
+2022,7,12,84,Joe Mantegna,Devin Singletary,False
+2022,8,1,85,Joe Mantegna,Elijah Moore,False
+2022,8,2,86,Uncle Rico,Cordarrelle Patterson,False
+2022,8,3,87,Ginger FC,Kareem Hunt,False
+2022,8,4,88,Malle ❤️ 🐸,Bills,False
+2022,8,5,89,ThreatLevelMidnight,Dak Prescott,False
+2022,8,6,90,Big Sack Jack,49ers,False
+2022,8,7,91,Pop Lockett Drop it,Melvin Gordon III,False
+2022,8,8,92,Voldemort,Zach Ertz,False
+2022,8,9,93,Patty Primetimes,Matthew Stafford,False
+2022,8,10,94,The Big Gronkowski,Trey Lance,False
+2022,8,11,95,malle_dips_pouches,DeVonta Smith,False
+2022,8,12,96,Post Mahomes,Allen Lazard,False
+2022,9,1,97,Post Mahomes,Drake London,False
+2022,9,2,98,malle_dips_pouches,Michael Carter,False
+2022,9,3,99,The Big Gronkowski,Kirk Cousins,False
+2022,9,4,100,Patty Primetimes,Chris Olave,False
+2022,9,5,101,Voldemort,James Cook III,False
+2022,9,6,102,Pop Lockett Drop it,Rondale Moore,False
+2022,9,7,103,Big Sack Jack,Justin Tucker,False
+2022,9,8,104,ThreatLevelMidnight,DeAndre Hopkins,False
+2022,9,9,105,Malle ❤️ 🐸,Evan McPherson,False
+2022,9,10,106,Ginger FC,Tyler Lockett,False
+2022,9,11,107,Uncle Rico,Kadarius Toney,False
+2022,9,12,108,Joe Mantegna,Darrell Henderson Jr.,False
+2022,10,1,109,Joe Mantegna,Russell Gage Jr.,False
+2022,10,2,110,Uncle Rico,George Pickens,False
+2022,10,3,111,Ginger FC,Devin Duvernay,False
+2022,10,4,112,Malle ❤️ 🐸,Cole Kmet,False
+2022,10,5,113,ThreatLevelMidnight,Elijah Mitchell,True
+2022,10,6,114,Big Sack Jack,Nyheim Miller-Hines,False
+2022,10,7,115,Pop Lockett Drop it,Hollywood Brown,True
+2022,10,8,116,Voldemort,Justin Jefferson,True
+2022,10,9,117,Patty Primetimes,Aaron Rodgers,False
+2022,10,10,118,The Big Gronkowski,Buccaneers,False
+2022,10,11,119,malle_dips_pouches,Tyler Boyd,False
+2022,10,12,120,Post Mahomes,Kenneth Walker III,False
+2022,11,1,121,Post Mahomes,Cam Akers,True
+2022,11,2,122,malle_dips_pouches,Pat Freiermuth,False
+2022,11,3,123,The Big Gronkowski,David Njoku,False
+2022,11,4,124,Patty Primetimes,Colts,False
+2022,11,5,125,Voldemort,James Robinson,False
+2022,11,6,126,Pop Lockett Drop it,Alexander Mattison,False
+2022,11,7,127,Big Sack Jack,Derek Carr,False
+2022,11,8,128,ThreatLevelMidnight,Raheem Mostert,False
+2022,11,9,129,Malle ❤️ 🐸,Trevor Lawrence,False
+2022,11,10,130,Ginger FC,Rams,False
+2022,11,11,131,Uncle Rico,Jakobi Meyers,False
+2022,11,12,132,Joe Mantegna,Julio Jones,False
+2022,12,1,133,Joe Mantegna,Chase Claypool,False
+2022,12,2,134,Uncle Rico,Isiah Pacheco,False
+2022,12,3,135,Ginger FC,DJ Chark,False
+2022,12,4,136,Malle ❤️ 🐸,Jamaal Williams,False
+2022,12,5,137,ThreatLevelMidnight,Treylon Burks,False
+2022,12,6,138,Big Sack Jack,Khalil Herbert,False
+2022,12,7,139,Pop Lockett Drop it,Romeo Doubs,False
+2022,12,8,140,Voldemort,Kenny Gainwell,False
+2022,12,9,141,Patty Primetimes,Rachaad White,False
+2022,12,10,142,The Big Gronkowski,Tyler Bass,False
+2022,12,11,143,malle_dips_pouches,DeVante Parker,False
+2022,12,12,144,Post Mahomes,Irv Smith Jr.,False
+2022,13,1,145,Post Mahomes,Saints,False
+2022,13,2,146,malle_dips_pouches,Matt Gay,False
+2022,13,3,147,The Big Gronkowski,Isaiah McKenzie,False
+2022,13,4,148,Patty Primetimes,Skyy Moore,False
+2022,13,5,149,Voldemort,Marquez Valdes-Scantling,False
+2022,13,6,150,Pop Lockett Drop it,Chargers,False
+2022,13,7,151,Big Sack Jack,Nico Collins,False
+2022,13,8,152,ThreatLevelMidnight,Albert Okwuegbunam Jr.,False
+2022,13,9,153,Malle ❤️ 🐸,Jarvis Landry,False
+2022,13,10,154,Ginger FC,Daniel Carlson,False
+2022,13,11,155,Uncle Rico,Tyler Allgeier,False
+2022,13,12,156,Joe Mantegna,Ronald Jones,False
+2022,14,1,157,Joe Mantegna,Broncos,False
+2022,14,2,158,Uncle Rico,Browns,False
+2022,14,3,159,Ginger FC,Sammy Watkins,False
+2022,14,4,160,Malle ❤️ 🐸,J.D. McKissic,False
+2022,14,5,161,ThreatLevelMidnight,Brian Robinson,False
+2022,14,6,162,Big Sack Jack,Hunter Henry,False
+2022,14,7,163,Pop Lockett Drop it,Tua Tagovailoa,False
+2022,14,8,164,Voldemort,Patriots,False
+2022,14,9,165,Patty Primetimes,Travis Etienne Jr.,True
+2022,14,10,166,The Big Gronkowski,Jeff Wilson Jr.,False
+2022,14,11,167,malle_dips_pouches,Ravens,False
+2022,14,12,168,Post Mahomes,Harrison Butker,False
+2022,15,1,169,Post Mahomes,Zamir White,False
+2022,15,2,170,malle_dips_pouches,Justin Fields,False
+2022,15,3,171,The Big Gronkowski,Packers,False
+2022,15,4,172,Patty Primetimes,Greg Joseph,False
+2022,15,5,173,Voldemort,Ryan Succop,False
+2022,15,6,174,Pop Lockett Drop it,Robbie Gould,False
+2022,15,7,175,Big Sack Jack,Chiefs,False
+2022,15,8,176,ThreatLevelMidnight,Cowboys,False
+2022,15,9,177,Malle ❤️ 🐸,Eagles,False
+2022,15,10,178,Ginger FC,Mark Ingram II,False
+2022,15,11,179,Uncle Rico,Jake Elliott,False
+2022,15,12,180,Joe Mantegna,Younghoe Koo,False

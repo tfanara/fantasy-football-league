@@ -1,0 +1,209 @@
+[
+  {
+    "year": 2021,
+    "date": "Jan 2, 11:10 am",
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "added_player": "Darnell Mooney",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "T.J. Hockenson",
+    "raw_text": "\ue035\n\ue033\n\t\nDarnell Mooney NYG - WR\nFree Agent\nT.J. Hockenson Min - TE Q\nTo Waivers\n\t\nMalle \u2764\ufe0f \ud83d\udc38\nJan 2, 11:10 am"
+  },
+  {
+    "year": 2021,
+    "date": "Dec 31, 7:56 pm",
+    "team": "ThreatLevelMidnight",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Justin Jackson",
+    "raw_text": "\ue033\n\t\nJustin Jackson Det - RB NA\nTo Waivers\n\t\nThreatLevelMidnight\nDec 31, 7:56 pm"
+  },
+  {
+    "year": 2021,
+    "date": "Dec 31, 6:57 pm",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Packers",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Bears",
+    "raw_text": "\ue035\n\ue033\n\t\nPackers GB - DEF\nFree Agent\nBears Chi - DEF\nTo Waivers\n\t\nThreatLevelMidnight\nDec 31, 6:57 pm"
+  },
+  {
+    "year": 2021,
+    "date": "Dec 31, 12:58 pm",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Trey Lance",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Taysom Hill",
+    "raw_text": "\ue035\n\ue033\n\t\nTrey Lance LAC - QB\nFree Agent\nTaysom Hill NO - QB NA\nTo Waivers\n\t\nThreatLevelMidnight\nDec 31, 12:58 pm"
+  },
+  {
+    "year": 2021,
+    "date": "Dec 30, 1:11 pm",
+    "team": "Post Mahomes",
+    "added_player": "Dare Ogunbowale",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Tony Pollard",
+    "raw_text": "\ue035\n\ue033\n\t\nDare Ogunbowale LV - RB\nFree Agent\nTony Pollard Ten - RB\nTo Waivers\n\t\nPost Mahomes\nDec 30, 1:11 pm"
+  },
+  {
+    "year": 2021,
+    "date": "Dec 30, 11:52 am",
+    "team": "Post Mahomes",
+    "added_player": "Marlon Mack",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nMarlon Mack Ari - RB NA\nFree Agent\n\t\nPost Mahomes\nDec 30, 11:52 am"
+  },
+  {
+    "year": 2021,
+    "date": "Dec 30, 11:52 am",
+    "team": "Post Mahomes",
+    "added_player": "Khalil Herbert",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nKhalil Herbert SF - RB\nFree Agent\n\t\nPost Mahomes\nDec 30, 11:52 am"
+  },
+  {
+    "year": 2021,
+    "date": "Dec 30, 11:48 am",
+    "team": "Post Mahomes",
+    "added_player": "Chris Godwin Jr.",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Darrel Williams",
+    "raw_text": "\ue035\n\ue033\n\t\nChris Godwin Jr. TB - WR Q\nFree Agent\nDarrel Williams NO - RB NA\nTo Waivers\n\t\nPost Mahomes\nDec 30, 11:48 am"
+  },
+  {
+    "year": 2021,
+    "date": "Dec 30, 11:48 am",
+    "team": "Post Mahomes",
+    "added_player": "Calvin Ridley",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Rashod Bateman",
+    "raw_text": "\ue035\n\ue033\n\t\nCalvin Ridley Ten - WR SUSP\nFree Agent\nRashod Bateman Bal - WR\nTo Waivers\n\t\nPost Mahomes\nDec 30, 11:48 am"
+  },
+  {
+    "year": 2021,
+    "date": "Dec 30, 11:47 am",
+    "team": "Post Mahomes",
+    "added_player": "Cam Akers",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nCam Akers Sea - RB NA\nFree Agent\n\t\nPost Mahomes\nDec 30, 11:47 am"
+  },
+  {
+    "year": 2021,
+    "date": "Dec 30, 11:46 am",
+    "team": "Post Mahomes",
+    "added_player": "J.K. Dobbins",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nJ.K. Dobbins Den - RB Q\nFree Agent\n\t\nPost Mahomes\nDec 30, 11:46 am"
+  },
+  {
+    "year": 2021,
+    "date": "Dec 30, 11:46 am",
+    "team": "Post Mahomes",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Rhamondre Stevenson",
+    "raw_text": "\ue033\n\t\nRhamondre Stevenson NE - RB\nTo Waivers\n\t\nPost Mahomes\nDec 30, 11:46 am"
+  },
+  {
+    "year": 2021,
+    "date": "Dec 30, 11:46 am",
+    "team": "Post Mahomes",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Eagles",
+    "raw_text": "\ue033\n\t\nEagles Phi - DEF\nTo Waivers\n\t\nPost Mahomes\nDec 30, 11:46 am"
+  },
+  {
+    "year": 2021,
+    "date": "Dec 29, 8:30 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Taysom Hill",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nTaysom Hill NO - QB NA\nFree Agent\n\t\nThreatLevelMidnight\nDec 29, 8:30 am"
+  },
+  {
+    "year": 2021,
+    "date": "Dec 29, 2:14 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": "Bears",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Seahawks",
+    "raw_text": "\ue035\n\ue033\n\t\nBears Chi - DEF\nWaiver\nSeahawks Sea - DEF\nTo Waivers\n\t\nThreatLevelMidnight\nDec 29, 2:14 am"
+  },
+  {
+    "year": 2021,
+    "date": "Dec 29, 2:14 am",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Foster Moreau",
+    "acquisition_type": "Waiver",
+    "dropped_player": "Darnell Mooney",
+    "raw_text": "\ue035\n\ue033\n\t\nFoster Moreau Hou - TE\nWaiver\nDarnell Mooney NYG - WR\nTo Waivers\n\t\nPop Lockett Drop it\nDec 29, 2:14 am"
+  },
+  {
+    "year": 2021,
+    "date": "Dec 28, 5:47 pm",
+    "team": "Voldemort",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Kendrick Bourne",
+    "raw_text": "\ue033\n\t\nKendrick Bourne Ari - WR\nTo Waivers\n\t\nVoldemort\nDec 28, 5:47 pm"
+  },
+  {
+    "year": 2021,
+    "date": "Dec 28, 8:18 am",
+    "team": "ThreatLevelMidnight",
+    "added_player": null,
+    "acquisition_type": null,
+    "dropped_player": "Noah Fant",
+    "raw_text": "\ue033\n\t\nNoah Fant NO - TE\nTo Waivers\n\t\nThreatLevelMidnight\nDec 28, 8:18 am"
+  },
+  {
+    "year": 2021,
+    "date": "Dec 26, 3:25 pm",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Jaret Patterson",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Russell Gage Jr.",
+    "raw_text": "\ue035\n\ue033\n\t\nJaret Patterson LAC - RB\nFree Agent\nRussell Gage Jr. SF - WR NA\nTo Waivers\n\t\nPop Lockett Drop it\nDec 26, 3:25 pm"
+  },
+  {
+    "year": 2021,
+    "date": "Dec 26, 3:24 pm",
+    "team": "Pop Lockett Drop it",
+    "added_player": "Ben Roethlisberger",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Teddy Bridgewater",
+    "raw_text": "\ue035\n\ue033\n\t\nBen Roethlisberger Pit - QB NA\nFree Agent\nTeddy Bridgewater TB - QB NA\nTo Waivers\n\t\nPop Lockett Drop it\nDec 26, 3:24 pm"
+  },
+  {
+    "year": 2021,
+    "date": "Dec 26, 11:55 am",
+    "team": "malle_dips_pouches",
+    "added_player": "Tua Tagovailoa",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\ue033\n\t\nTua Tagovailoa Atl - QB\nFree Agent\nZach Wilson NO - QB\nTo Free Agent\n\t\nmalle_dips_pouches\nDec 26, 11:55 am"
+  },
+  {
+    "year": 2021,
+    "date": "Dec 26, 11:40 am",
+    "team": "malle_dips_pouches",
+    "added_player": "Zach Wilson",
+    "acquisition_type": "Free Agent",
+    "dropped_player": "Justin Fields",
+    "raw_text": "\ue035\n\ue033\n\t\nZach Wilson NO - QB\nFree Agent\nJustin Fields KC - QB\nTo Waivers\n\t\nmalle_dips_pouches\nDec 26, 11:40 am"
+  },
+  {
+    "year": 2021,
+    "date": "Dec 25, 9:10 am",
+    "team": "Voldemort",
+    "added_player": "Jordan Howard",
+    "acquisition_type": "Free Agent",
+    "dropped_player": null,
+    "raw_text": "\ue035\n\t\nJordan Howard NO - RB NA\nFree Agent\n\t\nVoldemort\nDec 25, 9:10 am"
+  }
+]
