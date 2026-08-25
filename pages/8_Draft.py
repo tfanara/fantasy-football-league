@@ -55,12 +55,127 @@ DRAFT_ORDER_2026 = [
 ]
 
 
+KEEPERS_2026 = {
+    "Patty Primetimes": {
+        "player": "Colston Loveland",
+        "round": 10,
+        "status": "🟢 1st-Year Keeper",
+        "acquisition": "Drafted — Round 11",
+    },
+    "Joe Mantegna": {
+        "player": "Tyler Warren",
+        "round": 9,
+        "status": "🟢 1st-Year Keeper",
+        "acquisition": "Drafted — Round 10",
+    },
+    "ThreatLevelMidnight": {
+        "player": "Rashee Rice",
+        "round": 6,
+        "status": "🟢 1st-Year Keeper",
+        "acquisition": "Drafted — Round 7",
+    },
+    "The Big Gronkowski": {
+        "player": "Drake Maye",
+        "round": 8,
+        "status": "🟢 1st-Year Keeper",
+        "acquisition": "Drafted — Round 9",
+    },
+    "Pop Lockett Drop it": {
+        "player": "Kenneth Walker III",
+        "round": 1,
+        "status": "🟢 1st-Year Keeper",
+        "acquisition": "Drafted — Round 2",
+    },
+    "Voldemort": {
+        "player": "Jaxon Smith-Njigba",
+        "round": 2,
+        "status": "🟢 1st-Year Keeper",
+        "acquisition": "Drafted — Round 3",
+    },
+    "Uncle Rico": {
+        "player": "Jonathan Taylor",
+        "round": 1,
+        "status": "🟢 1st-Year Keeper",
+        "acquisition": "Drafted — Round 2",
+    },
+}
+
+
 draft_order_2026 = pd.DataFrame(
     {
         "Draft Position": range(1, len(DRAFT_ORDER_2026) + 1),
         "Franchise": DRAFT_ORDER_2026,
     }
 )
+
+
+draft_order_2026["2026 Keeper"] = (
+    draft_order_2026["Franchise"]
+    .map(
+        lambda team: KEEPERS_2026.get(
+            team,
+            {},
+        ).get(
+            "player",
+            "—",
+        )
+    )
+)
+
+
+draft_order_2026["Keeper Round"] = (
+    draft_order_2026["Franchise"]
+    .map(
+        lambda team: KEEPERS_2026.get(
+            team,
+            {},
+        ).get(
+            "round",
+            pd.NA,
+        )
+    )
+    .astype("Int64")
+)
+
+
+draft_order_2026["Keeper Status"] = (
+    draft_order_2026["Franchise"]
+    .map(
+        lambda team: KEEPERS_2026.get(
+            team,
+            {},
+        ).get(
+            "status",
+            "—",
+        )
+    )
+)
+
+
+draft_order_2026["2025 Acquisition"] = (
+    draft_order_2026["Franchise"]
+    .map(
+        lambda team: KEEPERS_2026.get(
+            team,
+            {},
+        ).get(
+            "acquisition",
+            "—",
+        )
+    )
+)
+
+
+draft_order_2026 = draft_order_2026[
+    [
+        "Draft Position",
+        "Franchise",
+        "2026 Keeper",
+        "2025 Acquisition",
+        "Keeper Round",
+        "Keeper Status",
+    ]
+]
 
 
 # ============================================================
@@ -167,8 +282,8 @@ st.divider()
 st.header("🏈 2026 Draft Order")
 
 st.caption(
-    "The official 2026 first-round draft order. "
-    "The 2026 draft itself has not taken place yet."
+    "The official 2026 first-round draft order, including keeper selections "
+    "that have already been submitted. The 2026 draft itself has not taken place yet."
 )
 
 st.dataframe(
@@ -179,6 +294,12 @@ st.dataframe(
         "Draft Position":
             st.column_config.NumberColumn(
                 "Draft Position",
+                format="%d",
+            ),
+
+        "Keeper Round":
+            st.column_config.NumberColumn(
+                "Keeper Round",
                 format="%d",
             ),
     },
