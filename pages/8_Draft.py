@@ -19,10 +19,283 @@ st.set_page_config(
     layout="wide",
 )
 
-st.title("📝 Draft History")
-st.caption(
-    "Every pick from every completed draft, plus the official 2026 draft order."
+
+# ============================================================
+# PAGE STYLE / LAYOUT TOGGLE
+# ============================================================
+
+draft_page_style = st.segmented_control(
+    "Draft page style",
+    options=[
+        "Current",
+        "Sports Dashboard",
+        "Clean Minimal",
+        "Mobile First",
+    ],
+    default="Current",
+    key="draft_page_style",
 )
+
+
+if draft_page_style == "Sports Dashboard":
+
+    st.markdown(
+        """
+        <style>
+        .block-container {
+            padding-top: 1.1rem;
+            padding-bottom: 2rem;
+            max-width: 1250px;
+        }
+
+        h1, h2, h3 {
+            letter-spacing: -0.02em;
+        }
+
+        [data-testid="stMetric"] {
+            border: 1px solid rgba(128,128,128,0.18);
+            border-radius: 14px;
+            padding: 0.75rem 0.85rem;
+            background: rgba(128,128,128,0.035);
+        }
+
+        [data-testid="stDataFrame"] {
+            border-radius: 14px;
+            overflow: hidden;
+        }
+
+        .draft-hero {
+            border: 1px solid rgba(128,128,128,0.18);
+            border-radius: 18px;
+            padding: 1rem 1.1rem;
+            margin: 0.65rem 0 0.8rem 0;
+            background: linear-gradient(
+                135deg,
+                rgba(128,128,128,0.08),
+                rgba(128,128,128,0.02)
+            );
+        }
+
+        .draft-eyebrow {
+            font-size: 0.78rem;
+            font-weight: 700;
+            letter-spacing: 0.10em;
+            text-transform: uppercase;
+            opacity: 0.65;
+            margin-bottom: 0.2rem;
+        }
+
+        .draft-title {
+            font-size: clamp(2rem, 5vw, 3.2rem);
+            font-weight: 800;
+            line-height: 1.0;
+            letter-spacing: -0.045em;
+            margin-bottom: 0.45rem;
+        }
+
+        .draft-subtitle {
+            font-size: 0.95rem;
+            opacity: 0.72;
+            margin: 0;
+        }
+
+        @media (max-width: 700px) {
+            .block-container {
+                padding-left: 0.7rem;
+                padding-right: 0.7rem;
+            }
+
+            [data-testid="stMetric"] {
+                padding: 0.55rem 0.65rem;
+            }
+        }
+        </style>
+
+        <div class="draft-hero">
+            <div class="draft-eyebrow">Malle's League · Draft Center</div>
+            <div class="draft-title">📝 Draft History</div>
+            <p class="draft-subtitle">
+                Historical drafts, 2026 order, keeper costs, draft-slot outcomes,
+                and franchise strategy.
+            </p>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
+elif draft_page_style == "Clean Minimal":
+
+    st.markdown(
+        """
+        <style>
+        .block-container {
+            padding-top: 1rem;
+            padding-bottom: 2rem;
+            max-width: 1080px;
+        }
+
+        h1 {
+            font-size: clamp(2rem, 6vw, 3rem) !important;
+            letter-spacing: -0.04em;
+            margin-bottom: 0.2rem !important;
+        }
+
+        h2 {
+            margin-top: 1.25rem !important;
+            letter-spacing: -0.025em;
+        }
+
+        h3 {
+            letter-spacing: -0.02em;
+        }
+
+        hr {
+            margin-top: 1.1rem !important;
+            margin-bottom: 1.1rem !important;
+            opacity: 0.35;
+        }
+
+        [data-testid="stMetric"] {
+            padding: 0.15rem 0;
+        }
+
+        [data-testid="stMetricLabel"] {
+            font-size: 0.78rem;
+            opacity: 0.65;
+        }
+
+        [data-testid="stMetricValue"] {
+            font-size: 1.55rem;
+        }
+
+        [data-testid="stDataFrame"] {
+            border-top: 1px solid rgba(128,128,128,0.16);
+            border-bottom: 1px solid rgba(128,128,128,0.16);
+        }
+
+        @media (max-width: 700px) {
+            .block-container {
+                padding-left: 0.65rem;
+                padding-right: 0.65rem;
+            }
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    st.title("Draft History")
+    st.caption(
+        "2018–2025 completed drafts · official 2026 order · keeper submissions · "
+        "draft-slot results · franchise tendencies"
+    )
+
+
+elif draft_page_style == "Mobile First":
+
+    st.markdown(
+        """
+        <style>
+        .block-container {
+            padding-top: 0.65rem;
+            padding-bottom: 2rem;
+            max-width: 980px;
+        }
+
+        h1 {
+            font-size: 2rem !important;
+            margin-bottom: 0.1rem !important;
+        }
+
+        h2 {
+            font-size: 1.5rem !important;
+            margin-top: 1rem !important;
+        }
+
+        h3 {
+            font-size: 1.12rem !important;
+        }
+
+        [data-testid="stMetric"] {
+            border-radius: 12px;
+            border: 1px solid rgba(128,128,128,0.16);
+            padding: 0.5rem 0.6rem;
+        }
+
+        [data-testid="stDataFrame"] {
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .mobile-hero {
+            padding: 0.25rem 0 0.65rem 0;
+        }
+
+        .mobile-kicker {
+            font-size: 0.76rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            opacity: 0.6;
+        }
+
+        .mobile-title {
+            font-size: 2rem;
+            line-height: 1.05;
+            font-weight: 800;
+            letter-spacing: -0.04em;
+            margin: 0.1rem 0 0.3rem 0;
+        }
+
+        .mobile-subtitle {
+            font-size: 0.9rem;
+            opacity: 0.72;
+            margin: 0;
+        }
+
+        @media (max-width: 700px) {
+            .block-container {
+                padding-left: 0.45rem;
+                padding-right: 0.45rem;
+            }
+
+            [data-testid="stHorizontalBlock"] {
+                gap: 0.35rem;
+            }
+
+            [data-testid="stMetric"] {
+                padding: 0.45rem 0.5rem;
+            }
+
+            [data-testid="stMetricLabel"] {
+                font-size: 0.72rem;
+            }
+
+            [data-testid="stMetricValue"] {
+                font-size: 1.25rem;
+            }
+        }
+        </style>
+
+        <div class="mobile-hero">
+            <div class="mobile-kicker">Malle's League</div>
+            <div class="mobile-title">2026 Draft Center</div>
+            <p class="mobile-subtitle">
+                Current order first. Historical draft data and strategy below.
+            </p>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
+else:
+
+    st.title("📝 Draft History")
+    st.caption(
+        "Every pick from every completed draft, plus the official 2026 draft order."
+    )
 
 
 # ============================================================
@@ -39,9 +312,14 @@ ALL_STANDINGS_FILE = BASE_DIR / "data" / "all_standings.csv"
 # COMPACT / MOBILE-FRIENDLY TABLES
 # ============================================================
 
-COMPACT_TABLE_ROW_HEIGHT = 26
+if draft_page_style == "Mobile First":
+    COMPACT_TABLE_ROW_HEIGHT = 24
+    COMPACT_TABLE_HEADER_HEIGHT = 34
+else:
+    COMPACT_TABLE_ROW_HEIGHT = 26
+    COMPACT_TABLE_HEADER_HEIGHT = 38
+
 COMPACT_TABLE_MAX_VISIBLE_ROWS = 12
-COMPACT_TABLE_HEADER_HEIGHT = 38
 
 
 def compact_dataframe(
@@ -306,6 +584,17 @@ players = sorted(
 
 
 # ============================================================
+# MOBILE-FIRST CURRENT-SEASON SPOTLIGHT
+# ============================================================
+
+if draft_page_style == "Mobile First":
+    st.info(
+        "The 2026 draft order and submitted keepers are shown immediately below "
+        "the league summary. Tables use the tightest row spacing in this mode."
+    )
+
+
+# ============================================================
 # SUMMARY CARDS
 # ============================================================
 
@@ -337,6 +626,12 @@ c4.metric(
     drafts["player"].nunique(),
 )
 
+if draft_page_style == "Sports Dashboard":
+    st.caption(
+        "Draft Center · Season History · Franchise History · Player History · "
+        "Draft Position · Draft Strategy · Franchise Tendencies"
+    )
+
 
 # ============================================================
 # 2026 DRAFT ORDER
@@ -344,7 +639,7 @@ c4.metric(
 
 st.divider()
 
-st.header("🏈 2026 Draft Order")
+st.header("2026 Draft Order" if draft_page_style == "Clean Minimal" else "🏈 2026 Draft Order")
 
 st.caption(
     "The official 2026 first-round draft order, including keeper selections "
@@ -1182,7 +1477,7 @@ st.caption(
 
 st.divider()
 
-st.header("🏆 Where Did Champions Draft?")
+st.header("Where Champions Drafted" if draft_page_style == "Clean Minimal" else "🏆 Where Did Champions Draft?")
 
 CHAMPIONSHIPS_FILE = (
     BASE_DIR
@@ -1351,7 +1646,7 @@ st.caption(
 
 st.divider()
 
-st.header("📊 Does Draft Position Matter?")
+st.header("Draft Position Outcomes" if draft_page_style == "Clean Minimal" else "📊 Does Draft Position Matter?")
 
 PLAYOFF_APPEARANCES_FILE = (
     BASE_DIR
@@ -1717,7 +2012,7 @@ st.info(
 
 st.divider()
 
-st.header("🧠 Draft Strategy by Finish")
+st.header("Draft Strategy by Finish" if draft_page_style == "Clean Minimal" else "🧠 Draft Strategy by Finish")
 
 st.caption(
     "Compare when teams addressed each roster-building milestone. "
@@ -2138,7 +2433,7 @@ try:
 
     st.divider()
 
-    st.header("🏗️ Franchise Draft Tendencies")
+    st.header("Franchise Draft Tendencies" if draft_page_style == "Clean Minimal" else "🏗️ Franchise Draft Tendencies")
 
     st.caption(
         "How each franchise historically built its roster, measured by the "
