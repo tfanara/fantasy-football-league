@@ -36,6 +36,71 @@ ALL_STANDINGS_FILE = BASE_DIR / "data" / "all_standings.csv"
 
 
 # ============================================================
+# COMPACT / MOBILE-FRIENDLY TABLES
+# ============================================================
+
+COMPACT_TABLE_ROW_HEIGHT = 26
+COMPACT_TABLE_MAX_VISIBLE_ROWS = 12
+COMPACT_TABLE_HEADER_HEIGHT = 38
+
+
+def compact_dataframe(
+    data,
+    *,
+    hide_index=False,
+    use_container_width=True,
+    column_config=None,
+    height=None,
+    max_visible_rows=COMPACT_TABLE_MAX_VISIBLE_ROWS,
+    **kwargs,
+):
+    """
+    Mobile-friendly Streamlit dataframe wrapper.
+
+    - Uses shorter rows so more data fits on screen.
+    - Tables with 12 or fewer rows display all rows without
+      vertical scrolling.
+    - Larger tables display up to 12 rows before scrolling.
+    """
+
+    try:
+        row_count = len(data)
+    except TypeError:
+        row_count = max_visible_rows
+
+    if height is None:
+        visible_rows = min(max(row_count, 1), max_visible_rows)
+        height = (
+            COMPACT_TABLE_HEADER_HEIGHT
+            + (visible_rows * COMPACT_TABLE_ROW_HEIGHT)
+            + 4
+        )
+
+    dataframe_kwargs = dict(
+        hide_index=hide_index,
+        use_container_width=use_container_width,
+        height=height,
+        column_config=column_config,
+        **kwargs,
+    )
+
+    # row_height is supported by current Streamlit versions.
+    # The fallback prevents an older Streamlit install from
+    # breaking the page.
+    try:
+        return st.dataframe(
+            data,
+            row_height=COMPACT_TABLE_ROW_HEIGHT,
+            **dataframe_kwargs,
+        )
+    except TypeError:
+        return st.dataframe(
+            data,
+            **dataframe_kwargs,
+        )
+
+
+# ============================================================
 # 2026 DRAFT ORDER
 # ============================================================
 
@@ -286,21 +351,47 @@ st.caption(
     "that have already been submitted. The 2026 draft itself has not taken place yet."
 )
 
-st.dataframe(
+compact_dataframe(
     draft_order_2026,
     hide_index=True,
     use_container_width=True,
     column_config={
         "Draft Position":
             st.column_config.NumberColumn(
-                "Draft Position",
+                "Pos",
                 format="%d",
+                width="small",
+            ),
+
+        "Franchise":
+            st.column_config.TextColumn(
+                "Franchise",
+                width="medium",
+            ),
+
+        "2026 Keeper":
+            st.column_config.TextColumn(
+                "Keeper",
+                width="medium",
+            ),
+
+        "2025 Acquisition":
+            st.column_config.TextColumn(
+                "Acquired",
+                width="medium",
             ),
 
         "Keeper Round":
             st.column_config.NumberColumn(
-                "Keeper Round",
+                "Rd",
                 format="%d",
+                width="small",
+            ),
+
+        "Keeper Status":
+            st.column_config.TextColumn(
+                "Status",
+                width="medium",
             ),
     },
 )
@@ -369,7 +460,7 @@ first_round_display = (
 )
 
 
-st.dataframe(
+compact_dataframe(
     first_round_display,
     hide_index=True,
     use_container_width=True,
@@ -447,7 +538,7 @@ if view_mode == "Round":
     )
 
 
-    st.dataframe(
+    compact_dataframe(
         round_display,
         hide_index=True,
         use_container_width=True,
@@ -507,7 +598,7 @@ else:
     )
 
 
-    st.dataframe(
+    compact_dataframe(
         team_display,
         hide_index=True,
         use_container_width=True,
@@ -544,7 +635,7 @@ draft_order = (
 )
 
 
-st.dataframe(
+compact_dataframe(
     draft_order,
     hide_index=True,
     use_container_width=True,
@@ -657,7 +748,7 @@ franchise_firsts_display = (
 )
 
 
-st.dataframe(
+compact_dataframe(
     franchise_firsts_display,
     hide_index=True,
     use_container_width=True,
@@ -767,7 +858,7 @@ player_display = (
 )
 
 
-st.dataframe(
+compact_dataframe(
     player_display,
     hide_index=True,
     use_container_width=True,
@@ -867,7 +958,7 @@ repeat_display = (
 )
 
 
-st.dataframe(
+compact_dataframe(
     repeat_display,
     hide_index=True,
     use_container_width=True,
@@ -970,7 +1061,7 @@ loyalty_display = (
 )
 
 
-st.dataframe(
+compact_dataframe(
     loyalty_display,
     hide_index=True,
     use_container_width=True,
@@ -1065,7 +1156,7 @@ position_pivot = (
 )
 
 
-st.dataframe(
+compact_dataframe(
     position_pivot,
     use_container_width=True,
     column_config={
@@ -1232,7 +1323,7 @@ c3.metric(
 )
 
 
-st.dataframe(
+compact_dataframe(
     champion_draft_positions,
     hide_index=True,
     use_container_width=True,
@@ -1530,7 +1621,7 @@ slot_stats = (
 )
 
 
-st.dataframe(
+compact_dataframe(
     slot_stats,
     hide_index=True,
     use_container_width=True,
@@ -1946,7 +2037,7 @@ try:
             },
         }
 
-    st.dataframe(
+    compact_dataframe(
         strategy_finish_display,
         hide_index=True,
         use_container_width=True,
@@ -2006,7 +2097,7 @@ try:
             "1st DEF": st.column_config.NumberColumn(format="%.1f"),
         }
 
-    st.dataframe(
+    compact_dataframe(
         special_display,
         hide_index=True,
         use_container_width=True,
@@ -2030,7 +2121,7 @@ try:
             .sort_values("Season", ascending=False)
         )
 
-        st.dataframe(
+        compact_dataframe(
             cellar_display,
             hide_index=True,
             use_container_width=True,
@@ -2161,7 +2252,7 @@ try:
             ),
         }
 
-    st.dataframe(
+    compact_dataframe(
         franchise_comparison_display,
         hide_index=True,
         use_container_width=True,
@@ -2222,7 +2313,7 @@ try:
             },
         }
 
-    st.dataframe(
+    compact_dataframe(
         year_by_year_display,
         hide_index=True,
         use_container_width=True,
@@ -2261,7 +2352,7 @@ try:
             for display in comparison_metrics.values()
         }
 
-    st.dataframe(
+    compact_dataframe(
         franchise_average_display,
         hide_index=True,
         use_container_width=True,
