@@ -41,6 +41,11 @@ PLAYER_WEEK_DIR = (
     / "player_week_stats"
 )
 
+WEEKLY_LINEUPS_FILE = (
+    PLAYER_WEEK_DIR
+    / "all_weekly_lineups_2018_2025.csv"
+)
+
 LUCK_DIR = PLAYER_WEEK_DIR / "analysis"
 
 LUCK_SEASON_FILE = LUCK_DIR / "luck_season.csv"
@@ -61,6 +66,7 @@ def load_data():
     playoff_records = pd.read_csv(PLAYOFF_RECORDS_FILE)
     playoff_appearances = pd.read_csv(PLAYOFF_APPEARANCES_FILE)
     championships = pd.read_csv(CHAMPIONSHIPS_FILE)
+    weekly_lineups = pd.read_csv(WEEKLY_LINEUPS_FILE)
     luck_season = pd.read_csv(LUCK_SEASON_FILE)
     luck_all_time = pd.read_csv(LUCK_ALL_TIME_FILE)
 
@@ -71,6 +77,7 @@ def load_data():
         playoff_records,
         playoff_appearances,
         championships,
+        weekly_lineups,
         luck_season,
         luck_all_time,
     )
@@ -85,6 +92,7 @@ try:
         playoff_records,
         playoff_appearances,
         championships,
+        weekly_lineups,
         luck_season,
         luck_all_time,
     ) = load_data()
@@ -187,6 +195,44 @@ team_luck_all_time = (
     ]
     .copy()
 )
+
+
+# Player scoring is based on points that actually counted:
+# regular-season STARTERS only.
+team_player_history = (
+    weekly_lineups[
+        weekly_lineups["fantasy_team"] == selected_team
+    ]
+    .copy()
+)
+
+if not team_player_history.empty:
+
+    team_player_history["fantasy_points"] = pd.to_numeric(
+        team_player_history["fantasy_points"],
+        errors="coerce",
+    )
+
+    if "is_starter" in team_player_history.columns:
+
+        starter_flag = (
+            team_player_history["is_starter"]
+            .astype(str)
+            .str.strip()
+            .str.lower()
+            .isin(["true", "1", "yes"])
+        )
+
+        team_player_history = team_player_history[
+            starter_flag
+        ].copy()
+
+    team_player_history = team_player_history[
+        team_player_history["player"]
+        .astype(str)
+        .str.strip()
+        .ne("(Empty)")
+    ].copy()
 
 
 # ============================================================
@@ -295,6 +341,192 @@ c4.metric(
     f"{team_all_time['point_diff']:+,.2f}",
 )
 
+
+
+# ============================================================
+# FRANCHISE PLAYER SCORING LEADERS
+# ============================================================
+
+st.divider()
+
+st.header("Franchise Player Leaders")
+
+st.caption(
+    "Career player points are fantasy points that actually counted in this "
+    "franchise's starting lineup during the regular season."
+)
+
+
+if team_player_history.empty:
+
+    st.info(
+        "No validated weekly player history is available for this franchise."
+    )
+
+else:
+
+    player_leaders = (
+        team_player_history
+        .groupby("player", as_index=False)
+        .agg(
+            career_points=(
+                "fantasy_points",
+                "sum",
+            ),
+            starts=(
+                "player",
+                "size",
+            ),
+            seasons=(
+                "year",
+                "nunique",
+            ),
+            best_game=(
+                "fantasy_points",
+                "max",
+            ),
+        )
+    )
+
+    player_leaders["points_per_start"] = (
+        player_leaders["career_points"]
+        / player_leaders["starts"]
+    )
+
+    player_leaders = player_leaders.sort_values(
+        [
+            "career_points",
+            "starts",
+        ],
+        ascending=[
+            False,
+            False,
+        ],
+    ).reset_index(drop=True)
+
+    leading_scorer = player_leaders.iloc[0]
+
+    most_starts = (
+        player_leaders
+        .sort_values(
+            [
+                "starts",
+                "career_points",
+            ],
+            ascending=[
+                False,
+                False,
+            ],
+        )
+        .iloc[0]
+    )
+
+    best_single_game_player_row = (
+        team_player_history
+        .sort_values(
+            "fantasy_points",
+            ascending=False,
+        )
+        .iloc[0]
+    )
+
+    c1, c2, c3 = st.columns(3)
+
+    with c1:
+
+        st.metric(
+            "👑 All-Time Leading Scorer",
+            leading_scorer["player"],
+            f"{leading_scorer['career_points']:,.2f} points",
+        )
+
+        st.caption(
+            f"{int(leading_scorer['starts'])} starts • "
+            f"{leading_scorer['points_per_start']:.2f} pts/start • "
+            f"{int(leading_scorer['seasons'])} seasons"
+        )
+
+    with c2:
+
+        st.metric(
+            "Most Starts",
+            most_starts["player"],
+            f"{int(most_starts['starts'])} starts",
+        )
+
+        st.caption(
+            f"{most_starts['career_points']:,.2f} career points"
+        )
+
+    with c3:
+
+        st.metric(
+            "Best Player Game",
+            best_single_game_player_row["player"],
+            f"{best_single_game_player_row['fantasy_points']:.2f} points",
+        )
+
+        st.caption(
+            f"{int(best_single_game_player_row['year'])} "
+            f"Week {int(best_single_game_player_row['week'])} "
+            f"vs {best_single_game_player_row['opponent']}"
+        )
+
+
+    st.subheader("All-Time Franchise Scoring Leaders")
+
+    leaders_table = (
+        player_leaders
+        .head(10)
+        .copy()
+    )
+
+    leaders_table.insert(
+        0,
+        "Rank",
+        range(
+            1,
+            len(leaders_table) + 1,
+        ),
+    )
+
+    leaders_table = leaders_table.rename(
+        columns={
+            "player": "Player",
+            "career_points": "Career Points",
+            "starts": "Starts",
+            "seasons": "Seasons",
+            "points_per_start": "Pts / Start",
+            "best_game": "Best Game",
+        }
+    )
+
+    st.dataframe(
+        leaders_table[
+            [
+                "Rank",
+                "Player",
+                "Career Points",
+                "Starts",
+                "Seasons",
+                "Pts / Start",
+                "Best Game",
+            ]
+        ],
+        hide_index=True,
+        use_container_width=True,
+        column_config={
+            "Career Points": st.column_config.NumberColumn(
+                format="%.2f",
+            ),
+            "Pts / Start": st.column_config.NumberColumn(
+                format="%.2f",
+            ),
+            "Best Game": st.column_config.NumberColumn(
+                format="%.2f",
+            ),
+        },
+    )
 
 
 # ============================================================
