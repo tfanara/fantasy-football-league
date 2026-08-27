@@ -7,3 +7,4 @@ yahoo_credentials.json
 .vscode/
 __pycache__/
 *.pyc
+.streamlit/secrets.toml
