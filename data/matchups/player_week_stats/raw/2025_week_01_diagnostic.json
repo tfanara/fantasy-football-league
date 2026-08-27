@@ -1,0 +1,425 @@
+{
+  "year": 2025,
+  "week": 1,
+  "url": "https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=1",
+  "title": "Fantasy Football | Yahoo! Sports",
+  "parsed_player_rows": 34,
+  "tables": [
+    {
+      "table_index": 0,
+      "headers": [],
+      "row_count": 4,
+      "is_matchup_roster_table": false,
+      "preview": "93.92 Points 117.12 111.16 Orig Proj 119.74"
+    },
+    {
+      "table_index": 1,
+      "headers": [
+        "Stats",
+        "Player",
+        "Proj",
+        "Fan Pts",
+        "Pos",
+        "Pos",
+        "Pos",
+        "Fan Pts",
+        "Proj",
+        "Player",
+        "Stats"
+      ],
+      "row_count": 10,
+      "is_matchup_roster_table": true,
+      "preview": "Stats Player Proj Fan Pts Pos Fan Pts Proj Player Stats 1 Pass TD, 113 Pass Yds, 3 Rush Yds Joe BurrowVideo Forecast Final W 17-16 @ Cle 23.99 10.82 QB 22.32 20.24 Kyler MurrayVideo Forecast Final W 27-24 @ Chi 2 Pass TD, 163 Pass Yds, 38 Rush Yds 27 Rec Yds, 2 Rec Terry McLaurinVideo Forecast Final W 21-6 vs NYG 10.88 3.70 WR 14.90 14.26 Jaxon Smith-NjigbaVideo Forecast Final L 13-17 vs SF 124 Rec Yds, 9 Rec, 1 Fum Lost 30 Rec Yds, 4 Rec Jaylen WaddleVideo Forecast Final W 20-12 vs Ten 11.22 5.00 WR 18.10 14.87 Puka NacuaVideo Forecast  Final W 14-9 vs Hou 130 Rec Yds, 10 Rec, 1 Rush Yds 73 Rec Yds, 69 Rush Yds, 9 Rec Christian McCaffreyVideo Forecast Final W 17-13 @ Sea 15.26 18.70 RB 12."
+    },
+    {
+      "table_index": 2,
+      "headers": [
+        "Stats",
+        "Player",
+        "Proj",
+        "Fan Pts",
+        "Pos",
+        "Pos",
+        "Pos",
+        "Fan Pts",
+        "Proj",
+        "Player",
+        "Stats"
+      ],
+      "row_count": 7,
+      "is_matchup_roster_table": true,
+      "preview": "Stats Player Proj Fan Pts Pos Fan Pts Proj Player Stats 66 Rec Yds, 5 Rec Jerry JeudyVideo Forecast Final L 16-17 vs Cin 12.60 9.10 BN 6.30 9.75 David MontgomeryVideo Forecast Final L 9-14 @ LAR 25 Rush Yds, 4 Rec, 18 Rec Yds 16 Rec Yds, 2 Rec Matthew GoldenVideo Forecast Final W 27-13 vs Det 9.43 2.60 BN 12.90 10.77 Jaylen WarrenVideo Forecast Final W 34-32 @ NYJ 1 Rec TD, 37 Rush Yds, 22 Rec Yds 11 Rush Yds Bhayshul TutenVideo Forecast Final W 26-10 vs Car 4.93 1.10 BN 16.30 7.71 Keenan AllenVideo Forecast Final W 33-8 vs Mia 68 Rec Yds, 1 Rec TD, 7 Rec 1 Rush TD, 47 Rush Yds Zach CharbonnetVideo Forecast  Final L 13-17 vs SF 8.16 10.70 BN 2.40 5.36 Tyler AllgeierVideo Forecast Final W 20"
+    },
+    {
+      "table_index": 3,
+      "headers": [
+        "Stat",
+        "",
+        "Pts Per",
+        "Fan Pts"
+      ],
+      "row_count": 4,
+      "is_matchup_roster_table": false,
+      "preview": "Stat Pts Per Fan Pts Passing Yards 113 0.04 4.52 Passing Touchdowns 1 6.00 6.00 Rushing Yards 3 0.10 0.30 Total 10.82"
+    },
+    {
+      "table_index": 4,
+      "headers": [
+        "Stat",
+        "",
+        "Pts Per",
+        "Fan Pts"
+      ],
+      "row_count": 3,
+      "is_matchup_roster_table": false,
+      "preview": "Stat Pts Per Fan Pts Receptions 2 0.50 1.00 Receiving Yards 27 0.10 2.70 Total 3.70"
+    },
+    {
+      "table_index": 5,
+      "headers": [
+        "Stat",
+        "",
+        "Pts Per",
+        "Fan Pts"
+      ],
+      "row_count": 3,
+      "is_matchup_roster_table": false,
+      "preview": "Stat Pts Per Fan Pts Receptions 4 0.50 2.00 Receiving Yards 30 0.10 3.00 Total 5.00"
+    },
+    {
+      "table_index": 6,
+      "headers": [
+        "Stat",
+        "",
+        "Pts Per",
+        "Fan Pts"
+      ],
+      "row_count": 4,
+      "is_matchup_roster_table": false,
+      "preview": "Stat Pts Per Fan Pts Rushing Yards 69 0.10 6.90 Receptions 9 0.50 4.50 Receiving Yards 73 0.10 7.30 Total 18.70"
+    },
+    {
+      "table_index": 7,
+      "headers": [
+        "Stat",
+        "",
+        "Pts Per",
+        "Fan Pts"
+      ],
+      "row_count": 4,
+      "is_matchup_roster_table": false,
+      "preview": "Stat Pts Per Fan Pts Rushing Yards 71 0.10 7.10 Receptions 3 0.50 1.50 Receiving Yards 27 0.10 2.70 Total 11.30"
+    },
+    {
+      "table_index": 8,
+      "headers": [
+        "Stat",
+        "",
+        "Pts Per",
+        "Fan Pts"
+      ],
+      "row_count": 4,
+      "is_matchup_roster_table": false,
+      "preview": "Stat Pts Per Fan Pts Receptions 4 0.50 2.00 Receiving Yards 48 0.10 4.80 Receiving Touchdowns 1 6.00 6.00 Total 12.80"
+    },
+    {
+      "table_index": 9,
+      "headers": [
+        "Stat",
+        "",
+        "Pts Per",
+        "Fan Pts"
+      ],
+      "row_count": 5,
+      "is_matchup_roster_table": false,
+      "preview": "Stat Pts Per Fan Pts Rushing Yards 9 0.10 0.90 Receptions 4 0.50 2.00 Receiving Yards 67 0.10 6.70 Receiving Touchdowns 2 6.00 12.00 Total 21.60"
+    },
+    {
+      "table_index": 10,
+      "headers": [
+        "Stat",
+        "",
+        "Pts Per",
+        "Fan Pts"
+      ],
+      "row_count": 3,
+      "is_matchup_roster_table": false,
+      "preview": "Stat Pts Per Fan Pts Field Goals 30-39 Yards 2 3.00 6.00 Point After Attempt Made 2 1.00 2.00 Total 8.00"
+    },
+    {
+      "table_index": 11,
+      "headers": [
+        "Stat",
+        "",
+        "Pts Per",
+        "Fan Pts"
+      ],
+      "row_count": 4,
+      "is_matchup_roster_table": false,
+      "preview": "Stat Pts Per Fan Pts Sack 1 1.00 1.00 Fumble Recovery 1 2.00 2.00 Points Allowed 28-34 points 1 -1.00 -1.00 Total 2.00"
+    },
+    {
+      "table_index": 12,
+      "headers": [
+        "Stat",
+        "",
+        "Pts Per",
+        "Fan Pts"
+      ],
+      "row_count": 4,
+      "is_matchup_roster_table": false,
+      "preview": "Stat Pts Per Fan Pts Passing Yards 163 0.04 6.52 Passing Touchdowns 2 6.00 12.00 Rushing Yards 38 0.10 3.80 Total 22.32"
+    },
+    {
+      "table_index": 13,
+      "headers": [
+        "Stat",
+        "",
+        "Pts Per",
+        "Fan Pts"
+      ],
+      "row_count": 4,
+      "is_matchup_roster_table": false,
+      "preview": "Stat Pts Per Fan Pts Receptions 9 0.50 4.50 Receiving Yards 124 0.10 12.40 Fumbles Lost 1 -2.00 -2.00 Total 14.90"
+    },
+    {
+      "table_index": 14,
+      "headers": [
+        "Stat",
+        "",
+        "Pts Per",
+        "Fan Pts"
+      ],
+      "row_count": 4,
+      "is_matchup_roster_table": false,
+      "preview": "Stat Pts Per Fan Pts Rushing Yards 1 0.10 0.10 Receptions 10 0.50 5.00 Receiving Yards 130 0.10 13.00 Total 18.10"
+    },
+    {
+      "table_index": 15,
+      "headers": [
+        "Stat",
+        "",
+        "Pts Per",
+        "Fan Pts"
+      ],
+      "row_count": 5,
+      "is_matchup_roster_table": false,
+      "preview": "Stat Pts Per Fan Pts Rushing Yards 43 0.10 4.30 Rushing Touchdowns 1 6.00 6.00 Receptions 2 0.50 1.00 Receiving Yards 8 0.10 0.80 Total 12.10"
+    },
+    {
+      "table_index": 16,
+      "headers": [
+        "Stat",
+        "",
+        "Pts Per",
+        "Fan Pts"
+      ],
+      "row_count": 5,
+      "is_matchup_roster_table": false,
+      "preview": "Stat Pts Per Fan Pts Rushing Yards 45 0.10 4.50 Rushing Touchdowns 1 6.00 6.00 Receptions 2 0.50 1.00 Receiving Yards 12 0.10 1.20 Total 12.70"
+    },
+    {
+      "table_index": 17,
+      "headers": [
+        "Stat",
+        "",
+        "Pts Per",
+        "Fan Pts"
+      ],
+      "row_count": 3,
+      "is_matchup_roster_table": false,
+      "preview": "Stat Pts Per Fan Pts Receptions 3 0.50 1.50 Receiving Yards 37 0.10 3.70 Total 5.20"
+    },
+    {
+      "table_index": 18,
+      "headers": [
+        "Stat",
+        "",
+        "Pts Per",
+        "Fan Pts"
+      ],
+      "row_count": 5,
+      "is_matchup_roster_table": false,
+      "preview": "Stat Pts Per Fan Pts Rushing Yards 4 0.10 0.40 Receptions 4 0.50 2.00 Receiving Yards 44 0.10 4.40 Receiving Touchdowns 1 6.00 6.00 Total 12.80"
+    },
+    {
+      "table_index": 19,
+      "headers": [
+        "Stat",
+        "",
+        "Pts Per",
+        "Fan Pts"
+      ],
+      "row_count": 3,
+      "is_matchup_roster_table": false,
+      "preview": "Stat Pts Per Fan Pts Field Goals 50+ Yards 2 5.00 10.00 Point After Attempt Made 4 1.00 4.00 Total 14.00"
+    },
+    {
+      "table_index": 20,
+      "headers": [
+        "Stat",
+        "",
+        "Pts Per",
+        "Fan Pts"
+      ],
+      "row_count": 4,
+      "is_matchup_roster_table": false,
+      "preview": "Stat Pts Per Fan Pts Sack 2 1.00 2.00 Fumble Recovery 1 2.00 2.00 Points Allowed 14-20 points 1 1.00 1.00 Total 5.00"
+    },
+    {
+      "table_index": 21,
+      "headers": [
+        "Stat",
+        "",
+        "Pts Per",
+        "Fan Pts"
+      ],
+      "row_count": 3,
+      "is_matchup_roster_table": false,
+      "preview": "Stat Pts Per Fan Pts Receptions 5 0.50 2.50 Receiving Yards 66 0.10 6.60 Total 9.10"
+    },
+    {
+      "table_index": 22,
+      "headers": [
+        "Stat",
+        "",
+        "Pts Per",
+        "Fan Pts"
+      ],
+      "row_count": 3,
+      "is_matchup_roster_table": false,
+      "preview": "Stat Pts Per Fan Pts Receptions 2 0.50 1.00 Receiving Yards 16 0.10 1.60 Total 2.60"
+    },
+    {
+      "table_index": 23,
+      "headers": [
+        "Stat",
+        "",
+        "Pts Per",
+        "Fan Pts"
+      ],
+      "row_count": 2,
+      "is_matchup_roster_table": false,
+      "preview": "Stat Pts Per Fan Pts Rushing Yards 11 0.10 1.10 Total 1.10"
+    },
+    {
+      "table_index": 24,
+      "headers": [
+        "Stat",
+        "",
+        "Pts Per",
+        "Fan Pts"
+      ],
+      "row_count": 3,
+      "is_matchup_roster_table": false,
+      "preview": "Stat Pts Per Fan Pts Rushing Yards 47 0.10 4.70 Rushing Touchdowns 1 6.00 6.00 Total 10.70"
+    },
+    {
+      "table_index": 25,
+      "headers": [
+        "Stat",
+        "",
+        "Pts Per",
+        "Fan Pts"
+      ],
+      "row_count": 7,
+      "is_matchup_roster_table": false,
+      "preview": "Stat Pts Per Fan Pts Passing Yards 143 0.04 5.72 Passing Touchdowns 2 6.00 12.00 Interceptions 1 -1.00 -1.00 Rushing Yards 25 0.10 2.50 Rushing Touchdowns 1 6.00 6.00 2-Point Conversions 1 2.00 2.00 Total 27.22"
+    },
+    {
+      "table_index": 26,
+      "headers": [
+        "Stat",
+        "",
+        "Pts Per",
+        "Fan Pts"
+      ],
+      "row_count": 3,
+      "is_matchup_roster_table": false,
+      "preview": "Stat Pts Per Fan Pts Receptions 5 0.50 2.50 Receiving Yards 61 0.10 6.10 Total 8.60"
+    },
+    {
+      "table_index": 27,
+      "headers": [
+        "Stat",
+        "",
+        "Pts Per",
+        "Fan Pts"
+      ],
+      "row_count": 4,
+      "is_matchup_roster_table": false,
+      "preview": "Stat Pts Per Fan Pts Rushing Yards 25 0.10 2.50 Receptions 4 0.50 2.00 Receiving Yards 18 0.10 1.80 Total 6.30"
+    },
+    {
+      "table_index": 28,
+      "headers": [
+        "Stat",
+        "",
+        "Pts Per",
+        "Fan Pts"
+      ],
+      "row_count": 5,
+      "is_matchup_roster_table": false,
+      "preview": "Stat Pts Per Fan Pts Rushing Yards 37 0.10 3.70 Receptions 2 0.50 1.00 Receiving Yards 22 0.10 2.20 Receiving Touchdowns 1 6.00 6.00 Total 12.90"
+    },
+    {
+      "table_index": 29,
+      "headers": [
+        "Stat",
+        "",
+        "Pts Per",
+        "Fan Pts"
+      ],
+      "row_count": 4,
+      "is_matchup_roster_table": false,
+      "preview": "Stat Pts Per Fan Pts Receptions 7 0.50 3.50 Receiving Yards 68 0.10 6.80 Receiving Touchdowns 1 6.00 6.00 Total 16.30"
+    },
+    {
+      "table_index": 30,
+      "headers": [
+        "Stat",
+        "",
+        "Pts Per",
+        "Fan Pts"
+      ],
+      "row_count": 2,
+      "is_matchup_roster_table": false,
+      "preview": "Stat Pts Per Fan Pts Rushing Yards 24 0.10 2.40 Total 2.40"
+    },
+    {
+      "table_index": 31,
+      "headers": [
+        "Stat",
+        "",
+        "Pts Per",
+        "Fan Pts"
+      ],
+      "row_count": 5,
+      "is_matchup_roster_table": false,
+      "preview": "Stat Pts Per Fan Pts Passing Yards 218 0.04 8.72 Passing Touchdowns 1 6.00 6.00 Rushing Yards 48 0.10 4.80 Rushing Touchdowns 2 6.00 12.00 Total 31.52"
+    },
+    {
+      "table_index": 32,
+      "headers": [
+        "Stat",
+        "",
+        "Pts Per",
+        "Fan Pts"
+      ],
+      "row_count": 3,
+      "is_matchup_roster_table": false,
+      "preview": "Stat Pts Per Fan Pts Receptions 3 0.50 1.50 Receiving Yards 19 0.10 1.90 Total 3.40"
+    },
+    {
+      "table_index": 33,
+      "headers": [
+        "Tim View Profile",
+        "Category",
+        "Jacob View Profile"
+      ],
+      "row_count": 9,
+      "is_matchup_roster_table": false,
+      "preview": "Tim View Profile Category Jacob View Profile Bronze Level Bronze 534 Current Rating 592 82-124-0 Record (W-L-T) 245-166-0 .398 Winning % .596 2 Trophies Won 11 0 First Place Trophies 4 Bronze (9x) Best Season Finish Diamond (3x) 2008 Playing Since * 2008 13 Teams Managed 26"
+    }
+  ]
+}

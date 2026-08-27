@@ -1,0 +1,2 @@
+year,week,target_team_1,target_team_1_score,target_team_2,target_team_2_score,yahoo_team_id,source_url,table_index,row_index,lineup_slot,player,fantasy_points_best_effort,is_starter,is_bench,is_ir,raw_row_text
+2022,3,Uncle Rico,114.08,Patty Primetimes,89.66,11,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=3&mid1=11,2,1,BN,Jakobi Meyers Final W 38-10 @ LAC,8.12,False,True,False,"Jakobi Meyers Final W 38-10 @ LAC | 0.00 | 0.00 | BN | BN | BN | 9.00 | 8.12 | Travis Etienne Jr.  Final L 14-22 @ Car | 45 Rush Yds, 30 Rec Yds, 3 Rec"

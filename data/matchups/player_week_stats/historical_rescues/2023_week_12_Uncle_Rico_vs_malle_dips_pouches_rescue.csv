@@ -1,0 +1,3 @@
+year,week,target_team_1,target_team_1_score,target_team_2,target_team_2_score,yahoo_team_id,source_url,table_index,row_index,lineup_slot,player,fantasy_points_best_effort,is_starter,is_bench,is_ir,raw_row_text
+2023,12,Uncle Rico,89.68,malle_dips_pouches,90.26,10,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=12&mid1=10,2,6,BN,(Empty),5.69,False,True,False,"(Empty) | 0.00 | – | BN | BN | BN | 4.00 | 5.69 | Buccaneers - DEF Final L 20-27 @ Ind | 2 Sack, 1 Int"
+2023,12,Uncle Rico,89.68,malle_dips_pouches,90.26,10,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=12&mid1=10,2,7,IR,(Empty),0.0,False,False,True,(Empty) | 0.00 | – | IR | IR | IR | 0.00 | 0.00 | Michael Thomas Final L 15-24 @ Atl

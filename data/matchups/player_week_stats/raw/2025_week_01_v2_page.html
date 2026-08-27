@@ -1,0 +1,34 @@
+<!DOCTYPE html><html lang="EN"><head>
+    <style></style><meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>VAIL_RESORTS_UNIFIED</title>
+    <style>
+      html,body {line-height: 1em;height: 100%;}
+      div {background-position: center;background-repeat: no-repeat;background-size: contain;}
+      body {padding: 0px;margin: 0px;}
+      #container {background-color: #ffffff;visibility: visible;position: absolute;
+          overflow: hidden;cursor: pointer;height: 100%;width: 100%;opacity: 1;left: 0px;top: 0px;}
+      #richLoad_container {position: absolute;height: 100%;width: 100%;left: 0px;top: 0px;z-index: 1;}
+      #container {
+          width:100%;
+          height:100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="richLoad_container"><ft-richload name="richload" style="width: 970px; height: 250px;"></ft-richload></div>
+    </div>
+    <script src="//cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js"></script>
+    <script>
+      myFT.insertRichload({
+        richload: "richload",
+        parent: myFT.$("#richLoad_container"),
+        height: myFT.$("#container").height(),
+        width: myFT.$("#container").width()
+      });
+    </script>
+  
+
+</body></html>

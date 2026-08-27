@@ -1,0 +1,33 @@
+year,week,fantasy_team,opponent,team_score,opponent_score,side,lineup_slot,player,projection,fantasy_points,stat_summary,is_starter,is_bench,is_ir,source_url,source_table,source_row
+2021,8,Uncle Rico,malle_dips_pouches,73.96,107.6,left,QB,Sam Darnold,21.84,11.76,,True,False,False,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=10,starters,1
+2021,8,malle_dips_pouches,Uncle Rico,107.6,73.96,right,QB,Ryan Tannehill,23.87,29.2,,True,False,False,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=10,starters,1
+2021,8,Uncle Rico,malle_dips_pouches,73.96,107.6,left,WR,Ja'Marr Chase,15.35,11.6,,True,False,False,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=10,starters,2
+2021,8,malle_dips_pouches,Uncle Rico,107.6,73.96,right,WR,A.J. Brown,15.56,26.5,,True,False,False,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=10,starters,2
+2021,8,Uncle Rico,malle_dips_pouches,73.96,107.6,left,WR,Allen Robinson,9.47,3.6,,True,False,False,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=10,starters,3
+2021,8,malle_dips_pouches,Uncle Rico,107.6,73.96,right,WR,Mike Williams,14.88,2.9,,True,False,False,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=10,starters,3
+2021,8,Uncle Rico,malle_dips_pouches,73.96,107.6,left,RB,Derrick Henry,18.91,6.8,,True,False,False,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=10,starters,4
+2021,8,malle_dips_pouches,Uncle Rico,107.6,73.96,right,RB,Aaron Jones Sr.,16.71,20.5,,True,False,False,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=10,starters,4
+2021,8,Uncle Rico,malle_dips_pouches,73.96,107.6,left,RB,Khalil Herbert,13.0,7.8,,True,False,False,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=10,starters,5
+2021,8,malle_dips_pouches,Uncle Rico,107.6,73.96,right,RB,D'Andre Swift,18.61,5.6,,True,False,False,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=10,starters,5
+2021,8,Uncle Rico,malle_dips_pouches,73.96,107.6,left,TE,Robert Tonyan,8.22,6.4,,True,False,False,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=10,starters,6
+2021,8,malle_dips_pouches,Uncle Rico,107.6,73.96,right,TE,Mo Alie-Cox,5.4,0.0,,True,False,False,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=10,starters,6
+2021,8,Uncle Rico,malle_dips_pouches,73.96,107.6,left,W/R/T,Randall Cobb,10.38,15.0,,True,False,False,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=10,starters,7
+2021,8,malle_dips_pouches,Uncle Rico,107.6,73.96,right,W/R/T,Jerry Jeudy,12.29,5.9,,True,False,False,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=10,starters,7
+2021,8,Uncle Rico,malle_dips_pouches,73.96,107.6,left,K,Graham Gano,8.26,5.0,,True,False,False,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=10,starters,8
+2021,8,malle_dips_pouches,Uncle Rico,107.6,73.96,right,K,Jason Sanders,6.76,5.0,,True,False,False,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=10,starters,8
+2021,8,Uncle Rico,malle_dips_pouches,73.96,107.6,left,DEF,49ers - DEF,8.33,6.0,,True,False,False,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=10,starters,9
+2021,8,malle_dips_pouches,Uncle Rico,107.6,73.96,right,DEF,Bills - DEF,8.91,12.0,,True,False,False,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=10,starters,9
+2021,8,Uncle Rico,malle_dips_pouches,73.96,107.6,left,BN,Antonio Brown,0.0,0.0,,False,True,False,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=10,bench,1
+2021,8,malle_dips_pouches,Uncle Rico,107.6,73.96,right,BN,Marvin Jones Jr.,11.19,6.0,,False,True,False,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=10,bench,1
+2021,8,Uncle Rico,malle_dips_pouches,73.96,107.6,left,BN,Tim Patrick,8.08,7.9,,False,True,False,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=10,bench,2
+2021,8,malle_dips_pouches,Uncle Rico,107.6,73.96,right,BN,James Conner,11.89,14.2,,False,True,False,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=10,bench,2
+2021,8,Uncle Rico,malle_dips_pouches,73.96,107.6,left,BN,Mark Andrews,0.0,,,False,True,False,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=10,bench,3
+2021,8,malle_dips_pouches,Uncle Rico,107.6,73.96,right,BN,Tyler Boyd,9.75,17.24,,False,True,False,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=10,bench,3
+2021,8,Uncle Rico,malle_dips_pouches,73.96,107.6,left,BN,Lamar Jackson,0.0,,,False,True,False,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=10,bench,4
+2021,8,malle_dips_pouches,Uncle Rico,107.6,73.96,right,BN,D'Ernest Johnson,6.67,9.4,,False,True,False,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=10,bench,4
+2021,8,Uncle Rico,malle_dips_pouches,73.96,107.6,left,BN,Latavius Murray,0.0,0.0,,False,True,False,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=10,bench,5
+2021,8,malle_dips_pouches,Uncle Rico,107.6,73.96,right,BN,Logan Thomas,0.0,0.0,,False,True,False,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=10,bench,5
+2021,8,Uncle Rico,malle_dips_pouches,73.96,107.6,left,BN,Deshaun Watson,0.0,0.0,,False,True,False,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=10,bench,6
+2021,8,malle_dips_pouches,Uncle Rico,107.6,73.96,right,BN,Giants - DEF,0.16,7.0,,False,True,False,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=10,bench,6
+2021,8,Uncle Rico,malle_dips_pouches,73.96,107.6,left,IR,Christian McCaffrey,0.0,0.0,,False,True,False,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=10,bench,7
+2021,8,malle_dips_pouches,Uncle Rico,107.6,73.96,right,IR,Kareem Hunt,0.0,0.0,,False,True,False,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=10,bench,7

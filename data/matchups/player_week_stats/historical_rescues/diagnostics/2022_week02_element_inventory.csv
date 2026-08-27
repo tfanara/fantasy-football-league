@@ -1,0 +1,189 @@
+selector,index,tag,class,href,data_pos,data_tst,text
+[data-tst],0,DIV,Mt(5px) nav-wrapper D(n)--mweb,,,product-switcher,FantasyNetworkGet Fantasy Plus
+[data-tst],1,DIALOG,_ys_17bhdbw _ys_1hf9fck _ys_1g6kj78,,,plus-upsell-modal,
+[data-tst],2,DIALOG,_ys_17bhdbw _ys_1hf9fck _ys_1g6kj78,,,plus-tier-upsell-modal,
+[data-tst],3,DIALOG,_ys_17bhdbw _ys_1hf9fck _ys_1g6kj78,,,plus-upsell-app-only-modal,"Subscribe in the appYahoo Fantasy Plus isn't available for purchase on web in your region. You may be able to subscribe in the Yahoo Fantasy app. Once subscribed, you can still use Yahoo Fantasy Plus features on web."
+[data-pos],0,SPAN,pos-label Miwpx-40 Block Nowrap,,QB,,QB
+[data-pos],1,SPAN,pos-label Miwpx-40 Block Nowrap,,QB,,QB
+[data-pos],2,SPAN,pos-label Miwpx-40 Block Nowrap,,WR,,WR
+[data-pos],3,SPAN,pos-label Miwpx-40 Block Nowrap,,WR,,WR
+[data-pos],4,SPAN,pos-label Miwpx-40 Block Nowrap,,WR,,WR
+[data-pos],5,SPAN,pos-label Miwpx-40 Block Nowrap,,WR,,WR
+[data-pos],6,SPAN,pos-label Miwpx-40 Block Nowrap,,RB,,RB
+[data-pos],7,SPAN,pos-label Miwpx-40 Block Nowrap,,RB,,RB
+[data-pos],8,SPAN,pos-label Miwpx-40 Block Nowrap,,RB,,RB
+[data-pos],9,SPAN,pos-label Miwpx-40 Block Nowrap,,RB,,RB
+[data-pos],10,SPAN,pos-label Miwpx-40 Block Nowrap,,TE,,TE
+[data-pos],11,SPAN,pos-label Miwpx-40 Block Nowrap,,TE,,TE
+[data-pos],12,SPAN,pos-label Miwpx-40 Block Nowrap,,W/R/T,,W/R/T
+[data-pos],13,SPAN,pos-label Miwpx-40 Block Nowrap,,W/R/T,,W/R/T
+[data-pos],14,SPAN,pos-label Miwpx-40 Block Nowrap,,K,,K
+[data-pos],15,SPAN,pos-label Miwpx-40 Block Nowrap,,K,,K
+[data-pos],16,SPAN,pos-label Miwpx-40 Block Nowrap,,DEF,,DEF
+[data-pos],17,SPAN,pos-label Miwpx-40 Block Nowrap,,DEF,,DEF
+[data-pos],18,SPAN,pos-label Miwpx-40 Block Nowrap,,BN,,BN
+[data-pos],19,SPAN,pos-label Miwpx-40 Block Nowrap,,BN,,BN
+[data-pos],20,SPAN,pos-label Miwpx-40 Block Nowrap,,BN,,BN
+[data-pos],21,SPAN,pos-label Miwpx-40 Block Nowrap,,BN,,BN
+[data-pos],22,SPAN,pos-label Miwpx-40 Block Nowrap,,BN,,BN
+[data-pos],23,SPAN,pos-label Miwpx-40 Block Nowrap,,BN,,BN
+[data-pos],24,SPAN,pos-label Miwpx-40 Block Nowrap,,BN,,BN
+[data-pos],25,SPAN,pos-label Miwpx-40 Block Nowrap,,BN,,BN
+[data-pos],26,SPAN,pos-label Miwpx-40 Block Nowrap,,BN,,BN
+[data-pos],27,SPAN,pos-label Miwpx-40 Block Nowrap,,BN,,BN
+[data-pos],28,SPAN,pos-label Miwpx-40 Block Nowrap,,BN,,BN
+[data-pos],29,SPAN,pos-label Miwpx-40 Block Nowrap,,BN,,BN
+[class*='player'],0,DIV,ysf-player-name Nowrap Relative Lh-xs,,,,Patrick Mahomes
+[class*='player'],1,SPAN,player-status D-ib Pstart-sm Nowrap,,,,
+[class*='player'],2,DIV,ysf-player-detail Nowrap Fz-xxs Lh-xs,,,,Final W 27-24 vs LAC
+[class*='player'],3,DIV,ysf-player-name Nowrap Relative Lh-xs,,,,Lamar Jackson
+[class*='player'],4,SPAN,player-status D-ib Pstart-sm Nowrap,,,,
+[class*='player'],5,DIV,ysf-player-detail Nowrap Fz-xxs Lh-xs,,,,Final L 38-42 vs Mia
+[class*='player'],6,DIV,ysf-player-name Nowrap Relative Lh-xs,,,,Ja'Marr Chase 
+[class*='player'],7,SPAN,player-status D-ib Pstart-sm Nowrap,,,,
+[class*='player'],8,DIV,ysf-player-detail Nowrap Fz-xxs Lh-xs,,,,Final L 17-20 @ Dal
+[class*='player'],9,DIV,ysf-player-name Nowrap Relative Lh-xs,,,,Jaylen Waddle
+[class*='player'],10,SPAN,player-status D-ib Pstart-sm Nowrap,,,,
+[class*='player'],11,DIV,ysf-player-detail Nowrap Fz-xxs Lh-xs,,,,Final W 16-9 vs Hou
+[class*='player'],12,DIV,ysf-player-name Nowrap Relative Lh-xs,,,,Brandon Aiyuk
+[class*='player'],13,SPAN,player-status D-ib Pstart-sm Nowrap,,,,
+[class*='player'],14,DIV,ysf-player-detail Nowrap Fz-xxs Lh-xs,,,,Final W 27-7 vs Sea
+[class*='player'],15,DIV,ysf-player-name Nowrap Relative Lh-xs,,,,Amari Cooper
+[class*='player'],16,SPAN,player-status D-ib Pstart-sm Nowrap,,,,
+[class*='player'],17,DIV,ysf-player-detail Nowrap Fz-xxs Lh-xs,,,,Final W 41-7 vs Ten
+[class*='player'],18,DIV,ysf-player-name Nowrap Relative Lh-xs,,,,Saquon Barkley
+[class*='player'],19,SPAN,player-status D-ib Pstart-sm Nowrap,,,,
+[class*='player'],20,DIV,ysf-player-detail Nowrap Fz-xxs Lh-xs,,,,Final W 24-7 vs Min
+[class*='player'],21,DIV,ysf-player-name Nowrap Relative Lh-xs,,,,Christian McCaffrey
+[class*='player'],22,SPAN,player-status D-ib Pstart-sm Nowrap,,,,
+[class*='player'],23,DIV,ysf-player-detail Nowrap Fz-xxs Lh-xs,,,,Final W 27-7 vs Sea
+[class*='player'],24,DIV,ysf-player-name Nowrap Relative Lh-xs,,,,Nick Chubb
+[class*='player'],25,SPAN,player-status D-ib Pstart-sm Nowrap,,,,
+[class*='player'],26,DIV,ysf-player-detail Nowrap Fz-xxs Lh-xs,,,,Final L 9-16 @ Den
+[class*='player'],27,DIV,ysf-player-name Nowrap Relative Lh-xs,,,,Josh Jacobs
+[class*='player'],28,SPAN,player-status D-ib Pstart-sm Nowrap,,,,
+[class*='player'],29,DIV,ysf-player-detail Nowrap Fz-xxs Lh-xs,,,,Final W 27-10 vs Chi
+[class*='player'],30,DIV,ysf-player-name Nowrap Relative Lh-xs,,,,Kyle Pitts Sr.
+[class*='player'],31,SPAN,player-status D-ib Pstart-sm Nowrap,,,,
+[class*='player'],32,DIV,ysf-player-detail Nowrap Fz-xxs Lh-xs,,,,Final L 27-31 @ LAR
+[class*='player'],33,DIV,ysf-player-name Nowrap Relative Lh-xs,,,,Mark Andrews
+[class*='player'],34,SPAN,player-status D-ib Pstart-sm Nowrap,,,,
+[class*='player'],35,DIV,ysf-player-detail Nowrap Fz-xxs Lh-xs,,,,Final L 38-42 vs Mia
+[class*='player'],36,DIV,ysf-player-name Nowrap Relative Lh-xs,,,,Cordarrelle Patterson
+[class*='player'],37,SPAN,player-status D-ib Pstart-sm Nowrap,,,,
+[class*='player'],38,DIV,ysf-player-detail Nowrap Fz-xxs Lh-xs,,,,Final L 14-17 vs NE
+[class*='player'],39,DIV,ysf-player-name Nowrap Relative Lh-xs,,,,James Conner 
+[class*='player'],40,SPAN,player-status D-ib Pstart-sm Nowrap,,,,
+[class*='player'],41,DIV,ysf-player-detail Nowrap Fz-xxs Lh-xs,,,,Final W 29-23 @ LV
+[class*='player'],42,DIV,ysf-player-name Nowrap Relative Lh-xs,,,,Jake Elliott
+[class*='player'],43,SPAN,player-status D-ib Pstart-sm Nowrap,,,,
+[class*='player'],44,DIV,ysf-player-detail Nowrap Fz-xxs Lh-xs,,,,Final W 24-7 vs Min
+[class*='player'],45,DIV,ysf-player-name Nowrap Relative Lh-xs,,,,Matt Gay
+[class*='player'],46,SPAN,player-status D-ib Pstart-sm Nowrap,,,,
+[class*='player'],47,DIV,ysf-player-detail Nowrap Fz-xxs Lh-xs,,,,Final L 23-29 vs Ari
+[class*='player'],48,DIV,ysf-player-name Nowrap Relative Lh-xs,,,,Browns - DEF
+[class*='player'],49,SPAN,player-status D-ib Pstart-sm Nowrap,,,,
+[class*='player'],50,DIV,ysf-player-detail Nowrap Fz-xxs Lh-xs,,,,Final L 30-31 vs NYJ
+[class*='player'],51,DIV,ysf-player-name Nowrap Relative Lh-xs,,,,Ravens - DEF
+[class*='player'],52,SPAN,player-status D-ib Pstart-sm Nowrap,,,,
+[class*='player'],53,DIV,ysf-player-detail Nowrap Fz-xxs Lh-xs,,,,Final L 38-42 vs Mia
+[class*='player'],54,DIV,ysf-player-name Nowrap Relative Lh-xs,,,,Kadarius Toney
+[class*='player'],55,SPAN,player-status D-ib Pstart-sm Nowrap,,,,
+[class*='player'],56,DIV,ysf-player-detail Nowrap Fz-xxs Lh-xs,,,,Final L 30-31 vs NYJ
+[class*='player'],57,DIV,ysf-player-name Nowrap Relative Lh-xs,,,,DeVonta Smith
+[class*='player'],58,SPAN,player-status D-ib Pstart-sm Nowrap,,,,
+[class*='player'],59,DIV,ysf-player-detail Nowrap Fz-xxs Lh-xs,,,,Final W 24-7 vs Min
+[class*='player'],60,DIV,ysf-player-name Nowrap Relative Lh-xs,,,,George Pickens
+[class*='player'],61,SPAN,player-status D-ib Pstart-sm Nowrap,,,,
+[class*='player'],62,DIV,ysf-player-detail Nowrap Fz-xxs Lh-xs,,,,Final W 20-17 vs Cin
+[class*='player'],63,DIV,ysf-player-name Nowrap Relative Lh-xs,,,,Michael Carter
+[class*='player'],64,SPAN,player-status D-ib Pstart-sm Nowrap,,,,
+[class*='player'],65,DIV,ysf-player-detail Nowrap Fz-xxs Lh-xs,,,,Final L 7-41 @ Buf
+[class*='player'],66,DIV,ysf-player-name Nowrap Relative Lh-xs,,,,Jakobi Meyers
+[class*='player'],67,SPAN,player-status D-ib Pstart-sm Nowrap,,,,
+[class*='player'],68,DIV,ysf-player-detail Nowrap Fz-xxs Lh-xs,,,,Final W 24-0 vs Ind
+[class*='player'],69,DIV,ysf-player-name Nowrap Relative Lh-xs,,,,Tyler Boyd
+[class*='player'],70,SPAN,player-status D-ib Pstart-sm Nowrap,,,,
+[class*='player'],71,DIV,ysf-player-detail Nowrap Fz-xxs Lh-xs,,,,Final L 7-41 @ Buf
+[class*='player'],72,DIV,ysf-player-name Nowrap Relative Lh-xs,,,,Isiah Pacheco
+[class*='player'],73,SPAN,player-status D-ib Pstart-sm Nowrap,,,,
+[class*='player'],74,DIV,ysf-player-detail Nowrap Fz-xxs Lh-xs,,,,Final W 36-27 vs Was
+[class*='player'],75,DIV,ysf-player-name Nowrap Relative Lh-xs,,,,Pat Freiermuth
+[class*='player'],76,SPAN,player-status D-ib Pstart-sm Nowrap,,,,
+[class*='player'],77,DIV,ysf-player-detail Nowrap Fz-xxs Lh-xs,,,,Final L 14-17 vs NE
+[class*='player'],78,DIV,ysf-player-name Nowrap Relative Lh-xs,,,,Jahan Dotson
+[class*='player'],79,SPAN,player-status D-ib Pstart-sm Nowrap,,,,
+[class*='player'],80,DIV,ysf-player-detail Nowrap Fz-xxs Lh-xs,,,,Final L 27-31 @ LAR
+[class*='player'],81,DIV,ysf-player-name Nowrap Relative Lh-xs,,,,DeVante Parker
+[class*='player'],82,SPAN,player-status D-ib Pstart-sm Nowrap,,,,
+[class*='player'],83,DIV,ysf-player-detail Nowrap Fz-xxs Lh-xs,,,,Final W 17-14 @ Pit
+[class*='player'],84,DIV,ysf-player-name Nowrap Relative Lh-xs,,,,Taysom Hill
+[class*='player'],85,SPAN,player-status D-ib Pstart-sm Nowrap,,,,
+[class*='player'],86,DIV,ysf-player-detail Nowrap Fz-xxs Lh-xs,,,,Final L 10-20 vs TB
+[class*='player'],87,DIV,ysf-player-name Nowrap Relative Lh-xs,,,,Justin Fields
+[class*='player'],88,SPAN,player-status D-ib Pstart-sm Nowrap,,,,
+[class*='player'],89,DIV,ysf-player-detail Nowrap Fz-xxs Lh-xs,,,,Final W 27-24 vs LAC
+a[href*='/nfl/players/'],0,A,_yb_1sypxam,https://sports.yahoo.com/nfl/players/,,,Players
+a[href*='/nfl/players/'],1,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/30123,,,Patrick Mahomes
+a[href*='/nfl/players/'],2,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/31002,,,Lamar Jackson
+a[href*='/nfl/players/'],3,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/33393,,,Ja'Marr Chase
+a[href*='/nfl/players/'],4,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/33394,,,Jaylen Waddle
+a[href*='/nfl/players/'],5,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/32695,,,Brandon Aiyuk
+a[href*='/nfl/players/'],6,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/28392,,,Amari Cooper
+a[href*='/nfl/players/'],7,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/30972,,,Saquon Barkley
+a[href*='/nfl/players/'],8,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/30121,,,Christian McCaffrey
+a[href*='/nfl/players/'],9,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/31005,,,Nick Chubb
+a[href*='/nfl/players/'],10,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/31856,,,Josh Jacobs
+a[href*='/nfl/players/'],11,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/33392,,,Kyle Pitts Sr.
+a[href*='/nfl/players/'],12,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/31056,,,Mark Andrews
+a[href*='/nfl/players/'],13,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/26652,,,Cordarrelle Patterson
+a[href*='/nfl/players/'],14,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/30218,,,James Conner
+a[href*='/nfl/players/'],15,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/30266,,,Jake Elliott
+a[href*='/nfl/players/'],16,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/31977,,,Matt Gay
+a[href*='/nfl/players/'],17,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/33408,,,Kadarius Toney
+a[href*='/nfl/players/'],18,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/33398,,,DeVonta Smith
+a[href*='/nfl/players/'],19,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/34007,,,George Pickens
+a[href*='/nfl/players/'],20,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/33495,,,Michael Carter
+a[href*='/nfl/players/'],21,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/32231,,,Jakobi Meyers
+a[href*='/nfl/players/'],22,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/29288,,,Tyler Boyd
+a[href*='/nfl/players/'],23,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/34207,,,Isiah Pacheco
+a[href*='/nfl/players/'],24,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/33443,,,Pat Freiermuth
+a[href*='/nfl/players/'],25,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/33971,,,Jahan Dotson
+a[href*='/nfl/players/'],26,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/28402,,,DeVante Parker
+a[href*='/nfl/players/'],27,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/30614,,,Taysom Hill
+a[href*='/nfl/players/'],28,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/33399,,,Justin Fields
+a[href*='/player'],0,A,_yb_1sypxam,https://sports.yahoo.com/nfl/players/,,,Players
+a[href*='/player'],1,A,_yb_1sypxam,https://sports.yahoo.com/nba/players/,,,Players
+a[href*='/player'],2,A,_yb_1sypxam,https://sports.yahoo.com/mlb/players/,,,Players
+a[href*='/player'],3,A,_yb_1sypxam,https://sports.yahoo.com/nhl/players/,,,Players
+a[href*='/player'],4,A,_yb_p1y64c rapid-noclick-resp,/2022/f1/854563/11/playerswatch,,,
+a[href*='/player'],5,A,_yb_p1y64c    rapid-noclick-resp,/2022/f1/854563/players,,,Players
+a[href*='/player'],6,A,_yb_p1y64c rapid-noclick-resp,/2022/f1/854563/players?status=ALL&pos=O&stat1=S_S_2022,,,
+a[href*='/player'],7,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/30123,,,Patrick Mahomes
+a[href*='/player'],8,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/31002,,,Lamar Jackson
+a[href*='/player'],9,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/33393,,,Ja'Marr Chase
+a[href*='/player'],10,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/33394,,,Jaylen Waddle
+a[href*='/player'],11,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/32695,,,Brandon Aiyuk
+a[href*='/player'],12,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/28392,,,Amari Cooper
+a[href*='/player'],13,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/30972,,,Saquon Barkley
+a[href*='/player'],14,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/30121,,,Christian McCaffrey
+a[href*='/player'],15,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/31005,,,Nick Chubb
+a[href*='/player'],16,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/31856,,,Josh Jacobs
+a[href*='/player'],17,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/33392,,,Kyle Pitts Sr.
+a[href*='/player'],18,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/31056,,,Mark Andrews
+a[href*='/player'],19,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/26652,,,Cordarrelle Patterson
+a[href*='/player'],20,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/30218,,,James Conner
+a[href*='/player'],21,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/30266,,,Jake Elliott
+a[href*='/player'],22,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/31977,,,Matt Gay
+a[href*='/player'],23,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/33408,,,Kadarius Toney
+a[href*='/player'],24,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/33398,,,DeVonta Smith
+a[href*='/player'],25,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/34007,,,George Pickens
+a[href*='/player'],26,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/33495,,,Michael Carter
+a[href*='/player'],27,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/32231,,,Jakobi Meyers
+a[href*='/player'],28,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/29288,,,Tyler Boyd
+a[href*='/player'],29,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/34207,,,Isiah Pacheco
+a[href*='/player'],30,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/33443,,,Pat Freiermuth
+a[href*='/player'],31,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/33971,,,Jahan Dotson
+a[href*='/player'],32,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/28402,,,DeVante Parker
+a[href*='/player'],33,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/30614,,,Taysom Hill
+a[href*='/player'],34,A,Nowrap name F-link,https://sports.yahoo.com/nfl/players/33399,,,Justin Fields

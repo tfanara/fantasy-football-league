@@ -1,0 +1,35 @@
+year,week,side,lineup_slot,player,is_starter,is_bench,is_ir,projected_points,fantasy_points,stat_summary,fantasy_team,opponent,team_score,opponent_score,yahoo_team_id_used
+2018,9,left,QB,Matthew Stafford,True,False,False,22.39,6.56,,Big Sack Jack,malle_dips_pouches,104.76,88.24,11
+2018,9,right,QB,Jared Goff,True,False,False,27.27,36.34,,malle_dips_pouches,Big Sack Jack,88.24,104.76,11
+2018,9,left,WR,Tyreek Hill,True,False,False,13.11,8.5,,Big Sack Jack,malle_dips_pouches,104.76,88.24,11
+2018,9,right,WR,Davante Adams,True,False,False,13.98,10.0,,malle_dips_pouches,Big Sack Jack,88.24,104.76,11
+2018,9,left,WR,Jarvis Landry,True,False,False,9.92,5.0,,Big Sack Jack,malle_dips_pouches,104.76,88.24,11
+2018,9,right,WR,Cooper Kupp,True,False,False,9.6,14.9,,malle_dips_pouches,Big Sack Jack,88.24,104.76,11
+2018,9,left,RB,Alvin Kamara,True,False,False,16.07,29.6,,Big Sack Jack,malle_dips_pouches,104.76,88.24,11
+2018,9,right,RB,Nick Chubb,True,False,False,10.85,15.0,,malle_dips_pouches,Big Sack Jack,88.24,104.76,11
+2018,9,left,RB,Latavius Murray,True,False,False,9.54,10.7,,Big Sack Jack,malle_dips_pouches,104.76,88.24,11
+2018,9,right,RB,Lamar Miller,True,False,False,10.6,4.8,,malle_dips_pouches,Big Sack Jack,88.24,104.76,11
+2018,9,left,TE,Travis Kelce,True,False,False,10.18,21.9,,Big Sack Jack,malle_dips_pouches,104.76,88.24,11
+2018,9,right,TE,Ed Dickson,True,False,False,3.74,0.0,,malle_dips_pouches,Big Sack Jack,88.24,104.76,11
+2018,9,left,W/R/T,Robert Woods,True,False,False,9.95,7.5,,Big Sack Jack,malle_dips_pouches,104.76,88.24,11
+2018,9,right,W/R/T,Michael Crabtree,True,False,False,7.07,3.2,,malle_dips_pouches,Big Sack Jack,88.24,104.76,11
+2018,9,left,K,Matt Prater,True,False,False,9.29,9.0,,Big Sack Jack,malle_dips_pouches,104.76,88.24,11
+2018,9,right,K,Graham Gano,True,False,False,10.29,6.0,,malle_dips_pouches,Big Sack Jack,88.24,104.76,11
+2018,9,left,DEF,Panthers - DEF,True,False,False,7.5,6.0,,Big Sack Jack,malle_dips_pouches,104.76,88.24,11
+2018,9,right,DEF,Rams - DEF,True,False,False,4.17,-2.0,,malle_dips_pouches,Big Sack Jack,88.24,104.76,11
+2018,9,left,TOTAL,,True,False,False,107.95,104.76,,Big Sack Jack,malle_dips_pouches,104.76,88.24,11
+2018,9,right,TOTAL,,True,False,False,97.57,88.24,,malle_dips_pouches,Big Sack Jack,88.24,104.76,11
+2018,9,left,BN,Sony Michel,False,True,False,0.0,0.0,,Big Sack Jack,malle_dips_pouches,104.76,88.24,11
+2018,9,right,BN,Eric Ebron,False,True,False,0.0,0.0,,malle_dips_pouches,Big Sack Jack,88.24,104.76,11
+2018,9,left,BN,Derek Carr,False,True,False,21.12,7.34,,Big Sack Jack,malle_dips_pouches,104.76,88.24,11
+2018,9,right,BN,Randall Cobb,False,True,False,7.38,2.4,,malle_dips_pouches,Big Sack Jack,88.24,104.76,11
+2018,9,left,BN,Derrick Henry,False,True,False,5.0,9.2,,Big Sack Jack,malle_dips_pouches,104.76,88.24,11
+2018,9,right,BN,Dion Lewis,False,True,False,8.0,18.2,,malle_dips_pouches,Big Sack Jack,88.24,104.76,11
+2018,9,left,BN,Jordy Nelson,False,True,False,6.56,1.6,,Big Sack Jack,malle_dips_pouches,104.76,88.24,11
+2018,9,right,BN,Amari Cooper,False,True,False,6.99,11.8,,malle_dips_pouches,Big Sack Jack,88.24,104.76,11
+2018,9,left,BN,LeGarrette Blount,False,True,False,3.43,1.0,,Big Sack Jack,malle_dips_pouches,104.76,88.24,11
+2018,9,right,BN,Leonard Fournette,False,True,False,0.0,0.0,,malle_dips_pouches,Big Sack Jack,88.24,104.76,11
+2018,9,left,BN,Vikings - DEF,False,True,False,6.9,22.0,,Big Sack Jack,malle_dips_pouches,104.76,88.24,11
+2018,9,right,BN,Jack Doyle,False,True,False,0.0,,,malle_dips_pouches,Big Sack Jack,88.24,104.76,11
+2018,9,left,TOTAL,,True,False,False,,41.14,,Big Sack Jack,malle_dips_pouches,104.76,88.24,11
+2018,9,right,TOTAL,,True,False,False,,32.4,,malle_dips_pouches,Big Sack Jack,88.24,104.76,11

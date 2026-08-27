@@ -1,0 +1,908 @@
+table_index,row_index,cell_index,tag,class,data_pos,text
+0,0,0,TH,,,
+0,1,0,TH,,,
+0,2,0,TD,Fz-xxl Ta-end Pend-lg,,95.50
+0,2,1,TH,Fz-xxs Ta-c Px-sm Nowrap,,Points
+0,2,2,TD,Fz-xxl Ta-start Pstart-lg,,168.52
+0,3,0,TD,F-shade Ta-end Pend-lg Fz-med Ptop-med,,125.14
+0,3,1,TH,F-shade Ta-c  Fz-xxs Px-sm Ptop-med Nowrap,,Orig Proj
+0,3,2,TD,F-shade Ta-start Pstart-lg Fz-med Ptop-med,,120.96
+1,0,0,TH,Alt Ta-start Pend-sm Fz-xxs Px-lg,,Stats
+1,0,1,TH,Ta-start,,Player
+1,0,2,TH,Alt Ta-end F-shade Va-top,,Proj
+1,0,3,TH,Pend-lg Ta-end Fw-b Nowrap Va-top,,Fan Pts
+1,0,4,TH,Alt Hidden,,Pos
+1,0,5,TH,Va-top Ta-c Bdrstart Bdrend Fw-b,,Pos
+1,0,6,TH,Alt Hidden Hidden,,Pos
+1,0,7,TH,No-pstart Ta-end Fw-b Nowrap Va-top,,Fan Pts
+1,0,8,TH,Alt Pend-med Ta-end F-shade Va-top,,Proj
+1,0,9,TH,Last Ta-start,,Player
+1,0,10,TH,Alt Ta-start Pend-sm Fz-xxs Px-lg,,Stats
+1,1,0,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,"2 Pass TD, 235 Pass Yds, -1 Rush Yds"
+1,1,1,TD,Ta-start,,Patrick Mahomes Final W 27-24 vs LAC
+1,1,2,TD,Alt Ta-end F-shade Va-top,,29.59
+1,1,3,TD,Pend-lg Ta-end Fw-b Nowrap Va-top,,21.30
+1,1,4,TD,Alt Bg-shade Hidden,,QB
+1,1,5,TD,Va-top Bg-shade F-shade Bdrstart Bdrend Ta-c,,QB
+1,1,6,TD,Alt Hidden Hidden,,QB
+1,1,7,TD,Ta-end Fw-b Nowrap Va-top,,48.62
+1,1,8,TD,Alt Pend-med Ta-end F-shade Va-top,,25.98
+1,1,9,TD,Last Ta-start,,Lamar Jackson Final L 38-42 vs Mia
+1,1,10,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,"3 Pass TD, 318 Pass Yds, 119 Rush Yds"
+1,2,0,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,"54 Rec Yds, 5 Rec, 4 Rush Yds"
+1,2,1,TD,Ta-start,,Ja'Marr Chase  Final L 17-20 @ Dal
+1,2,2,TD,Alt Ta-end F-shade Va-top,,15.97
+1,2,3,TD,Pend-lg Ta-end Fw-b Nowrap Va-top,,8.30
+1,2,4,TD,Alt Bg-shade Hidden,,WR
+1,2,5,TD,Va-top Bg-shade F-shade Bdrstart Bdrend Ta-c,,WR
+1,2,6,TD,Alt Hidden Hidden,,WR
+1,2,7,TD,Ta-end Fw-b Nowrap Va-top,,34.60
+1,2,8,TD,Alt Pend-med Ta-end F-shade Va-top,,10.69
+1,2,9,TD,Last Ta-start,,Jaylen Waddle Final W 16-9 vs Hou
+1,2,10,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,"171 Rec Yds, 2 Rec TD, 11 Rec"
+1,3,0,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,"63 Rec Yds, 5 Rec"
+1,3,1,TD,Ta-start,,Brandon Aiyuk Final W 27-7 vs Sea
+1,3,2,TD,Alt Ta-end F-shade Va-top,,10.07
+1,3,3,TD,Pend-lg Ta-end Fw-b Nowrap Va-top,,8.80
+1,3,4,TD,Alt Bg-shade Hidden,,WR
+1,3,5,TD,Va-top Bg-shade F-shade Bdrstart Bdrend Ta-c,,WR
+1,3,6,TD,Alt Hidden Hidden,,WR
+1,3,7,TD,Ta-end Fw-b Nowrap Va-top,,20.60
+1,3,8,TD,Alt Pend-med Ta-end F-shade Va-top,,9.78
+1,3,9,TD,Last Ta-start,,Amari Cooper Final W 41-7 vs Ten
+1,3,10,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,"101 Rec Yds, 1 Rec TD, 9 Rec"
+1,4,0,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,"72 Rush Yds, 16 Rec Yds, 3 Rec"
+1,4,1,TD,Ta-start,,Saquon Barkley Final W 24-7 vs Min
+1,4,2,TD,Alt Ta-end F-shade Va-top,,17.39
+1,4,3,TD,Pend-lg Ta-end Fw-b Nowrap Va-top,,10.30
+1,4,4,TD,Alt Bg-shade Hidden,,RB
+1,4,5,TD,Va-top Bg-shade F-shade Bdrstart Bdrend Ta-c,,RB
+1,4,6,TD,Alt Hidden Hidden,,RB
+1,4,7,TD,Ta-end Fw-b Nowrap Va-top,,14.80
+1,4,8,TD,Alt Pend-med Ta-end F-shade Va-top,,18.05
+1,4,9,TD,Last Ta-start,,Christian McCaffrey Final W 27-7 vs Sea
+1,4,10,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,"102 Rush Yds, 26 Rec Yds, 4 Rec"
+1,5,0,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,"3 Rush TD, 87 Rush Yds, 26 Rec Yds"
+1,5,1,TD,Ta-start,,Nick Chubb Final L 9-16 @ Den
+1,5,2,TD,Alt Ta-end F-shade Va-top,,13.30
+1,5,3,TD,Pend-lg Ta-end Fw-b Nowrap Va-top,,30.80
+1,5,4,TD,Alt Bg-shade Hidden,,RB
+1,5,5,TD,Va-top Bg-shade F-shade Bdrstart Bdrend Ta-c,,RB
+1,5,6,TD,Alt Hidden Hidden,,RB
+1,5,7,TD,Ta-end Fw-b Nowrap Va-top,,8.60
+1,5,8,TD,Alt Pend-med Ta-end F-shade Va-top,,11.74
+1,5,9,TD,Last Ta-start,,Josh Jacobs Final W 27-10 vs Chi
+1,5,10,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,"69 Rush Yds, 12 Rec Yds, 1 Rec"
+1,6,0,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,"19 Rec Yds, 2 Rec"
+1,6,1,TD,Ta-start,,Kyle Pitts Sr. Final L 27-31 @ LAR
+1,6,2,TD,Alt Ta-end F-shade Va-top,,9.82
+1,6,3,TD,Pend-lg Ta-end Fw-b Nowrap Va-top,,2.90
+1,6,4,TD,Alt Bg-shade Hidden,,TE
+1,6,5,TD,Va-top Bg-shade F-shade Bdrstart Bdrend Ta-c,,TE
+1,6,6,TD,Alt Hidden Hidden,,TE
+1,6,7,TD,Ta-end Fw-b Nowrap Va-top,,21.20
+1,6,8,TD,Alt Pend-med Ta-end F-shade Va-top,,12.18
+1,6,9,TD,Last Ta-start,,Mark Andrews Final L 38-42 vs Mia
+1,6,10,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,"104 Rec Yds, 1 Rec TD, 9 Rec"
+1,7,0,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,41 Rush Yds
+1,7,1,TD,Ta-start,,Cordarrelle Patterson Final L 14-17 vs NE
+1,7,2,TD,Alt Ta-end F-shade Va-top,,12.12
+1,7,3,TD,Pend-lg Ta-end Fw-b Nowrap Va-top,,4.10
+1,7,4,TD,Alt Bg-shade Hidden,,W/R/T
+1,7,5,TD,Va-top Bg-shade F-shade Bdrstart Bdrend Ta-c,,W/R/T
+1,7,6,TD,Alt Hidden Hidden,,W/R/T
+1,7,7,TD,Ta-end Fw-b Nowrap Va-top,,6.10
+1,7,8,TD,Alt Pend-med Ta-end F-shade Va-top,,13.89
+1,7,9,TD,Last Ta-start,,James Conner  Final W 29-23 @ LV
+1,7,10,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,"26 Rec Yds, 25 Rush Yds, 2 Rec"
+1,8,0,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,"1 FG 30-39, 3 PAT Made"
+1,8,1,TD,Ta-start,,Jake Elliott Final W 24-7 vs Min
+1,8,2,TD,Alt Ta-end F-shade Va-top,,8.78
+1,8,3,TD,Pend-lg Ta-end Fw-b Nowrap Va-top,,6.00
+1,8,4,TD,Alt Bg-shade Hidden,,K
+1,8,5,TD,Va-top Bg-shade F-shade Bdrstart Bdrend Ta-c,,K
+1,8,6,TD,Alt Hidden Hidden,,K
+1,8,7,TD,Ta-end Fw-b Nowrap Va-top,,7.00
+1,8,8,TD,Alt Pend-med Ta-end F-shade Va-top,,10.68
+1,8,9,TD,Last Ta-start,,Matt Gay Final L 23-29 vs Ari
+1,8,10,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,"4 PAT Made, 1 FG 20-29"
+1,9,0,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,"2 Sack, 1 Fum Rec, Pts Allow 28-34"
+1,9,1,TD,Ta-start,,Browns - DEF Final L 30-31 vs NYJ
+1,9,2,TD,Alt Ta-end F-shade Va-top,,8.10
+1,9,3,TD,Pend-lg Ta-end Fw-b Nowrap Va-top,,3.00
+1,9,4,TD,Alt Bg-shade Hidden,,DEF
+1,9,5,TD,Va-top Bg-shade F-shade Bdrstart Bdrend Ta-c,,DEF
+1,9,6,TD,Alt Hidden Hidden,,DEF
+1,9,7,TD,Ta-end Fw-b Nowrap Va-top,,7.00
+1,9,8,TD,Alt Pend-med Ta-end F-shade Va-top,,7.97
+1,9,9,TD,Last Ta-start,,Ravens - DEF Final L 38-42 vs Mia
+1,9,10,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,"1 Ret TD, 2 Int, Pts Allow 35+"
+1,10,0,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,
+1,10,1,TD,Ta-start,,
+1,10,2,TD,Alt Ta-end F-shade Va-top,,125.14
+1,10,3,TD,Pend-lg Ta-end Fw-b Nowrap Va-top,,95.50
+1,10,4,TD,Alt Bg-shade Hidden,,Total
+1,10,5,TD,Va-top Bg-shade F-shade Bdrstart Bdrend Ta-c,,TOTAL
+1,10,6,TD,Alt Hidden Hidden,,Total
+1,10,7,TD,Ta-end Fw-b Nowrap Va-top,,168.52
+1,10,8,TD,Alt Pend-med Ta-end F-shade Va-top,,120.96
+1,10,9,TD,Last Ta-start,,
+1,10,10,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,
+2,0,0,TH,Alt Ta-start Pend-sm Fz-xxs Px-lg,,Stats
+2,0,1,TH,Ta-start,,Player
+2,0,2,TH,Alt Ta-end F-shade Va-top,,Proj
+2,0,3,TH,Pend-lg Ta-end Fw-b Nowrap Va-top,,Fan Pts
+2,0,4,TH,Alt Hidden,,Pos
+2,0,5,TH,Va-top Ta-c Bdrstart Bdrend Fw-b,,Pos
+2,0,6,TH,Alt Hidden Hidden,,Pos
+2,0,7,TH,No-pstart Ta-end Fw-b Nowrap Va-top,,Fan Pts
+2,0,8,TH,Alt Pend-med Ta-end F-shade Va-top,,Proj
+2,0,9,TH,Last Ta-start,,Player
+2,0,10,TH,Alt Ta-start Pend-sm Fz-xxs Px-lg,,Stats
+2,1,0,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,2 Rec
+2,1,1,TD,Ta-start,,Kadarius Toney Final L 30-31 vs NYJ
+2,1,2,TD,Alt Ta-end F-shade Va-top,,3.76
+2,1,3,TD,Pend-lg Ta-end Fw-b Nowrap Va-top,,1.00
+2,1,4,TD,Alt Bg-shade Hidden,,BN
+2,1,5,TD,Va-top Bg-shade F-shade Bdrstart Bdrend Ta-c,,BN
+2,1,6,TD,Alt Hidden Hidden,,BN
+2,1,7,TD,Ta-end Fw-b Nowrap Va-top,,11.50
+2,1,8,TD,Alt Pend-med Ta-end F-shade Va-top,,8.12
+2,1,9,TD,Last Ta-start,,DeVonta Smith Final W 24-7 vs Min
+2,1,10,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,"80 Rec Yds, 7 Rec"
+2,2,0,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,"23 Rec Yds, 1 Rec"
+2,2,1,TD,Ta-start,,George Pickens Final W 20-17 vs Cin
+2,2,2,TD,Alt Ta-end F-shade Va-top,,5.70
+2,2,3,TD,Pend-lg Ta-end Fw-b Nowrap Va-top,,2.80
+2,2,4,TD,Alt Bg-shade Hidden,,BN
+2,2,5,TD,Va-top Bg-shade F-shade Bdrstart Bdrend Ta-c,,BN
+2,2,6,TD,Alt Hidden Hidden,,BN
+2,2,7,TD,Ta-end Fw-b Nowrap Va-top,,7.50
+2,2,8,TD,Alt Pend-med Ta-end F-shade Va-top,,10.28
+2,2,9,TD,Last Ta-start,,Michael Carter Final L 7-41 @ Buf
+2,2,10,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,"27 Rec Yds, 5 Rec, 23 Rush Yds"
+2,3,0,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,"95 Rec Yds, 9 Rec"
+2,3,1,TD,Ta-start,,Jakobi Meyers Final W 24-0 vs Ind
+2,3,2,TD,Alt Ta-end F-shade Va-top,,7.96
+2,3,3,TD,Pend-lg Ta-end Fw-b Nowrap Va-top,,14.00
+2,3,4,TD,Alt Bg-shade Hidden,,BN
+2,3,5,TD,Va-top Bg-shade F-shade Bdrstart Bdrend Ta-c,,BN
+2,3,6,TD,Alt Hidden Hidden,,BN
+2,3,7,TD,Ta-end Fw-b Nowrap Va-top,,4.70
+2,3,8,TD,Alt Pend-med Ta-end F-shade Va-top,,8.79
+2,3,9,TD,Last Ta-start,,Tyler Boyd Final L 7-41 @ Buf
+2,3,10,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,"1 2-PT, 17 Rec Yds, 2 Rec"
+2,4,0,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,6 Rush Yds
+2,4,1,TD,Ta-start,,Isiah Pacheco Final W 36-27 vs Was
+2,4,2,TD,Alt Ta-end F-shade Va-top,,4.55
+2,4,3,TD,Pend-lg Ta-end Fw-b Nowrap Va-top,,0.60
+2,4,4,TD,Alt Bg-shade Hidden,,BN
+2,4,5,TD,Va-top Bg-shade F-shade Bdrstart Bdrend Ta-c,,BN
+2,4,6,TD,Alt Hidden Hidden,,BN
+2,4,7,TD,Ta-end Fw-b Nowrap Va-top,,10.20
+2,4,8,TD,Alt Pend-med Ta-end F-shade Va-top,,8.90
+2,4,9,TD,Last Ta-start,,Pat Freiermuth Final L 14-17 vs NE
+2,4,10,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,"1 Rec TD, 22 Rec Yds, 4 Rec"
+2,5,0,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,"1 Rec TD, 59 Rec Yds, 4 Rec"
+2,5,1,TD,Ta-start,,Jahan Dotson Final L 27-31 @ LAR
+2,5,2,TD,Alt Ta-end F-shade Va-top,,7.25
+2,5,3,TD,Pend-lg Ta-end Fw-b Nowrap Va-top,,15.90
+2,5,4,TD,Alt Bg-shade Hidden,,BN
+2,5,5,TD,Va-top Bg-shade F-shade Bdrstart Bdrend Ta-c,,BN
+2,5,6,TD,Alt Hidden Hidden,,BN
+2,5,7,TD,Ta-end Fw-b Nowrap Va-top,,0.00
+2,5,8,TD,Alt Pend-med Ta-end F-shade Va-top,,6.88
+2,5,9,TD,Last Ta-start,,DeVante Parker Final W 17-14 @ Pit
+2,5,10,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,
+2,6,0,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,14 Rush Yds
+2,6,1,TD,Ta-start,,Taysom Hill Final L 10-20 vs TB
+2,6,2,TD,Alt Ta-end F-shade Va-top,,7.62
+2,6,3,TD,Pend-lg Ta-end Fw-b Nowrap Va-top,,1.40
+2,6,4,TD,Alt Bg-shade Hidden,,BN
+2,6,5,TD,Va-top Bg-shade F-shade Bdrstart Bdrend Ta-c,,BN
+2,6,6,TD,Alt Hidden Hidden,,BN
+2,6,7,TD,Ta-end Fw-b Nowrap Va-top,,9.80
+2,6,8,TD,Alt Pend-med Ta-end F-shade Va-top,,19.28
+2,6,9,TD,Last Ta-start,,Justin Fields Final W 27-24 vs LAC
+2,6,10,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,"1 Rush TD, 70 Pass Yds, 20 Rush Yds"
+2,7,0,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,
+2,7,1,TD,Ta-start,,
+2,7,2,TD,Alt Ta-end F-shade Va-top,,
+2,7,3,TD,Pend-lg Ta-end Fw-b Nowrap Va-top,,35.70
+2,7,4,TD,Alt Bg-shade Hidden,,Total
+2,7,5,TD,Va-top Bg-shade F-shade Bdrstart Bdrend Ta-c,,TOTAL
+2,7,6,TD,Alt Hidden Hidden,,Total
+2,7,7,TD,Ta-end Fw-b Nowrap Va-top,,43.70
+2,7,8,TD,Alt Pend-med Ta-end F-shade Va-top,,
+2,7,9,TD,Last Ta-start,,
+2,7,10,TD,Alt Ta-start Pend-sm Fz-xxs Px-lg,,
+3,0,0,TH,ysf-stat-name P-sm Fw-b,,Stat
+3,0,1,TH,Ta-end Nowrap P-sm Fw-b,,
+3,0,2,TH,Ta-end Nowrap P-sm Fw-b,,Pts Per
+3,0,3,TH,Ta-end Nowrap P-sm Fw-b,,Fan Pts
+3,1,0,TD,ysf-stat-name P-sm,,Passing Yards
+3,1,1,TD,Ta-end P-sm,,235
+3,1,2,TD,Ta-end P-sm,,0.04
+3,1,3,TD,Ta-end P-sm,,9.40
+3,2,0,TD,ysf-stat-name P-sm,,Passing Touchdowns
+3,2,1,TD,Ta-end P-sm,,2
+3,2,2,TD,Ta-end P-sm,,6.00
+3,2,3,TD,Ta-end P-sm,,12.00
+3,3,0,TD,ysf-stat-name P-sm,,Rushing Yards
+3,3,1,TD,Ta-end P-sm,,-1
+3,3,2,TD,Ta-end P-sm,,0.10
+3,3,3,TD,Ta-end P-sm,,-0.10
+3,4,0,TD,P-sm,,
+3,4,1,TD,P-sm,,
+3,4,2,TD,P-sm,,
+3,4,3,TD,P-sm,,
+3,5,0,TH,P-sm Fz-med Fw-b,,Total
+3,5,1,TH,P-sm,,
+3,5,2,TH,P-sm,,
+3,5,3,TH,P-sm Fz-med Fw-b Ta-end,,21.30
+4,0,0,TH,ysf-stat-name P-sm Fw-b,,Stat
+4,0,1,TH,Ta-end Nowrap P-sm Fw-b,,
+4,0,2,TH,Ta-end Nowrap P-sm Fw-b,,Pts Per
+4,0,3,TH,Ta-end Nowrap P-sm Fw-b,,Fan Pts
+4,1,0,TD,ysf-stat-name P-sm,,Rushing Yards
+4,1,1,TD,Ta-end P-sm,,4
+4,1,2,TD,Ta-end P-sm,,0.10
+4,1,3,TD,Ta-end P-sm,,0.40
+4,2,0,TD,ysf-stat-name P-sm,,Receptions
+4,2,1,TD,Ta-end P-sm,,5
+4,2,2,TD,Ta-end P-sm,,0.50
+4,2,3,TD,Ta-end P-sm,,2.50
+4,3,0,TD,ysf-stat-name P-sm,,Receiving Yards
+4,3,1,TD,Ta-end P-sm,,54
+4,3,2,TD,Ta-end P-sm,,0.10
+4,3,3,TD,Ta-end P-sm,,5.40
+4,4,0,TD,P-sm,,
+4,4,1,TD,P-sm,,
+4,4,2,TD,P-sm,,
+4,4,3,TD,P-sm,,
+4,5,0,TH,P-sm Fz-med Fw-b,,Total
+4,5,1,TH,P-sm,,
+4,5,2,TH,P-sm,,
+4,5,3,TH,P-sm Fz-med Fw-b Ta-end,,8.30
+5,0,0,TH,ysf-stat-name P-sm Fw-b,,Stat
+5,0,1,TH,Ta-end Nowrap P-sm Fw-b,,
+5,0,2,TH,Ta-end Nowrap P-sm Fw-b,,Pts Per
+5,0,3,TH,Ta-end Nowrap P-sm Fw-b,,Fan Pts
+5,1,0,TD,ysf-stat-name P-sm,,Receptions
+5,1,1,TD,Ta-end P-sm,,5
+5,1,2,TD,Ta-end P-sm,,0.50
+5,1,3,TD,Ta-end P-sm,,2.50
+5,2,0,TD,ysf-stat-name P-sm,,Receiving Yards
+5,2,1,TD,Ta-end P-sm,,63
+5,2,2,TD,Ta-end P-sm,,0.10
+5,2,3,TD,Ta-end P-sm,,6.30
+5,3,0,TD,P-sm,,
+5,3,1,TD,P-sm,,
+5,3,2,TD,P-sm,,
+5,3,3,TD,P-sm,,
+5,4,0,TH,P-sm Fz-med Fw-b,,Total
+5,4,1,TH,P-sm,,
+5,4,2,TH,P-sm,,
+5,4,3,TH,P-sm Fz-med Fw-b Ta-end,,8.80
+6,0,0,TH,ysf-stat-name P-sm Fw-b,,Stat
+6,0,1,TH,Ta-end Nowrap P-sm Fw-b,,
+6,0,2,TH,Ta-end Nowrap P-sm Fw-b,,Pts Per
+6,0,3,TH,Ta-end Nowrap P-sm Fw-b,,Fan Pts
+6,1,0,TD,ysf-stat-name P-sm,,Rushing Yards
+6,1,1,TD,Ta-end P-sm,,72
+6,1,2,TD,Ta-end P-sm,,0.10
+6,1,3,TD,Ta-end P-sm,,7.20
+6,2,0,TD,ysf-stat-name P-sm,,Receptions
+6,2,1,TD,Ta-end P-sm,,3
+6,2,2,TD,Ta-end P-sm,,0.50
+6,2,3,TD,Ta-end P-sm,,1.50
+6,3,0,TD,ysf-stat-name P-sm,,Receiving Yards
+6,3,1,TD,Ta-end P-sm,,16
+6,3,2,TD,Ta-end P-sm,,0.10
+6,3,3,TD,Ta-end P-sm,,1.60
+6,4,0,TD,P-sm,,
+6,4,1,TD,P-sm,,
+6,4,2,TD,P-sm,,
+6,4,3,TD,P-sm,,
+6,5,0,TH,P-sm Fz-med Fw-b,,Total
+6,5,1,TH,P-sm,,
+6,5,2,TH,P-sm,,
+6,5,3,TH,P-sm Fz-med Fw-b Ta-end,,10.30
+7,0,0,TH,ysf-stat-name P-sm Fw-b,,Stat
+7,0,1,TH,Ta-end Nowrap P-sm Fw-b,,
+7,0,2,TH,Ta-end Nowrap P-sm Fw-b,,Pts Per
+7,0,3,TH,Ta-end Nowrap P-sm Fw-b,,Fan Pts
+7,1,0,TD,ysf-stat-name P-sm,,Rushing Yards
+7,1,1,TD,Ta-end P-sm,,87
+7,1,2,TD,Ta-end P-sm,,0.10
+7,1,3,TD,Ta-end P-sm,,8.70
+7,2,0,TD,ysf-stat-name P-sm,,Rushing Touchdowns
+7,2,1,TD,Ta-end P-sm,,3
+7,2,2,TD,Ta-end P-sm,,6.00
+7,2,3,TD,Ta-end P-sm,,18.00
+7,3,0,TD,ysf-stat-name P-sm,,Receptions
+7,3,1,TD,Ta-end P-sm,,3
+7,3,2,TD,Ta-end P-sm,,0.50
+7,3,3,TD,Ta-end P-sm,,1.50
+7,4,0,TD,ysf-stat-name P-sm,,Receiving Yards
+7,4,1,TD,Ta-end P-sm,,26
+7,4,2,TD,Ta-end P-sm,,0.10
+7,4,3,TD,Ta-end P-sm,,2.60
+7,5,0,TD,P-sm,,
+7,5,1,TD,P-sm,,
+7,5,2,TD,P-sm,,
+7,5,3,TD,P-sm,,
+7,6,0,TH,P-sm Fz-med Fw-b,,Total
+7,6,1,TH,P-sm,,
+7,6,2,TH,P-sm,,
+7,6,3,TH,P-sm Fz-med Fw-b Ta-end,,30.80
+8,0,0,TH,ysf-stat-name P-sm Fw-b,,Stat
+8,0,1,TH,Ta-end Nowrap P-sm Fw-b,,
+8,0,2,TH,Ta-end Nowrap P-sm Fw-b,,Pts Per
+8,0,3,TH,Ta-end Nowrap P-sm Fw-b,,Fan Pts
+8,1,0,TD,ysf-stat-name P-sm,,Receptions
+8,1,1,TD,Ta-end P-sm,,2
+8,1,2,TD,Ta-end P-sm,,0.50
+8,1,3,TD,Ta-end P-sm,,1.00
+8,2,0,TD,ysf-stat-name P-sm,,Receiving Yards
+8,2,1,TD,Ta-end P-sm,,19
+8,2,2,TD,Ta-end P-sm,,0.10
+8,2,3,TD,Ta-end P-sm,,1.90
+8,3,0,TD,P-sm,,
+8,3,1,TD,P-sm,,
+8,3,2,TD,P-sm,,
+8,3,3,TD,P-sm,,
+8,4,0,TH,P-sm Fz-med Fw-b,,Total
+8,4,1,TH,P-sm,,
+8,4,2,TH,P-sm,,
+8,4,3,TH,P-sm Fz-med Fw-b Ta-end,,2.90
+9,0,0,TH,ysf-stat-name P-sm Fw-b,,Stat
+9,0,1,TH,Ta-end Nowrap P-sm Fw-b,,
+9,0,2,TH,Ta-end Nowrap P-sm Fw-b,,Pts Per
+9,0,3,TH,Ta-end Nowrap P-sm Fw-b,,Fan Pts
+9,1,0,TD,ysf-stat-name P-sm,,Rushing Yards
+9,1,1,TD,Ta-end P-sm,,41
+9,1,2,TD,Ta-end P-sm,,0.10
+9,1,3,TD,Ta-end P-sm,,4.10
+9,2,0,TD,P-sm,,
+9,2,1,TD,P-sm,,
+9,2,2,TD,P-sm,,
+9,2,3,TD,P-sm,,
+9,3,0,TH,P-sm Fz-med Fw-b,,Total
+9,3,1,TH,P-sm,,
+9,3,2,TH,P-sm,,
+9,3,3,TH,P-sm Fz-med Fw-b Ta-end,,4.10
+10,0,0,TH,ysf-stat-name P-sm Fw-b,,Stat
+10,0,1,TH,Ta-end Nowrap P-sm Fw-b,,
+10,0,2,TH,Ta-end Nowrap P-sm Fw-b,,Pts Per
+10,0,3,TH,Ta-end Nowrap P-sm Fw-b,,Fan Pts
+10,1,0,TD,ysf-stat-name P-sm,,Field Goals 30-39 Yards
+10,1,1,TD,Ta-end P-sm,,1
+10,1,2,TD,Ta-end P-sm,,3.00
+10,1,3,TD,Ta-end P-sm,,3.00
+10,2,0,TD,ysf-stat-name P-sm,,Point After Attempt Made
+10,2,1,TD,Ta-end P-sm,,3
+10,2,2,TD,Ta-end P-sm,,1.00
+10,2,3,TD,Ta-end P-sm,,3.00
+10,3,0,TD,P-sm,,
+10,3,1,TD,P-sm,,
+10,3,2,TD,P-sm,,
+10,3,3,TD,P-sm,,
+10,4,0,TH,P-sm Fz-med Fw-b,,Total
+10,4,1,TH,P-sm,,
+10,4,2,TH,P-sm,,
+10,4,3,TH,P-sm Fz-med Fw-b Ta-end,,6.00
+11,0,0,TH,ysf-stat-name P-sm Fw-b,,Stat
+11,0,1,TH,Ta-end Nowrap P-sm Fw-b,,
+11,0,2,TH,Ta-end Nowrap P-sm Fw-b,,Pts Per
+11,0,3,TH,Ta-end Nowrap P-sm Fw-b,,Fan Pts
+11,1,0,TD,ysf-stat-name P-sm,,Sack
+11,1,1,TD,Ta-end P-sm,,2
+11,1,2,TD,Ta-end P-sm,,1.00
+11,1,3,TD,Ta-end P-sm,,2.00
+11,2,0,TD,ysf-stat-name P-sm,,Fumble Recovery
+11,2,1,TD,Ta-end P-sm,,1
+11,2,2,TD,Ta-end P-sm,,2.00
+11,2,3,TD,Ta-end P-sm,,2.00
+11,3,0,TD,ysf-stat-name P-sm,,Points Allowed 28-34 points
+11,3,1,TD,Ta-end P-sm,,1
+11,3,2,TD,Ta-end P-sm,,-1.00
+11,3,3,TD,Ta-end P-sm,,-1.00
+11,4,0,TD,P-sm,,
+11,4,1,TD,P-sm,,
+11,4,2,TD,P-sm,,
+11,4,3,TD,P-sm,,
+11,5,0,TH,P-sm Fz-med Fw-b,,Total
+11,5,1,TH,P-sm,,
+11,5,2,TH,P-sm,,
+11,5,3,TH,P-sm Fz-med Fw-b Ta-end,,3.00
+12,0,0,TH,ysf-stat-name P-sm Fw-b,,Stat
+12,0,1,TH,Ta-end Nowrap P-sm Fw-b,,
+12,0,2,TH,Ta-end Nowrap P-sm Fw-b,,Pts Per
+12,0,3,TH,Ta-end Nowrap P-sm Fw-b,,Fan Pts
+12,1,0,TD,ysf-stat-name P-sm,,Passing Yards
+12,1,1,TD,Ta-end P-sm,,318
+12,1,2,TD,Ta-end P-sm,,0.04
+12,1,3,TD,Ta-end P-sm,,12.72
+12,2,0,TD,ysf-stat-name P-sm,,Passing Touchdowns
+12,2,1,TD,Ta-end P-sm,,3
+12,2,2,TD,Ta-end P-sm,,6.00
+12,2,3,TD,Ta-end P-sm,,18.00
+12,3,0,TD,ysf-stat-name P-sm,,Rushing Yards
+12,3,1,TD,Ta-end P-sm,,119
+12,3,2,TD,Ta-end P-sm,,0.10
+12,3,3,TD,Ta-end P-sm,,11.90
+12,4,0,TD,ysf-stat-name P-sm,,Rushing Touchdowns
+12,4,1,TD,Ta-end P-sm,,1
+12,4,2,TD,Ta-end P-sm,,6.00
+12,4,3,TD,Ta-end P-sm,,6.00
+12,5,0,TD,P-sm,,
+12,5,1,TD,P-sm,,
+12,5,2,TD,P-sm,,
+12,5,3,TD,P-sm,,
+12,6,0,TH,P-sm Fz-med Fw-b,,Total
+12,6,1,TH,P-sm,,
+12,6,2,TH,P-sm,,
+12,6,3,TH,P-sm Fz-med Fw-b Ta-end,,48.62
+13,0,0,TH,ysf-stat-name P-sm Fw-b,,Stat
+13,0,1,TH,Ta-end Nowrap P-sm Fw-b,,
+13,0,2,TH,Ta-end Nowrap P-sm Fw-b,,Pts Per
+13,0,3,TH,Ta-end Nowrap P-sm Fw-b,,Fan Pts
+13,1,0,TD,ysf-stat-name P-sm,,Receptions
+13,1,1,TD,Ta-end P-sm,,11
+13,1,2,TD,Ta-end P-sm,,0.50
+13,1,3,TD,Ta-end P-sm,,5.50
+13,2,0,TD,ysf-stat-name P-sm,,Receiving Yards
+13,2,1,TD,Ta-end P-sm,,171
+13,2,2,TD,Ta-end P-sm,,0.10
+13,2,3,TD,Ta-end P-sm,,17.10
+13,3,0,TD,ysf-stat-name P-sm,,Receiving Touchdowns
+13,3,1,TD,Ta-end P-sm,,2
+13,3,2,TD,Ta-end P-sm,,6.00
+13,3,3,TD,Ta-end P-sm,,12.00
+13,4,0,TD,P-sm,,
+13,4,1,TD,P-sm,,
+13,4,2,TD,P-sm,,
+13,4,3,TD,P-sm,,
+13,5,0,TH,P-sm Fz-med Fw-b,,Total
+13,5,1,TH,P-sm,,
+13,5,2,TH,P-sm,,
+13,5,3,TH,P-sm Fz-med Fw-b Ta-end,,34.60
+14,0,0,TH,ysf-stat-name P-sm Fw-b,,Stat
+14,0,1,TH,Ta-end Nowrap P-sm Fw-b,,
+14,0,2,TH,Ta-end Nowrap P-sm Fw-b,,Pts Per
+14,0,3,TH,Ta-end Nowrap P-sm Fw-b,,Fan Pts
+14,1,0,TD,ysf-stat-name P-sm,,Receptions
+14,1,1,TD,Ta-end P-sm,,9
+14,1,2,TD,Ta-end P-sm,,0.50
+14,1,3,TD,Ta-end P-sm,,4.50
+14,2,0,TD,ysf-stat-name P-sm,,Receiving Yards
+14,2,1,TD,Ta-end P-sm,,101
+14,2,2,TD,Ta-end P-sm,,0.10
+14,2,3,TD,Ta-end P-sm,,10.10
+14,3,0,TD,ysf-stat-name P-sm,,Receiving Touchdowns
+14,3,1,TD,Ta-end P-sm,,1
+14,3,2,TD,Ta-end P-sm,,6.00
+14,3,3,TD,Ta-end P-sm,,6.00
+14,4,0,TD,P-sm,,
+14,4,1,TD,P-sm,,
+14,4,2,TD,P-sm,,
+14,4,3,TD,P-sm,,
+14,5,0,TH,P-sm Fz-med Fw-b,,Total
+14,5,1,TH,P-sm,,
+14,5,2,TH,P-sm,,
+14,5,3,TH,P-sm Fz-med Fw-b Ta-end,,20.60
+15,0,0,TH,ysf-stat-name P-sm Fw-b,,Stat
+15,0,1,TH,Ta-end Nowrap P-sm Fw-b,,
+15,0,2,TH,Ta-end Nowrap P-sm Fw-b,,Pts Per
+15,0,3,TH,Ta-end Nowrap P-sm Fw-b,,Fan Pts
+15,1,0,TD,ysf-stat-name P-sm,,Rushing Yards
+15,1,1,TD,Ta-end P-sm,,102
+15,1,2,TD,Ta-end P-sm,,0.10
+15,1,3,TD,Ta-end P-sm,,10.20
+15,2,0,TD,ysf-stat-name P-sm,,Receptions
+15,2,1,TD,Ta-end P-sm,,4
+15,2,2,TD,Ta-end P-sm,,0.50
+15,2,3,TD,Ta-end P-sm,,2.00
+15,3,0,TD,ysf-stat-name P-sm,,Receiving Yards
+15,3,1,TD,Ta-end P-sm,,26
+15,3,2,TD,Ta-end P-sm,,0.10
+15,3,3,TD,Ta-end P-sm,,2.60
+15,4,0,TD,P-sm,,
+15,4,1,TD,P-sm,,
+15,4,2,TD,P-sm,,
+15,4,3,TD,P-sm,,
+15,5,0,TH,P-sm Fz-med Fw-b,,Total
+15,5,1,TH,P-sm,,
+15,5,2,TH,P-sm,,
+15,5,3,TH,P-sm Fz-med Fw-b Ta-end,,14.80
+16,0,0,TH,ysf-stat-name P-sm Fw-b,,Stat
+16,0,1,TH,Ta-end Nowrap P-sm Fw-b,,
+16,0,2,TH,Ta-end Nowrap P-sm Fw-b,,Pts Per
+16,0,3,TH,Ta-end Nowrap P-sm Fw-b,,Fan Pts
+16,1,0,TD,ysf-stat-name P-sm,,Rushing Yards
+16,1,1,TD,Ta-end P-sm,,69
+16,1,2,TD,Ta-end P-sm,,0.10
+16,1,3,TD,Ta-end P-sm,,6.90
+16,2,0,TD,ysf-stat-name P-sm,,Receptions
+16,2,1,TD,Ta-end P-sm,,1
+16,2,2,TD,Ta-end P-sm,,0.50
+16,2,3,TD,Ta-end P-sm,,0.50
+16,3,0,TD,ysf-stat-name P-sm,,Receiving Yards
+16,3,1,TD,Ta-end P-sm,,12
+16,3,2,TD,Ta-end P-sm,,0.10
+16,3,3,TD,Ta-end P-sm,,1.20
+16,4,0,TD,P-sm,,
+16,4,1,TD,P-sm,,
+16,4,2,TD,P-sm,,
+16,4,3,TD,P-sm,,
+16,5,0,TH,P-sm Fz-med Fw-b,,Total
+16,5,1,TH,P-sm,,
+16,5,2,TH,P-sm,,
+16,5,3,TH,P-sm Fz-med Fw-b Ta-end,,8.60
+17,0,0,TH,ysf-stat-name P-sm Fw-b,,Stat
+17,0,1,TH,Ta-end Nowrap P-sm Fw-b,,
+17,0,2,TH,Ta-end Nowrap P-sm Fw-b,,Pts Per
+17,0,3,TH,Ta-end Nowrap P-sm Fw-b,,Fan Pts
+17,1,0,TD,ysf-stat-name P-sm,,Rushing Yards
+17,1,1,TD,Ta-end P-sm,,3
+17,1,2,TD,Ta-end P-sm,,0.10
+17,1,3,TD,Ta-end P-sm,,0.30
+17,2,0,TD,ysf-stat-name P-sm,,Receptions
+17,2,1,TD,Ta-end P-sm,,9
+17,2,2,TD,Ta-end P-sm,,0.50
+17,2,3,TD,Ta-end P-sm,,4.50
+17,3,0,TD,ysf-stat-name P-sm,,Receiving Yards
+17,3,1,TD,Ta-end P-sm,,104
+17,3,2,TD,Ta-end P-sm,,0.10
+17,3,3,TD,Ta-end P-sm,,10.40
+17,4,0,TD,ysf-stat-name P-sm,,Receiving Touchdowns
+17,4,1,TD,Ta-end P-sm,,1
+17,4,2,TD,Ta-end P-sm,,6.00
+17,4,3,TD,Ta-end P-sm,,6.00
+17,5,0,TD,P-sm,,
+17,5,1,TD,P-sm,,
+17,5,2,TD,P-sm,,
+17,5,3,TD,P-sm,,
+17,6,0,TH,P-sm Fz-med Fw-b,,Total
+17,6,1,TH,P-sm,,
+17,6,2,TH,P-sm,,
+17,6,3,TH,P-sm Fz-med Fw-b Ta-end,,21.20
+18,0,0,TH,ysf-stat-name P-sm Fw-b,,Stat
+18,0,1,TH,Ta-end Nowrap P-sm Fw-b,,
+18,0,2,TH,Ta-end Nowrap P-sm Fw-b,,Pts Per
+18,0,3,TH,Ta-end Nowrap P-sm Fw-b,,Fan Pts
+18,1,0,TD,ysf-stat-name P-sm,,Rushing Yards
+18,1,1,TD,Ta-end P-sm,,25
+18,1,2,TD,Ta-end P-sm,,0.10
+18,1,3,TD,Ta-end P-sm,,2.50
+18,2,0,TD,ysf-stat-name P-sm,,Receptions
+18,2,1,TD,Ta-end P-sm,,2
+18,2,2,TD,Ta-end P-sm,,0.50
+18,2,3,TD,Ta-end P-sm,,1.00
+18,3,0,TD,ysf-stat-name P-sm,,Receiving Yards
+18,3,1,TD,Ta-end P-sm,,26
+18,3,2,TD,Ta-end P-sm,,0.10
+18,3,3,TD,Ta-end P-sm,,2.60
+18,4,0,TD,P-sm,,
+18,4,1,TD,P-sm,,
+18,4,2,TD,P-sm,,
+18,4,3,TD,P-sm,,
+18,5,0,TH,P-sm Fz-med Fw-b,,Total
+18,5,1,TH,P-sm,,
+18,5,2,TH,P-sm,,
+18,5,3,TH,P-sm Fz-med Fw-b Ta-end,,6.10
+19,0,0,TH,ysf-stat-name P-sm Fw-b,,Stat
+19,0,1,TH,Ta-end Nowrap P-sm Fw-b,,
+19,0,2,TH,Ta-end Nowrap P-sm Fw-b,,Pts Per
+19,0,3,TH,Ta-end Nowrap P-sm Fw-b,,Fan Pts
+19,1,0,TD,ysf-stat-name P-sm,,Field Goals 20-29 Yards
+19,1,1,TD,Ta-end P-sm,,1
+19,1,2,TD,Ta-end P-sm,,3.00
+19,1,3,TD,Ta-end P-sm,,3.00
+19,2,0,TD,ysf-stat-name P-sm,,Point After Attempt Made
+19,2,1,TD,Ta-end P-sm,,4
+19,2,2,TD,Ta-end P-sm,,1.00
+19,2,3,TD,Ta-end P-sm,,4.00
+19,3,0,TD,P-sm,,
+19,3,1,TD,P-sm,,
+19,3,2,TD,P-sm,,
+19,3,3,TD,P-sm,,
+19,4,0,TH,P-sm Fz-med Fw-b,,Total
+19,4,1,TH,P-sm,,
+19,4,2,TH,P-sm,,
+19,4,3,TH,P-sm Fz-med Fw-b Ta-end,,7.00
+20,0,0,TH,ysf-stat-name P-sm Fw-b,,Stat
+20,0,1,TH,Ta-end Nowrap P-sm Fw-b,,
+20,0,2,TH,Ta-end Nowrap P-sm Fw-b,,Pts Per
+20,0,3,TH,Ta-end Nowrap P-sm Fw-b,,Fan Pts
+20,1,0,TD,ysf-stat-name P-sm,,Sack
+20,1,1,TD,Ta-end P-sm,,1
+20,1,2,TD,Ta-end P-sm,,1.00
+20,1,3,TD,Ta-end P-sm,,1.00
+20,2,0,TD,ysf-stat-name P-sm,,Interception
+20,2,1,TD,Ta-end P-sm,,2
+20,2,2,TD,Ta-end P-sm,,2.00
+20,2,3,TD,Ta-end P-sm,,4.00
+20,3,0,TD,ysf-stat-name P-sm,,Kickoff and Punt Return Touchdowns
+20,3,1,TD,Ta-end P-sm,,1
+20,3,2,TD,Ta-end P-sm,,6.00
+20,3,3,TD,Ta-end P-sm,,6.00
+20,4,0,TD,ysf-stat-name P-sm,,Points Allowed 35+ points
+20,4,1,TD,Ta-end P-sm,,1
+20,4,2,TD,Ta-end P-sm,,-4.00
+20,4,3,TD,Ta-end P-sm,,-4.00
+20,5,0,TD,P-sm,,
+20,5,1,TD,P-sm,,
+20,5,2,TD,P-sm,,
+20,5,3,TD,P-sm,,
+20,6,0,TH,P-sm Fz-med Fw-b,,Total
+20,6,1,TH,P-sm,,
+20,6,2,TH,P-sm,,
+20,6,3,TH,P-sm Fz-med Fw-b Ta-end,,7.00
+21,0,0,TH,ysf-stat-name P-sm Fw-b,,Stat
+21,0,1,TH,Ta-end Nowrap P-sm Fw-b,,
+21,0,2,TH,Ta-end Nowrap P-sm Fw-b,,Pts Per
+21,0,3,TH,Ta-end Nowrap P-sm Fw-b,,Fan Pts
+21,1,0,TD,ysf-stat-name P-sm,,Receptions
+21,1,1,TD,Ta-end P-sm,,2
+21,1,2,TD,Ta-end P-sm,,0.50
+21,1,3,TD,Ta-end P-sm,,1.00
+21,2,0,TD,P-sm,,
+21,2,1,TD,P-sm,,
+21,2,2,TD,P-sm,,
+21,2,3,TD,P-sm,,
+21,3,0,TH,P-sm Fz-med Fw-b,,Total
+21,3,1,TH,P-sm,,
+21,3,2,TH,P-sm,,
+21,3,3,TH,P-sm Fz-med Fw-b Ta-end,,1.00
+22,0,0,TH,ysf-stat-name P-sm Fw-b,,Stat
+22,0,1,TH,Ta-end Nowrap P-sm Fw-b,,
+22,0,2,TH,Ta-end Nowrap P-sm Fw-b,,Pts Per
+22,0,3,TH,Ta-end Nowrap P-sm Fw-b,,Fan Pts
+22,1,0,TD,ysf-stat-name P-sm,,Receptions
+22,1,1,TD,Ta-end P-sm,,1
+22,1,2,TD,Ta-end P-sm,,0.50
+22,1,3,TD,Ta-end P-sm,,0.50
+22,2,0,TD,ysf-stat-name P-sm,,Receiving Yards
+22,2,1,TD,Ta-end P-sm,,23
+22,2,2,TD,Ta-end P-sm,,0.10
+22,2,3,TD,Ta-end P-sm,,2.30
+22,3,0,TD,P-sm,,
+22,3,1,TD,P-sm,,
+22,3,2,TD,P-sm,,
+22,3,3,TD,P-sm,,
+22,4,0,TH,P-sm Fz-med Fw-b,,Total
+22,4,1,TH,P-sm,,
+22,4,2,TH,P-sm,,
+22,4,3,TH,P-sm Fz-med Fw-b Ta-end,,2.80
+23,0,0,TH,ysf-stat-name P-sm Fw-b,,Stat
+23,0,1,TH,Ta-end Nowrap P-sm Fw-b,,
+23,0,2,TH,Ta-end Nowrap P-sm Fw-b,,Pts Per
+23,0,3,TH,Ta-end Nowrap P-sm Fw-b,,Fan Pts
+23,1,0,TD,ysf-stat-name P-sm,,Receptions
+23,1,1,TD,Ta-end P-sm,,9
+23,1,2,TD,Ta-end P-sm,,0.50
+23,1,3,TD,Ta-end P-sm,,4.50
+23,2,0,TD,ysf-stat-name P-sm,,Receiving Yards
+23,2,1,TD,Ta-end P-sm,,95
+23,2,2,TD,Ta-end P-sm,,0.10
+23,2,3,TD,Ta-end P-sm,,9.50
+23,3,0,TD,P-sm,,
+23,3,1,TD,P-sm,,
+23,3,2,TD,P-sm,,
+23,3,3,TD,P-sm,,
+23,4,0,TH,P-sm Fz-med Fw-b,,Total
+23,4,1,TH,P-sm,,
+23,4,2,TH,P-sm,,
+23,4,3,TH,P-sm Fz-med Fw-b Ta-end,,14.00
+24,0,0,TH,ysf-stat-name P-sm Fw-b,,Stat
+24,0,1,TH,Ta-end Nowrap P-sm Fw-b,,
+24,0,2,TH,Ta-end Nowrap P-sm Fw-b,,Pts Per
+24,0,3,TH,Ta-end Nowrap P-sm Fw-b,,Fan Pts
+24,1,0,TD,ysf-stat-name P-sm,,Rushing Yards
+24,1,1,TD,Ta-end P-sm,,6
+24,1,2,TD,Ta-end P-sm,,0.10
+24,1,3,TD,Ta-end P-sm,,0.60
+24,2,0,TD,P-sm,,
+24,2,1,TD,P-sm,,
+24,2,2,TD,P-sm,,
+24,2,3,TD,P-sm,,
+24,3,0,TH,P-sm Fz-med Fw-b,,Total
+24,3,1,TH,P-sm,,
+24,3,2,TH,P-sm,,
+24,3,3,TH,P-sm Fz-med Fw-b Ta-end,,0.60
+25,0,0,TH,ysf-stat-name P-sm Fw-b,,Stat
+25,0,1,TH,Ta-end Nowrap P-sm Fw-b,,
+25,0,2,TH,Ta-end Nowrap P-sm Fw-b,,Pts Per
+25,0,3,TH,Ta-end Nowrap P-sm Fw-b,,Fan Pts
+25,1,0,TD,ysf-stat-name P-sm,,Receptions
+25,1,1,TD,Ta-end P-sm,,4
+25,1,2,TD,Ta-end P-sm,,0.50
+25,1,3,TD,Ta-end P-sm,,2.00
+25,2,0,TD,ysf-stat-name P-sm,,Receiving Yards
+25,2,1,TD,Ta-end P-sm,,59
+25,2,2,TD,Ta-end P-sm,,0.10
+25,2,3,TD,Ta-end P-sm,,5.90
+25,3,0,TD,ysf-stat-name P-sm,,Receiving Touchdowns
+25,3,1,TD,Ta-end P-sm,,1
+25,3,2,TD,Ta-end P-sm,,6.00
+25,3,3,TD,Ta-end P-sm,,6.00
+25,4,0,TD,ysf-stat-name P-sm,,2-Point Conversions
+25,4,1,TD,Ta-end P-sm,,1
+25,4,2,TD,Ta-end P-sm,,2.00
+25,4,3,TD,Ta-end P-sm,,2.00
+25,5,0,TD,P-sm,,
+25,5,1,TD,P-sm,,
+25,5,2,TD,P-sm,,
+25,5,3,TD,P-sm,,
+25,6,0,TH,P-sm Fz-med Fw-b,,Total
+25,6,1,TH,P-sm,,
+25,6,2,TH,P-sm,,
+25,6,3,TH,P-sm Fz-med Fw-b Ta-end,,15.90
+26,0,0,TH,ysf-stat-name P-sm Fw-b,,Stat
+26,0,1,TH,Ta-end Nowrap P-sm Fw-b,,
+26,0,2,TH,Ta-end Nowrap P-sm Fw-b,,Pts Per
+26,0,3,TH,Ta-end Nowrap P-sm Fw-b,,Fan Pts
+26,1,0,TD,ysf-stat-name P-sm,,Rushing Yards
+26,1,1,TD,Ta-end P-sm,,14
+26,1,2,TD,Ta-end P-sm,,0.10
+26,1,3,TD,Ta-end P-sm,,1.40
+26,2,0,TD,P-sm,,
+26,2,1,TD,P-sm,,
+26,2,2,TD,P-sm,,
+26,2,3,TD,P-sm,,
+26,3,0,TH,P-sm Fz-med Fw-b,,Total
+26,3,1,TH,P-sm,,
+26,3,2,TH,P-sm,,
+26,3,3,TH,P-sm Fz-med Fw-b Ta-end,,1.40
+27,0,0,TH,ysf-stat-name P-sm Fw-b,,Stat
+27,0,1,TH,Ta-end Nowrap P-sm Fw-b,,
+27,0,2,TH,Ta-end Nowrap P-sm Fw-b,,Pts Per
+27,0,3,TH,Ta-end Nowrap P-sm Fw-b,,Fan Pts
+27,1,0,TD,ysf-stat-name P-sm,,Receptions
+27,1,1,TD,Ta-end P-sm,,7
+27,1,2,TD,Ta-end P-sm,,0.50
+27,1,3,TD,Ta-end P-sm,,3.50
+27,2,0,TD,ysf-stat-name P-sm,,Receiving Yards
+27,2,1,TD,Ta-end P-sm,,80
+27,2,2,TD,Ta-end P-sm,,0.10
+27,2,3,TD,Ta-end P-sm,,8.00
+27,3,0,TD,P-sm,,
+27,3,1,TD,P-sm,,
+27,3,2,TD,P-sm,,
+27,3,3,TD,P-sm,,
+27,4,0,TH,P-sm Fz-med Fw-b,,Total
+27,4,1,TH,P-sm,,
+27,4,2,TH,P-sm,,
+27,4,3,TH,P-sm Fz-med Fw-b Ta-end,,11.50
+28,0,0,TH,ysf-stat-name P-sm Fw-b,,Stat
+28,0,1,TH,Ta-end Nowrap P-sm Fw-b,,
+28,0,2,TH,Ta-end Nowrap P-sm Fw-b,,Pts Per
+28,0,3,TH,Ta-end Nowrap P-sm Fw-b,,Fan Pts
+28,1,0,TD,ysf-stat-name P-sm,,Rushing Yards
+28,1,1,TD,Ta-end P-sm,,23
+28,1,2,TD,Ta-end P-sm,,0.10
+28,1,3,TD,Ta-end P-sm,,2.30
+28,2,0,TD,ysf-stat-name P-sm,,Receptions
+28,2,1,TD,Ta-end P-sm,,5
+28,2,2,TD,Ta-end P-sm,,0.50
+28,2,3,TD,Ta-end P-sm,,2.50
+28,3,0,TD,ysf-stat-name P-sm,,Receiving Yards
+28,3,1,TD,Ta-end P-sm,,27
+28,3,2,TD,Ta-end P-sm,,0.10
+28,3,3,TD,Ta-end P-sm,,2.70
+28,4,0,TD,P-sm,,
+28,4,1,TD,P-sm,,
+28,4,2,TD,P-sm,,
+28,4,3,TD,P-sm,,
+28,5,0,TH,P-sm Fz-med Fw-b,,Total
+28,5,1,TH,P-sm,,
+28,5,2,TH,P-sm,,
+28,5,3,TH,P-sm Fz-med Fw-b Ta-end,,7.50
+29,0,0,TH,ysf-stat-name P-sm Fw-b,,Stat
+29,0,1,TH,Ta-end Nowrap P-sm Fw-b,,
+29,0,2,TH,Ta-end Nowrap P-sm Fw-b,,Pts Per
+29,0,3,TH,Ta-end Nowrap P-sm Fw-b,,Fan Pts
+29,1,0,TD,ysf-stat-name P-sm,,Receptions
+29,1,1,TD,Ta-end P-sm,,2
+29,1,2,TD,Ta-end P-sm,,0.50
+29,1,3,TD,Ta-end P-sm,,1.00
+29,2,0,TD,ysf-stat-name P-sm,,Receiving Yards
+29,2,1,TD,Ta-end P-sm,,17
+29,2,2,TD,Ta-end P-sm,,0.10
+29,2,3,TD,Ta-end P-sm,,1.70
+29,3,0,TD,ysf-stat-name P-sm,,2-Point Conversions
+29,3,1,TD,Ta-end P-sm,,1
+29,3,2,TD,Ta-end P-sm,,2.00
+29,3,3,TD,Ta-end P-sm,,2.00
+29,4,0,TD,P-sm,,
+29,4,1,TD,P-sm,,
+29,4,2,TD,P-sm,,
+29,4,3,TD,P-sm,,
+29,5,0,TH,P-sm Fz-med Fw-b,,Total
+29,5,1,TH,P-sm,,
+29,5,2,TH,P-sm,,
+29,5,3,TH,P-sm Fz-med Fw-b Ta-end,,4.70
+30,0,0,TH,ysf-stat-name P-sm Fw-b,,Stat
+30,0,1,TH,Ta-end Nowrap P-sm Fw-b,,
+30,0,2,TH,Ta-end Nowrap P-sm Fw-b,,Pts Per
+30,0,3,TH,Ta-end Nowrap P-sm Fw-b,,Fan Pts
+30,1,0,TD,ysf-stat-name P-sm,,Receptions
+30,1,1,TD,Ta-end P-sm,,4
+30,1,2,TD,Ta-end P-sm,,0.50
+30,1,3,TD,Ta-end P-sm,,2.00
+30,2,0,TD,ysf-stat-name P-sm,,Receiving Yards
+30,2,1,TD,Ta-end P-sm,,22
+30,2,2,TD,Ta-end P-sm,,0.10
+30,2,3,TD,Ta-end P-sm,,2.20
+30,3,0,TD,ysf-stat-name P-sm,,Receiving Touchdowns
+30,3,1,TD,Ta-end P-sm,,1
+30,3,2,TD,Ta-end P-sm,,6.00
+30,3,3,TD,Ta-end P-sm,,6.00
+30,4,0,TD,P-sm,,
+30,4,1,TD,P-sm,,
+30,4,2,TD,P-sm,,
+30,4,3,TD,P-sm,,
+30,5,0,TH,P-sm Fz-med Fw-b,,Total
+30,5,1,TH,P-sm,,
+30,5,2,TH,P-sm,,
+30,5,3,TH,P-sm Fz-med Fw-b Ta-end,,10.20
+31,0,0,TH,ysf-stat-name P-sm Fw-b,,Stat
+31,0,1,TH,Ta-end Nowrap P-sm Fw-b,,
+31,0,2,TH,Ta-end Nowrap P-sm Fw-b,,Pts Per
+31,0,3,TH,Ta-end Nowrap P-sm Fw-b,,Fan Pts
+31,1,0,TD,ysf-stat-name P-sm,,Passing Yards
+31,1,1,TD,Ta-end P-sm,,70
+31,1,2,TD,Ta-end P-sm,,0.04
+31,1,3,TD,Ta-end P-sm,,2.80
+31,2,0,TD,ysf-stat-name P-sm,,Interceptions
+31,2,1,TD,Ta-end P-sm,,1
+31,2,2,TD,Ta-end P-sm,,-1.00
+31,2,3,TD,Ta-end P-sm,,-1.00
+31,3,0,TD,ysf-stat-name P-sm,,Rushing Yards
+31,3,1,TD,Ta-end P-sm,,20
+31,3,2,TD,Ta-end P-sm,,0.10
+31,3,3,TD,Ta-end P-sm,,2.00
+31,4,0,TD,ysf-stat-name P-sm,,Rushing Touchdowns
+31,4,1,TD,Ta-end P-sm,,1
+31,4,2,TD,Ta-end P-sm,,6.00
+31,4,3,TD,Ta-end P-sm,,6.00
+31,5,0,TD,P-sm,,
+31,5,1,TD,P-sm,,
+31,5,2,TD,P-sm,,
+31,5,3,TD,P-sm,,
+31,6,0,TH,P-sm Fz-med Fw-b,,Total
+31,6,1,TH,P-sm,,
+31,6,2,TH,P-sm,,
+31,6,3,TH,P-sm Fz-med Fw-b Ta-end,,9.80
+32,0,0,TH,Ta-end Nowrap Fw-b F-reset Fz-sm Wpx-200 D-ib Ell Px-xl,,Tim View Profile
+32,0,1,TH,Ta-c Wpx-200,,Category
+32,0,2,TH,Ta-start Nowrap Fw-b F-reset Fz-sm Wpx-200 D-ib Ell Px-xl,,Tanner View Profile
+32,1,0,TD,Ta-end Relative F-reset Px-xl,,Bronze
+32,1,1,TD,F-shade Ta-c Va-mid,,Level
+32,1,2,TD,Ta-start Relative F-reset Px-xl,,Bronze
+32,2,0,TD,Ta-end Relative F-reset Px-xl,,534
+32,2,1,TD,F-shade Ta-c Va-mid,,Current Rating
+32,2,2,TD,Ta-start Relative Fw-b Bg-selected Px-xl,,575
+32,3,0,TD,Ta-end Relative F-reset Px-xl,,82-124-0
+32,3,1,TD,F-shade Ta-c Va-mid,,Record (W-L-T)
+32,3,2,TD,Ta-start Relative Fw-b Bg-selected Px-xl,,68-74-0
+32,4,0,TD,Ta-end Relative F-reset Px-xl,,.398
+32,4,1,TD,F-shade Ta-c Va-mid,,Winning %
+32,4,2,TD,Ta-start Relative Fw-b Bg-selected Px-xl,,.479
+32,5,0,TD,Ta-end Relative Fw-b Bg-selected Px-xl,,2
+32,5,1,TD,F-shade Ta-c Va-mid,,Trophies Won
+32,5,2,TD,Ta-start Relative F-reset Px-xl,,1
+32,6,0,TD,Ta-end Relative F-reset Px-xl,,0
+32,6,1,TD,F-shade Ta-c Va-mid,,First Place Trophies
+32,6,2,TD,Ta-start Relative Fw-b Bg-selected Px-xl,,1
+32,7,0,TD,Ta-end Relative F-reset Px-xl,,Bronze (9x)
+32,7,1,TD,F-shade Ta-c Va-mid,,Best Season Finish
+32,7,2,TD,Ta-start Relative F-reset Px-xl,,Silver (1x)
+32,8,0,TD,Ta-end Relative F-reset Px-xl,,2008
+32,8,1,TD,F-shade Ta-c Va-mid,,Playing Since *
+32,8,2,TD,Ta-start Relative F-reset Px-xl,,2017
+32,9,0,TD,Ta-end Relative F-reset Px-xl,,13
+32,9,1,TD,F-shade Ta-c Va-mid,,Teams Managed
+32,9,2,TD,Ta-start Relative F-reset Px-xl,,9

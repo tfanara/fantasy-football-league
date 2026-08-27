@@ -1,0 +1,93 @@
+year,week,matchup_id,matchup_number,yahoo_team_id_used,left_team,right_team,left_score,right_score,player_records,roster_tables,url
+2018,1,2018-W01-M01,1,1,Malle ❤️ 🐸,The Big Gronkowski,83.66,79.84,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=1&mid1=1
+2018,1,2018-W01-M02,2,3,Week 1 Recap (Lost),Voldemort,121.58,123.04,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=1&mid1=3
+2018,1,2018-W01-M03,3,4,Joe Mantegna,Uncle Rico,101.54,88.84,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=1&mid1=4
+2018,1,2018-W01-M04,4,5,Week 1 Recap (Lost),Dillon Panthers,122.46,127.62,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=1&mid1=5
+2018,1,2018-W01-M05,5,6,Week 1 Recap (Lost),PickUpYourBratsMalle,98.66,122.36,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=1&mid1=6
+2018,1,2018-W01-M06,6,7,malle_dips_pouches,Pop Lockett Drop it,80.14,98.42,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=1&mid1=7
+2018,1,2018-W01-M07,7,8,Week 1 Recap (Won),Post Mahomes,122.36,98.66,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=1&mid1=8
+2018,2,2018-W02-M01,1,1,The Big Gronkowski,Voldemort,94.74,103.96,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=2&mid1=1
+2018,2,2018-W02-M02,2,2,malle_dips_pouches,Malle ❤️ 🐸,97.8,102.26,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=2&mid1=2
+2018,2,2018-W02-M03,3,4,Week 2 Recap (Lost),Joe Mantegna,97.6,107.4,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=2&mid1=4
+2018,2,2018-W02-M04,4,5,Week 2 Recap (Lost),Uncle Rico,98.54,100.02,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=2&mid1=5
+2018,2,2018-W02-M05,5,6,Week 2 Recap (Won),PickUpYourBratsMalle,127.1,83.04,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=2&mid1=6
+2018,2,2018-W02-M06,6,7,Pop Lockett Drop it,Post Mahomes,101.08,98.56,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=2&mid1=7
+2018,2,2018-W02-M07,7,9,Week 2 Recap (Lost),Ginger FC,83.04,127.1,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=2&mid1=9
+2018,3,2018-W03-M01,1,1,Joe Mantegna,The Big Gronkowski,87.74,108.16,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=3&mid1=1
+2018,3,2018-W03-M02,2,2,Malle ❤️ 🐸,Voldemort,96.5,82.22,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=3&mid1=2
+2018,3,2018-W03-M03,3,5,Week 3 Recap (Won),Dillon Panthers,120.84,106.58,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=3&mid1=5
+2018,3,2018-W03-M04,4,6,Week 3 Recap (Lost),Uncle Rico,86.6,98.84,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=3&mid1=6
+2018,3,2018-W03-M05,5,7,Pop Lockett Drop it,Ginger FC,127.26,56.9,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=3&mid1=7
+2018,3,2018-W03-M06,6,8,malle_dips_pouches,Post Mahomes,72.76,93.16,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=3&mid1=8
+2018,4,2018-W04-M01,1,1,Week 4 Recap (Won),The Big Gronkowski,98.5,93.18,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=4&mid1=1
+2018,4,2018-W04-M02,2,2,Joe Mantegna,Malle ❤️ 🐸,77.46,131.56,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=4&mid1=2
+2018,4,2018-W04-M03,3,3,malle_dips_pouches,Voldemort,93.16,112.2,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=4&mid1=3
+2018,4,2018-W04-M04,4,5,Week 4 Recap (Lost),Dillon Panthers,93.18,98.5,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=4&mid1=5
+2018,4,2018-W04-M05,5,6,Week 4 Recap (Won),PickUpYourBratsMalle,154.38,130.98,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=4&mid1=6
+2018,4,2018-W04-M06,6,7,Pop Lockett Drop it,Uncle Rico,84.62,158.96,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=4&mid1=7
+2018,4,2018-W04-M07,7,8,Post Mahomes,Ginger FC,152.36,110.52,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=4&mid1=8
+2018,5,2018-W05-M01,1,1,Week 5 Recap (Won),The Big Gronkowski,93.86,86.94,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=5&mid1=1
+2018,5,2018-W05-M02,2,2,Week 5 Recap (Lost),Malle ❤️ 🐸,100.6,108.52,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=5&mid1=2
+2018,5,2018-W05-M03,3,3,Joe Mantegna,Voldemort,122.04,100.92,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=5&mid1=3
+2018,5,2018-W05-M04,4,5,Week 5 Recap (Won),Dillon Panthers,108.52,100.6,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=5&mid1=5
+2018,5,2018-W05-M05,5,6,Week 5 Recap (Lost),PickUpYourBratsMalle,86.94,93.86,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=5&mid1=6
+2018,5,2018-W05-M06,6,7,Week 5 Recap (Lost),Pop Lockett Drop it,100.88,102.22,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=5&mid1=7
+2018,5,2018-W05-M07,7,8,Post Mahomes,Uncle Rico,94.98,114.6,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=5&mid1=8
+2018,5,2018-W05-M08,8,9,malle_dips_pouches,Ginger FC,88.24,95.54,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=5&mid1=9
+2018,6,2018-W06-M01,1,1,The Big Gronkowski,Pop Lockett Drop it,88.58,125.6,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=6&mid1=1
+2018,6,2018-W06-M02,2,2,Week 6 Recap (Won),Malle ❤️ 🐸,95.06,92.92,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=6&mid1=2
+2018,6,2018-W06-M03,3,3,Week 6 Recap (Lost),Voldemort,95.7,106.52,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=6&mid1=3
+2018,6,2018-W06-M04,4,4,malle_dips_pouches,Joe Mantegna,116.08,70.24,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=6&mid1=4
+2018,6,2018-W06-M05,5,5,Week 6 Recap (Won),Dillon Panthers,106.52,95.7,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=6&mid1=5
+2018,6,2018-W06-M06,6,6,Week 6 Recap (Lost),PickUpYourBratsMalle,92.92,95.06,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=6&mid1=6
+2018,6,2018-W06-M07,7,8,Week 6 Recap (Lost),Post Mahomes,118.9,122.68,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=6&mid1=8
+2018,6,2018-W06-M08,8,9,Uncle Rico,Ginger FC,124.1,81.08,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=6&mid1=9
+2018,7,2018-W07-M01,1,1,The Big Gronkowski,Post Mahomes,87.64,86.66,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=7&mid1=1
+2018,7,2018-W07-M02,2,2,Malle ❤️ 🐸,Pop Lockett Drop it,107.34,142.86,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=7&mid1=2
+2018,7,2018-W07-M03,3,3,Week 7 Recap (Lost),Voldemort,111.38,119.34,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=7&mid1=3
+2018,7,2018-W07-M04,4,4,Week 7 Recap (Lost),Joe Mantegna,101.32,104.6,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=7&mid1=4
+2018,7,2018-W07-M05,5,5,Week 7 Recap (Won),Dillon Panthers,104.6,101.32,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=7&mid1=5
+2018,7,2018-W07-M06,6,6,Week 7 Recap (Won),PickUpYourBratsMalle,119.34,111.38,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=7&mid1=6
+2018,7,2018-W07-M07,7,9,Week 7 Recap (Lost),Ginger FC,80.1,111.78,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=7&mid1=9
+2018,7,2018-W07-M08,8,10,malle_dips_pouches,Uncle Rico,73.24,93.78,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=7&mid1=10
+2018,8,2018-W08-M01,1,1,The Big Gronkowski,Ginger FC,83.2,95.94,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=8&mid1=1
+2018,8,2018-W08-M02,2,2,Malle ❤️ 🐸,Post Mahomes,89.06,107.34,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=8&mid1=2
+2018,8,2018-W08-M03,3,3,Pop Lockett Drop it,Voldemort,121.96,101.1,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=8&mid1=3
+2018,8,2018-W08-M04,4,4,Week 8 Recap (Lost),Joe Mantegna,95.72,117.96,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=8&mid1=4
+2018,8,2018-W08-M05,5,5,Week 8 Recap (Lost),Dillon Panthers,94.8,111.4,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=8&mid1=5
+2018,8,2018-W08-M06,6,6,Week 8 Recap (Won),PickUpYourBratsMalle,117.96,95.72,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=8&mid1=6
+2018,8,2018-W08-M07,7,10,Week 8 Recap (Won),Uncle Rico,111.24,98.9,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=8&mid1=10
+2018,9,2018-W09-M01,1,1,The Big Gronkowski,Uncle Rico,87.26,102.4,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=9&mid1=1
+2018,9,2018-W09-M02,2,2,Malle ❤️ 🐸,Ginger FC,105.4,68.8,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=9&mid1=2
+2018,9,2018-W09-M03,3,3,Voldemort,Post Mahomes,98.74,97.48,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=9&mid1=3
+2018,9,2018-W09-M04,4,4,Joe Mantegna,Pop Lockett Drop it,134.1,138.2,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=9&mid1=4
+2018,9,2018-W09-M05,5,5,Week 9 Recap (Lost),Dillon Panthers,79.04,92.16,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=9&mid1=5
+2018,9,2018-W09-M06,6,6,Week 9 Recap (Won),PickUpYourBratsMalle,92.16,79.04,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=9&mid1=6
+2018,10,2018-W10-M01,1,1,Week 10 Recap (Won),The Big Gronkowski,111.72,97.26,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=10&mid1=1
+2018,10,2018-W10-M02,2,2,Malle ❤️ 🐸,Uncle Rico,102.96,117.52,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=10&mid1=2
+2018,10,2018-W10-M03,3,3,Voldemort,Ginger FC,104.38,86.7,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=10&mid1=3
+2018,10,2018-W10-M04,4,4,Joe Mantegna,Post Mahomes,110.56,120.62,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=10&mid1=4
+2018,10,2018-W10-M05,5,5,Week 10 Recap (Won),Dillon Panthers,122.9,83.4,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=10&mid1=5
+2018,10,2018-W10-M06,6,6,Week 10 Recap (Lost),PickUpYourBratsMalle,85.22,121.52,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=10&mid1=6
+2018,10,2018-W10-M07,7,7,Week 10 Recap (Lost),Pop Lockett Drop it,83.4,122.9,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=10&mid1=7
+2018,11,2018-W11-M01,1,1,malle_dips_pouches,The Big Gronkowski,90.14,147.62,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=11&mid1=1
+2018,11,2018-W11-M02,2,2,Week 11 Recap (Lost),Malle ❤️ 🐸,90.06,120.7,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=11&mid1=2
+2018,11,2018-W11-M03,3,3,Voldemort,Uncle Rico,98.68,71.98,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=11&mid1=3
+2018,11,2018-W11-M04,4,4,Joe Mantegna,Ginger FC,119.92,104.94,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=11&mid1=4
+2018,11,2018-W11-M05,5,5,Week 11 Recap (Lost),Dillon Panthers,105.82,135.48,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=11&mid1=5
+2018,11,2018-W11-M06,6,6,Week 11 Recap (Lost),PickUpYourBratsMalle,81.08,100.74,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=11&mid1=6
+2018,11,2018-W11-M07,7,7,Week 11 Recap (Won),Pop Lockett Drop it,100.74,81.08,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=11&mid1=7
+2018,12,2018-W12-M01,1,1,Malle ❤️ 🐸,The Big Gronkowski,148.46,96.18,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=12&mid1=1
+2018,12,2018-W12-M02,2,3,Week 12 Recap (Won),Voldemort,106.22,61.04,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=12&mid1=3
+2018,12,2018-W12-M03,3,4,Joe Mantegna,Uncle Rico,83.2,67.8,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=12&mid1=4
+2018,12,2018-W12-M04,4,5,Week 12 Recap (Lost),Dillon Panthers,92.24,95.26,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=12&mid1=5
+2018,12,2018-W12-M05,5,6,Week 12 Recap (Won),PickUpYourBratsMalle,118.88,109.14,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=12&mid1=6
+2018,12,2018-W12-M06,6,7,malle_dips_pouches,Pop Lockett Drop it,107.28,153.22,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=12&mid1=7
+2018,12,2018-W12-M07,7,8,Week 12 Recap (Lost),Post Mahomes,109.14,118.88,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=12&mid1=8
+2018,13,2018-W13-M01,1,1,The Big Gronkowski,Voldemort,91.76,93.0,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=13&mid1=1
+2018,13,2018-W13-M02,2,2,malle_dips_pouches,Malle ❤️ 🐸,54.72,72.58,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=13&mid1=2
+2018,13,2018-W13-M03,3,4,Week 13 Recap (Lost),Joe Mantegna,90.4,95.1,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=13&mid1=4
+2018,13,2018-W13-M04,4,5,Week 13 Recap (Won),Uncle Rico,111.32,74.62,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=13&mid1=5
+2018,13,2018-W13-M05,5,6,Week 13 Recap (Lost),PickUpYourBratsMalle,80.34,106.7,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=13&mid1=6
+2018,13,2018-W13-M06,6,7,Pop Lockett Drop it,Post Mahomes,112.7,109.0,32,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=13&mid1=7
+2018,13,2018-W13-M07,7,9,Week 13 Recap (Won),Ginger FC,106.7,80.34,30,2,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=13&mid1=9

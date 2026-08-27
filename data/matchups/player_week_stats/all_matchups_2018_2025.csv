@@ -1,0 +1,655 @@
+year,week,matchup_id,matchup_number,yahoo_team_id_used,left_team,right_team,left_score,right_score,player_records,roster_tables,url
+2018,1,2018-W01-M01,1,3.0,Voldemort,Big Sack Jack,121.58,123.04,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=1&mid1=3
+2018,1,2018-W01-M02,2,5.0,Dillon Panthers,Ginger FC,122.46,127.62,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=1&mid1=5
+2018,1,2018-W01-M03,3,4.0,Uncle Rico,Joe Mantegna,101.54,88.84,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=1&mid1=4
+2018,1,2018-W01-M04,4,1.0,The Big Gronkowski,Malle ❤️ 🐸,83.66,79.84,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=1&mid1=1
+2018,1,2018-W01-M05,5,6.0,PickUpYourBratsMalle,Post Mahomes,98.66,122.36,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=1&mid1=6
+2018,1,2018-W01-M06,6,7.0,Pop Lockett Drop it,malle_dips_pouches,80.14,98.42,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=1&mid1=7
+2018,2,2018-W02-M01,1,4.0,Joe Mantegna,Big Sack Jack,97.6,107.4,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=2&mid1=4
+2018,2,2018-W02-M02,2,5.0,Uncle Rico,Dillon Panthers,98.54,100.02,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=2&mid1=5
+2018,2,2018-W02-M03,3,6.0,PickUpYourBratsMalle,Ginger FC,127.1,83.04,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=2&mid1=6
+2018,2,2018-W02-M04,4,2.0,Malle ❤️ 🐸,malle_dips_pouches,97.8,102.26,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=2&mid1=2
+2018,2,2018-W02-M05,5,7.0,Pop Lockett Drop it,Post Mahomes,101.08,98.56,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=2&mid1=7
+2018,2,2018-W02-M06,6,1.0,The Big Gronkowski,Voldemort,94.74,103.96,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=2&mid1=1
+2018,3,2018-W03-M01,1,5.0,Dillon Panthers,Big Sack Jack,120.84,106.58,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=3&mid1=5
+2018,3,2018-W03-M02,2,7.0,Pop Lockett Drop it,Ginger FC,127.26,56.9,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=3&mid1=7
+2018,3,2018-W03-M03,3,1.0,The Big Gronkowski,Joe Mantegna,87.74,108.16,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=3&mid1=1
+2018,3,2018-W03-M04,4,2.0,Malle ❤️ 🐸,Voldemort,96.5,82.22,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=3&mid1=2
+2018,3,2018-W03-M05,5,6.0,Uncle Rico,PickUpYourBratsMalle,86.6,98.84,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=3&mid1=6
+2018,3,2018-W03-M06,6,8.0,Post Mahomes,malle_dips_pouches,72.76,93.16,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=3&mid1=8
+2018,4,2018-W04-M01,1,6.0,PickUpYourBratsMalle,Big Sack Jack,154.38,130.98,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=4&mid1=6
+2018,4,2018-W04-M02,2,1.0,The Big Gronkowski,Dillon Panthers,98.5,93.18,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=4&mid1=1
+2018,4,2018-W04-M03,3,8.0,Post Mahomes,Ginger FC,152.36,110.52,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=4&mid1=8
+2018,4,2018-W04-M04,4,2.0,Malle ❤️ 🐸,Joe Mantegna,77.46,131.56,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=4&mid1=2
+2018,4,2018-W04-M05,5,7.0,Uncle Rico,Pop Lockett Drop it,84.62,158.96,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=4&mid1=7
+2018,4,2018-W04-M06,6,3.0,Voldemort,malle_dips_pouches,93.16,112.2,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=4&mid1=3
+2018,5,2018-W05-M01,1,7.0,Pop Lockett Drop it,Big Sack Jack,100.88,102.22,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=5&mid1=7
+2018,5,2018-W05-M02,2,2.0,Malle ❤️ 🐸,Dillon Panthers,100.6,108.52,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=5&mid1=2
+2018,5,2018-W05-M03,3,9.0,Ginger FC,malle_dips_pouches,88.24,95.54,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=5&mid1=9
+2018,5,2018-W05-M04,4,3.0,Voldemort,Joe Mantegna,122.04,100.92,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=5&mid1=3
+2018,5,2018-W05-M05,5,1.0,The Big Gronkowski,PickUpYourBratsMalle,93.86,86.94,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=5&mid1=1
+2018,5,2018-W05-M06,6,8.0,Uncle Rico,Post Mahomes,94.98,114.6,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=5&mid1=8
+2018,6,2018-W06-M01,1,8.0,Post Mahomes,Big Sack Jack,118.9,122.68,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=6&mid1=8
+2018,6,2018-W06-M02,2,3.0,Voldemort,Dillon Panthers,95.7,106.52,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=6&mid1=3
+2018,6,2018-W06-M03,3,9.0,Uncle Rico,Ginger FC,124.1,81.08,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=6&mid1=9
+2018,6,2018-W06-M04,4,4.0,Joe Mantegna,malle_dips_pouches,116.08,70.24,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=6&mid1=4
+2018,6,2018-W06-M05,5,2.0,Malle ❤️ 🐸,PickUpYourBratsMalle,95.06,92.92,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=6&mid1=2
+2018,6,2018-W06-M06,6,1.0,The Big Gronkowski,Pop Lockett Drop it,88.58,125.6,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=6&mid1=1
+2018,7,2018-W07-M01,1,9.0,Ginger FC,Big Sack Jack,80.1,111.78,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=7&mid1=9
+2018,7,2018-W07-M02,2,4.0,Joe Mantegna,Dillon Panthers,101.32,104.6,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=7&mid1=4
+2018,7,2018-W07-M03,3,2.0,Malle ❤️ 🐸,Pop Lockett Drop it,107.34,142.86,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=7&mid1=2
+2018,7,2018-W07-M04,4,3.0,Voldemort,PickUpYourBratsMalle,111.38,119.34,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=7&mid1=3
+2018,7,2018-W07-M05,5,1.0,The Big Gronkowski,Post Mahomes,87.64,86.66,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=7&mid1=1
+2018,7,2018-W07-M06,6,10.0,Uncle Rico,malle_dips_pouches,73.24,93.78,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=7&mid1=10
+2018,8,2018-W08-M01,1,10.0,Uncle Rico,Big Sack Jack,111.24,98.9,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=8&mid1=10
+2018,8,2018-W08-M02,2,5.0,Dillon Panthers,malle_dips_pouches,94.8,111.4,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=8&mid1=5
+2018,8,2018-W08-M03,3,1.0,The Big Gronkowski,Ginger FC,83.2,95.94,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=8&mid1=1
+2018,8,2018-W08-M04,4,4.0,Joe Mantegna,PickUpYourBratsMalle,95.72,117.96,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=8&mid1=4
+2018,8,2018-W08-M05,5,2.0,Malle ❤️ 🐸,Post Mahomes,89.06,107.34,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=8&mid1=2
+2018,8,2018-W08-M06,6,3.0,Voldemort,Pop Lockett Drop it,121.96,101.1,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=8&mid1=3
+2018,9,2018-W09-M01,1,11.0,Big Sack Jack,malle_dips_pouches,104.76,88.24,30.0,2.0,
+2018,9,2018-W09-M02,2,5.0,Dillon Panthers,PickUpYourBratsMalle,79.04,92.16,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=9&mid1=5
+2018,9,2018-W09-M03,3,2.0,Malle ❤️ 🐸,Ginger FC,105.4,68.8,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=9&mid1=2
+2018,9,2018-W09-M04,4,4.0,Joe Mantegna,Pop Lockett Drop it,134.1,138.2,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=9&mid1=4
+2018,9,2018-W09-M05,5,3.0,Voldemort,Post Mahomes,98.74,97.48,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=9&mid1=3
+2018,9,2018-W09-M06,6,1.0,Uncle Rico,The Big Gronkowski,87.26,102.4,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=9&mid1=1
+2018,10,2018-W10-M01,1,1.0,The Big Gronkowski,Big Sack Jack,111.72,97.26,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=10&mid1=1
+2018,10,2018-W10-M02,2,5.0,Dillon Panthers,Pop Lockett Drop it,122.9,83.4,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=10&mid1=5
+2018,10,2018-W10-M03,3,3.0,Voldemort,Ginger FC,104.38,86.7,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=10&mid1=3
+2018,10,2018-W10-M04,4,4.0,Joe Mantegna,Post Mahomes,110.56,120.62,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=10&mid1=4
+2018,10,2018-W10-M05,5,2.0,Uncle Rico,Malle ❤️ 🐸,102.96,117.52,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=10&mid1=2
+2018,10,2018-W10-M06,6,6.0,PickUpYourBratsMalle,malle_dips_pouches,85.22,121.52,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=10&mid1=6
+2018,11,2018-W11-M01,1,2.0,Malle ❤️ 🐸,Big Sack Jack,90.06,120.7,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=11&mid1=2
+2018,11,2018-W11-M02,2,5.0,Dillon Panthers,Post Mahomes,105.82,135.48,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=11&mid1=5
+2018,11,2018-W11-M03,3,4.0,Joe Mantegna,Ginger FC,119.92,104.94,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=11&mid1=4
+2018,11,2018-W11-M04,4,6.0,PickUpYourBratsMalle,Pop Lockett Drop it,81.08,100.74,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=11&mid1=6
+2018,11,2018-W11-M05,5,1.0,The Big Gronkowski,malle_dips_pouches,90.14,147.62,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=11&mid1=1
+2018,11,2018-W11-M06,6,3.0,Uncle Rico,Voldemort,98.68,71.98,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=11&mid1=3
+2018,12,2018-W12-M01,1,3.0,Voldemort,Big Sack Jack,106.22,61.04,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=12&mid1=3
+2018,12,2018-W12-M02,2,5.0,Dillon Panthers,Ginger FC,92.24,95.26,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=12&mid1=5
+2018,12,2018-W12-M03,3,4.0,Uncle Rico,Joe Mantegna,83.2,67.8,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=12&mid1=4
+2018,12,2018-W12-M04,4,1.0,The Big Gronkowski,Malle ❤️ 🐸,148.46,96.18,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=12&mid1=1
+2018,12,2018-W12-M05,5,6.0,PickUpYourBratsMalle,Post Mahomes,118.88,109.14,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=12&mid1=6
+2018,12,2018-W12-M06,6,7.0,Pop Lockett Drop it,malle_dips_pouches,107.28,153.22,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=12&mid1=7
+2018,13,2018-W13-M01,1,4.0,Joe Mantegna,Big Sack Jack,90.4,95.1,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=13&mid1=4
+2018,13,2018-W13-M02,2,5.0,Uncle Rico,Dillon Panthers,111.32,74.62,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=13&mid1=5
+2018,13,2018-W13-M03,3,6.0,PickUpYourBratsMalle,Ginger FC,80.34,106.7,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=13&mid1=6
+2018,13,2018-W13-M04,4,2.0,Malle ❤️ 🐸,malle_dips_pouches,54.72,72.58,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=13&mid1=2
+2018,13,2018-W13-M05,5,7.0,Pop Lockett Drop it,Post Mahomes,112.7,109.0,32.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=13&mid1=7
+2018,13,2018-W13-M06,6,1.0,The Big Gronkowski,Voldemort,91.76,93.0,30.0,2.0,https://football.fantasysports.yahoo.com/2018/f1/941496/matchup?week=13&mid1=1
+2019,1,2019-W01-M01,1,4.0,Joe Mantegna,Big Sack Jack,105.82,79.54,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=1&mid1=4
+2019,1,2019-W01-M02,2,2.0,Malle ❤️ 🐸,The Big Gronkowski,108.76,128.42,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=1&mid1=2
+2019,1,2019-W01-M03,3,5.0,Patty Primetimes,Ginger FC,117.1,98.8,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=1&mid1=5
+2019,1,2019-W01-M04,4,6.0,ThreatLevelMidnight,Post Mahomes,78.14,123.82,32.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=1&mid1=6
+2019,1,2019-W01-M05,5,7.0,Uncle Rico,Pop Lockett Drop it,92.76,115.3,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=1&mid1=7
+2019,1,2019-W01-M06,6,3.0,Voldemort,malle_dips_pouches,130.52,70.6,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=1&mid1=3
+2019,2,2019-W02-M01,1,4.0,Joe Mantegna,malle_dips_pouches,76.74,89.66,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=2&mid1=4
+2019,2,2019-W02-M02,2,5.0,Patty Primetimes,Big Sack Jack,122.38,115.66,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=2&mid1=5
+2019,2,2019-W02-M03,3,7.0,Pop Lockett Drop it,Post Mahomes,117.5,76.06,32.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=2&mid1=7
+2019,2,2019-W02-M04,4,1.0,The Big Gronkowski,Voldemort,72.32,96.92,32.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=2&mid1=1
+2019,2,2019-W02-M05,5,6.0,ThreatLevelMidnight,Ginger FC,106.22,74.8,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=2&mid1=6
+2019,2,2019-W02-M06,6,2.0,Uncle Rico,Malle ❤️ 🐸,84.12,96.4,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=2&mid1=2
+2019,3,2019-W03-M01,1,2.0,Malle ❤️ 🐸,Voldemort,77.84,132.06,32.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=3&mid1=2
+2019,3,2019-W03-M02,2,5.0,Patty Primetimes,malle_dips_pouches,106.18,103.2,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=3&mid1=5
+2019,3,2019-W03-M03,3,7.0,Pop Lockett Drop it,Ginger FC,117.34,93.1,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=3&mid1=7
+2019,3,2019-W03-M04,4,1.0,The Big Gronkowski,Joe Mantegna,135.98,102.96,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=3&mid1=1
+2019,3,2019-W03-M05,5,6.0,ThreatLevelMidnight,Big Sack Jack,93.12,85.64,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=3&mid1=6
+2019,3,2019-W03-M06,6,8.0,Uncle Rico,Post Mahomes,101.02,139.34,32.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=3&mid1=8
+2019,4,2019-W04-M01,1,2.0,Malle ❤️ 🐸,Joe Mantegna,73.12,87.9,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=4&mid1=2
+2019,4,2019-W04-M02,2,7.0,Pop Lockett Drop it,Big Sack Jack,110.4,107.7,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=4&mid1=7
+2019,4,2019-W04-M03,3,8.0,Post Mahomes,Ginger FC,81.4,62.54,32.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=4&mid1=8
+2019,4,2019-W04-M04,4,1.0,The Big Gronkowski,Patty Primetimes,89.2,130.98,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=4&mid1=1
+2019,4,2019-W04-M05,5,6.0,ThreatLevelMidnight,malle_dips_pouches,104.1,93.68,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=4&mid1=6
+2019,4,2019-W04-M06,6,3.0,Uncle Rico,Voldemort,81.42,93.6,32.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=4&mid1=3
+2019,5,2019-W05-M01,1,2.0,Malle ❤️ 🐸,Patty Primetimes,130.52,105.54,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=5&mid1=2
+2019,5,2019-W05-M02,2,7.0,Pop Lockett Drop it,malle_dips_pouches,131.92,68.32,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=5&mid1=7
+2019,5,2019-W05-M03,3,8.0,Post Mahomes,Big Sack Jack,153.04,134.12,32.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=5&mid1=8
+2019,5,2019-W05-M04,4,1.0,The Big Gronkowski,ThreatLevelMidnight,86.56,120.44,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=5&mid1=1
+2019,5,2019-W05-M05,5,9.0,Uncle Rico,Ginger FC,90.36,115.46,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=5&mid1=9
+2019,5,2019-W05-M06,6,3.0,Voldemort,Joe Mantegna,105.44,64.86,32.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=5&mid1=3
+2019,6,2019-W06-M01,1,9.0,Ginger FC,Big Sack Jack,87.2,92.36,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=6&mid1=9
+2019,6,2019-W06-M02,2,2.0,Malle ❤️ 🐸,ThreatLevelMidnight,83.62,81.62,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=6&mid1=2
+2019,6,2019-W06-M03,3,8.0,Post Mahomes,malle_dips_pouches,112.8,103.32,32.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=6&mid1=8
+2019,6,2019-W06-M04,4,1.0,The Big Gronkowski,Pop Lockett Drop it,55.0,100.0,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=6&mid1=1
+2019,6,2019-W06-M05,5,4.0,Uncle Rico,Joe Mantegna,61.2,109.14,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=6&mid1=4
+2019,6,2019-W06-M06,6,3.0,Voldemort,Patty Primetimes,114.12,106.44,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=6&mid1=3
+2019,7,2019-W07-M01,1,9.0,Ginger FC,malle_dips_pouches,109.32,104.96,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=7&mid1=9
+2019,7,2019-W07-M02,2,4.0,Joe Mantegna,Patty Primetimes,78.94,118.52,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=7&mid1=4
+2019,7,2019-W07-M03,3,2.0,Malle ❤️ 🐸,Pop Lockett Drop it,63.46,90.24,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=7&mid1=2
+2019,7,2019-W07-M04,4,1.0,The Big Gronkowski,Post Mahomes,64.44,96.62,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=7&mid1=1
+2019,7,2019-W07-M05,5,10.0,Uncle Rico,Big Sack Jack,78.68,97.46,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=7&mid1=10
+2019,7,2019-W07-M06,6,3.0,Voldemort,ThreatLevelMidnight,68.04,113.42,32.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=7&mid1=3
+2019,8,2019-W08-M01,1,10.0,Big Sack Jack,malle_dips_pouches,110.26,94.9,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=8&mid1=10
+2019,8,2019-W08-M02,2,4.0,Joe Mantegna,ThreatLevelMidnight,121.78,138.08,32.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=8&mid1=4
+2019,8,2019-W08-M03,3,2.0,Malle ❤️ 🐸,Post Mahomes,94.02,101.16,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=8&mid1=2
+2019,8,2019-W08-M04,4,1.0,The Big Gronkowski,Ginger FC,83.3,71.7,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=8&mid1=1
+2019,8,2019-W08-M05,5,5.0,Uncle Rico,Patty Primetimes,69.9,94.16,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=8&mid1=5
+2019,8,2019-W08-M06,6,3.0,Voldemort,Pop Lockett Drop it,122.58,99.68,32.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=8&mid1=3
+2019,9,2019-W09-M01,1,4.0,Joe Mantegna,Pop Lockett Drop it,103.64,154.32,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=9&mid1=4
+2019,9,2019-W09-M02,2,2.0,Malle ❤️ 🐸,Ginger FC,58.04,115.7,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=9&mid1=2
+2019,9,2019-W09-M03,3,5.0,Patty Primetimes,ThreatLevelMidnight,129.22,76.36,32.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=9&mid1=5
+2019,9,2019-W09-M04,4,1.0,The Big Gronkowski,Big Sack Jack,91.78,129.3,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=9&mid1=1
+2019,9,2019-W09-M05,5,,Uncle Rico,malle_dips_pouches,73.2,75.54,,,
+2019,9,2019-W09-M06,6,3.0,Voldemort,Post Mahomes,96.2,78.14,32.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=9&mid1=3
+2019,10,2019-W10-M01,1,4.0,Joe Mantegna,Post Mahomes,103.22,90.26,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=10&mid1=4
+2019,10,2019-W10-M02,2,2.0,Malle ❤️ 🐸,Big Sack Jack,92.78,112.42,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=10&mid1=2
+2019,10,2019-W10-M03,3,5.0,Patty Primetimes,Pop Lockett Drop it,120.42,84.98,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=10&mid1=5
+2019,10,2019-W10-M04,4,1.0,The Big Gronkowski,malle_dips_pouches,79.38,79.32,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=10&mid1=1
+2019,10,2019-W10-M05,5,6.0,Uncle Rico,ThreatLevelMidnight,134.74,108.02,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=10&mid1=6
+2019,10,2019-W10-M06,6,3.0,Voldemort,Ginger FC,136.34,67.08,32.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=10&mid1=3
+2019,11,2019-W11-M01,1,4.0,Joe Mantegna,Ginger FC,67.46,118.62,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=11&mid1=4
+2019,11,2019-W11-M02,2,2.0,Malle ❤️ 🐸,malle_dips_pouches,74.56,89.82,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=11&mid1=2
+2019,11,2019-W11-M03,3,5.0,Patty Primetimes,Post Mahomes,132.48,75.26,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=11&mid1=5
+2019,11,2019-W11-M04,4,6.0,ThreatLevelMidnight,Pop Lockett Drop it,67.88,78.62,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=11&mid1=6
+2019,11,2019-W11-M05,5,1.0,Uncle Rico,The Big Gronkowski,91.74,109.92,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=11&mid1=1
+2019,11,2019-W11-M06,6,3.0,Voldemort,Big Sack Jack,107.08,60.34,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=11&mid1=3
+2019,12,2019-W12-M01,1,4.0,Joe Mantegna,Big Sack Jack,81.64,93.0,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=12&mid1=4
+2019,12,2019-W12-M02,2,5.0,Patty Primetimes,Ginger FC,107.76,85.34,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=12&mid1=5
+2019,12,2019-W12-M03,3,1.0,The Big Gronkowski,Malle ❤️ 🐸,105.72,69.58,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=12&mid1=1
+2019,12,2019-W12-M04,4,6.0,ThreatLevelMidnight,Post Mahomes,97.18,114.62,32.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=12&mid1=6
+2019,12,2019-W12-M05,5,7.0,Uncle Rico,Pop Lockett Drop it,112.9,55.4,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=12&mid1=7
+2019,12,2019-W12-M06,6,3.0,Voldemort,malle_dips_pouches,108.78,66.56,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=12&mid1=3
+2019,13,2019-W13-M01,1,4.0,Joe Mantegna,malle_dips_pouches,99.34,104.82,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=13&mid1=4
+2019,13,2019-W13-M02,2,5.0,Patty Primetimes,Big Sack Jack,81.9,86.14,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=13&mid1=5
+2019,13,2019-W13-M03,3,7.0,Pop Lockett Drop it,Post Mahomes,105.6,80.32,32.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=13&mid1=7
+2019,13,2019-W13-M04,4,1.0,The Big Gronkowski,Voldemort,59.4,69.7,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=13&mid1=1
+2019,13,2019-W13-M05,5,6.0,ThreatLevelMidnight,Ginger FC,91.38,81.58,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=13&mid1=6
+2019,13,2019-W13-M06,6,2.0,Uncle Rico,Malle ❤️ 🐸,95.24,107.6,30.0,2.0,https://football.fantasysports.yahoo.com/2019/f1/322794/matchup?week=13&mid1=2
+2020,1,2020-W01-M01,1,4.0,Joe Mantegna,malle_dips_pouches,124.72,115.36,30.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=1&mid1=4
+2020,1,2020-W01-M02,2,6.0,Pop Lockett Drop it,Ginger FC,149.56,137.88,30.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=1&mid1=6
+2020,1,2020-W01-M03,3,7.0,Post Mahomes,Patty Primetimes,100.4,105.7,30.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=1&mid1=7
+2020,1,2020-W01-M04,4,1.0,The Big Gronkowski,Malle ❤️ 🐸,85.4,147.86,30.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=1&mid1=1
+2020,1,2020-W01-M05,5,5.0,ThreatLevelMidnight,Big Sack Jack,135.8,115.44,30.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=1&mid1=5
+2020,1,2020-W01-M06,6,3.0,Uncle Rico,Voldemort,91.28,91.14,30.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=1&mid1=3
+2020,2,2020-W02-M01,1,2.0,Malle ❤️ 🐸,Patty Primetimes,151.48,110.96,30.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=2&mid1=2
+2020,2,2020-W02-M02,2,6.0,Pop Lockett Drop it,Big Sack Jack,89.9,131.38,30.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=2&mid1=6
+2020,2,2020-W02-M03,3,7.0,Post Mahomes,Ginger FC,126.44,145.92,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=2&mid1=7
+2020,2,2020-W02-M04,4,1.0,The Big Gronkowski,Voldemort,96.88,144.0,30.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=2&mid1=1
+2020,2,2020-W02-M05,5,5.0,ThreatLevelMidnight,malle_dips_pouches,97.02,151.46,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=2&mid1=5
+2020,2,2020-W02-M06,6,4.0,Uncle Rico,Joe Mantegna,112.2,94.7,30.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=2&mid1=4
+2020,3,2020-W03-M01,1,8.0,Ginger FC,Patty Primetimes,122.0,147.48,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=3&mid1=8
+2020,3,2020-W03-M02,2,2.0,Malle ❤️ 🐸,Voldemort,133.28,123.38,30.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=3&mid1=2
+2020,3,2020-W03-M03,3,6.0,Pop Lockett Drop it,malle_dips_pouches,122.12,109.24,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=3&mid1=6
+2020,3,2020-W03-M04,4,7.0,Post Mahomes,Big Sack Jack,113.4,121.8,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=3&mid1=7
+2020,3,2020-W03-M05,5,1.0,The Big Gronkowski,Joe Mantegna,160.22,112.36,30.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=3&mid1=1
+2020,3,2020-W03-M06,6,5.0,Uncle Rico,ThreatLevelMidnight,130.04,119.62,30.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=3&mid1=5
+2020,4,2020-W04-M01,1,8.0,Ginger FC,Big Sack Jack,108.4,97.8,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=4&mid1=8
+2020,4,2020-W04-M02,2,2.0,Malle ❤️ 🐸,Joe Mantegna,126.66,140.78,30.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=4&mid1=2
+2020,4,2020-W04-M03,3,7.0,Post Mahomes,malle_dips_pouches,102.72,115.84,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=4&mid1=7
+2020,4,2020-W04-M04,4,1.0,The Big Gronkowski,ThreatLevelMidnight,150.1,119.1,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=4&mid1=1
+2020,4,2020-W04-M05,5,6.0,Uncle Rico,Pop Lockett Drop it,105.22,120.48,30.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=4&mid1=6
+2020,4,2020-W04-M06,6,3.0,Voldemort,Patty Primetimes,105.78,80.72,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=4&mid1=3
+2020,5,2020-W05-M01,1,9.0,Big Sack Jack,Patty Primetimes,155.5,77.3,30.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=5&mid1=9
+2020,5,2020-W05-M02,2,8.0,Ginger FC,malle_dips_pouches,125.78,104.98,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=5&mid1=8
+2020,5,2020-W05-M03,3,2.0,Malle ❤️ 🐸,ThreatLevelMidnight,146.62,109.62,30.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=5&mid1=2
+2020,5,2020-W05-M04,4,1.0,The Big Gronkowski,Pop Lockett Drop it,113.62,121.74,30.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=5&mid1=1
+2020,5,2020-W05-M05,5,7.0,Uncle Rico,Post Mahomes,65.12,102.1,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=5&mid1=7
+2020,5,2020-W05-M06,6,3.0,Voldemort,Joe Mantegna,83.94,113.56,30.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=5&mid1=3
+2020,6,2020-W06-M01,1,9.0,Big Sack Jack,malle_dips_pouches,79.82,108.42,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=6&mid1=9
+2020,6,2020-W06-M02,2,4.0,Joe Mantegna,Patty Primetimes,121.3,87.94,30.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=6&mid1=4
+2020,6,2020-W06-M03,3,2.0,Malle ❤️ 🐸,Pop Lockett Drop it,112.44,119.3,30.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=6&mid1=2
+2020,6,2020-W06-M04,4,1.0,The Big Gronkowski,Post Mahomes,89.42,107.82,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=6&mid1=1
+2020,6,2020-W06-M05,5,8.0,Uncle Rico,Ginger FC,103.08,71.94,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=6&mid1=8
+2020,6,2020-W06-M06,6,3.0,Voldemort,ThreatLevelMidnight,137.16,85.34,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=6&mid1=3
+2020,7,2020-W07-M01,1,4.0,Joe Mantegna,ThreatLevelMidnight,116.72,137.46,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=7&mid1=4
+2020,7,2020-W07-M02,2,2.0,Malle ❤️ 🐸,Post Mahomes,135.56,127.1,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=7&mid1=2
+2020,7,2020-W07-M03,3,1.0,The Big Gronkowski,Ginger FC,103.5,101.02,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=7&mid1=1
+2020,7,2020-W07-M04,4,9.0,Uncle Rico,Big Sack Jack,110.18,63.9,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=7&mid1=9
+2020,7,2020-W07-M05,5,3.0,Voldemort,Pop Lockett Drop it,121.88,97.62,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=7&mid1=3
+2020,7,2020-W07-M06,6,10.0,malle_dips_pouches,Patty Primetimes,106.74,149.3,30.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=7&mid1=10
+2020,8,2020-W08-M01,1,4.0,Joe Mantegna,Pop Lockett Drop it,64.36,102.84,30.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=4
+2020,8,2020-W08-M02,2,2.0,Malle ❤️ 🐸,Ginger FC,96.56,162.94,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=2
+2020,8,2020-W08-M03,3,1.0,The Big Gronkowski,Big Sack Jack,133.3,113.74,30.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=1
+2020,8,2020-W08-M04,4,5.0,ThreatLevelMidnight,Patty Primetimes,107.22,88.16,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=5
+2020,8,2020-W08-M05,5,,Uncle Rico,malle_dips_pouches,79.02,86.36,,,
+2020,8,2020-W08-M06,6,3.0,Voldemort,Post Mahomes,89.52,74.84,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=3
+2020,9,2020-W09-M01,1,4.0,Joe Mantegna,Post Mahomes,118.34,96.92,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=4
+2020,9,2020-W09-M02,2,2.0,Malle ❤️ 🐸,Big Sack Jack,81.76,113.68,30.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=2
+2020,9,2020-W09-M03,3,1.0,The Big Gronkowski,malle_dips_pouches,116.08,71.7,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=1
+2020,9,2020-W09-M04,4,5.0,ThreatLevelMidnight,Pop Lockett Drop it,125.96,155.3,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=5
+2020,9,2020-W09-M05,5,,Uncle Rico,Patty Primetimes,73.4,51.94,,,
+2020,9,2020-W09-M06,6,3.0,Voldemort,Ginger FC,136.74,119.2,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=3
+2020,10,2020-W10-M01,1,4.0,Joe Mantegna,Ginger FC,90.62,76.12,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=10&mid1=4
+2020,10,2020-W10-M02,2,2.0,Malle ❤️ 🐸,malle_dips_pouches,145.2,98.52,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=10&mid1=2
+2020,10,2020-W10-M03,3,6.0,Pop Lockett Drop it,Patty Primetimes,121.5,118.36,30.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=10&mid1=6
+2020,10,2020-W10-M04,4,5.0,ThreatLevelMidnight,Post Mahomes,76.82,138.2,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=10&mid1=5
+2020,10,2020-W10-M05,5,1.0,Uncle Rico,The Big Gronkowski,118.66,88.24,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=10&mid1=1
+2020,10,2020-W10-M06,6,3.0,Voldemort,Big Sack Jack,102.68,64.62,30.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=10&mid1=3
+2020,11,2020-W11-M01,1,4.0,Joe Mantegna,Big Sack Jack,81.36,126.32,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=11&mid1=4
+2020,11,2020-W11-M02,2,6.0,Pop Lockett Drop it,Post Mahomes,89.94,121.16,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=11&mid1=6
+2020,11,2020-W11-M03,3,1.0,The Big Gronkowski,Patty Primetimes,115.6,75.52,30.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=11&mid1=1
+2020,11,2020-W11-M04,4,5.0,ThreatLevelMidnight,Ginger FC,102.48,105.38,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=11&mid1=5
+2020,11,2020-W11-M05,5,2.0,Uncle Rico,Malle ❤️ 🐸,130.84,134.34,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=11&mid1=2
+2020,11,2020-W11-M06,6,3.0,Voldemort,malle_dips_pouches,137.44,94.62,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=11&mid1=3
+2020,12,2020-W12-M01,1,4.0,Joe Mantegna,malle_dips_pouches,121.34,96.48,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=12&mid1=4
+2020,12,2020-W12-M02,2,6.0,Pop Lockett Drop it,Ginger FC,118.94,112.7,30.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=12&mid1=6
+2020,12,2020-W12-M03,3,7.0,Post Mahomes,Patty Primetimes,87.02,81.08,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=12&mid1=7
+2020,12,2020-W12-M04,4,1.0,The Big Gronkowski,Malle ❤️ 🐸,85.82,82.04,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=12&mid1=1
+2020,12,2020-W12-M05,5,5.0,ThreatLevelMidnight,Big Sack Jack,102.6,106.58,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=12&mid1=5
+2020,12,2020-W12-M06,6,3.0,Uncle Rico,Voldemort,171.52,176.74,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=12&mid1=3
+2020,13,2020-W13-M01,1,2.0,Malle ❤️ 🐸,Patty Primetimes,120.0,89.9,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=13&mid1=2
+2020,13,2020-W13-M02,2,6.0,Pop Lockett Drop it,Big Sack Jack,115.6,80.12,30.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=13&mid1=6
+2020,13,2020-W13-M03,3,7.0,Post Mahomes,Ginger FC,139.62,68.52,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=13&mid1=7
+2020,13,2020-W13-M04,4,1.0,The Big Gronkowski,Voldemort,118.32,109.06,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=13&mid1=1
+2020,13,2020-W13-M05,5,5.0,ThreatLevelMidnight,malle_dips_pouches,124.96,140.3,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=13&mid1=5
+2020,13,2020-W13-M06,6,4.0,Uncle Rico,Joe Mantegna,107.28,87.98,32.0,2.0,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=13&mid1=4
+2021,1,2021-W01-M01,1,4.0,Joe Mantegna,malle_dips_pouches,107.28,98.48,30.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=1&mid1=4
+2021,1,2021-W01-M02,2,6.0,Pop Lockett Drop it,Ginger FC,103.44,120.32,30.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=1&mid1=6
+2021,1,2021-W01-M03,3,7.0,Post Mahomes,Patty Primetimes,109.06,103.1,34.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=1&mid1=7
+2021,1,2021-W01-M04,4,1.0,The Big Gronkowski,Malle ❤️ 🐸,139.34,140.56,30.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=1&mid1=1
+2021,1,2021-W01-M05,5,5.0,ThreatLevelMidnight,Big Sack Jack,138.26,129.38,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=1&mid1=5
+2021,1,2021-W01-M06,6,3.0,Uncle Rico,Voldemort,102.4,127.66,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=1&mid1=3
+2021,2,2021-W02-M01,1,2.0,Malle ❤️ 🐸,Patty Primetimes,127.84,91.36,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=2&mid1=2
+2021,2,2021-W02-M02,2,6.0,Pop Lockett Drop it,Big Sack Jack,116.82,109.02,30.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=2&mid1=6
+2021,2,2021-W02-M03,3,7.0,Post Mahomes,Ginger FC,119.6,129.6,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=2&mid1=7
+2021,2,2021-W02-M04,4,1.0,The Big Gronkowski,Voldemort,137.42,92.88,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=2&mid1=1
+2021,2,2021-W02-M05,5,5.0,ThreatLevelMidnight,malle_dips_pouches,108.52,121.28,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=2&mid1=5
+2021,2,2021-W02-M06,6,4.0,Uncle Rico,Joe Mantegna,146.36,96.42,30.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=2&mid1=4
+2021,3,2021-W03-M01,1,8.0,Ginger FC,Patty Primetimes,93.44,119.02,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=3&mid1=8
+2021,3,2021-W03-M02,2,2.0,Malle ❤️ 🐸,Voldemort,94.08,99.62,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=3&mid1=2
+2021,3,2021-W03-M03,3,6.0,Pop Lockett Drop it,malle_dips_pouches,110.64,123.88,30.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=3&mid1=6
+2021,3,2021-W03-M04,4,7.0,Post Mahomes,Big Sack Jack,85.74,101.4,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=3&mid1=7
+2021,3,2021-W03-M05,5,1.0,The Big Gronkowski,Joe Mantegna,132.82,111.14,30.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=3&mid1=1
+2021,3,2021-W03-M06,6,5.0,Uncle Rico,ThreatLevelMidnight,114.18,122.22,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=3&mid1=5
+2021,4,2021-W04-M01,1,8.0,Ginger FC,Big Sack Jack,143.62,131.22,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=4&mid1=8
+2021,4,2021-W04-M02,2,2.0,Malle ❤️ 🐸,Joe Mantegna,95.46,101.18,30.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=4&mid1=2
+2021,4,2021-W04-M03,3,7.0,Post Mahomes,malle_dips_pouches,129.72,105.64,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=4&mid1=7
+2021,4,2021-W04-M04,4,1.0,The Big Gronkowski,ThreatLevelMidnight,92.3,115.96,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=4&mid1=1
+2021,4,2021-W04-M05,5,6.0,Uncle Rico,Pop Lockett Drop it,83.94,89.7,30.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=4&mid1=6
+2021,4,2021-W04-M06,6,3.0,Voldemort,Patty Primetimes,142.82,108.62,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=4&mid1=3
+2021,5,2021-W05-M01,1,9.0,Big Sack Jack,Patty Primetimes,114.88,126.7,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=5&mid1=9
+2021,5,2021-W05-M02,2,8.0,Ginger FC,malle_dips_pouches,160.66,96.48,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=5&mid1=8
+2021,5,2021-W05-M03,3,2.0,Malle ❤️ 🐸,ThreatLevelMidnight,122.94,102.78,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=5&mid1=2
+2021,5,2021-W05-M04,4,1.0,The Big Gronkowski,Pop Lockett Drop it,104.3,124.24,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=5&mid1=1
+2021,5,2021-W05-M05,5,7.0,Uncle Rico,Post Mahomes,191.08,103.96,30.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=5&mid1=7
+2021,5,2021-W05-M06,6,3.0,Voldemort,Joe Mantegna,142.98,101.52,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=5&mid1=3
+2021,6,2021-W06-M01,1,9.0,Big Sack Jack,malle_dips_pouches,127.48,101.84,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=6&mid1=9
+2021,6,2021-W06-M02,2,4.0,Joe Mantegna,Patty Primetimes,79.8,97.32,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=6&mid1=4
+2021,6,2021-W06-M03,3,2.0,Malle ❤️ 🐸,Pop Lockett Drop it,118.08,93.26,30.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=6&mid1=2
+2021,6,2021-W06-M04,4,1.0,The Big Gronkowski,Post Mahomes,119.74,171.26,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=6&mid1=1
+2021,6,2021-W06-M05,5,8.0,Uncle Rico,Ginger FC,142.68,120.6,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=6&mid1=8
+2021,6,2021-W06-M06,6,3.0,Voldemort,ThreatLevelMidnight,105.0,121.68,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=6&mid1=3
+2021,7,2021-W07-M01,1,4.0,Joe Mantegna,ThreatLevelMidnight,100.28,119.04,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=7&mid1=4
+2021,7,2021-W07-M02,2,2.0,Malle ❤️ 🐸,Post Mahomes,126.74,89.44,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=7&mid1=2
+2021,7,2021-W07-M03,3,1.0,The Big Gronkowski,Ginger FC,96.36,140.66,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=7&mid1=1
+2021,7,2021-W07-M04,4,9.0,Uncle Rico,Big Sack Jack,117.88,94.44,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=7&mid1=9
+2021,7,2021-W07-M05,5,3.0,Voldemort,Pop Lockett Drop it,113.68,100.14,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=7&mid1=3
+2021,7,2021-W07-M06,6,10.0,malle_dips_pouches,Patty Primetimes,137.2,119.92,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=7&mid1=10
+2021,8,2021-W08-M01,1,4.0,Joe Mantegna,Pop Lockett Drop it,88.42,75.24,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=4
+2021,8,2021-W08-M02,2,2.0,Malle ❤️ 🐸,Ginger FC,134.2,85.86,30.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=2
+2021,8,2021-W08-M03,3,1.0,The Big Gronkowski,Big Sack Jack,148.6,69.1,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=1
+2021,8,2021-W08-M04,4,5.0,ThreatLevelMidnight,Patty Primetimes,129.0,99.76,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=5
+2021,8,2021-W08-M05,5,,Uncle Rico,malle_dips_pouches,73.96,107.6,,,
+2021,8,2021-W08-M06,6,3.0,Voldemort,Post Mahomes,99.38,100.36,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=8&mid1=3
+2021,9,2021-W09-M01,1,4.0,Joe Mantegna,Post Mahomes,126.14,94.0,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=9&mid1=4
+2021,9,2021-W09-M02,2,2.0,Malle ❤️ 🐸,Big Sack Jack,82.98,75.24,30.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=9&mid1=2
+2021,9,2021-W09-M03,3,1.0,The Big Gronkowski,malle_dips_pouches,111.76,100.82,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=9&mid1=1
+2021,9,2021-W09-M04,4,5.0,ThreatLevelMidnight,Pop Lockett Drop it,91.36,89.56,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=9&mid1=5
+2021,9,2021-W09-M05,5,,Uncle Rico,Patty Primetimes,102.94,110.76,,,
+2021,9,2021-W09-M06,6,3.0,Voldemort,Ginger FC,126.58,72.1,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=9&mid1=3
+2021,10,2021-W10-M01,1,4.0,Joe Mantegna,Ginger FC,100.6,79.26,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=10&mid1=4
+2021,10,2021-W10-M02,2,2.0,Malle ❤️ 🐸,malle_dips_pouches,95.6,91.32,34.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=10&mid1=2
+2021,10,2021-W10-M03,3,6.0,Pop Lockett Drop it,Patty Primetimes,112.12,73.84,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=10&mid1=6
+2021,10,2021-W10-M04,4,5.0,ThreatLevelMidnight,Post Mahomes,66.84,126.34,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=10&mid1=5
+2021,10,2021-W10-M05,5,1.0,Uncle Rico,The Big Gronkowski,98.42,103.92,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=10&mid1=1
+2021,10,2021-W10-M06,6,3.0,Voldemort,Big Sack Jack,126.64,99.64,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=10&mid1=3
+2021,11,2021-W11-M01,1,4.0,Joe Mantegna,Big Sack Jack,161.38,71.4,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=11&mid1=4
+2021,11,2021-W11-M02,2,6.0,Pop Lockett Drop it,Post Mahomes,132.38,106.12,30.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=11&mid1=6
+2021,11,2021-W11-M03,3,1.0,The Big Gronkowski,Patty Primetimes,96.52,103.96,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=11&mid1=1
+2021,11,2021-W11-M04,4,5.0,ThreatLevelMidnight,Ginger FC,107.08,94.8,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=11&mid1=5
+2021,11,2021-W11-M05,5,2.0,Uncle Rico,Malle ❤️ 🐸,96.64,110.18,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=11&mid1=2
+2021,11,2021-W11-M06,6,3.0,Voldemort,malle_dips_pouches,127.64,93.42,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=11&mid1=3
+2021,12,2021-W12-M01,1,4.0,Joe Mantegna,malle_dips_pouches,102.12,60.42,30.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=12&mid1=4
+2021,12,2021-W12-M02,2,6.0,Pop Lockett Drop it,Ginger FC,141.4,130.38,30.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=12&mid1=6
+2021,12,2021-W12-M03,3,7.0,Post Mahomes,Patty Primetimes,103.78,89.0,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=12&mid1=7
+2021,12,2021-W12-M04,4,1.0,The Big Gronkowski,Malle ❤️ 🐸,116.28,94.34,30.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=12&mid1=1
+2021,12,2021-W12-M05,5,5.0,ThreatLevelMidnight,Big Sack Jack,140.18,88.68,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=12&mid1=5
+2021,12,2021-W12-M06,6,3.0,Uncle Rico,Voldemort,90.7,150.86,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=12&mid1=3
+2021,13,2021-W13-M01,1,2.0,Malle ❤️ 🐸,Patty Primetimes,130.02,80.3,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=13&mid1=2
+2021,13,2021-W13-M02,2,6.0,Pop Lockett Drop it,Big Sack Jack,65.36,96.36,30.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=13&mid1=6
+2021,13,2021-W13-M03,3,7.0,Post Mahomes,Ginger FC,138.32,117.96,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=13&mid1=7
+2021,13,2021-W13-M04,4,1.0,The Big Gronkowski,Voldemort,149.1,118.42,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=13&mid1=1
+2021,13,2021-W13-M05,5,5.0,ThreatLevelMidnight,malle_dips_pouches,137.36,88.64,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=13&mid1=5
+2021,13,2021-W13-M06,6,4.0,Uncle Rico,Joe Mantegna,49.72,144.18,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=13&mid1=4
+2021,14,2021-W14-M01,1,8.0,Ginger FC,Patty Primetimes,136.14,138.52,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=14&mid1=8
+2021,14,2021-W14-M02,2,2.0,Malle ❤️ 🐸,Voldemort,113.22,108.84,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=14&mid1=2
+2021,14,2021-W14-M03,3,6.0,Pop Lockett Drop it,malle_dips_pouches,88.76,47.68,30.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=14&mid1=6
+2021,14,2021-W14-M04,4,7.0,Post Mahomes,Big Sack Jack,115.22,97.62,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=14&mid1=7
+2021,14,2021-W14-M05,5,1.0,The Big Gronkowski,Joe Mantegna,148.08,153.3,30.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=14&mid1=1
+2021,14,2021-W14-M06,6,5.0,Uncle Rico,ThreatLevelMidnight,95.08,118.0,32.0,2.0,https://football.fantasysports.yahoo.com/2021/f1/410355/matchup?week=14&mid1=5
+2022,1,2022-W01-M01,1,4.0,Joe Mantegna,Post Mahomes,118.46,96.58,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=1&mid1=4
+2022,1,2022-W01-M02,2,6.0,Pop Lockett Drop it,Big Sack Jack,100.0,105.02,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=1&mid1=6
+2022,1,2022-W01-M03,3,1.0,The Big Gronkowski,Voldemort,99.18,156.38,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=1&mid1=1
+2022,1,2022-W01-M04,4,5.0,ThreatLevelMidnight,Ginger FC,66.36,126.72,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=1&mid1=5
+2022,1,2022-W01-M05,5,2.0,Uncle Rico,Malle ❤️ 🐸,138.4,104.82,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=1&mid1=2
+2022,1,2022-W01-M06,6,,malle_dips_pouches,Patty Primetimes,106.32,104.7,,,
+2022,2,2022-W02-M01,1,4.0,Joe Mantegna,Pop Lockett Drop it,121.86,76.66,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=2&mid1=4
+2022,2,2022-W02-M02,2,2.0,Malle ❤️ 🐸,Voldemort,124.82,122.68,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=2&mid1=2
+2022,2,2022-W02-M03,3,7.0,Post Mahomes,Ginger FC,80.3,88.18,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=2&mid1=7
+2022,2,2022-W02-M04,4,1.0,The Big Gronkowski,Big Sack Jack,109.84,145.66,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=2&mid1=1
+2022,2,2022-W02-M05,5,5.0,ThreatLevelMidnight,Patty Primetimes,102.38,91.88,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=2&mid1=5
+2022,2,2022-W02-M06,6,,Uncle Rico,malle_dips_pouches,95.5,168.52,,,
+2022,3,2022-W03-M01,1,2.0,Malle ❤️ 🐸,Big Sack Jack,132.7,85.5,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=3&mid1=2
+2022,3,2022-W03-M02,2,6.0,Pop Lockett Drop it,Ginger FC,89.18,79.36,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=3&mid1=6
+2022,3,2022-W03-M03,3,1.0,The Big Gronkowski,Joe Mantegna,95.3,104.58,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=3&mid1=1
+2022,3,2022-W03-M04,4,5.0,ThreatLevelMidnight,Post Mahomes,61.54,82.24,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=3&mid1=5
+2022,3,2022-W03-M05,5,,Uncle Rico,Patty Primetimes,114.08,89.66,,,
+2022,3,2022-W03-M06,6,3.0,Voldemort,malle_dips_pouches,82.0,157.92,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=3&mid1=3
+2022,4,2022-W04-M01,1,9.0,Big Sack Jack,malle_dips_pouches,120.68,102.36,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=4&mid1=9
+2022,4,2022-W04-M02,2,2.0,Malle ❤️ 🐸,Joe Mantegna,114.66,118.9,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=4&mid1=2
+2022,4,2022-W04-M03,3,6.0,Pop Lockett Drop it,Post Mahomes,98.62,105.2,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=4&mid1=6
+2022,4,2022-W04-M04,4,1.0,The Big Gronkowski,Ginger FC,130.82,113.98,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=4&mid1=1
+2022,4,2022-W04-M05,5,5.0,Uncle Rico,ThreatLevelMidnight,115.86,164.68,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=4&mid1=5
+2022,4,2022-W04-M06,6,3.0,Voldemort,Patty Primetimes,130.82,107.04,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=4&mid1=3
+2022,5,2022-W05-M01,1,9.0,Big Sack Jack,Patty Primetimes,101.58,107.38,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=5&mid1=9
+2022,5,2022-W05-M02,2,4.0,Joe Mantegna,malle_dips_pouches,111.52,122.06,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=5&mid1=4
+2022,5,2022-W05-M03,3,2.0,Malle ❤️ 🐸,Ginger FC,76.16,182.3,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=5&mid1=2
+2022,5,2022-W05-M04,4,1.0,The Big Gronkowski,Post Mahomes,119.14,80.84,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=5&mid1=1
+2022,5,2022-W05-M05,5,5.0,ThreatLevelMidnight,Pop Lockett Drop it,75.16,109.16,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=5&mid1=5
+2022,5,2022-W05-M06,6,3.0,Uncle Rico,Voldemort,106.48,155.78,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=5&mid1=3
+2022,6,2022-W06-M01,1,8.0,Ginger FC,malle_dips_pouches,111.08,106.7,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=6&mid1=8
+2022,6,2022-W06-M02,2,4.0,Joe Mantegna,Patty Primetimes,69.22,67.14,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=6&mid1=4
+2022,6,2022-W06-M03,3,2.0,Malle ❤️ 🐸,Post Mahomes,75.0,95.36,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=6&mid1=2
+2022,6,2022-W06-M04,4,1.0,The Big Gronkowski,Pop Lockett Drop it,102.3,87.74,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=6&mid1=1
+2022,6,2022-W06-M05,5,9.0,Uncle Rico,Big Sack Jack,107.82,115.0,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=6&mid1=9
+2022,6,2022-W06-M06,6,3.0,Voldemort,ThreatLevelMidnight,122.86,118.78,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=6&mid1=3
+2022,7,2022-W07-M01,1,8.0,Ginger FC,Patty Primetimes,109.46,102.76,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=7&mid1=8
+2022,7,2022-W07-M02,2,2.0,Malle ❤️ 🐸,Pop Lockett Drop it,80.5,81.52,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=7&mid1=2
+2022,7,2022-W07-M03,3,7.0,Post Mahomes,malle_dips_pouches,100.72,96.0,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=7&mid1=7
+2022,7,2022-W07-M04,4,1.0,The Big Gronkowski,ThreatLevelMidnight,122.92,88.6,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=7&mid1=1
+2022,7,2022-W07-M05,5,4.0,Uncle Rico,Joe Mantegna,132.12,110.22,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=7&mid1=4
+2022,7,2022-W07-M06,6,3.0,Voldemort,Big Sack Jack,106.98,117.34,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=7&mid1=3
+2022,8,2022-W08-M01,1,6.0,Pop Lockett Drop it,malle_dips_pouches,82.84,143.58,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=8&mid1=6
+2022,8,2022-W08-M02,2,7.0,Post Mahomes,Patty Primetimes,114.4,136.68,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=8&mid1=7
+2022,8,2022-W08-M03,3,1.0,The Big Gronkowski,Malle ❤️ 🐸,132.08,102.6,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=8&mid1=1
+2022,8,2022-W08-M04,4,5.0,ThreatLevelMidnight,Big Sack Jack,161.18,128.28,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=8&mid1=5
+2022,8,2022-W08-M05,5,8.0,Uncle Rico,Ginger FC,122.64,142.54,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=8&mid1=8
+2022,8,2022-W08-M06,6,3.0,Voldemort,Joe Mantegna,107.72,87.82,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=8&mid1=3
+2022,9,2022-W09-M01,1,4.0,Joe Mantegna,Big Sack Jack,100.3,91.84,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=9&mid1=4
+2022,9,2022-W09-M02,2,2.0,Malle ❤️ 🐸,ThreatLevelMidnight,96.52,107.4,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=9&mid1=2
+2022,9,2022-W09-M03,3,6.0,Pop Lockett Drop it,Patty Primetimes,90.92,113.54,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=9&mid1=6
+2022,9,2022-W09-M04,4,1.0,The Big Gronkowski,malle_dips_pouches,123.8,82.72,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=9&mid1=1
+2022,9,2022-W09-M05,5,7.0,Uncle Rico,Post Mahomes,102.74,108.0,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=9&mid1=7
+2022,9,2022-W09-M06,6,3.0,Voldemort,Ginger FC,153.1,97.5,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=9&mid1=3
+2022,10,2022-W10-M01,1,8.0,Ginger FC,Big Sack Jack,74.78,102.12,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=10&mid1=8
+2022,10,2022-W10-M02,2,4.0,Joe Mantegna,ThreatLevelMidnight,103.74,108.0,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=10&mid1=4
+2022,10,2022-W10-M03,3,2.0,Malle ❤️ 🐸,malle_dips_pouches,91.7,110.36,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=10&mid1=2
+2022,10,2022-W10-M04,4,1.0,The Big Gronkowski,Patty Primetimes,98.18,88.04,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=10&mid1=1
+2022,10,2022-W10-M05,5,6.0,Uncle Rico,Pop Lockett Drop it,126.04,135.88,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=10&mid1=6
+2022,10,2022-W10-M06,6,3.0,Voldemort,Post Mahomes,98.4,131.1,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=10&mid1=3
+2022,11,2022-W11-M01,1,4.0,Joe Mantegna,Ginger FC,120.5,126.34,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=11&mid1=4
+2022,11,2022-W11-M02,2,2.0,Malle ❤️ 🐸,Patty Primetimes,90.2,84.96,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=11&mid1=2
+2022,11,2022-W11-M03,3,7.0,Post Mahomes,Big Sack Jack,77.48,89.8,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=11&mid1=7
+2022,11,2022-W11-M04,4,5.0,ThreatLevelMidnight,malle_dips_pouches,102.24,122.26,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=11&mid1=5
+2022,11,2022-W11-M05,5,1.0,Uncle Rico,The Big Gronkowski,101.76,156.2,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=11&mid1=1
+2022,11,2022-W11-M06,6,3.0,Voldemort,Pop Lockett Drop it,114.38,76.72,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=11&mid1=3
+2022,12,2022-W12-M01,1,4.0,Joe Mantegna,Post Mahomes,108.76,92.06,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=12&mid1=4
+2022,12,2022-W12-M02,2,6.0,Pop Lockett Drop it,Big Sack Jack,112.84,118.6,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=12&mid1=6
+2022,12,2022-W12-M03,3,1.0,The Big Gronkowski,Voldemort,112.46,144.76,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=12&mid1=1
+2022,12,2022-W12-M04,4,5.0,ThreatLevelMidnight,Ginger FC,131.64,94.84,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=12&mid1=5
+2022,12,2022-W12-M05,5,2.0,Uncle Rico,Malle ❤️ 🐸,86.9,129.12,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=12&mid1=2
+2022,12,2022-W12-M06,6,,malle_dips_pouches,Patty Primetimes,142.66,72.0,,,
+2022,13,2022-W13-M01,1,4.0,Joe Mantegna,Pop Lockett Drop it,107.5,102.76,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=13&mid1=4
+2022,13,2022-W13-M02,2,2.0,Malle ❤️ 🐸,Voldemort,130.6,134.72,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=13&mid1=2
+2022,13,2022-W13-M03,3,7.0,Post Mahomes,Ginger FC,124.54,106.5,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=13&mid1=7
+2022,13,2022-W13-M04,4,1.0,The Big Gronkowski,Big Sack Jack,80.62,147.24,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=13&mid1=1
+2022,13,2022-W13-M05,5,5.0,ThreatLevelMidnight,Patty Primetimes,88.2,87.44,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=13&mid1=5
+2022,13,2022-W13-M06,6,,Uncle Rico,malle_dips_pouches,128.12,93.44,,,
+2022,14,2022-W14-M01,1,2.0,Malle ❤️ 🐸,Big Sack Jack,94.98,113.26,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=14&mid1=2
+2022,14,2022-W14-M02,2,6.0,Pop Lockett Drop it,Ginger FC,70.76,93.56,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=14&mid1=6
+2022,14,2022-W14-M03,3,1.0,The Big Gronkowski,Joe Mantegna,102.2,97.38,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=14&mid1=1
+2022,14,2022-W14-M04,4,5.0,ThreatLevelMidnight,Post Mahomes,119.06,91.9,32.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=14&mid1=5
+2022,14,2022-W14-M05,5,,Uncle Rico,Patty Primetimes,135.58,95.9,,,
+2022,14,2022-W14-M06,6,3.0,Voldemort,malle_dips_pouches,114.38,102.22,30.0,2.0,https://football.fantasysports.yahoo.com/2022/f1/854563/matchup?week=14&mid1=3
+2023,1,2023-W01-M01,1,8.0,Ginger FC,You Better Park It,85.26,85.42,30.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=1&mid1=8
+2023,1,2023-W01-M02,2,2.0,Malle ❤️ 🐸,ThreatLevelMidnight,97.9,124.34,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=1&mid1=2
+2023,1,2023-W01-M03,3,6.0,Pop Lockett Drop it,Patty Primetimes,91.34,121.34,30.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=1&mid1=6
+2023,1,2023-W01-M04,4,1.0,The Big Gronkowski,Post Mahomes,148.36,114.34,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=1&mid1=1
+2023,1,2023-W01-M05,5,,Uncle Rico,malle_dips_pouches,52.38,80.64,,,
+2023,1,2023-W01-M06,6,3.0,Voldemort,Joe Mantegna,75.96,127.86,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=1&mid1=3
+2023,2,2023-W02-M01,1,4.0,Joe Mantegna,You Better Park It,110.0,98.0,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=2&mid1=4
+2023,2,2023-W02-M02,2,2.0,Malle ❤️ 🐸,Patty Primetimes,125.42,79.66,30.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=2&mid1=2
+2023,2,2023-W02-M03,3,6.0,Pop Lockett Drop it,Ginger FC,103.24,107.16,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=2&mid1=6
+2023,2,2023-W02-M04,4,7.0,Post Mahomes,malle_dips_pouches,127.96,101.86,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=2&mid1=7
+2023,2,2023-W02-M05,5,1.0,The Big Gronkowski,Voldemort,119.7,116.28,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=2&mid1=1
+2023,2,2023-W02-M06,6,5.0,Uncle Rico,ThreatLevelMidnight,76.78,112.14,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=2&mid1=5
+2023,3,2023-W03-M01,1,4.0,Joe Mantegna,Pop Lockett Drop it,134.32,102.0,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=3&mid1=4
+2023,3,2023-W03-M02,2,2.0,Malle ❤️ 🐸,Ginger FC,127.68,55.28,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=3&mid1=2
+2023,3,2023-W03-M03,3,1.0,The Big Gronkowski,You Better Park It,105.5,127.76,30.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=3&mid1=1
+2023,3,2023-W03-M04,4,5.0,ThreatLevelMidnight,malle_dips_pouches,121.06,125.22,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=3&mid1=5
+2023,3,2023-W03-M05,5,,Uncle Rico,Patty Primetimes,116.06,122.66,,,
+2023,3,2023-W03-M06,6,3.0,Voldemort,Post Mahomes,129.08,139.88,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=3&mid1=3
+2023,4,2023-W04-M01,1,2.0,Malle ❤️ 🐸,Joe Mantegna,75.46,96.5,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=4&mid1=2
+2023,4,2023-W04-M02,2,7.0,Post Mahomes,You Better Park It,141.82,101.44,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=4&mid1=7
+2023,4,2023-W04-M03,3,1.0,The Big Gronkowski,Pop Lockett Drop it,130.18,96.1,30.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=4&mid1=1
+2023,4,2023-W04-M04,4,5.0,ThreatLevelMidnight,Patty Primetimes,100.56,98.18,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=4&mid1=5
+2023,4,2023-W04-M05,5,8.0,Uncle Rico,Ginger FC,120.14,95.66,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=4&mid1=8
+2023,4,2023-W04-M06,6,3.0,Voldemort,malle_dips_pouches,130.24,105.6,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=4&mid1=3
+2023,5,2023-W05-M01,1,6.0,Pop Lockett Drop it,Post Mahomes,85.46,120.84,30.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=5&mid1=6
+2023,5,2023-W05-M02,2,1.0,The Big Gronkowski,Malle ❤️ 🐸,107.38,91.12,30.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=5&mid1=1
+2023,5,2023-W05-M03,3,5.0,ThreatLevelMidnight,Ginger FC,116.2,96.36,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=5&mid1=5
+2023,5,2023-W05-M04,4,4.0,Uncle Rico,Joe Mantegna,99.28,139.52,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=5&mid1=4
+2023,5,2023-W05-M05,5,3.0,Voldemort,You Better Park It,78.54,66.72,30.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=5&mid1=3
+2023,5,2023-W05-M06,6,,malle_dips_pouches,Patty Primetimes,112.96,110.92,,,
+2023,6,2023-W06-M01,1,8.0,Ginger FC,Patty Primetimes,71.3,106.58,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=6&mid1=8
+2023,6,2023-W06-M02,2,4.0,Joe Mantegna,ThreatLevelMidnight,112.34,98.14,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=6&mid1=4
+2023,6,2023-W06-M03,3,2.0,Malle ❤️ 🐸,Post Mahomes,99.9,98.84,30.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=6&mid1=2
+2023,6,2023-W06-M04,4,1.0,Uncle Rico,The Big Gronkowski,92.2,81.88,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=6&mid1=1
+2023,6,2023-W06-M05,5,3.0,Voldemort,Pop Lockett Drop it,80.12,126.52,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=6&mid1=3
+2023,6,2023-W06-M06,6,9.0,You Better Park It,malle_dips_pouches,124.98,95.86,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=6&mid1=9
+2023,7,2023-W07-M01,1,8.0,Ginger FC,malle_dips_pouches,67.48,76.1,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=7&mid1=8
+2023,7,2023-W07-M02,2,4.0,Joe Mantegna,Patty Primetimes,115.46,109.84,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=7&mid1=4
+2023,7,2023-W07-M03,3,2.0,Malle ❤️ 🐸,Voldemort,115.26,150.68,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=7&mid1=2
+2023,7,2023-W07-M04,4,6.0,Pop Lockett Drop it,You Better Park It,123.24,104.56,30.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=7&mid1=6
+2023,7,2023-W07-M05,5,1.0,The Big Gronkowski,ThreatLevelMidnight,74.56,119.5,30.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=7&mid1=1
+2023,7,2023-W07-M06,6,7.0,Uncle Rico,Post Mahomes,81.2,134.56,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=7&mid1=7
+2023,8,2023-W08-M01,1,4.0,Joe Mantegna,Ginger FC,118.58,96.36,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=8&mid1=4
+2023,8,2023-W08-M02,2,2.0,Malle ❤️ 🐸,You Better Park It,120.66,93.48,30.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=8&mid1=2
+2023,8,2023-W08-M03,3,6.0,Pop Lockett Drop it,malle_dips_pouches,131.1,104.96,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=8&mid1=6
+2023,8,2023-W08-M04,4,1.0,The Big Gronkowski,Patty Primetimes,118.52,108.76,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=8&mid1=1
+2023,8,2023-W08-M05,5,5.0,ThreatLevelMidnight,Post Mahomes,127.28,107.3,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=8&mid1=5
+2023,8,2023-W08-M06,6,3.0,Uncle Rico,Voldemort,154.62,66.88,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=8&mid1=3
+2023,9,2023-W09-M01,1,4.0,Joe Mantegna,malle_dips_pouches,86.8,89.52,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=9&mid1=4
+2023,9,2023-W09-M02,2,2.0,Malle ❤️ 🐸,Pop Lockett Drop it,100.58,94.04,30.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=9&mid1=2
+2023,9,2023-W09-M03,3,7.0,Post Mahomes,Patty Primetimes,97.62,88.92,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=9&mid1=7
+2023,9,2023-W09-M04,4,1.0,The Big Gronkowski,Ginger FC,69.44,106.08,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=9&mid1=1
+2023,9,2023-W09-M05,5,9.0,Uncle Rico,You Better Park It,120.62,87.16,30.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=9&mid1=9
+2023,9,2023-W09-M06,6,3.0,Voldemort,ThreatLevelMidnight,80.38,121.5,30.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=9&mid1=3
+2023,10,2023-W10-M01,1,2.0,Malle ❤️ 🐸,malle_dips_pouches,130.4,87.18,30.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=10&mid1=2
+2023,10,2023-W10-M02,2,7.0,Post Mahomes,Ginger FC,98.3,74.94,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=10&mid1=7
+2023,10,2023-W10-M03,3,1.0,The Big Gronkowski,Joe Mantegna,116.52,118.46,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=10&mid1=1
+2023,10,2023-W10-M04,4,5.0,ThreatLevelMidnight,You Better Park It,90.22,149.16,30.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=10&mid1=5
+2023,10,2023-W10-M05,5,6.0,Uncle Rico,Pop Lockett Drop it,112.78,143.84,30.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=10&mid1=6
+2023,10,2023-W10-M06,6,3.0,Voldemort,Patty Primetimes,121.72,84.46,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=10&mid1=3
+2023,11,2023-W11-M01,1,4.0,Joe Mantegna,Post Mahomes,148.34,112.18,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=11&mid1=4
+2023,11,2023-W11-M02,2,1.0,The Big Gronkowski,malle_dips_pouches,149.8,87.4,30.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=11&mid1=1
+2023,11,2023-W11-M03,3,5.0,ThreatLevelMidnight,Pop Lockett Drop it,156.98,95.34,30.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=11&mid1=5
+2023,11,2023-W11-M04,4,2.0,Uncle Rico,Malle ❤️ 🐸,89.34,106.9,30.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=11&mid1=2
+2023,11,2023-W11-M05,5,3.0,Voldemort,Ginger FC,119.96,60.44,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=11&mid1=3
+2023,11,2023-W11-M06,6,9.0,You Better Park It,Patty Primetimes,91.06,90.8,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=11&mid1=9
+2023,12,2023-W12-M01,1,8.0,Ginger FC,You Better Park It,95.3,122.34,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=12&mid1=8
+2023,12,2023-W12-M02,2,2.0,Malle ❤️ 🐸,ThreatLevelMidnight,121.8,125.36,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=12&mid1=2
+2023,12,2023-W12-M03,3,6.0,Pop Lockett Drop it,Patty Primetimes,110.66,97.62,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=12&mid1=6
+2023,12,2023-W12-M04,4,1.0,The Big Gronkowski,Post Mahomes,112.98,156.02,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=12&mid1=1
+2023,12,2023-W12-M05,5,,Uncle Rico,malle_dips_pouches,89.68,90.26,,,
+2023,12,2023-W12-M06,6,3.0,Voldemort,Joe Mantegna,126.08,126.54,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=12&mid1=3
+2023,13,2023-W13-M01,1,4.0,Joe Mantegna,You Better Park It,92.88,91.06,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=13&mid1=4
+2023,13,2023-W13-M02,2,2.0,Malle ❤️ 🐸,Patty Primetimes,127.72,134.9,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=13&mid1=2
+2023,13,2023-W13-M03,3,6.0,Pop Lockett Drop it,Ginger FC,102.16,116.46,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=13&mid1=6
+2023,13,2023-W13-M04,4,7.0,Post Mahomes,malle_dips_pouches,102.3,109.84,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=13&mid1=7
+2023,13,2023-W13-M05,5,1.0,The Big Gronkowski,Voldemort,114.08,132.88,30.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=13&mid1=1
+2023,13,2023-W13-M06,6,5.0,Uncle Rico,ThreatLevelMidnight,94.1,146.82,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=13&mid1=5
+2023,14,2023-W14-M01,1,4.0,Joe Mantegna,Pop Lockett Drop it,112.2,73.14,30.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=14&mid1=4
+2023,14,2023-W14-M02,2,2.0,Malle ❤️ 🐸,Ginger FC,105.98,140.02,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=14&mid1=2
+2023,14,2023-W14-M03,3,1.0,The Big Gronkowski,You Better Park It,103.74,87.34,30.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=14&mid1=1
+2023,14,2023-W14-M04,4,5.0,ThreatLevelMidnight,malle_dips_pouches,112.36,128.92,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=14&mid1=5
+2023,14,2023-W14-M05,5,,Uncle Rico,Patty Primetimes,75.22,85.8,,,
+2023,14,2023-W14-M06,6,3.0,Voldemort,Post Mahomes,138.04,119.74,32.0,2.0,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=14&mid1=3
+2024,1,2024-W01-M01,1,1.0,ThreatLevelMidnight,The Big Gronkowski,94.86,95.38,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=1&mid1=1
+2024,1,2024-W01-M02,2,2.0,Malle ❤️ 🐸,Buttermilk Puuump,92.62,79.98,30.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=1&mid1=2
+2024,1,2024-W01-M03,3,3.0,malle_dips_pouches,Voldemort,104.08,120.32,30.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=1&mid1=3
+2024,1,2024-W01-M04,4,4.0,Joe Mantegna,Post Mahomes,89.26,132.92,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=1&mid1=4
+2024,1,2024-W01-M05,5,6.0,Pop Lockett Drop it,Ginger FC,142.16,105.9,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=1&mid1=6
+2024,1,2024-W01-M06,6,10.0,Patty Primetimes,Uncle Rico,71.34,156.68,30.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=1&mid1=10
+2024,2,2024-W02-M01,1,1.0,The Big Gronkowski,Ginger FC,120.64,99.94,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=2&mid1=1
+2024,2,2024-W02-M02,2,2.0,Malle ❤️ 🐸,Uncle Rico,120.44,154.42,30.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=2&mid1=2
+2024,2,2024-W02-M03,3,3.0,Joe Mantegna,Voldemort,117.26,109.92,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=2&mid1=3
+2024,2,2024-W02-M04,4,5.0,ThreatLevelMidnight,Post Mahomes,133.44,105.18,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=2&mid1=5
+2024,2,2024-W02-M05,5,6.0,Buttermilk Puuump,Pop Lockett Drop it,130.9,83.48,30.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=2&mid1=6
+2024,2,2024-W02-M06,6,9.0,malle_dips_pouches,Patty Primetimes,89.0,83.86,30.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=2&mid1=9
+2024,3,2024-W03-M01,1,1.0,Buttermilk Puuump,The Big Gronkowski,106.46,89.46,30.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=3&mid1=1
+2024,3,2024-W03-M02,2,2.0,Patty Primetimes,Malle ❤️ 🐸,115.74,83.98,30.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=3&mid1=2
+2024,3,2024-W03-M03,3,3.0,ThreatLevelMidnight,Voldemort,133.52,87.58,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=3&mid1=3
+2024,3,2024-W03-M04,4,4.0,malle_dips_pouches,Joe Mantegna,113.36,86.72,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=3&mid1=4
+2024,3,2024-W03-M05,5,6.0,Pop Lockett Drop it,Uncle Rico,120.08,68.5,30.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=3&mid1=6
+2024,3,2024-W03-M06,6,7.0,Post Mahomes,Ginger FC,125.58,105.62,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=3&mid1=7
+2024,4,2024-W04-M01,1,1.0,The Big Gronkowski,Uncle Rico,91.4,114.98,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=4&mid1=1
+2024,4,2024-W04-M02,2,2.0,malle_dips_pouches,Malle ❤️ 🐸,96.82,68.38,30.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=4&mid1=2
+2024,4,2024-W04-M03,3,3.0,Voldemort,Ginger FC,98.4,110.56,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=4&mid1=3
+2024,4,2024-W04-M04,4,4.0,Joe Mantegna,ThreatLevelMidnight,92.54,103.78,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=4&mid1=4
+2024,4,2024-W04-M05,5,6.0,Patty Primetimes,Pop Lockett Drop it,117.0,143.72,30.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=4&mid1=6
+2024,4,2024-W04-M06,6,7.0,Buttermilk Puuump,Post Mahomes,97.04,120.36,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=4&mid1=7
+2024,5,2024-W05-M01,1,1.0,Patty Primetimes,The Big Gronkowski,133.18,114.02,30.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=5&mid1=1
+2024,5,2024-W05-M02,2,2.0,Malle ❤️ 🐸,Pop Lockett Drop it,114.86,109.04,30.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=5&mid1=2
+2024,5,2024-W05-M03,3,3.0,Buttermilk Puuump,Voldemort,79.04,79.26,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=5&mid1=3
+2024,5,2024-W05-M04,4,4.0,Joe Mantegna,Ginger FC,102.18,76.86,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=5&mid1=4
+2024,5,2024-W05-M05,5,5.0,malle_dips_pouches,ThreatLevelMidnight,160.9,127.76,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=5&mid1=5
+2024,5,2024-W05-M06,6,7.0,Post Mahomes,Uncle Rico,93.64,173.32,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=5&mid1=7
+2024,6,2024-W06-M01,1,1.0,Malle ❤️ 🐸,The Big Gronkowski,62.22,98.36,30.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=6&mid1=1
+2024,6,2024-W06-M02,2,3.0,Voldemort,Uncle Rico,127.98,108.6,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=6&mid1=3
+2024,6,2024-W06-M03,3,4.0,Joe Mantegna,Buttermilk Puuump,103.32,110.6,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=6&mid1=4
+2024,6,2024-W06-M04,4,5.0,ThreatLevelMidnight,Ginger FC,77.46,103.52,30.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=6&mid1=5
+2024,6,2024-W06-M05,5,6.0,malle_dips_pouches,Pop Lockett Drop it,134.58,160.44,30.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=6&mid1=6
+2024,6,2024-W06-M06,6,7.0,Patty Primetimes,Post Mahomes,107.62,101.56,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=6&mid1=7
+2024,7,2024-W07-M01,1,1.0,The Big Gronkowski,Pop Lockett Drop it,112.34,79.54,30.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=7&mid1=1
+2024,7,2024-W07-M02,2,2.0,Malle ❤️ 🐸,Post Mahomes,104.66,156.64,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=7&mid1=2
+2024,7,2024-W07-M03,3,3.0,Patty Primetimes,Voldemort,89.92,94.04,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=7&mid1=3
+2024,7,2024-W07-M04,4,4.0,Joe Mantegna,Uncle Rico,86.86,102.56,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=7&mid1=4
+2024,7,2024-W07-M05,5,5.0,Buttermilk Puuump,ThreatLevelMidnight,139.9,94.6,30.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=7&mid1=5
+2024,7,2024-W07-M06,6,8.0,malle_dips_pouches,Ginger FC,113.3,112.46,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=7&mid1=8
+2024,8,2024-W08-M01,1,1.0,malle_dips_pouches,The Big Gronkowski,82.36,110.34,30.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=8&mid1=1
+2024,8,2024-W08-M02,2,2.0,Malle ❤️ 🐸,Voldemort,122.74,103.92,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=8&mid1=2
+2024,8,2024-W08-M03,3,4.0,Patty Primetimes,Joe Mantegna,118.16,134.04,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=8&mid1=4
+2024,8,2024-W08-M04,4,5.0,ThreatLevelMidnight,Uncle Rico,111.28,120.28,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=8&mid1=5
+2024,8,2024-W08-M05,5,6.0,Pop Lockett Drop it,Post Mahomes,108.82,125.36,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=8&mid1=6
+2024,8,2024-W08-M06,6,8.0,Buttermilk Puuump,Ginger FC,126.74,113.3,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=8&mid1=8
+2024,9,2024-W09-M01,1,1.0,The Big Gronkowski,Post Mahomes,128.82,113.4,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=9&mid1=1
+2024,9,2024-W09-M02,2,2.0,Joe Mantegna,Malle ❤️ 🐸,124.4,99.72,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=9&mid1=2
+2024,9,2024-W09-M03,3,3.0,Pop Lockett Drop it,Voldemort,102.5,119.54,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=9&mid1=3
+2024,9,2024-W09-M04,4,5.0,Patty Primetimes,ThreatLevelMidnight,69.06,127.96,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=9&mid1=5
+2024,9,2024-W09-M05,5,8.0,Uncle Rico,Ginger FC,156.54,117.98,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=9&mid1=8
+2024,9,2024-W09-M06,6,9.0,malle_dips_pouches,Buttermilk Puuump,88.58,77.7,30.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=9&mid1=9
+2024,10,2024-W10-M01,1,1.0,The Big Gronkowski,Voldemort,102.62,86.6,30.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=10&mid1=1
+2024,10,2024-W10-M02,2,2.0,Malle ❤️ 🐸,ThreatLevelMidnight,92.38,132.44,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=10&mid1=2
+2024,10,2024-W10-M03,3,4.0,Joe Mantegna,Pop Lockett Drop it,88.08,112.18,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=10&mid1=4
+2024,10,2024-W10-M04,4,7.0,malle_dips_pouches,Post Mahomes,123.3,93.94,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=10&mid1=7
+2024,10,2024-W10-M05,5,8.0,Patty Primetimes,Ginger FC,79.74,89.68,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=10&mid1=8
+2024,10,2024-W10-M06,6,10.0,Buttermilk Puuump,Uncle Rico,97.24,84.3,30.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=10&mid1=10
+2024,11,2024-W11-M01,1,1.0,Joe Mantegna,The Big Gronkowski,105.24,90.86,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=11&mid1=1
+2024,11,2024-W11-M02,2,2.0,Malle ❤️ 🐸,Ginger FC,113.24,106.84,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=11&mid1=2
+2024,11,2024-W11-M03,3,3.0,Voldemort,Post Mahomes,110.78,122.68,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=11&mid1=3
+2024,11,2024-W11-M04,4,5.0,ThreatLevelMidnight,Pop Lockett Drop it,111.28,83.08,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=11&mid1=5
+2024,11,2024-W11-M05,5,9.0,malle_dips_pouches,Uncle Rico,88.84,125.94,30.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=11&mid1=9
+2024,11,2024-W11-M06,6,11.0,Patty Primetimes,Buttermilk Puuump,81.64,145.68,30.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=11&mid1=11
+2024,12,2024-W12-M01,1,1.0,ThreatLevelMidnight,The Big Gronkowski,105.42,109.02,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=12&mid1=1
+2024,12,2024-W12-M02,2,2.0,Malle ❤️ 🐸,Buttermilk Puuump,115.96,90.46,30.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=12&mid1=2
+2024,12,2024-W12-M03,3,3.0,malle_dips_pouches,Voldemort,99.32,88.8,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=12&mid1=3
+2024,12,2024-W12-M04,4,4.0,Joe Mantegna,Post Mahomes,110.78,97.28,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=12&mid1=4
+2024,12,2024-W12-M05,5,6.0,Pop Lockett Drop it,Ginger FC,102.78,90.32,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=12&mid1=6
+2024,12,2024-W12-M06,6,10.0,Patty Primetimes,Uncle Rico,106.76,127.5,30.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=12&mid1=10
+2024,13,2024-W13-M01,1,1.0,The Big Gronkowski,Ginger FC,119.06,105.86,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=13&mid1=1
+2024,13,2024-W13-M02,2,2.0,Malle ❤️ 🐸,Uncle Rico,88.04,81.22,30.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=13&mid1=2
+2024,13,2024-W13-M03,3,3.0,Joe Mantegna,Voldemort,97.62,130.4,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=13&mid1=3
+2024,13,2024-W13-M04,4,5.0,ThreatLevelMidnight,Post Mahomes,91.3,113.58,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=13&mid1=5
+2024,13,2024-W13-M05,5,6.0,Buttermilk Puuump,Pop Lockett Drop it,158.18,139.74,30.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=13&mid1=6
+2024,13,2024-W13-M06,6,9.0,malle_dips_pouches,Patty Primetimes,137.1,122.14,30.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=13&mid1=9
+2024,14,2024-W14-M01,1,1.0,Buttermilk Puuump,The Big Gronkowski,105.66,133.32,30.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=14&mid1=1
+2024,14,2024-W14-M02,2,2.0,Patty Primetimes,Malle ❤️ 🐸,103.32,124.98,30.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=14&mid1=2
+2024,14,2024-W14-M03,3,3.0,ThreatLevelMidnight,Voldemort,176.08,148.6,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=14&mid1=3
+2024,14,2024-W14-M04,4,4.0,malle_dips_pouches,Joe Mantegna,57.44,126.18,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=14&mid1=4
+2024,14,2024-W14-M05,5,6.0,Pop Lockett Drop it,Uncle Rico,125.8,94.02,30.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=14&mid1=6
+2024,14,2024-W14-M06,6,7.0,Post Mahomes,Ginger FC,103.32,99.04,32.0,2.0,https://football.fantasysports.yahoo.com/2024/f1/673480/matchup?week=14&mid1=7
+2025,1,2025-W01-M01,1,1.0,The Big Gronkowski,Post Mahomes,72.68,125.82,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=1&mid1=1
+2025,1,2025-W01-M02,2,2.0,Patty Primetimes,Malle ❤️ 🐸,74.72,140.36,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=1&mid1=2
+2025,1,2025-W01-M03,3,3.0,Voldemort,Uncle Rico,93.92,117.12,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=1&mid1=3
+2025,1,2025-W01-M04,4,4.0,Joe Mantegna,ThreatLevelMidnight,83.04,100.88,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=1&mid1=4
+2025,1,2025-W01-M05,5,6.0,malle_dips_pouches,Pop Lockett Drop it,119.26,89.68,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=1&mid1=6
+2025,1,2025-W01-M06,6,8.0,Buttermilk Puuump,Ginger FC,102.82,93.7,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=1&mid1=8
+2025,2,2025-W02-M01,1,1.0,ThreatLevelMidnight,The Big Gronkowski,95.74,101.2,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=2&mid1=1
+2025,2,2025-W02-M02,2,2.0,Malle ❤️ 🐸,Voldemort,79.4,111.0,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=2&mid1=2
+2025,2,2025-W02-M03,3,4.0,Joe Mantegna,Ginger FC,157.44,98.98,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=2&mid1=4
+2025,2,2025-W02-M04,4,6.0,Pop Lockett Drop it,Uncle Rico,97.24,130.4,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=2&mid1=6
+2025,2,2025-W02-M05,5,7.0,Patty Primetimes,Post Mahomes,92.58,95.22,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=2&mid1=7
+2025,2,2025-W02-M06,6,9.0,malle_dips_pouches,Buttermilk Puuump,88.74,134.16,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=2&mid1=9
+2025,3,2025-W03-M01,1,1.0,Joe Mantegna,The Big Gronkowski,107.84,78.32,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=3&mid1=1
+2025,3,2025-W03-M02,2,2.0,Malle ❤️ 🐸,Pop Lockett Drop it,90.98,117.02,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=3&mid1=2
+2025,3,2025-W03-M03,3,3.0,Voldemort,Post Mahomes,84.06,137.56,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=3&mid1=3
+2025,3,2025-W03-M04,4,5.0,Patty Primetimes,ThreatLevelMidnight,105.82,115.02,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=3&mid1=5
+2025,3,2025-W03-M05,5,8.0,malle_dips_pouches,Ginger FC,103.6,79.84,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=3&mid1=8
+2025,3,2025-W03-M06,6,10.0,Buttermilk Puuump,Uncle Rico,141.02,76.28,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=3&mid1=10
+2025,4,2025-W04-M01,1,1.0,The Big Gronkowski,Ginger FC,90.42,97.52,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=4&mid1=1
+2025,4,2025-W04-M02,2,2.0,Malle ❤️ 🐸,Buttermilk Puuump,123.26,144.62,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=4&mid1=2
+2025,4,2025-W04-M03,3,3.0,ThreatLevelMidnight,Voldemort,125.1,144.26,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=4&mid1=3
+2025,4,2025-W04-M04,4,4.0,Patty Primetimes,Joe Mantegna,94.24,131.86,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=4&mid1=4
+2025,4,2025-W04-M05,5,6.0,Pop Lockett Drop it,Post Mahomes,93.58,123.5,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=4&mid1=6
+2025,4,2025-W04-M06,6,9.0,malle_dips_pouches,Uncle Rico,103.58,110.4,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=4&mid1=9
+2025,5,2025-W05-M01,1,1.0,Patty Primetimes,The Big Gronkowski,66.12,107.12,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=5&mid1=1
+2025,5,2025-W05-M02,2,2.0,malle_dips_pouches,Malle ❤️ 🐸,89.34,119.1,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=5&mid1=2
+2025,5,2025-W05-M03,3,3.0,Joe Mantegna,Voldemort,121.9,122.88,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=5&mid1=3
+2025,5,2025-W05-M04,4,5.0,ThreatLevelMidnight,Pop Lockett Drop it,141.46,118.46,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=5&mid1=5
+2025,5,2025-W05-M05,5,7.0,Buttermilk Puuump,Post Mahomes,120.02,122.32,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=5&mid1=7
+2025,5,2025-W05-M06,6,8.0,Uncle Rico,Ginger FC,154.78,86.74,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=5&mid1=8
+2025,6,2025-W06-M01,1,1.0,The Big Gronkowski,Voldemort,99.84,72.0,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=6&mid1=1
+2025,6,2025-W06-M02,2,2.0,Malle ❤️ 🐸,Uncle Rico,101.8,139.84,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=6&mid1=2
+2025,6,2025-W06-M03,3,4.0,Joe Mantegna,Pop Lockett Drop it,81.36,76.74,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=6&mid1=4
+2025,6,2025-W06-M04,4,5.0,Buttermilk Puuump,ThreatLevelMidnight,133.54,102.42,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=6&mid1=5
+2025,6,2025-W06-M05,5,7.0,malle_dips_pouches,Post Mahomes,132.68,92.82,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=6&mid1=7
+2025,6,2025-W06-M06,6,8.0,Patty Primetimes,Ginger FC,103.06,108.6,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=6&mid1=8
+2025,7,2025-W07-M01,1,1.0,The Big Gronkowski,Pop Lockett Drop it,99.36,138.98,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=7&mid1=1
+2025,7,2025-W07-M02,2,2.0,Malle ❤️ 🐸,Ginger FC,86.04,165.7,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=7&mid1=2
+2025,7,2025-W07-M03,3,3.0,Patty Primetimes,Voldemort,100.34,79.18,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=7&mid1=3
+2025,7,2025-W07-M04,4,4.0,Joe Mantegna,Buttermilk Puuump,151.86,111.44,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=7&mid1=4
+2025,7,2025-W07-M05,5,5.0,malle_dips_pouches,ThreatLevelMidnight,125.42,57.74,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=7&mid1=5
+2025,7,2025-W07-M06,6,7.0,Post Mahomes,Uncle Rico,145.02,124.54,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=7&mid1=7
+2025,8,2025-W08-M01,1,1.0,Buttermilk Puuump,The Big Gronkowski,79.02,134.46,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=8&mid1=1
+2025,8,2025-W08-M02,2,2.0,Malle ❤️ 🐸,Post Mahomes,97.62,114.96,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=8&mid1=2
+2025,8,2025-W08-M03,3,3.0,Voldemort,Ginger FC,85.56,130.68,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=8&mid1=3
+2025,8,2025-W08-M04,4,4.0,malle_dips_pouches,Joe Mantegna,114.18,83.66,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=8&mid1=4
+2025,8,2025-W08-M05,5,5.0,ThreatLevelMidnight,Uncle Rico,134.18,64.58,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=8&mid1=5
+2025,8,2025-W08-M06,6,6.0,Patty Primetimes,Pop Lockett Drop it,97.72,169.62,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=8&mid1=6
+2025,9,2025-W09-M01,1,1.0,malle_dips_pouches,The Big Gronkowski,85.5,97.58,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=9&mid1=1
+2025,9,2025-W09-M02,2,2.0,Malle ❤️ 🐸,ThreatLevelMidnight,89.12,154.28,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=9&mid1=2
+2025,9,2025-W09-M03,3,3.0,Pop Lockett Drop it,Voldemort,116.22,126.24,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=9&mid1=3
+2025,9,2025-W09-M04,4,4.0,Joe Mantegna,Uncle Rico,105.98,78.02,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=9&mid1=4
+2025,9,2025-W09-M05,5,7.0,Post Mahomes,Ginger FC,104.7,128.2,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=9&mid1=7
+2025,9,2025-W09-M06,6,11.0,Patty Primetimes,Buttermilk Puuump,98.52,88.62,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=9&mid1=11
+2025,10,2025-W10-M01,1,1.0,The Big Gronkowski,Uncle Rico,146.6,115.4,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=10&mid1=1
+2025,10,2025-W10-M02,2,2.0,Joe Mantegna,Malle ❤️ 🐸,102.12,89.9,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=10&mid1=2
+2025,10,2025-W10-M03,3,3.0,Buttermilk Puuump,Voldemort,91.12,87.94,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=10&mid1=3
+2025,10,2025-W10-M04,4,5.0,ThreatLevelMidnight,Post Mahomes,89.82,125.32,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=10&mid1=5
+2025,10,2025-W10-M05,5,6.0,Pop Lockett Drop it,Ginger FC,110.44,130.8,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=10&mid1=6
+2025,10,2025-W10-M06,6,9.0,malle_dips_pouches,Patty Primetimes,85.92,107.24,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=10&mid1=9
+2025,11,2025-W11-M01,1,1.0,Malle ❤️ 🐸,The Big Gronkowski,130.14,106.12,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=11&mid1=1
+2025,11,2025-W11-M02,2,3.0,malle_dips_pouches,Voldemort,81.54,85.7,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=11&mid1=3
+2025,11,2025-W11-M03,3,4.0,Joe Mantegna,Post Mahomes,86.6,111.74,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=11&mid1=4
+2025,11,2025-W11-M04,4,5.0,ThreatLevelMidnight,Ginger FC,127.92,98.94,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=11&mid1=5
+2025,11,2025-W11-M05,5,6.0,Buttermilk Puuump,Pop Lockett Drop it,112.1,83.46,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=11&mid1=6
+2025,11,2025-W11-M06,6,10.0,Patty Primetimes,Uncle Rico,101.84,133.78,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=11&mid1=10
+2025,12,2025-W12-M01,1,1.0,The Big Gronkowski,Post Mahomes,108.96,112.38,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=12&mid1=1
+2025,12,2025-W12-M02,2,2.0,Patty Primetimes,Malle ❤️ 🐸,76.54,126.82,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=12&mid1=2
+2025,12,2025-W12-M03,3,3.0,Voldemort,Uncle Rico,99.84,109.96,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=12&mid1=3
+2025,12,2025-W12-M04,4,4.0,Joe Mantegna,ThreatLevelMidnight,91.22,125.58,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=12&mid1=4
+2025,12,2025-W12-M05,5,6.0,malle_dips_pouches,Pop Lockett Drop it,100.92,120.16,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=12&mid1=6
+2025,12,2025-W12-M06,6,8.0,Buttermilk Puuump,Ginger FC,118.22,111.06,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=12&mid1=8
+2025,13,2025-W13-M01,1,1.0,ThreatLevelMidnight,The Big Gronkowski,133.68,128.34,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=13&mid1=1
+2025,13,2025-W13-M02,2,2.0,Malle ❤️ 🐸,Voldemort,91.96,50.62,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=13&mid1=2
+2025,13,2025-W13-M03,3,4.0,Joe Mantegna,Ginger FC,104.54,105.54,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=13&mid1=4
+2025,13,2025-W13-M04,4,6.0,Pop Lockett Drop it,Uncle Rico,83.94,123.12,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=13&mid1=6
+2025,13,2025-W13-M05,5,7.0,Patty Primetimes,Post Mahomes,132.04,97.82,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=13&mid1=7
+2025,13,2025-W13-M06,6,9.0,malle_dips_pouches,Buttermilk Puuump,95.0,94.94,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=13&mid1=9
+2025,14,2025-W14-M01,1,1.0,Joe Mantegna,The Big Gronkowski,101.34,124.88,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=14&mid1=1
+2025,14,2025-W14-M02,2,2.0,Malle ❤️ 🐸,Pop Lockett Drop it,80.66,137.74,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=14&mid1=2
+2025,14,2025-W14-M03,3,3.0,Voldemort,Post Mahomes,135.46,117.7,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=14&mid1=3
+2025,14,2025-W14-M04,4,5.0,Patty Primetimes,ThreatLevelMidnight,105.28,134.64,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=14&mid1=5
+2025,14,2025-W14-M05,5,8.0,malle_dips_pouches,Ginger FC,87.56,79.5,32.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=14&mid1=8
+2025,14,2025-W14-M06,6,10.0,Buttermilk Puuump,Uncle Rico,103.16,89.76,30.0,2.0,https://football.fantasysports.yahoo.com/2025/f1/637567/matchup?week=14&mid1=10

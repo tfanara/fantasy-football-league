@@ -1,0 +1,33 @@
+year,week,fantasy_team,opponent,team_score,opponent_score,side,lineup_slot,player,projection,fantasy_points,stat_summary,is_starter,is_bench,is_ir,source_url,source_table,source_row
+2020,8,Uncle Rico,malle_dips_pouches,79.02,86.36,left,QB,Lamar Jackson,26.75,20.82,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=10,starters,1
+2020,8,malle_dips_pouches,Uncle Rico,86.36,79.02,right,QB,Joe Burrow,23.84,22.86,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=10,starters,1
+2020,8,Uncle Rico,malle_dips_pouches,79.02,86.36,left,WR,Diontae Johnson,11.71,1.1,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=10,starters,2
+2020,8,malle_dips_pouches,Uncle Rico,86.36,79.02,right,WR,Amari Cooper,11.33,1.0,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=10,starters,2
+2020,8,Uncle Rico,malle_dips_pouches,79.02,86.36,left,WR,Nelson Agholor,6.18,0.0,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=10,starters,3
+2020,8,malle_dips_pouches,Uncle Rico,86.36,79.02,right,WR,Robbie Chosen,12.54,7.3,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=10,starters,3
+2020,8,Uncle Rico,malle_dips_pouches,79.02,86.36,left,RB,Derrick Henry,17.76,17.2,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=10,starters,4
+2020,8,malle_dips_pouches,Uncle Rico,86.36,79.02,right,RB,Le'Veon Bell,9.68,5.3,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=10,starters,4
+2020,8,Uncle Rico,malle_dips_pouches,79.02,86.36,left,RB,Boston Scott,13.07,8.9,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=10,starters,5
+2020,8,malle_dips_pouches,Uncle Rico,86.36,79.02,right,RB,Myles Gaskin,12.32,11.8,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=10,starters,5
+2020,8,Uncle Rico,malle_dips_pouches,79.02,86.36,left,TE,Robert Tonyan,8.34,10.4,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=10,starters,6
+2020,8,malle_dips_pouches,Uncle Rico,86.36,79.02,right,TE,Hunter Henry,9.27,5.3,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=10,starters,6
+2020,8,Uncle Rico,malle_dips_pouches,79.02,86.36,left,W/R/T,JaMycal Hasty,6.77,9.6,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=10,starters,7
+2020,8,malle_dips_pouches,Uncle Rico,86.36,79.02,right,W/R/T,Corey Davis,10.19,22.8,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=10,starters,7
+2020,8,Uncle Rico,malle_dips_pouches,79.02,86.36,left,K,Jason Sanders,7.68,4.0,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=10,starters,8
+2020,8,malle_dips_pouches,Uncle Rico,86.36,79.02,right,K,Robbie Gould,7.91,3.0,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=10,starters,8
+2020,8,Uncle Rico,malle_dips_pouches,79.02,86.36,left,DEF,Buccaneers - DEF,8.68,7.0,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=10,starters,9
+2020,8,malle_dips_pouches,Uncle Rico,86.36,79.02,right,DEF,Saints - DEF,8.37,7.0,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=10,starters,9
+2020,8,Uncle Rico,malle_dips_pouches,79.02,86.36,left,BN,Jamison Crowder,0.0,,,False,True,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=10,bench,1
+2020,8,malle_dips_pouches,Uncle Rico,86.36,79.02,right,BN,Devin Singletary,9.95,9.7,,False,True,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=10,bench,1
+2020,8,Uncle Rico,malle_dips_pouches,79.02,86.36,left,BN,Michael Thomas,0.0,0.0,,False,True,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=10,bench,2
+2020,8,malle_dips_pouches,Uncle Rico,86.36,79.02,right,BN,DeAndre Hopkins,0.0,0.0,,False,True,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=10,bench,2
+2020,8,Uncle Rico,malle_dips_pouches,79.02,86.36,left,BN,Chris Godwin Jr.,0.0,0.0,,False,True,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=10,bench,3
+2020,8,malle_dips_pouches,Uncle Rico,86.36,79.02,right,BN,Aaron Jones Sr.,0.0,0.0,,False,True,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=10,bench,3
+2020,8,Uncle Rico,malle_dips_pouches,79.02,86.36,left,BN,Antonio Gibson,0.0,0.0,,False,True,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=10,bench,4
+2020,8,malle_dips_pouches,Uncle Rico,86.36,79.02,right,BN,Kirk Cousins,21.35,12.4,,False,True,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=10,bench,4
+2020,8,Uncle Rico,malle_dips_pouches,79.02,86.36,left,BN,Christian Kirk,0.0,0.0,,False,True,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=10,bench,5
+2020,8,malle_dips_pouches,Uncle Rico,86.36,79.02,right,BN,Jerry Jeudy,8.45,9.3,,False,True,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=10,bench,5
+2020,8,Uncle Rico,malle_dips_pouches,79.02,86.36,left,BN,Baker Mayfield,21.79,7.78,,False,True,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=10,bench,6
+2020,8,malle_dips_pouches,Uncle Rico,86.36,79.02,right,BN,Eric Ebron,8.11,12.8,,False,True,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=10,bench,6
+2020,8,Uncle Rico,malle_dips_pouches,79.02,86.36,left,IR,Austin Ekeler,0.0,,,False,True,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=10,bench,7
+2020,8,malle_dips_pouches,Uncle Rico,86.36,79.02,right,IR,Deebo Samuel Sr.,0.0,0.0,,False,True,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=8&mid1=10,bench,7

@@ -1,0 +1,85 @@
+year,week,matchup_id,matchup_number,yahoo_team_id_used,left_team,right_team,left_score,right_score,player_records,roster_tables,url
+2023,1,2023-W01-M01,1,1,The Big Gronkowski,Post Mahomes,148.36,114.34,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=1&mid1=1
+2023,1,2023-W01-M02,2,2,Malle ❤️ 🐸,ThreatLevelMidnight,97.9,124.34,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=1&mid1=2
+2023,1,2023-W01-M03,3,3,Joe Mantegna,Voldemort,75.96,127.86,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=1&mid1=3
+2023,1,2023-W01-M04,4,6,Patty Primetimes,Pop Lockett Drop it,91.34,121.34,30,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=1&mid1=6
+2023,1,2023-W01-M05,5,8,Week 1 Recap (Lost),Ginger FC,85.26,85.42,30,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=1&mid1=8
+2023,1,2023-W01-M06,6,9,Week 1 Recap (Won),You Better Park It,85.42,85.26,30,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=1&mid1=9
+2023,2,2023-W02-M01,1,1,The Big Gronkowski,Voldemort,119.7,116.28,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=2&mid1=1
+2023,2,2023-W02-M02,2,2,Patty Primetimes,Malle ❤️ 🐸,125.42,79.66,30,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=2&mid1=2
+2023,2,2023-W02-M03,3,4,Week 2 Recap (Won),Joe Mantegna,110.0,98.0,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=2&mid1=4
+2023,2,2023-W02-M04,4,5,ThreatLevelMidnight,Uncle Rico,76.78,112.14,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=2&mid1=5
+2023,2,2023-W02-M05,5,6,Pop Lockett Drop it,Ginger FC,103.24,107.16,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=2&mid1=6
+2023,2,2023-W02-M06,6,7,malle_dips_pouches,Post Mahomes,127.96,101.86,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=2&mid1=7
+2023,3,2023-W03-M01,1,1,Week 3 Recap (Lost),The Big Gronkowski,105.5,127.76,30,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=3&mid1=1
+2023,3,2023-W03-M02,2,2,Malle ❤️ 🐸,Ginger FC,127.68,55.28,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=3&mid1=2
+2023,3,2023-W03-M03,3,3,Voldemort,Post Mahomes,129.08,139.88,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=3&mid1=3
+2023,3,2023-W03-M04,4,4,Joe Mantegna,Pop Lockett Drop it,134.32,102.0,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=3&mid1=4
+2023,3,2023-W03-M05,5,5,malle_dips_pouches,ThreatLevelMidnight,121.06,125.22,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=3&mid1=5
+2023,3,2023-W03-M06,6,9,Week 3 Recap (Won),You Better Park It,127.76,105.5,30,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=3&mid1=9
+2023,4,2023-W04-M01,1,1,The Big Gronkowski,Pop Lockett Drop it,130.18,96.1,30,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=4&mid1=1
+2023,4,2023-W04-M02,2,2,Joe Mantegna,Malle ❤️ 🐸,75.46,96.5,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=4&mid1=2
+2023,4,2023-W04-M03,3,3,malle_dips_pouches,Voldemort,130.24,105.6,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=4&mid1=3
+2023,4,2023-W04-M04,4,5,Patty Primetimes,ThreatLevelMidnight,100.56,98.18,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=4&mid1=5
+2023,4,2023-W04-M05,5,7,Week 4 Recap (Won),Post Mahomes,141.82,101.44,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=4&mid1=7
+2023,4,2023-W04-M06,6,8,Uncle Rico,Ginger FC,120.14,95.66,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=4&mid1=8
+2023,5,2023-W05-M01,1,1,Malle ❤️ 🐸,The Big Gronkowski,107.38,91.12,30,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=5&mid1=1
+2023,5,2023-W05-M02,2,3,Week 5 Recap (Won),Voldemort,78.54,66.72,30,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=5&mid1=3
+2023,5,2023-W05-M03,3,4,Joe Mantegna,Uncle Rico,99.28,139.52,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=5&mid1=4
+2023,5,2023-W05-M04,4,5,ThreatLevelMidnight,Ginger FC,116.2,96.36,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=5&mid1=5
+2023,5,2023-W05-M05,5,6,Pop Lockett Drop it,Post Mahomes,85.46,120.84,30,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=5&mid1=6
+2023,5,2023-W05-M06,6,9,Week 5 Recap (Lost),You Better Park It,66.72,78.54,30,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=5&mid1=9
+2023,6,2023-W06-M01,1,1,The Big Gronkowski,Uncle Rico,92.2,81.88,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=6&mid1=1
+2023,6,2023-W06-M02,2,2,Malle ❤️ 🐸,Post Mahomes,99.9,98.84,30,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=6&mid1=2
+2023,6,2023-W06-M03,3,3,Pop Lockett Drop it,Voldemort,80.12,126.52,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=6&mid1=3
+2023,6,2023-W06-M04,4,4,Joe Mantegna,ThreatLevelMidnight,112.34,98.14,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=6&mid1=4
+2023,6,2023-W06-M05,5,8,Patty Primetimes,Ginger FC,71.3,106.58,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=6&mid1=8
+2023,6,2023-W06-M06,6,9,Week 6 Recap (Won),You Better Park It,124.98,95.86,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=6&mid1=9
+2023,7,2023-W07-M01,1,1,ThreatLevelMidnight,The Big Gronkowski,74.56,119.5,30,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=7&mid1=1
+2023,7,2023-W07-M02,2,2,Malle ❤️ 🐸,Voldemort,115.26,150.68,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=7&mid1=2
+2023,7,2023-W07-M03,3,4,Patty Primetimes,Joe Mantegna,115.46,109.84,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=7&mid1=4
+2023,7,2023-W07-M04,4,6,Week 7 Recap (Won),Pop Lockett Drop it,123.24,104.56,30,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=7&mid1=6
+2023,7,2023-W07-M05,5,7,Post Mahomes,Uncle Rico,81.2,134.56,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=7&mid1=7
+2023,7,2023-W07-M06,6,8,malle_dips_pouches,Ginger FC,67.48,76.1,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=7&mid1=8
+2023,8,2023-W08-M01,1,1,Patty Primetimes,The Big Gronkowski,118.52,108.76,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=8&mid1=1
+2023,8,2023-W08-M02,2,2,Week 8 Recap (Won),Malle ❤️ 🐸,120.66,93.48,30,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=8&mid1=2
+2023,8,2023-W08-M03,3,3,Voldemort,Uncle Rico,154.62,66.88,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=8&mid1=3
+2023,8,2023-W08-M04,4,4,Joe Mantegna,Ginger FC,118.58,96.36,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=8&mid1=4
+2023,8,2023-W08-M05,5,5,ThreatLevelMidnight,Post Mahomes,127.28,107.3,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=8&mid1=5
+2023,8,2023-W08-M06,6,6,malle_dips_pouches,Pop Lockett Drop it,131.1,104.96,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=8&mid1=6
+2023,9,2023-W09-M01,1,1,The Big Gronkowski,Ginger FC,69.44,106.08,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=9&mid1=1
+2023,9,2023-W09-M02,2,2,Malle ❤️ 🐸,Pop Lockett Drop it,100.58,94.04,30,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=9&mid1=2
+2023,9,2023-W09-M03,3,3,ThreatLevelMidnight,Voldemort,80.38,121.5,30,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=9&mid1=3
+2023,9,2023-W09-M04,4,4,malle_dips_pouches,Joe Mantegna,86.8,89.52,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=9&mid1=4
+2023,9,2023-W09-M05,5,7,Patty Primetimes,Post Mahomes,97.62,88.92,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=9&mid1=7
+2023,9,2023-W09-M06,6,9,Week 9 Recap (Won),Uncle Rico,120.62,87.16,30,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=9&mid1=9
+2023,10,2023-W10-M01,1,1,Joe Mantegna,The Big Gronkowski,116.52,118.46,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=10&mid1=1
+2023,10,2023-W10-M02,2,2,malle_dips_pouches,Malle ❤️ 🐸,130.4,87.18,30,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=10&mid1=2
+2023,10,2023-W10-M03,3,3,Patty Primetimes,Voldemort,121.72,84.46,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=10&mid1=3
+2023,10,2023-W10-M04,4,5,Week 10 Recap (Lost),ThreatLevelMidnight,90.22,149.16,30,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=10&mid1=5
+2023,10,2023-W10-M05,5,6,Pop Lockett Drop it,Uncle Rico,112.78,143.84,30,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=10&mid1=6
+2023,10,2023-W10-M06,6,7,Post Mahomes,Ginger FC,98.3,74.94,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=10&mid1=7
+2023,11,2023-W11-M01,1,1,malle_dips_pouches,The Big Gronkowski,149.8,87.4,30,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=11&mid1=1
+2023,11,2023-W11-M02,2,2,Malle ❤️ 🐸,Uncle Rico,89.34,106.9,30,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=11&mid1=2
+2023,11,2023-W11-M03,3,3,Voldemort,Ginger FC,119.96,60.44,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=11&mid1=3
+2023,11,2023-W11-M04,4,4,Joe Mantegna,Post Mahomes,148.34,112.18,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=11&mid1=4
+2023,11,2023-W11-M05,5,5,ThreatLevelMidnight,Pop Lockett Drop it,156.98,95.34,30,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=11&mid1=5
+2023,11,2023-W11-M06,6,9,Week 11 Recap (Won),You Better Park It,91.06,90.8,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=11&mid1=9
+2023,12,2023-W12-M01,1,1,The Big Gronkowski,Post Mahomes,112.98,156.02,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=12&mid1=1
+2023,12,2023-W12-M02,2,2,Malle ❤️ 🐸,ThreatLevelMidnight,121.8,125.36,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=12&mid1=2
+2023,12,2023-W12-M03,3,3,Joe Mantegna,Voldemort,126.08,126.54,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=12&mid1=3
+2023,12,2023-W12-M04,4,6,Patty Primetimes,Pop Lockett Drop it,110.66,97.62,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=12&mid1=6
+2023,12,2023-W12-M05,5,8,Week 12 Recap (Lost),Ginger FC,95.3,122.34,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=12&mid1=8
+2023,12,2023-W12-M06,6,9,Week 12 Recap (Won),You Better Park It,122.34,95.3,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=12&mid1=9
+2023,13,2023-W13-M01,1,1,The Big Gronkowski,Voldemort,114.08,132.88,30,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=13&mid1=1
+2023,13,2023-W13-M02,2,2,Patty Primetimes,Malle ❤️ 🐸,127.72,134.9,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=13&mid1=2
+2023,13,2023-W13-M03,3,4,Week 13 Recap (Won),Joe Mantegna,92.88,91.06,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=13&mid1=4
+2023,13,2023-W13-M04,4,5,ThreatLevelMidnight,Uncle Rico,94.1,146.82,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=13&mid1=5
+2023,13,2023-W13-M05,5,6,Pop Lockett Drop it,Ginger FC,102.16,116.46,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=13&mid1=6
+2023,13,2023-W13-M06,6,7,malle_dips_pouches,Post Mahomes,102.3,109.84,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=13&mid1=7
+2023,14,2023-W14-M01,1,1,Week 14 Recap (Won),The Big Gronkowski,103.74,87.34,30,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=14&mid1=1
+2023,14,2023-W14-M02,2,2,Malle ❤️ 🐸,Ginger FC,105.98,140.02,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=14&mid1=2
+2023,14,2023-W14-M03,3,3,Voldemort,Post Mahomes,138.04,119.74,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=14&mid1=3
+2023,14,2023-W14-M04,4,4,Joe Mantegna,Pop Lockett Drop it,112.2,73.14,30,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=14&mid1=4
+2023,14,2023-W14-M05,5,5,malle_dips_pouches,ThreatLevelMidnight,112.36,128.92,32,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=14&mid1=5
+2023,14,2023-W14-M06,6,9,Week 14 Recap (Lost),You Better Park It,87.34,103.74,30,2,https://football.fantasysports.yahoo.com/2023/f1/684195/matchup?week=14&mid1=9

@@ -1,0 +1,33 @@
+year,week,fantasy_team,opponent,team_score,opponent_score,side,lineup_slot,player,projection,fantasy_points,stat_summary,is_starter,is_bench,is_ir,source_url,source_table,source_row
+2020,9,Uncle Rico,Patty Primetimes,73.4,51.94,left,QB,Lamar Jackson,25.11,18.6,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=11,starters,1
+2020,9,Patty Primetimes,Uncle Rico,51.94,73.4,right,QB,Matthew Stafford,25.52,12.44,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=11,starters,1
+2020,9,Uncle Rico,Patty Primetimes,73.4,51.94,left,WR,Diontae Johnson,11.49,11.1,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=11,starters,2
+2020,9,Patty Primetimes,Uncle Rico,51.94,73.4,right,WR,Tyler Lockett,16.02,6.0,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=11,starters,2
+2020,9,Uncle Rico,Patty Primetimes,73.4,51.94,left,WR,Michael Thomas,15.04,7.6,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=11,starters,3
+2020,9,Patty Primetimes,Uncle Rico,51.94,73.4,right,WR,DJ Moore,12.08,2.8,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=11,starters,3
+2020,9,Uncle Rico,Patty Primetimes,73.4,51.94,left,RB,Derrick Henry,16.71,6.8,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=11,starters,4
+2020,9,Patty Primetimes,Uncle Rico,51.94,73.4,right,RB,D'Andre Swift,10.81,11.2,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=11,starters,4
+2020,9,Uncle Rico,Patty Primetimes,73.4,51.94,left,RB,Antonio Gibson,12.4,11.0,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=11,starters,5
+2020,9,Patty Primetimes,Uncle Rico,51.94,73.4,right,RB,Phillip Lindsay,8.46,2.3,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=11,starters,5
+2020,9,Uncle Rico,Patty Primetimes,73.4,51.94,left,TE,Robert Tonyan,8.84,1.0,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=11,starters,6
+2020,9,Patty Primetimes,Uncle Rico,51.94,73.4,right,TE,Rob Gronkowski,9.83,0.7,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=11,starters,6
+2020,9,Uncle Rico,Patty Primetimes,73.4,51.94,left,W/R/T,JaMycal Hasty,11.2,2.3,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=11,starters,7
+2020,9,Patty Primetimes,Uncle Rico,51.94,73.4,right,W/R/T,J.K. Dobbins,10.16,4.5,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=11,starters,7
+2020,9,Uncle Rico,Patty Primetimes,73.4,51.94,left,K,Jason Sanders,8.1,14.0,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=11,starters,8
+2020,9,Patty Primetimes,Uncle Rico,51.94,73.4,right,K,Daniel Carlson,8.33,7.0,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=11,starters,8
+2020,9,Uncle Rico,Patty Primetimes,73.4,51.94,left,DEF,Buccaneers - DEF,6.17,1.0,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=11,starters,9
+2020,9,Patty Primetimes,Uncle Rico,51.94,73.4,right,DEF,Commanders - DEF,8.65,5.0,,True,False,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=11,starters,9
+2020,9,Uncle Rico,Patty Primetimes,73.4,51.94,left,BN,Nelson Agholor,6.61,12.5,,False,True,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=11,bench,1
+2020,9,Patty Primetimes,Uncle Rico,51.94,73.4,right,BN,Josh Allen,26.41,42.0,,False,True,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=11,bench,1
+2020,9,Uncle Rico,Patty Primetimes,73.4,51.94,left,BN,Boston Scott,0.0,0.0,,False,True,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=11,bench,2
+2020,9,Patty Primetimes,Uncle Rico,51.94,73.4,right,BN,Jamaal Williams,0.0,0.0,,False,True,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=11,bench,2
+2020,9,Uncle Rico,Patty Primetimes,73.4,51.94,left,BN,Jamison Crowder,10.43,9.6,,False,True,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=11,bench,3
+2020,9,Patty Primetimes,Uncle Rico,51.94,73.4,right,BN,Travis Fulgham,0.0,0.0,,False,True,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=11,bench,3
+2020,9,Uncle Rico,Patty Primetimes,73.4,51.94,left,BN,Chris Godwin Jr.,13.1,5.6,,False,True,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=11,bench,4
+2020,9,Patty Primetimes,Uncle Rico,51.94,73.4,right,BN,Adrian Peterson,8.62,5.8,,False,True,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=11,bench,4
+2020,9,Uncle Rico,Patty Primetimes,73.4,51.94,left,BN,Christian Kirk,9.67,20.8,,False,True,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=11,bench,5
+2020,9,Patty Primetimes,Uncle Rico,51.94,73.4,right,BN,Noah Fant,9.32,6.0,,False,True,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=11,bench,5
+2020,9,Uncle Rico,Patty Primetimes,73.4,51.94,left,BN,Baker Mayfield,0.0,0.0,,False,True,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=11,bench,6
+2020,9,Patty Primetimes,Uncle Rico,51.94,73.4,right,BN,Nyheim Miller-Hines,7.52,4.8,,False,True,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=11,bench,6
+2020,9,Uncle Rico,Patty Primetimes,73.4,51.94,left,IR,Austin Ekeler,0.0,0.0,,False,True,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=11,bench,7
+2020,9,Patty Primetimes,Uncle Rico,51.94,73.4,right,IR,(Empty),0.0,,,False,True,False,https://football.fantasysports.yahoo.com/2020/f1/510142/matchup?week=9&mid1=11,bench,7
