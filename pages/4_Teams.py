@@ -33,6 +33,12 @@ ALL_TIME_FILE = HISTORY_DIR / "all_time_records.csv"
 PLAYOFF_RECORDS_FILE = PLAYOFF_DIR / "playoff_records.csv"
 PLAYOFF_APPEARANCES_FILE = PLAYOFF_DIR / "playoff_appearances.csv"
 CHAMPIONSHIPS_FILE = PLAYOFF_DIR / "championships.csv"
+PLAYER_CHAMPIONSHIP_PEDIGREE_FILE = (
+    PLAYOFF_DIR / "player_championship_pedigree.csv"
+)
+PLAYER_CHAMPIONSHIP_ROSTERS_FILE = (
+    PLAYOFF_DIR / "player_championship_rosters.csv"
+)
 
 PLAYER_WEEK_DIR = (
     BASE_DIR
@@ -66,6 +72,12 @@ def load_data():
     playoff_records = pd.read_csv(PLAYOFF_RECORDS_FILE)
     playoff_appearances = pd.read_csv(PLAYOFF_APPEARANCES_FILE)
     championships = pd.read_csv(CHAMPIONSHIPS_FILE)
+    player_championship_pedigree = pd.read_csv(
+        PLAYER_CHAMPIONSHIP_PEDIGREE_FILE
+    )
+    player_championship_rosters = pd.read_csv(
+        PLAYER_CHAMPIONSHIP_ROSTERS_FILE
+    )
     weekly_lineups = pd.read_csv(WEEKLY_LINEUPS_FILE)
     luck_season = pd.read_csv(LUCK_SEASON_FILE)
     luck_all_time = pd.read_csv(LUCK_ALL_TIME_FILE)
@@ -77,6 +89,8 @@ def load_data():
         playoff_records,
         playoff_appearances,
         championships,
+        player_championship_pedigree,
+        player_championship_rosters,
         weekly_lineups,
         luck_season,
         luck_all_time,
@@ -92,6 +106,8 @@ try:
         playoff_records,
         playoff_appearances,
         championships,
+        player_championship_pedigree,
+        player_championship_rosters,
         weekly_lineups,
         luck_season,
         luck_all_time,
@@ -1404,6 +1420,165 @@ if not eligible.empty:
             f"{nightmare['Win %']:.1f}% win rate • "
             f"{nightmare['Diff']:+.2f} point differential"
         )
+
+
+
+# ============================================================
+# PLAYER CHAMPIONSHIP PEDIGREE
+# ============================================================
+
+st.divider()
+
+st.header("🏆 Championship Pedigree")
+
+st.caption(
+    "Player title counts use each champion's final regular-season roster "
+    "as the championship-roster proxy."
+)
+
+
+franchise_title_players = (
+    player_championship_rosters[
+        player_championship_rosters["champion"] == selected_team
+    ]
+    .copy()
+)
+
+
+if franchise_title_players.empty:
+
+    st.write(
+        "No championship-roster player history for this franchise."
+    )
+
+else:
+
+    franchise_player_titles = (
+        franchise_title_players
+        .groupby(
+            "player",
+            as_index=False,
+        )
+        .agg(
+            Championships=(
+                "year",
+                "nunique",
+            ),
+            Seasons=(
+                "year",
+                lambda s: ", ".join(
+                    str(int(x))
+                    for x in sorted(set(s))
+                ),
+            ),
+        )
+        .sort_values(
+            [
+                "Championships",
+                "player",
+            ],
+            ascending=[
+                False,
+                True,
+            ],
+        )
+        .reset_index(drop=True)
+    )
+
+    franchise_player_titles.insert(
+        0,
+        "Rank",
+        franchise_player_titles[
+            "Championships"
+        ]
+        .rank(
+            method="min",
+            ascending=False,
+        )
+        .astype(int),
+    )
+
+    franchise_player_titles = (
+        franchise_player_titles.rename(
+            columns={
+                "player": "Player",
+            }
+        )
+    )
+
+    leader = franchise_player_titles.iloc[0]
+
+    c1, c2 = st.columns([1, 2])
+
+    with c1:
+
+        st.metric(
+            "Most Titles",
+            leader["Player"],
+            f"{int(leader['Championships'])} championship"
+            + (
+                "s"
+                if int(leader["Championships"]) != 1
+                else ""
+            ),
+        )
+
+        st.caption(
+            f"Title season(s): {leader['Seasons']}"
+        )
+
+    with c2:
+
+        st.dataframe(
+            franchise_player_titles.head(15),
+            hide_index=True,
+            use_container_width=True,
+        )
+
+
+with st.expander(
+    "League-Wide Player Championship Leaders"
+):
+
+    league_titles = (
+        player_championship_pedigree
+        .sort_values(
+            [
+                "championships",
+                "player",
+            ],
+            ascending=[
+                False,
+                True,
+            ],
+        )
+        .head(25)
+        .copy()
+    )
+
+    league_titles = league_titles.rename(
+        columns={
+            "championship_rank": "Rank",
+            "player": "Player",
+            "championships": "Championships",
+            "championship_seasons": "Title Seasons",
+            "champion_franchises": "Champion Franchises",
+        }
+    )
+
+    st.dataframe(
+        league_titles[
+            [
+                "Rank",
+                "Player",
+                "Championships",
+                "Title Seasons",
+                "Champion Franchises",
+            ]
+        ],
+        hide_index=True,
+        use_container_width=True,
+    )
 
 
 # ============================================================
