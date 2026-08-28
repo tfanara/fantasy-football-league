@@ -4,7 +4,7 @@ import pandas as pd
 from team_aliases import canonical_team
 
 
-DATA_FILE = Path("data/all_matchups_clean.csv")
+DATA_FILE = Path("data/all_matchups_clean_2017_2025.csv")
 OUTPUT_DIR = Path("data/history")
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)

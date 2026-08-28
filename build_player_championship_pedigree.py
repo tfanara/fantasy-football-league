@@ -9,7 +9,7 @@ LINEUPS_FILE = (
     / "data"
     / "matchups"
     / "player_week_stats"
-    / "all_weekly_lineups_2018_2025.csv"
+    / "all_weekly_lineups_2017_2025.csv"
 )
 
 CHAMPIONSHIPS_FILE = (

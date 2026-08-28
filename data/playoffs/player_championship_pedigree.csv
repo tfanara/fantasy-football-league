@@ -1,30 +1,34 @@
 player,championships,championship_seasons,champion_franchises,championship_rank
 Jakobi Meyers,3,"2020, 2023, 2025","Ginger FC, Joe Mantegna, Malle ❤️ 🐸",1
-Adam Thielen,2,"2018, 2020","Malle ❤️ 🐸, Pop Lockett Drop it",2
-Amari Cooper,2,"2022, 2024","Post Mahomes, malle_dips_pouches",2
-Calvin Ridley,2,"2020, 2021","Malle ❤️ 🐸, Voldemort",2
-Chase Edmonds,2,"2019, 2021",Voldemort,2
-Christian McCaffrey,2,"2019, 2022","Voldemort, malle_dips_pouches",2
-David Montgomery,2,"2021, 2023","Joe Mantegna, Voldemort",2
-Deebo Samuel Sr.,2,"2021, 2024","Post Mahomes, Voldemort",2
-Hollywood Brown,2,"2023, 2024","Joe Mantegna, Post Mahomes",2
-Jason Myers,2,"2022, 2025","Ginger FC, malle_dips_pouches",2
-Kareem Hunt,2,"2018, 2020","Malle ❤️ 🐸, Pop Lockett Drop it",2
-Keenan Allen,2,"2019, 2023","Joe Mantegna, Voldemort",2
-Lamar Jackson,2,"2022, 2024","Post Mahomes, malle_dips_pouches",2
-Michael Gallup,2,"2019, 2022","Voldemort, malle_dips_pouches",2
-Tom Brady,2,"2020, 2022","Malle ❤️ 🐸, malle_dips_pouches",2
-Zach Ertz,2,"2018, 2025","Ginger FC, Pop Lockett Drop it",2
+Zach Ertz,3,"2017, 2018, 2025","Ginger FC, Pop Lockett Drop it",1
+Adam Thielen,2,"2018, 2020","Malle ❤️ 🐸, Pop Lockett Drop it",3
+Amari Cooper,2,"2022, 2024","Post Mahomes, malle_dips_pouches",3
+Calvin Ridley,2,"2020, 2021","Malle ❤️ 🐸, Voldemort",3
+Chase Edmonds,2,"2019, 2021",Voldemort,3
+Christian McCaffrey,2,"2019, 2022","Voldemort, malle_dips_pouches",3
+David Montgomery,2,"2021, 2023","Joe Mantegna, Voldemort",3
+Deebo Samuel Sr.,2,"2021, 2024","Post Mahomes, Voldemort",3
+Hollywood Brown,2,"2023, 2024","Joe Mantegna, Post Mahomes",3
+Jason Myers,2,"2022, 2025","Ginger FC, malle_dips_pouches",3
+Kareem Hunt,2,"2018, 2020","Malle ❤️ 🐸, Pop Lockett Drop it",3
+Keenan Allen,2,"2019, 2023","Joe Mantegna, Voldemort",3
+Lamar Jackson,2,"2022, 2024","Post Mahomes, malle_dips_pouches",3
+Michael Gallup,2,"2019, 2022","Voldemort, malle_dips_pouches",3
+Tom Brady,2,"2020, 2022","Malle ❤️ 🐸, malle_dips_pouches",3
 49ers - DEF,1,2019,Voldemort,17
 Adrian Peterson,1,2018,Pop Lockett Drop it,17
+Alex Collins,1,2017,Ginger FC,17
 Alvin Kamara,1,2020,Malle ❤️ 🐸,17
 Ashton Jeanty,1,2025,Ginger FC,17
+Austin Ekeler,1,2017,Ginger FC,17
 Baker Mayfield,1,2019,Voldemort,17
 Ben Roethlisberger,1,2020,Malle ❤️ 🐸,17
 Breece Hall,1,2023,Joe Mantegna,17
 Brock Bowers,1,2024,Post Mahomes,17
 Buccaneers - DEF,1,2021,Voldemort,17
 Bucky Irving,1,2025,Ginger FC,17
+Carlos Hyde,1,2017,Ginger FC,17
+Case Keenum,1,2017,Ginger FC,17
 Chiefs - DEF,1,2024,Post Mahomes,17
 Chris Carson,1,2019,Voldemort,17
 Christian Kirk,1,2021,Voldemort,17
@@ -39,8 +43,10 @@ Darnell Mooney,1,2024,Post Mahomes,17
 Darrel Williams,1,2019,Voldemort,17
 David Njoku,1,2023,Joe Mantegna,17
 Dawson Knox,1,2021,Voldemort,17
+DeAndre Hopkins,1,2017,Ginger FC,17
 DeSean Jackson,1,2020,Malle ❤️ 🐸,17
 DeVonta Smith,1,2022,malle_dips_pouches,17
+Ed Dickson,1,2017,Ginger FC,17
 Golden Tate,1,2018,Pop Lockett Drop it,17
 Greg Zuerlein,1,2021,Voldemort,17
 Hunter Henry,1,2019,Voldemort,17
@@ -52,12 +58,14 @@ Jalen Hurts,1,2025,Ginger FC,17
 James Conner,1,2022,malle_dips_pouches,17
 James Cook III,1,2023,Joe Mantegna,17
 Jason Sanders,1,2023,Joe Mantegna,17
+Jay Ajayi,1,2017,Ginger FC,17
 Jayden Reed,1,2025,Ginger FC,17
 Jaylen Waddle,1,2022,malle_dips_pouches,17
 Jeff Heuerman,1,2018,Pop Lockett Drop it,17
 Jeff Wilson Jr.,1,2021,Voldemort,17
 Jimmy Graham,1,2018,Pop Lockett Drop it,17
 Jordan Howard,1,2020,Malle ❤️ 🐸,17
+Jordan Matthews,1,2017,Ginger FC,17
 Josh Downs,1,2025,Ginger FC,17
 Josh Jacobs,1,2022,malle_dips_pouches,17
 Justin Jefferson,1,2021,Voldemort,17
@@ -68,8 +76,11 @@ Kirk Cousins,1,2018,Pop Lockett Drop it,17
 Kyle Pitts Sr.,1,2023,Joe Mantegna,17
 Kyler Murray,1,2023,Joe Mantegna,17
 Kyren Williams,1,2024,Post Mahomes,17
+Larry Fitzgerald,1,2017,Ginger FC,17
 Latavius Murray,1,2020,Malle ❤️ 🐸,17
+Marcus Mariota,1,2017,Ginger FC,17
 Mark Andrews,1,2022,malle_dips_pouches,17
+Marqise Lee,1,2017,Ginger FC,17
 Marquise Goodwin,1,2018,Pop Lockett Drop it,17
 Michael Carter,1,2022,malle_dips_pouches,17
 Michael Pittman Jr.,1,2024,Post Mahomes,17
@@ -92,12 +103,15 @@ Saints - DEF,1,2020,Malle ❤️ 🐸,17
 Sam Howell,1,2023,Joe Mantegna,17
 Steelers - DEF,1,2022,malle_dips_pouches,17
 Stefon Diggs,1,2025,Ginger FC,17
+Stephen Gostkowski,1,2017,Ginger FC,17
 T.J. Hockenson,1,2024,Post Mahomes,17
+Taylor Gabriel,1,2017,Ginger FC,17
 Tee Higgins,1,2024,Post Mahomes,17
 Terry McLaurin,1,2019,Voldemort,17
 Tevin Coleman,1,2019,Voldemort,17
 Texans - DEF,1,2018,Pop Lockett Drop it,17
 Theo Riddick,1,2018,Pop Lockett Drop it,17
+Titans - DEF,1,2017,Ginger FC,17
 Travis Kelce,1,2020,Malle ❤️ 🐸,17
 Tyler Bass,1,2024,Post Mahomes,17
 Tyler Boyd,1,2022,malle_dips_pouches,17

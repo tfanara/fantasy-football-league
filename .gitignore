@@ -8,3 +8,4 @@ yahoo_credentials.json
 __pycache__/
 *.pyc
 .streamlit/secrets.toml
+yahoo_browser_profile_2017/

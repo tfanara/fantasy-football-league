@@ -16,7 +16,7 @@ import pandas as pd
 
 # =============================================================================
 
-START_YEAR = 2018
+START_YEAR = 2017
 
 END_YEAR = 2025
 
@@ -250,7 +250,7 @@ def build_historical_position_lookup(df: pd.DataFrame) -> dict[str, str]:
 
     Build a player -> position lookup from fixed starting slots across the full
 
-    2018-2025 history.
+    2017-2025 history.
 
     Bench rows often only say BN, but the same player usually appears in a
 

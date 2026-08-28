@@ -66,7 +66,7 @@ FILES = {
     "lineup_efficiency_season": ANALYSIS_DIR / "lineup_efficiency_season.csv",
     "lineup_efficiency_all_time": ANALYSIS_DIR / "lineup_efficiency_all_time.csv",
     "lineup_efficiency_team_week": ANALYSIS_DIR / "lineup_efficiency_team_week.csv",
-    "weekly_lineups": PLAYER_WEEK_DIR / "all_weekly_lineups_2018_2025.csv",
+    "weekly_lineups": PLAYER_WEEK_DIR / "all_weekly_lineups_2017_2025.csv",
 }
 
 
@@ -417,7 +417,7 @@ GROUNDING RULES:
 5. Distinguish actual wins from expected wins when discussing luck.
 6. "Player career points" means fantasy points that actually counted in that franchise's STARTING lineup unless the evidence says otherwise.
 7. Championship-player counts use the champion's final regular-season roster as a proxy, not verified playoff-week rosters.
-8. Regular-season weekly player history currently covers 2018-2025.
+8. Regular-season weekly player history currently covers 2017-2025.
 9. Use exact numbers when useful, usually rounded to 1-2 decimal places.
 10. Do not mention Gemini, prompts, CSV files, or internal implementation details.
 

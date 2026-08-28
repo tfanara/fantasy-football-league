@@ -1,4 +1,9 @@
 year,week,round,team_1,team_1_record,team_1_score,team_1_projected,team_2,team_2_record,team_2_score,team_2_projected,winner,winner_score,loser,loser_score,margin,is_championship
+2017,14,Quarterfinal,Post Mahomes,8-5-0 | 3rd,88.24,,malle_dips_pouches,7-6-0 | 5th,78.34,,Post Mahomes,88.24,malle_dips_pouches,78.34,9.9,False
+2017,14,Quarterfinal,Pop Lockett Drop it,9-4-0 | 4th,96.74,,Big Sack Jack,7-6-0 | 6th,93.66,,Pop Lockett Drop it,96.74,Big Sack Jack,93.66,3.08,False
+2017,15,Semifinal,Ginger FC,10-3-0 | 1st,86.04,,Post Mahomes,8-5-0 | 3rd,76.94,,Ginger FC,86.04,Post Mahomes,76.94,9.1,False
+2017,15,Semifinal,Pop Lockett Drop it,9-4-0 | 4th,93.58,,Voldemort,9-4-0 | 2nd,111.72,,Voldemort,111.72,Pop Lockett Drop it,93.58,18.14,False
+2017,16,Championship,Ginger FC,10-3-0 | 1st,109.9,,Voldemort,9-4-0 | 2nd,101.86,,Ginger FC,109.9,Voldemort,101.86,8.04,True
 2018,14,Quarterfinal,The Big Gronkowski,7-6-0 | 5th,91.5,109.35,Big Sack Jack,8-5-0 | 3rd,115.2,107.41,Big Sack Jack,115.2,The Big Gronkowski,91.5,23.7,False
 2018,14,Quarterfinal,Voldemort,7-6-0 | 2nd,88.68,99.66,ThreatLevelMidnight,7-6-0 | 6th,63.98,95.14,Voldemort,88.68,ThreatLevelMidnight,63.98,24.7,False
 2018,15,Semifinal,Pop Lockett Drop it,8-5-0 | 1st,82.5,93.12,Big Sack Jack,8-5-0 | 3rd,66.64,110.13,Pop Lockett Drop it,82.5,Big Sack Jack,66.64,15.86,False

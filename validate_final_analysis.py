@@ -6,8 +6,8 @@ BASE = Path(__file__).resolve().parent
 DATA_DIR = BASE / "data" / "matchups" / "player_week_stats"
 ANALYSIS_DIR = DATA_DIR / "analysis"
 
-LINEUPS = DATA_DIR / "all_weekly_lineups_2018_2025.csv"
-MATCHUPS = DATA_DIR / "all_matchups_2018_2025.csv"
+LINEUPS = DATA_DIR / "all_weekly_lineups_2017_2025.csv"
+MATCHUPS = DATA_DIR / "all_matchups_2017_2025.csv"
 TEAM_WEEK = ANALYSIS_DIR / "lineup_efficiency_team_week.csv"
 SEASON = ANALYSIS_DIR / "lineup_efficiency_season.csv"
 ALL_TIME = ANALYSIS_DIR / "lineup_efficiency_all_time.csv"
@@ -45,11 +45,11 @@ def main():
 
     banner("1. MASTER DATASET COUNTS")
 
-    if len(matchups) != 654:
-        fail(f"Expected 654 matchups, found {len(matchups)}")
+    if len(matchups) != 732:
+        fail(f"Expected 732 matchups, found {len(matchups)}")
 
-    if team_week.shape[0] != 1308:
-        fail(f"Expected 1,308 efficiency team-weeks, found {len(team_week)}")
+    if team_week.shape[0] != 1464:
+        fail(f"Expected 1,464 efficiency team-weeks, found {len(team_week)}")
 
     print(f"[PASS] Matchups: {len(matchups):,}")
     print(f"[PASS] Efficiency team-weeks: {len(team_week):,}")
@@ -115,6 +115,7 @@ def main():
     banner("5. SEASON SUMMARY SHAPE")
 
     expected_by_year = {
+        2017: 12,
         2018: 12,
         2019: 12,
         2020: 12,

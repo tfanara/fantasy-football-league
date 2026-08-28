@@ -5,7 +5,7 @@ import pandas as pd
 
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data" / "matchups" / "player_week_stats"
-MATCHUPS_FILE = DATA_DIR / "all_matchups_2018_2025.csv"
+MATCHUPS_FILE = BASE_DIR / "data" / "all_matchups_clean_2017_2025.csv"
 
 OUT_DIR = DATA_DIR / "analysis"
 TEAM_WEEK_OUT = OUT_DIR / "luck_team_week.csv"

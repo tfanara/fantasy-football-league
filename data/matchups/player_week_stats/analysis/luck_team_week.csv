@@ -1,169 +1,325 @@
 year,week,fantasy_team,opponent,team_score,opponent_score,actual_win,actual_loss,actual_tie,actual_win_value,margin,all_play_wins,all_play_losses,all_play_ties,expected_win_value,weekly_schedule_luck,weekly_score_rank,top_3_score,bottom_3_score,opponent_weekly_score_rank,opponent_top_3_score,opponent_bottom_3_score,close_game_5,close_game_10,close_game_5_win_value,close_game_10_win_value
-2018,1,Voldemort,Big Sack Jack,121.58,123.04,0.0,1.0,0.0,0.0,-1.460000000000008,7,4,0,0.6363636363636364,-0.6363636363636364,5,False,False,2,True,False,True,True,0.0,0.0
+2017,1,Dillon Panthers,Ginger FC,65.24,71.94,0.0,1.0,0.0,0.0,-6.700000000000003,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,7,False,False,False,True,,0.0
+2017,1,Little Red Fournette,Pop Lockett Drop it,103.54,58.74,1.0,0.0,0.0,1.0,44.800000000000004,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,11,False,True,False,False,,
+2017,1,PickUpYourBratsMalle,malle_dips_pouches,82.12,68.68,1.0,0.0,0.0,1.0,13.439999999999998,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,8,False,False,False,False,,
+2017,1,The Big Gronkowski,Malle ❤️ 🐸,108.02,78.62,1.0,0.0,0.0,1.0,29.39999999999999,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,6,False,False,False,False,,
+2017,1,Ur The Best Bellows,Hello Harvard,48.22,132.38,0.0,1.0,0.0,0.0,-84.16,0,11,0,0.0,0.0,12,False,True,1,True,False,False,False,,
+2017,1,Voldemort,Big Sack Jack,98.88,61.7,1.0,0.0,0.0,1.0,37.17999999999999,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,10,False,True,False,False,,
+2017,1,Ginger FC,Dillon Panthers,71.94,65.24,1.0,0.0,0.0,1.0,6.700000000000003,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,9,False,False,False,True,,1.0
+2017,1,Pop Lockett Drop it,Little Red Fournette,58.74,103.54,0.0,1.0,0.0,0.0,-44.800000000000004,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,3,True,False,False,False,,
+2017,1,malle_dips_pouches,PickUpYourBratsMalle,68.68,82.12,0.0,1.0,0.0,0.0,-13.439999999999998,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,5,False,False,False,False,,
+2017,1,Malle ❤️ 🐸,The Big Gronkowski,78.62,108.02,0.0,1.0,0.0,0.0,-29.39999999999999,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,2,True,False,False,False,,
+2017,1,Hello Harvard,Ur The Best Bellows,132.38,48.22,1.0,0.0,0.0,1.0,84.16,11,0,0,1.0,0.0,1,True,False,12,False,True,False,False,,
+2017,1,Big Sack Jack,Voldemort,61.7,98.88,0.0,1.0,0.0,0.0,-37.17999999999999,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,4,False,False,False,False,,
+2017,2,Dillon Panthers,Hello Harvard,131.92,61.28,1.0,0.0,0.0,1.0,70.63999999999999,11,0,0,1.0,0.0,1,True,False,11,False,True,False,False,,
+2017,2,Little Red Fournette,PickUpYourBratsMalle,81.54,96.02,0.0,1.0,0.0,0.0,-14.47999999999999,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,5,False,False,False,False,,
+2017,2,Malle ❤️ 🐸,malle_dips_pouches,59.12,125.6,0.0,1.0,0.0,0.0,-66.47999999999999,0,11,0,0.0,0.0,12,False,True,2,True,False,False,False,,
+2017,2,Pop Lockett Drop it,Ginger FC,68.78,92.8,0.0,1.0,0.0,0.0,-24.019999999999996,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,6,False,False,False,False,,
+2017,2,The Big Gronkowski,Voldemort,97.32,110.38,0.0,1.0,0.0,0.0,-13.060000000000002,8,3,0,0.7272727272727273,-0.7272727272727273,4,False,False,3,True,False,False,False,,
+2017,2,Ur The Best Bellows,Big Sack Jack,80.08,73.54,1.0,0.0,0.0,1.0,6.539999999999992,4,7,0,0.36363636363636365,0.6363636363636364,8,False,False,9,False,False,False,True,,1.0
+2017,2,Hello Harvard,Dillon Panthers,61.28,131.92,0.0,1.0,0.0,0.0,-70.63999999999999,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,1,True,False,False,False,,
+2017,2,PickUpYourBratsMalle,Little Red Fournette,96.02,81.54,1.0,0.0,0.0,1.0,14.47999999999999,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,7,False,False,False,False,,
+2017,2,malle_dips_pouches,Malle ❤️ 🐸,125.6,59.12,1.0,0.0,0.0,1.0,66.47999999999999,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,12,False,True,False,False,,
+2017,2,Ginger FC,Pop Lockett Drop it,92.8,68.78,1.0,0.0,0.0,1.0,24.019999999999996,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,10,False,True,False,False,,
+2017,2,Voldemort,The Big Gronkowski,110.38,97.32,1.0,0.0,0.0,1.0,13.060000000000002,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,4,False,False,False,False,,
+2017,2,Big Sack Jack,Ur The Best Bellows,73.54,80.08,0.0,1.0,0.0,0.0,-6.539999999999992,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,8,False,False,False,True,,0.0
+2017,3,Dillon Panthers,Big Sack Jack,84.42,98.98,0.0,1.0,0.0,0.0,-14.560000000000002,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,4,False,False,False,False,,
+2017,3,Little Red Fournette,malle_dips_pouches,113.8,88.42,1.0,0.0,0.0,1.0,25.379999999999995,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,5,False,False,False,False,,
+2017,3,Malle ❤️ 🐸,Voldemort,84.34,141.02,0.0,1.0,0.0,0.0,-56.68000000000001,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,1,True,False,False,False,,
+2017,3,PickUpYourBratsMalle,Ginger FC,76.72,66.76,1.0,0.0,0.0,1.0,9.959999999999994,4,7,0,0.36363636363636365,0.6363636363636364,8,False,False,12,False,True,False,True,,1.0
+2017,3,Pop Lockett Drop it,Hello Harvard,71.26,69.86,1.0,0.0,0.0,1.0,1.4000000000000057,2,9,0,0.18181818181818182,0.8181818181818181,10,False,True,11,False,True,True,True,1.0,1.0
+2017,3,The Big Gronkowski,Ur The Best Bellows,71.3,105.22,0.0,1.0,0.0,0.0,-33.92,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,3,True,False,False,False,,
+2017,3,Big Sack Jack,Dillon Panthers,98.98,84.42,1.0,0.0,0.0,1.0,14.560000000000002,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,6,False,False,False,False,,
+2017,3,malle_dips_pouches,Little Red Fournette,88.42,113.8,0.0,1.0,0.0,0.0,-25.379999999999995,7,4,0,0.6363636363636364,-0.6363636363636364,5,False,False,2,True,False,False,False,,
+2017,3,Voldemort,Malle ❤️ 🐸,141.02,84.34,1.0,0.0,0.0,1.0,56.68000000000001,11,0,0,1.0,0.0,1,True,False,7,False,False,False,False,,
+2017,3,Ginger FC,PickUpYourBratsMalle,66.76,76.72,0.0,1.0,0.0,0.0,-9.959999999999994,0,11,0,0.0,0.0,12,False,True,8,False,False,False,True,,0.0
+2017,3,Hello Harvard,Pop Lockett Drop it,69.86,71.26,0.0,1.0,0.0,0.0,-1.4000000000000057,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,10,False,True,True,True,0.0,0.0
+2017,3,Ur The Best Bellows,The Big Gronkowski,105.22,71.3,1.0,0.0,0.0,1.0,33.92,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,9,False,False,False,False,,
+2017,4,Little Red Fournette,Ginger FC,106.42,100.46,1.0,0.0,0.0,1.0,5.960000000000008,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,5,False,False,False,True,,1.0
+2017,4,Malle ❤️ 🐸,Ur The Best Bellows,60.88,104.78,0.0,1.0,0.0,0.0,-43.9,0,11,0,0.0,0.0,12,False,True,4,False,False,False,False,,
+2017,4,PickUpYourBratsMalle,Hello Harvard,104.88,73.06,1.0,0.0,0.0,1.0,31.819999999999993,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,9,False,False,False,False,,
+2017,4,Pop Lockett Drop it,Big Sack Jack,90.18,71.88,1.0,0.0,0.0,1.0,18.30000000000001,4,7,0,0.36363636363636365,0.6363636363636364,8,False,False,10,False,True,False,False,,
+2017,4,The Big Gronkowski,Dillon Panthers,90.24,71.06,1.0,0.0,0.0,1.0,19.179999999999993,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,11,False,True,False,False,,
+2017,4,Voldemort,malle_dips_pouches,107.68,96.12,1.0,0.0,0.0,1.0,11.560000000000002,11,0,0,1.0,0.0,1,True,False,6,False,False,False,False,,
+2017,4,Ginger FC,Little Red Fournette,100.46,106.42,0.0,1.0,0.0,0.0,-5.960000000000008,7,4,0,0.6363636363636364,-0.6363636363636364,5,False,False,2,True,False,False,True,,0.0
+2017,4,Ur The Best Bellows,Malle ❤️ 🐸,104.78,60.88,1.0,0.0,0.0,1.0,43.9,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,12,False,True,False,False,,
+2017,4,Hello Harvard,PickUpYourBratsMalle,73.06,104.88,0.0,1.0,0.0,0.0,-31.819999999999993,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,3,True,False,False,False,,
+2017,4,Big Sack Jack,Pop Lockett Drop it,71.88,90.18,0.0,1.0,0.0,0.0,-18.30000000000001,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,8,False,False,False,False,,
+2017,4,Dillon Panthers,The Big Gronkowski,71.06,90.24,0.0,1.0,0.0,0.0,-19.179999999999993,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,7,False,False,False,False,,
+2017,4,malle_dips_pouches,Voldemort,96.12,107.68,0.0,1.0,0.0,0.0,-11.560000000000002,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,1,True,False,False,False,,
+2017,5,Ginger FC,malle_dips_pouches,84.12,59.94,1.0,0.0,0.0,1.0,24.180000000000007,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,12,False,True,False,False,,
+2017,5,Little Red Fournette,Hello Harvard,115.64,60.76,1.0,0.0,0.0,1.0,54.88,11,0,0,1.0,0.0,1,True,False,11,False,True,False,False,,
+2017,5,Malle ❤️ 🐸,Dillon Panthers,100.16,72.54,1.0,0.0,0.0,1.0,27.61999999999999,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,10,False,True,False,False,,
+2017,5,PickUpYourBratsMalle,Big Sack Jack,89.64,92.12,0.0,1.0,0.0,0.0,-2.480000000000004,7,4,0,0.6363636363636364,-0.6363636363636364,5,False,False,3,True,False,True,True,0.0,0.0
+2017,5,The Big Gronkowski,Pop Lockett Drop it,80.48,89.9,0.0,1.0,0.0,0.0,-9.420000000000002,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,4,False,False,False,True,,0.0
+2017,5,Voldemort,Ur The Best Bellows,89.12,79.76,1.0,0.0,0.0,1.0,9.36,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,9,False,False,False,True,,1.0
+2017,5,malle_dips_pouches,Ginger FC,59.94,84.12,0.0,1.0,0.0,0.0,-24.180000000000007,0,11,0,0.0,0.0,12,False,True,7,False,False,False,False,,
+2017,5,Hello Harvard,Little Red Fournette,60.76,115.64,0.0,1.0,0.0,0.0,-54.88,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,1,True,False,False,False,,
+2017,5,Dillon Panthers,Malle ❤️ 🐸,72.54,100.16,0.0,1.0,0.0,0.0,-27.61999999999999,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,2,True,False,False,False,,
+2017,5,Big Sack Jack,PickUpYourBratsMalle,92.12,89.64,1.0,0.0,0.0,1.0,2.480000000000004,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,5,False,False,True,True,1.0,1.0
+2017,5,Pop Lockett Drop it,The Big Gronkowski,89.9,80.48,1.0,0.0,0.0,1.0,9.420000000000002,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,8,False,False,False,True,,1.0
+2017,5,Ur The Best Bellows,Voldemort,79.76,89.12,0.0,1.0,0.0,0.0,-9.36,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,6,False,False,False,True,,0.0
+2017,6,Ginger FC,Hello Harvard,121.7,88.48,1.0,0.0,0.0,1.0,33.22,11,0,0,1.0,0.0,1,True,False,8,False,False,False,False,,
+2017,6,Little Red Fournette,Big Sack Jack,100.64,108.7,0.0,1.0,0.0,0.0,-8.060000000000002,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,2,True,False,False,True,,0.0
+2017,6,Malle ❤️ 🐸,Pop Lockett Drop it,82.78,89.52,0.0,1.0,0.0,0.0,-6.739999999999995,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,7,False,False,False,True,,0.0
+2017,6,The Big Gronkowski,PickUpYourBratsMalle,72.98,105.74,0.0,1.0,0.0,0.0,-32.75999999999999,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,5,False,False,False,False,,
+2017,6,Ur The Best Bellows,malle_dips_pouches,75.34,105.84,0.0,1.0,0.0,0.0,-30.5,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,4,False,False,False,False,,
+2017,6,Voldemort,Dillon Panthers,107.38,60.32,1.0,0.0,0.0,1.0,47.059999999999995,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,12,False,True,False,False,,
+2017,6,Hello Harvard,Ginger FC,88.48,121.7,0.0,1.0,0.0,0.0,-33.22,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,1,True,False,False,False,,
+2017,6,Big Sack Jack,Little Red Fournette,108.7,100.64,1.0,0.0,0.0,1.0,8.060000000000002,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,6,False,False,False,True,,1.0
+2017,6,Pop Lockett Drop it,Malle ❤️ 🐸,89.52,82.78,1.0,0.0,0.0,1.0,6.739999999999995,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,9,False,False,False,True,,1.0
+2017,6,PickUpYourBratsMalle,The Big Gronkowski,105.74,72.98,1.0,0.0,0.0,1.0,32.75999999999999,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,11,False,True,False,False,,
+2017,6,malle_dips_pouches,Ur The Best Bellows,105.84,75.34,1.0,0.0,0.0,1.0,30.5,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,10,False,True,False,False,,
+2017,6,Dillon Panthers,Voldemort,60.32,107.38,0.0,1.0,0.0,0.0,-47.059999999999995,0,11,0,0.0,0.0,12,False,True,3,True,False,False,False,,
+2017,7,Ginger FC,Big Sack Jack,67.42,132.32,0.0,1.0,0.0,0.0,-64.89999999999999,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,1,True,False,False,False,,
+2017,7,Hello Harvard,malle_dips_pouches,81.8,94.48,0.0,1.0,0.0,0.0,-12.680000000000007,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,7,False,False,False,False,,
+2017,7,Little Red Fournette,The Big Gronkowski,108.54,98.46,1.0,0.0,0.0,1.0,10.080000000000013,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,5,False,False,False,False,,
+2017,7,Malle ❤️ 🐸,PickUpYourBratsMalle,114.42,79.56,1.0,0.0,0.0,1.0,34.86,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,9,False,False,False,False,,
+2017,7,Ur The Best Bellows,Dillon Panthers,60.26,77.54,0.0,1.0,0.0,0.0,-17.28000000000001,0,11,0,0.0,0.0,12,False,True,10,False,True,False,False,,
+2017,7,Voldemort,Pop Lockett Drop it,98.06,98.72,0.0,1.0,0.0,0.0,-0.6599999999999966,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,4,False,False,True,True,0.0,0.0
+2017,7,Big Sack Jack,Ginger FC,132.32,67.42,1.0,0.0,0.0,1.0,64.89999999999999,11,0,0,1.0,0.0,1,True,False,11,False,True,False,False,,
+2017,7,malle_dips_pouches,Hello Harvard,94.48,81.8,1.0,0.0,0.0,1.0,12.680000000000007,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,8,False,False,False,False,,
+2017,7,The Big Gronkowski,Little Red Fournette,98.46,108.54,0.0,1.0,0.0,0.0,-10.080000000000013,7,4,0,0.6363636363636364,-0.6363636363636364,5,False,False,3,True,False,False,False,,
+2017,7,PickUpYourBratsMalle,Malle ❤️ 🐸,79.56,114.42,0.0,1.0,0.0,0.0,-34.86,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,2,True,False,False,False,,
+2017,7,Dillon Panthers,Ur The Best Bellows,77.54,60.26,1.0,0.0,0.0,1.0,17.28000000000001,2,9,0,0.18181818181818182,0.8181818181818181,10,False,True,12,False,True,False,False,,
+2017,7,Pop Lockett Drop it,Voldemort,98.72,98.06,1.0,0.0,0.0,1.0,0.6599999999999966,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,6,False,False,True,True,1.0,1.0
+2017,8,Dillon Panthers,malle_dips_pouches,64.16,76.22,0.0,1.0,0.0,0.0,-12.060000000000002,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,9,False,False,False,False,,
+2017,8,Hello Harvard,Big Sack Jack,83.92,62.82,1.0,0.0,0.0,1.0,21.1,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,11,False,True,False,False,,
+2017,8,Little Red Fournette,Malle ❤️ 🐸,81.16,96.44,0.0,1.0,0.0,0.0,-15.280000000000001,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,4,False,False,False,False,,
+2017,8,The Big Gronkowski,Ginger FC,89.58,125.78,0.0,1.0,0.0,0.0,-36.2,7,4,0,0.6363636363636364,-0.6363636363636364,5,False,False,2,True,False,False,False,,
+2017,8,Ur The Best Bellows,Pop Lockett Drop it,61.9,86.96,0.0,1.0,0.0,0.0,-25.059999999999995,0,11,0,0.0,0.0,12,False,True,6,False,False,False,False,,
+2017,8,Voldemort,PickUpYourBratsMalle,126.62,113.12,1.0,0.0,0.0,1.0,13.5,11,0,0,1.0,0.0,1,True,False,3,True,False,False,False,,
+2017,8,malle_dips_pouches,Dillon Panthers,76.22,64.16,1.0,0.0,0.0,1.0,12.060000000000002,3,8,0,0.2727272727272727,0.7272727272727273,9,False,False,10,False,True,False,False,,
+2017,8,Big Sack Jack,Hello Harvard,62.82,83.92,0.0,1.0,0.0,0.0,-21.1,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,7,False,False,False,False,,
+2017,8,Malle ❤️ 🐸,Little Red Fournette,96.44,81.16,1.0,0.0,0.0,1.0,15.280000000000001,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,8,False,False,False,False,,
+2017,8,Ginger FC,The Big Gronkowski,125.78,89.58,1.0,0.0,0.0,1.0,36.2,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,5,False,False,False,False,,
+2017,8,Pop Lockett Drop it,Ur The Best Bellows,86.96,61.9,1.0,0.0,0.0,1.0,25.059999999999995,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,12,False,True,False,False,,
+2017,8,PickUpYourBratsMalle,Voldemort,113.12,126.62,0.0,1.0,0.0,0.0,-13.5,9,2,0,0.8181818181818182,-0.8181818181818182,3,True,False,1,True,False,False,False,,
+2017,9,Big Sack Jack,malle_dips_pouches,73.98,90.3,0.0,1.0,0.0,0.0,-16.319999999999993,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,4,False,False,False,False,,
+2017,9,Dillon Panthers,Pop Lockett Drop it,89.58,107.52,0.0,1.0,0.0,0.0,-17.939999999999998,7,4,0,0.6363636363636364,-0.6363636363636364,5,False,False,1,True,False,False,False,,
+2017,9,Little Red Fournette,Voldemort,83.92,98.54,0.0,1.0,0.0,0.0,-14.620000000000005,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,2,True,False,False,False,,
+2017,9,Malle ❤️ 🐸,Ginger FC,68.86,85.72,0.0,1.0,0.0,0.0,-16.86,0,11,0,0.0,0.0,12,False,True,7,False,False,False,False,,
+2017,9,The Big Gronkowski,Hello Harvard,78.14,87.84,0.0,1.0,0.0,0.0,-9.700000000000003,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,6,False,False,False,True,,0.0
+2017,9,Ur The Best Bellows,PickUpYourBratsMalle,95.28,70.96,1.0,0.0,0.0,1.0,24.320000000000007,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,11,False,True,False,False,,
+2017,9,malle_dips_pouches,Big Sack Jack,90.3,73.98,1.0,0.0,0.0,1.0,16.319999999999993,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,10,False,True,False,False,,
+2017,9,Pop Lockett Drop it,Dillon Panthers,107.52,89.58,1.0,0.0,0.0,1.0,17.939999999999998,11,0,0,1.0,0.0,1,True,False,5,False,False,False,False,,
+2017,9,Voldemort,Little Red Fournette,98.54,83.92,1.0,0.0,0.0,1.0,14.620000000000005,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,8,False,False,False,False,,
+2017,9,Ginger FC,Malle ❤️ 🐸,85.72,68.86,1.0,0.0,0.0,1.0,16.86,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,12,False,True,False,False,,
+2017,9,Hello Harvard,The Big Gronkowski,87.84,78.14,1.0,0.0,0.0,1.0,9.700000000000003,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,9,False,False,False,True,,1.0
+2017,9,PickUpYourBratsMalle,Ur The Best Bellows,70.96,95.28,0.0,1.0,0.0,0.0,-24.320000000000007,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,3,True,False,False,False,,
+2017,10,Dillon Panthers,PickUpYourBratsMalle,110.66,60.34,1.0,0.0,0.0,1.0,50.31999999999999,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,10,False,True,False,False,,
+2017,10,Little Red Fournette,Ur The Best Bellows,95.56,60.0,1.0,0.0,0.0,1.0,35.56,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,11,False,True,False,False,,
+2017,10,Malle ❤️ 🐸,Hello Harvard,55.72,119.86,0.0,1.0,0.0,0.0,-64.14,0,11,0,0.0,0.0,12,False,True,1,True,False,False,False,,
+2017,10,Pop Lockett Drop it,malle_dips_pouches,66.5,65.74,1.0,0.0,0.0,1.0,0.7600000000000051,4,7,0,0.36363636363636365,0.6363636363636364,8,False,False,9,False,False,True,True,1.0,1.0
+2017,10,The Big Gronkowski,Big Sack Jack,110.94,98.78,1.0,0.0,0.0,1.0,12.159999999999997,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,4,False,False,False,False,,
+2017,10,Voldemort,Ginger FC,82.44,95.86,0.0,1.0,0.0,0.0,-13.420000000000002,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,5,False,False,False,False,,
+2017,10,PickUpYourBratsMalle,Dillon Panthers,60.34,110.66,0.0,1.0,0.0,0.0,-50.31999999999999,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,3,True,False,False,False,,
+2017,10,Ur The Best Bellows,Little Red Fournette,60.0,95.56,0.0,1.0,0.0,0.0,-35.56,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,6,False,False,False,False,,
+2017,10,Hello Harvard,Malle ❤️ 🐸,119.86,55.72,1.0,0.0,0.0,1.0,64.14,11,0,0,1.0,0.0,1,True,False,12,False,True,False,False,,
+2017,10,malle_dips_pouches,Pop Lockett Drop it,65.74,66.5,0.0,1.0,0.0,0.0,-0.7600000000000051,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,8,False,False,True,True,0.0,0.0
+2017,10,Big Sack Jack,The Big Gronkowski,98.78,110.94,0.0,1.0,0.0,0.0,-12.159999999999997,8,3,0,0.7272727272727273,-0.7272727272727273,4,False,False,2,True,False,False,False,,
+2017,10,Ginger FC,Voldemort,95.86,82.44,1.0,0.0,0.0,1.0,13.420000000000002,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,7,False,False,False,False,,
+2017,11,Little Red Fournette,Dillon Panthers,117.9,59.16,1.0,0.0,0.0,1.0,58.74000000000001,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,11,False,True,False,False,,
+2017,11,Malle ❤️ 🐸,Big Sack Jack,94.52,122.68,0.0,1.0,0.0,0.0,-28.16000000000001,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,2,True,False,False,False,,
+2017,11,Pop Lockett Drop it,PickUpYourBratsMalle,91.6,112.6,0.0,1.0,0.0,0.0,-21.0,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,5,False,False,False,False,,
+2017,11,The Big Gronkowski,malle_dips_pouches,126.06,116.38,1.0,0.0,0.0,1.0,9.680000000000007,11,0,0,1.0,0.0,1,True,False,4,False,False,False,True,,1.0
+2017,11,Ur The Best Bellows,Ginger FC,43.9,96.94,0.0,1.0,0.0,0.0,-53.04,0,11,0,0.0,0.0,12,False,True,8,False,False,False,False,,
+2017,11,Voldemort,Hello Harvard,97.3,101.56,0.0,1.0,0.0,0.0,-4.260000000000005,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,6,False,False,True,True,0.0,0.0
+2017,11,Dillon Panthers,Little Red Fournette,59.16,117.9,0.0,1.0,0.0,0.0,-58.74000000000001,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,3,True,False,False,False,,
+2017,11,Big Sack Jack,Malle ❤️ 🐸,122.68,94.52,1.0,0.0,0.0,1.0,28.16000000000001,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,9,False,False,False,False,,
+2017,11,PickUpYourBratsMalle,Pop Lockett Drop it,112.6,91.6,1.0,0.0,0.0,1.0,21.0,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,10,False,True,False,False,,
+2017,11,malle_dips_pouches,The Big Gronkowski,116.38,126.06,0.0,1.0,0.0,0.0,-9.680000000000007,8,3,0,0.7272727272727273,-0.7272727272727273,4,False,False,1,True,False,False,True,,0.0
+2017,11,Ginger FC,Ur The Best Bellows,96.94,43.9,1.0,0.0,0.0,1.0,53.04,4,7,0,0.36363636363636365,0.6363636363636364,8,False,False,12,False,True,False,False,,
+2017,11,Hello Harvard,Voldemort,101.56,97.3,1.0,0.0,0.0,1.0,4.260000000000005,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,7,False,False,True,True,1.0,1.0
+2017,12,Dillon Panthers,Ginger FC,80.8,81.56,0.0,1.0,0.0,0.0,-0.7600000000000051,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,7,False,False,True,True,0.0,0.0
+2017,12,Little Red Fournette,Pop Lockett Drop it,76.24,88.18,0.0,1.0,0.0,0.0,-11.940000000000012,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,6,False,False,False,False,,
+2017,12,PickUpYourBratsMalle,malle_dips_pouches,103.76,152.72,0.0,1.0,0.0,0.0,-48.959999999999994,9,2,0,0.8181818181818182,-0.8181818181818182,3,True,False,1,True,False,False,False,,
+2017,12,The Big Gronkowski,Malle ❤️ 🐸,122.64,77.92,1.0,0.0,0.0,1.0,44.72,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,9,False,False,False,False,,
+2017,12,Ur The Best Bellows,Hello Harvard,65.0,60.7,1.0,0.0,0.0,1.0,4.299999999999997,1,10,0,0.09090909090909091,0.9090909090909091,11,False,True,12,False,True,True,True,1.0,1.0
+2017,12,Voldemort,Big Sack Jack,91.48,99.28,0.0,1.0,0.0,0.0,-7.799999999999997,7,4,0,0.6363636363636364,-0.6363636363636364,5,False,False,4,False,False,False,True,,0.0
+2017,12,Ginger FC,Dillon Panthers,81.56,80.8,1.0,0.0,0.0,1.0,0.7600000000000051,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,8,False,False,True,True,1.0,1.0
+2017,12,Pop Lockett Drop it,Little Red Fournette,88.18,76.24,1.0,0.0,0.0,1.0,11.940000000000012,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,10,False,True,False,False,,
+2017,12,malle_dips_pouches,PickUpYourBratsMalle,152.72,103.76,1.0,0.0,0.0,1.0,48.959999999999994,11,0,0,1.0,0.0,1,True,False,3,True,False,False,False,,
+2017,12,Malle ❤️ 🐸,The Big Gronkowski,77.92,122.64,0.0,1.0,0.0,0.0,-44.72,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,2,True,False,False,False,,
+2017,12,Hello Harvard,Ur The Best Bellows,60.7,65.0,0.0,1.0,0.0,0.0,-4.299999999999997,0,11,0,0.0,0.0,12,False,True,11,False,True,True,True,0.0,0.0
+2017,12,Big Sack Jack,Voldemort,99.28,91.48,1.0,0.0,0.0,1.0,7.799999999999997,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,5,False,False,False,True,,1.0
+2017,13,Dillon Panthers,Hello Harvard,130.86,69.48,1.0,0.0,0.0,1.0,61.38000000000001,11,0,0,1.0,0.0,1,True,False,11,False,True,False,False,,
+2017,13,Little Red Fournette,PickUpYourBratsMalle,100.96,97.58,1.0,0.0,0.0,1.0,3.3799999999999955,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,5,False,False,True,True,1.0,1.0
+2017,13,Malle ❤️ 🐸,malle_dips_pouches,67.98,87.58,0.0,1.0,0.0,0.0,-19.599999999999994,0,11,0,0.0,0.0,12,False,True,8,False,False,False,False,,
+2017,13,Pop Lockett Drop it,Ginger FC,85.92,103.18,0.0,1.0,0.0,0.0,-17.260000000000005,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,2,True,False,False,False,,
+2017,13,The Big Gronkowski,Voldemort,92.2,94.12,0.0,1.0,0.0,0.0,-1.9200000000000017,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,6,False,False,True,True,0.0,0.0
+2017,13,Ur The Best Bellows,Big Sack Jack,69.7,102.56,0.0,1.0,0.0,0.0,-32.86,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,3,True,False,False,False,,
+2017,13,Hello Harvard,Dillon Panthers,69.48,130.86,0.0,1.0,0.0,0.0,-61.38000000000001,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,1,True,False,False,False,,
+2017,13,PickUpYourBratsMalle,Little Red Fournette,97.58,100.96,0.0,1.0,0.0,0.0,-3.3799999999999955,7,4,0,0.6363636363636364,-0.6363636363636364,5,False,False,4,False,False,True,True,0.0,0.0
+2017,13,malle_dips_pouches,Malle ❤️ 🐸,87.58,67.98,1.0,0.0,0.0,1.0,19.599999999999994,4,7,0,0.36363636363636365,0.6363636363636364,8,False,False,12,False,True,False,False,,
+2017,13,Ginger FC,Pop Lockett Drop it,103.18,85.92,1.0,0.0,0.0,1.0,17.260000000000005,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,9,False,False,False,False,,
+2017,13,Voldemort,The Big Gronkowski,94.12,92.2,1.0,0.0,0.0,1.0,1.9200000000000017,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,7,False,False,True,True,1.0,1.0
+2017,13,Big Sack Jack,Ur The Best Bellows,102.56,69.7,1.0,0.0,0.0,1.0,32.86,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,10,False,True,False,False,,
 2018,1,Dillon Panthers,Ginger FC,122.46,127.62,0.0,1.0,0.0,0.0,-5.160000000000011,9,2,0,0.8181818181818182,-0.8181818181818182,3,True,False,1,True,False,False,True,,0.0
-2018,1,Uncle Rico,Joe Mantegna,101.54,88.84,1.0,0.0,0.0,1.0,12.700000000000003,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,9,False,False,False,False,,
-2018,1,The Big Gronkowski,Malle ❤️ 🐸,83.66,79.84,1.0,0.0,0.0,1.0,3.819999999999993,2,9,0,0.18181818181818182,0.8181818181818181,10,False,True,12,False,True,True,True,1.0,1.0
 2018,1,PickUpYourBratsMalle,Post Mahomes,98.66,122.36,0.0,1.0,0.0,0.0,-23.700000000000003,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,4,False,False,False,False,,
 2018,1,Pop Lockett Drop it,malle_dips_pouches,80.14,98.42,0.0,1.0,0.0,0.0,-18.28,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,8,False,False,False,False,,
-2018,1,Big Sack Jack,Voldemort,123.04,121.58,1.0,0.0,0.0,1.0,1.460000000000008,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,5,False,False,True,True,1.0,1.0
+2018,1,The Big Gronkowski,Malle ❤️ 🐸,83.66,79.84,1.0,0.0,0.0,1.0,3.819999999999993,2,9,0,0.18181818181818182,0.8181818181818181,10,False,True,12,False,True,True,True,1.0,1.0
+2018,1,Uncle Rico,Joe Mantegna,101.54,88.84,1.0,0.0,0.0,1.0,12.700000000000003,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,9,False,False,False,False,,
+2018,1,Voldemort,Big Sack Jack,121.58,123.04,0.0,1.0,0.0,0.0,-1.460000000000008,7,4,0,0.6363636363636364,-0.6363636363636364,5,False,False,2,True,False,True,True,0.0,0.0
 2018,1,Ginger FC,Dillon Panthers,127.62,122.46,1.0,0.0,0.0,1.0,5.160000000000011,11,0,0,1.0,0.0,1,True,False,3,True,False,False,True,,1.0
-2018,1,Joe Mantegna,Uncle Rico,88.84,101.54,0.0,1.0,0.0,0.0,-12.700000000000003,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,6,False,False,False,False,,
-2018,1,Malle ❤️ 🐸,The Big Gronkowski,79.84,83.66,0.0,1.0,0.0,0.0,-3.819999999999993,0,11,0,0.0,0.0,12,False,True,10,False,True,True,True,0.0,0.0
 2018,1,Post Mahomes,PickUpYourBratsMalle,122.36,98.66,1.0,0.0,0.0,1.0,23.700000000000003,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,7,False,False,False,False,,
 2018,1,malle_dips_pouches,Pop Lockett Drop it,98.42,80.14,1.0,0.0,0.0,1.0,18.28,4,7,0,0.36363636363636365,0.6363636363636364,8,False,False,11,False,True,False,False,,
+2018,1,Malle ❤️ 🐸,The Big Gronkowski,79.84,83.66,0.0,1.0,0.0,0.0,-3.819999999999993,0,11,0,0.0,0.0,12,False,True,10,False,True,True,True,0.0,0.0
+2018,1,Joe Mantegna,Uncle Rico,88.84,101.54,0.0,1.0,0.0,0.0,-12.700000000000003,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,6,False,False,False,False,,
+2018,1,Big Sack Jack,Voldemort,123.04,121.58,1.0,0.0,0.0,1.0,1.460000000000008,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,5,False,False,True,True,1.0,1.0
 2018,2,Joe Mantegna,Big Sack Jack,97.6,107.4,0.0,1.0,0.0,0.0,-9.800000000000011,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,2,True,False,False,True,,0.0
-2018,2,Uncle Rico,Dillon Panthers,98.54,100.02,0.0,1.0,0.0,0.0,-1.4799999999999898,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,6,False,False,True,True,0.0,0.0
-2018,2,PickUpYourBratsMalle,Ginger FC,127.1,83.04,1.0,0.0,0.0,1.0,44.05999999999999,11,0,0,1.0,0.0,1,True,False,12,False,True,False,False,,
 2018,2,Malle ❤️ 🐸,malle_dips_pouches,97.8,102.26,0.0,1.0,0.0,0.0,-4.460000000000008,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,4,False,False,True,True,0.0,0.0
+2018,2,PickUpYourBratsMalle,Ginger FC,127.1,83.04,1.0,0.0,0.0,1.0,44.05999999999999,11,0,0,1.0,0.0,1,True,False,12,False,True,False,False,,
 2018,2,Pop Lockett Drop it,Post Mahomes,101.08,98.56,1.0,0.0,0.0,1.0,2.519999999999996,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,7,False,False,True,True,1.0,1.0
 2018,2,The Big Gronkowski,Voldemort,94.74,103.96,0.0,1.0,0.0,0.0,-9.219999999999999,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,3,True,False,False,True,,0.0
+2018,2,Uncle Rico,Dillon Panthers,98.54,100.02,0.0,1.0,0.0,0.0,-1.4799999999999898,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,6,False,False,True,True,0.0,0.0
 2018,2,Big Sack Jack,Joe Mantegna,107.4,97.6,1.0,0.0,0.0,1.0,9.800000000000011,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,10,False,True,False,True,,1.0
-2018,2,Dillon Panthers,Uncle Rico,100.02,98.54,1.0,0.0,0.0,1.0,1.4799999999999898,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,8,False,False,True,True,1.0,1.0
-2018,2,Ginger FC,PickUpYourBratsMalle,83.04,127.1,0.0,1.0,0.0,0.0,-44.05999999999999,0,11,0,0.0,0.0,12,False,True,1,True,False,False,False,,
 2018,2,malle_dips_pouches,Malle ❤️ 🐸,102.26,97.8,1.0,0.0,0.0,1.0,4.460000000000008,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,9,False,False,True,True,1.0,1.0
+2018,2,Ginger FC,PickUpYourBratsMalle,83.04,127.1,0.0,1.0,0.0,0.0,-44.05999999999999,0,11,0,0.0,0.0,12,False,True,1,True,False,False,False,,
 2018,2,Post Mahomes,Pop Lockett Drop it,98.56,101.08,0.0,1.0,0.0,0.0,-2.519999999999996,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,5,False,False,True,True,0.0,0.0
 2018,2,Voldemort,The Big Gronkowski,103.96,94.74,1.0,0.0,0.0,1.0,9.219999999999999,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,11,False,True,False,True,,1.0
+2018,2,Dillon Panthers,Uncle Rico,100.02,98.54,1.0,0.0,0.0,1.0,1.4799999999999898,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,8,False,False,True,True,1.0,1.0
 2018,3,Dillon Panthers,Big Sack Jack,120.84,106.58,1.0,0.0,0.0,1.0,14.260000000000005,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,4,False,False,False,False,,
-2018,3,Pop Lockett Drop it,Ginger FC,127.26,56.9,1.0,0.0,0.0,1.0,70.36000000000001,11,0,0,1.0,0.0,1,True,False,12,False,True,False,False,,
-2018,3,The Big Gronkowski,Joe Mantegna,87.74,108.16,0.0,1.0,0.0,0.0,-20.42,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,3,True,False,False,False,,
 2018,3,Malle ❤️ 🐸,Voldemort,96.5,82.22,1.0,0.0,0.0,1.0,14.280000000000001,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,10,False,True,False,False,,
-2018,3,Uncle Rico,PickUpYourBratsMalle,86.6,98.84,0.0,1.0,0.0,0.0,-12.240000000000009,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,5,False,False,False,False,,
+2018,3,Pop Lockett Drop it,Ginger FC,127.26,56.9,1.0,0.0,0.0,1.0,70.36000000000001,11,0,0,1.0,0.0,1,True,False,12,False,True,False,False,,
 2018,3,Post Mahomes,malle_dips_pouches,72.76,93.16,0.0,1.0,0.0,0.0,-20.39999999999999,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,7,False,False,False,False,,
+2018,3,The Big Gronkowski,Joe Mantegna,87.74,108.16,0.0,1.0,0.0,0.0,-20.42,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,3,True,False,False,False,,
+2018,3,Uncle Rico,PickUpYourBratsMalle,86.6,98.84,0.0,1.0,0.0,0.0,-12.240000000000009,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,5,False,False,False,False,,
 2018,3,Big Sack Jack,Dillon Panthers,106.58,120.84,0.0,1.0,0.0,0.0,-14.260000000000005,8,3,0,0.7272727272727273,-0.7272727272727273,4,False,False,2,True,False,False,False,,
-2018,3,Ginger FC,Pop Lockett Drop it,56.9,127.26,0.0,1.0,0.0,0.0,-70.36000000000001,0,11,0,0.0,0.0,12,False,True,1,True,False,False,False,,
-2018,3,Joe Mantegna,The Big Gronkowski,108.16,87.74,1.0,0.0,0.0,1.0,20.42,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,8,False,False,False,False,,
 2018,3,Voldemort,Malle ❤️ 🐸,82.22,96.5,0.0,1.0,0.0,0.0,-14.280000000000001,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,6,False,False,False,False,,
-2018,3,PickUpYourBratsMalle,Uncle Rico,98.84,86.6,1.0,0.0,0.0,1.0,12.240000000000009,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,9,False,False,False,False,,
+2018,3,Ginger FC,Pop Lockett Drop it,56.9,127.26,0.0,1.0,0.0,0.0,-70.36000000000001,0,11,0,0.0,0.0,12,False,True,1,True,False,False,False,,
 2018,3,malle_dips_pouches,Post Mahomes,93.16,72.76,1.0,0.0,0.0,1.0,20.39999999999999,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,11,False,True,False,False,,
-2018,4,PickUpYourBratsMalle,Big Sack Jack,154.38,130.98,1.0,0.0,0.0,1.0,23.400000000000006,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,5,False,False,False,False,,
-2018,4,The Big Gronkowski,Dillon Panthers,98.5,93.18,1.0,0.0,0.0,1.0,5.319999999999993,4,7,0,0.36363636363636365,0.6363636363636364,8,False,False,9,False,False,False,True,,1.0
-2018,4,Post Mahomes,Ginger FC,152.36,110.52,1.0,0.0,0.0,1.0,41.84000000000002,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,7,False,False,False,False,,
+2018,3,Joe Mantegna,The Big Gronkowski,108.16,87.74,1.0,0.0,0.0,1.0,20.42,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,8,False,False,False,False,,
+2018,3,PickUpYourBratsMalle,Uncle Rico,98.84,86.6,1.0,0.0,0.0,1.0,12.240000000000009,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,9,False,False,False,False,,
 2018,4,Malle ❤️ 🐸,Joe Mantegna,77.46,131.56,0.0,1.0,0.0,0.0,-54.10000000000001,0,11,0,0.0,0.0,12,False,True,4,False,False,False,False,,
+2018,4,PickUpYourBratsMalle,Big Sack Jack,154.38,130.98,1.0,0.0,0.0,1.0,23.400000000000006,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,5,False,False,False,False,,
+2018,4,Post Mahomes,Ginger FC,152.36,110.52,1.0,0.0,0.0,1.0,41.84000000000002,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,7,False,False,False,False,,
+2018,4,The Big Gronkowski,Dillon Panthers,98.5,93.18,1.0,0.0,0.0,1.0,5.319999999999993,4,7,0,0.36363636363636365,0.6363636363636364,8,False,False,9,False,False,False,True,,1.0
 2018,4,Uncle Rico,Pop Lockett Drop it,84.62,158.96,0.0,1.0,0.0,0.0,-74.34,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,1,True,False,False,False,,
 2018,4,Voldemort,malle_dips_pouches,93.16,112.2,0.0,1.0,0.0,0.0,-19.040000000000006,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,6,False,False,False,False,,
-2018,4,Big Sack Jack,PickUpYourBratsMalle,130.98,154.38,0.0,1.0,0.0,0.0,-23.400000000000006,7,4,0,0.6363636363636364,-0.6363636363636364,5,False,False,2,True,False,False,False,,
-2018,4,Dillon Panthers,The Big Gronkowski,93.18,98.5,0.0,1.0,0.0,0.0,-5.319999999999993,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,8,False,False,False,True,,0.0
-2018,4,Ginger FC,Post Mahomes,110.52,152.36,0.0,1.0,0.0,0.0,-41.84000000000002,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,3,True,False,False,False,,
 2018,4,Joe Mantegna,Malle ❤️ 🐸,131.56,77.46,1.0,0.0,0.0,1.0,54.10000000000001,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,12,False,True,False,False,,
+2018,4,Big Sack Jack,PickUpYourBratsMalle,130.98,154.38,0.0,1.0,0.0,0.0,-23.400000000000006,7,4,0,0.6363636363636364,-0.6363636363636364,5,False,False,2,True,False,False,False,,
+2018,4,Ginger FC,Post Mahomes,110.52,152.36,0.0,1.0,0.0,0.0,-41.84000000000002,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,3,True,False,False,False,,
+2018,4,Dillon Panthers,The Big Gronkowski,93.18,98.5,0.0,1.0,0.0,0.0,-5.319999999999993,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,8,False,False,False,True,,0.0
 2018,4,Pop Lockett Drop it,Uncle Rico,158.96,84.62,1.0,0.0,0.0,1.0,74.34,11,0,0,1.0,0.0,1,True,False,11,False,True,False,False,,
 2018,4,malle_dips_pouches,Voldemort,112.2,93.16,1.0,0.0,0.0,1.0,19.040000000000006,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,10,False,True,False,False,,
-2018,5,Pop Lockett Drop it,Big Sack Jack,100.88,102.22,0.0,1.0,0.0,0.0,-1.3400000000000034,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,4,False,False,True,True,0.0,0.0
-2018,5,Malle ❤️ 🐸,Dillon Panthers,100.6,108.52,0.0,1.0,0.0,0.0,-7.920000000000002,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,3,True,False,False,True,,0.0
 2018,5,Ginger FC,malle_dips_pouches,88.24,95.54,0.0,1.0,0.0,0.0,-7.300000000000011,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,8,False,False,False,True,,0.0
-2018,5,Voldemort,Joe Mantegna,122.04,100.92,1.0,0.0,0.0,1.0,21.120000000000005,11,0,0,1.0,0.0,1,True,False,5,False,False,False,False,,
+2018,5,Malle ❤️ 🐸,Dillon Panthers,100.6,108.52,0.0,1.0,0.0,0.0,-7.920000000000002,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,3,True,False,False,True,,0.0
+2018,5,Pop Lockett Drop it,Big Sack Jack,100.88,102.22,0.0,1.0,0.0,0.0,-1.3400000000000034,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,4,False,False,True,True,0.0,0.0
 2018,5,The Big Gronkowski,PickUpYourBratsMalle,93.86,86.94,1.0,0.0,0.0,1.0,6.920000000000002,2,9,0,0.18181818181818182,0.8181818181818181,10,False,True,12,False,True,False,True,,1.0
 2018,5,Uncle Rico,Post Mahomes,94.98,114.6,0.0,1.0,0.0,0.0,-19.61999999999999,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,2,True,False,False,False,,
-2018,5,Big Sack Jack,Pop Lockett Drop it,102.22,100.88,1.0,0.0,0.0,1.0,1.3400000000000034,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,6,False,False,True,True,1.0,1.0
-2018,5,Dillon Panthers,Malle ❤️ 🐸,108.52,100.6,1.0,0.0,0.0,1.0,7.920000000000002,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,7,False,False,False,True,,1.0
+2018,5,Voldemort,Joe Mantegna,122.04,100.92,1.0,0.0,0.0,1.0,21.120000000000005,11,0,0,1.0,0.0,1,True,False,5,False,False,False,False,,
 2018,5,malle_dips_pouches,Ginger FC,95.54,88.24,1.0,0.0,0.0,1.0,7.300000000000011,4,7,0,0.36363636363636365,0.6363636363636364,8,False,False,11,False,True,False,True,,1.0
-2018,5,Joe Mantegna,Voldemort,100.92,122.04,0.0,1.0,0.0,0.0,-21.120000000000005,7,4,0,0.6363636363636364,-0.6363636363636364,5,False,False,1,True,False,False,False,,
+2018,5,Dillon Panthers,Malle ❤️ 🐸,108.52,100.6,1.0,0.0,0.0,1.0,7.920000000000002,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,7,False,False,False,True,,1.0
+2018,5,Big Sack Jack,Pop Lockett Drop it,102.22,100.88,1.0,0.0,0.0,1.0,1.3400000000000034,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,6,False,False,True,True,1.0,1.0
 2018,5,PickUpYourBratsMalle,The Big Gronkowski,86.94,93.86,0.0,1.0,0.0,0.0,-6.920000000000002,0,11,0,0.0,0.0,12,False,True,10,False,True,False,True,,0.0
 2018,5,Post Mahomes,Uncle Rico,114.6,94.98,1.0,0.0,0.0,1.0,19.61999999999999,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,9,False,False,False,False,,
-2018,6,Post Mahomes,Big Sack Jack,118.9,122.68,0.0,1.0,0.0,0.0,-3.780000000000001,8,3,0,0.7272727272727273,-0.7272727272727273,4,False,False,3,True,False,True,True,0.0,0.0
-2018,6,Voldemort,Dillon Panthers,95.7,106.52,0.0,1.0,0.0,0.0,-10.819999999999993,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,6,False,False,False,False,,
-2018,6,Uncle Rico,Ginger FC,124.1,81.08,1.0,0.0,0.0,1.0,43.019999999999996,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,11,False,True,False,False,,
+2018,5,Joe Mantegna,Voldemort,100.92,122.04,0.0,1.0,0.0,0.0,-21.120000000000005,7,4,0,0.6363636363636364,-0.6363636363636364,5,False,False,1,True,False,False,False,,
 2018,6,Joe Mantegna,malle_dips_pouches,116.08,70.24,1.0,0.0,0.0,1.0,45.84,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,12,False,True,False,False,,
 2018,6,Malle ❤️ 🐸,PickUpYourBratsMalle,95.06,92.92,1.0,0.0,0.0,1.0,2.1400000000000006,4,7,0,0.36363636363636365,0.6363636363636364,8,False,False,9,False,False,True,True,1.0,1.0
+2018,6,Post Mahomes,Big Sack Jack,118.9,122.68,0.0,1.0,0.0,0.0,-3.780000000000001,8,3,0,0.7272727272727273,-0.7272727272727273,4,False,False,3,True,False,True,True,0.0,0.0
 2018,6,The Big Gronkowski,Pop Lockett Drop it,88.58,125.6,0.0,1.0,0.0,0.0,-37.019999999999996,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,1,True,False,False,False,,
-2018,6,Big Sack Jack,Post Mahomes,122.68,118.9,1.0,0.0,0.0,1.0,3.780000000000001,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,4,False,False,True,True,1.0,1.0
-2018,6,Dillon Panthers,Voldemort,106.52,95.7,1.0,0.0,0.0,1.0,10.819999999999993,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,7,False,False,False,False,,
-2018,6,Ginger FC,Uncle Rico,81.08,124.1,0.0,1.0,0.0,0.0,-43.019999999999996,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,2,True,False,False,False,,
+2018,6,Uncle Rico,Ginger FC,124.1,81.08,1.0,0.0,0.0,1.0,43.019999999999996,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,11,False,True,False,False,,
+2018,6,Voldemort,Dillon Panthers,95.7,106.52,0.0,1.0,0.0,0.0,-10.819999999999993,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,6,False,False,False,False,,
 2018,6,malle_dips_pouches,Joe Mantegna,70.24,116.08,0.0,1.0,0.0,0.0,-45.84,0,11,0,0.0,0.0,12,False,True,5,False,False,False,False,,
 2018,6,PickUpYourBratsMalle,Malle ❤️ 🐸,92.92,95.06,0.0,1.0,0.0,0.0,-2.1400000000000006,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,8,False,False,True,True,0.0,0.0
+2018,6,Big Sack Jack,Post Mahomes,122.68,118.9,1.0,0.0,0.0,1.0,3.780000000000001,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,4,False,False,True,True,1.0,1.0
 2018,6,Pop Lockett Drop it,The Big Gronkowski,125.6,88.58,1.0,0.0,0.0,1.0,37.019999999999996,11,0,0,1.0,0.0,1,True,False,10,False,True,False,False,,
+2018,6,Ginger FC,Uncle Rico,81.08,124.1,0.0,1.0,0.0,0.0,-43.019999999999996,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,2,True,False,False,False,,
+2018,6,Dillon Panthers,Voldemort,106.52,95.7,1.0,0.0,0.0,1.0,10.819999999999993,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,7,False,False,False,False,,
 2018,7,Ginger FC,Big Sack Jack,80.1,111.78,0.0,1.0,0.0,0.0,-31.680000000000007,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,3,True,False,False,False,,
 2018,7,Joe Mantegna,Dillon Panthers,101.32,104.6,0.0,1.0,0.0,0.0,-3.280000000000001,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,6,False,False,True,True,0.0,0.0
 2018,7,Malle ❤️ 🐸,Pop Lockett Drop it,107.34,142.86,0.0,1.0,0.0,0.0,-35.52000000000001,7,4,0,0.6363636363636364,-0.6363636363636364,5,False,False,1,True,False,False,False,,
-2018,7,Voldemort,PickUpYourBratsMalle,111.38,119.34,0.0,1.0,0.0,0.0,-7.960000000000008,8,3,0,0.7272727272727273,-0.7272727272727273,4,False,False,2,True,False,False,True,,0.0
 2018,7,The Big Gronkowski,Post Mahomes,87.64,86.66,1.0,0.0,0.0,1.0,0.980000000000004,3,8,0,0.2727272727272727,0.7272727272727273,9,False,False,10,False,True,True,True,1.0,1.0
 2018,7,Uncle Rico,malle_dips_pouches,73.24,93.78,0.0,1.0,0.0,0.0,-20.540000000000006,0,11,0,0.0,0.0,12,False,True,8,False,False,False,False,,
+2018,7,Voldemort,PickUpYourBratsMalle,111.38,119.34,0.0,1.0,0.0,0.0,-7.960000000000008,8,3,0,0.7272727272727273,-0.7272727272727273,4,False,False,2,True,False,False,True,,0.0
 2018,7,Big Sack Jack,Ginger FC,111.78,80.1,1.0,0.0,0.0,1.0,31.680000000000007,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,11,False,True,False,False,,
 2018,7,Dillon Panthers,Joe Mantegna,104.6,101.32,1.0,0.0,0.0,1.0,3.280000000000001,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,7,False,False,True,True,1.0,1.0
 2018,7,Pop Lockett Drop it,Malle ❤️ 🐸,142.86,107.34,1.0,0.0,0.0,1.0,35.52000000000001,11,0,0,1.0,0.0,1,True,False,5,False,False,False,False,,
-2018,7,PickUpYourBratsMalle,Voldemort,119.34,111.38,1.0,0.0,0.0,1.0,7.960000000000008,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,4,False,False,False,True,,1.0
 2018,7,Post Mahomes,The Big Gronkowski,86.66,87.64,0.0,1.0,0.0,0.0,-0.980000000000004,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,9,False,False,True,True,0.0,0.0
 2018,7,malle_dips_pouches,Uncle Rico,93.78,73.24,1.0,0.0,0.0,1.0,20.540000000000006,4,7,0,0.36363636363636365,0.6363636363636364,8,False,False,12,False,True,False,False,,
-2018,8,Uncle Rico,Big Sack Jack,111.24,98.9,1.0,0.0,0.0,1.0,12.33999999999999,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,7,False,False,False,False,,
+2018,7,PickUpYourBratsMalle,Voldemort,119.34,111.38,1.0,0.0,0.0,1.0,7.960000000000008,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,4,False,False,False,True,,1.0
 2018,8,Dillon Panthers,malle_dips_pouches,94.8,111.4,0.0,1.0,0.0,0.0,-16.60000000000001,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,3,True,False,False,False,,
-2018,8,The Big Gronkowski,Ginger FC,83.2,95.94,0.0,1.0,0.0,0.0,-12.739999999999995,0,11,0,0.0,0.0,12,False,True,8,False,False,False,False,,
 2018,8,Joe Mantegna,PickUpYourBratsMalle,95.72,117.96,0.0,1.0,0.0,0.0,-22.239999999999995,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,2,True,False,False,False,,
 2018,8,Malle ❤️ 🐸,Post Mahomes,89.06,107.34,0.0,1.0,0.0,0.0,-18.28,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,5,False,False,False,False,,
+2018,8,The Big Gronkowski,Ginger FC,83.2,95.94,0.0,1.0,0.0,0.0,-12.739999999999995,0,11,0,0.0,0.0,12,False,True,8,False,False,False,False,,
+2018,8,Uncle Rico,Big Sack Jack,111.24,98.9,1.0,0.0,0.0,1.0,12.33999999999999,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,7,False,False,False,False,,
 2018,8,Voldemort,Pop Lockett Drop it,121.96,101.1,1.0,0.0,0.0,1.0,20.86,11,0,0,1.0,0.0,1,True,False,6,False,False,False,False,,
-2018,8,Big Sack Jack,Uncle Rico,98.9,111.24,0.0,1.0,0.0,0.0,-12.33999999999999,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,4,False,False,False,False,,
 2018,8,malle_dips_pouches,Dillon Panthers,111.4,94.8,1.0,0.0,0.0,1.0,16.60000000000001,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,10,False,True,False,False,,
-2018,8,Ginger FC,The Big Gronkowski,95.94,83.2,1.0,0.0,0.0,1.0,12.739999999999995,4,7,0,0.36363636363636365,0.6363636363636364,8,False,False,12,False,True,False,False,,
 2018,8,PickUpYourBratsMalle,Joe Mantegna,117.96,95.72,1.0,0.0,0.0,1.0,22.239999999999995,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,9,False,False,False,False,,
 2018,8,Post Mahomes,Malle ❤️ 🐸,107.34,89.06,1.0,0.0,0.0,1.0,18.28,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,11,False,True,False,False,,
+2018,8,Ginger FC,The Big Gronkowski,95.94,83.2,1.0,0.0,0.0,1.0,12.739999999999995,4,7,0,0.36363636363636365,0.6363636363636364,8,False,False,12,False,True,False,False,,
+2018,8,Big Sack Jack,Uncle Rico,98.9,111.24,0.0,1.0,0.0,0.0,-12.33999999999999,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,4,False,False,False,False,,
 2018,8,Pop Lockett Drop it,Voldemort,101.1,121.96,0.0,1.0,0.0,0.0,-20.86,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,1,True,False,False,False,,
 2018,9,Big Sack Jack,malle_dips_pouches,104.76,88.24,1.0,0.0,0.0,1.0,16.52000000000001,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,9,False,False,False,False,,
 2018,9,Dillon Panthers,PickUpYourBratsMalle,79.04,92.16,0.0,1.0,0.0,0.0,-13.11999999999999,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,8,False,False,False,False,,
-2018,9,Malle ❤️ 🐸,Ginger FC,105.4,68.8,1.0,0.0,0.0,1.0,36.60000000000001,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,12,False,True,False,False,,
 2018,9,Joe Mantegna,Pop Lockett Drop it,134.1,138.2,0.0,1.0,0.0,0.0,-4.099999999999994,10,1,0,0.9090909090909091,-0.9090909090909091,2,True,False,1,True,False,True,True,0.0,0.0
-2018,9,Voldemort,Post Mahomes,98.74,97.48,1.0,0.0,0.0,1.0,1.259999999999991,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,7,False,False,True,True,1.0,1.0
+2018,9,Malle ❤️ 🐸,Ginger FC,105.4,68.8,1.0,0.0,0.0,1.0,36.60000000000001,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,12,False,True,False,False,,
 2018,9,Uncle Rico,The Big Gronkowski,87.26,102.4,0.0,1.0,0.0,0.0,-15.14,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,5,False,False,False,False,,
+2018,9,Voldemort,Post Mahomes,98.74,97.48,1.0,0.0,0.0,1.0,1.259999999999991,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,7,False,False,True,True,1.0,1.0
 2018,9,malle_dips_pouches,Big Sack Jack,88.24,104.76,0.0,1.0,0.0,0.0,-16.52000000000001,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,4,False,False,False,False,,
 2018,9,PickUpYourBratsMalle,Dillon Panthers,92.16,79.04,1.0,0.0,0.0,1.0,13.11999999999999,4,7,0,0.36363636363636365,0.6363636363636364,8,False,False,11,False,True,False,False,,
-2018,9,Ginger FC,Malle ❤️ 🐸,68.8,105.4,0.0,1.0,0.0,0.0,-36.60000000000001,0,11,0,0.0,0.0,12,False,True,3,True,False,False,False,,
 2018,9,Pop Lockett Drop it,Joe Mantegna,138.2,134.1,1.0,0.0,0.0,1.0,4.099999999999994,11,0,0,1.0,0.0,1,True,False,2,True,False,True,True,1.0,1.0
-2018,9,Post Mahomes,Voldemort,97.48,98.74,0.0,1.0,0.0,0.0,-1.259999999999991,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,6,False,False,True,True,0.0,0.0
+2018,9,Ginger FC,Malle ❤️ 🐸,68.8,105.4,0.0,1.0,0.0,0.0,-36.60000000000001,0,11,0,0.0,0.0,12,False,True,3,True,False,False,False,,
 2018,9,The Big Gronkowski,Uncle Rico,102.4,87.26,1.0,0.0,0.0,1.0,15.14,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,10,False,True,False,False,,
-2018,10,The Big Gronkowski,Big Sack Jack,111.72,97.26,1.0,0.0,0.0,1.0,14.459999999999994,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,9,False,False,False,False,,
+2018,9,Post Mahomes,Voldemort,97.48,98.74,0.0,1.0,0.0,0.0,-1.259999999999991,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,6,False,False,True,True,0.0,0.0
 2018,10,Dillon Panthers,Pop Lockett Drop it,122.9,83.4,1.0,0.0,0.0,1.0,39.5,11,0,0,1.0,0.0,1,True,False,12,False,True,False,False,,
-2018,10,Voldemort,Ginger FC,104.38,86.7,1.0,0.0,0.0,1.0,17.679999999999993,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,10,False,True,False,False,,
 2018,10,Joe Mantegna,Post Mahomes,110.56,120.62,0.0,1.0,0.0,0.0,-10.060000000000002,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,3,True,False,False,False,,
-2018,10,Uncle Rico,Malle ❤️ 🐸,102.96,117.52,0.0,1.0,0.0,0.0,-14.560000000000002,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,4,False,False,False,False,,
 2018,10,PickUpYourBratsMalle,malle_dips_pouches,85.22,121.52,0.0,1.0,0.0,0.0,-36.3,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,2,True,False,False,False,,
-2018,10,Big Sack Jack,The Big Gronkowski,97.26,111.72,0.0,1.0,0.0,0.0,-14.459999999999994,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,5,False,False,False,False,,
+2018,10,The Big Gronkowski,Big Sack Jack,111.72,97.26,1.0,0.0,0.0,1.0,14.459999999999994,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,9,False,False,False,False,,
+2018,10,Uncle Rico,Malle ❤️ 🐸,102.96,117.52,0.0,1.0,0.0,0.0,-14.560000000000002,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,4,False,False,False,False,,
+2018,10,Voldemort,Ginger FC,104.38,86.7,1.0,0.0,0.0,1.0,17.679999999999993,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,10,False,True,False,False,,
 2018,10,Pop Lockett Drop it,Dillon Panthers,83.4,122.9,0.0,1.0,0.0,0.0,-39.5,0,11,0,0.0,0.0,12,False,True,1,True,False,False,False,,
-2018,10,Ginger FC,Voldemort,86.7,104.38,0.0,1.0,0.0,0.0,-17.679999999999993,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,7,False,False,False,False,,
 2018,10,Post Mahomes,Joe Mantegna,120.62,110.56,1.0,0.0,0.0,1.0,10.060000000000002,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,6,False,False,False,False,,
-2018,10,Malle ❤️ 🐸,Uncle Rico,117.52,102.96,1.0,0.0,0.0,1.0,14.560000000000002,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,8,False,False,False,False,,
 2018,10,malle_dips_pouches,PickUpYourBratsMalle,121.52,85.22,1.0,0.0,0.0,1.0,36.3,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,11,False,True,False,False,,
-2018,11,Malle ❤️ 🐸,Big Sack Jack,90.06,120.7,0.0,1.0,0.0,0.0,-30.64,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,3,True,False,False,False,,
+2018,10,Big Sack Jack,The Big Gronkowski,97.26,111.72,0.0,1.0,0.0,0.0,-14.459999999999994,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,5,False,False,False,False,,
+2018,10,Malle ❤️ 🐸,Uncle Rico,117.52,102.96,1.0,0.0,0.0,1.0,14.560000000000002,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,8,False,False,False,False,,
+2018,10,Ginger FC,Voldemort,86.7,104.38,0.0,1.0,0.0,0.0,-17.679999999999993,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,7,False,False,False,False,,
 2018,11,Dillon Panthers,Post Mahomes,105.82,135.48,0.0,1.0,0.0,0.0,-29.659999999999997,7,4,0,0.6363636363636364,-0.6363636363636364,5,False,False,2,True,False,False,False,,
 2018,11,Joe Mantegna,Ginger FC,119.92,104.94,1.0,0.0,0.0,1.0,14.980000000000004,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,6,False,False,False,False,,
+2018,11,Malle ❤️ 🐸,Big Sack Jack,90.06,120.7,0.0,1.0,0.0,0.0,-30.64,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,3,True,False,False,False,,
 2018,11,PickUpYourBratsMalle,Pop Lockett Drop it,81.08,100.74,0.0,1.0,0.0,0.0,-19.659999999999997,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,7,False,False,False,False,,
 2018,11,The Big Gronkowski,malle_dips_pouches,90.14,147.62,0.0,1.0,0.0,0.0,-57.480000000000004,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,1,True,False,False,False,,
 2018,11,Uncle Rico,Voldemort,98.68,71.98,1.0,0.0,0.0,1.0,26.700000000000003,4,7,0,0.36363636363636365,0.6363636363636364,8,False,False,12,False,True,False,False,,
-2018,11,Big Sack Jack,Malle ❤️ 🐸,120.7,90.06,1.0,0.0,0.0,1.0,30.64,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,10,False,True,False,False,,
 2018,11,Post Mahomes,Dillon Panthers,135.48,105.82,1.0,0.0,0.0,1.0,29.659999999999997,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,5,False,False,False,False,,
 2018,11,Ginger FC,Joe Mantegna,104.94,119.92,0.0,1.0,0.0,0.0,-14.980000000000004,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,4,False,False,False,False,,
+2018,11,Big Sack Jack,Malle ❤️ 🐸,120.7,90.06,1.0,0.0,0.0,1.0,30.64,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,10,False,True,False,False,,
 2018,11,Pop Lockett Drop it,PickUpYourBratsMalle,100.74,81.08,1.0,0.0,0.0,1.0,19.659999999999997,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,11,False,True,False,False,,
 2018,11,malle_dips_pouches,The Big Gronkowski,147.62,90.14,1.0,0.0,0.0,1.0,57.480000000000004,11,0,0,1.0,0.0,1,True,False,9,False,False,False,False,,
 2018,11,Voldemort,Uncle Rico,71.98,98.68,0.0,1.0,0.0,0.0,-26.700000000000003,0,11,0,0.0,0.0,12,False,True,8,False,False,False,False,,
-2018,12,Voldemort,Big Sack Jack,106.22,61.04,1.0,0.0,0.0,1.0,45.18,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,12,False,True,False,False,,
 2018,12,Dillon Panthers,Ginger FC,92.24,95.26,0.0,1.0,0.0,0.0,-3.0200000000000102,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,8,False,False,True,True,0.0,0.0
-2018,12,Uncle Rico,Joe Mantegna,83.2,67.8,1.0,0.0,0.0,1.0,15.400000000000006,2,9,0,0.18181818181818182,0.8181818181818181,10,False,True,11,False,True,False,False,,
-2018,12,The Big Gronkowski,Malle ❤️ 🐸,148.46,96.18,1.0,0.0,0.0,1.0,52.28,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,7,False,False,False,False,,
 2018,12,PickUpYourBratsMalle,Post Mahomes,118.88,109.14,1.0,0.0,0.0,1.0,9.739999999999995,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,4,False,False,False,True,,1.0
 2018,12,Pop Lockett Drop it,malle_dips_pouches,107.28,153.22,0.0,1.0,0.0,0.0,-45.94,7,4,0,0.6363636363636364,-0.6363636363636364,5,False,False,1,True,False,False,False,,
-2018,12,Big Sack Jack,Voldemort,61.04,106.22,0.0,1.0,0.0,0.0,-45.18,0,11,0,0.0,0.0,12,False,True,6,False,False,False,False,,
+2018,12,The Big Gronkowski,Malle ❤️ 🐸,148.46,96.18,1.0,0.0,0.0,1.0,52.28,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,7,False,False,False,False,,
+2018,12,Uncle Rico,Joe Mantegna,83.2,67.8,1.0,0.0,0.0,1.0,15.400000000000006,2,9,0,0.18181818181818182,0.8181818181818181,10,False,True,11,False,True,False,False,,
+2018,12,Voldemort,Big Sack Jack,106.22,61.04,1.0,0.0,0.0,1.0,45.18,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,12,False,True,False,False,,
 2018,12,Ginger FC,Dillon Panthers,95.26,92.24,1.0,0.0,0.0,1.0,3.0200000000000102,4,7,0,0.36363636363636365,0.6363636363636364,8,False,False,9,False,False,True,True,1.0,1.0
-2018,12,Joe Mantegna,Uncle Rico,67.8,83.2,0.0,1.0,0.0,0.0,-15.400000000000006,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,10,False,True,False,False,,
-2018,12,Malle ❤️ 🐸,The Big Gronkowski,96.18,148.46,0.0,1.0,0.0,0.0,-52.28,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,2,True,False,False,False,,
 2018,12,Post Mahomes,PickUpYourBratsMalle,109.14,118.88,0.0,1.0,0.0,0.0,-9.739999999999995,8,3,0,0.7272727272727273,-0.7272727272727273,4,False,False,3,True,False,False,True,,0.0
 2018,12,malle_dips_pouches,Pop Lockett Drop it,153.22,107.28,1.0,0.0,0.0,1.0,45.94,11,0,0,1.0,0.0,1,True,False,5,False,False,False,False,,
+2018,12,Malle ❤️ 🐸,The Big Gronkowski,96.18,148.46,0.0,1.0,0.0,0.0,-52.28,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,2,True,False,False,False,,
+2018,12,Joe Mantegna,Uncle Rico,67.8,83.2,0.0,1.0,0.0,0.0,-15.400000000000006,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,10,False,True,False,False,,
+2018,12,Big Sack Jack,Voldemort,61.04,106.22,0.0,1.0,0.0,0.0,-45.18,0,11,0,0.0,0.0,12,False,True,6,False,False,False,False,,
 2018,13,Joe Mantegna,Big Sack Jack,90.4,95.1,0.0,1.0,0.0,0.0,-4.699999999999989,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,5,False,False,True,True,0.0,0.0
-2018,13,Uncle Rico,Dillon Panthers,111.32,74.62,1.0,0.0,0.0,1.0,36.69999999999999,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,10,False,True,False,False,,
-2018,13,PickUpYourBratsMalle,Ginger FC,80.34,106.7,0.0,1.0,0.0,0.0,-26.36,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,4,False,False,False,False,,
 2018,13,Malle ❤️ 🐸,malle_dips_pouches,54.72,72.58,0.0,1.0,0.0,0.0,-17.86,0,11,0,0.0,0.0,12,False,True,11,False,True,False,False,,
+2018,13,PickUpYourBratsMalle,Ginger FC,80.34,106.7,0.0,1.0,0.0,0.0,-26.36,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,4,False,False,False,False,,
 2018,13,Pop Lockett Drop it,Post Mahomes,112.7,109.0,1.0,0.0,0.0,1.0,3.700000000000003,11,0,0,1.0,0.0,1,True,False,3,True,False,True,True,1.0,1.0
 2018,13,The Big Gronkowski,Voldemort,91.76,93.0,0.0,1.0,0.0,0.0,-1.2399999999999949,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,6,False,False,True,True,0.0,0.0
+2018,13,Uncle Rico,Dillon Panthers,111.32,74.62,1.0,0.0,0.0,1.0,36.69999999999999,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,10,False,True,False,False,,
 2018,13,Big Sack Jack,Joe Mantegna,95.1,90.4,1.0,0.0,0.0,1.0,4.699999999999989,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,8,False,False,True,True,1.0,1.0
-2018,13,Dillon Panthers,Uncle Rico,74.62,111.32,0.0,1.0,0.0,0.0,-36.69999999999999,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,2,True,False,False,False,,
-2018,13,Ginger FC,PickUpYourBratsMalle,106.7,80.34,1.0,0.0,0.0,1.0,26.36,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,9,False,False,False,False,,
 2018,13,malle_dips_pouches,Malle ❤️ 🐸,72.58,54.72,1.0,0.0,0.0,1.0,17.86,1,10,0,0.09090909090909091,0.9090909090909091,11,False,True,12,False,True,False,False,,
+2018,13,Ginger FC,PickUpYourBratsMalle,106.7,80.34,1.0,0.0,0.0,1.0,26.36,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,9,False,False,False,False,,
 2018,13,Post Mahomes,Pop Lockett Drop it,109.0,112.7,0.0,1.0,0.0,0.0,-3.700000000000003,9,2,0,0.8181818181818182,-0.8181818181818182,3,True,False,1,True,False,True,True,0.0,0.0
 2018,13,Voldemort,The Big Gronkowski,93.0,91.76,1.0,0.0,0.0,1.0,1.2399999999999949,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,7,False,False,True,True,1.0,1.0
+2018,13,Dillon Panthers,Uncle Rico,74.62,111.32,0.0,1.0,0.0,0.0,-36.69999999999999,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,2,True,False,False,False,,
 2019,1,Joe Mantegna,Big Sack Jack,105.82,79.54,1.0,0.0,0.0,1.0,26.279999999999987,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,10,False,True,False,False,,
-2019,1,Malle ❤️ 🐸,The Big Gronkowski,108.76,128.42,0.0,1.0,0.0,0.0,-19.659999999999982,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,2,True,False,False,False,,
 2019,1,Patty Primetimes,Ginger FC,117.1,98.8,1.0,0.0,0.0,1.0,18.299999999999997,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,8,False,False,False,False,,
+2019,1,The Big Gronkowski,Malle ❤️ 🐸,128.42,108.76,1.0,0.0,0.0,1.0,19.659999999999982,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,6,False,False,False,False,,
 2019,1,ThreatLevelMidnight,Post Mahomes,78.14,123.82,0.0,1.0,0.0,0.0,-45.67999999999999,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,3,True,False,False,False,,
 2019,1,Uncle Rico,Pop Lockett Drop it,92.76,115.3,0.0,1.0,0.0,0.0,-22.539999999999992,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,5,False,False,False,False,,
 2019,1,Voldemort,malle_dips_pouches,130.52,70.6,1.0,0.0,0.0,1.0,59.920000000000016,11,0,0,1.0,0.0,1,True,False,12,False,True,False,False,,
 2019,1,Big Sack Jack,Joe Mantegna,79.54,105.82,0.0,1.0,0.0,0.0,-26.279999999999987,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,7,False,False,False,False,,
-2019,1,The Big Gronkowski,Malle ❤️ 🐸,128.42,108.76,1.0,0.0,0.0,1.0,19.659999999999982,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,6,False,False,False,False,,
 2019,1,Ginger FC,Patty Primetimes,98.8,117.1,0.0,1.0,0.0,0.0,-18.299999999999997,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,4,False,False,False,False,,
+2019,1,Malle ❤️ 🐸,The Big Gronkowski,108.76,128.42,0.0,1.0,0.0,0.0,-19.659999999999982,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,2,True,False,False,False,,
 2019,1,Post Mahomes,ThreatLevelMidnight,123.82,78.14,1.0,0.0,0.0,1.0,45.67999999999999,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,11,False,True,False,False,,
 2019,1,Pop Lockett Drop it,Uncle Rico,115.3,92.76,1.0,0.0,0.0,1.0,22.539999999999992,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,9,False,False,False,False,,
 2019,1,malle_dips_pouches,Voldemort,70.6,130.52,0.0,1.0,0.0,0.0,-59.920000000000016,0,11,0,0.0,0.0,12,False,True,1,True,False,False,False,,
@@ -971,339 +1127,339 @@ year,week,fantasy_team,opponent,team_score,opponent_score,actual_win,actual_loss
 2023,14,malle_dips_pouches,ThreatLevelMidnight,128.92,112.36,1.0,0.0,0.0,1.0,16.559999999999988,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,5,False,False,False,False,,
 2023,14,Patty Primetimes,Uncle Rico,85.8,75.22,1.0,0.0,0.0,1.0,10.579999999999998,2,9,0,0.18181818181818182,0.8181818181818181,10,False,True,11,False,True,False,False,,
 2023,14,Post Mahomes,Voldemort,119.74,138.04,0.0,1.0,0.0,0.0,-18.299999999999997,8,3,0,0.7272727272727273,-0.7272727272727273,4,False,False,2,True,False,False,False,,
-2024,1,ThreatLevelMidnight,The Big Gronkowski,94.86,95.38,0.0,1.0,0.0,0.0,-0.519999999999996,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,7,False,False,True,True,0.0,0.0
-2024,1,Malle ❤️ 🐸,Buttermilk Puuump,92.62,79.98,1.0,0.0,0.0,1.0,12.64,3,8,0,0.2727272727272727,0.7272727272727273,9,False,False,11,False,True,False,False,,
-2024,1,malle_dips_pouches,Voldemort,104.08,120.32,0.0,1.0,0.0,0.0,-16.239999999999995,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,4,False,False,False,False,,
 2024,1,Joe Mantegna,Post Mahomes,89.26,132.92,0.0,1.0,0.0,0.0,-43.65999999999998,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,3,True,False,False,False,,
+2024,1,Malle ❤️ 🐸,Buttermilk Puuump,92.62,79.98,1.0,0.0,0.0,1.0,12.64,3,8,0,0.2727272727272727,0.7272727272727273,9,False,False,11,False,True,False,False,,
 2024,1,Pop Lockett Drop it,Ginger FC,142.16,105.9,1.0,0.0,0.0,1.0,36.25999999999999,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,5,False,False,False,False,,
-2024,1,Patty Primetimes,Uncle Rico,71.34,156.68,0.0,1.0,0.0,0.0,-85.34,0,11,0,0.0,0.0,12,False,True,1,True,False,False,False,,
-2024,1,The Big Gronkowski,ThreatLevelMidnight,95.38,94.86,1.0,0.0,0.0,1.0,0.519999999999996,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,8,False,False,True,True,1.0,1.0
-2024,1,Buttermilk Puuump,Malle ❤️ 🐸,79.98,92.62,0.0,1.0,0.0,0.0,-12.64,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,9,False,False,False,False,,
-2024,1,Voldemort,malle_dips_pouches,120.32,104.08,1.0,0.0,0.0,1.0,16.239999999999995,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,6,False,False,False,False,,
+2024,1,The Big Gronkowski,ThreatLevelMidnight,94.86,95.38,0.0,1.0,0.0,0.0,-0.519999999999996,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,7,False,False,True,True,0.0,0.0
+2024,1,Uncle Rico,Patty Primetimes,71.34,156.68,0.0,1.0,0.0,0.0,-85.34,0,11,0,0.0,0.0,12,False,True,1,True,False,False,False,,
+2024,1,Voldemort,malle_dips_pouches,104.08,120.32,0.0,1.0,0.0,0.0,-16.239999999999995,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,4,False,False,False,False,,
 2024,1,Post Mahomes,Joe Mantegna,132.92,89.26,1.0,0.0,0.0,1.0,43.65999999999998,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,10,False,True,False,False,,
+2024,1,Buttermilk Puuump,Malle ❤️ 🐸,79.98,92.62,0.0,1.0,0.0,0.0,-12.64,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,9,False,False,False,False,,
 2024,1,Ginger FC,Pop Lockett Drop it,105.9,142.16,0.0,1.0,0.0,0.0,-36.25999999999999,7,4,0,0.6363636363636364,-0.6363636363636364,5,False,False,2,True,False,False,False,,
-2024,1,Uncle Rico,Patty Primetimes,156.68,71.34,1.0,0.0,0.0,1.0,85.34,11,0,0,1.0,0.0,1,True,False,12,False,True,False,False,,
+2024,1,ThreatLevelMidnight,The Big Gronkowski,95.38,94.86,1.0,0.0,0.0,1.0,0.519999999999996,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,8,False,False,True,True,1.0,1.0
+2024,1,Patty Primetimes,Uncle Rico,156.68,71.34,1.0,0.0,0.0,1.0,85.34,11,0,0,1.0,0.0,1,True,False,12,False,True,False,False,,
+2024,1,malle_dips_pouches,Voldemort,120.32,104.08,1.0,0.0,0.0,1.0,16.239999999999995,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,6,False,False,False,False,,
+2024,2,Pop Lockett Drop it,Buttermilk Puuump,130.9,83.48,1.0,0.0,0.0,1.0,47.42,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,12,False,True,False,False,,
 2024,2,The Big Gronkowski,Ginger FC,120.64,99.94,1.0,0.0,0.0,1.0,20.700000000000003,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,9,False,False,False,False,,
-2024,2,Malle ❤️ 🐸,Uncle Rico,120.44,154.42,0.0,1.0,0.0,0.0,-33.97999999999999,7,4,0,0.6363636363636364,-0.6363636363636364,5,False,False,1,True,False,False,False,,
-2024,2,Joe Mantegna,Voldemort,117.26,109.92,1.0,0.0,0.0,1.0,7.340000000000003,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,7,False,False,False,True,,1.0
 2024,2,ThreatLevelMidnight,Post Mahomes,133.44,105.18,1.0,0.0,0.0,1.0,28.25999999999999,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,8,False,False,False,False,,
-2024,2,Buttermilk Puuump,Pop Lockett Drop it,130.9,83.48,1.0,0.0,0.0,1.0,47.42,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,12,False,True,False,False,,
+2024,2,Uncle Rico,Malle ❤️ 🐸,120.44,154.42,0.0,1.0,0.0,0.0,-33.97999999999999,7,4,0,0.6363636363636364,-0.6363636363636364,5,False,False,1,True,False,False,False,,
+2024,2,Voldemort,Joe Mantegna,117.26,109.92,1.0,0.0,0.0,1.0,7.340000000000003,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,7,False,False,False,True,,1.0
 2024,2,malle_dips_pouches,Patty Primetimes,89.0,83.86,1.0,0.0,0.0,1.0,5.140000000000001,2,9,0,0.18181818181818182,0.8181818181818181,10,False,True,11,False,True,False,True,,1.0
+2024,2,Buttermilk Puuump,Pop Lockett Drop it,83.48,130.9,0.0,1.0,0.0,0.0,-47.42,0,11,0,0.0,0.0,12,False,True,3,True,False,False,False,,
 2024,2,Ginger FC,The Big Gronkowski,99.94,120.64,0.0,1.0,0.0,0.0,-20.700000000000003,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,4,False,False,False,False,,
-2024,2,Uncle Rico,Malle ❤️ 🐸,154.42,120.44,1.0,0.0,0.0,1.0,33.97999999999999,11,0,0,1.0,0.0,1,True,False,5,False,False,False,False,,
-2024,2,Voldemort,Joe Mantegna,109.92,117.26,0.0,1.0,0.0,0.0,-7.340000000000003,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,6,False,False,False,True,,0.0
 2024,2,Post Mahomes,ThreatLevelMidnight,105.18,133.44,0.0,1.0,0.0,0.0,-28.25999999999999,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,2,True,False,False,False,,
-2024,2,Pop Lockett Drop it,Buttermilk Puuump,83.48,130.9,0.0,1.0,0.0,0.0,-47.42,0,11,0,0.0,0.0,12,False,True,3,True,False,False,False,,
+2024,2,Malle ❤️ 🐸,Uncle Rico,154.42,120.44,1.0,0.0,0.0,1.0,33.97999999999999,11,0,0,1.0,0.0,1,True,False,5,False,False,False,False,,
+2024,2,Joe Mantegna,Voldemort,109.92,117.26,0.0,1.0,0.0,0.0,-7.340000000000003,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,6,False,False,False,True,,0.0
 2024,2,Patty Primetimes,malle_dips_pouches,83.86,89.0,0.0,1.0,0.0,0.0,-5.140000000000001,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,10,False,True,False,True,,0.0
-2024,3,Buttermilk Puuump,The Big Gronkowski,106.46,89.46,1.0,0.0,0.0,1.0,17.0,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,8,False,False,False,False,,
-2024,3,Patty Primetimes,Malle ❤️ 🐸,115.74,83.98,1.0,0.0,0.0,1.0,31.75999999999999,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,11,False,True,False,False,,
-2024,3,ThreatLevelMidnight,Voldemort,133.52,87.58,1.0,0.0,0.0,1.0,45.94000000000001,11,0,0,1.0,0.0,1,True,False,9,False,False,False,False,,
-2024,3,malle_dips_pouches,Joe Mantegna,113.36,86.72,1.0,0.0,0.0,1.0,26.64,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,10,False,True,False,False,,
-2024,3,Pop Lockett Drop it,Uncle Rico,120.08,68.5,1.0,0.0,0.0,1.0,51.58,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,12,False,True,False,False,,
+2024,3,Joe Mantegna,malle_dips_pouches,113.36,86.72,1.0,0.0,0.0,1.0,26.64,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,10,False,True,False,False,,
+2024,3,Malle ❤️ 🐸,Patty Primetimes,115.74,83.98,1.0,0.0,0.0,1.0,31.75999999999999,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,11,False,True,False,False,,
 2024,3,Post Mahomes,Ginger FC,125.58,105.62,1.0,0.0,0.0,1.0,19.959999999999994,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,7,False,False,False,False,,
-2024,3,The Big Gronkowski,Buttermilk Puuump,89.46,106.46,0.0,1.0,0.0,0.0,-17.0,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,6,False,False,False,False,,
-2024,3,Malle ❤️ 🐸,Patty Primetimes,83.98,115.74,0.0,1.0,0.0,0.0,-31.75999999999999,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,4,False,False,False,False,,
-2024,3,Voldemort,ThreatLevelMidnight,87.58,133.52,0.0,1.0,0.0,0.0,-45.94000000000001,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,1,True,False,False,False,,
-2024,3,Joe Mantegna,malle_dips_pouches,86.72,113.36,0.0,1.0,0.0,0.0,-26.64,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,5,False,False,False,False,,
-2024,3,Uncle Rico,Pop Lockett Drop it,68.5,120.08,0.0,1.0,0.0,0.0,-51.58,0,11,0,0.0,0.0,12,False,True,3,True,False,False,False,,
+2024,3,The Big Gronkowski,Buttermilk Puuump,106.46,89.46,1.0,0.0,0.0,1.0,17.0,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,8,False,False,False,False,,
+2024,3,Uncle Rico,Pop Lockett Drop it,120.08,68.5,1.0,0.0,0.0,1.0,51.58,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,12,False,True,False,False,,
+2024,3,Voldemort,ThreatLevelMidnight,133.52,87.58,1.0,0.0,0.0,1.0,45.94000000000001,11,0,0,1.0,0.0,1,True,False,9,False,False,False,False,,
+2024,3,malle_dips_pouches,Joe Mantegna,86.72,113.36,0.0,1.0,0.0,0.0,-26.64,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,5,False,False,False,False,,
+2024,3,Patty Primetimes,Malle ❤️ 🐸,83.98,115.74,0.0,1.0,0.0,0.0,-31.75999999999999,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,4,False,False,False,False,,
 2024,3,Ginger FC,Post Mahomes,105.62,125.58,0.0,1.0,0.0,0.0,-19.959999999999994,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,2,True,False,False,False,,
-2024,4,The Big Gronkowski,Uncle Rico,91.4,114.98,0.0,1.0,0.0,0.0,-23.58,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,4,False,False,False,False,,
-2024,4,malle_dips_pouches,Malle ❤️ 🐸,96.82,68.38,1.0,0.0,0.0,1.0,28.439999999999998,3,8,0,0.2727272727272727,0.7272727272727273,9,False,False,12,False,True,False,False,,
-2024,4,Voldemort,Ginger FC,98.4,110.56,0.0,1.0,0.0,0.0,-12.159999999999997,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,5,False,False,False,False,,
+2024,3,Buttermilk Puuump,The Big Gronkowski,89.46,106.46,0.0,1.0,0.0,0.0,-17.0,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,6,False,False,False,False,,
+2024,3,Pop Lockett Drop it,Uncle Rico,68.5,120.08,0.0,1.0,0.0,0.0,-51.58,0,11,0,0.0,0.0,12,False,True,3,True,False,False,False,,
+2024,3,ThreatLevelMidnight,Voldemort,87.58,133.52,0.0,1.0,0.0,0.0,-45.94000000000001,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,1,True,False,False,False,,
 2024,4,Joe Mantegna,ThreatLevelMidnight,92.54,103.78,0.0,1.0,0.0,0.0,-11.239999999999995,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,6,False,False,False,False,,
-2024,4,Patty Primetimes,Pop Lockett Drop it,117.0,143.72,0.0,1.0,0.0,0.0,-26.72,9,2,0,0.8181818181818182,-0.8181818181818182,3,True,False,1,True,False,False,False,,
-2024,4,Buttermilk Puuump,Post Mahomes,97.04,120.36,0.0,1.0,0.0,0.0,-23.319999999999993,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,2,True,False,False,False,,
-2024,4,Uncle Rico,The Big Gronkowski,114.98,91.4,1.0,0.0,0.0,1.0,23.58,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,11,False,True,False,False,,
-2024,4,Malle ❤️ 🐸,malle_dips_pouches,68.38,96.82,0.0,1.0,0.0,0.0,-28.439999999999998,0,11,0,0.0,0.0,12,False,True,9,False,False,False,False,,
-2024,4,Ginger FC,Voldemort,110.56,98.4,1.0,0.0,0.0,1.0,12.159999999999997,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,7,False,False,False,False,,
+2024,4,Malle ❤️ 🐸,malle_dips_pouches,96.82,68.38,1.0,0.0,0.0,1.0,28.439999999999998,3,8,0,0.2727272727272727,0.7272727272727273,9,False,False,12,False,True,False,False,,
+2024,4,Pop Lockett Drop it,Patty Primetimes,117.0,143.72,0.0,1.0,0.0,0.0,-26.72,9,2,0,0.8181818181818182,-0.8181818181818182,3,True,False,1,True,False,False,False,,
+2024,4,Post Mahomes,Buttermilk Puuump,97.04,120.36,0.0,1.0,0.0,0.0,-23.319999999999993,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,2,True,False,False,False,,
+2024,4,Uncle Rico,The Big Gronkowski,91.4,114.98,0.0,1.0,0.0,0.0,-23.58,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,4,False,False,False,False,,
+2024,4,Voldemort,Ginger FC,98.4,110.56,0.0,1.0,0.0,0.0,-12.159999999999997,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,5,False,False,False,False,,
 2024,4,ThreatLevelMidnight,Joe Mantegna,103.78,92.54,1.0,0.0,0.0,1.0,11.239999999999995,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,10,False,True,False,False,,
-2024,4,Pop Lockett Drop it,Patty Primetimes,143.72,117.0,1.0,0.0,0.0,1.0,26.72,11,0,0,1.0,0.0,1,True,False,3,True,False,False,False,,
-2024,4,Post Mahomes,Buttermilk Puuump,120.36,97.04,1.0,0.0,0.0,1.0,23.319999999999993,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,8,False,False,False,False,,
-2024,5,Patty Primetimes,The Big Gronkowski,133.18,114.02,1.0,0.0,0.0,1.0,19.16000000000001,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,6,False,False,False,False,,
-2024,5,Malle ❤️ 🐸,Pop Lockett Drop it,114.86,109.04,1.0,0.0,0.0,1.0,5.819999999999993,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,7,False,False,False,True,,1.0
-2024,5,Buttermilk Puuump,Voldemort,79.04,79.26,0.0,1.0,0.0,0.0,-0.21999999999999886,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,10,False,True,True,True,0.0,0.0
+2024,4,malle_dips_pouches,Malle ❤️ 🐸,68.38,96.82,0.0,1.0,0.0,0.0,-28.439999999999998,0,11,0,0.0,0.0,12,False,True,9,False,False,False,False,,
+2024,4,Patty Primetimes,Pop Lockett Drop it,143.72,117.0,1.0,0.0,0.0,1.0,26.72,11,0,0,1.0,0.0,1,True,False,3,True,False,False,False,,
+2024,4,Buttermilk Puuump,Post Mahomes,120.36,97.04,1.0,0.0,0.0,1.0,23.319999999999993,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,8,False,False,False,False,,
+2024,4,The Big Gronkowski,Uncle Rico,114.98,91.4,1.0,0.0,0.0,1.0,23.58,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,11,False,True,False,False,,
+2024,4,Ginger FC,Voldemort,110.56,98.4,1.0,0.0,0.0,1.0,12.159999999999997,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,7,False,False,False,False,,
 2024,5,Joe Mantegna,Ginger FC,102.18,76.86,1.0,0.0,0.0,1.0,25.320000000000007,4,7,0,0.36363636363636365,0.6363636363636364,8,False,False,12,False,True,False,False,,
-2024,5,malle_dips_pouches,ThreatLevelMidnight,160.9,127.76,1.0,0.0,0.0,1.0,33.14,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,4,False,False,False,False,,
-2024,5,Post Mahomes,Uncle Rico,93.64,173.32,0.0,1.0,0.0,0.0,-79.67999999999999,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,1,True,False,False,False,,
-2024,5,The Big Gronkowski,Patty Primetimes,114.02,133.18,0.0,1.0,0.0,0.0,-19.16000000000001,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,3,True,False,False,False,,
-2024,5,Pop Lockett Drop it,Malle ❤️ 🐸,109.04,114.86,0.0,1.0,0.0,0.0,-5.819999999999993,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,5,False,False,False,True,,0.0
-2024,5,Voldemort,Buttermilk Puuump,79.26,79.04,1.0,0.0,0.0,1.0,0.21999999999999886,2,9,0,0.18181818181818182,0.8181818181818181,10,False,True,11,False,True,True,True,1.0,1.0
+2024,5,Malle ❤️ 🐸,Pop Lockett Drop it,114.86,109.04,1.0,0.0,0.0,1.0,5.819999999999993,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,7,False,False,False,True,,1.0
+2024,5,The Big Gronkowski,Patty Primetimes,133.18,114.02,1.0,0.0,0.0,1.0,19.16000000000001,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,6,False,False,False,False,,
+2024,5,ThreatLevelMidnight,malle_dips_pouches,160.9,127.76,1.0,0.0,0.0,1.0,33.14,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,4,False,False,False,False,,
+2024,5,Uncle Rico,Post Mahomes,93.64,173.32,0.0,1.0,0.0,0.0,-79.67999999999999,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,1,True,False,False,False,,
+2024,5,Voldemort,Buttermilk Puuump,79.04,79.26,0.0,1.0,0.0,0.0,-0.21999999999999886,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,10,False,True,True,True,0.0,0.0
 2024,5,Ginger FC,Joe Mantegna,76.86,102.18,0.0,1.0,0.0,0.0,-25.320000000000007,0,11,0,0.0,0.0,12,False,True,8,False,False,False,False,,
-2024,5,ThreatLevelMidnight,malle_dips_pouches,127.76,160.9,0.0,1.0,0.0,0.0,-33.14,8,3,0,0.7272727272727273,-0.7272727272727273,4,False,False,2,True,False,False,False,,
-2024,5,Uncle Rico,Post Mahomes,173.32,93.64,1.0,0.0,0.0,1.0,79.67999999999999,11,0,0,1.0,0.0,1,True,False,9,False,False,False,False,,
-2024,6,Malle ❤️ 🐸,The Big Gronkowski,62.22,98.36,0.0,1.0,0.0,0.0,-36.14,0,11,0,0.0,0.0,12,False,True,10,False,True,False,False,,
-2024,6,Voldemort,Uncle Rico,127.98,108.6,1.0,0.0,0.0,1.0,19.38000000000001,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,5,False,False,False,False,,
+2024,5,Pop Lockett Drop it,Malle ❤️ 🐸,109.04,114.86,0.0,1.0,0.0,0.0,-5.819999999999993,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,5,False,False,False,True,,0.0
+2024,5,Patty Primetimes,The Big Gronkowski,114.02,133.18,0.0,1.0,0.0,0.0,-19.16000000000001,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,3,True,False,False,False,,
+2024,5,malle_dips_pouches,ThreatLevelMidnight,127.76,160.9,0.0,1.0,0.0,0.0,-33.14,8,3,0,0.7272727272727273,-0.7272727272727273,4,False,False,2,True,False,False,False,,
+2024,5,Post Mahomes,Uncle Rico,173.32,93.64,1.0,0.0,0.0,1.0,79.67999999999999,11,0,0,1.0,0.0,1,True,False,9,False,False,False,False,,
+2024,5,Buttermilk Puuump,Voldemort,79.26,79.04,1.0,0.0,0.0,1.0,0.21999999999999886,2,9,0,0.18181818181818182,0.8181818181818181,10,False,True,11,False,True,True,True,1.0,1.0
 2024,6,Joe Mantegna,Buttermilk Puuump,103.32,110.6,0.0,1.0,0.0,0.0,-7.280000000000001,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,4,False,False,False,True,,0.0
+2024,6,Pop Lockett Drop it,malle_dips_pouches,134.58,160.44,0.0,1.0,0.0,0.0,-25.859999999999985,10,1,0,0.9090909090909091,-0.9090909090909091,2,True,False,1,True,False,False,False,,
+2024,6,Post Mahomes,Patty Primetimes,107.62,101.56,1.0,0.0,0.0,1.0,6.060000000000002,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,9,False,False,False,True,,1.0
+2024,6,The Big Gronkowski,Malle ❤️ 🐸,62.22,98.36,0.0,1.0,0.0,0.0,-36.14,0,11,0,0.0,0.0,12,False,True,10,False,True,False,False,,
 2024,6,ThreatLevelMidnight,Ginger FC,77.46,103.52,0.0,1.0,0.0,0.0,-26.060000000000002,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,7,False,False,False,False,,
-2024,6,malle_dips_pouches,Pop Lockett Drop it,134.58,160.44,0.0,1.0,0.0,0.0,-25.859999999999985,10,1,0,0.9090909090909091,-0.9090909090909091,2,True,False,1,True,False,False,False,,
-2024,6,Patty Primetimes,Post Mahomes,107.62,101.56,1.0,0.0,0.0,1.0,6.060000000000002,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,9,False,False,False,True,,1.0
-2024,6,The Big Gronkowski,Malle ❤️ 🐸,98.36,62.22,1.0,0.0,0.0,1.0,36.14,2,9,0,0.18181818181818182,0.8181818181818181,10,False,True,12,False,True,False,False,,
-2024,6,Uncle Rico,Voldemort,108.6,127.98,0.0,1.0,0.0,0.0,-19.38000000000001,7,4,0,0.6363636363636364,-0.6363636363636364,5,False,False,3,True,False,False,False,,
+2024,6,Uncle Rico,Voldemort,127.98,108.6,1.0,0.0,0.0,1.0,19.38000000000001,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,5,False,False,False,False,,
 2024,6,Buttermilk Puuump,Joe Mantegna,110.6,103.32,1.0,0.0,0.0,1.0,7.280000000000001,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,8,False,False,False,True,,1.0
+2024,6,malle_dips_pouches,Pop Lockett Drop it,160.44,134.58,1.0,0.0,0.0,1.0,25.859999999999985,11,0,0,1.0,0.0,1,True,False,2,True,False,False,False,,
+2024,6,Patty Primetimes,Post Mahomes,101.56,107.62,0.0,1.0,0.0,0.0,-6.060000000000002,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,6,False,False,False,True,,0.0
+2024,6,Malle ❤️ 🐸,The Big Gronkowski,98.36,62.22,1.0,0.0,0.0,1.0,36.14,2,9,0,0.18181818181818182,0.8181818181818181,10,False,True,12,False,True,False,False,,
 2024,6,Ginger FC,ThreatLevelMidnight,103.52,77.46,1.0,0.0,0.0,1.0,26.060000000000002,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,11,False,True,False,False,,
-2024,6,Pop Lockett Drop it,malle_dips_pouches,160.44,134.58,1.0,0.0,0.0,1.0,25.859999999999985,11,0,0,1.0,0.0,1,True,False,2,True,False,False,False,,
-2024,6,Post Mahomes,Patty Primetimes,101.56,107.62,0.0,1.0,0.0,0.0,-6.060000000000002,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,6,False,False,False,True,,0.0
-2024,7,The Big Gronkowski,Pop Lockett Drop it,112.34,79.54,1.0,0.0,0.0,1.0,32.8,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,12,False,True,False,False,,
+2024,6,Voldemort,Uncle Rico,108.6,127.98,0.0,1.0,0.0,0.0,-19.38000000000001,7,4,0,0.6363636363636364,-0.6363636363636364,5,False,False,3,True,False,False,False,,
+2024,7,Ginger FC,malle_dips_pouches,113.3,112.46,1.0,0.0,0.0,1.0,0.8400000000000034,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,4,False,False,True,True,1.0,1.0
 2024,7,Malle ❤️ 🐸,Post Mahomes,104.66,156.64,0.0,1.0,0.0,0.0,-51.97999999999999,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,1,True,False,False,False,,
-2024,7,Patty Primetimes,Voldemort,89.92,94.04,0.0,1.0,0.0,0.0,-4.1200000000000045,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,9,False,False,True,True,0.0,0.0
-2024,7,Joe Mantegna,Uncle Rico,86.86,102.56,0.0,1.0,0.0,0.0,-15.700000000000003,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,7,False,False,False,False,,
-2024,7,Buttermilk Puuump,ThreatLevelMidnight,139.9,94.6,1.0,0.0,0.0,1.0,45.30000000000001,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,8,False,False,False,False,,
-2024,7,malle_dips_pouches,Ginger FC,113.3,112.46,1.0,0.0,0.0,1.0,0.8400000000000034,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,4,False,False,True,True,1.0,1.0
-2024,7,Pop Lockett Drop it,The Big Gronkowski,79.54,112.34,0.0,1.0,0.0,0.0,-32.8,0,11,0,0.0,0.0,12,False,True,5,False,False,False,False,,
+2024,7,The Big Gronkowski,Pop Lockett Drop it,112.34,79.54,1.0,0.0,0.0,1.0,32.8,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,12,False,True,False,False,,
+2024,7,ThreatLevelMidnight,Buttermilk Puuump,139.9,94.6,1.0,0.0,0.0,1.0,45.30000000000001,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,8,False,False,False,False,,
+2024,7,Uncle Rico,Joe Mantegna,86.86,102.56,0.0,1.0,0.0,0.0,-15.700000000000003,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,7,False,False,False,False,,
+2024,7,Voldemort,Patty Primetimes,89.92,94.04,0.0,1.0,0.0,0.0,-4.1200000000000045,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,9,False,False,True,True,0.0,0.0
+2024,7,malle_dips_pouches,Ginger FC,112.46,113.3,0.0,1.0,0.0,0.0,-0.8400000000000034,8,3,0,0.7272727272727273,-0.7272727272727273,4,False,False,3,True,False,True,True,0.0,0.0
 2024,7,Post Mahomes,Malle ❤️ 🐸,156.64,104.66,1.0,0.0,0.0,1.0,51.97999999999999,11,0,0,1.0,0.0,1,True,False,6,False,False,False,False,,
-2024,7,Voldemort,Patty Primetimes,94.04,89.92,1.0,0.0,0.0,1.0,4.1200000000000045,3,8,0,0.2727272727272727,0.7272727272727273,9,False,False,10,False,True,True,True,1.0,1.0
-2024,7,Uncle Rico,Joe Mantegna,102.56,86.86,1.0,0.0,0.0,1.0,15.700000000000003,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,11,False,True,False,False,,
-2024,7,ThreatLevelMidnight,Buttermilk Puuump,94.6,139.9,0.0,1.0,0.0,0.0,-45.30000000000001,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,2,True,False,False,False,,
-2024,7,Ginger FC,malle_dips_pouches,112.46,113.3,0.0,1.0,0.0,0.0,-0.8400000000000034,8,3,0,0.7272727272727273,-0.7272727272727273,4,False,False,3,True,False,True,True,0.0,0.0
-2024,8,malle_dips_pouches,The Big Gronkowski,82.36,110.34,0.0,1.0,0.0,0.0,-27.980000000000004,0,11,0,0.0,0.0,12,False,True,9,False,False,False,False,,
+2024,7,Pop Lockett Drop it,The Big Gronkowski,79.54,112.34,0.0,1.0,0.0,0.0,-32.8,0,11,0,0.0,0.0,12,False,True,5,False,False,False,False,,
+2024,7,Buttermilk Puuump,ThreatLevelMidnight,94.6,139.9,0.0,1.0,0.0,0.0,-45.30000000000001,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,2,True,False,False,False,,
+2024,7,Joe Mantegna,Uncle Rico,102.56,86.86,1.0,0.0,0.0,1.0,15.700000000000003,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,11,False,True,False,False,,
+2024,7,Patty Primetimes,Voldemort,94.04,89.92,1.0,0.0,0.0,1.0,4.1200000000000045,3,8,0,0.2727272727272727,0.7272727272727273,9,False,False,10,False,True,True,True,1.0,1.0
+2024,8,Ginger FC,Buttermilk Puuump,126.74,113.3,1.0,0.0,0.0,1.0,13.439999999999998,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,7,False,False,False,False,,
+2024,8,Joe Mantegna,Patty Primetimes,118.16,134.04,0.0,1.0,0.0,0.0,-15.879999999999995,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,1,True,False,False,False,,
 2024,8,Malle ❤️ 🐸,Voldemort,122.74,103.92,1.0,0.0,0.0,1.0,18.819999999999993,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,11,False,True,False,False,,
-2024,8,Patty Primetimes,Joe Mantegna,118.16,134.04,0.0,1.0,0.0,0.0,-15.879999999999995,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,1,True,False,False,False,,
-2024,8,ThreatLevelMidnight,Uncle Rico,111.28,120.28,0.0,1.0,0.0,0.0,-9.0,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,5,False,False,False,True,,0.0
 2024,8,Pop Lockett Drop it,Post Mahomes,108.82,125.36,0.0,1.0,0.0,0.0,-16.540000000000006,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,3,True,False,False,False,,
-2024,8,Buttermilk Puuump,Ginger FC,126.74,113.3,1.0,0.0,0.0,1.0,13.439999999999998,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,7,False,False,False,False,,
-2024,8,The Big Gronkowski,malle_dips_pouches,110.34,82.36,1.0,0.0,0.0,1.0,27.980000000000004,3,8,0,0.2727272727272727,0.7272727272727273,9,False,False,12,False,True,False,False,,
+2024,8,The Big Gronkowski,malle_dips_pouches,82.36,110.34,0.0,1.0,0.0,0.0,-27.980000000000004,0,11,0,0.0,0.0,12,False,True,9,False,False,False,False,,
+2024,8,Uncle Rico,ThreatLevelMidnight,111.28,120.28,0.0,1.0,0.0,0.0,-9.0,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,5,False,False,False,True,,0.0
+2024,8,Buttermilk Puuump,Ginger FC,113.3,126.74,0.0,1.0,0.0,0.0,-13.439999999999998,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,2,True,False,False,False,,
+2024,8,Patty Primetimes,Joe Mantegna,134.04,118.16,1.0,0.0,0.0,1.0,15.879999999999995,11,0,0,1.0,0.0,1,True,False,6,False,False,False,False,,
 2024,8,Voldemort,Malle ❤️ 🐸,103.92,122.74,0.0,1.0,0.0,0.0,-18.819999999999993,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,4,False,False,False,False,,
-2024,8,Joe Mantegna,Patty Primetimes,134.04,118.16,1.0,0.0,0.0,1.0,15.879999999999995,11,0,0,1.0,0.0,1,True,False,6,False,False,False,False,,
-2024,8,Uncle Rico,ThreatLevelMidnight,120.28,111.28,1.0,0.0,0.0,1.0,9.0,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,8,False,False,False,True,,1.0
 2024,8,Post Mahomes,Pop Lockett Drop it,125.36,108.82,1.0,0.0,0.0,1.0,16.540000000000006,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,10,False,True,False,False,,
-2024,8,Ginger FC,Buttermilk Puuump,113.3,126.74,0.0,1.0,0.0,0.0,-13.439999999999998,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,2,True,False,False,False,,
+2024,8,malle_dips_pouches,The Big Gronkowski,110.34,82.36,1.0,0.0,0.0,1.0,27.980000000000004,3,8,0,0.2727272727272727,0.7272727272727273,9,False,False,12,False,True,False,False,,
+2024,8,ThreatLevelMidnight,Uncle Rico,120.28,111.28,1.0,0.0,0.0,1.0,9.0,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,8,False,False,False,True,,1.0
+2024,9,Malle ❤️ 🐸,Joe Mantegna,124.4,99.72,1.0,0.0,0.0,1.0,24.680000000000007,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,9,False,False,False,False,,
 2024,9,The Big Gronkowski,Post Mahomes,128.82,113.4,1.0,0.0,0.0,1.0,15.419999999999987,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,7,False,False,False,False,,
-2024,9,Joe Mantegna,Malle ❤️ 🐸,124.4,99.72,1.0,0.0,0.0,1.0,24.680000000000007,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,9,False,False,False,False,,
-2024,9,Pop Lockett Drop it,Voldemort,102.5,119.54,0.0,1.0,0.0,0.0,-17.040000000000006,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,5,False,False,False,False,,
-2024,9,Patty Primetimes,ThreatLevelMidnight,69.06,127.96,0.0,1.0,0.0,0.0,-58.89999999999999,0,11,0,0.0,0.0,12,False,True,3,True,False,False,False,,
+2024,9,ThreatLevelMidnight,Patty Primetimes,69.06,127.96,0.0,1.0,0.0,0.0,-58.89999999999999,0,11,0,0.0,0.0,12,False,True,3,True,False,False,False,,
 2024,9,Uncle Rico,Ginger FC,156.54,117.98,1.0,0.0,0.0,1.0,38.55999999999999,11,0,0,1.0,0.0,1,True,False,6,False,False,False,False,,
+2024,9,Voldemort,Pop Lockett Drop it,102.5,119.54,0.0,1.0,0.0,0.0,-17.040000000000006,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,5,False,False,False,False,,
 2024,9,malle_dips_pouches,Buttermilk Puuump,88.58,77.7,1.0,0.0,0.0,1.0,10.879999999999995,2,9,0,0.18181818181818182,0.8181818181818181,10,False,True,11,False,True,False,False,,
+2024,9,Joe Mantegna,Malle ❤️ 🐸,99.72,124.4,0.0,1.0,0.0,0.0,-24.680000000000007,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,4,False,False,False,False,,
 2024,9,Post Mahomes,The Big Gronkowski,113.4,128.82,0.0,1.0,0.0,0.0,-15.419999999999987,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,2,True,False,False,False,,
-2024,9,Malle ❤️ 🐸,Joe Mantegna,99.72,124.4,0.0,1.0,0.0,0.0,-24.680000000000007,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,4,False,False,False,False,,
-2024,9,Voldemort,Pop Lockett Drop it,119.54,102.5,1.0,0.0,0.0,1.0,17.040000000000006,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,8,False,False,False,False,,
-2024,9,ThreatLevelMidnight,Patty Primetimes,127.96,69.06,1.0,0.0,0.0,1.0,58.89999999999999,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,12,False,True,False,False,,
+2024,9,Patty Primetimes,ThreatLevelMidnight,127.96,69.06,1.0,0.0,0.0,1.0,58.89999999999999,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,12,False,True,False,False,,
 2024,9,Ginger FC,Uncle Rico,117.98,156.54,0.0,1.0,0.0,0.0,-38.55999999999999,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,1,True,False,False,False,,
+2024,9,Pop Lockett Drop it,Voldemort,119.54,102.5,1.0,0.0,0.0,1.0,17.040000000000006,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,8,False,False,False,False,,
 2024,9,Buttermilk Puuump,malle_dips_pouches,77.7,88.58,0.0,1.0,0.0,0.0,-10.879999999999995,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,10,False,True,False,False,,
-2024,10,The Big Gronkowski,Voldemort,102.62,86.6,1.0,0.0,0.0,1.0,16.02000000000001,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,10,False,True,False,False,,
-2024,10,Malle ❤️ 🐸,ThreatLevelMidnight,92.38,132.44,0.0,1.0,0.0,0.0,-40.06,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,1,True,False,False,False,,
+2024,10,Ginger FC,Patty Primetimes,79.74,89.68,0.0,1.0,0.0,0.0,-9.940000000000012,0,11,0,0.0,0.0,12,False,True,8,False,False,False,True,,0.0
 2024,10,Joe Mantegna,Pop Lockett Drop it,88.08,112.18,0.0,1.0,0.0,0.0,-24.10000000000001,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,3,True,False,False,False,,
-2024,10,malle_dips_pouches,Post Mahomes,123.3,93.94,1.0,0.0,0.0,1.0,29.36,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,6,False,False,False,False,,
-2024,10,Patty Primetimes,Ginger FC,79.74,89.68,0.0,1.0,0.0,0.0,-9.940000000000012,0,11,0,0.0,0.0,12,False,True,8,False,False,False,True,,0.0
-2024,10,Buttermilk Puuump,Uncle Rico,97.24,84.3,1.0,0.0,0.0,1.0,12.939999999999998,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,11,False,True,False,False,,
-2024,10,Voldemort,The Big Gronkowski,86.6,102.62,0.0,1.0,0.0,0.0,-16.02000000000001,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,4,False,False,False,False,,
-2024,10,ThreatLevelMidnight,Malle ❤️ 🐸,132.44,92.38,1.0,0.0,0.0,1.0,40.06,11,0,0,1.0,0.0,1,True,False,7,False,False,False,False,,
+2024,10,Malle ❤️ 🐸,ThreatLevelMidnight,92.38,132.44,0.0,1.0,0.0,0.0,-40.06,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,1,True,False,False,False,,
+2024,10,Post Mahomes,malle_dips_pouches,123.3,93.94,1.0,0.0,0.0,1.0,29.36,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,6,False,False,False,False,,
+2024,10,The Big Gronkowski,Voldemort,102.62,86.6,1.0,0.0,0.0,1.0,16.02000000000001,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,10,False,True,False,False,,
+2024,10,Uncle Rico,Buttermilk Puuump,97.24,84.3,1.0,0.0,0.0,1.0,12.939999999999998,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,11,False,True,False,False,,
+2024,10,Patty Primetimes,Ginger FC,89.68,79.74,1.0,0.0,0.0,1.0,9.940000000000012,4,7,0,0.36363636363636365,0.6363636363636364,8,False,False,12,False,True,False,True,,1.0
 2024,10,Pop Lockett Drop it,Joe Mantegna,112.18,88.08,1.0,0.0,0.0,1.0,24.10000000000001,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,9,False,False,False,False,,
-2024,10,Post Mahomes,malle_dips_pouches,93.94,123.3,0.0,1.0,0.0,0.0,-29.36,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,2,True,False,False,False,,
-2024,10,Ginger FC,Patty Primetimes,89.68,79.74,1.0,0.0,0.0,1.0,9.940000000000012,4,7,0,0.36363636363636365,0.6363636363636364,8,False,False,12,False,True,False,True,,1.0
-2024,10,Uncle Rico,Buttermilk Puuump,84.3,97.24,0.0,1.0,0.0,0.0,-12.939999999999998,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,5,False,False,False,False,,
-2024,11,Joe Mantegna,The Big Gronkowski,105.24,90.86,1.0,0.0,0.0,1.0,14.379999999999995,4,7,0,0.36363636363636365,0.6363636363636364,8,False,False,9,False,False,False,False,,
+2024,10,ThreatLevelMidnight,Malle ❤️ 🐸,132.44,92.38,1.0,0.0,0.0,1.0,40.06,11,0,0,1.0,0.0,1,True,False,7,False,False,False,False,,
+2024,10,malle_dips_pouches,Post Mahomes,93.94,123.3,0.0,1.0,0.0,0.0,-29.36,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,2,True,False,False,False,,
+2024,10,Voldemort,The Big Gronkowski,86.6,102.62,0.0,1.0,0.0,0.0,-16.02000000000001,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,4,False,False,False,False,,
+2024,10,Buttermilk Puuump,Uncle Rico,84.3,97.24,0.0,1.0,0.0,0.0,-12.939999999999998,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,5,False,False,False,False,,
 2024,11,Malle ❤️ 🐸,Ginger FC,113.24,106.84,1.0,0.0,0.0,1.0,6.3999999999999915,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,7,False,False,False,True,,1.0
-2024,11,Voldemort,Post Mahomes,110.78,122.68,0.0,1.0,0.0,0.0,-11.900000000000006,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,3,True,False,False,False,,
-2024,11,ThreatLevelMidnight,Pop Lockett Drop it,111.28,83.08,1.0,0.0,0.0,1.0,28.200000000000003,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,11,False,True,False,False,,
-2024,11,malle_dips_pouches,Uncle Rico,88.84,125.94,0.0,1.0,0.0,0.0,-37.099999999999994,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,2,True,False,False,False,,
 2024,11,Patty Primetimes,Buttermilk Puuump,81.64,145.68,0.0,1.0,0.0,0.0,-64.04,0,11,0,0.0,0.0,12,False,True,1,True,False,False,False,,
-2024,11,The Big Gronkowski,Joe Mantegna,90.86,105.24,0.0,1.0,0.0,0.0,-14.379999999999995,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,8,False,False,False,False,,
+2024,11,The Big Gronkowski,Joe Mantegna,105.24,90.86,1.0,0.0,0.0,1.0,14.379999999999995,4,7,0,0.36363636363636365,0.6363636363636364,8,False,False,9,False,False,False,False,,
+2024,11,ThreatLevelMidnight,Pop Lockett Drop it,111.28,83.08,1.0,0.0,0.0,1.0,28.200000000000003,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,11,False,True,False,False,,
+2024,11,Uncle Rico,malle_dips_pouches,88.84,125.94,0.0,1.0,0.0,0.0,-37.099999999999994,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,2,True,False,False,False,,
+2024,11,Voldemort,Post Mahomes,110.78,122.68,0.0,1.0,0.0,0.0,-11.900000000000006,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,3,True,False,False,False,,
 2024,11,Ginger FC,Malle ❤️ 🐸,106.84,113.24,0.0,1.0,0.0,0.0,-6.3999999999999915,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,4,False,False,False,True,,0.0
-2024,11,Post Mahomes,Voldemort,122.68,110.78,1.0,0.0,0.0,1.0,11.900000000000006,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,6,False,False,False,False,,
-2024,11,Pop Lockett Drop it,ThreatLevelMidnight,83.08,111.28,0.0,1.0,0.0,0.0,-28.200000000000003,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,5,False,False,False,False,,
-2024,11,Uncle Rico,malle_dips_pouches,125.94,88.84,1.0,0.0,0.0,1.0,37.099999999999994,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,10,False,True,False,False,,
 2024,11,Buttermilk Puuump,Patty Primetimes,145.68,81.64,1.0,0.0,0.0,1.0,64.04,11,0,0,1.0,0.0,1,True,False,12,False,True,False,False,,
-2024,12,ThreatLevelMidnight,The Big Gronkowski,105.42,109.02,0.0,1.0,0.0,0.0,-3.5999999999999943,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,4,False,False,True,True,0.0,0.0
-2024,12,Malle ❤️ 🐸,Buttermilk Puuump,115.96,90.46,1.0,0.0,0.0,1.0,25.5,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,10,False,True,False,False,,
-2024,12,malle_dips_pouches,Voldemort,99.32,88.8,1.0,0.0,0.0,1.0,10.519999999999996,4,7,0,0.36363636363636365,0.6363636363636364,8,False,False,12,False,True,False,False,,
+2024,11,Joe Mantegna,The Big Gronkowski,90.86,105.24,0.0,1.0,0.0,0.0,-14.379999999999995,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,8,False,False,False,False,,
+2024,11,Pop Lockett Drop it,ThreatLevelMidnight,83.08,111.28,0.0,1.0,0.0,0.0,-28.200000000000003,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,5,False,False,False,False,,
+2024,11,malle_dips_pouches,Uncle Rico,125.94,88.84,1.0,0.0,0.0,1.0,37.099999999999994,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,10,False,True,False,False,,
+2024,11,Post Mahomes,Voldemort,122.68,110.78,1.0,0.0,0.0,1.0,11.900000000000006,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,6,False,False,False,False,,
 2024,12,Joe Mantegna,Post Mahomes,110.78,97.28,1.0,0.0,0.0,1.0,13.5,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,9,False,False,False,False,,
+2024,12,Malle ❤️ 🐸,Buttermilk Puuump,115.96,90.46,1.0,0.0,0.0,1.0,25.5,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,10,False,True,False,False,,
 2024,12,Pop Lockett Drop it,Ginger FC,102.78,90.32,1.0,0.0,0.0,1.0,12.460000000000008,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,11,False,True,False,False,,
-2024,12,Patty Primetimes,Uncle Rico,106.76,127.5,0.0,1.0,0.0,0.0,-20.739999999999995,7,4,0,0.6363636363636364,-0.6363636363636364,5,False,False,1,True,False,False,False,,
-2024,12,The Big Gronkowski,ThreatLevelMidnight,109.02,105.42,1.0,0.0,0.0,1.0,3.5999999999999943,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,6,False,False,True,True,1.0,1.0
-2024,12,Buttermilk Puuump,Malle ❤️ 🐸,90.46,115.96,0.0,1.0,0.0,0.0,-25.5,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,2,True,False,False,False,,
-2024,12,Voldemort,malle_dips_pouches,88.8,99.32,0.0,1.0,0.0,0.0,-10.519999999999996,0,11,0,0.0,0.0,12,False,True,8,False,False,False,False,,
+2024,12,The Big Gronkowski,ThreatLevelMidnight,105.42,109.02,0.0,1.0,0.0,0.0,-3.5999999999999943,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,4,False,False,True,True,0.0,0.0
+2024,12,Uncle Rico,Patty Primetimes,106.76,127.5,0.0,1.0,0.0,0.0,-20.739999999999995,7,4,0,0.6363636363636364,-0.6363636363636364,5,False,False,1,True,False,False,False,,
+2024,12,Voldemort,malle_dips_pouches,99.32,88.8,1.0,0.0,0.0,1.0,10.519999999999996,4,7,0,0.36363636363636365,0.6363636363636364,8,False,False,12,False,True,False,False,,
 2024,12,Post Mahomes,Joe Mantegna,97.28,110.78,0.0,1.0,0.0,0.0,-13.5,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,3,True,False,False,False,,
+2024,12,Buttermilk Puuump,Malle ❤️ 🐸,90.46,115.96,0.0,1.0,0.0,0.0,-25.5,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,2,True,False,False,False,,
 2024,12,Ginger FC,Pop Lockett Drop it,90.32,102.78,0.0,1.0,0.0,0.0,-12.460000000000008,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,7,False,False,False,False,,
-2024,12,Uncle Rico,Patty Primetimes,127.5,106.76,1.0,0.0,0.0,1.0,20.739999999999995,11,0,0,1.0,0.0,1,True,False,5,False,False,False,False,,
+2024,12,ThreatLevelMidnight,The Big Gronkowski,109.02,105.42,1.0,0.0,0.0,1.0,3.5999999999999943,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,6,False,False,True,True,1.0,1.0
+2024,12,Patty Primetimes,Uncle Rico,127.5,106.76,1.0,0.0,0.0,1.0,20.739999999999995,11,0,0,1.0,0.0,1,True,False,5,False,False,False,False,,
+2024,12,malle_dips_pouches,Voldemort,88.8,99.32,0.0,1.0,0.0,0.0,-10.519999999999996,0,11,0,0.0,0.0,12,False,True,8,False,False,False,False,,
+2024,13,Pop Lockett Drop it,Buttermilk Puuump,158.18,139.74,1.0,0.0,0.0,1.0,18.439999999999998,11,0,0,1.0,0.0,1,True,False,2,True,False,False,False,,
 2024,13,The Big Gronkowski,Ginger FC,119.06,105.86,1.0,0.0,0.0,1.0,13.200000000000003,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,8,False,False,False,False,,
-2024,13,Malle ❤️ 🐸,Uncle Rico,88.04,81.22,1.0,0.0,0.0,1.0,6.820000000000007,1,10,0,0.09090909090909091,0.9090909090909091,11,False,True,12,False,True,False,True,,1.0
-2024,13,Joe Mantegna,Voldemort,97.62,130.4,0.0,1.0,0.0,0.0,-32.78,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,4,False,False,False,False,,
 2024,13,ThreatLevelMidnight,Post Mahomes,91.3,113.58,0.0,1.0,0.0,0.0,-22.28,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,7,False,False,False,False,,
-2024,13,Buttermilk Puuump,Pop Lockett Drop it,158.18,139.74,1.0,0.0,0.0,1.0,18.439999999999998,11,0,0,1.0,0.0,1,True,False,2,True,False,False,False,,
+2024,13,Uncle Rico,Malle ❤️ 🐸,88.04,81.22,1.0,0.0,0.0,1.0,6.820000000000007,1,10,0,0.09090909090909091,0.9090909090909091,11,False,True,12,False,True,False,True,,1.0
+2024,13,Voldemort,Joe Mantegna,97.62,130.4,0.0,1.0,0.0,0.0,-32.78,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,4,False,False,False,False,,
 2024,13,malle_dips_pouches,Patty Primetimes,137.1,122.14,1.0,0.0,0.0,1.0,14.959999999999994,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,5,False,False,False,False,,
+2024,13,Buttermilk Puuump,Pop Lockett Drop it,139.74,158.18,0.0,1.0,0.0,0.0,-18.439999999999998,10,1,0,0.9090909090909091,-0.9090909090909091,2,True,False,1,True,False,False,False,,
 2024,13,Ginger FC,The Big Gronkowski,105.86,119.06,0.0,1.0,0.0,0.0,-13.200000000000003,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,6,False,False,False,False,,
-2024,13,Uncle Rico,Malle ❤️ 🐸,81.22,88.04,0.0,1.0,0.0,0.0,-6.820000000000007,0,11,0,0.0,0.0,12,False,True,11,False,True,False,True,,0.0
-2024,13,Voldemort,Joe Mantegna,130.4,97.62,1.0,0.0,0.0,1.0,32.78,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,9,False,False,False,False,,
 2024,13,Post Mahomes,ThreatLevelMidnight,113.58,91.3,1.0,0.0,0.0,1.0,22.28,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,10,False,True,False,False,,
-2024,13,Pop Lockett Drop it,Buttermilk Puuump,139.74,158.18,0.0,1.0,0.0,0.0,-18.439999999999998,10,1,0,0.9090909090909091,-0.9090909090909091,2,True,False,1,True,False,False,False,,
+2024,13,Malle ❤️ 🐸,Uncle Rico,81.22,88.04,0.0,1.0,0.0,0.0,-6.820000000000007,0,11,0,0.0,0.0,12,False,True,11,False,True,False,True,,0.0
+2024,13,Joe Mantegna,Voldemort,130.4,97.62,1.0,0.0,0.0,1.0,32.78,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,9,False,False,False,False,,
 2024,13,Patty Primetimes,malle_dips_pouches,122.14,137.1,0.0,1.0,0.0,0.0,-14.959999999999994,7,4,0,0.6363636363636364,-0.6363636363636364,5,False,False,3,True,False,False,False,,
-2024,14,Buttermilk Puuump,The Big Gronkowski,105.66,133.32,0.0,1.0,0.0,0.0,-27.659999999999997,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,3,True,False,False,False,,
-2024,14,Patty Primetimes,Malle ❤️ 🐸,103.32,124.98,0.0,1.0,0.0,0.0,-21.66000000000001,3,7,1,0.3181818181818182,-0.3181818181818182,8,False,False,6,False,False,False,False,,
-2024,14,ThreatLevelMidnight,Voldemort,176.08,148.6,1.0,0.0,0.0,1.0,27.480000000000018,11,0,0,1.0,0.0,1,True,False,2,True,False,False,False,,
-2024,14,malle_dips_pouches,Joe Mantegna,57.44,126.18,0.0,1.0,0.0,0.0,-68.74000000000001,0,11,0,0.0,0.0,12,False,True,4,False,False,False,False,,
-2024,14,Pop Lockett Drop it,Uncle Rico,125.8,94.02,1.0,0.0,0.0,1.0,31.78,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,11,False,True,False,False,,
+2024,14,Joe Mantegna,malle_dips_pouches,57.44,126.18,0.0,1.0,0.0,0.0,-68.74000000000001,0,11,0,0.0,0.0,12,False,True,4,False,False,False,False,,
+2024,14,Malle ❤️ 🐸,Patty Primetimes,103.32,124.98,0.0,1.0,0.0,0.0,-21.66000000000001,3,7,1,0.3181818181818182,-0.3181818181818182,8,False,False,6,False,False,False,False,,
 2024,14,Post Mahomes,Ginger FC,103.32,99.04,1.0,0.0,0.0,1.0,4.279999999999987,3,7,1,0.3181818181818182,0.6818181818181819,8,False,False,10,False,True,True,True,1.0,1.0
-2024,14,The Big Gronkowski,Buttermilk Puuump,133.32,105.66,1.0,0.0,0.0,1.0,27.659999999999997,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,7,False,False,False,False,,
-2024,14,Malle ❤️ 🐸,Patty Primetimes,124.98,103.32,1.0,0.0,0.0,1.0,21.66000000000001,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,8,False,False,False,False,,
-2024,14,Voldemort,ThreatLevelMidnight,148.6,176.08,0.0,1.0,0.0,0.0,-27.480000000000018,10,1,0,0.9090909090909091,-0.9090909090909091,2,True,False,1,True,False,False,False,,
-2024,14,Joe Mantegna,malle_dips_pouches,126.18,57.44,1.0,0.0,0.0,1.0,68.74000000000001,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,12,False,True,False,False,,
-2024,14,Uncle Rico,Pop Lockett Drop it,94.02,125.8,0.0,1.0,0.0,0.0,-31.78,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,5,False,False,False,False,,
+2024,14,The Big Gronkowski,Buttermilk Puuump,105.66,133.32,0.0,1.0,0.0,0.0,-27.659999999999997,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,3,True,False,False,False,,
+2024,14,Uncle Rico,Pop Lockett Drop it,125.8,94.02,1.0,0.0,0.0,1.0,31.78,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,11,False,True,False,False,,
+2024,14,Voldemort,ThreatLevelMidnight,176.08,148.6,1.0,0.0,0.0,1.0,27.480000000000018,11,0,0,1.0,0.0,1,True,False,2,True,False,False,False,,
+2024,14,malle_dips_pouches,Joe Mantegna,126.18,57.44,1.0,0.0,0.0,1.0,68.74000000000001,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,12,False,True,False,False,,
+2024,14,Patty Primetimes,Malle ❤️ 🐸,124.98,103.32,1.0,0.0,0.0,1.0,21.66000000000001,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,8,False,False,False,False,,
 2024,14,Ginger FC,Post Mahomes,99.04,103.32,0.0,1.0,0.0,0.0,-4.279999999999987,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,8,False,False,True,True,0.0,0.0
-2025,1,The Big Gronkowski,Post Mahomes,72.68,125.82,0.0,1.0,0.0,0.0,-53.139999999999986,0,11,0,0.0,0.0,12,False,True,2,True,False,False,False,,
-2025,1,Patty Primetimes,Malle ❤️ 🐸,74.72,140.36,0.0,1.0,0.0,0.0,-65.64000000000001,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,1,True,False,False,False,,
-2025,1,Voldemort,Uncle Rico,93.92,117.12,0.0,1.0,0.0,0.0,-23.200000000000003,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,4,False,False,False,False,,
+2024,14,Buttermilk Puuump,The Big Gronkowski,133.32,105.66,1.0,0.0,0.0,1.0,27.659999999999997,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,7,False,False,False,False,,
+2024,14,Pop Lockett Drop it,Uncle Rico,94.02,125.8,0.0,1.0,0.0,0.0,-31.78,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,5,False,False,False,False,,
+2024,14,ThreatLevelMidnight,Voldemort,148.6,176.08,0.0,1.0,0.0,0.0,-27.480000000000018,10,1,0,0.9090909090909091,-0.9090909090909091,2,True,False,1,True,False,False,False,,
+2025,1,Ginger FC,Buttermilk Puuump,102.82,93.7,1.0,0.0,0.0,1.0,9.11999999999999,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,8,False,False,False,True,,1.0
 2025,1,Joe Mantegna,ThreatLevelMidnight,83.04,100.88,0.0,1.0,0.0,0.0,-17.83999999999999,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,6,False,False,False,False,,
-2025,1,malle_dips_pouches,Pop Lockett Drop it,119.26,89.68,1.0,0.0,0.0,1.0,29.58,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,9,False,False,False,False,,
-2025,1,Buttermilk Puuump,Ginger FC,102.82,93.7,1.0,0.0,0.0,1.0,9.11999999999999,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,8,False,False,False,True,,1.0
-2025,1,Post Mahomes,The Big Gronkowski,125.82,72.68,1.0,0.0,0.0,1.0,53.139999999999986,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,12,False,True,False,False,,
-2025,1,Malle ❤️ 🐸,Patty Primetimes,140.36,74.72,1.0,0.0,0.0,1.0,65.64000000000001,11,0,0,1.0,0.0,1,True,False,11,False,True,False,False,,
-2025,1,Uncle Rico,Voldemort,117.12,93.92,1.0,0.0,0.0,1.0,23.200000000000003,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,7,False,False,False,False,,
+2025,1,Malle ❤️ 🐸,Patty Primetimes,74.72,140.36,0.0,1.0,0.0,0.0,-65.64000000000001,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,1,True,False,False,False,,
+2025,1,Pop Lockett Drop it,malle_dips_pouches,119.26,89.68,1.0,0.0,0.0,1.0,29.58,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,9,False,False,False,False,,
+2025,1,The Big Gronkowski,Post Mahomes,72.68,125.82,0.0,1.0,0.0,0.0,-53.139999999999986,0,11,0,0.0,0.0,12,False,True,2,True,False,False,False,,
+2025,1,Uncle Rico,Voldemort,93.92,117.12,0.0,1.0,0.0,0.0,-23.200000000000003,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,4,False,False,False,False,,
+2025,1,Buttermilk Puuump,Ginger FC,93.7,102.82,0.0,1.0,0.0,0.0,-9.11999999999999,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,5,False,False,False,True,,0.0
 2025,1,ThreatLevelMidnight,Joe Mantegna,100.88,83.04,1.0,0.0,0.0,1.0,17.83999999999999,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,10,False,True,False,False,,
-2025,1,Pop Lockett Drop it,malle_dips_pouches,89.68,119.26,0.0,1.0,0.0,0.0,-29.58,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,3,True,False,False,False,,
-2025,1,Ginger FC,Buttermilk Puuump,93.7,102.82,0.0,1.0,0.0,0.0,-9.11999999999999,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,5,False,False,False,True,,0.0
-2025,2,ThreatLevelMidnight,The Big Gronkowski,95.74,101.2,0.0,1.0,0.0,0.0,-5.460000000000008,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,5,False,False,False,True,,0.0
-2025,2,Malle ❤️ 🐸,Voldemort,79.4,111.0,0.0,1.0,0.0,0.0,-31.599999999999994,0,11,0,0.0,0.0,12,False,True,4,False,False,False,False,,
+2025,1,Patty Primetimes,Malle ❤️ 🐸,140.36,74.72,1.0,0.0,0.0,1.0,65.64000000000001,11,0,0,1.0,0.0,1,True,False,11,False,True,False,False,,
+2025,1,malle_dips_pouches,Pop Lockett Drop it,89.68,119.26,0.0,1.0,0.0,0.0,-29.58,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,3,True,False,False,False,,
+2025,1,Post Mahomes,The Big Gronkowski,125.82,72.68,1.0,0.0,0.0,1.0,53.139999999999986,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,12,False,True,False,False,,
+2025,1,Voldemort,Uncle Rico,117.12,93.92,1.0,0.0,0.0,1.0,23.200000000000003,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,7,False,False,False,False,,
 2025,2,Joe Mantegna,Ginger FC,157.44,98.98,1.0,0.0,0.0,1.0,58.459999999999994,11,0,0,1.0,0.0,1,True,False,6,False,False,False,False,,
-2025,2,Pop Lockett Drop it,Uncle Rico,97.24,130.4,0.0,1.0,0.0,0.0,-33.16000000000001,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,3,True,False,False,False,,
-2025,2,Patty Primetimes,Post Mahomes,92.58,95.22,0.0,1.0,0.0,0.0,-2.6400000000000006,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,9,False,False,True,True,0.0,0.0
+2025,2,Malle ❤️ 🐸,Voldemort,79.4,111.0,0.0,1.0,0.0,0.0,-31.599999999999994,0,11,0,0.0,0.0,12,False,True,4,False,False,False,False,,
+2025,2,Post Mahomes,Patty Primetimes,92.58,95.22,0.0,1.0,0.0,0.0,-2.6400000000000006,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,9,False,False,True,True,0.0,0.0
+2025,2,The Big Gronkowski,ThreatLevelMidnight,95.74,101.2,0.0,1.0,0.0,0.0,-5.460000000000008,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,5,False,False,False,True,,0.0
+2025,2,Uncle Rico,Pop Lockett Drop it,97.24,130.4,0.0,1.0,0.0,0.0,-33.16000000000001,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,3,True,False,False,False,,
 2025,2,malle_dips_pouches,Buttermilk Puuump,88.74,134.16,0.0,1.0,0.0,0.0,-45.42,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,2,True,False,False,False,,
-2025,2,The Big Gronkowski,ThreatLevelMidnight,101.2,95.74,1.0,0.0,0.0,1.0,5.460000000000008,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,8,False,False,False,True,,1.0
-2025,2,Voldemort,Malle ❤️ 🐸,111.0,79.4,1.0,0.0,0.0,1.0,31.599999999999994,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,12,False,True,False,False,,
 2025,2,Ginger FC,Joe Mantegna,98.98,157.44,0.0,1.0,0.0,0.0,-58.459999999999994,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,1,True,False,False,False,,
-2025,2,Uncle Rico,Pop Lockett Drop it,130.4,97.24,1.0,0.0,0.0,1.0,33.16000000000001,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,7,False,False,False,False,,
-2025,2,Post Mahomes,Patty Primetimes,95.22,92.58,1.0,0.0,0.0,1.0,2.6400000000000006,3,8,0,0.2727272727272727,0.7272727272727273,9,False,False,10,False,True,True,True,1.0,1.0
+2025,2,Voldemort,Malle ❤️ 🐸,111.0,79.4,1.0,0.0,0.0,1.0,31.599999999999994,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,12,False,True,False,False,,
+2025,2,Patty Primetimes,Post Mahomes,95.22,92.58,1.0,0.0,0.0,1.0,2.6400000000000006,3,8,0,0.2727272727272727,0.7272727272727273,9,False,False,10,False,True,True,True,1.0,1.0
+2025,2,ThreatLevelMidnight,The Big Gronkowski,101.2,95.74,1.0,0.0,0.0,1.0,5.460000000000008,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,8,False,False,False,True,,1.0
+2025,2,Pop Lockett Drop it,Uncle Rico,130.4,97.24,1.0,0.0,0.0,1.0,33.16000000000001,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,7,False,False,False,False,,
 2025,2,Buttermilk Puuump,malle_dips_pouches,134.16,88.74,1.0,0.0,0.0,1.0,45.42,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,11,False,True,False,False,,
-2025,3,Joe Mantegna,The Big Gronkowski,107.84,78.32,1.0,0.0,0.0,1.0,29.52000000000001,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,11,False,True,False,False,,
+2025,3,Ginger FC,malle_dips_pouches,103.6,79.84,1.0,0.0,0.0,1.0,23.75999999999999,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,10,False,True,False,False,,
 2025,3,Malle ❤️ 🐸,Pop Lockett Drop it,90.98,117.02,0.0,1.0,0.0,0.0,-26.039999999999992,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,3,True,False,False,False,,
+2025,3,The Big Gronkowski,Joe Mantegna,107.84,78.32,1.0,0.0,0.0,1.0,29.52000000000001,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,11,False,True,False,False,,
+2025,3,ThreatLevelMidnight,Patty Primetimes,105.82,115.02,0.0,1.0,0.0,0.0,-9.200000000000003,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,4,False,False,False,True,,0.0
+2025,3,Uncle Rico,Buttermilk Puuump,141.02,76.28,1.0,0.0,0.0,1.0,64.74000000000001,11,0,0,1.0,0.0,1,True,False,12,False,True,False,False,,
 2025,3,Voldemort,Post Mahomes,84.06,137.56,0.0,1.0,0.0,0.0,-53.5,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,2,True,False,False,False,,
-2025,3,Patty Primetimes,ThreatLevelMidnight,105.82,115.02,0.0,1.0,0.0,0.0,-9.200000000000003,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,4,False,False,False,True,,0.0
-2025,3,malle_dips_pouches,Ginger FC,103.6,79.84,1.0,0.0,0.0,1.0,23.75999999999999,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,10,False,True,False,False,,
-2025,3,Buttermilk Puuump,Uncle Rico,141.02,76.28,1.0,0.0,0.0,1.0,64.74000000000001,11,0,0,1.0,0.0,1,True,False,12,False,True,False,False,,
-2025,3,The Big Gronkowski,Joe Mantegna,78.32,107.84,0.0,1.0,0.0,0.0,-29.52000000000001,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,5,False,False,False,False,,
+2025,3,malle_dips_pouches,Ginger FC,79.84,103.6,0.0,1.0,0.0,0.0,-23.75999999999999,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,7,False,False,False,False,,
 2025,3,Pop Lockett Drop it,Malle ❤️ 🐸,117.02,90.98,1.0,0.0,0.0,1.0,26.039999999999992,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,8,False,False,False,False,,
+2025,3,Joe Mantegna,The Big Gronkowski,78.32,107.84,0.0,1.0,0.0,0.0,-29.52000000000001,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,5,False,False,False,False,,
+2025,3,Patty Primetimes,ThreatLevelMidnight,115.02,105.82,1.0,0.0,0.0,1.0,9.200000000000003,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,6,False,False,False,True,,1.0
+2025,3,Buttermilk Puuump,Uncle Rico,76.28,141.02,0.0,1.0,0.0,0.0,-64.74000000000001,0,11,0,0.0,0.0,12,False,True,1,True,False,False,False,,
 2025,3,Post Mahomes,Voldemort,137.56,84.06,1.0,0.0,0.0,1.0,53.5,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,9,False,False,False,False,,
-2025,3,ThreatLevelMidnight,Patty Primetimes,115.02,105.82,1.0,0.0,0.0,1.0,9.200000000000003,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,6,False,False,False,True,,1.0
-2025,3,Ginger FC,malle_dips_pouches,79.84,103.6,0.0,1.0,0.0,0.0,-23.75999999999999,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,7,False,False,False,False,,
-2025,3,Uncle Rico,Buttermilk Puuump,76.28,141.02,0.0,1.0,0.0,0.0,-64.74000000000001,0,11,0,0.0,0.0,12,False,True,1,True,False,False,False,,
-2025,4,The Big Gronkowski,Ginger FC,90.42,97.52,0.0,1.0,0.0,0.0,-7.099999999999994,0,11,0,0.0,0.0,12,False,True,9,False,False,False,True,,0.0
+2025,4,Joe Mantegna,Patty Primetimes,94.24,131.86,0.0,1.0,0.0,0.0,-37.62000000000002,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,3,True,False,False,False,,
 2025,4,Malle ❤️ 🐸,Buttermilk Puuump,123.26,144.62,0.0,1.0,0.0,0.0,-21.36,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,1,True,False,False,False,,
-2025,4,ThreatLevelMidnight,Voldemort,125.1,144.26,0.0,1.0,0.0,0.0,-19.159999999999997,8,3,0,0.7272727272727273,-0.7272727272727273,4,False,False,2,True,False,False,False,,
-2025,4,Patty Primetimes,Joe Mantegna,94.24,131.86,0.0,1.0,0.0,0.0,-37.62000000000002,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,3,True,False,False,False,,
 2025,4,Pop Lockett Drop it,Post Mahomes,93.58,123.5,0.0,1.0,0.0,0.0,-29.92,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,5,False,False,False,False,,
-2025,4,malle_dips_pouches,Uncle Rico,103.58,110.4,0.0,1.0,0.0,0.0,-6.820000000000007,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,7,False,False,False,True,,0.0
-2025,4,Ginger FC,The Big Gronkowski,97.52,90.42,1.0,0.0,0.0,1.0,7.099999999999994,3,8,0,0.2727272727272727,0.7272727272727273,9,False,False,12,False,True,False,True,,1.0
+2025,4,The Big Gronkowski,Ginger FC,90.42,97.52,0.0,1.0,0.0,0.0,-7.099999999999994,0,11,0,0.0,0.0,12,False,True,9,False,False,False,True,,0.0
+2025,4,Uncle Rico,malle_dips_pouches,103.58,110.4,0.0,1.0,0.0,0.0,-6.820000000000007,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,7,False,False,False,True,,0.0
+2025,4,Voldemort,ThreatLevelMidnight,125.1,144.26,0.0,1.0,0.0,0.0,-19.159999999999997,8,3,0,0.7272727272727273,-0.7272727272727273,4,False,False,2,True,False,False,False,,
+2025,4,Patty Primetimes,Joe Mantegna,131.86,94.24,1.0,0.0,0.0,1.0,37.62000000000002,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,10,False,True,False,False,,
 2025,4,Buttermilk Puuump,Malle ❤️ 🐸,144.62,123.26,1.0,0.0,0.0,1.0,21.36,11,0,0,1.0,0.0,1,True,False,6,False,False,False,False,,
-2025,4,Voldemort,ThreatLevelMidnight,144.26,125.1,1.0,0.0,0.0,1.0,19.159999999999997,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,4,False,False,False,False,,
-2025,4,Joe Mantegna,Patty Primetimes,131.86,94.24,1.0,0.0,0.0,1.0,37.62000000000002,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,10,False,True,False,False,,
 2025,4,Post Mahomes,Pop Lockett Drop it,123.5,93.58,1.0,0.0,0.0,1.0,29.92,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,11,False,True,False,False,,
-2025,4,Uncle Rico,malle_dips_pouches,110.4,103.58,1.0,0.0,0.0,1.0,6.820000000000007,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,8,False,False,False,True,,1.0
-2025,5,Patty Primetimes,The Big Gronkowski,66.12,107.12,0.0,1.0,0.0,0.0,-41.0,0,11,0,0.0,0.0,12,False,True,9,False,False,False,False,,
-2025,5,malle_dips_pouches,Malle ❤️ 🐸,89.34,119.1,0.0,1.0,0.0,0.0,-29.75999999999999,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,7,False,False,False,False,,
-2025,5,Joe Mantegna,Voldemort,121.9,122.88,0.0,1.0,0.0,0.0,-0.9799999999999898,7,4,0,0.6363636363636364,-0.6363636363636364,5,False,False,3,True,False,True,True,0.0,0.0
+2025,4,Ginger FC,The Big Gronkowski,97.52,90.42,1.0,0.0,0.0,1.0,7.099999999999994,3,8,0,0.2727272727272727,0.7272727272727273,9,False,False,12,False,True,False,True,,1.0
+2025,4,malle_dips_pouches,Uncle Rico,110.4,103.58,1.0,0.0,0.0,1.0,6.820000000000007,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,8,False,False,False,True,,1.0
+2025,4,ThreatLevelMidnight,Voldemort,144.26,125.1,1.0,0.0,0.0,1.0,19.159999999999997,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,4,False,False,False,False,,
+2025,5,Malle ❤️ 🐸,malle_dips_pouches,89.34,119.1,0.0,1.0,0.0,0.0,-29.75999999999999,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,7,False,False,False,False,,
+2025,5,Post Mahomes,Buttermilk Puuump,120.02,122.32,0.0,1.0,0.0,0.0,-2.299999999999997,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,4,False,False,True,True,0.0,0.0
+2025,5,The Big Gronkowski,Patty Primetimes,66.12,107.12,0.0,1.0,0.0,0.0,-41.0,0,11,0,0.0,0.0,12,False,True,9,False,False,False,False,,
 2025,5,ThreatLevelMidnight,Pop Lockett Drop it,141.46,118.46,1.0,0.0,0.0,1.0,23.000000000000014,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,8,False,False,False,False,,
-2025,5,Buttermilk Puuump,Post Mahomes,120.02,122.32,0.0,1.0,0.0,0.0,-2.299999999999997,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,4,False,False,True,True,0.0,0.0
 2025,5,Uncle Rico,Ginger FC,154.78,86.74,1.0,0.0,0.0,1.0,68.04,11,0,0,1.0,0.0,1,True,False,11,False,True,False,False,,
-2025,5,The Big Gronkowski,Patty Primetimes,107.12,66.12,1.0,0.0,0.0,1.0,41.0,3,8,0,0.2727272727272727,0.7272727272727273,9,False,False,12,False,True,False,False,,
-2025,5,Malle ❤️ 🐸,malle_dips_pouches,119.1,89.34,1.0,0.0,0.0,1.0,29.75999999999999,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,10,False,True,False,False,,
-2025,5,Voldemort,Joe Mantegna,122.88,121.9,1.0,0.0,0.0,1.0,0.9799999999999898,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,5,False,False,True,True,1.0,1.0
+2025,5,Voldemort,Joe Mantegna,121.9,122.88,0.0,1.0,0.0,0.0,-0.9799999999999898,7,4,0,0.6363636363636364,-0.6363636363636364,5,False,False,3,True,False,True,True,0.0,0.0
+2025,5,malle_dips_pouches,Malle ❤️ 🐸,119.1,89.34,1.0,0.0,0.0,1.0,29.75999999999999,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,10,False,True,False,False,,
+2025,5,Buttermilk Puuump,Post Mahomes,122.32,120.02,1.0,0.0,0.0,1.0,2.299999999999997,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,6,False,False,True,True,1.0,1.0
+2025,5,Patty Primetimes,The Big Gronkowski,107.12,66.12,1.0,0.0,0.0,1.0,41.0,3,8,0,0.2727272727272727,0.7272727272727273,9,False,False,12,False,True,False,False,,
 2025,5,Pop Lockett Drop it,ThreatLevelMidnight,118.46,141.46,0.0,1.0,0.0,0.0,-23.000000000000014,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,2,True,False,False,False,,
-2025,5,Post Mahomes,Buttermilk Puuump,122.32,120.02,1.0,0.0,0.0,1.0,2.299999999999997,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,6,False,False,True,True,1.0,1.0
 2025,5,Ginger FC,Uncle Rico,86.74,154.78,0.0,1.0,0.0,0.0,-68.04,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,1,True,False,False,False,,
-2025,6,The Big Gronkowski,Voldemort,99.84,72.0,1.0,0.0,0.0,1.0,27.840000000000003,4,7,0,0.36363636363636365,0.6363636363636364,8,False,False,12,False,True,False,False,,
-2025,6,Malle ❤️ 🐸,Uncle Rico,101.8,139.84,0.0,1.0,0.0,0.0,-38.040000000000006,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,1,True,False,False,False,,
+2025,5,Joe Mantegna,Voldemort,122.88,121.9,1.0,0.0,0.0,1.0,0.9799999999999898,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,5,False,False,True,True,1.0,1.0
+2025,6,Ginger FC,Patty Primetimes,103.06,108.6,0.0,1.0,0.0,0.0,-5.539999999999992,7,4,0,0.6363636363636364,-0.6363636363636364,5,False,False,4,False,False,False,True,,0.0
 2025,6,Joe Mantegna,Pop Lockett Drop it,81.36,76.74,1.0,0.0,0.0,1.0,4.6200000000000045,2,9,0,0.18181818181818182,0.8181818181818181,10,False,True,11,False,True,True,True,1.0,1.0
-2025,6,Buttermilk Puuump,ThreatLevelMidnight,133.54,102.42,1.0,0.0,0.0,1.0,31.11999999999999,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,6,False,False,False,False,,
-2025,6,malle_dips_pouches,Post Mahomes,132.68,92.82,1.0,0.0,0.0,1.0,39.860000000000014,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,9,False,False,False,False,,
-2025,6,Patty Primetimes,Ginger FC,103.06,108.6,0.0,1.0,0.0,0.0,-5.539999999999992,7,4,0,0.6363636363636364,-0.6363636363636364,5,False,False,4,False,False,False,True,,0.0
-2025,6,Voldemort,The Big Gronkowski,72.0,99.84,0.0,1.0,0.0,0.0,-27.840000000000003,0,11,0,0.0,0.0,12,False,True,8,False,False,False,False,,
-2025,6,Uncle Rico,Malle ❤️ 🐸,139.84,101.8,1.0,0.0,0.0,1.0,38.040000000000006,11,0,0,1.0,0.0,1,True,False,7,False,False,False,False,,
+2025,6,Post Mahomes,malle_dips_pouches,132.68,92.82,1.0,0.0,0.0,1.0,39.860000000000014,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,9,False,False,False,False,,
+2025,6,The Big Gronkowski,Voldemort,99.84,72.0,1.0,0.0,0.0,1.0,27.840000000000003,4,7,0,0.36363636363636365,0.6363636363636364,8,False,False,12,False,True,False,False,,
+2025,6,ThreatLevelMidnight,Buttermilk Puuump,133.54,102.42,1.0,0.0,0.0,1.0,31.11999999999999,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,6,False,False,False,False,,
+2025,6,Uncle Rico,Malle ❤️ 🐸,101.8,139.84,0.0,1.0,0.0,0.0,-38.040000000000006,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,1,True,False,False,False,,
+2025,6,Patty Primetimes,Ginger FC,108.6,103.06,1.0,0.0,0.0,1.0,5.539999999999992,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,5,False,False,False,True,,1.0
 2025,6,Pop Lockett Drop it,Joe Mantegna,76.74,81.36,0.0,1.0,0.0,0.0,-4.6200000000000045,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,10,False,True,True,True,0.0,0.0
-2025,6,ThreatLevelMidnight,Buttermilk Puuump,102.42,133.54,0.0,1.0,0.0,0.0,-31.11999999999999,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,2,True,False,False,False,,
-2025,6,Post Mahomes,malle_dips_pouches,92.82,132.68,0.0,1.0,0.0,0.0,-39.860000000000014,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,3,True,False,False,False,,
-2025,6,Ginger FC,Patty Primetimes,108.6,103.06,1.0,0.0,0.0,1.0,5.539999999999992,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,5,False,False,False,True,,1.0
-2025,7,The Big Gronkowski,Pop Lockett Drop it,99.36,138.98,0.0,1.0,0.0,0.0,-39.61999999999999,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,4,False,False,False,False,,
-2025,7,Malle ❤️ 🐸,Ginger FC,86.04,165.7,0.0,1.0,0.0,0.0,-79.65999999999998,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,1,True,False,False,False,,
-2025,7,Patty Primetimes,Voldemort,100.34,79.18,1.0,0.0,0.0,1.0,21.159999999999997,4,7,0,0.36363636363636365,0.6363636363636364,8,False,False,11,False,True,False,False,,
+2025,6,malle_dips_pouches,Post Mahomes,92.82,132.68,0.0,1.0,0.0,0.0,-39.860000000000014,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,3,True,False,False,False,,
+2025,6,Voldemort,The Big Gronkowski,72.0,99.84,0.0,1.0,0.0,0.0,-27.840000000000003,0,11,0,0.0,0.0,12,False,True,8,False,False,False,False,,
+2025,6,Buttermilk Puuump,ThreatLevelMidnight,102.42,133.54,0.0,1.0,0.0,0.0,-31.11999999999999,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,2,True,False,False,False,,
+2025,6,Malle ❤️ 🐸,Uncle Rico,139.84,101.8,1.0,0.0,0.0,1.0,38.040000000000006,11,0,0,1.0,0.0,1,True,False,7,False,False,False,False,,
 2025,7,Joe Mantegna,Buttermilk Puuump,151.86,111.44,1.0,0.0,0.0,1.0,40.420000000000016,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,7,False,False,False,False,,
-2025,7,malle_dips_pouches,ThreatLevelMidnight,125.42,57.74,1.0,0.0,0.0,1.0,67.68,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,12,False,True,False,False,,
-2025,7,Post Mahomes,Uncle Rico,145.02,124.54,1.0,0.0,0.0,1.0,20.480000000000004,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,6,False,False,False,False,,
-2025,7,Pop Lockett Drop it,The Big Gronkowski,138.98,99.36,1.0,0.0,0.0,1.0,39.61999999999999,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,9,False,False,False,False,,
-2025,7,Ginger FC,Malle ❤️ 🐸,165.7,86.04,1.0,0.0,0.0,1.0,79.65999999999998,11,0,0,1.0,0.0,1,True,False,10,False,True,False,False,,
-2025,7,Voldemort,Patty Primetimes,79.18,100.34,0.0,1.0,0.0,0.0,-21.159999999999997,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,8,False,False,False,False,,
+2025,7,Malle ❤️ 🐸,Ginger FC,86.04,165.7,0.0,1.0,0.0,0.0,-79.65999999999998,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,1,True,False,False,False,,
+2025,7,The Big Gronkowski,Pop Lockett Drop it,99.36,138.98,0.0,1.0,0.0,0.0,-39.61999999999999,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,4,False,False,False,False,,
+2025,7,ThreatLevelMidnight,malle_dips_pouches,125.42,57.74,1.0,0.0,0.0,1.0,67.68,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,12,False,True,False,False,,
+2025,7,Uncle Rico,Post Mahomes,145.02,124.54,1.0,0.0,0.0,1.0,20.480000000000004,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,6,False,False,False,False,,
+2025,7,Voldemort,Patty Primetimes,100.34,79.18,1.0,0.0,0.0,1.0,21.159999999999997,4,7,0,0.36363636363636365,0.6363636363636364,8,False,False,11,False,True,False,False,,
 2025,7,Buttermilk Puuump,Joe Mantegna,111.44,151.86,0.0,1.0,0.0,0.0,-40.420000000000016,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,2,True,False,False,False,,
-2025,7,ThreatLevelMidnight,malle_dips_pouches,57.74,125.42,0.0,1.0,0.0,0.0,-67.68,0,11,0,0.0,0.0,12,False,True,5,False,False,False,False,,
-2025,7,Uncle Rico,Post Mahomes,124.54,145.02,0.0,1.0,0.0,0.0,-20.480000000000004,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,3,True,False,False,False,,
-2025,8,Buttermilk Puuump,The Big Gronkowski,79.02,134.46,0.0,1.0,0.0,0.0,-55.44000000000001,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,2,True,False,False,False,,
+2025,7,Ginger FC,Malle ❤️ 🐸,165.7,86.04,1.0,0.0,0.0,1.0,79.65999999999998,11,0,0,1.0,0.0,1,True,False,10,False,True,False,False,,
+2025,7,Pop Lockett Drop it,The Big Gronkowski,138.98,99.36,1.0,0.0,0.0,1.0,39.61999999999999,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,9,False,False,False,False,,
+2025,7,malle_dips_pouches,ThreatLevelMidnight,57.74,125.42,0.0,1.0,0.0,0.0,-67.68,0,11,0,0.0,0.0,12,False,True,5,False,False,False,False,,
+2025,7,Post Mahomes,Uncle Rico,124.54,145.02,0.0,1.0,0.0,0.0,-20.480000000000004,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,3,True,False,False,False,,
+2025,7,Patty Primetimes,Voldemort,79.18,100.34,0.0,1.0,0.0,0.0,-21.159999999999997,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,8,False,False,False,False,,
+2025,8,Joe Mantegna,malle_dips_pouches,114.18,83.66,1.0,0.0,0.0,1.0,30.52000000000001,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,10,False,True,False,False,,
 2025,8,Malle ❤️ 🐸,Post Mahomes,97.62,114.96,0.0,1.0,0.0,0.0,-17.33999999999999,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,5,False,False,False,False,,
+2025,8,Pop Lockett Drop it,Patty Primetimes,97.72,169.62,0.0,1.0,0.0,0.0,-71.9,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,1,True,False,False,False,,
+2025,8,The Big Gronkowski,Buttermilk Puuump,79.02,134.46,0.0,1.0,0.0,0.0,-55.44000000000001,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,2,True,False,False,False,,
+2025,8,Uncle Rico,ThreatLevelMidnight,134.18,64.58,1.0,0.0,0.0,1.0,69.60000000000001,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,12,False,True,False,False,,
 2025,8,Voldemort,Ginger FC,85.56,130.68,0.0,1.0,0.0,0.0,-45.120000000000005,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,4,False,False,False,False,,
-2025,8,malle_dips_pouches,Joe Mantegna,114.18,83.66,1.0,0.0,0.0,1.0,30.52000000000001,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,10,False,True,False,False,,
-2025,8,ThreatLevelMidnight,Uncle Rico,134.18,64.58,1.0,0.0,0.0,1.0,69.60000000000001,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,12,False,True,False,False,,
-2025,8,Patty Primetimes,Pop Lockett Drop it,97.72,169.62,0.0,1.0,0.0,0.0,-71.9,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,1,True,False,False,False,,
-2025,8,The Big Gronkowski,Buttermilk Puuump,134.46,79.02,1.0,0.0,0.0,1.0,55.44000000000001,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,11,False,True,False,False,,
+2025,8,malle_dips_pouches,Joe Mantegna,83.66,114.18,0.0,1.0,0.0,0.0,-30.52000000000001,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,6,False,False,False,False,,
 2025,8,Post Mahomes,Malle ❤️ 🐸,114.96,97.62,1.0,0.0,0.0,1.0,17.33999999999999,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,8,False,False,False,False,,
+2025,8,Patty Primetimes,Pop Lockett Drop it,169.62,97.72,1.0,0.0,0.0,1.0,71.9,11,0,0,1.0,0.0,1,True,False,7,False,False,False,False,,
+2025,8,Buttermilk Puuump,The Big Gronkowski,134.46,79.02,1.0,0.0,0.0,1.0,55.44000000000001,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,11,False,True,False,False,,
+2025,8,ThreatLevelMidnight,Uncle Rico,64.58,134.18,0.0,1.0,0.0,0.0,-69.60000000000001,0,11,0,0.0,0.0,12,False,True,3,True,False,False,False,,
 2025,8,Ginger FC,Voldemort,130.68,85.56,1.0,0.0,0.0,1.0,45.120000000000005,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,9,False,False,False,False,,
-2025,8,Joe Mantegna,malle_dips_pouches,83.66,114.18,0.0,1.0,0.0,0.0,-30.52000000000001,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,6,False,False,False,False,,
-2025,8,Uncle Rico,ThreatLevelMidnight,64.58,134.18,0.0,1.0,0.0,0.0,-69.60000000000001,0,11,0,0.0,0.0,12,False,True,3,True,False,False,False,,
-2025,8,Pop Lockett Drop it,Patty Primetimes,169.62,97.72,1.0,0.0,0.0,1.0,71.9,11,0,0,1.0,0.0,1,True,False,7,False,False,False,False,,
-2025,9,malle_dips_pouches,The Big Gronkowski,85.5,97.58,0.0,1.0,0.0,0.0,-12.079999999999998,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,8,False,False,False,False,,
 2025,9,Malle ❤️ 🐸,ThreatLevelMidnight,89.12,154.28,0.0,1.0,0.0,0.0,-65.16,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,1,True,False,False,False,,
-2025,9,Pop Lockett Drop it,Voldemort,116.22,126.24,0.0,1.0,0.0,0.0,-10.019999999999996,8,3,0,0.7272727272727273,-0.7272727272727273,4,False,False,3,True,False,False,False,,
-2025,9,Joe Mantegna,Uncle Rico,105.98,78.02,1.0,0.0,0.0,1.0,27.960000000000008,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,12,False,True,False,False,,
-2025,9,Post Mahomes,Ginger FC,104.7,128.2,0.0,1.0,0.0,0.0,-23.499999999999986,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,2,True,False,False,False,,
 2025,9,Patty Primetimes,Buttermilk Puuump,98.52,88.62,1.0,0.0,0.0,1.0,9.899999999999991,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,10,False,True,False,True,,1.0
-2025,9,The Big Gronkowski,malle_dips_pouches,97.58,85.5,1.0,0.0,0.0,1.0,12.079999999999998,4,7,0,0.36363636363636365,0.6363636363636364,8,False,False,11,False,True,False,False,,
+2025,9,Post Mahomes,Ginger FC,104.7,128.2,0.0,1.0,0.0,0.0,-23.499999999999986,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,2,True,False,False,False,,
+2025,9,The Big Gronkowski,malle_dips_pouches,85.5,97.58,0.0,1.0,0.0,0.0,-12.079999999999998,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,8,False,False,False,False,,
+2025,9,Uncle Rico,Joe Mantegna,105.98,78.02,1.0,0.0,0.0,1.0,27.960000000000008,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,12,False,True,False,False,,
+2025,9,Voldemort,Pop Lockett Drop it,116.22,126.24,0.0,1.0,0.0,0.0,-10.019999999999996,8,3,0,0.7272727272727273,-0.7272727272727273,4,False,False,3,True,False,False,False,,
 2025,9,ThreatLevelMidnight,Malle ❤️ 🐸,154.28,89.12,1.0,0.0,0.0,1.0,65.16,11,0,0,1.0,0.0,1,True,False,9,False,False,False,False,,
-2025,9,Voldemort,Pop Lockett Drop it,126.24,116.22,1.0,0.0,0.0,1.0,10.019999999999996,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,4,False,False,False,False,,
-2025,9,Uncle Rico,Joe Mantegna,78.02,105.98,0.0,1.0,0.0,0.0,-27.960000000000008,0,11,0,0.0,0.0,12,False,True,5,False,False,False,False,,
-2025,9,Ginger FC,Post Mahomes,128.2,104.7,1.0,0.0,0.0,1.0,23.499999999999986,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,6,False,False,False,False,,
 2025,9,Buttermilk Puuump,Patty Primetimes,88.62,98.52,0.0,1.0,0.0,0.0,-9.899999999999991,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,7,False,False,False,True,,0.0
-2025,10,The Big Gronkowski,Uncle Rico,146.6,115.4,1.0,0.0,0.0,1.0,31.19999999999999,11,0,0,1.0,0.0,1,True,False,4,False,False,False,False,,
-2025,10,Joe Mantegna,Malle ❤️ 🐸,102.12,89.9,1.0,0.0,0.0,1.0,12.219999999999999,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,9,False,False,False,False,,
-2025,10,Buttermilk Puuump,Voldemort,91.12,87.94,1.0,0.0,0.0,1.0,3.180000000000007,4,7,0,0.36363636363636365,0.6363636363636364,8,False,False,11,False,True,True,True,1.0,1.0
-2025,10,ThreatLevelMidnight,Post Mahomes,89.82,125.32,0.0,1.0,0.0,0.0,-35.5,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,3,True,False,False,False,,
+2025,9,Ginger FC,Post Mahomes,128.2,104.7,1.0,0.0,0.0,1.0,23.499999999999986,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,6,False,False,False,False,,
+2025,9,malle_dips_pouches,The Big Gronkowski,97.58,85.5,1.0,0.0,0.0,1.0,12.079999999999998,4,7,0,0.36363636363636365,0.6363636363636364,8,False,False,11,False,True,False,False,,
+2025,9,Joe Mantegna,Uncle Rico,78.02,105.98,0.0,1.0,0.0,0.0,-27.960000000000008,0,11,0,0.0,0.0,12,False,True,5,False,False,False,False,,
+2025,9,Pop Lockett Drop it,Voldemort,126.24,116.22,1.0,0.0,0.0,1.0,10.019999999999996,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,4,False,False,False,False,,
+2025,10,Malle ❤️ 🐸,Joe Mantegna,102.12,89.9,1.0,0.0,0.0,1.0,12.219999999999999,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,9,False,False,False,False,,
 2025,10,Pop Lockett Drop it,Ginger FC,110.44,130.8,0.0,1.0,0.0,0.0,-20.360000000000014,7,4,0,0.6363636363636364,-0.6363636363636364,5,False,False,2,True,False,False,False,,
+2025,10,ThreatLevelMidnight,Post Mahomes,89.82,125.32,0.0,1.0,0.0,0.0,-35.5,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,3,True,False,False,False,,
+2025,10,Uncle Rico,The Big Gronkowski,146.6,115.4,1.0,0.0,0.0,1.0,31.19999999999999,11,0,0,1.0,0.0,1,True,False,4,False,False,False,False,,
+2025,10,Voldemort,Buttermilk Puuump,91.12,87.94,1.0,0.0,0.0,1.0,3.180000000000007,4,7,0,0.36363636363636365,0.6363636363636364,8,False,False,11,False,True,True,True,1.0,1.0
 2025,10,malle_dips_pouches,Patty Primetimes,85.92,107.24,0.0,1.0,0.0,0.0,-21.319999999999993,0,11,0,0.0,0.0,12,False,True,6,False,False,False,False,,
-2025,10,Uncle Rico,The Big Gronkowski,115.4,146.6,0.0,1.0,0.0,0.0,-31.19999999999999,8,3,0,0.7272727272727273,-0.7272727272727273,4,False,False,1,True,False,False,False,,
-2025,10,Malle ❤️ 🐸,Joe Mantegna,89.9,102.12,0.0,1.0,0.0,0.0,-12.219999999999999,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,7,False,False,False,False,,
-2025,10,Voldemort,Buttermilk Puuump,87.94,91.12,0.0,1.0,0.0,0.0,-3.180000000000007,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,8,False,False,True,True,0.0,0.0
-2025,10,Post Mahomes,ThreatLevelMidnight,125.32,89.82,1.0,0.0,0.0,1.0,35.5,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,10,False,True,False,False,,
+2025,10,Joe Mantegna,Malle ❤️ 🐸,89.9,102.12,0.0,1.0,0.0,0.0,-12.219999999999999,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,7,False,False,False,False,,
 2025,10,Ginger FC,Pop Lockett Drop it,130.8,110.44,1.0,0.0,0.0,1.0,20.360000000000014,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,5,False,False,False,False,,
+2025,10,Post Mahomes,ThreatLevelMidnight,125.32,89.82,1.0,0.0,0.0,1.0,35.5,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,10,False,True,False,False,,
+2025,10,The Big Gronkowski,Uncle Rico,115.4,146.6,0.0,1.0,0.0,0.0,-31.19999999999999,8,3,0,0.7272727272727273,-0.7272727272727273,4,False,False,1,True,False,False,False,,
+2025,10,Buttermilk Puuump,Voldemort,87.94,91.12,0.0,1.0,0.0,0.0,-3.180000000000007,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,8,False,False,True,True,0.0,0.0
 2025,10,Patty Primetimes,malle_dips_pouches,107.24,85.92,1.0,0.0,0.0,1.0,21.319999999999993,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,12,False,True,False,False,,
-2025,11,Malle ❤️ 🐸,The Big Gronkowski,130.14,106.12,1.0,0.0,0.0,1.0,24.019999999999982,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,6,False,False,False,False,,
-2025,11,malle_dips_pouches,Voldemort,81.54,85.7,0.0,1.0,0.0,0.0,-4.159999999999997,0,11,0,0.0,0.0,12,False,True,10,False,True,True,True,0.0,0.0
 2025,11,Joe Mantegna,Post Mahomes,86.6,111.74,0.0,1.0,0.0,0.0,-25.14,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,5,False,False,False,False,,
+2025,11,Pop Lockett Drop it,Buttermilk Puuump,112.1,83.46,1.0,0.0,0.0,1.0,28.64,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,11,False,True,False,False,,
+2025,11,The Big Gronkowski,Malle ❤️ 🐸,130.14,106.12,1.0,0.0,0.0,1.0,24.019999999999982,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,6,False,False,False,False,,
 2025,11,ThreatLevelMidnight,Ginger FC,127.92,98.94,1.0,0.0,0.0,1.0,28.980000000000004,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,8,False,False,False,False,,
-2025,11,Buttermilk Puuump,Pop Lockett Drop it,112.1,83.46,1.0,0.0,0.0,1.0,28.64,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,11,False,True,False,False,,
-2025,11,Patty Primetimes,Uncle Rico,101.84,133.78,0.0,1.0,0.0,0.0,-31.939999999999998,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,1,True,False,False,False,,
-2025,11,The Big Gronkowski,Malle ❤️ 🐸,106.12,130.14,0.0,1.0,0.0,0.0,-24.019999999999982,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,2,True,False,False,False,,
-2025,11,Voldemort,malle_dips_pouches,85.7,81.54,1.0,0.0,0.0,1.0,4.159999999999997,2,9,0,0.18181818181818182,0.8181818181818181,10,False,True,12,False,True,True,True,1.0,1.0
+2025,11,Uncle Rico,Patty Primetimes,101.84,133.78,0.0,1.0,0.0,0.0,-31.939999999999998,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,1,True,False,False,False,,
+2025,11,Voldemort,malle_dips_pouches,81.54,85.7,0.0,1.0,0.0,0.0,-4.159999999999997,0,11,0,0.0,0.0,12,False,True,10,False,True,True,True,0.0,0.0
 2025,11,Post Mahomes,Joe Mantegna,111.74,86.6,1.0,0.0,0.0,1.0,25.14,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,9,False,False,False,False,,
+2025,11,Buttermilk Puuump,Pop Lockett Drop it,83.46,112.1,0.0,1.0,0.0,0.0,-28.64,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,4,False,False,False,False,,
+2025,11,Malle ❤️ 🐸,The Big Gronkowski,106.12,130.14,0.0,1.0,0.0,0.0,-24.019999999999982,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,2,True,False,False,False,,
 2025,11,Ginger FC,ThreatLevelMidnight,98.94,127.92,0.0,1.0,0.0,0.0,-28.980000000000004,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,3,True,False,False,False,,
-2025,11,Pop Lockett Drop it,Buttermilk Puuump,83.46,112.1,0.0,1.0,0.0,0.0,-28.64,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,4,False,False,False,False,,
-2025,11,Uncle Rico,Patty Primetimes,133.78,101.84,1.0,0.0,0.0,1.0,31.939999999999998,11,0,0,1.0,0.0,1,True,False,7,False,False,False,False,,
-2025,12,The Big Gronkowski,Post Mahomes,108.96,112.38,0.0,1.0,0.0,0.0,-3.4200000000000017,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,5,False,False,True,True,0.0,0.0
-2025,12,Patty Primetimes,Malle ❤️ 🐸,76.54,126.82,0.0,1.0,0.0,0.0,-50.27999999999999,0,11,0,0.0,0.0,12,False,True,1,True,False,False,False,,
-2025,12,Voldemort,Uncle Rico,99.84,109.96,0.0,1.0,0.0,0.0,-10.11999999999999,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,7,False,False,False,False,,
+2025,11,Patty Primetimes,Uncle Rico,133.78,101.84,1.0,0.0,0.0,1.0,31.939999999999998,11,0,0,1.0,0.0,1,True,False,7,False,False,False,False,,
+2025,11,malle_dips_pouches,Voldemort,85.7,81.54,1.0,0.0,0.0,1.0,4.159999999999997,2,9,0,0.18181818181818182,0.8181818181818181,10,False,True,12,False,True,True,True,1.0,1.0
+2025,12,Ginger FC,Buttermilk Puuump,118.22,111.06,1.0,0.0,0.0,1.0,7.159999999999997,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,6,False,False,False,True,,1.0
 2025,12,Joe Mantegna,ThreatLevelMidnight,91.22,125.58,0.0,1.0,0.0,0.0,-34.36,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,2,True,False,False,False,,
-2025,12,malle_dips_pouches,Pop Lockett Drop it,100.92,120.16,0.0,1.0,0.0,0.0,-19.239999999999995,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,3,True,False,False,False,,
-2025,12,Buttermilk Puuump,Ginger FC,118.22,111.06,1.0,0.0,0.0,1.0,7.159999999999997,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,6,False,False,False,True,,1.0
-2025,12,Post Mahomes,The Big Gronkowski,112.38,108.96,1.0,0.0,0.0,1.0,3.4200000000000017,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,8,False,False,True,True,1.0,1.0
-2025,12,Malle ❤️ 🐸,Patty Primetimes,126.82,76.54,1.0,0.0,0.0,1.0,50.27999999999999,11,0,0,1.0,0.0,1,True,False,12,False,True,False,False,,
-2025,12,Uncle Rico,Voldemort,109.96,99.84,1.0,0.0,0.0,1.0,10.11999999999999,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,10,False,True,False,False,,
+2025,12,Malle ❤️ 🐸,Patty Primetimes,76.54,126.82,0.0,1.0,0.0,0.0,-50.27999999999999,0,11,0,0.0,0.0,12,False,True,1,True,False,False,False,,
+2025,12,Pop Lockett Drop it,malle_dips_pouches,100.92,120.16,0.0,1.0,0.0,0.0,-19.239999999999995,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,3,True,False,False,False,,
+2025,12,The Big Gronkowski,Post Mahomes,108.96,112.38,0.0,1.0,0.0,0.0,-3.4200000000000017,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,5,False,False,True,True,0.0,0.0
+2025,12,Uncle Rico,Voldemort,99.84,109.96,0.0,1.0,0.0,0.0,-10.11999999999999,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,7,False,False,False,False,,
+2025,12,Buttermilk Puuump,Ginger FC,111.06,118.22,0.0,1.0,0.0,0.0,-7.159999999999997,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,4,False,False,False,True,,0.0
 2025,12,ThreatLevelMidnight,Joe Mantegna,125.58,91.22,1.0,0.0,0.0,1.0,34.36,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,11,False,True,False,False,,
-2025,12,Pop Lockett Drop it,malle_dips_pouches,120.16,100.92,1.0,0.0,0.0,1.0,19.239999999999995,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,9,False,False,False,False,,
-2025,12,Ginger FC,Buttermilk Puuump,111.06,118.22,0.0,1.0,0.0,0.0,-7.159999999999997,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,4,False,False,False,True,,0.0
-2025,13,ThreatLevelMidnight,The Big Gronkowski,133.68,128.34,1.0,0.0,0.0,1.0,5.340000000000003,11,0,0,1.0,0.0,1,True,False,3,True,False,False,True,,1.0
-2025,13,Malle ❤️ 🐸,Voldemort,91.96,50.62,1.0,0.0,0.0,1.0,41.339999999999996,2,9,0,0.18181818181818182,0.8181818181818181,10,False,True,12,False,True,False,False,,
+2025,12,Patty Primetimes,Malle ❤️ 🐸,126.82,76.54,1.0,0.0,0.0,1.0,50.27999999999999,11,0,0,1.0,0.0,1,True,False,12,False,True,False,False,,
+2025,12,malle_dips_pouches,Pop Lockett Drop it,120.16,100.92,1.0,0.0,0.0,1.0,19.239999999999995,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,9,False,False,False,False,,
+2025,12,Post Mahomes,The Big Gronkowski,112.38,108.96,1.0,0.0,0.0,1.0,3.4200000000000017,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,8,False,False,True,True,1.0,1.0
+2025,12,Voldemort,Uncle Rico,109.96,99.84,1.0,0.0,0.0,1.0,10.11999999999999,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,10,False,True,False,False,,
 2025,13,Joe Mantegna,Ginger FC,104.54,105.54,0.0,1.0,0.0,0.0,-1.0,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,5,False,False,True,True,0.0,0.0
-2025,13,Pop Lockett Drop it,Uncle Rico,83.94,123.12,0.0,1.0,0.0,0.0,-39.18000000000001,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,4,False,False,False,False,,
-2025,13,Patty Primetimes,Post Mahomes,132.04,97.82,1.0,0.0,0.0,1.0,34.22,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,7,False,False,False,False,,
+2025,13,Malle ❤️ 🐸,Voldemort,91.96,50.62,1.0,0.0,0.0,1.0,41.339999999999996,2,9,0,0.18181818181818182,0.8181818181818181,10,False,True,12,False,True,False,False,,
+2025,13,Post Mahomes,Patty Primetimes,132.04,97.82,1.0,0.0,0.0,1.0,34.22,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,7,False,False,False,False,,
+2025,13,The Big Gronkowski,ThreatLevelMidnight,133.68,128.34,1.0,0.0,0.0,1.0,5.340000000000003,11,0,0,1.0,0.0,1,True,False,3,True,False,False,True,,1.0
+2025,13,Uncle Rico,Pop Lockett Drop it,83.94,123.12,0.0,1.0,0.0,0.0,-39.18000000000001,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,4,False,False,False,False,,
 2025,13,malle_dips_pouches,Buttermilk Puuump,95.0,94.94,1.0,0.0,0.0,1.0,0.060000000000002274,4,7,0,0.36363636363636365,0.6363636363636364,8,False,False,9,False,False,True,True,1.0,1.0
-2025,13,The Big Gronkowski,ThreatLevelMidnight,128.34,133.68,0.0,1.0,0.0,0.0,-5.340000000000003,9,2,0,0.8181818181818182,-0.8181818181818182,3,True,False,1,True,False,False,True,,0.0
-2025,13,Voldemort,Malle ❤️ 🐸,50.62,91.96,0.0,1.0,0.0,0.0,-41.339999999999996,0,11,0,0.0,0.0,12,False,True,10,False,True,False,False,,
 2025,13,Ginger FC,Joe Mantegna,105.54,104.54,1.0,0.0,0.0,1.0,1.0,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,6,False,False,True,True,1.0,1.0
-2025,13,Uncle Rico,Pop Lockett Drop it,123.12,83.94,1.0,0.0,0.0,1.0,39.18000000000001,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,11,False,True,False,False,,
-2025,13,Post Mahomes,Patty Primetimes,97.82,132.04,0.0,1.0,0.0,0.0,-34.22,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,2,True,False,False,False,,
+2025,13,Voldemort,Malle ❤️ 🐸,50.62,91.96,0.0,1.0,0.0,0.0,-41.339999999999996,0,11,0,0.0,0.0,12,False,True,10,False,True,False,False,,
+2025,13,Patty Primetimes,Post Mahomes,97.82,132.04,0.0,1.0,0.0,0.0,-34.22,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,2,True,False,False,False,,
+2025,13,ThreatLevelMidnight,The Big Gronkowski,128.34,133.68,0.0,1.0,0.0,0.0,-5.340000000000003,9,2,0,0.8181818181818182,-0.8181818181818182,3,True,False,1,True,False,False,True,,0.0
+2025,13,Pop Lockett Drop it,Uncle Rico,123.12,83.94,1.0,0.0,0.0,1.0,39.18000000000001,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,11,False,True,False,False,,
 2025,13,Buttermilk Puuump,malle_dips_pouches,94.94,95.0,0.0,1.0,0.0,0.0,-0.060000000000002274,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,8,False,False,True,True,0.0,0.0
-2025,14,Joe Mantegna,The Big Gronkowski,101.34,124.88,0.0,1.0,0.0,0.0,-23.539999999999992,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,4,False,False,False,False,,
+2025,14,Ginger FC,malle_dips_pouches,87.56,79.5,1.0,0.0,0.0,1.0,8.060000000000002,2,9,0,0.18181818181818182,0.8181818181818181,10,False,True,12,False,True,False,True,,1.0
 2025,14,Malle ❤️ 🐸,Pop Lockett Drop it,80.66,137.74,0.0,1.0,0.0,0.0,-57.08000000000001,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,1,True,False,False,False,,
+2025,14,The Big Gronkowski,Joe Mantegna,101.34,124.88,0.0,1.0,0.0,0.0,-23.539999999999992,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,4,False,False,False,False,,
+2025,14,ThreatLevelMidnight,Patty Primetimes,105.28,134.64,0.0,1.0,0.0,0.0,-29.359999999999985,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,3,True,False,False,False,,
+2025,14,Uncle Rico,Buttermilk Puuump,103.16,89.76,1.0,0.0,0.0,1.0,13.399999999999991,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,9,False,False,False,False,,
 2025,14,Voldemort,Post Mahomes,135.46,117.7,1.0,0.0,0.0,1.0,17.760000000000005,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,5,False,False,False,False,,
-2025,14,Patty Primetimes,ThreatLevelMidnight,105.28,134.64,0.0,1.0,0.0,0.0,-29.359999999999985,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,3,True,False,False,False,,
-2025,14,malle_dips_pouches,Ginger FC,87.56,79.5,1.0,0.0,0.0,1.0,8.060000000000002,2,9,0,0.18181818181818182,0.8181818181818181,10,False,True,12,False,True,False,True,,1.0
-2025,14,Buttermilk Puuump,Uncle Rico,103.16,89.76,1.0,0.0,0.0,1.0,13.399999999999991,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,9,False,False,False,False,,
-2025,14,The Big Gronkowski,Joe Mantegna,124.88,101.34,1.0,0.0,0.0,1.0,23.539999999999992,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,8,False,False,False,False,,
+2025,14,malle_dips_pouches,Ginger FC,79.5,87.56,0.0,1.0,0.0,0.0,-8.060000000000002,0,11,0,0.0,0.0,12,False,True,10,False,True,False,True,,0.0
 2025,14,Pop Lockett Drop it,Malle ❤️ 🐸,137.74,80.66,1.0,0.0,0.0,1.0,57.08000000000001,11,0,0,1.0,0.0,1,True,False,11,False,True,False,False,,
+2025,14,Joe Mantegna,The Big Gronkowski,124.88,101.34,1.0,0.0,0.0,1.0,23.539999999999992,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,8,False,False,False,False,,
+2025,14,Patty Primetimes,ThreatLevelMidnight,134.64,105.28,1.0,0.0,0.0,1.0,29.359999999999985,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,6,False,False,False,False,,
+2025,14,Buttermilk Puuump,Uncle Rico,89.76,103.16,0.0,1.0,0.0,0.0,-13.399999999999991,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,7,False,False,False,False,,
 2025,14,Post Mahomes,Voldemort,117.7,135.46,0.0,1.0,0.0,0.0,-17.760000000000005,7,4,0,0.6363636363636364,-0.6363636363636364,5,False,False,2,True,False,False,False,,
-2025,14,ThreatLevelMidnight,Patty Primetimes,134.64,105.28,1.0,0.0,0.0,1.0,29.359999999999985,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,6,False,False,False,False,,
-2025,14,Ginger FC,malle_dips_pouches,79.5,87.56,0.0,1.0,0.0,0.0,-8.060000000000002,0,11,0,0.0,0.0,12,False,True,10,False,True,False,True,,0.0
-2025,14,Uncle Rico,Buttermilk Puuump,89.76,103.16,0.0,1.0,0.0,0.0,-13.399999999999991,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,7,False,False,False,False,,

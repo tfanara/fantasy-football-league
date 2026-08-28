@@ -49,7 +49,7 @@ PLAYER_WEEK_DIR = (
 
 WEEKLY_LINEUPS_FILE = (
     PLAYER_WEEK_DIR
-    / "all_weekly_lineups_2018_2025.csv"
+    / "all_weekly_lineups_2017_2025.csv"
 )
 
 LUCK_DIR = PLAYER_WEEK_DIR / "analysis"
