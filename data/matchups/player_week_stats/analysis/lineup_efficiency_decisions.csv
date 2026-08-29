@@ -2811,12 +2811,10 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2022,1,Malle ❤️ 🐸,Uncle Rico,Should Have Started,Jarvis Landry,WR,BN,14.9
 2022,1,Patty Primetimes,malle_dips_pouches,Should Have Benched,Travis Etienne Jr.,RB,W/R/T,7.5
 2022,1,Patty Primetimes,malle_dips_pouches,Should Have Started,Chris Olave,WR,BN,7.6
-2022,1,Pop Lockett Drop it,Big Sack Jack,Should Have Benched,Titans - DEF,DEF,DEF,9.0
 2022,1,Pop Lockett Drop it,Big Sack Jack,Should Have Benched,Dameon Pierce,RB,RB,4.4
 2022,1,Pop Lockett Drop it,Big Sack Jack,Should Have Benched,Keenan Allen,WR,WR,8.6
 2022,1,Pop Lockett Drop it,Big Sack Jack,Should Have Started,Christian Kirk,WR,BN,14.7
 2022,1,Pop Lockett Drop it,Big Sack Jack,Should Have Started,Melvin Gordon III,RB,BN,6.2
-2022,1,Pop Lockett Drop it,Big Sack Jack,Should Have Started,Tua Tagovailoa,DEF,BN,16.8
 2022,1,Post Mahomes,Joe Mantegna,Should Have Benched,Cam Akers,RB,RB,0.0
 2022,1,Post Mahomes,Joe Mantegna,Should Have Benched,Ezekiel Elliott,RB,W/R/T,5.4
 2022,1,Post Mahomes,Joe Mantegna,Should Have Started,Brandin Cooks,WR,BN,11.7
@@ -2831,9 +2829,7 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2022,1,Uncle Rico,Malle ❤️ 🐸,Should Have Benched,Brandon Aiyuk,WR,WR,5.7
 2022,1,Uncle Rico,Malle ❤️ 🐸,Should Have Started,Cordarrelle Patterson,RB,BN,21.1
 2022,1,Uncle Rico,Malle ❤️ 🐸,Should Have Started,Jakobi Meyers,WR,BN,8.2
-2022,1,Voldemort,The Big Gronkowski,Should Have Benched,Patriots - DEF,DEF,DEF,4.0
 2022,1,Voldemort,The Big Gronkowski,Should Have Benched,David Montgomery,RB,RB,6.5
-2022,1,Voldemort,The Big Gronkowski,Should Have Started,M. Valdes-Scantling,DEF,BN,6.1
 2022,1,Voldemort,The Big Gronkowski,Should Have Started,James Robinson,RB,BN,19.4
 2022,1,malle_dips_pouches,Patty Primetimes,Should Have Benched,Josh Jacobs,RB,RB,7.8
 2022,1,malle_dips_pouches,Patty Primetimes,Should Have Benched,Mark Andrews,TE,TE,7.7
@@ -2941,9 +2937,7 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2022,3,malle_dips_pouches,Voldemort,Should Have Started,Tyler Boyd,WR,BN,18.5
 2022,4,Big Sack Jack,malle_dips_pouches,Should Have Benched,AJ Dillon,RB,RB,8.9
 2022,4,Big Sack Jack,malle_dips_pouches,Should Have Started,Nico Collins,WR,BN,9.7
-2022,4,Ginger FC,The Big Gronkowski,Should Have Benched,Rams - DEF,DEF,DEF,1.0
 2022,4,Ginger FC,The Big Gronkowski,Should Have Benched,Alvin Kamara,RB,RB,0.0
-2022,4,Ginger FC,The Big Gronkowski,Should Have Started,Carson Wentz,DEF,BN,11.3
 2022,4,Ginger FC,The Big Gronkowski,Should Have Started,Jerry Jeudy,WR,BN,13.3
 2022,4,Malle ❤️ 🐸,Joe Mantegna,Should Have Benched,James Robinson,RB,RB,2.9
 2022,4,Malle ❤️ 🐸,Joe Mantegna,Should Have Benched,Diontae Johnson,WR,W/R/T,3.2
@@ -2979,10 +2973,10 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2022,4,Voldemort,Patty Primetimes,Should Have Benched,Curtis Samuel,WR,WR,5.8
 2022,4,Voldemort,Patty Primetimes,Should Have Started,Raheem Mostert,RB,BN,9.1
 2022,4,Voldemort,Patty Primetimes,Should Have Started,Darnell Mooney,WR,BN,11.4
-2022,4,malle_dips_pouches,Big Sack Jack,Should Have Benched,Ravens - DEF,DEF,DEF,5.0
 2022,4,malle_dips_pouches,Big Sack Jack,Should Have Benched,Mark Andrews,TE,TE,2.5
 2022,4,malle_dips_pouches,Big Sack Jack,Should Have Benched,Amari Cooper,WR,WR,1.4
-2022,4,malle_dips_pouches,Big Sack Jack,Should Have Started,Michael Gallup,DEF,BN,9.4
+2022,4,malle_dips_pouches,Big Sack Jack,Should Have Benched,Jaylen Waddle,WR,WR,4.9
+2022,4,malle_dips_pouches,Big Sack Jack,Should Have Started,Michael Gallup,WR,BN,9.4
 2022,4,malle_dips_pouches,Big Sack Jack,Should Have Started,Pat Freiermuth,TE,BN,12.0
 2022,4,malle_dips_pouches,Big Sack Jack,Should Have Started,Tyler Boyd,WR,BN,6.62
 2022,5,Big Sack Jack,Patty Primetimes,Should Have Benched,Joe Burrow,QB,QB,20.28
@@ -3051,32 +3045,28 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2022,6,Joe Mantegna,Patty Primetimes,Should Have Started,Chase Claypool,WR,BN,19.9
 2022,6,Joe Mantegna,Patty Primetimes,Should Have Started,Marcus Mariota,QB,BN,28.16
 2022,6,Joe Mantegna,Patty Primetimes,Should Have Started,Devin Singletary,RB,BN,12.7
-2022,6,Malle ❤️ 🐸,Post Mahomes,Should Have Benched,Browns - DEF,DEF,DEF,0.0
 2022,6,Malle ❤️ 🐸,Post Mahomes,Should Have Benched,Jalen Hurts,QB,QB,20.9
 2022,6,Malle ❤️ 🐸,Post Mahomes,Should Have Benched,J.K. Dobbins,RB,RB,1.5
 2022,6,Malle ❤️ 🐸,Post Mahomes,Should Have Started,Antonio Gibson,RB,BN,6.8
-2022,6,Malle ❤️ 🐸,Post Mahomes,Should Have Started,Jarvis Landry,DEF,BN,0.0
 2022,6,Malle ❤️ 🐸,Post Mahomes,Should Have Started,Trevor Lawrence,QB,BN,26.9
 2022,6,Patty Primetimes,Joe Mantegna,Should Have Benched,Aaron Rodgers,QB,QB,13.84
 2022,6,Patty Primetimes,Joe Mantegna,Should Have Benched,Garrett Wilson,WR,W/R/T,1.3
 2022,6,Patty Primetimes,Joe Mantegna,Should Have Started,Latavius Murray,RB,BN,6.9
 2022,6,Patty Primetimes,Joe Mantegna,Should Have Started,Matthew Stafford,QB,BN,14.82
-2022,6,Pop Lockett Drop it,The Big Gronkowski,Should Have Benched,Broncos - DEF,DEF,DEF,5.0
-2022,6,Pop Lockett Drop it,The Big Gronkowski,Should Have Started,Rondale Moore,DEF,BN,7.9
 2022,6,Post Mahomes,Malle ❤️ 🐸,Should Have Benched,Jaguars - DEF,DEF,DEF,-1.0
 2022,6,Post Mahomes,Malle ❤️ 🐸,Should Have Benched,Tyler Higbee,TE,TE,1.2
 2022,6,Post Mahomes,Malle ❤️ 🐸,Should Have Started,Bills - DEF,DEF,BN,8.0
 2022,6,Post Mahomes,Malle ❤️ 🐸,Should Have Started,Drake London,WR,BN,5.5
 2022,6,The Big Gronkowski,Pop Lockett Drop it,Should Have Benched,Jeff Wilson Jr.,RB,RB,0.5
 2022,6,The Big Gronkowski,Pop Lockett Drop it,Should Have Started,Tony Pollard,RB,BN,6.2
-2022,6,Uncle Rico,Big Sack Jack,Should Have Benched,Eagles - DEF,DEF,DEF,7.0
 2022,6,Uncle Rico,Big Sack Jack,Should Have Benched,Eno Benjamin,RB,RB,8.0
 2022,6,Uncle Rico,Big Sack Jack,Should Have Benched,Will Dissly,TE,TE,1.7
 2022,6,Uncle Rico,Big Sack Jack,Should Have Benched,Jakobi Meyers,WR,W/R/T,8.0
-2022,6,Uncle Rico,Big Sack Jack,Should Have Started,Alec Pierce,DEF,BN,12.4
-2022,6,Uncle Rico,Big Sack Jack,Should Have Started,Brandon Aiyuk,WR,BN,24.3
+2022,6,Uncle Rico,Big Sack Jack,Should Have Benched,Christian Kirk,WR,WR,8.8
+2022,6,Uncle Rico,Big Sack Jack,Should Have Started,Alec Pierce,WR,BN,12.4
 2022,6,Uncle Rico,Big Sack Jack,Should Have Started,Kyle Pitts Sr.,TE,BN,9.4
 2022,6,Uncle Rico,Big Sack Jack,Should Have Started,Najee Harris,RB,BN,11.9
+2022,6,Uncle Rico,Big Sack Jack,Should Have Started,Brandon Aiyuk,WR,BN,24.3
 2022,6,malle_dips_pouches,Ginger FC,Should Have Benched,Phillip Lindsay,RB,W/R/T,4.7
 2022,6,malle_dips_pouches,Ginger FC,Should Have Started,DeVonta Smith,WR,BN,12.9
 2022,7,Big Sack Jack,Voldemort,Should Have Benched,AJ Dillon,RB,RB,1.5
@@ -3085,7 +3075,9 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2022,7,Big Sack Jack,Voldemort,Should Have Started,Nyheim Miller-Hines,RB,BN,6.8
 2022,7,Ginger FC,Patty Primetimes,Should Have Benched,Leonard Fournette,RB,RB,3.6
 2022,7,Ginger FC,Patty Primetimes,Should Have Started,Jerry Jeudy,WR,BN,13.1
+2022,7,Joe Mantegna,Uncle Rico,Should Have Benched,Chase Claypool,WR,W/R/T,6.6
 2022,7,Joe Mantegna,Uncle Rico,Should Have Benched,Courtland Sutton,WR,WR,3.8
+2022,7,Joe Mantegna,Uncle Rico,Should Have Started,Brandin Cooks,WR,BN,6.6
 2022,7,Joe Mantegna,Uncle Rico,Should Have Started,M. Valdes-Scantling,WR,BN,12.6
 2022,7,Malle ❤️ 🐸,Pop Lockett Drop it,Should Have Benched,James Robinson,RB,RB,0.0
 2022,7,Malle ❤️ 🐸,Pop Lockett Drop it,Should Have Started,Antonio Gibson,RB,BN,15.2
@@ -3225,10 +3217,12 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2022,11,Pop Lockett Drop it,Voldemort,Should Have Started,Allen Robinson,WR,BN,12.7
 2022,11,Pop Lockett Drop it,Voldemort,Should Have Started,Keenan Allen,WR,BN,9.9
 2022,11,Pop Lockett Drop it,Voldemort,Should Have Started,Melvin Gordon III,RB,BN,9.5
+2022,11,Post Mahomes,Big Sack Jack,Should Have Benched,Dameon Pierce,RB,RB,2.7
 2022,11,Post Mahomes,Big Sack Jack,Should Have Benched,A.J. Brown,WR,WR,6.5
 2022,11,Post Mahomes,Big Sack Jack,Should Have Benched,Garrett Wilson,WR,WR,2.2
 2022,11,Post Mahomes,Big Sack Jack,Should Have Started,Drake London,WR,BN,6.7
 2022,11,Post Mahomes,Big Sack Jack,Should Have Started,Joshua Palmer,WR,BN,26.6
+2022,11,Post Mahomes,Big Sack Jack,Should Have Started,Kyren Williams,RB,BN,4.9
 2022,11,The Big Gronkowski,Uncle Rico,Should Have Benched,Kirk Cousins,QB,QB,2.2
 2022,11,The Big Gronkowski,Uncle Rico,Should Have Started,Jimmy Garoppolo,QB,BN,33.42
 2022,11,Uncle Rico,The Big Gronkowski,Should Have Benched,Saquon Barkley,RB,RB,4.5
@@ -3321,11 +3315,11 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2022,14,Ginger FC,Pop Lockett Drop it,Should Have Benched,Tyler Lockett,WR,WR,14.5
 2022,14,Ginger FC,Pop Lockett Drop it,Should Have Started,Kareem Hunt,RB,BN,2.2
 2022,14,Ginger FC,Pop Lockett Drop it,Should Have Started,Mike Williams,WR,BN,20.6
-2022,14,Malle ❤️ 🐸,Big Sack Jack,Should Have Benched,Titans - DEF,DEF,DEF,-4.0
+2022,14,Joe Mantegna,The Big Gronkowski,Should Have Benched,Tony Jones,RB,RB,0.7
+2022,14,Joe Mantegna,The Big Gronkowski,Should Have Started,James Cook III,RB,BN,2.0
 2022,14,Malle ❤️ 🐸,Big Sack Jack,Should Have Benched,Jalen Hurts,QB,QB,34.38
 2022,14,Malle ❤️ 🐸,Big Sack Jack,Should Have Benched,Jamaal Williams,RB,RB,3.7
 2022,14,Malle ❤️ 🐸,Big Sack Jack,Should Have Started,Trevor Lawrence,QB,BN,39.42
-2022,14,Malle ❤️ 🐸,Big Sack Jack,Should Have Started,J.D. McKissic,DEF,BN,0.0
 2022,14,Malle ❤️ 🐸,Big Sack Jack,Should Have Started,J.K. Dobbins,RB,BN,18.0
 2022,14,Patty Primetimes,Uncle Rico,Should Have Benched,Isaiah McKenzie,FLEX,W/R/T,4.3
 2022,14,Patty Primetimes,Uncle Rico,Should Have Started,Jameson Williams,WR,BN,10.6
@@ -3431,12 +3425,12 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2023,2,malle_dips_pouches,Post Mahomes,Should Have Started,Damien Harris,RB,BN,9.3
 2023,2,malle_dips_pouches,Post Mahomes,Should Have Started,Dawson Knox,TE,BN,8.5
 2023,2,malle_dips_pouches,Post Mahomes,Should Have Started,Russell Wilson,QB,BN,32.92
-2023,3,Ginger FC,Malle ❤️ 🐸,Should Have Benched,Jaguars - DEF,DEF,DEF,-4.0
 2023,3,Ginger FC,Malle ❤️ 🐸,Should Have Benched,Josh Reynolds,WR,W/R/T,0.0
+2023,3,Ginger FC,Malle ❤️ 🐸,Should Have Benched,Jahan Dotson,WR,WR,3.1
 2023,3,Ginger FC,Malle ❤️ 🐸,Should Have Benched,Tee Higgins,WR,WR,3.1
 2023,3,Ginger FC,Malle ❤️ 🐸,Should Have Started,De'Von Achane,RB,BN,49.3
 2023,3,Ginger FC,Malle ❤️ 🐸,Should Have Started,Michael Gallup,WR,BN,12.2
-2023,3,Ginger FC,Malle ❤️ 🐸,Should Have Started,Rashee Rice,DEF,BN,8.4
+2023,3,Ginger FC,Malle ❤️ 🐸,Should Have Started,Rashee Rice,WR,BN,8.4
 2023,3,Joe Mantegna,Pop Lockett Drop it,Should Have Benched,Nico Collins,WR,W/R/T,4.4
 2023,3,Joe Mantegna,Pop Lockett Drop it,Should Have Started,Hollywood Brown,WR,BN,14.6
 2023,3,Malle ❤️ 🐸,Ginger FC,Should Have Benched,49ers - DEF,DEF,DEF,8.0
@@ -3591,9 +3585,9 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2023,6,malle_dips_pouches,You Better Park It,Should Have Benched,Michael Thomas,WR,W/R/T,7.0
 2023,6,malle_dips_pouches,You Better Park It,Should Have Started,Dawson Knox,TE,BN,3.2
 2023,6,malle_dips_pouches,You Better Park It,Should Have Started,Amari Cooper,WR,BN,12.8
-2023,7,Ginger FC,malle_dips_pouches,Should Have Benched,Lions - DEF,DEF,DEF,-2.0
+2023,7,Ginger FC,malle_dips_pouches,Should Have Benched,Brock Purdy,QB,QB,16.78
 2023,7,Ginger FC,malle_dips_pouches,Should Have Benched,Curtis Samuel,WR,WR,4.5
-2023,7,Ginger FC,malle_dips_pouches,Should Have Started,Kirk Cousins,DEF,BN,26.02
+2023,7,Ginger FC,malle_dips_pouches,Should Have Started,Kirk Cousins,QB,BN,26.02
 2023,7,Ginger FC,malle_dips_pouches,Should Have Started,Rashee Rice,WR,BN,14.5
 2023,7,Malle ❤️ 🐸,Voldemort,Should Have Benched,Rams - DEF,DEF,DEF,2.0
 2023,7,Malle ❤️ 🐸,Voldemort,Should Have Started,Dolphins - DEF,DEF,BN,12.0
@@ -3609,13 +3603,11 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2023,7,The Big Gronkowski,ThreatLevelMidnight,Should Have Benched,DeeJay Dallas,RB,RB,-1.5
 2023,7,The Big Gronkowski,ThreatLevelMidnight,Should Have Started,Matthew Stafford,QB,BN,17.04
 2023,7,The Big Gronkowski,ThreatLevelMidnight,Should Have Started,Tony Pollard,RB,BN,0.0
-2023,7,ThreatLevelMidnight,The Big Gronkowski,Should Have Benched,Seahawks - DEF,DEF,DEF,8.0
 2023,7,ThreatLevelMidnight,The Big Gronkowski,Should Have Benched,Baker Mayfield,QB,QB,19.2
 2023,7,ThreatLevelMidnight,The Big Gronkowski,Should Have Benched,Brandon Aiyuk,WR,W/R/T,8.2
 2023,7,ThreatLevelMidnight,The Big Gronkowski,Should Have Benched,Calvin Ridley,WR,WR,1.0
 2023,7,ThreatLevelMidnight,The Big Gronkowski,Should Have Started,George Pickens,WR,BN,13.2
-2023,7,ThreatLevelMidnight,The Big Gronkowski,Should Have Started,Jerome Ford,DEF,BN,16.4
-2023,7,ThreatLevelMidnight,The Big Gronkowski,Should Have Started,Sam LaPorta,TE,BN,8.2
+2023,7,ThreatLevelMidnight,The Big Gronkowski,Should Have Started,Jerome Ford,RB,BN,16.4
 2023,7,ThreatLevelMidnight,The Big Gronkowski,Should Have Started,Trevor Lawrence,QB,BN,20.06
 2023,7,Uncle Rico,Post Mahomes,Should Have Benched,Josh Jacobs,RB,RB,4.6
 2023,7,Uncle Rico,Post Mahomes,Should Have Benched,Gabe Davis,WR,WR,1.1
@@ -3639,10 +3631,10 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2023,8,Joe Mantegna,Ginger FC,Should Have Started,Hollywood Brown,WR,BN,12.3
 2023,8,Malle ❤️ 🐸,You Better Park It,Should Have Benched,Gerald Everett,TE,TE,0.0
 2023,8,Malle ❤️ 🐸,You Better Park It,Should Have Started,Pat Freiermuth,TE,BN,0.0
-2023,8,Patty Primetimes,The Big Gronkowski,Should Have Benched,Eagles - DEF,DEF,DEF,2.0
+2023,8,Patty Primetimes,The Big Gronkowski,Should Have Benched,Ka'imi Fairbairn,K,K,1.0
 2023,8,Patty Primetimes,The Big Gronkowski,Should Have Benched,Dameon Pierce,RB,RB,4.6
 2023,8,Patty Primetimes,The Big Gronkowski,Should Have Benched,Stefon Diggs,WR,WR,11.5
-2023,8,Patty Primetimes,The Big Gronkowski,Should Have Started,Riley Patterson,DEF,BN,17.0
+2023,8,Patty Primetimes,The Big Gronkowski,Should Have Started,Riley Patterson,K,BN,17.0
 2023,8,Patty Primetimes,The Big Gronkowski,Should Have Started,Royce Freeman,RB,BN,10.4
 2023,8,Patty Primetimes,The Big Gronkowski,Should Have Started,DeAndre Hopkins,WR,BN,32.8
 2023,8,Pop Lockett Drop it,malle_dips_pouches,Should Have Benched,C.J. Stroud,QB,QB,12.9
@@ -3669,10 +3661,10 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2023,8,Voldemort,Uncle Rico,Should Have Started,Rachaad White,RB,BN,14.4
 2023,8,Voldemort,Uncle Rico,Should Have Started,Tyler Lockett,WR,BN,18.1
 2023,8,Voldemort,Uncle Rico,Should Have Started,Darrell Henderson Jr.,RB,BN,10.0
-2023,8,You Better Park It,Malle ❤️ 🐸,Should Have Benched,49ers - DEF,DEF,DEF,4.0
 2023,8,You Better Park It,Malle ❤️ 🐸,Should Have Benched,Jared Goff,QB,QB,15.68
 2023,8,You Better Park It,Malle ❤️ 🐸,Should Have Benched,Kenneth Walker III,RB,RB,7.5
-2023,8,You Better Park It,Malle ❤️ 🐸,Should Have Started,Cole Kmet,DEF,BN,12.9
+2023,8,You Better Park It,Malle ❤️ 🐸,Should Have Benched,Travis Kelce,TE,TE,8.8
+2023,8,You Better Park It,Malle ❤️ 🐸,Should Have Started,Cole Kmet,TE,BN,12.9
 2023,8,You Better Park It,Malle ❤️ 🐸,Should Have Started,Dak Prescott,QB,BN,37.06
 2023,8,You Better Park It,Malle ❤️ 🐸,Should Have Started,Jerry Jeudy,WR,BN,12.0
 2023,8,malle_dips_pouches,Pop Lockett Drop it,Should Have Benched,Buccaneers - DEF,DEF,DEF,4.0
@@ -3683,14 +3675,14 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2023,8,malle_dips_pouches,Pop Lockett Drop it,Should Have Started,Michael Thomas,WR,BN,8.8
 2023,9,Ginger FC,The Big Gronkowski,Should Have Benched,Rashee Rice,WR,WR,8.7
 2023,9,Ginger FC,The Big Gronkowski,Should Have Started,Jahan Dotson,WR,BN,14.9
-2023,9,Joe Mantegna,malle_dips_pouches,Should Have Benched,Falcons - DEF,DEF,DEF,9.0
+2023,9,Joe Mantegna,malle_dips_pouches,Should Have Benched,Sam Howell,QB,QB,20.7
 2023,9,Joe Mantegna,malle_dips_pouches,Should Have Benched,James Cook III,RB,RB,5.9
 2023,9,Joe Mantegna,malle_dips_pouches,Should Have Benched,Hollywood Brown,WR,W/R/T,4.4
 2023,9,Joe Mantegna,malle_dips_pouches,Should Have Benched,Tyreek Hill,WR,WR,8.5
-2023,9,Joe Mantegna,malle_dips_pouches,Should Have Started,Deshaun Watson,DEF,BN,22.96
+2023,9,Joe Mantegna,malle_dips_pouches,Should Have Started,Deshaun Watson,QB,BN,22.96
 2023,9,Joe Mantegna,malle_dips_pouches,Should Have Started,Jakobi Meyers,WR,BN,12.5
-2023,9,Joe Mantegna,malle_dips_pouches,Should Have Started,Nico Collins,WR,BN,12.9
 2023,9,Joe Mantegna,malle_dips_pouches,Should Have Started,Rhamondre Stevenson,RB,BN,20.9
+2023,9,Joe Mantegna,malle_dips_pouches,Should Have Started,Nico Collins,WR,BN,12.9
 2023,9,Patty Primetimes,Post Mahomes,Should Have Benched,Royce Freeman,RB,RB,3.2
 2023,9,Patty Primetimes,Post Mahomes,Should Have Benched,Jaylen Waddle,WR,WR,6.9
 2023,9,Patty Primetimes,Post Mahomes,Should Have Started,Antonio Gibson,RB,BN,10.1
@@ -3721,10 +3713,8 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2023,9,malle_dips_pouches,Joe Mantegna,Should Have Started,Jets - DEF,DEF,BN,5.0
 2023,10,Ginger FC,Post Mahomes,Should Have Benched,Jahan Dotson,WR,WR,0.0
 2023,10,Ginger FC,Post Mahomes,Should Have Started,Joshua Palmer,WR,BN,0.0
-2023,10,Joe Mantegna,The Big Gronkowski,Should Have Benched,Falcons - DEF,DEF,DEF,4.0
 2023,10,Joe Mantegna,The Big Gronkowski,Should Have Benched,Geno Smith,QB,QB,28.06
 2023,10,Joe Mantegna,The Big Gronkowski,Should Have Benched,Breece Hall,RB,RB,9.0
-2023,10,Joe Mantegna,The Big Gronkowski,Should Have Started,Deshaun Watson,DEF,BN,19.22
 2023,10,Joe Mantegna,The Big Gronkowski,Should Have Started,Rhamondre Stevenson,RB,BN,11.7
 2023,10,Joe Mantegna,The Big Gronkowski,Should Have Started,Sam Howell,QB,BN,30.18
 2023,10,Malle ❤️ 🐸,malle_dips_pouches,Should Have Benched,Adam Thielen,WR,WR,7.2
@@ -3757,8 +3747,8 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2023,11,Ginger FC,Voldemort,Should Have Started,AJ Dillon,RB,BN,8.1
 2023,11,Ginger FC,Voldemort,Should Have Started,Brock Purdy,QB,BN,32.72
 2023,11,Ginger FC,Voldemort,Should Have Started,Tyjae Spears,RB,BN,3.6
-2023,11,Joe Mantegna,Post Mahomes,Should Have Benched,Jaguars - DEF,DEF,DEF,7.0
-2023,11,Joe Mantegna,Post Mahomes,Should Have Started,Kyler Murray,DEF,BN,24.66
+2023,11,Joe Mantegna,Post Mahomes,Should Have Benched,Sam Howell,QB,QB,22.74
+2023,11,Joe Mantegna,Post Mahomes,Should Have Started,Kyler Murray,QB,BN,24.66
 2023,11,Malle ❤️ 🐸,Uncle Rico,Should Have Benched,Browns - DEF,DEF,DEF,7.0
 2023,11,Malle ❤️ 🐸,Uncle Rico,Should Have Benched,Javonte Williams,RB,W/R/T,6.3
 2023,11,Malle ❤️ 🐸,Uncle Rico,Should Have Started,Dolphins - DEF,DEF,BN,12.0
@@ -3863,10 +3853,8 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2023,13,Post Mahomes,malle_dips_pouches,Should Have Benched,Christian Kirk,WR,WR,3.1
 2023,13,Post Mahomes,malle_dips_pouches,Should Have Started,Jayden Reed,WR,BN,3.6
 2023,13,Post Mahomes,malle_dips_pouches,Should Have Started,Chuba Hubbard,RB,BN,22.4
-2023,13,The Big Gronkowski,Voldemort,Should Have Benched,Cowboys - DEF,DEF,DEF,-1.0
 2023,13,The Big Gronkowski,Voldemort,Should Have Benched,Justin Herbert,QB,QB,7.98
 2023,13,The Big Gronkowski,Voldemort,Should Have Started,Matthew Stafford,QB,BN,28.96
-2023,13,The Big Gronkowski,Voldemort,Should Have Started,Tyler Bass,DEF,BN,0.0
 2023,13,ThreatLevelMidnight,Uncle Rico,Should Have Benched,Calvin Ridley,WR,W/R/T,5.3
 2023,13,ThreatLevelMidnight,Uncle Rico,Should Have Started,Jerome Ford,RB,BN,12.7
 2023,13,Uncle Rico,ThreatLevelMidnight,Should Have Benched,Tank Dell,FLEX,W/R/T,0.0
@@ -3917,8 +3905,8 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2023,14,Uncle Rico,Patty Primetimes,Should Have Benched,Gabe Davis,WR,W/R/T,0.0
 2023,14,Uncle Rico,Patty Primetimes,Should Have Started,Miles Sanders,RB,BN,7.4
 2023,14,Uncle Rico,Patty Primetimes,Should Have Started,Samaje Perine,RB,BN,6.9
-2023,14,Voldemort,Post Mahomes,Should Have Benched,Ravens - DEF,DEF,DEF,7.0
-2023,14,Voldemort,Post Mahomes,Should Have Started,D'Onta Foreman,DEF,BN,8.2
+2023,14,Voldemort,Post Mahomes,Should Have Benched,Zack Moss,RB,RB,7.6
+2023,14,Voldemort,Post Mahomes,Should Have Started,D'Onta Foreman,RB,BN,8.2
 2023,14,You Better Park It,The Big Gronkowski,Should Have Benched,Najee Harris,RB,RB,6.3
 2023,14,You Better Park It,The Big Gronkowski,Should Have Benched,D'Andre Swift,RB,W/R/T,3.9
 2023,14,You Better Park It,The Big Gronkowski,Should Have Benched,Amon-Ra St. Brown,WR,WR,3.6
@@ -3929,10 +3917,8 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2023,14,You Better Park It,The Big Gronkowski,Should Have Started,Odell Beckham Jr.,WR,BN,17.7
 2023,14,malle_dips_pouches,ThreatLevelMidnight,Should Have Benched,Brandin Cooks,WR,W/R/T,4.7
 2023,14,malle_dips_pouches,ThreatLevelMidnight,Should Have Started,Kareem Hunt,RB,BN,9.5
-2024,1,Buttermilk Puuump,Malle ❤️ 🐸,Should Have Benched,Bills - DEF,DEF,DEF,5.0
 2024,1,Buttermilk Puuump,Malle ❤️ 🐸,Should Have Benched,Raheem Mostert,RB,W/R/T,2.9
 2024,1,Buttermilk Puuump,Malle ❤️ 🐸,Should Have Benched,Amon-Ra St. Brown,WR,WR,2.8
-2024,1,Buttermilk Puuump,Malle ❤️ 🐸,Should Have Started,Aaron Rodgers,DEF,BN,11.58
 2024,1,Buttermilk Puuump,Malle ❤️ 🐸,Should Have Started,Jerry Jeudy,WR,BN,10.0
 2024,1,Buttermilk Puuump,Malle ❤️ 🐸,Should Have Started,Jordan Addison,WR,BN,5.0
 2024,1,Ginger FC,Pop Lockett Drop it,Should Have Benched,Brandon Aiyuk,WR,WR,3.8
@@ -4059,10 +4045,10 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2024,4,Joe Mantegna,ThreatLevelMidnight,Should Have Benched,Garrett Wilson,WR,WR,4.6
 2024,4,Joe Mantegna,ThreatLevelMidnight,Should Have Started,Bucky Irving,RB,BN,12.0
 2024,4,Joe Mantegna,ThreatLevelMidnight,Should Have Started,Jakobi Meyers,WR,BN,7.4
-2024,4,Malle ❤️ 🐸,malle_dips_pouches,Should Have Benched,Steelers - DEF,DEF,DEF,2.0
+2024,4,Malle ❤️ 🐸,malle_dips_pouches,Should Have Benched,Kyle Pitts Sr.,TE,TE,0.0
 2024,4,Malle ❤️ 🐸,malle_dips_pouches,Should Have Benched,Christian Watson,WR,WR,0.0
 2024,4,Malle ❤️ 🐸,malle_dips_pouches,Should Have Started,Josh Downs,WR,BN,18.2
-2024,4,Malle ❤️ 🐸,malle_dips_pouches,Should Have Started,Pat Freiermuth,DEF,BN,14.2
+2024,4,Malle ❤️ 🐸,malle_dips_pouches,Should Have Started,Pat Freiermuth,TE,BN,14.2
 2024,4,Patty Primetimes,Pop Lockett Drop it,Should Have Benched,Bijan Robinson,RB,RB,9.4
 2024,4,Patty Primetimes,Pop Lockett Drop it,Should Have Benched,Mike Gesicki,TE,TE,-0.4
 2024,4,Patty Primetimes,Pop Lockett Drop it,Should Have Started,Trey McBride,TE,BN,0.0
@@ -4145,8 +4131,8 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2024,6,Patty Primetimes,Post Mahomes,Should Have Started,Michael Pittman Jr.,WR,BN,11.0
 2024,6,Pop Lockett Drop it,malle_dips_pouches,Should Have Benched,Courtland Sutton,WR,W/R/T,13.3
 2024,6,Pop Lockett Drop it,malle_dips_pouches,Should Have Started,Josh Downs,WR,BN,16.0
-2024,6,Post Mahomes,Patty Primetimes,Should Have Benched,Bears - DEF,DEF,DEF,9.0
-2024,6,Post Mahomes,Patty Primetimes,Should Have Started,Tyrone Tracy Jr.,DEF,BN,19.7
+2024,6,Post Mahomes,Patty Primetimes,Should Have Benched,Tank Bigsby,RB,RB,2.4
+2024,6,Post Mahomes,Patty Primetimes,Should Have Started,Tyrone Tracy Jr.,RB,BN,19.7
 2024,6,The Big Gronkowski,Malle ❤️ 🐸,Should Have Benched,Jalen Hurts,QB,QB,25.86
 2024,6,The Big Gronkowski,Malle ❤️ 🐸,Should Have Benched,Marvin Harrison Jr.,WR,W/R/T,0.0
 2024,6,The Big Gronkowski,Malle ❤️ 🐸,Should Have Started,Brock Purdy,QB,BN,30.1
@@ -4166,19 +4152,17 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2024,7,Buttermilk Puuump,ThreatLevelMidnight,Should Have Benched,Sam LaPorta,TE,TE,3.0
 2024,7,Buttermilk Puuump,ThreatLevelMidnight,Should Have Started,Tucker Kraft,TE,BN,10.8
 2024,7,Ginger FC,malle_dips_pouches,Should Have Benched,Courtland Sutton,WR,W/R/T,0.0
-2024,7,Ginger FC,malle_dips_pouches,Should Have Started,Rhamondre Stevenson,RB,BN,3.5
+2024,7,Ginger FC,malle_dips_pouches,Should Have Started,Pat Freiermuth,TE,BN,6.1
 2024,7,Joe Mantegna,Uncle Rico,Should Have Benched,Patrick Mahomes,QB,QB,14.06
 2024,7,Joe Mantegna,Uncle Rico,Should Have Benched,Tank Dell,FLEX,W/R/T,0.0
 2024,7,Joe Mantegna,Uncle Rico,Should Have Started,Geno Smith,QB,BN,21.78
 2024,7,Joe Mantegna,Uncle Rico,Should Have Started,Romeo Doubs,WR,BN,13.4
 2024,7,Malle ❤️ 🐸,Post Mahomes,Should Have Benched,Ray-Ray McCloud III,WR,W/R/T,1.9
 2024,7,Malle ❤️ 🐸,Post Mahomes,Should Have Started,Marvin Harrison Jr.,WR,BN,3.6
-2024,7,Patty Primetimes,Voldemort,Should Have Benched,Jets - DEF,DEF,DEF,-3.0
 2024,7,Patty Primetimes,Voldemort,Should Have Benched,DeMario Douglas,WR,WR,2.4
 2024,7,Patty Primetimes,Voldemort,Should Have Benched,Diontae Johnson,WR,WR,2.2
 2024,7,Patty Primetimes,Voldemort,Should Have Started,Calvin Ridley,WR,BN,5.7
 2024,7,Patty Primetimes,Voldemort,Should Have Started,Khalil Shakir,WR,BN,10.0
-2024,7,Patty Primetimes,Voldemort,Should Have Started,Xavier Legette,DEF,BN,1.9
 2024,7,Pop Lockett Drop it,The Big Gronkowski,Should Have Benched,DeVonta Smith,WR,WR,0.3
 2024,7,Pop Lockett Drop it,The Big Gronkowski,Should Have Started,Zack Moss,RB,BN,5.5
 2024,7,Post Mahomes,Malle ❤️ 🐸,Should Have Benched,Chiefs - DEF,DEF,DEF,8.0
@@ -4207,8 +4191,8 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2024,8,Buttermilk Puuump,Ginger FC,Should Have Benched,Nick Chubb,RB,W/R/T,5.2
 2024,8,Buttermilk Puuump,Ginger FC,Should Have Started,Alexander Mattison,RB,BN,6.9
 2024,8,Buttermilk Puuump,Ginger FC,Should Have Started,Kirk Cousins,QB,BN,36.64
-2024,8,Ginger FC,Buttermilk Puuump,Should Have Benched,Bills - DEF,DEF,DEF,9.0
-2024,8,Ginger FC,Buttermilk Puuump,Should Have Started,Jerry Jeudy,DEF,BN,10.4
+2024,8,Ginger FC,Buttermilk Puuump,Should Have Benched,Amon-Ra St. Brown,WR,WR,7.7
+2024,8,Ginger FC,Buttermilk Puuump,Should Have Started,Jerry Jeudy,WR,BN,10.4
 2024,8,Joe Mantegna,Patty Primetimes,Should Have Benched,Jayden Daniels,QB,QB,24.24
 2024,8,Joe Mantegna,Patty Primetimes,Should Have Benched,Aaron Jones Sr.,RB,RB,10.5
 2024,8,Joe Mantegna,Patty Primetimes,Should Have Benched,Tank Bigsby,RB,RB,9.6
@@ -4249,10 +4233,8 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2024,8,Uncle Rico,ThreatLevelMidnight,Should Have Started,Ricky Pearsall,WR,BN,9.7
 2024,8,Uncle Rico,ThreatLevelMidnight,Should Have Started,Sam LaPorta,TE,BN,13.8
 2024,8,Uncle Rico,ThreatLevelMidnight,Should Have Started,Baker Mayfield,QB,BN,30.3
-2024,8,Voldemort,Malle ❤️ 🐸,Should Have Benched,Jets - DEF,DEF,DEF,2.0
 2024,8,Voldemort,Malle ❤️ 🐸,Should Have Benched,Kenneth Walker III,RB,W/R/T,6.5
 2024,8,Voldemort,Malle ❤️ 🐸,Should Have Benched,DeAndre Hopkins,WR,WR,3.9
-2024,8,Voldemort,Malle ❤️ 🐸,Should Have Started,Sterling Shepard,DEF,BN,3.3
 2024,8,Voldemort,Malle ❤️ 🐸,Should Have Started,Calvin Ridley,WR,BN,17.6
 2024,8,Voldemort,Malle ❤️ 🐸,Should Have Started,Khalil Shakir,WR,BN,15.4
 2024,8,malle_dips_pouches,The Big Gronkowski,Should Have Benched,Brandon Aubrey,K,K,6.0
@@ -4263,9 +4245,9 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2024,8,malle_dips_pouches,The Big Gronkowski,Should Have Started,Isaiah Likely,TE,BN,6.7
 2024,8,malle_dips_pouches,The Big Gronkowski,Should Have Started,Matthew Stafford,QB,BN,33.76
 2024,8,malle_dips_pouches,The Big Gronkowski,Should Have Started,Cameron Dicker,K,BN,9.0
-2024,9,Buttermilk Puuump,malle_dips_pouches,Should Have Benched,Saints - DEF,DEF,DEF,3.0
+2024,9,Buttermilk Puuump,malle_dips_pouches,Should Have Benched,Jared Goff,QB,QB,11.6
 2024,9,Buttermilk Puuump,malle_dips_pouches,Should Have Benched,Tyreek Hill,WR,WR,10.0
-2024,9,Buttermilk Puuump,malle_dips_pouches,Should Have Started,Aaron Rodgers,DEF,BN,26.34
+2024,9,Buttermilk Puuump,malle_dips_pouches,Should Have Started,Aaron Rodgers,QB,BN,26.34
 2024,9,Buttermilk Puuump,malle_dips_pouches,Should Have Started,Jordan Addison,WR,BN,13.6
 2024,9,Ginger FC,Uncle Rico,Should Have Benched,Dontayvion Wicks,WR,WR,0.0
 2024,9,Ginger FC,Uncle Rico,Should Have Started,Stefon Diggs,WR,BN,0.0
@@ -4335,17 +4317,15 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2024,10,Uncle Rico,Buttermilk Puuump,Should Have Benched,Jordan Addison,WR,W/R/T,3.9
 2024,10,Uncle Rico,Buttermilk Puuump,Should Have Started,Keenan Allen,WR,BN,6.9
 2024,10,Uncle Rico,Buttermilk Puuump,Should Have Started,Najee Harris,RB,BN,11.3
-2024,10,Voldemort,The Big Gronkowski,Should Have Benched,Jets - DEF,DEF,DEF,0.0
 2024,10,Voldemort,The Big Gronkowski,Should Have Benched,J.K. Dobbins,RB,RB,7.0
 2024,10,Voldemort,The Big Gronkowski,Should Have Benched,DeAndre Hopkins,WR,WR,7.6
 2024,10,Voldemort,The Big Gronkowski,Should Have Started,Calvin Ridley,WR,BN,22.9
 2024,10,Voldemort,The Big Gronkowski,Should Have Started,Chuba Hubbard,RB,BN,22.9
-2024,10,Voldemort,The Big Gronkowski,Should Have Started,Diontae Johnson,DEF,BN,1.1
 2024,11,Buttermilk Puuump,Patty Primetimes,Should Have Benched,Jordan Addison,WR,W/R/T,13.6
 2024,11,Buttermilk Puuump,Patty Primetimes,Should Have Started,Jerry Jeudy,WR,BN,23.2
-2024,11,Ginger FC,Malle ❤️ 🐸,Should Have Benched,Lions - DEF,DEF,DEF,10.0
+2024,11,Ginger FC,Malle ❤️ 🐸,Should Have Benched,Blake Grupe,K,K,5.0
 2024,11,Ginger FC,Malle ❤️ 🐸,Should Have Benched,Kareem Hunt,RB,W/R/T,6.0
-2024,11,Ginger FC,Malle ❤️ 🐸,Should Have Started,Chris Boswell,DEF,BN,24.0
+2024,11,Ginger FC,Malle ❤️ 🐸,Should Have Started,Chris Boswell,K,BN,24.0
 2024,11,Ginger FC,Malle ❤️ 🐸,Should Have Started,Alexander Mattison,RB,BN,8.4
 2024,11,Joe Mantegna,The Big Gronkowski,Should Have Benched,Joe Burrow,QB,QB,35.04
 2024,11,Joe Mantegna,The Big Gronkowski,Should Have Benched,Braelon Allen,RB,RB,0.6
@@ -4393,10 +4373,10 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2024,11,malle_dips_pouches,Uncle Rico,Should Have Benched,Davante Adams,WR,WR,10.2
 2024,11,malle_dips_pouches,Uncle Rico,Should Have Started,Austin Ekeler,RB,BN,13.6
 2024,11,malle_dips_pouches,Uncle Rico,Should Have Started,Jauan Jennings,WR,BN,20.1
-2024,12,Buttermilk Puuump,Malle ❤️ 🐸,Should Have Benched,Eagles - DEF,DEF,DEF,8.0
+2024,12,Buttermilk Puuump,Malle ❤️ 🐸,Should Have Benched,Amon-Ra St. Brown,WR,WR,9.2
 2024,12,Buttermilk Puuump,Malle ❤️ 🐸,Should Have Benched,Tyreek Hill,WR,WR,7.3
 2024,12,Buttermilk Puuump,Malle ❤️ 🐸,Should Have Started,Jerry Jeudy,WR,BN,11.5
-2024,12,Buttermilk Puuump,Malle ❤️ 🐸,Should Have Started,Keenan Allen,DEF,BN,19.1
+2024,12,Buttermilk Puuump,Malle ❤️ 🐸,Should Have Started,Keenan Allen,WR,BN,19.1
 2024,12,Ginger FC,Pop Lockett Drop it,Should Have Benched,Christian McCaffrey,RB,RB,6.3
 2024,12,Ginger FC,Pop Lockett Drop it,Should Have Benched,Quentin Johnston,WR,WR,0.0
 2024,12,Ginger FC,Pop Lockett Drop it,Should Have Started,Brian Thomas Jr.,WR,BN,0.0
@@ -4405,10 +4385,8 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2024,12,Joe Mantegna,Post Mahomes,Should Have Started,Jakobi Meyers,WR,BN,17.1
 2024,12,Patty Primetimes,Uncle Rico,Should Have Benched,Jauan Jennings,WR,WR,6.5
 2024,12,Patty Primetimes,Uncle Rico,Should Have Started,Romeo Doubs,WR,BN,6.9
-2024,12,Pop Lockett Drop it,Ginger FC,Should Have Benched,Commanders - DEF,DEF,DEF,4.0
 2024,12,Pop Lockett Drop it,Ginger FC,Should Have Benched,Jayden Reed,WR,WR,4.1
 2024,12,Pop Lockett Drop it,Ginger FC,Should Have Started,Jonnu Smith,TE,BN,19.2
-2024,12,Pop Lockett Drop it,Ginger FC,Should Have Started,Roschon Johnson,DEF,BN,7.7
 2024,12,Post Mahomes,Joe Mantegna,Should Have Benched,Cedric Tillman,WR,WR,1.8
 2024,12,Post Mahomes,Joe Mantegna,Should Have Started,Michael Pittman Jr.,WR,BN,12.6
 2024,12,The Big Gronkowski,ThreatLevelMidnight,Should Have Benched,Justin Herbert,QB,QB,17.62
@@ -4485,10 +4463,8 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2024,14,Patty Primetimes,Malle ❤️ 🐸,Should Have Started,Ray-Ray McCloud III,WR,BN,12.1
 2024,14,Post Mahomes,Ginger FC,Should Have Benched,Tee Higgins,WR,WR,3.3
 2024,14,Post Mahomes,Ginger FC,Should Have Started,Amari Cooper,WR,BN,12.5
-2024,14,The Big Gronkowski,Buttermilk Puuump,Should Have Benched,Titans - DEF,DEF,DEF,9.0
 2024,14,The Big Gronkowski,Buttermilk Puuump,Should Have Benched,Keenan Allen,WR,W/R/T,4.5
 2024,14,The Big Gronkowski,Buttermilk Puuump,Should Have Benched,Amon-Ra St. Brown,WR,WR,7.8
-2024,14,The Big Gronkowski,Buttermilk Puuump,Should Have Started,Aaron Rodgers,DEF,BN,19.56
 2024,14,The Big Gronkowski,Buttermilk Puuump,Should Have Started,Jordan Addison,WR,BN,35.3
 2024,14,The Big Gronkowski,Buttermilk Puuump,Should Have Started,Jerry Jeudy,WR,BN,14.9
 2024,14,ThreatLevelMidnight,Voldemort,Should Have Benched,Calvin Ridley,WR,W/R/T,9.4
@@ -4593,9 +4569,7 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2025,2,Post Mahomes,Patty Primetimes,Should Have Started,J.K. Dobbins,RB,BN,15.0
 2025,2,The Big Gronkowski,ThreatLevelMidnight,Should Have Benched,Tony Pollard,RB,RB,9.2
 2025,2,The Big Gronkowski,ThreatLevelMidnight,Should Have Started,Rhamondre Stevenson,RB,BN,18.7
-2025,2,ThreatLevelMidnight,The Big Gronkowski,Should Have Benched,Cowboys - DEF,DEF,DEF,1.0
 2025,2,ThreatLevelMidnight,The Big Gronkowski,Should Have Benched,Dak Prescott,QB,QB,27.14
-2025,2,ThreatLevelMidnight,The Big Gronkowski,Should Have Started,Hunter Henry,DEF,BN,1.4
 2025,2,ThreatLevelMidnight,The Big Gronkowski,Should Have Started,Drake Maye,QB,BN,30.3
 2025,2,Uncle Rico,Pop Lockett Drop it,Should Have Benched,Brian Robinson,RB,RB,2.4
 2025,2,Uncle Rico,Pop Lockett Drop it,Should Have Benched,Cedric Tillman,WR,WR,9.2
@@ -4645,12 +4619,10 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2025,3,ThreatLevelMidnight,Patty Primetimes,Should Have Started,J.K. Dobbins,RB,BN,14.8
 2025,3,Uncle Rico,Buttermilk Puuump,Should Have Benched,Deebo Samuel Sr.,WR,WR,3.9
 2025,3,Uncle Rico,Buttermilk Puuump,Should Have Started,George Pickens,WR,BN,15.3
-2025,3,Voldemort,Post Mahomes,Should Have Benched,Falcons - DEF,DEF,DEF,3.0
 2025,3,Voldemort,Post Mahomes,Should Have Benched,Alvin Kamara,RB,RB,6.1
 2025,3,Voldemort,Post Mahomes,Should Have Benched,Chase Brown,RB,RB,4.0
 2025,3,Voldemort,Post Mahomes,Should Have Benched,Justin Jefferson,WR,W/R/T,10.0
 2025,3,Voldemort,Post Mahomes,Should Have Started,David Montgomery,RB,BN,28.9
-2025,3,Voldemort,Post Mahomes,Should Have Started,Harold Fannin Jr.,DEF,BN,4.0
 2025,3,Voldemort,Post Mahomes,Should Have Started,Jaylen Warren,RB,BN,10.6
 2025,3,Voldemort,Post Mahomes,Should Have Started,Keenan Allen,WR,BN,16.0
 2025,3,malle_dips_pouches,Ginger FC,Should Have Benched,Derrick Henry,RB,RB,10.2
@@ -4723,9 +4695,9 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2025,5,Patty Primetimes,The Big Gronkowski,Should Have Benched,Jameson Williams,WR,W/R/T,1.5
 2025,5,Patty Primetimes,The Big Gronkowski,Should Have Started,C.J. Stroud,QB,BN,36.76
 2025,5,Patty Primetimes,The Big Gronkowski,Should Have Started,T.J. Hockenson,TE,BN,6.8
-2025,5,Pop Lockett Drop it,ThreatLevelMidnight,Should Have Benched,Colts - DEF,DEF,DEF,17.0
+2025,5,Pop Lockett Drop it,ThreatLevelMidnight,Should Have Benched,Kenneth Walker III,RB,RB,9.1
 2025,5,Pop Lockett Drop it,ThreatLevelMidnight,Should Have Benched,Malik Washington,WR,WR,2.0
-2025,5,Pop Lockett Drop it,ThreatLevelMidnight,Should Have Started,Kareem Hunt,DEF,BN,18.2
+2025,5,Pop Lockett Drop it,ThreatLevelMidnight,Should Have Started,Kareem Hunt,RB,BN,18.2
 2025,5,Pop Lockett Drop it,ThreatLevelMidnight,Should Have Started,Troy Franklin,WR,BN,7.0
 2025,5,The Big Gronkowski,Patty Primetimes,Should Have Benched,James Cook III,RB,RB,4.9
 2025,5,The Big Gronkowski,Patty Primetimes,Should Have Benched,Darius Slayton,WR,W/R/T,2.6
@@ -4815,10 +4787,10 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2025,8,Buttermilk Puuump,The Big Gronkowski,Should Have Started,Drake Maye,QB,BN,33.28
 2025,8,Malle ❤️ 🐸,Post Mahomes,Should Have Benched,Rashid Shaheed,WR,WR,10.0
 2025,8,Malle ❤️ 🐸,Post Mahomes,Should Have Started,Jordan Addison,WR,BN,10.1
-2025,8,Patty Primetimes,Pop Lockett Drop it,Should Have Benched,Vikings - DEF,DEF,DEF,0.0
 2025,8,Patty Primetimes,Pop Lockett Drop it,Should Have Benched,Jordan Mason,RB,RB,1.1
+2025,8,Patty Primetimes,Pop Lockett Drop it,Should Have Benched,Tee Higgins,WR,W/R/T,10.9
 2025,8,Patty Primetimes,Pop Lockett Drop it,Should Have Started,Kareem Hunt,RB,BN,16.7
-2025,8,Patty Primetimes,Pop Lockett Drop it,Should Have Started,Troy Franklin,DEF,BN,23.9
+2025,8,Patty Primetimes,Pop Lockett Drop it,Should Have Started,Troy Franklin,WR,BN,23.9
 2025,8,Pop Lockett Drop it,Patty Primetimes,Should Have Benched,Courtland Sutton,WR,W/R/T,8.7
 2025,8,Pop Lockett Drop it,Patty Primetimes,Should Have Started,J.K. Dobbins,RB,BN,13.1
 2025,8,Uncle Rico,ThreatLevelMidnight,Should Have Benched,Bijan Robinson,RB,RB,4.3
@@ -4829,10 +4801,8 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2025,8,Uncle Rico,ThreatLevelMidnight,Should Have Started,Tyler Allgeier,RB,BN,8.4
 2025,8,malle_dips_pouches,Joe Mantegna,Should Have Benched,Wan'Dale Robinson,WR,WR,6.3
 2025,8,malle_dips_pouches,Joe Mantegna,Should Have Started,Tucker Kraft,TE,BN,29.8
-2025,9,Buttermilk Puuump,Patty Primetimes,Should Have Benched,49ers - DEF,DEF,DEF,2.0
 2025,9,Buttermilk Puuump,Patty Primetimes,Should Have Benched,Jordan Love,QB,QB,10.02
 2025,9,Buttermilk Puuump,Patty Primetimes,Should Have Started,Jared Goff,QB,BN,23.36
-2025,9,Buttermilk Puuump,Patty Primetimes,Should Have Started,Tyler Loop,DEF,BN,4.0
 2025,9,Ginger FC,Post Mahomes,Should Have Benched,Juwan Johnson,TE,TE,10.6
 2025,9,Ginger FC,Post Mahomes,Should Have Benched,Chris Olave,WR,W/R/T,7.2
 2025,9,Ginger FC,Post Mahomes,Should Have Started,Mark Andrews,TE,BN,15.6
@@ -4953,10 +4923,12 @@ year,week,fantasy_team,opponent,decision_type,player,player_position,lineup_slot
 2025,12,Pop Lockett Drop it,malle_dips_pouches,Should Have Started,Jakobi Meyers,WR,BN,13.0
 2025,12,Post Mahomes,The Big Gronkowski,Should Have Benched,Ricky Pearsall,WR,W/R/T,1.8
 2025,12,Post Mahomes,The Big Gronkowski,Should Have Started,Chris Godwin Jr.,WR,BN,1.9
+2025,12,The Big Gronkowski,Post Mahomes,Should Have Benched,Matt Prater,K,K,8.0
 2025,12,The Big Gronkowski,Post Mahomes,Should Have Benched,Drake Maye,QB,QB,18.96
 2025,12,The Big Gronkowski,Post Mahomes,Should Have Benched,Jameson Williams,WR,WR,0.0
 2025,12,The Big Gronkowski,Post Mahomes,Should Have Started,Dak Prescott,QB,BN,32.06
 2025,12,The Big Gronkowski,Post Mahomes,Should Have Started,Darnell Mooney,WR,BN,14.9
+2025,12,The Big Gronkowski,Post Mahomes,Should Have Started,Ka'imi Fairbairn,K,BN,12.0
 2025,12,ThreatLevelMidnight,Joe Mantegna,Should Have Benched,Rico Dowdle,RB,RB,9.4
 2025,12,ThreatLevelMidnight,Joe Mantegna,Should Have Started,DJ Moore,WR,BN,20.9
 2025,12,Uncle Rico,Voldemort,Should Have Benched,David Montgomery,RB,RB,5.2

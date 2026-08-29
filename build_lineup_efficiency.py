@@ -387,74 +387,56 @@ def build_historical_position_lookup(df: pd.DataFrame) -> dict[str, str]:
 
 
 def infer_player_position(
-
     row: pd.Series,
-
     historical_lookup: dict[str, str] | None = None,
-
 ) -> str:
-
     """
-
     Determine a player's fantasy position.
 
     Priority:
-
-      1. Explicit player/raw Yahoo position fields.
-
+      1. Explicit Yahoo player-position fields.
       2. Historical fixed-slot lookup for this player.
-
       3. This row's own fixed lineup slot.
+      4. Loose raw-text parsing as a last resort.
 
     Bench rows usually have lineup_slot == BN, so the historical lookup is the
-
-    key fallback for old Yahoo seasons.
-
+    key fallback. raw_player_text/raw_cells are intentionally last because
+    those fields can contain unrelated position-like text.
     """
 
+    # --------------------------------------------------------
+    # 1. TRUST EXPLICIT POSITION FIELDS FIRST
+    # --------------------------------------------------------
+
     for field in [
-
         "player_position",
-
         "raw_position",
-
-        "raw_player_text",
-
-        "raw_cells",
-
     ]:
-
         pos = normalize_position(
-
             row.get(field)
-
         )
 
         if pos:
-
             return pos
 
+    # --------------------------------------------------------
+    # 2. HISTORICAL FIXED-SLOT LOOKUP
+    # --------------------------------------------------------
+
     player = str(
-
         row.get("player", "")
-
     ).strip()
 
     if (
-
         historical_lookup
-
         and player
-
         and player in historical_lookup
-
     ):
+        return historical_lookup[player]
 
-        return historical_lookup[
-
-            player
-
-        ]
+    # --------------------------------------------------------
+    # 3. THIS ROW'S ACTUAL LINEUP SLOT
+    # --------------------------------------------------------
 
     slot_raw = str(
         row.get("lineup_slot", "")
@@ -474,18 +456,31 @@ def infer_player_position(
     }:
         return slot
 
-    # If Yahoo actually started this player in W/R/T, the player was legally
-    # flex-eligible even if the historical collector did not capture whether
-    # the player was specifically a WR, RB, or TE.
+    # If Yahoo actually started this player in W/R/T, the
+    # player was flex-eligible even if the historical data
+    # does not tell us specifically WR/RB/TE.
     #
-    # FLEX is intentionally eligible only for W/R/T; it cannot fill a fixed
-    # WR, RB, or TE slot.
+    # FLEX may fill only W/R/T and cannot fill a fixed
+    # WR, RB, or TE position.
     if slot_raw == "W/R/T":
         return "FLEX"
 
+    # --------------------------------------------------------
+    # 4. RAW TEXT — LAST RESORT ONLY
+    # --------------------------------------------------------
+
+    for field in [
+        "raw_player_text",
+        "raw_cells",
+    ]:
+        pos = normalize_position(
+            row.get(field)
+        )
+
+        if pos:
+            return pos
+
     return ""
-
-
 
 def eligible_for_slot(
 

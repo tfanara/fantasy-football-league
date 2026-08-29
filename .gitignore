@@ -9,3 +9,13 @@ __pycache__/
 *.pyc
 .streamlit/secrets.toml
 yahoo_browser_profile_2017/
+
+# Analysis development / diagnostic artifacts
+diagnose_nfl_team_matching.py
+infer_yahoo_scoring.py
+test_waiver_manager_models.py
+test_waiver_value_models.py
+pages/12_Analysis.backup.py
+pages/12_Analysis.before_top_redesign.py
+data/analysis/*_test.csv
+data/analysis/waiver_value_model_comparison.csv

@@ -1,0 +1,1297 @@
+year,team,schedule_team,wins,losses,ties,games,win_equivalent,is_actual_schedule
+2017,Big Sack Jack,Big Sack Jack,7.0,6.0,0.0,13,7.0,True
+2017,Big Sack Jack,Dillon Panthers,8.0,5.0,0.0,13,8.0,False
+2017,Big Sack Jack,Ginger FC,10.0,3.0,0.0,13,10.0,False
+2017,Big Sack Jack,Hello Harvard,6.0,7.0,0.0,13,6.0,False
+2017,Big Sack Jack,Joe Mantegna,10.0,3.0,0.0,13,10.0,False
+2017,Big Sack Jack,Malle ❤️ 🐸,5.0,8.0,0.0,13,5.0,False
+2017,Big Sack Jack,Pop Lockett Drop it,8.0,5.0,0.0,13,8.0,False
+2017,Big Sack Jack,Post Mahomes,9.0,4.0,0.0,13,9.0,False
+2017,Big Sack Jack,The Big Gronkowski,7.0,6.0,0.0,13,7.0,False
+2017,Big Sack Jack,ThreatLevelMidnight,6.0,7.0,0.0,13,6.0,False
+2017,Big Sack Jack,Voldemort,8.0,5.0,0.0,13,8.0,False
+2017,Big Sack Jack,malle_dips_pouches,6.0,7.0,0.0,13,6.0,False
+2017,Dillon Panthers,Big Sack Jack,3.0,10.0,0.0,13,3.0,False
+2017,Dillon Panthers,Dillon Panthers,4.0,9.0,0.0,13,4.0,True
+2017,Dillon Panthers,Ginger FC,7.0,6.0,0.0,13,7.0,False
+2017,Dillon Panthers,Hello Harvard,8.0,5.0,0.0,13,8.0,False
+2017,Dillon Panthers,Joe Mantegna,8.0,5.0,0.0,13,8.0,False
+2017,Dillon Panthers,Malle ❤️ 🐸,3.0,10.0,0.0,13,3.0,False
+2017,Dillon Panthers,Pop Lockett Drop it,6.0,7.0,0.0,13,6.0,False
+2017,Dillon Panthers,Post Mahomes,5.0,8.0,0.0,13,5.0,False
+2017,Dillon Panthers,The Big Gronkowski,5.0,8.0,0.0,13,5.0,False
+2017,Dillon Panthers,ThreatLevelMidnight,4.0,9.0,0.0,13,4.0,False
+2017,Dillon Panthers,Voldemort,6.0,7.0,0.0,13,6.0,False
+2017,Dillon Panthers,malle_dips_pouches,4.0,9.0,0.0,13,4.0,False
+2017,Ginger FC,Big Sack Jack,6.0,7.0,0.0,13,6.0,False
+2017,Ginger FC,Dillon Panthers,9.0,4.0,0.0,13,9.0,False
+2017,Ginger FC,Ginger FC,10.0,3.0,0.0,13,10.0,True
+2017,Ginger FC,Hello Harvard,6.0,7.0,0.0,13,6.0,False
+2017,Ginger FC,Joe Mantegna,9.0,4.0,0.0,13,9.0,False
+2017,Ginger FC,Malle ❤️ 🐸,5.0,8.0,0.0,13,5.0,False
+2017,Ginger FC,Pop Lockett Drop it,8.0,5.0,0.0,13,8.0,False
+2017,Ginger FC,Post Mahomes,7.0,6.0,0.0,13,7.0,False
+2017,Ginger FC,The Big Gronkowski,5.0,8.0,0.0,13,5.0,False
+2017,Ginger FC,ThreatLevelMidnight,6.0,7.0,0.0,13,6.0,False
+2017,Ginger FC,Voldemort,8.0,5.0,0.0,13,8.0,False
+2017,Ginger FC,malle_dips_pouches,7.0,6.0,0.0,13,7.0,False
+2017,Hello Harvard,Big Sack Jack,5.0,8.0,0.0,13,5.0,False
+2017,Hello Harvard,Dillon Panthers,4.0,9.0,0.0,13,4.0,False
+2017,Hello Harvard,Ginger FC,5.0,8.0,0.0,13,5.0,False
+2017,Hello Harvard,Hello Harvard,5.0,8.0,0.0,13,5.0,True
+2017,Hello Harvard,Joe Mantegna,6.0,7.0,0.0,13,6.0,False
+2017,Hello Harvard,Malle ❤️ 🐸,5.0,8.0,0.0,13,5.0,False
+2017,Hello Harvard,Pop Lockett Drop it,5.0,8.0,0.0,13,5.0,False
+2017,Hello Harvard,Post Mahomes,3.0,10.0,0.0,13,3.0,False
+2017,Hello Harvard,The Big Gronkowski,4.0,9.0,0.0,13,4.0,False
+2017,Hello Harvard,ThreatLevelMidnight,5.0,8.0,0.0,13,5.0,False
+2017,Hello Harvard,Voldemort,5.0,8.0,0.0,13,5.0,False
+2017,Hello Harvard,malle_dips_pouches,7.0,6.0,0.0,13,7.0,False
+2017,Joe Mantegna,Big Sack Jack,4.0,9.0,0.0,13,4.0,False
+2017,Joe Mantegna,Dillon Panthers,4.0,9.0,0.0,13,4.0,False
+2017,Joe Mantegna,Ginger FC,4.0,9.0,0.0,13,4.0,False
+2017,Joe Mantegna,Hello Harvard,4.0,9.0,0.0,13,4.0,False
+2017,Joe Mantegna,Joe Mantegna,5.0,8.0,0.0,13,5.0,True
+2017,Joe Mantegna,Malle ❤️ 🐸,3.0,10.0,0.0,13,3.0,False
+2017,Joe Mantegna,Pop Lockett Drop it,3.0,10.0,0.0,13,3.0,False
+2017,Joe Mantegna,Post Mahomes,3.0,10.0,0.0,13,3.0,False
+2017,Joe Mantegna,The Big Gronkowski,3.0,10.0,0.0,13,3.0,False
+2017,Joe Mantegna,ThreatLevelMidnight,4.0,9.0,0.0,13,4.0,False
+2017,Joe Mantegna,Voldemort,4.0,9.0,0.0,13,4.0,False
+2017,Joe Mantegna,malle_dips_pouches,3.0,10.0,0.0,13,3.0,False
+2017,Malle ❤️ 🐸,Big Sack Jack,3.0,10.0,0.0,13,3.0,False
+2017,Malle ❤️ 🐸,Dillon Panthers,4.0,9.0,0.0,13,4.0,False
+2017,Malle ❤️ 🐸,Ginger FC,5.0,8.0,0.0,13,5.0,False
+2017,Malle ❤️ 🐸,Hello Harvard,5.0,8.0,0.0,13,5.0,False
+2017,Malle ❤️ 🐸,Joe Mantegna,5.0,8.0,0.0,13,5.0,False
+2017,Malle ❤️ 🐸,Malle ❤️ 🐸,3.0,10.0,0.0,13,3.0,True
+2017,Malle ❤️ 🐸,Pop Lockett Drop it,5.0,8.0,0.0,13,5.0,False
+2017,Malle ❤️ 🐸,Post Mahomes,5.0,8.0,0.0,13,5.0,False
+2017,Malle ❤️ 🐸,The Big Gronkowski,2.0,11.0,0.0,13,2.0,False
+2017,Malle ❤️ 🐸,ThreatLevelMidnight,6.0,7.0,0.0,13,6.0,False
+2017,Malle ❤️ 🐸,Voldemort,4.0,9.0,0.0,13,4.0,False
+2017,Malle ❤️ 🐸,malle_dips_pouches,4.0,9.0,0.0,13,4.0,False
+2017,Pop Lockett Drop it,Big Sack Jack,6.0,7.0,0.0,13,6.0,False
+2017,Pop Lockett Drop it,Dillon Panthers,7.0,6.0,0.0,13,7.0,False
+2017,Pop Lockett Drop it,Ginger FC,5.0,8.0,0.0,13,5.0,False
+2017,Pop Lockett Drop it,Hello Harvard,7.0,6.0,0.0,13,7.0,False
+2017,Pop Lockett Drop it,Joe Mantegna,6.0,7.0,0.0,13,6.0,False
+2017,Pop Lockett Drop it,Malle ❤️ 🐸,5.0,8.0,0.0,13,5.0,False
+2017,Pop Lockett Drop it,Pop Lockett Drop it,9.0,4.0,0.0,13,9.0,True
+2017,Pop Lockett Drop it,Post Mahomes,6.0,7.0,0.0,13,6.0,False
+2017,Pop Lockett Drop it,The Big Gronkowski,4.0,9.0,0.0,13,4.0,False
+2017,Pop Lockett Drop it,ThreatLevelMidnight,4.0,9.0,0.0,13,4.0,False
+2017,Pop Lockett Drop it,Voldemort,4.0,9.0,0.0,13,4.0,False
+2017,Pop Lockett Drop it,malle_dips_pouches,8.0,5.0,0.0,13,8.0,False
+2017,Post Mahomes,Big Sack Jack,8.0,5.0,0.0,13,8.0,False
+2017,Post Mahomes,Dillon Panthers,10.0,3.0,0.0,13,10.0,False
+2017,Post Mahomes,Ginger FC,10.0,3.0,0.0,13,10.0,False
+2017,Post Mahomes,Hello Harvard,10.0,3.0,0.0,13,10.0,False
+2017,Post Mahomes,Joe Mantegna,9.0,4.0,0.0,13,9.0,False
+2017,Post Mahomes,Malle ❤️ 🐸,5.0,8.0,0.0,13,5.0,False
+2017,Post Mahomes,Pop Lockett Drop it,9.0,4.0,0.0,13,9.0,False
+2017,Post Mahomes,Post Mahomes,8.0,5.0,0.0,13,8.0,True
+2017,Post Mahomes,The Big Gronkowski,7.0,6.0,0.0,13,7.0,False
+2017,Post Mahomes,ThreatLevelMidnight,7.0,6.0,0.0,13,7.0,False
+2017,Post Mahomes,Voldemort,8.0,5.0,0.0,13,8.0,False
+2017,Post Mahomes,malle_dips_pouches,10.0,3.0,0.0,13,10.0,False
+2017,The Big Gronkowski,Big Sack Jack,9.0,4.0,0.0,13,9.0,False
+2017,The Big Gronkowski,Dillon Panthers,9.0,4.0,0.0,13,9.0,False
+2017,The Big Gronkowski,Ginger FC,8.0,5.0,0.0,13,8.0,False
+2017,The Big Gronkowski,Hello Harvard,7.0,6.0,0.0,13,7.0,False
+2017,The Big Gronkowski,Joe Mantegna,8.0,5.0,0.0,13,8.0,False
+2017,The Big Gronkowski,Malle ❤️ 🐸,7.0,6.0,0.0,13,7.0,False
+2017,The Big Gronkowski,Pop Lockett Drop it,9.0,4.0,0.0,13,9.0,False
+2017,The Big Gronkowski,Post Mahomes,6.0,7.0,0.0,13,6.0,False
+2017,The Big Gronkowski,The Big Gronkowski,5.0,8.0,0.0,13,5.0,True
+2017,The Big Gronkowski,ThreatLevelMidnight,6.0,7.0,0.0,13,6.0,False
+2017,The Big Gronkowski,Voldemort,6.0,7.0,0.0,13,6.0,False
+2017,The Big Gronkowski,malle_dips_pouches,9.0,4.0,0.0,13,9.0,False
+2017,ThreatLevelMidnight,Big Sack Jack,8.0,5.0,0.0,13,8.0,False
+2017,ThreatLevelMidnight,Dillon Panthers,7.0,6.0,0.0,13,7.0,False
+2017,ThreatLevelMidnight,Ginger FC,10.0,3.0,0.0,13,10.0,False
+2017,ThreatLevelMidnight,Hello Harvard,7.0,6.0,0.0,13,7.0,False
+2017,ThreatLevelMidnight,Joe Mantegna,8.0,5.0,0.0,13,8.0,False
+2017,ThreatLevelMidnight,Malle ❤️ 🐸,5.0,8.0,0.0,13,5.0,False
+2017,ThreatLevelMidnight,Pop Lockett Drop it,8.0,5.0,0.0,13,8.0,False
+2017,ThreatLevelMidnight,Post Mahomes,8.0,5.0,0.0,13,8.0,False
+2017,ThreatLevelMidnight,The Big Gronkowski,5.0,8.0,0.0,13,5.0,False
+2017,ThreatLevelMidnight,ThreatLevelMidnight,6.0,7.0,0.0,13,6.0,True
+2017,ThreatLevelMidnight,Voldemort,7.0,6.0,0.0,13,7.0,False
+2017,ThreatLevelMidnight,malle_dips_pouches,6.0,7.0,0.0,13,6.0,False
+2017,Voldemort,Big Sack Jack,10.0,3.0,0.0,13,10.0,False
+2017,Voldemort,Dillon Panthers,10.0,3.0,0.0,13,10.0,False
+2017,Voldemort,Ginger FC,11.0,2.0,0.0,13,11.0,False
+2017,Voldemort,Hello Harvard,8.0,5.0,0.0,13,8.0,False
+2017,Voldemort,Joe Mantegna,10.0,3.0,0.0,13,10.0,False
+2017,Voldemort,Malle ❤️ 🐸,8.0,5.0,0.0,13,8.0,False
+2017,Voldemort,Pop Lockett Drop it,9.0,4.0,0.0,13,9.0,False
+2017,Voldemort,Post Mahomes,10.0,3.0,0.0,13,10.0,False
+2017,Voldemort,The Big Gronkowski,9.0,4.0,0.0,13,9.0,False
+2017,Voldemort,ThreatLevelMidnight,8.0,5.0,0.0,13,8.0,False
+2017,Voldemort,Voldemort,9.0,4.0,0.0,13,9.0,True
+2017,Voldemort,malle_dips_pouches,11.0,2.0,0.0,13,11.0,False
+2017,malle_dips_pouches,Big Sack Jack,9.0,4.0,0.0,13,9.0,False
+2017,malle_dips_pouches,Dillon Panthers,7.0,6.0,0.0,13,7.0,False
+2017,malle_dips_pouches,Ginger FC,8.0,5.0,0.0,13,8.0,False
+2017,malle_dips_pouches,Hello Harvard,8.0,5.0,0.0,13,8.0,False
+2017,malle_dips_pouches,Joe Mantegna,8.0,5.0,0.0,13,8.0,False
+2017,malle_dips_pouches,Malle ❤️ 🐸,6.0,7.0,0.0,13,6.0,False
+2017,malle_dips_pouches,Pop Lockett Drop it,8.0,5.0,0.0,13,8.0,False
+2017,malle_dips_pouches,Post Mahomes,5.0,8.0,0.0,13,5.0,False
+2017,malle_dips_pouches,The Big Gronkowski,5.0,8.0,0.0,13,5.0,False
+2017,malle_dips_pouches,ThreatLevelMidnight,6.0,7.0,0.0,13,6.0,False
+2017,malle_dips_pouches,Voldemort,7.0,6.0,0.0,13,7.0,False
+2017,malle_dips_pouches,malle_dips_pouches,7.0,6.0,0.0,13,7.0,True
+2018,Big Sack Jack,Big Sack Jack,8.0,5.0,0.0,13,8.0,True
+2018,Big Sack Jack,Dillon Panthers,7.0,6.0,0.0,13,7.0,False
+2018,Big Sack Jack,Ginger FC,6.0,7.0,0.0,13,6.0,False
+2018,Big Sack Jack,Joe Mantegna,8.0,5.0,0.0,13,8.0,False
+2018,Big Sack Jack,Malle ❤️ 🐸,7.0,6.0,0.0,13,7.0,False
+2018,Big Sack Jack,Pop Lockett Drop it,8.0,5.0,0.0,13,8.0,False
+2018,Big Sack Jack,Post Mahomes,10.0,3.0,0.0,13,10.0,False
+2018,Big Sack Jack,The Big Gronkowski,8.0,5.0,0.0,13,8.0,False
+2018,Big Sack Jack,ThreatLevelMidnight,9.0,4.0,0.0,13,9.0,False
+2018,Big Sack Jack,Uncle Rico,8.0,5.0,0.0,13,8.0,False
+2018,Big Sack Jack,Voldemort,10.0,3.0,0.0,13,10.0,False
+2018,Big Sack Jack,malle_dips_pouches,12.0,1.0,0.0,13,12.0,False
+2018,Dillon Panthers,Big Sack Jack,7.0,6.0,0.0,13,7.0,False
+2018,Dillon Panthers,Dillon Panthers,6.0,7.0,0.0,13,6.0,True
+2018,Dillon Panthers,Ginger FC,3.0,10.0,0.0,13,3.0,False
+2018,Dillon Panthers,Joe Mantegna,8.0,5.0,0.0,13,8.0,False
+2018,Dillon Panthers,Malle ❤️ 🐸,7.0,6.0,0.0,13,7.0,False
+2018,Dillon Panthers,Pop Lockett Drop it,8.0,5.0,0.0,13,8.0,False
+2018,Dillon Panthers,Post Mahomes,6.0,7.0,0.0,13,6.0,False
+2018,Dillon Panthers,The Big Gronkowski,5.0,8.0,0.0,13,5.0,False
+2018,Dillon Panthers,ThreatLevelMidnight,7.0,6.0,0.0,13,7.0,False
+2018,Dillon Panthers,Uncle Rico,8.0,5.0,0.0,13,8.0,False
+2018,Dillon Panthers,Voldemort,7.0,6.0,0.0,13,7.0,False
+2018,Dillon Panthers,malle_dips_pouches,9.0,4.0,0.0,13,9.0,False
+2018,Ginger FC,Big Sack Jack,3.0,10.0,0.0,13,3.0,False
+2018,Ginger FC,Dillon Panthers,4.0,9.0,0.0,13,4.0,False
+2018,Ginger FC,Ginger FC,4.0,9.0,0.0,13,4.0,True
+2018,Ginger FC,Joe Mantegna,5.0,8.0,0.0,13,5.0,False
+2018,Ginger FC,Malle ❤️ 🐸,2.0,11.0,0.0,13,2.0,False
+2018,Ginger FC,Pop Lockett Drop it,3.0,10.0,0.0,13,3.0,False
+2018,Ginger FC,Post Mahomes,2.0,11.0,0.0,13,2.0,False
+2018,Ginger FC,The Big Gronkowski,5.0,8.0,0.0,13,5.0,False
+2018,Ginger FC,ThreatLevelMidnight,4.0,9.0,0.0,13,4.0,False
+2018,Ginger FC,Uncle Rico,4.0,9.0,0.0,13,4.0,False
+2018,Ginger FC,Voldemort,4.0,9.0,0.0,13,4.0,False
+2018,Ginger FC,malle_dips_pouches,7.0,6.0,0.0,13,7.0,False
+2018,Joe Mantegna,Big Sack Jack,4.0,9.0,0.0,13,4.0,False
+2018,Joe Mantegna,Dillon Panthers,6.0,7.0,0.0,13,6.0,False
+2018,Joe Mantegna,Ginger FC,6.0,7.0,0.0,13,6.0,False
+2018,Joe Mantegna,Joe Mantegna,4.0,9.0,0.0,13,4.0,True
+2018,Joe Mantegna,Malle ❤️ 🐸,7.0,6.0,0.0,13,7.0,False
+2018,Joe Mantegna,Pop Lockett Drop it,4.0,9.0,0.0,13,4.0,False
+2018,Joe Mantegna,Post Mahomes,7.0,6.0,0.0,13,7.0,False
+2018,Joe Mantegna,The Big Gronkowski,7.0,6.0,0.0,13,7.0,False
+2018,Joe Mantegna,ThreatLevelMidnight,7.0,6.0,0.0,13,7.0,False
+2018,Joe Mantegna,Uncle Rico,6.0,7.0,0.0,13,6.0,False
+2018,Joe Mantegna,Voldemort,8.0,5.0,0.0,13,8.0,False
+2018,Joe Mantegna,malle_dips_pouches,11.0,2.0,0.0,13,11.0,False
+2018,Malle ❤️ 🐸,Big Sack Jack,4.0,9.0,0.0,13,4.0,False
+2018,Malle ❤️ 🐸,Dillon Panthers,4.0,9.0,0.0,13,4.0,False
+2018,Malle ❤️ 🐸,Ginger FC,5.0,8.0,0.0,13,5.0,False
+2018,Malle ❤️ 🐸,Joe Mantegna,4.0,9.0,0.0,13,4.0,False
+2018,Malle ❤️ 🐸,Malle ❤️ 🐸,4.0,9.0,0.0,13,4.0,True
+2018,Malle ❤️ 🐸,Pop Lockett Drop it,3.0,10.0,0.0,13,3.0,False
+2018,Malle ❤️ 🐸,Post Mahomes,5.0,8.0,0.0,13,5.0,False
+2018,Malle ❤️ 🐸,The Big Gronkowski,4.0,9.0,0.0,13,4.0,False
+2018,Malle ❤️ 🐸,ThreatLevelMidnight,5.0,8.0,0.0,13,5.0,False
+2018,Malle ❤️ 🐸,Uncle Rico,6.0,7.0,0.0,13,6.0,False
+2018,Malle ❤️ 🐸,Voldemort,5.0,8.0,0.0,13,5.0,False
+2018,Malle ❤️ 🐸,malle_dips_pouches,5.0,8.0,0.0,13,5.0,False
+2018,Pop Lockett Drop it,Big Sack Jack,9.0,4.0,0.0,13,9.0,False
+2018,Pop Lockett Drop it,Dillon Panthers,9.0,4.0,0.0,13,9.0,False
+2018,Pop Lockett Drop it,Ginger FC,9.0,4.0,0.0,13,9.0,False
+2018,Pop Lockett Drop it,Joe Mantegna,7.0,6.0,0.0,13,7.0,False
+2018,Pop Lockett Drop it,Malle ❤️ 🐸,6.0,7.0,0.0,13,6.0,False
+2018,Pop Lockett Drop it,Pop Lockett Drop it,8.0,5.0,0.0,13,8.0,True
+2018,Pop Lockett Drop it,Post Mahomes,9.0,4.0,0.0,13,9.0,False
+2018,Pop Lockett Drop it,The Big Gronkowski,10.0,3.0,0.0,13,10.0,False
+2018,Pop Lockett Drop it,ThreatLevelMidnight,10.0,3.0,0.0,13,10.0,False
+2018,Pop Lockett Drop it,Uncle Rico,10.0,3.0,0.0,13,10.0,False
+2018,Pop Lockett Drop it,Voldemort,9.0,4.0,0.0,13,9.0,False
+2018,Pop Lockett Drop it,malle_dips_pouches,10.0,3.0,0.0,13,10.0,False
+2018,Post Mahomes,Big Sack Jack,9.0,4.0,0.0,13,9.0,False
+2018,Post Mahomes,Dillon Panthers,8.0,5.0,0.0,13,8.0,False
+2018,Post Mahomes,Ginger FC,7.0,6.0,0.0,13,7.0,False
+2018,Post Mahomes,Joe Mantegna,7.0,6.0,0.0,13,7.0,False
+2018,Post Mahomes,Malle ❤️ 🐸,9.0,4.0,0.0,13,9.0,False
+2018,Post Mahomes,Pop Lockett Drop it,6.0,7.0,0.0,13,6.0,False
+2018,Post Mahomes,Post Mahomes,6.0,7.0,0.0,13,6.0,True
+2018,Post Mahomes,The Big Gronkowski,8.0,5.0,0.0,13,8.0,False
+2018,Post Mahomes,ThreatLevelMidnight,9.0,4.0,0.0,13,9.0,False
+2018,Post Mahomes,Uncle Rico,8.0,5.0,0.0,13,8.0,False
+2018,Post Mahomes,Voldemort,9.0,4.0,0.0,13,9.0,False
+2018,Post Mahomes,malle_dips_pouches,11.0,2.0,0.0,13,11.0,False
+2018,The Big Gronkowski,Big Sack Jack,6.0,7.0,0.0,13,6.0,False
+2018,The Big Gronkowski,Dillon Panthers,4.0,9.0,0.0,13,4.0,False
+2018,The Big Gronkowski,Ginger FC,3.0,10.0,0.0,13,3.0,False
+2018,The Big Gronkowski,Joe Mantegna,3.0,10.0,0.0,13,3.0,False
+2018,The Big Gronkowski,Malle ❤️ 🐸,6.0,7.0,0.0,13,6.0,False
+2018,The Big Gronkowski,Pop Lockett Drop it,3.0,10.0,0.0,13,3.0,False
+2018,The Big Gronkowski,Post Mahomes,4.0,9.0,0.0,13,4.0,False
+2018,The Big Gronkowski,The Big Gronkowski,7.0,6.0,0.0,13,7.0,True
+2018,The Big Gronkowski,ThreatLevelMidnight,5.0,8.0,0.0,13,5.0,False
+2018,The Big Gronkowski,Uncle Rico,5.0,8.0,0.0,13,5.0,False
+2018,The Big Gronkowski,Voldemort,3.0,10.0,0.0,13,3.0,False
+2018,The Big Gronkowski,malle_dips_pouches,8.0,5.0,0.0,13,8.0,False
+2018,ThreatLevelMidnight,Big Sack Jack,6.0,7.0,0.0,13,6.0,False
+2018,ThreatLevelMidnight,Dillon Panthers,7.0,6.0,0.0,13,7.0,False
+2018,ThreatLevelMidnight,Ginger FC,5.0,8.0,0.0,13,5.0,False
+2018,ThreatLevelMidnight,Joe Mantegna,7.0,6.0,0.0,13,7.0,False
+2018,ThreatLevelMidnight,Malle ❤️ 🐸,7.0,6.0,0.0,13,7.0,False
+2018,ThreatLevelMidnight,Pop Lockett Drop it,6.0,7.0,0.0,13,6.0,False
+2018,ThreatLevelMidnight,Post Mahomes,6.0,7.0,0.0,13,6.0,False
+2018,ThreatLevelMidnight,The Big Gronkowski,7.0,6.0,0.0,13,7.0,False
+2018,ThreatLevelMidnight,ThreatLevelMidnight,7.0,6.0,0.0,13,7.0,True
+2018,ThreatLevelMidnight,Uncle Rico,9.0,4.0,0.0,13,9.0,False
+2018,ThreatLevelMidnight,Voldemort,6.0,7.0,0.0,13,6.0,False
+2018,ThreatLevelMidnight,malle_dips_pouches,8.0,5.0,0.0,13,8.0,False
+2018,Uncle Rico,Big Sack Jack,5.0,8.0,0.0,13,5.0,False
+2018,Uncle Rico,Dillon Panthers,3.0,10.0,0.0,13,3.0,False
+2018,Uncle Rico,Ginger FC,3.0,10.0,0.0,13,3.0,False
+2018,Uncle Rico,Joe Mantegna,5.0,8.0,0.0,13,5.0,False
+2018,Uncle Rico,Malle ❤️ 🐸,6.0,7.0,0.0,13,6.0,False
+2018,Uncle Rico,Pop Lockett Drop it,5.0,8.0,0.0,13,5.0,False
+2018,Uncle Rico,Post Mahomes,3.0,10.0,0.0,13,3.0,False
+2018,Uncle Rico,The Big Gronkowski,5.0,8.0,0.0,13,5.0,False
+2018,Uncle Rico,ThreatLevelMidnight,6.0,7.0,0.0,13,6.0,False
+2018,Uncle Rico,Uncle Rico,6.0,7.0,0.0,13,6.0,True
+2018,Uncle Rico,Voldemort,7.0,6.0,0.0,13,7.0,False
+2018,Uncle Rico,malle_dips_pouches,9.0,4.0,0.0,13,9.0,False
+2018,Voldemort,Big Sack Jack,7.0,6.0,0.0,13,7.0,False
+2018,Voldemort,Dillon Panthers,7.0,6.0,0.0,13,7.0,False
+2018,Voldemort,Ginger FC,5.0,8.0,0.0,13,5.0,False
+2018,Voldemort,Joe Mantegna,7.0,6.0,0.0,13,7.0,False
+2018,Voldemort,Malle ❤️ 🐸,8.0,5.0,0.0,13,8.0,False
+2018,Voldemort,Pop Lockett Drop it,8.0,5.0,0.0,13,8.0,False
+2018,Voldemort,Post Mahomes,6.0,7.0,0.0,13,6.0,False
+2018,Voldemort,The Big Gronkowski,9.0,4.0,0.0,13,9.0,False
+2018,Voldemort,ThreatLevelMidnight,5.0,8.0,0.0,13,5.0,False
+2018,Voldemort,Uncle Rico,8.0,5.0,0.0,13,8.0,False
+2018,Voldemort,Voldemort,7.0,6.0,0.0,13,7.0,True
+2018,Voldemort,malle_dips_pouches,8.0,5.0,0.0,13,8.0,False
+2018,malle_dips_pouches,Big Sack Jack,6.0,7.0,0.0,13,6.0,False
+2018,malle_dips_pouches,Dillon Panthers,6.0,7.0,0.0,13,6.0,False
+2018,malle_dips_pouches,Ginger FC,5.0,8.0,0.0,13,5.0,False
+2018,malle_dips_pouches,Joe Mantegna,5.0,8.0,0.0,13,5.0,False
+2018,malle_dips_pouches,Malle ❤️ 🐸,9.0,4.0,0.0,13,9.0,False
+2018,malle_dips_pouches,Pop Lockett Drop it,6.0,7.0,0.0,13,6.0,False
+2018,malle_dips_pouches,Post Mahomes,9.0,4.0,0.0,13,9.0,False
+2018,malle_dips_pouches,The Big Gronkowski,9.0,4.0,0.0,13,9.0,False
+2018,malle_dips_pouches,ThreatLevelMidnight,8.0,5.0,0.0,13,8.0,False
+2018,malle_dips_pouches,Uncle Rico,7.0,6.0,0.0,13,7.0,False
+2018,malle_dips_pouches,Voldemort,6.0,7.0,0.0,13,6.0,False
+2018,malle_dips_pouches,malle_dips_pouches,11.0,2.0,0.0,13,11.0,True
+2019,Big Sack Jack,Big Sack Jack,7.0,6.0,0.0,13,7.0,True
+2019,Big Sack Jack,Ginger FC,6.0,7.0,0.0,13,6.0,False
+2019,Big Sack Jack,Joe Mantegna,6.0,7.0,0.0,13,6.0,False
+2019,Big Sack Jack,Malle ❤️ 🐸,8.0,5.0,0.0,13,8.0,False
+2019,Big Sack Jack,Patty Primetimes,8.0,5.0,0.0,13,8.0,False
+2019,Big Sack Jack,Pop Lockett Drop it,6.0,7.0,0.0,13,6.0,False
+2019,Big Sack Jack,Post Mahomes,6.0,7.0,0.0,13,6.0,False
+2019,Big Sack Jack,The Big Gronkowski,8.0,5.0,0.0,13,8.0,False
+2019,Big Sack Jack,ThreatLevelMidnight,7.0,6.0,0.0,13,7.0,False
+2019,Big Sack Jack,Uncle Rico,8.0,5.0,0.0,13,8.0,False
+2019,Big Sack Jack,Voldemort,10.0,3.0,0.0,13,10.0,False
+2019,Big Sack Jack,malle_dips_pouches,6.0,7.0,0.0,13,6.0,False
+2019,Ginger FC,Big Sack Jack,4.0,9.0,0.0,13,4.0,False
+2019,Ginger FC,Ginger FC,4.0,9.0,0.0,13,4.0,True
+2019,Ginger FC,Joe Mantegna,4.0,9.0,0.0,13,4.0,False
+2019,Ginger FC,Malle ❤️ 🐸,5.0,8.0,0.0,13,5.0,False
+2019,Ginger FC,Patty Primetimes,4.0,9.0,0.0,13,4.0,False
+2019,Ginger FC,Pop Lockett Drop it,7.0,6.0,0.0,13,7.0,False
+2019,Ginger FC,Post Mahomes,3.0,10.0,0.0,13,3.0,False
+2019,Ginger FC,The Big Gronkowski,4.0,9.0,0.0,13,4.0,False
+2019,Ginger FC,ThreatLevelMidnight,5.0,8.0,0.0,13,5.0,False
+2019,Ginger FC,Uncle Rico,5.0,8.0,0.0,13,5.0,False
+2019,Ginger FC,Voldemort,8.0,5.0,0.0,13,8.0,False
+2019,Ginger FC,malle_dips_pouches,3.0,10.0,0.0,13,3.0,False
+2019,Joe Mantegna,Big Sack Jack,8.0,5.0,0.0,13,8.0,False
+2019,Joe Mantegna,Ginger FC,5.0,8.0,0.0,13,5.0,False
+2019,Joe Mantegna,Joe Mantegna,4.0,9.0,0.0,13,4.0,True
+2019,Joe Mantegna,Malle ❤️ 🐸,4.0,9.0,0.0,13,4.0,False
+2019,Joe Mantegna,Patty Primetimes,5.0,8.0,0.0,13,5.0,False
+2019,Joe Mantegna,Pop Lockett Drop it,6.0,7.0,0.0,13,6.0,False
+2019,Joe Mantegna,Post Mahomes,8.0,5.0,0.0,13,8.0,False
+2019,Joe Mantegna,The Big Gronkowski,5.0,8.0,0.0,13,5.0,False
+2019,Joe Mantegna,ThreatLevelMidnight,5.0,8.0,0.0,13,5.0,False
+2019,Joe Mantegna,Uncle Rico,4.0,9.0,0.0,13,4.0,False
+2019,Joe Mantegna,Voldemort,11.0,2.0,0.0,13,11.0,False
+2019,Joe Mantegna,malle_dips_pouches,3.0,10.0,0.0,13,3.0,False
+2019,Malle ❤️ 🐸,Big Sack Jack,2.0,11.0,0.0,13,2.0,False
+2019,Malle ❤️ 🐸,Ginger FC,4.0,9.0,0.0,13,4.0,False
+2019,Malle ❤️ 🐸,Joe Mantegna,6.0,7.0,0.0,13,6.0,False
+2019,Malle ❤️ 🐸,Malle ❤️ 🐸,4.0,9.0,0.0,13,4.0,True
+2019,Malle ❤️ 🐸,Patty Primetimes,5.0,8.0,0.0,13,5.0,False
+2019,Malle ❤️ 🐸,Pop Lockett Drop it,6.0,7.0,0.0,13,6.0,False
+2019,Malle ❤️ 🐸,Post Mahomes,3.0,10.0,0.0,13,3.0,False
+2019,Malle ❤️ 🐸,The Big Gronkowski,4.0,9.0,0.0,13,4.0,False
+2019,Malle ❤️ 🐸,ThreatLevelMidnight,4.0,9.0,0.0,13,4.0,False
+2019,Malle ❤️ 🐸,Uncle Rico,4.0,9.0,0.0,13,4.0,False
+2019,Malle ❤️ 🐸,Voldemort,7.0,6.0,0.0,13,7.0,False
+2019,Malle ❤️ 🐸,malle_dips_pouches,3.0,10.0,0.0,13,3.0,False
+2019,Patty Primetimes,Big Sack Jack,10.0,3.0,0.0,13,10.0,False
+2019,Patty Primetimes,Ginger FC,10.0,3.0,0.0,13,10.0,False
+2019,Patty Primetimes,Joe Mantegna,9.0,4.0,0.0,13,9.0,False
+2019,Patty Primetimes,Malle ❤️ 🐸,8.0,5.0,0.0,13,8.0,False
+2019,Patty Primetimes,Patty Primetimes,10.0,3.0,0.0,13,10.0,True
+2019,Patty Primetimes,Pop Lockett Drop it,11.0,2.0,0.0,13,11.0,False
+2019,Patty Primetimes,Post Mahomes,11.0,2.0,0.0,13,11.0,False
+2019,Patty Primetimes,The Big Gronkowski,11.0,2.0,0.0,13,11.0,False
+2019,Patty Primetimes,ThreatLevelMidnight,9.0,4.0,0.0,13,9.0,False
+2019,Patty Primetimes,Uncle Rico,9.0,4.0,0.0,13,9.0,False
+2019,Patty Primetimes,Voldemort,11.0,2.0,0.0,13,11.0,False
+2019,Patty Primetimes,malle_dips_pouches,7.0,6.0,0.0,13,7.0,False
+2019,Pop Lockett Drop it,Big Sack Jack,8.0,5.0,0.0,13,8.0,False
+2019,Pop Lockett Drop it,Ginger FC,9.0,4.0,0.0,13,9.0,False
+2019,Pop Lockett Drop it,Joe Mantegna,7.0,6.0,0.0,13,7.0,False
+2019,Pop Lockett Drop it,Malle ❤️ 🐸,7.0,6.0,0.0,13,7.0,False
+2019,Pop Lockett Drop it,Patty Primetimes,10.0,3.0,0.0,13,10.0,False
+2019,Pop Lockett Drop it,Pop Lockett Drop it,10.0,3.0,0.0,13,10.0,True
+2019,Pop Lockett Drop it,Post Mahomes,8.0,5.0,0.0,13,8.0,False
+2019,Pop Lockett Drop it,The Big Gronkowski,9.0,4.0,0.0,13,9.0,False
+2019,Pop Lockett Drop it,ThreatLevelMidnight,9.0,4.0,0.0,13,9.0,False
+2019,Pop Lockett Drop it,Uncle Rico,6.0,7.0,0.0,13,6.0,False
+2019,Pop Lockett Drop it,Voldemort,9.0,4.0,0.0,13,9.0,False
+2019,Pop Lockett Drop it,malle_dips_pouches,8.0,5.0,0.0,13,8.0,False
+2019,Post Mahomes,Big Sack Jack,7.0,6.0,0.0,13,7.0,False
+2019,Post Mahomes,Ginger FC,9.0,4.0,0.0,13,9.0,False
+2019,Post Mahomes,Joe Mantegna,6.0,7.0,0.0,13,6.0,False
+2019,Post Mahomes,Malle ❤️ 🐸,6.0,7.0,0.0,13,6.0,False
+2019,Post Mahomes,Patty Primetimes,8.0,5.0,0.0,13,8.0,False
+2019,Post Mahomes,Pop Lockett Drop it,7.0,6.0,0.0,13,7.0,False
+2019,Post Mahomes,Post Mahomes,8.0,5.0,0.0,13,8.0,True
+2019,Post Mahomes,The Big Gronkowski,9.0,4.0,0.0,13,9.0,False
+2019,Post Mahomes,ThreatLevelMidnight,7.0,6.0,0.0,13,7.0,False
+2019,Post Mahomes,Uncle Rico,7.0,6.0,0.0,13,7.0,False
+2019,Post Mahomes,Voldemort,10.0,3.0,0.0,13,10.0,False
+2019,Post Mahomes,malle_dips_pouches,7.0,6.0,0.0,13,7.0,False
+2019,The Big Gronkowski,Big Sack Jack,4.0,9.0,0.0,13,4.0,False
+2019,The Big Gronkowski,Ginger FC,6.0,7.0,0.0,13,6.0,False
+2019,The Big Gronkowski,Joe Mantegna,4.0,9.0,0.0,13,4.0,False
+2019,The Big Gronkowski,Malle ❤️ 🐸,5.0,8.0,0.0,13,5.0,False
+2019,The Big Gronkowski,Patty Primetimes,6.0,7.0,0.0,13,6.0,False
+2019,The Big Gronkowski,Pop Lockett Drop it,5.0,8.0,0.0,13,5.0,False
+2019,The Big Gronkowski,Post Mahomes,4.0,9.0,0.0,13,4.0,False
+2019,The Big Gronkowski,The Big Gronkowski,6.0,7.0,0.0,13,6.0,True
+2019,The Big Gronkowski,ThreatLevelMidnight,3.0,10.0,0.0,13,3.0,False
+2019,The Big Gronkowski,Uncle Rico,4.0,9.0,0.0,13,4.0,False
+2019,The Big Gronkowski,Voldemort,8.0,5.0,0.0,13,8.0,False
+2019,The Big Gronkowski,malle_dips_pouches,4.0,9.0,0.0,13,4.0,False
+2019,ThreatLevelMidnight,Big Sack Jack,6.0,7.0,0.0,13,6.0,False
+2019,ThreatLevelMidnight,Ginger FC,8.0,5.0,0.0,13,8.0,False
+2019,ThreatLevelMidnight,Joe Mantegna,7.0,6.0,0.0,13,7.0,False
+2019,ThreatLevelMidnight,Malle ❤️ 🐸,5.0,8.0,0.0,13,5.0,False
+2019,ThreatLevelMidnight,Patty Primetimes,6.0,7.0,0.0,13,6.0,False
+2019,ThreatLevelMidnight,Pop Lockett Drop it,7.0,6.0,0.0,13,7.0,False
+2019,ThreatLevelMidnight,Post Mahomes,4.0,9.0,0.0,13,4.0,False
+2019,ThreatLevelMidnight,The Big Gronkowski,7.0,6.0,0.0,13,7.0,False
+2019,ThreatLevelMidnight,ThreatLevelMidnight,7.0,6.0,0.0,13,7.0,True
+2019,ThreatLevelMidnight,Uncle Rico,7.0,6.0,0.0,13,7.0,False
+2019,ThreatLevelMidnight,Voldemort,11.0,2.0,0.0,13,11.0,False
+2019,ThreatLevelMidnight,malle_dips_pouches,6.0,7.0,0.0,13,6.0,False
+2019,Uncle Rico,Big Sack Jack,4.0,9.0,0.0,13,4.0,False
+2019,Uncle Rico,Ginger FC,5.0,8.0,0.0,13,5.0,False
+2019,Uncle Rico,Joe Mantegna,4.0,9.0,0.0,13,4.0,False
+2019,Uncle Rico,Malle ❤️ 🐸,3.0,10.0,0.0,13,3.0,False
+2019,Uncle Rico,Patty Primetimes,4.0,9.0,0.0,13,4.0,False
+2019,Uncle Rico,Pop Lockett Drop it,9.0,4.0,0.0,13,9.0,False
+2019,Uncle Rico,Post Mahomes,5.0,8.0,0.0,13,5.0,False
+2019,Uncle Rico,The Big Gronkowski,3.0,10.0,0.0,13,3.0,False
+2019,Uncle Rico,ThreatLevelMidnight,7.0,6.0,0.0,13,7.0,False
+2019,Uncle Rico,Uncle Rico,2.0,11.0,0.0,13,2.0,True
+2019,Uncle Rico,Voldemort,8.0,5.0,0.0,13,8.0,False
+2019,Uncle Rico,malle_dips_pouches,4.0,9.0,0.0,13,4.0,False
+2019,Voldemort,Big Sack Jack,8.0,5.0,0.0,13,8.0,False
+2019,Voldemort,Ginger FC,10.0,3.0,0.0,13,10.0,False
+2019,Voldemort,Joe Mantegna,7.0,6.0,0.0,13,7.0,False
+2019,Voldemort,Malle ❤️ 🐸,9.0,4.0,0.0,13,9.0,False
+2019,Voldemort,Patty Primetimes,9.0,4.0,0.0,13,9.0,False
+2019,Voldemort,Pop Lockett Drop it,9.0,4.0,0.0,13,9.0,False
+2019,Voldemort,Post Mahomes,9.0,4.0,0.0,13,9.0,False
+2019,Voldemort,The Big Gronkowski,9.0,4.0,0.0,13,9.0,False
+2019,Voldemort,ThreatLevelMidnight,8.0,5.0,0.0,13,8.0,False
+2019,Voldemort,Uncle Rico,8.0,5.0,0.0,13,8.0,False
+2019,Voldemort,Voldemort,12.0,1.0,0.0,13,12.0,True
+2019,Voldemort,malle_dips_pouches,9.0,4.0,0.0,13,9.0,False
+2019,malle_dips_pouches,Big Sack Jack,4.0,9.0,0.0,13,4.0,False
+2019,malle_dips_pouches,Ginger FC,6.0,7.0,0.0,13,6.0,False
+2019,malle_dips_pouches,Joe Mantegna,4.0,9.0,0.0,13,4.0,False
+2019,malle_dips_pouches,Malle ❤️ 🐸,6.0,7.0,0.0,13,6.0,False
+2019,malle_dips_pouches,Patty Primetimes,5.0,8.0,0.0,13,5.0,False
+2019,malle_dips_pouches,Pop Lockett Drop it,6.0,7.0,0.0,13,6.0,False
+2019,malle_dips_pouches,Post Mahomes,4.0,9.0,0.0,13,4.0,False
+2019,malle_dips_pouches,The Big Gronkowski,5.0,8.0,0.0,13,5.0,False
+2019,malle_dips_pouches,ThreatLevelMidnight,6.0,7.0,0.0,13,6.0,False
+2019,malle_dips_pouches,Uncle Rico,5.0,8.0,0.0,13,5.0,False
+2019,malle_dips_pouches,Voldemort,7.0,6.0,0.0,13,7.0,False
+2019,malle_dips_pouches,malle_dips_pouches,4.0,9.0,0.0,13,4.0,True
+2020,Big Sack Jack,Big Sack Jack,6.0,7.0,0.0,13,6.0,True
+2020,Big Sack Jack,Ginger FC,4.0,9.0,0.0,13,4.0,False
+2020,Big Sack Jack,Joe Mantegna,7.0,6.0,0.0,13,7.0,False
+2020,Big Sack Jack,Malle ❤️ 🐸,5.0,8.0,0.0,13,5.0,False
+2020,Big Sack Jack,Patty Primetimes,6.0,7.0,0.0,13,6.0,False
+2020,Big Sack Jack,Pop Lockett Drop it,5.0,8.0,0.0,13,5.0,False
+2020,Big Sack Jack,Post Mahomes,7.0,6.0,0.0,13,7.0,False
+2020,Big Sack Jack,The Big Gronkowski,5.0,8.0,0.0,13,5.0,False
+2020,Big Sack Jack,ThreatLevelMidnight,4.0,9.0,0.0,13,4.0,False
+2020,Big Sack Jack,Uncle Rico,7.0,6.0,0.0,13,7.0,False
+2020,Big Sack Jack,Voldemort,6.0,7.0,0.0,13,6.0,False
+2020,Big Sack Jack,malle_dips_pouches,3.0,10.0,0.0,13,3.0,False
+2020,Ginger FC,Big Sack Jack,9.0,4.0,0.0,13,9.0,False
+2020,Ginger FC,Ginger FC,5.0,8.0,0.0,13,5.0,True
+2020,Ginger FC,Joe Mantegna,6.0,7.0,0.0,13,6.0,False
+2020,Ginger FC,Malle ❤️ 🐸,6.0,7.0,0.0,13,6.0,False
+2020,Ginger FC,Patty Primetimes,5.0,8.0,0.0,13,5.0,False
+2020,Ginger FC,Pop Lockett Drop it,5.0,8.0,0.0,13,5.0,False
+2020,Ginger FC,Post Mahomes,8.0,5.0,0.0,13,8.0,False
+2020,Ginger FC,The Big Gronkowski,7.0,6.0,0.0,13,7.0,False
+2020,Ginger FC,ThreatLevelMidnight,4.0,9.0,0.0,13,4.0,False
+2020,Ginger FC,Uncle Rico,7.0,6.0,0.0,13,7.0,False
+2020,Ginger FC,Voldemort,8.0,5.0,0.0,13,8.0,False
+2020,Ginger FC,malle_dips_pouches,6.0,7.0,0.0,13,6.0,False
+2020,Joe Mantegna,Big Sack Jack,7.0,6.0,0.0,13,7.0,False
+2020,Joe Mantegna,Ginger FC,6.0,7.0,0.0,13,6.0,False
+2020,Joe Mantegna,Joe Mantegna,7.0,6.0,0.0,13,7.0,True
+2020,Joe Mantegna,Malle ❤️ 🐸,6.0,7.0,0.0,13,6.0,False
+2020,Joe Mantegna,Patty Primetimes,6.0,7.0,0.0,13,6.0,False
+2020,Joe Mantegna,Pop Lockett Drop it,5.0,8.0,0.0,13,5.0,False
+2020,Joe Mantegna,Post Mahomes,8.0,5.0,0.0,13,8.0,False
+2020,Joe Mantegna,The Big Gronkowski,6.0,7.0,0.0,13,6.0,False
+2020,Joe Mantegna,ThreatLevelMidnight,2.0,11.0,0.0,13,2.0,False
+2020,Joe Mantegna,Uncle Rico,7.0,6.0,0.0,13,7.0,False
+2020,Joe Mantegna,Voldemort,6.0,7.0,0.0,13,6.0,False
+2020,Joe Mantegna,malle_dips_pouches,5.0,8.0,0.0,13,5.0,False
+2020,Malle ❤️ 🐸,Big Sack Jack,10.0,3.0,0.0,13,10.0,False
+2020,Malle ❤️ 🐸,Ginger FC,7.0,6.0,0.0,13,7.0,False
+2020,Malle ❤️ 🐸,Joe Mantegna,7.0,6.0,0.0,13,7.0,False
+2020,Malle ❤️ 🐸,Malle ❤️ 🐸,8.0,5.0,0.0,13,8.0,True
+2020,Malle ❤️ 🐸,Patty Primetimes,9.0,4.0,0.0,13,9.0,False
+2020,Malle ❤️ 🐸,Pop Lockett Drop it,10.0,3.0,0.0,13,10.0,False
+2020,Malle ❤️ 🐸,Post Mahomes,12.0,1.0,0.0,13,12.0,False
+2020,Malle ❤️ 🐸,The Big Gronkowski,11.0,2.0,0.0,13,11.0,False
+2020,Malle ❤️ 🐸,ThreatLevelMidnight,8.0,5.0,0.0,13,8.0,False
+2020,Malle ❤️ 🐸,Uncle Rico,12.0,1.0,0.0,13,12.0,False
+2020,Malle ❤️ 🐸,Voldemort,11.0,2.0,0.0,13,11.0,False
+2020,Malle ❤️ 🐸,malle_dips_pouches,8.0,5.0,0.0,13,8.0,False
+2020,Patty Primetimes,Big Sack Jack,4.0,9.0,0.0,13,4.0,False
+2020,Patty Primetimes,Ginger FC,3.0,10.0,0.0,13,3.0,False
+2020,Patty Primetimes,Joe Mantegna,2.0,11.0,0.0,13,2.0,False
+2020,Patty Primetimes,Malle ❤️ 🐸,4.0,9.0,0.0,13,4.0,False
+2020,Patty Primetimes,Patty Primetimes,3.0,10.0,0.0,13,3.0,True
+2020,Patty Primetimes,Pop Lockett Drop it,4.0,9.0,0.0,13,4.0,False
+2020,Patty Primetimes,Post Mahomes,6.0,7.0,0.0,13,6.0,False
+2020,Patty Primetimes,The Big Gronkowski,2.0,11.0,0.0,13,2.0,False
+2020,Patty Primetimes,ThreatLevelMidnight,2.0,11.0,0.0,13,2.0,False
+2020,Patty Primetimes,Uncle Rico,8.0,5.0,0.0,13,8.0,False
+2020,Patty Primetimes,Voldemort,7.0,6.0,0.0,13,7.0,False
+2020,Patty Primetimes,malle_dips_pouches,5.0,8.0,0.0,13,5.0,False
+2020,Pop Lockett Drop it,Big Sack Jack,10.0,3.0,0.0,13,10.0,False
+2020,Pop Lockett Drop it,Ginger FC,8.0,5.0,0.0,13,8.0,False
+2020,Pop Lockett Drop it,Joe Mantegna,8.0,5.0,0.0,13,8.0,False
+2020,Pop Lockett Drop it,Malle ❤️ 🐸,7.0,6.0,0.0,13,7.0,False
+2020,Pop Lockett Drop it,Patty Primetimes,6.0,7.0,0.0,13,6.0,False
+2020,Pop Lockett Drop it,Pop Lockett Drop it,10.0,3.0,0.0,13,10.0,True
+2020,Pop Lockett Drop it,Post Mahomes,10.0,3.0,0.0,13,10.0,False
+2020,Pop Lockett Drop it,The Big Gronkowski,10.0,3.0,0.0,13,10.0,False
+2020,Pop Lockett Drop it,ThreatLevelMidnight,4.0,9.0,0.0,13,4.0,False
+2020,Pop Lockett Drop it,Uncle Rico,10.0,3.0,0.0,13,10.0,False
+2020,Pop Lockett Drop it,Voldemort,7.0,6.0,0.0,13,7.0,False
+2020,Pop Lockett Drop it,malle_dips_pouches,6.0,7.0,0.0,13,6.0,False
+2020,Post Mahomes,Big Sack Jack,7.0,6.0,0.0,13,7.0,False
+2020,Post Mahomes,Ginger FC,6.0,7.0,0.0,13,6.0,False
+2020,Post Mahomes,Joe Mantegna,5.0,8.0,0.0,13,5.0,False
+2020,Post Mahomes,Malle ❤️ 🐸,5.0,8.0,0.0,13,5.0,False
+2020,Post Mahomes,Patty Primetimes,6.0,7.0,0.0,13,6.0,False
+2020,Post Mahomes,Pop Lockett Drop it,6.0,7.0,0.0,13,6.0,False
+2020,Post Mahomes,Post Mahomes,6.0,7.0,0.0,13,6.0,True
+2020,Post Mahomes,The Big Gronkowski,8.0,5.0,0.0,13,8.0,False
+2020,Post Mahomes,ThreatLevelMidnight,3.0,10.0,0.0,13,3.0,False
+2020,Post Mahomes,Uncle Rico,8.0,5.0,0.0,13,8.0,False
+2020,Post Mahomes,Voldemort,8.0,5.0,0.0,13,8.0,False
+2020,Post Mahomes,malle_dips_pouches,3.0,10.0,0.0,13,3.0,False
+2020,The Big Gronkowski,Big Sack Jack,8.0,5.0,0.0,13,8.0,False
+2020,The Big Gronkowski,Ginger FC,6.0,7.0,0.0,13,6.0,False
+2020,The Big Gronkowski,Joe Mantegna,8.0,5.0,0.0,13,8.0,False
+2020,The Big Gronkowski,Malle ❤️ 🐸,6.0,7.0,0.0,13,6.0,False
+2020,The Big Gronkowski,Patty Primetimes,5.0,8.0,0.0,13,5.0,False
+2020,The Big Gronkowski,Pop Lockett Drop it,4.0,9.0,0.0,13,4.0,False
+2020,The Big Gronkowski,Post Mahomes,8.0,5.0,0.0,13,8.0,False
+2020,The Big Gronkowski,The Big Gronkowski,8.0,5.0,0.0,13,8.0,True
+2020,The Big Gronkowski,ThreatLevelMidnight,4.0,9.0,0.0,13,4.0,False
+2020,The Big Gronkowski,Uncle Rico,9.0,4.0,0.0,13,9.0,False
+2020,The Big Gronkowski,Voldemort,9.0,4.0,0.0,13,9.0,False
+2020,The Big Gronkowski,malle_dips_pouches,5.0,8.0,0.0,13,5.0,False
+2020,ThreatLevelMidnight,Big Sack Jack,9.0,4.0,0.0,13,9.0,False
+2020,ThreatLevelMidnight,Ginger FC,4.0,9.0,0.0,13,4.0,False
+2020,ThreatLevelMidnight,Joe Mantegna,8.0,5.0,0.0,13,8.0,False
+2020,ThreatLevelMidnight,Malle ❤️ 🐸,5.0,8.0,0.0,13,5.0,False
+2020,ThreatLevelMidnight,Patty Primetimes,7.0,6.0,0.0,13,7.0,False
+2020,ThreatLevelMidnight,Pop Lockett Drop it,5.0,8.0,0.0,13,5.0,False
+2020,ThreatLevelMidnight,Post Mahomes,9.0,4.0,0.0,13,9.0,False
+2020,ThreatLevelMidnight,The Big Gronkowski,6.0,7.0,0.0,13,6.0,False
+2020,ThreatLevelMidnight,ThreatLevelMidnight,3.0,10.0,0.0,13,3.0,True
+2020,ThreatLevelMidnight,Uncle Rico,8.0,5.0,0.0,13,8.0,False
+2020,ThreatLevelMidnight,Voldemort,9.0,4.0,0.0,13,9.0,False
+2020,ThreatLevelMidnight,malle_dips_pouches,5.0,8.0,0.0,13,5.0,False
+2020,Uncle Rico,Big Sack Jack,6.0,7.0,0.0,13,6.0,False
+2020,Uncle Rico,Ginger FC,6.0,7.0,0.0,13,6.0,False
+2020,Uncle Rico,Joe Mantegna,6.0,7.0,0.0,13,6.0,False
+2020,Uncle Rico,Malle ❤️ 🐸,6.0,7.0,0.0,13,6.0,False
+2020,Uncle Rico,Patty Primetimes,5.0,8.0,0.0,13,5.0,False
+2020,Uncle Rico,Pop Lockett Drop it,6.0,7.0,0.0,13,6.0,False
+2020,Uncle Rico,Post Mahomes,6.0,7.0,0.0,13,6.0,False
+2020,Uncle Rico,The Big Gronkowski,6.0,7.0,0.0,13,6.0,False
+2020,Uncle Rico,ThreatLevelMidnight,3.0,10.0,0.0,13,3.0,False
+2020,Uncle Rico,Uncle Rico,8.0,5.0,0.0,13,8.0,True
+2020,Uncle Rico,Voldemort,8.0,5.0,0.0,13,8.0,False
+2020,Uncle Rico,malle_dips_pouches,5.0,8.0,0.0,13,5.0,False
+2020,Voldemort,Big Sack Jack,9.0,4.0,0.0,13,9.0,False
+2020,Voldemort,Ginger FC,8.0,5.0,0.0,13,8.0,False
+2020,Voldemort,Joe Mantegna,7.0,6.0,0.0,13,7.0,False
+2020,Voldemort,Malle ❤️ 🐸,8.0,5.0,0.0,13,8.0,False
+2020,Voldemort,Patty Primetimes,7.0,6.0,0.0,13,7.0,False
+2020,Voldemort,Pop Lockett Drop it,10.0,3.0,0.0,13,10.0,False
+2020,Voldemort,Post Mahomes,9.0,4.0,0.0,13,9.0,False
+2020,Voldemort,The Big Gronkowski,7.0,6.0,0.0,13,7.0,False
+2020,Voldemort,ThreatLevelMidnight,5.0,8.0,0.0,13,5.0,False
+2020,Voldemort,Uncle Rico,10.0,3.0,0.0,13,10.0,False
+2020,Voldemort,Voldemort,9.0,4.0,0.0,13,9.0,True
+2020,Voldemort,malle_dips_pouches,8.0,5.0,0.0,13,8.0,False
+2020,malle_dips_pouches,Big Sack Jack,6.0,7.0,0.0,13,6.0,False
+2020,malle_dips_pouches,Ginger FC,6.0,7.0,0.0,13,6.0,False
+2020,malle_dips_pouches,Joe Mantegna,5.0,8.0,0.0,13,5.0,False
+2020,malle_dips_pouches,Malle ❤️ 🐸,4.0,9.0,0.0,13,4.0,False
+2020,malle_dips_pouches,Patty Primetimes,4.0,9.0,0.0,13,4.0,False
+2020,malle_dips_pouches,Pop Lockett Drop it,4.0,9.0,0.0,13,4.0,False
+2020,malle_dips_pouches,Post Mahomes,9.0,4.0,0.0,13,9.0,False
+2020,malle_dips_pouches,The Big Gronkowski,6.0,7.0,0.0,13,6.0,False
+2020,malle_dips_pouches,ThreatLevelMidnight,2.0,11.0,0.0,13,2.0,False
+2020,malle_dips_pouches,Uncle Rico,9.0,4.0,0.0,13,9.0,False
+2020,malle_dips_pouches,Voldemort,8.0,5.0,0.0,13,8.0,False
+2020,malle_dips_pouches,malle_dips_pouches,5.0,8.0,0.0,13,5.0,True
+2021,Big Sack Jack,Big Sack Jack,3.0,11.0,0.0,14,3.0,True
+2021,Big Sack Jack,Ginger FC,2.0,12.0,0.0,14,2.0,False
+2021,Big Sack Jack,Joe Mantegna,6.0,8.0,0.0,14,6.0,False
+2021,Big Sack Jack,Malle ❤️ 🐸,8.0,6.0,0.0,14,8.0,False
+2021,Big Sack Jack,Patty Primetimes,3.0,11.0,0.0,14,3.0,False
+2021,Big Sack Jack,Pop Lockett Drop it,7.0,7.0,0.0,14,7.0,False
+2021,Big Sack Jack,Post Mahomes,5.0,9.0,0.0,14,5.0,False
+2021,Big Sack Jack,The Big Gronkowski,3.0,11.0,0.0,14,3.0,False
+2021,Big Sack Jack,ThreatLevelMidnight,4.0,10.0,0.0,14,4.0,False
+2021,Big Sack Jack,Uncle Rico,5.0,9.0,0.0,14,5.0,False
+2021,Big Sack Jack,Voldemort,6.0,8.0,0.0,14,6.0,False
+2021,Big Sack Jack,malle_dips_pouches,6.0,8.0,0.0,14,6.0,False
+2021,Ginger FC,Big Sack Jack,8.0,6.0,0.0,14,8.0,False
+2021,Ginger FC,Ginger FC,5.0,9.0,0.0,14,5.0,True
+2021,Ginger FC,Joe Mantegna,9.0,5.0,0.0,14,9.0,False
+2021,Ginger FC,Malle ❤️ 🐸,8.0,6.0,0.0,14,8.0,False
+2021,Ginger FC,Patty Primetimes,7.0,7.0,0.0,14,7.0,False
+2021,Ginger FC,Pop Lockett Drop it,9.0,5.0,0.0,14,9.0,False
+2021,Ginger FC,Post Mahomes,8.0,6.0,0.0,14,8.0,False
+2021,Ginger FC,The Big Gronkowski,6.0,8.0,0.0,14,6.0,False
+2021,Ginger FC,ThreatLevelMidnight,8.0,6.0,0.0,14,8.0,False
+2021,Ginger FC,Uncle Rico,5.0,9.0,0.0,14,5.0,False
+2021,Ginger FC,Voldemort,7.0,7.0,0.0,14,7.0,False
+2021,Ginger FC,malle_dips_pouches,8.0,6.0,0.0,14,8.0,False
+2021,Joe Mantegna,Big Sack Jack,5.0,9.0,0.0,14,5.0,False
+2021,Joe Mantegna,Ginger FC,7.0,7.0,0.0,14,7.0,False
+2021,Joe Mantegna,Joe Mantegna,9.0,5.0,0.0,14,9.0,True
+2021,Joe Mantegna,Malle ❤️ 🐸,10.0,4.0,0.0,14,10.0,False
+2021,Joe Mantegna,Patty Primetimes,5.0,9.0,0.0,14,5.0,False
+2021,Joe Mantegna,Pop Lockett Drop it,7.0,7.0,0.0,14,7.0,False
+2021,Joe Mantegna,Post Mahomes,8.0,6.0,0.0,14,8.0,False
+2021,Joe Mantegna,The Big Gronkowski,8.0,6.0,0.0,14,8.0,False
+2021,Joe Mantegna,ThreatLevelMidnight,6.0,8.0,0.0,14,6.0,False
+2021,Joe Mantegna,Uncle Rico,6.0,8.0,0.0,14,6.0,False
+2021,Joe Mantegna,Voldemort,8.0,6.0,0.0,14,8.0,False
+2021,Joe Mantegna,malle_dips_pouches,9.0,5.0,0.0,14,9.0,False
+2021,Malle ❤️ 🐸,Big Sack Jack,7.0,7.0,0.0,14,7.0,False
+2021,Malle ❤️ 🐸,Ginger FC,6.0,8.0,0.0,14,6.0,False
+2021,Malle ❤️ 🐸,Joe Mantegna,8.0,6.0,0.0,14,8.0,False
+2021,Malle ❤️ 🐸,Malle ❤️ 🐸,11.0,3.0,0.0,14,11.0,True
+2021,Malle ❤️ 🐸,Patty Primetimes,8.0,6.0,0.0,14,8.0,False
+2021,Malle ❤️ 🐸,Pop Lockett Drop it,11.0,3.0,0.0,14,11.0,False
+2021,Malle ❤️ 🐸,Post Mahomes,7.0,7.0,0.0,14,7.0,False
+2021,Malle ❤️ 🐸,The Big Gronkowski,5.0,9.0,0.0,14,5.0,False
+2021,Malle ❤️ 🐸,ThreatLevelMidnight,11.0,3.0,0.0,14,11.0,False
+2021,Malle ❤️ 🐸,Uncle Rico,7.0,7.0,0.0,14,7.0,False
+2021,Malle ❤️ 🐸,Voldemort,8.0,6.0,0.0,14,8.0,False
+2021,Malle ❤️ 🐸,malle_dips_pouches,6.0,8.0,0.0,14,6.0,False
+2021,Patty Primetimes,Big Sack Jack,6.0,8.0,0.0,14,6.0,False
+2021,Patty Primetimes,Ginger FC,4.0,10.0,0.0,14,4.0,False
+2021,Patty Primetimes,Joe Mantegna,9.0,5.0,0.0,14,9.0,False
+2021,Patty Primetimes,Malle ❤️ 🐸,9.0,5.0,0.0,14,9.0,False
+2021,Patty Primetimes,Patty Primetimes,6.0,8.0,0.0,14,6.0,True
+2021,Patty Primetimes,Pop Lockett Drop it,6.0,8.0,0.0,14,6.0,False
+2021,Patty Primetimes,Post Mahomes,5.0,9.0,0.0,14,5.0,False
+2021,Patty Primetimes,The Big Gronkowski,5.0,9.0,0.0,14,5.0,False
+2021,Patty Primetimes,ThreatLevelMidnight,8.0,6.0,0.0,14,8.0,False
+2021,Patty Primetimes,Uncle Rico,5.0,9.0,0.0,14,5.0,False
+2021,Patty Primetimes,Voldemort,7.0,7.0,0.0,14,7.0,False
+2021,Patty Primetimes,malle_dips_pouches,3.0,11.0,0.0,14,3.0,False
+2021,Pop Lockett Drop it,Big Sack Jack,4.0,10.0,0.0,14,4.0,False
+2021,Pop Lockett Drop it,Ginger FC,5.0,9.0,0.0,14,5.0,False
+2021,Pop Lockett Drop it,Joe Mantegna,5.0,9.0,0.0,14,5.0,False
+2021,Pop Lockett Drop it,Malle ❤️ 🐸,8.0,6.0,0.0,14,8.0,False
+2021,Pop Lockett Drop it,Patty Primetimes,6.0,8.0,0.0,14,6.0,False
+2021,Pop Lockett Drop it,Pop Lockett Drop it,7.0,7.0,0.0,14,7.0,True
+2021,Pop Lockett Drop it,Post Mahomes,5.0,9.0,0.0,14,5.0,False
+2021,Pop Lockett Drop it,The Big Gronkowski,6.0,8.0,0.0,14,6.0,False
+2021,Pop Lockett Drop it,ThreatLevelMidnight,3.0,11.0,0.0,14,3.0,False
+2021,Pop Lockett Drop it,Uncle Rico,6.0,8.0,0.0,14,6.0,False
+2021,Pop Lockett Drop it,Voldemort,7.0,7.0,0.0,14,7.0,False
+2021,Pop Lockett Drop it,malle_dips_pouches,6.0,8.0,0.0,14,6.0,False
+2021,Post Mahomes,Big Sack Jack,5.0,9.0,0.0,14,5.0,False
+2021,Post Mahomes,Ginger FC,5.0,9.0,0.0,14,5.0,False
+2021,Post Mahomes,Joe Mantegna,8.0,6.0,0.0,14,8.0,False
+2021,Post Mahomes,Malle ❤️ 🐸,10.0,4.0,0.0,14,10.0,False
+2021,Post Mahomes,Patty Primetimes,6.0,8.0,0.0,14,6.0,False
+2021,Post Mahomes,Pop Lockett Drop it,8.0,6.0,0.0,14,8.0,False
+2021,Post Mahomes,Post Mahomes,8.0,6.0,0.0,14,8.0,True
+2021,Post Mahomes,The Big Gronkowski,8.0,6.0,0.0,14,8.0,False
+2021,Post Mahomes,ThreatLevelMidnight,9.0,5.0,0.0,14,9.0,False
+2021,Post Mahomes,Uncle Rico,4.0,10.0,0.0,14,4.0,False
+2021,Post Mahomes,Voldemort,10.0,4.0,0.0,14,10.0,False
+2021,Post Mahomes,malle_dips_pouches,9.0,5.0,0.0,14,9.0,False
+2021,The Big Gronkowski,Big Sack Jack,8.0,6.0,0.0,14,8.0,False
+2021,The Big Gronkowski,Ginger FC,8.0,6.0,0.0,14,8.0,False
+2021,The Big Gronkowski,Joe Mantegna,9.0,5.0,0.0,14,9.0,False
+2021,The Big Gronkowski,Malle ❤️ 🐸,11.0,3.0,0.0,14,11.0,False
+2021,The Big Gronkowski,Patty Primetimes,9.0,5.0,0.0,14,9.0,False
+2021,The Big Gronkowski,Pop Lockett Drop it,10.0,4.0,0.0,14,10.0,False
+2021,The Big Gronkowski,Post Mahomes,8.0,6.0,0.0,14,8.0,False
+2021,The Big Gronkowski,The Big Gronkowski,7.0,7.0,0.0,14,7.0,True
+2021,The Big Gronkowski,ThreatLevelMidnight,10.0,4.0,0.0,14,10.0,False
+2021,The Big Gronkowski,Uncle Rico,11.0,3.0,0.0,14,11.0,False
+2021,The Big Gronkowski,Voldemort,11.0,3.0,0.0,14,11.0,False
+2021,The Big Gronkowski,malle_dips_pouches,9.0,5.0,0.0,14,9.0,False
+2021,ThreatLevelMidnight,Big Sack Jack,8.0,6.0,0.0,14,8.0,False
+2021,ThreatLevelMidnight,Ginger FC,5.0,9.0,0.0,14,5.0,False
+2021,ThreatLevelMidnight,Joe Mantegna,8.0,6.0,0.0,14,8.0,False
+2021,ThreatLevelMidnight,Malle ❤️ 🐸,11.0,3.0,0.0,14,11.0,False
+2021,ThreatLevelMidnight,Patty Primetimes,7.0,7.0,0.0,14,7.0,False
+2021,ThreatLevelMidnight,Pop Lockett Drop it,10.0,4.0,0.0,14,10.0,False
+2021,ThreatLevelMidnight,Post Mahomes,8.0,6.0,0.0,14,8.0,False
+2021,ThreatLevelMidnight,The Big Gronkowski,7.0,7.0,0.0,14,7.0,False
+2021,ThreatLevelMidnight,ThreatLevelMidnight,11.0,3.0,0.0,14,11.0,True
+2021,ThreatLevelMidnight,Uncle Rico,8.0,6.0,0.0,14,8.0,False
+2021,ThreatLevelMidnight,Voldemort,11.0,3.0,0.0,14,11.0,False
+2021,ThreatLevelMidnight,malle_dips_pouches,6.0,8.0,0.0,14,6.0,False
+2021,Uncle Rico,Big Sack Jack,6.0,8.0,0.0,14,6.0,False
+2021,Uncle Rico,Ginger FC,4.0,10.0,0.0,14,4.0,False
+2021,Uncle Rico,Joe Mantegna,8.0,6.0,0.0,14,8.0,False
+2021,Uncle Rico,Malle ❤️ 🐸,7.0,7.0,0.0,14,7.0,False
+2021,Uncle Rico,Patty Primetimes,5.0,9.0,0.0,14,5.0,False
+2021,Uncle Rico,Pop Lockett Drop it,7.0,7.0,0.0,14,7.0,False
+2021,Uncle Rico,Post Mahomes,6.0,8.0,0.0,14,6.0,False
+2021,Uncle Rico,The Big Gronkowski,5.0,9.0,0.0,14,5.0,False
+2021,Uncle Rico,ThreatLevelMidnight,7.0,7.0,0.0,14,7.0,False
+2021,Uncle Rico,Uncle Rico,4.0,10.0,0.0,14,4.0,True
+2021,Uncle Rico,Voldemort,7.0,7.0,0.0,14,7.0,False
+2021,Uncle Rico,malle_dips_pouches,6.0,8.0,0.0,14,6.0,False
+2021,Voldemort,Big Sack Jack,7.0,7.0,0.0,14,7.0,False
+2021,Voldemort,Ginger FC,8.0,6.0,0.0,14,8.0,False
+2021,Voldemort,Joe Mantegna,10.0,4.0,0.0,14,10.0,False
+2021,Voldemort,Malle ❤️ 🐸,12.0,2.0,0.0,14,12.0,False
+2021,Voldemort,Patty Primetimes,9.0,5.0,0.0,14,9.0,False
+2021,Voldemort,Pop Lockett Drop it,11.0,3.0,0.0,14,11.0,False
+2021,Voldemort,Post Mahomes,7.0,7.0,0.0,14,7.0,False
+2021,Voldemort,The Big Gronkowski,7.0,7.0,0.0,14,7.0,False
+2021,Voldemort,ThreatLevelMidnight,9.0,5.0,0.0,14,9.0,False
+2021,Voldemort,Uncle Rico,8.0,6.0,0.0,14,8.0,False
+2021,Voldemort,Voldemort,9.0,5.0,0.0,14,9.0,True
+2021,Voldemort,malle_dips_pouches,8.0,6.0,0.0,14,8.0,False
+2021,malle_dips_pouches,Big Sack Jack,5.0,9.0,0.0,14,5.0,False
+2021,malle_dips_pouches,Ginger FC,3.0,11.0,0.0,14,3.0,False
+2021,malle_dips_pouches,Joe Mantegna,8.0,6.0,0.0,14,8.0,False
+2021,malle_dips_pouches,Malle ❤️ 🐸,8.0,6.0,0.0,14,8.0,False
+2021,malle_dips_pouches,Patty Primetimes,3.0,11.0,0.0,14,3.0,False
+2021,malle_dips_pouches,Pop Lockett Drop it,7.0,7.0,0.0,14,7.0,False
+2021,malle_dips_pouches,Post Mahomes,4.0,10.0,0.0,14,4.0,False
+2021,malle_dips_pouches,The Big Gronkowski,3.0,11.0,0.0,14,3.0,False
+2021,malle_dips_pouches,ThreatLevelMidnight,6.0,8.0,0.0,14,6.0,False
+2021,malle_dips_pouches,Uncle Rico,5.0,9.0,0.0,14,5.0,False
+2021,malle_dips_pouches,Voldemort,4.0,10.0,0.0,14,4.0,False
+2021,malle_dips_pouches,malle_dips_pouches,4.0,10.0,0.0,14,4.0,True
+2022,Big Sack Jack,Big Sack Jack,10.0,4.0,0.0,14,10.0,True
+2022,Big Sack Jack,Ginger FC,9.0,5.0,0.0,14,9.0,False
+2022,Big Sack Jack,Joe Mantegna,8.0,6.0,0.0,14,8.0,False
+2022,Big Sack Jack,Malle ❤️ 🐸,8.0,6.0,0.0,14,8.0,False
+2022,Big Sack Jack,Patty Primetimes,7.0,7.0,0.0,14,7.0,False
+2022,Big Sack Jack,Pop Lockett Drop it,10.0,4.0,0.0,14,10.0,False
+2022,Big Sack Jack,Post Mahomes,9.0,5.0,0.0,14,9.0,False
+2022,Big Sack Jack,The Big Gronkowski,10.0,4.0,0.0,14,10.0,False
+2022,Big Sack Jack,ThreatLevelMidnight,6.0,8.0,0.0,14,6.0,False
+2022,Big Sack Jack,Uncle Rico,5.0,9.0,0.0,14,5.0,False
+2022,Big Sack Jack,Voldemort,9.0,5.0,0.0,14,9.0,False
+2022,Big Sack Jack,malle_dips_pouches,10.0,4.0,0.0,14,10.0,False
+2022,Ginger FC,Big Sack Jack,7.0,7.0,0.0,14,7.0,False
+2022,Ginger FC,Ginger FC,8.0,6.0,0.0,14,8.0,True
+2022,Ginger FC,Joe Mantegna,9.0,5.0,0.0,14,9.0,False
+2022,Ginger FC,Malle ❤️ 🐸,6.0,8.0,0.0,14,6.0,False
+2022,Ginger FC,Patty Primetimes,8.0,6.0,0.0,14,8.0,False
+2022,Ginger FC,Pop Lockett Drop it,7.0,7.0,0.0,14,7.0,False
+2022,Ginger FC,Post Mahomes,9.0,5.0,0.0,14,9.0,False
+2022,Ginger FC,The Big Gronkowski,6.0,8.0,0.0,14,6.0,False
+2022,Ginger FC,ThreatLevelMidnight,7.0,7.0,0.0,14,7.0,False
+2022,Ginger FC,Uncle Rico,4.0,10.0,0.0,14,4.0,False
+2022,Ginger FC,Voldemort,5.0,9.0,0.0,14,5.0,False
+2022,Ginger FC,malle_dips_pouches,7.0,7.0,0.0,14,7.0,False
+2022,Joe Mantegna,Big Sack Jack,10.0,4.0,0.0,14,10.0,False
+2022,Joe Mantegna,Ginger FC,7.0,7.0,0.0,14,7.0,False
+2022,Joe Mantegna,Joe Mantegna,8.0,6.0,0.0,14,8.0,True
+2022,Joe Mantegna,Malle ❤️ 🐸,5.0,9.0,0.0,14,5.0,False
+2022,Joe Mantegna,Patty Primetimes,9.0,5.0,0.0,14,9.0,False
+2022,Joe Mantegna,Pop Lockett Drop it,9.0,5.0,0.0,14,9.0,False
+2022,Joe Mantegna,Post Mahomes,9.0,5.0,0.0,14,9.0,False
+2022,Joe Mantegna,The Big Gronkowski,7.0,7.0,0.0,14,7.0,False
+2022,Joe Mantegna,ThreatLevelMidnight,8.0,6.0,0.0,14,8.0,False
+2022,Joe Mantegna,Uncle Rico,4.0,10.0,0.0,14,4.0,False
+2022,Joe Mantegna,Voldemort,5.0,9.0,0.0,14,5.0,False
+2022,Joe Mantegna,malle_dips_pouches,8.0,6.0,0.0,14,8.0,False
+2022,Malle ❤️ 🐸,Big Sack Jack,8.0,6.0,0.0,14,8.0,False
+2022,Malle ❤️ 🐸,Ginger FC,5.0,9.0,0.0,14,5.0,False
+2022,Malle ❤️ 🐸,Joe Mantegna,7.0,7.0,0.0,14,7.0,False
+2022,Malle ❤️ 🐸,Malle ❤️ 🐸,4.0,10.0,0.0,14,4.0,True
+2022,Malle ❤️ 🐸,Patty Primetimes,6.0,8.0,0.0,14,6.0,False
+2022,Malle ❤️ 🐸,Pop Lockett Drop it,7.0,7.0,0.0,14,7.0,False
+2022,Malle ❤️ 🐸,Post Mahomes,6.0,8.0,0.0,14,6.0,False
+2022,Malle ❤️ 🐸,The Big Gronkowski,4.0,10.0,0.0,14,4.0,False
+2022,Malle ❤️ 🐸,ThreatLevelMidnight,5.0,9.0,0.0,14,5.0,False
+2022,Malle ❤️ 🐸,Uncle Rico,3.0,11.0,0.0,14,3.0,False
+2022,Malle ❤️ 🐸,Voldemort,6.0,8.0,0.0,14,6.0,False
+2022,Malle ❤️ 🐸,malle_dips_pouches,6.0,8.0,0.0,14,6.0,False
+2022,Patty Primetimes,Big Sack Jack,8.0,6.0,0.0,14,8.0,False
+2022,Patty Primetimes,Ginger FC,6.0,8.0,0.0,14,6.0,False
+2022,Patty Primetimes,Joe Mantegna,4.0,10.0,0.0,14,4.0,False
+2022,Patty Primetimes,Malle ❤️ 🐸,4.0,10.0,0.0,14,4.0,False
+2022,Patty Primetimes,Patty Primetimes,3.0,11.0,0.0,14,3.0,True
+2022,Patty Primetimes,Pop Lockett Drop it,6.0,8.0,0.0,14,6.0,False
+2022,Patty Primetimes,Post Mahomes,6.0,8.0,0.0,14,6.0,False
+2022,Patty Primetimes,The Big Gronkowski,4.0,10.0,0.0,14,4.0,False
+2022,Patty Primetimes,ThreatLevelMidnight,4.0,10.0,0.0,14,4.0,False
+2022,Patty Primetimes,Uncle Rico,1.0,13.0,0.0,14,1.0,False
+2022,Patty Primetimes,Voldemort,5.0,9.0,0.0,14,5.0,False
+2022,Patty Primetimes,malle_dips_pouches,3.0,11.0,0.0,14,3.0,False
+2022,Pop Lockett Drop it,Big Sack Jack,3.0,11.0,0.0,14,3.0,False
+2022,Pop Lockett Drop it,Ginger FC,4.0,10.0,0.0,14,4.0,False
+2022,Pop Lockett Drop it,Joe Mantegna,4.0,10.0,0.0,14,4.0,False
+2022,Pop Lockett Drop it,Malle ❤️ 🐸,4.0,10.0,0.0,14,4.0,False
+2022,Pop Lockett Drop it,Patty Primetimes,4.0,10.0,0.0,14,4.0,False
+2022,Pop Lockett Drop it,Pop Lockett Drop it,4.0,10.0,0.0,14,4.0,True
+2022,Pop Lockett Drop it,Post Mahomes,4.0,10.0,0.0,14,4.0,False
+2022,Pop Lockett Drop it,The Big Gronkowski,3.0,11.0,0.0,14,3.0,False
+2022,Pop Lockett Drop it,ThreatLevelMidnight,5.0,9.0,0.0,14,5.0,False
+2022,Pop Lockett Drop it,Uncle Rico,2.0,12.0,0.0,14,2.0,False
+2022,Pop Lockett Drop it,Voldemort,4.0,10.0,0.0,14,4.0,False
+2022,Pop Lockett Drop it,malle_dips_pouches,3.0,11.0,0.0,14,3.0,False
+2022,Post Mahomes,Big Sack Jack,4.0,10.0,0.0,14,4.0,False
+2022,Post Mahomes,Ginger FC,5.0,9.0,0.0,14,5.0,False
+2022,Post Mahomes,Joe Mantegna,6.0,8.0,0.0,14,6.0,False
+2022,Post Mahomes,Malle ❤️ 🐸,5.0,9.0,0.0,14,5.0,False
+2022,Post Mahomes,Patty Primetimes,4.0,10.0,0.0,14,4.0,False
+2022,Post Mahomes,Pop Lockett Drop it,6.0,8.0,0.0,14,6.0,False
+2022,Post Mahomes,Post Mahomes,7.0,7.0,0.0,14,7.0,True
+2022,Post Mahomes,The Big Gronkowski,5.0,9.0,0.0,14,5.0,False
+2022,Post Mahomes,ThreatLevelMidnight,4.0,10.0,0.0,14,4.0,False
+2022,Post Mahomes,Uncle Rico,2.0,12.0,0.0,14,2.0,False
+2022,Post Mahomes,Voldemort,4.0,10.0,0.0,14,4.0,False
+2022,Post Mahomes,malle_dips_pouches,5.0,9.0,0.0,14,5.0,False
+2022,The Big Gronkowski,Big Sack Jack,7.0,7.0,0.0,14,7.0,False
+2022,The Big Gronkowski,Ginger FC,9.0,5.0,0.0,14,9.0,False
+2022,The Big Gronkowski,Joe Mantegna,9.0,5.0,0.0,14,9.0,False
+2022,The Big Gronkowski,Malle ❤️ 🐸,8.0,6.0,0.0,14,8.0,False
+2022,The Big Gronkowski,Patty Primetimes,8.0,5.0,1.0,14,8.5,False
+2022,The Big Gronkowski,Pop Lockett Drop it,8.0,6.0,0.0,14,8.0,False
+2022,The Big Gronkowski,Post Mahomes,9.0,5.0,0.0,14,9.0,False
+2022,The Big Gronkowski,The Big Gronkowski,9.0,5.0,0.0,14,9.0,True
+2022,The Big Gronkowski,ThreatLevelMidnight,10.0,4.0,0.0,14,10.0,False
+2022,The Big Gronkowski,Uncle Rico,5.0,9.0,0.0,14,5.0,False
+2022,The Big Gronkowski,Voldemort,6.0,8.0,0.0,14,6.0,False
+2022,The Big Gronkowski,malle_dips_pouches,10.0,4.0,0.0,14,10.0,False
+2022,ThreatLevelMidnight,Big Sack Jack,9.0,5.0,0.0,14,9.0,False
+2022,ThreatLevelMidnight,Ginger FC,7.0,7.0,0.0,14,7.0,False
+2022,ThreatLevelMidnight,Joe Mantegna,8.0,6.0,0.0,14,8.0,False
+2022,ThreatLevelMidnight,Malle ❤️ 🐸,8.0,6.0,0.0,14,8.0,False
+2022,ThreatLevelMidnight,Patty Primetimes,8.0,6.0,0.0,14,8.0,False
+2022,ThreatLevelMidnight,Pop Lockett Drop it,6.0,8.0,0.0,14,6.0,False
+2022,ThreatLevelMidnight,Post Mahomes,9.0,5.0,0.0,14,9.0,False
+2022,ThreatLevelMidnight,The Big Gronkowski,7.0,7.0,0.0,14,7.0,False
+2022,ThreatLevelMidnight,ThreatLevelMidnight,8.0,6.0,0.0,14,8.0,True
+2022,ThreatLevelMidnight,Uncle Rico,5.0,9.0,0.0,14,5.0,False
+2022,ThreatLevelMidnight,Voldemort,6.0,8.0,0.0,14,6.0,False
+2022,ThreatLevelMidnight,malle_dips_pouches,7.0,7.0,0.0,14,7.0,False
+2022,Uncle Rico,Big Sack Jack,8.0,6.0,0.0,14,8.0,False
+2022,Uncle Rico,Ginger FC,9.0,5.0,0.0,14,9.0,False
+2022,Uncle Rico,Joe Mantegna,11.0,3.0,0.0,14,11.0,False
+2022,Uncle Rico,Malle ❤️ 🐸,7.0,7.0,0.0,14,7.0,False
+2022,Uncle Rico,Patty Primetimes,11.0,3.0,0.0,14,11.0,False
+2022,Uncle Rico,Pop Lockett Drop it,8.0,6.0,0.0,14,8.0,False
+2022,Uncle Rico,Post Mahomes,10.0,4.0,0.0,14,10.0,False
+2022,Uncle Rico,The Big Gronkowski,9.0,5.0,0.0,14,9.0,False
+2022,Uncle Rico,ThreatLevelMidnight,8.0,6.0,0.0,14,8.0,False
+2022,Uncle Rico,Uncle Rico,5.0,9.0,0.0,14,5.0,True
+2022,Uncle Rico,Voldemort,7.0,7.0,0.0,14,7.0,False
+2022,Uncle Rico,malle_dips_pouches,8.0,6.0,0.0,14,8.0,False
+2022,Voldemort,Big Sack Jack,11.0,3.0,0.0,14,11.0,False
+2022,Voldemort,Ginger FC,9.0,4.0,1.0,14,9.5,False
+2022,Voldemort,Joe Mantegna,10.0,4.0,0.0,14,10.0,False
+2022,Voldemort,Malle ❤️ 🐸,9.0,5.0,0.0,14,9.0,False
+2022,Voldemort,Patty Primetimes,10.0,4.0,0.0,14,10.0,False
+2022,Voldemort,Pop Lockett Drop it,12.0,2.0,0.0,14,12.0,False
+2022,Voldemort,Post Mahomes,11.0,3.0,0.0,14,11.0,False
+2022,Voldemort,The Big Gronkowski,11.0,3.0,0.0,14,11.0,False
+2022,Voldemort,ThreatLevelMidnight,9.0,5.0,0.0,14,9.0,False
+2022,Voldemort,Uncle Rico,7.0,7.0,0.0,14,7.0,False
+2022,Voldemort,Voldemort,10.0,4.0,0.0,14,10.0,True
+2022,Voldemort,malle_dips_pouches,13.0,1.0,0.0,14,13.0,False
+2022,malle_dips_pouches,Big Sack Jack,9.0,5.0,0.0,14,9.0,False
+2022,malle_dips_pouches,Ginger FC,9.0,5.0,0.0,14,9.0,False
+2022,malle_dips_pouches,Joe Mantegna,9.0,5.0,0.0,14,9.0,False
+2022,malle_dips_pouches,Malle ❤️ 🐸,8.0,6.0,0.0,14,8.0,False
+2022,malle_dips_pouches,Patty Primetimes,10.0,4.0,0.0,14,10.0,False
+2022,malle_dips_pouches,Pop Lockett Drop it,10.0,4.0,0.0,14,10.0,False
+2022,malle_dips_pouches,Post Mahomes,9.0,5.0,0.0,14,9.0,False
+2022,malle_dips_pouches,The Big Gronkowski,9.0,5.0,0.0,14,9.0,False
+2022,malle_dips_pouches,ThreatLevelMidnight,9.0,5.0,0.0,14,9.0,False
+2022,malle_dips_pouches,Uncle Rico,6.0,8.0,0.0,14,6.0,False
+2022,malle_dips_pouches,Voldemort,7.0,7.0,0.0,14,7.0,False
+2022,malle_dips_pouches,malle_dips_pouches,8.0,6.0,0.0,14,8.0,True
+2023,Buttermilk Puuump,Buttermilk Puuump,6.0,8.0,0.0,14,6.0,True
+2023,Buttermilk Puuump,Ginger FC,7.0,7.0,0.0,14,7.0,False
+2023,Buttermilk Puuump,Joe Mantegna,6.0,8.0,0.0,14,6.0,False
+2023,Buttermilk Puuump,Malle ❤️ 🐸,6.0,8.0,0.0,14,6.0,False
+2023,Buttermilk Puuump,Patty Primetimes,7.0,7.0,0.0,14,7.0,False
+2023,Buttermilk Puuump,Pop Lockett Drop it,3.0,11.0,0.0,14,3.0,False
+2023,Buttermilk Puuump,Post Mahomes,4.0,10.0,0.0,14,4.0,False
+2023,Buttermilk Puuump,The Big Gronkowski,5.0,9.0,0.0,14,5.0,False
+2023,Buttermilk Puuump,ThreatLevelMidnight,8.0,6.0,0.0,14,8.0,False
+2023,Buttermilk Puuump,Uncle Rico,8.0,6.0,0.0,14,8.0,False
+2023,Buttermilk Puuump,Voldemort,2.0,12.0,0.0,14,2.0,False
+2023,Buttermilk Puuump,malle_dips_pouches,7.0,7.0,0.0,14,7.0,False
+2023,Ginger FC,Buttermilk Puuump,3.0,11.0,0.0,14,3.0,False
+2023,Ginger FC,Ginger FC,4.0,10.0,0.0,14,4.0,True
+2023,Ginger FC,Joe Mantegna,6.0,8.0,0.0,14,6.0,False
+2023,Ginger FC,Malle ❤️ 🐸,4.0,10.0,0.0,14,4.0,False
+2023,Ginger FC,Patty Primetimes,2.0,12.0,0.0,14,2.0,False
+2023,Ginger FC,Pop Lockett Drop it,4.0,10.0,0.0,14,4.0,False
+2023,Ginger FC,Post Mahomes,5.0,9.0,0.0,14,5.0,False
+2023,Ginger FC,The Big Gronkowski,3.0,11.0,0.0,14,3.0,False
+2023,Ginger FC,ThreatLevelMidnight,4.0,10.0,0.0,14,4.0,False
+2023,Ginger FC,Uncle Rico,5.0,9.0,0.0,14,5.0,False
+2023,Ginger FC,Voldemort,3.0,11.0,0.0,14,3.0,False
+2023,Ginger FC,malle_dips_pouches,5.0,9.0,0.0,14,5.0,False
+2023,Joe Mantegna,Buttermilk Puuump,10.0,4.0,0.0,14,10.0,False
+2023,Joe Mantegna,Ginger FC,12.0,2.0,0.0,14,12.0,False
+2023,Joe Mantegna,Joe Mantegna,13.0,1.0,0.0,14,13.0,True
+2023,Joe Mantegna,Malle ❤️ 🐸,10.0,4.0,0.0,14,10.0,False
+2023,Joe Mantegna,Patty Primetimes,9.0,5.0,0.0,14,9.0,False
+2023,Joe Mantegna,Pop Lockett Drop it,10.0,4.0,0.0,14,10.0,False
+2023,Joe Mantegna,Post Mahomes,8.0,6.0,0.0,14,8.0,False
+2023,Joe Mantegna,The Big Gronkowski,9.0,5.0,0.0,14,9.0,False
+2023,Joe Mantegna,ThreatLevelMidnight,10.0,4.0,0.0,14,10.0,False
+2023,Joe Mantegna,Uncle Rico,9.0,5.0,0.0,14,9.0,False
+2023,Joe Mantegna,Voldemort,6.0,8.0,0.0,14,6.0,False
+2023,Joe Mantegna,malle_dips_pouches,5.0,9.0,0.0,14,5.0,False
+2023,Malle ❤️ 🐸,Buttermilk Puuump,11.0,3.0,0.0,14,11.0,False
+2023,Malle ❤️ 🐸,Ginger FC,8.0,6.0,0.0,14,8.0,False
+2023,Malle ❤️ 🐸,Joe Mantegna,10.0,4.0,0.0,14,10.0,False
+2023,Malle ❤️ 🐸,Malle ❤️ 🐸,7.0,7.0,0.0,14,7.0,True
+2023,Malle ❤️ 🐸,Patty Primetimes,10.0,4.0,0.0,14,10.0,False
+2023,Malle ❤️ 🐸,Pop Lockett Drop it,8.0,6.0,0.0,14,8.0,False
+2023,Malle ❤️ 🐸,Post Mahomes,8.0,6.0,0.0,14,8.0,False
+2023,Malle ❤️ 🐸,The Big Gronkowski,6.0,8.0,0.0,14,6.0,False
+2023,Malle ❤️ 🐸,ThreatLevelMidnight,7.0,7.0,0.0,14,7.0,False
+2023,Malle ❤️ 🐸,Uncle Rico,9.0,5.0,0.0,14,9.0,False
+2023,Malle ❤️ 🐸,Voldemort,5.0,9.0,0.0,14,5.0,False
+2023,Malle ❤️ 🐸,malle_dips_pouches,7.0,7.0,0.0,14,7.0,False
+2023,Patty Primetimes,Buttermilk Puuump,6.0,8.0,0.0,14,6.0,False
+2023,Patty Primetimes,Ginger FC,5.0,9.0,0.0,14,5.0,False
+2023,Patty Primetimes,Joe Mantegna,8.0,6.0,0.0,14,8.0,False
+2023,Patty Primetimes,Malle ❤️ 🐸,7.0,7.0,0.0,14,7.0,False
+2023,Patty Primetimes,Patty Primetimes,5.0,9.0,0.0,14,5.0,True
+2023,Patty Primetimes,Pop Lockett Drop it,5.0,9.0,0.0,14,5.0,False
+2023,Patty Primetimes,Post Mahomes,5.0,9.0,0.0,14,5.0,False
+2023,Patty Primetimes,The Big Gronkowski,6.0,8.0,0.0,14,6.0,False
+2023,Patty Primetimes,ThreatLevelMidnight,7.0,7.0,0.0,14,7.0,False
+2023,Patty Primetimes,Uncle Rico,8.0,6.0,0.0,14,8.0,False
+2023,Patty Primetimes,Voldemort,3.0,11.0,0.0,14,3.0,False
+2023,Patty Primetimes,malle_dips_pouches,6.0,8.0,0.0,14,6.0,False
+2023,Pop Lockett Drop it,Buttermilk Puuump,9.0,5.0,0.0,14,9.0,False
+2023,Pop Lockett Drop it,Ginger FC,6.0,8.0,0.0,14,6.0,False
+2023,Pop Lockett Drop it,Joe Mantegna,9.0,5.0,0.0,14,9.0,False
+2023,Pop Lockett Drop it,Malle ❤️ 🐸,6.0,8.0,0.0,14,6.0,False
+2023,Pop Lockett Drop it,Patty Primetimes,6.0,8.0,0.0,14,6.0,False
+2023,Pop Lockett Drop it,Pop Lockett Drop it,5.0,9.0,0.0,14,5.0,True
+2023,Pop Lockett Drop it,Post Mahomes,6.0,8.0,0.0,14,6.0,False
+2023,Pop Lockett Drop it,The Big Gronkowski,5.0,9.0,0.0,14,5.0,False
+2023,Pop Lockett Drop it,ThreatLevelMidnight,6.0,8.0,0.0,14,6.0,False
+2023,Pop Lockett Drop it,Uncle Rico,7.0,7.0,0.0,14,7.0,False
+2023,Pop Lockett Drop it,Voldemort,5.0,9.0,0.0,14,5.0,False
+2023,Pop Lockett Drop it,malle_dips_pouches,7.0,7.0,0.0,14,7.0,False
+2023,Post Mahomes,Buttermilk Puuump,12.0,2.0,0.0,14,12.0,False
+2023,Post Mahomes,Ginger FC,11.0,3.0,0.0,14,11.0,False
+2023,Post Mahomes,Joe Mantegna,12.0,2.0,0.0,14,12.0,False
+2023,Post Mahomes,Malle ❤️ 🐸,9.0,5.0,0.0,14,9.0,False
+2023,Post Mahomes,Patty Primetimes,11.0,3.0,0.0,14,11.0,False
+2023,Post Mahomes,Pop Lockett Drop it,9.0,5.0,0.0,14,9.0,False
+2023,Post Mahomes,Post Mahomes,8.0,6.0,0.0,14,8.0,True
+2023,Post Mahomes,The Big Gronkowski,9.0,5.0,0.0,14,9.0,False
+2023,Post Mahomes,ThreatLevelMidnight,10.0,4.0,0.0,14,10.0,False
+2023,Post Mahomes,Uncle Rico,11.0,3.0,0.0,14,11.0,False
+2023,Post Mahomes,Voldemort,8.0,6.0,0.0,14,8.0,False
+2023,Post Mahomes,malle_dips_pouches,9.0,5.0,0.0,14,9.0,False
+2023,The Big Gronkowski,Buttermilk Puuump,8.0,6.0,0.0,14,8.0,False
+2023,The Big Gronkowski,Ginger FC,6.0,8.0,0.0,14,6.0,False
+2023,The Big Gronkowski,Joe Mantegna,9.0,5.0,0.0,14,9.0,False
+2023,The Big Gronkowski,Malle ❤️ 🐸,8.0,6.0,0.0,14,8.0,False
+2023,The Big Gronkowski,Patty Primetimes,7.0,7.0,0.0,14,7.0,False
+2023,The Big Gronkowski,Pop Lockett Drop it,7.0,7.0,0.0,14,7.0,False
+2023,The Big Gronkowski,Post Mahomes,7.0,7.0,0.0,14,7.0,False
+2023,The Big Gronkowski,The Big Gronkowski,7.0,7.0,0.0,14,7.0,True
+2023,The Big Gronkowski,ThreatLevelMidnight,7.0,7.0,0.0,14,7.0,False
+2023,The Big Gronkowski,Uncle Rico,7.0,7.0,0.0,14,7.0,False
+2023,The Big Gronkowski,Voldemort,6.0,8.0,0.0,14,6.0,False
+2023,The Big Gronkowski,malle_dips_pouches,5.0,9.0,0.0,14,5.0,False
+2023,ThreatLevelMidnight,Buttermilk Puuump,11.0,3.0,0.0,14,11.0,False
+2023,ThreatLevelMidnight,Ginger FC,10.0,4.0,0.0,14,10.0,False
+2023,ThreatLevelMidnight,Joe Mantegna,11.0,3.0,0.0,14,11.0,False
+2023,ThreatLevelMidnight,Malle ❤️ 🐸,11.0,3.0,0.0,14,11.0,False
+2023,ThreatLevelMidnight,Patty Primetimes,12.0,2.0,0.0,14,12.0,False
+2023,ThreatLevelMidnight,Pop Lockett Drop it,10.0,4.0,0.0,14,10.0,False
+2023,ThreatLevelMidnight,Post Mahomes,9.0,5.0,0.0,14,9.0,False
+2023,ThreatLevelMidnight,The Big Gronkowski,10.0,4.0,0.0,14,10.0,False
+2023,ThreatLevelMidnight,ThreatLevelMidnight,10.0,4.0,0.0,14,10.0,True
+2023,ThreatLevelMidnight,Uncle Rico,10.0,4.0,0.0,14,10.0,False
+2023,ThreatLevelMidnight,Voldemort,6.0,8.0,0.0,14,6.0,False
+2023,ThreatLevelMidnight,malle_dips_pouches,7.0,7.0,0.0,14,7.0,False
+2023,Uncle Rico,Buttermilk Puuump,6.0,8.0,0.0,14,6.0,False
+2023,Uncle Rico,Ginger FC,5.0,9.0,0.0,14,5.0,False
+2023,Uncle Rico,Joe Mantegna,6.0,8.0,0.0,14,6.0,False
+2023,Uncle Rico,Malle ❤️ 🐸,5.0,9.0,0.0,14,5.0,False
+2023,Uncle Rico,Patty Primetimes,4.0,10.0,0.0,14,4.0,False
+2023,Uncle Rico,Pop Lockett Drop it,3.0,11.0,0.0,14,3.0,False
+2023,Uncle Rico,Post Mahomes,5.0,9.0,0.0,14,5.0,False
+2023,Uncle Rico,The Big Gronkowski,6.0,8.0,0.0,14,6.0,False
+2023,Uncle Rico,ThreatLevelMidnight,5.0,9.0,0.0,14,5.0,False
+2023,Uncle Rico,Uncle Rico,4.0,10.0,0.0,14,4.0,True
+2023,Uncle Rico,Voldemort,5.0,9.0,0.0,14,5.0,False
+2023,Uncle Rico,malle_dips_pouches,3.0,11.0,0.0,14,3.0,False
+2023,Voldemort,Buttermilk Puuump,9.0,5.0,0.0,14,9.0,False
+2023,Voldemort,Ginger FC,10.0,4.0,0.0,14,10.0,False
+2023,Voldemort,Joe Mantegna,8.0,6.0,0.0,14,8.0,False
+2023,Voldemort,Malle ❤️ 🐸,7.0,7.0,0.0,14,7.0,False
+2023,Voldemort,Patty Primetimes,9.0,5.0,0.0,14,9.0,False
+2023,Voldemort,Pop Lockett Drop it,7.0,7.0,0.0,14,7.0,False
+2023,Voldemort,Post Mahomes,7.0,7.0,0.0,14,7.0,False
+2023,Voldemort,The Big Gronkowski,7.0,7.0,0.0,14,7.0,False
+2023,Voldemort,ThreatLevelMidnight,8.0,6.0,0.0,14,8.0,False
+2023,Voldemort,Uncle Rico,7.0,7.0,0.0,14,7.0,False
+2023,Voldemort,Voldemort,7.0,7.0,0.0,14,7.0,True
+2023,Voldemort,malle_dips_pouches,7.0,7.0,0.0,14,7.0,False
+2023,malle_dips_pouches,Buttermilk Puuump,4.0,10.0,0.0,14,4.0,False
+2023,malle_dips_pouches,Ginger FC,4.0,10.0,0.0,14,4.0,False
+2023,malle_dips_pouches,Joe Mantegna,9.0,5.0,0.0,14,9.0,False
+2023,malle_dips_pouches,Malle ❤️ 🐸,5.0,9.0,0.0,14,5.0,False
+2023,malle_dips_pouches,Patty Primetimes,5.0,9.0,0.0,14,5.0,False
+2023,malle_dips_pouches,Pop Lockett Drop it,2.0,12.0,0.0,14,2.0,False
+2023,malle_dips_pouches,Post Mahomes,5.0,9.0,0.0,14,5.0,False
+2023,malle_dips_pouches,The Big Gronkowski,4.0,10.0,0.0,14,4.0,False
+2023,malle_dips_pouches,ThreatLevelMidnight,8.0,6.0,0.0,14,8.0,False
+2023,malle_dips_pouches,Uncle Rico,8.0,6.0,0.0,14,8.0,False
+2023,malle_dips_pouches,Voldemort,4.0,10.0,0.0,14,4.0,False
+2023,malle_dips_pouches,malle_dips_pouches,8.0,6.0,0.0,14,8.0,True
+2024,Buttermilk Puuump,Buttermilk Puuump,5.0,9.0,0.0,14,5.0,True
+2024,Buttermilk Puuump,Ginger FC,5.0,9.0,0.0,14,5.0,False
+2024,Buttermilk Puuump,Joe Mantegna,8.0,6.0,0.0,14,8.0,False
+2024,Buttermilk Puuump,Malle ❤️ 🐸,7.0,7.0,0.0,14,7.0,False
+2024,Buttermilk Puuump,Patty Primetimes,9.0,5.0,0.0,14,9.0,False
+2024,Buttermilk Puuump,Pop Lockett Drop it,3.0,11.0,0.0,14,3.0,False
+2024,Buttermilk Puuump,Post Mahomes,6.0,8.0,0.0,14,6.0,False
+2024,Buttermilk Puuump,The Big Gronkowski,7.0,7.0,0.0,14,7.0,False
+2024,Buttermilk Puuump,ThreatLevelMidnight,5.0,9.0,0.0,14,5.0,False
+2024,Buttermilk Puuump,Uncle Rico,6.0,8.0,0.0,14,6.0,False
+2024,Buttermilk Puuump,Voldemort,7.0,7.0,0.0,14,7.0,False
+2024,Buttermilk Puuump,malle_dips_pouches,5.0,9.0,0.0,14,5.0,False
+2024,Ginger FC,Buttermilk Puuump,6.0,8.0,0.0,14,6.0,False
+2024,Ginger FC,Ginger FC,4.0,10.0,0.0,14,4.0,True
+2024,Ginger FC,Joe Mantegna,5.0,9.0,0.0,14,5.0,False
+2024,Ginger FC,Malle ❤️ 🐸,7.0,7.0,0.0,14,7.0,False
+2024,Ginger FC,Patty Primetimes,5.0,9.0,0.0,14,5.0,False
+2024,Ginger FC,Pop Lockett Drop it,4.0,10.0,0.0,14,4.0,False
+2024,Ginger FC,Post Mahomes,5.0,9.0,0.0,14,5.0,False
+2024,Ginger FC,The Big Gronkowski,8.0,6.0,0.0,14,8.0,False
+2024,Ginger FC,ThreatLevelMidnight,6.0,8.0,0.0,14,6.0,False
+2024,Ginger FC,Uncle Rico,5.0,9.0,0.0,14,5.0,False
+2024,Ginger FC,Voldemort,5.0,9.0,0.0,14,5.0,False
+2024,Ginger FC,malle_dips_pouches,8.0,6.0,0.0,14,8.0,False
+2024,Joe Mantegna,Buttermilk Puuump,4.0,10.0,0.0,14,4.0,False
+2024,Joe Mantegna,Ginger FC,5.0,9.0,0.0,14,5.0,False
+2024,Joe Mantegna,Joe Mantegna,5.0,9.0,0.0,14,5.0,True
+2024,Joe Mantegna,Malle ❤️ 🐸,7.0,7.0,0.0,14,7.0,False
+2024,Joe Mantegna,Patty Primetimes,6.0,8.0,0.0,14,6.0,False
+2024,Joe Mantegna,Pop Lockett Drop it,2.0,12.0,0.0,14,2.0,False
+2024,Joe Mantegna,Post Mahomes,6.0,8.0,0.0,14,6.0,False
+2024,Joe Mantegna,The Big Gronkowski,9.0,5.0,0.0,14,9.0,False
+2024,Joe Mantegna,ThreatLevelMidnight,6.0,8.0,0.0,14,6.0,False
+2024,Joe Mantegna,Uncle Rico,4.0,10.0,0.0,14,4.0,False
+2024,Joe Mantegna,Voldemort,5.0,9.0,0.0,14,5.0,False
+2024,Joe Mantegna,malle_dips_pouches,7.0,7.0,0.0,14,7.0,False
+2024,Malle ❤️ 🐸,Buttermilk Puuump,7.0,7.0,0.0,14,7.0,False
+2024,Malle ❤️ 🐸,Ginger FC,7.0,6.0,1.0,14,7.5,False
+2024,Malle ❤️ 🐸,Joe Mantegna,7.0,7.0,0.0,14,7.0,False
+2024,Malle ❤️ 🐸,Malle ❤️ 🐸,10.0,4.0,0.0,14,10.0,True
+2024,Malle ❤️ 🐸,Patty Primetimes,8.0,6.0,0.0,14,8.0,False
+2024,Malle ❤️ 🐸,Pop Lockett Drop it,6.0,8.0,0.0,14,6.0,False
+2024,Malle ❤️ 🐸,Post Mahomes,8.0,6.0,0.0,14,8.0,False
+2024,Malle ❤️ 🐸,The Big Gronkowski,11.0,3.0,0.0,14,11.0,False
+2024,Malle ❤️ 🐸,ThreatLevelMidnight,6.0,8.0,0.0,14,6.0,False
+2024,Malle ❤️ 🐸,Uncle Rico,7.0,7.0,0.0,14,7.0,False
+2024,Malle ❤️ 🐸,Voldemort,7.0,7.0,0.0,14,7.0,False
+2024,Malle ❤️ 🐸,malle_dips_pouches,8.0,6.0,0.0,14,8.0,False
+2024,Patty Primetimes,Buttermilk Puuump,7.0,7.0,0.0,14,7.0,False
+2024,Patty Primetimes,Ginger FC,9.0,5.0,0.0,14,9.0,False
+2024,Patty Primetimes,Joe Mantegna,8.0,6.0,0.0,14,8.0,False
+2024,Patty Primetimes,Malle ❤️ 🐸,9.0,5.0,0.0,14,9.0,False
+2024,Patty Primetimes,Patty Primetimes,8.0,6.0,0.0,14,8.0,True
+2024,Patty Primetimes,Pop Lockett Drop it,7.0,7.0,0.0,14,7.0,False
+2024,Patty Primetimes,Post Mahomes,7.0,7.0,0.0,14,7.0,False
+2024,Patty Primetimes,The Big Gronkowski,9.0,5.0,0.0,14,9.0,False
+2024,Patty Primetimes,ThreatLevelMidnight,6.0,8.0,0.0,14,6.0,False
+2024,Patty Primetimes,Uncle Rico,9.0,5.0,0.0,14,9.0,False
+2024,Patty Primetimes,Voldemort,7.0,7.0,0.0,14,7.0,False
+2024,Patty Primetimes,malle_dips_pouches,6.0,8.0,0.0,14,6.0,False
+2024,Pop Lockett Drop it,Buttermilk Puuump,9.0,5.0,0.0,14,9.0,False
+2024,Pop Lockett Drop it,Ginger FC,8.0,6.0,0.0,14,8.0,False
+2024,Pop Lockett Drop it,Joe Mantegna,8.0,6.0,0.0,14,8.0,False
+2024,Pop Lockett Drop it,Malle ❤️ 🐸,8.0,6.0,0.0,14,8.0,False
+2024,Pop Lockett Drop it,Patty Primetimes,6.0,8.0,0.0,14,6.0,False
+2024,Pop Lockett Drop it,Pop Lockett Drop it,6.0,8.0,0.0,14,6.0,True
+2024,Pop Lockett Drop it,Post Mahomes,5.0,9.0,0.0,14,5.0,False
+2024,Pop Lockett Drop it,The Big Gronkowski,7.0,7.0,0.0,14,7.0,False
+2024,Pop Lockett Drop it,ThreatLevelMidnight,6.0,8.0,0.0,14,6.0,False
+2024,Pop Lockett Drop it,Uncle Rico,5.0,9.0,0.0,14,5.0,False
+2024,Pop Lockett Drop it,Voldemort,9.0,5.0,0.0,14,9.0,False
+2024,Pop Lockett Drop it,malle_dips_pouches,8.0,6.0,0.0,14,8.0,False
+2024,Post Mahomes,Buttermilk Puuump,8.0,6.0,0.0,14,8.0,False
+2024,Post Mahomes,Ginger FC,8.0,6.0,0.0,14,8.0,False
+2024,Post Mahomes,Joe Mantegna,7.0,7.0,0.0,14,7.0,False
+2024,Post Mahomes,Malle ❤️ 🐸,11.0,3.0,0.0,14,11.0,False
+2024,Post Mahomes,Patty Primetimes,9.0,4.0,1.0,14,9.5,False
+2024,Post Mahomes,Pop Lockett Drop it,10.0,4.0,0.0,14,10.0,False
+2024,Post Mahomes,Post Mahomes,10.0,4.0,0.0,14,10.0,True
+2024,Post Mahomes,The Big Gronkowski,11.0,3.0,0.0,14,11.0,False
+2024,Post Mahomes,ThreatLevelMidnight,9.0,5.0,0.0,14,9.0,False
+2024,Post Mahomes,Uncle Rico,7.0,7.0,0.0,14,7.0,False
+2024,Post Mahomes,Voldemort,8.0,6.0,0.0,14,8.0,False
+2024,Post Mahomes,malle_dips_pouches,11.0,3.0,0.0,14,11.0,False
+2024,The Big Gronkowski,Buttermilk Puuump,7.0,7.0,0.0,14,7.0,False
+2024,The Big Gronkowski,Ginger FC,7.0,7.0,0.0,14,7.0,False
+2024,The Big Gronkowski,Joe Mantegna,9.0,5.0,0.0,14,9.0,False
+2024,The Big Gronkowski,Malle ❤️ 🐸,8.0,6.0,0.0,14,8.0,False
+2024,The Big Gronkowski,Patty Primetimes,7.0,7.0,0.0,14,7.0,False
+2024,The Big Gronkowski,Pop Lockett Drop it,6.0,8.0,0.0,14,6.0,False
+2024,The Big Gronkowski,Post Mahomes,8.0,6.0,0.0,14,8.0,False
+2024,The Big Gronkowski,The Big Gronkowski,9.0,5.0,0.0,14,9.0,True
+2024,The Big Gronkowski,ThreatLevelMidnight,8.0,6.0,0.0,14,8.0,False
+2024,The Big Gronkowski,Uncle Rico,7.0,7.0,0.0,14,7.0,False
+2024,The Big Gronkowski,Voldemort,8.0,6.0,0.0,14,8.0,False
+2024,The Big Gronkowski,malle_dips_pouches,6.0,8.0,0.0,14,6.0,False
+2024,ThreatLevelMidnight,Buttermilk Puuump,8.0,6.0,0.0,14,8.0,False
+2024,ThreatLevelMidnight,Ginger FC,8.0,6.0,0.0,14,8.0,False
+2024,ThreatLevelMidnight,Joe Mantegna,9.0,5.0,0.0,14,9.0,False
+2024,ThreatLevelMidnight,Malle ❤️ 🐸,12.0,2.0,0.0,14,12.0,False
+2024,ThreatLevelMidnight,Patty Primetimes,8.0,6.0,0.0,14,8.0,False
+2024,ThreatLevelMidnight,Pop Lockett Drop it,7.0,7.0,0.0,14,7.0,False
+2024,ThreatLevelMidnight,Post Mahomes,8.0,6.0,0.0,14,8.0,False
+2024,ThreatLevelMidnight,The Big Gronkowski,10.0,4.0,0.0,14,10.0,False
+2024,ThreatLevelMidnight,ThreatLevelMidnight,9.0,5.0,0.0,14,9.0,True
+2024,ThreatLevelMidnight,Uncle Rico,6.0,8.0,0.0,14,6.0,False
+2024,ThreatLevelMidnight,Voldemort,5.0,9.0,0.0,14,5.0,False
+2024,ThreatLevelMidnight,malle_dips_pouches,9.0,5.0,0.0,14,9.0,False
+2024,Uncle Rico,Buttermilk Puuump,7.0,7.0,0.0,14,7.0,False
+2024,Uncle Rico,Ginger FC,5.0,9.0,0.0,14,5.0,False
+2024,Uncle Rico,Joe Mantegna,6.0,8.0,0.0,14,6.0,False
+2024,Uncle Rico,Malle ❤️ 🐸,8.0,6.0,0.0,14,8.0,False
+2024,Uncle Rico,Patty Primetimes,6.0,8.0,0.0,14,6.0,False
+2024,Uncle Rico,Pop Lockett Drop it,6.0,8.0,0.0,14,6.0,False
+2024,Uncle Rico,Post Mahomes,6.0,8.0,0.0,14,6.0,False
+2024,Uncle Rico,The Big Gronkowski,7.0,7.0,0.0,14,7.0,False
+2024,Uncle Rico,ThreatLevelMidnight,6.0,8.0,0.0,14,6.0,False
+2024,Uncle Rico,Uncle Rico,6.0,8.0,0.0,14,6.0,True
+2024,Uncle Rico,Voldemort,6.0,8.0,0.0,14,6.0,False
+2024,Uncle Rico,malle_dips_pouches,6.0,8.0,0.0,14,6.0,False
+2024,Voldemort,Buttermilk Puuump,7.0,7.0,0.0,14,7.0,False
+2024,Voldemort,Ginger FC,3.0,11.0,0.0,14,3.0,False
+2024,Voldemort,Joe Mantegna,7.0,7.0,0.0,14,7.0,False
+2024,Voldemort,Malle ❤️ 🐸,9.0,5.0,0.0,14,9.0,False
+2024,Voldemort,Patty Primetimes,7.0,7.0,0.0,14,7.0,False
+2024,Voldemort,Pop Lockett Drop it,4.0,10.0,0.0,14,4.0,False
+2024,Voldemort,Post Mahomes,5.0,9.0,0.0,14,5.0,False
+2024,Voldemort,The Big Gronkowski,8.0,6.0,0.0,14,8.0,False
+2024,Voldemort,ThreatLevelMidnight,7.0,7.0,0.0,14,7.0,False
+2024,Voldemort,Uncle Rico,4.0,10.0,0.0,14,4.0,False
+2024,Voldemort,Voldemort,4.0,10.0,0.0,14,4.0,True
+2024,Voldemort,malle_dips_pouches,8.0,6.0,0.0,14,8.0,False
+2024,malle_dips_pouches,Buttermilk Puuump,6.0,8.0,0.0,14,6.0,False
+2024,malle_dips_pouches,Ginger FC,6.0,8.0,0.0,14,6.0,False
+2024,malle_dips_pouches,Joe Mantegna,6.0,8.0,0.0,14,6.0,False
+2024,malle_dips_pouches,Malle ❤️ 🐸,8.0,6.0,0.0,14,8.0,False
+2024,malle_dips_pouches,Patty Primetimes,8.0,6.0,0.0,14,8.0,False
+2024,malle_dips_pouches,Pop Lockett Drop it,8.0,6.0,0.0,14,8.0,False
+2024,malle_dips_pouches,Post Mahomes,8.0,6.0,0.0,14,8.0,False
+2024,malle_dips_pouches,The Big Gronkowski,8.0,6.0,0.0,14,8.0,False
+2024,malle_dips_pouches,ThreatLevelMidnight,6.0,8.0,0.0,14,6.0,False
+2024,malle_dips_pouches,Uncle Rico,7.0,7.0,0.0,14,7.0,False
+2024,malle_dips_pouches,Voldemort,6.0,8.0,0.0,14,6.0,False
+2024,malle_dips_pouches,malle_dips_pouches,8.0,6.0,0.0,14,8.0,True
+2025,Buttermilk Puuump,Buttermilk Puuump,4.0,10.0,0.0,14,4.0,True
+2025,Buttermilk Puuump,Ginger FC,4.0,10.0,0.0,14,4.0,False
+2025,Buttermilk Puuump,Joe Mantegna,5.0,9.0,0.0,14,5.0,False
+2025,Buttermilk Puuump,Malle ❤️ 🐸,6.0,8.0,0.0,14,6.0,False
+2025,Buttermilk Puuump,Patty Primetimes,8.0,6.0,0.0,14,8.0,False
+2025,Buttermilk Puuump,Pop Lockett Drop it,7.0,7.0,0.0,14,7.0,False
+2025,Buttermilk Puuump,Post Mahomes,7.0,7.0,0.0,14,7.0,False
+2025,Buttermilk Puuump,The Big Gronkowski,5.0,9.0,0.0,14,5.0,False
+2025,Buttermilk Puuump,ThreatLevelMidnight,7.0,7.0,0.0,14,7.0,False
+2025,Buttermilk Puuump,Uncle Rico,6.0,8.0,0.0,14,6.0,False
+2025,Buttermilk Puuump,Voldemort,7.0,7.0,0.0,14,7.0,False
+2025,Buttermilk Puuump,malle_dips_pouches,8.0,6.0,0.0,14,8.0,False
+2025,Ginger FC,Buttermilk Puuump,8.0,6.0,0.0,14,8.0,False
+2025,Ginger FC,Ginger FC,10.0,4.0,0.0,14,10.0,True
+2025,Ginger FC,Joe Mantegna,7.0,7.0,0.0,14,7.0,False
+2025,Ginger FC,Malle ❤️ 🐸,5.0,9.0,0.0,14,5.0,False
+2025,Ginger FC,Patty Primetimes,9.0,5.0,0.0,14,9.0,False
+2025,Ginger FC,Pop Lockett Drop it,10.0,4.0,0.0,14,10.0,False
+2025,Ginger FC,Post Mahomes,12.0,2.0,0.0,14,12.0,False
+2025,Ginger FC,The Big Gronkowski,6.0,8.0,0.0,14,6.0,False
+2025,Ginger FC,ThreatLevelMidnight,7.0,7.0,0.0,14,7.0,False
+2025,Ginger FC,Uncle Rico,6.0,8.0,0.0,14,6.0,False
+2025,Ginger FC,Voldemort,10.0,4.0,0.0,14,10.0,False
+2025,Ginger FC,malle_dips_pouches,9.0,5.0,0.0,14,9.0,False
+2025,Joe Mantegna,Buttermilk Puuump,6.0,8.0,0.0,14,6.0,False
+2025,Joe Mantegna,Ginger FC,5.0,9.0,0.0,14,5.0,False
+2025,Joe Mantegna,Joe Mantegna,6.0,8.0,0.0,14,6.0,True
+2025,Joe Mantegna,Malle ❤️ 🐸,3.0,11.0,0.0,14,3.0,False
+2025,Joe Mantegna,Patty Primetimes,8.0,6.0,0.0,14,8.0,False
+2025,Joe Mantegna,Pop Lockett Drop it,6.0,8.0,0.0,14,6.0,False
+2025,Joe Mantegna,Post Mahomes,8.0,6.0,0.0,14,8.0,False
+2025,Joe Mantegna,The Big Gronkowski,5.0,9.0,0.0,14,5.0,False
+2025,Joe Mantegna,ThreatLevelMidnight,3.0,11.0,0.0,14,3.0,False
+2025,Joe Mantegna,Uncle Rico,6.0,8.0,0.0,14,6.0,False
+2025,Joe Mantegna,Voldemort,7.0,7.0,0.0,14,7.0,False
+2025,Joe Mantegna,malle_dips_pouches,7.0,7.0,0.0,14,7.0,False
+2025,Malle ❤️ 🐸,Buttermilk Puuump,3.0,11.0,0.0,14,3.0,False
+2025,Malle ❤️ 🐸,Ginger FC,5.0,9.0,0.0,14,5.0,False
+2025,Malle ❤️ 🐸,Joe Mantegna,3.0,11.0,0.0,14,3.0,False
+2025,Malle ❤️ 🐸,Malle ❤️ 🐸,3.0,11.0,0.0,14,3.0,True
+2025,Malle ❤️ 🐸,Patty Primetimes,6.0,8.0,0.0,14,6.0,False
+2025,Malle ❤️ 🐸,Pop Lockett Drop it,3.0,11.0,0.0,14,3.0,False
+2025,Malle ❤️ 🐸,Post Mahomes,6.0,8.0,0.0,14,6.0,False
+2025,Malle ❤️ 🐸,The Big Gronkowski,3.0,11.0,0.0,14,3.0,False
+2025,Malle ❤️ 🐸,ThreatLevelMidnight,3.0,11.0,0.0,14,3.0,False
+2025,Malle ❤️ 🐸,Uncle Rico,6.0,8.0,0.0,14,6.0,False
+2025,Malle ❤️ 🐸,Voldemort,5.0,9.0,0.0,14,5.0,False
+2025,Malle ❤️ 🐸,malle_dips_pouches,4.0,10.0,0.0,14,4.0,False
+2025,Patty Primetimes,Buttermilk Puuump,10.0,4.0,0.0,14,10.0,False
+2025,Patty Primetimes,Ginger FC,8.0,6.0,0.0,14,8.0,False
+2025,Patty Primetimes,Joe Mantegna,9.0,5.0,0.0,14,9.0,False
+2025,Patty Primetimes,Malle ❤️ 🐸,7.0,7.0,0.0,14,7.0,False
+2025,Patty Primetimes,Patty Primetimes,12.0,2.0,0.0,14,12.0,True
+2025,Patty Primetimes,Pop Lockett Drop it,9.0,5.0,0.0,14,9.0,False
+2025,Patty Primetimes,Post Mahomes,9.0,5.0,0.0,14,9.0,False
+2025,Patty Primetimes,The Big Gronkowski,10.0,4.0,0.0,14,10.0,False
+2025,Patty Primetimes,ThreatLevelMidnight,10.0,4.0,0.0,14,10.0,False
+2025,Patty Primetimes,Uncle Rico,9.0,5.0,0.0,14,9.0,False
+2025,Patty Primetimes,Voldemort,9.0,5.0,0.0,14,9.0,False
+2025,Patty Primetimes,malle_dips_pouches,11.0,3.0,0.0,14,11.0,False
+2025,Pop Lockett Drop it,Buttermilk Puuump,8.0,6.0,0.0,14,8.0,False
+2025,Pop Lockett Drop it,Ginger FC,8.0,6.0,0.0,14,8.0,False
+2025,Pop Lockett Drop it,Joe Mantegna,10.0,4.0,0.0,14,10.0,False
+2025,Pop Lockett Drop it,Malle ❤️ 🐸,5.0,9.0,0.0,14,5.0,False
+2025,Pop Lockett Drop it,Patty Primetimes,10.0,4.0,0.0,14,10.0,False
+2025,Pop Lockett Drop it,Pop Lockett Drop it,8.0,6.0,0.0,14,8.0,True
+2025,Pop Lockett Drop it,Post Mahomes,8.0,6.0,0.0,14,8.0,False
+2025,Pop Lockett Drop it,The Big Gronkowski,8.0,6.0,0.0,14,8.0,False
+2025,Pop Lockett Drop it,ThreatLevelMidnight,8.0,6.0,0.0,14,8.0,False
+2025,Pop Lockett Drop it,Uncle Rico,9.0,5.0,0.0,14,9.0,False
+2025,Pop Lockett Drop it,Voldemort,9.0,5.0,0.0,14,9.0,False
+2025,Pop Lockett Drop it,malle_dips_pouches,9.0,5.0,0.0,14,9.0,False
+2025,Post Mahomes,Buttermilk Puuump,8.0,6.0,0.0,14,8.0,False
+2025,Post Mahomes,Ginger FC,10.0,4.0,0.0,14,10.0,False
+2025,Post Mahomes,Joe Mantegna,9.0,5.0,0.0,14,9.0,False
+2025,Post Mahomes,Malle ❤️ 🐸,6.0,8.0,0.0,14,6.0,False
+2025,Post Mahomes,Patty Primetimes,13.0,1.0,0.0,14,13.0,False
+2025,Post Mahomes,Pop Lockett Drop it,8.0,6.0,0.0,14,8.0,False
+2025,Post Mahomes,Post Mahomes,9.0,5.0,0.0,14,9.0,True
+2025,Post Mahomes,The Big Gronkowski,9.0,5.0,0.0,14,9.0,False
+2025,Post Mahomes,ThreatLevelMidnight,9.0,5.0,0.0,14,9.0,False
+2025,Post Mahomes,Uncle Rico,10.0,4.0,0.0,14,10.0,False
+2025,Post Mahomes,Voldemort,9.0,5.0,0.0,14,9.0,False
+2025,Post Mahomes,malle_dips_pouches,12.0,2.0,0.0,14,12.0,False
+2025,The Big Gronkowski,Buttermilk Puuump,4.0,10.0,0.0,14,4.0,False
+2025,The Big Gronkowski,Ginger FC,6.0,8.0,0.0,14,6.0,False
+2025,The Big Gronkowski,Joe Mantegna,5.0,9.0,0.0,14,5.0,False
+2025,The Big Gronkowski,Malle ❤️ 🐸,3.0,11.0,0.0,14,3.0,False
+2025,The Big Gronkowski,Patty Primetimes,6.0,8.0,0.0,14,6.0,False
+2025,The Big Gronkowski,Pop Lockett Drop it,5.0,9.0,0.0,14,5.0,False
+2025,The Big Gronkowski,Post Mahomes,6.0,8.0,0.0,14,6.0,False
+2025,The Big Gronkowski,The Big Gronkowski,4.0,10.0,0.0,14,4.0,True
+2025,The Big Gronkowski,ThreatLevelMidnight,4.0,10.0,0.0,14,4.0,False
+2025,The Big Gronkowski,Uncle Rico,5.0,9.0,0.0,14,5.0,False
+2025,The Big Gronkowski,Voldemort,7.0,7.0,0.0,14,7.0,False
+2025,The Big Gronkowski,malle_dips_pouches,6.0,8.0,0.0,14,6.0,False
+2025,ThreatLevelMidnight,Buttermilk Puuump,9.0,5.0,0.0,14,9.0,False
+2025,ThreatLevelMidnight,Ginger FC,10.0,4.0,0.0,14,10.0,False
+2025,ThreatLevelMidnight,Joe Mantegna,11.0,3.0,0.0,14,11.0,False
+2025,ThreatLevelMidnight,Malle ❤️ 🐸,4.0,10.0,0.0,14,4.0,False
+2025,ThreatLevelMidnight,Patty Primetimes,10.0,4.0,0.0,14,10.0,False
+2025,ThreatLevelMidnight,Pop Lockett Drop it,12.0,2.0,0.0,14,12.0,False
+2025,ThreatLevelMidnight,Post Mahomes,10.0,4.0,0.0,14,10.0,False
+2025,ThreatLevelMidnight,The Big Gronkowski,8.0,6.0,0.0,14,8.0,False
+2025,ThreatLevelMidnight,ThreatLevelMidnight,9.0,5.0,0.0,14,9.0,True
+2025,ThreatLevelMidnight,Uncle Rico,8.0,6.0,0.0,14,8.0,False
+2025,ThreatLevelMidnight,Voldemort,11.0,3.0,0.0,14,11.0,False
+2025,ThreatLevelMidnight,malle_dips_pouches,10.0,4.0,0.0,14,10.0,False
+2025,Uncle Rico,Buttermilk Puuump,7.0,7.0,0.0,14,7.0,False
+2025,Uncle Rico,Ginger FC,9.0,5.0,0.0,14,9.0,False
+2025,Uncle Rico,Joe Mantegna,8.0,6.0,0.0,14,8.0,False
+2025,Uncle Rico,Malle ❤️ 🐸,5.0,9.0,0.0,14,5.0,False
+2025,Uncle Rico,Patty Primetimes,10.0,4.0,0.0,14,10.0,False
+2025,Uncle Rico,Pop Lockett Drop it,8.0,6.0,0.0,14,8.0,False
+2025,Uncle Rico,Post Mahomes,10.0,4.0,0.0,14,10.0,False
+2025,Uncle Rico,The Big Gronkowski,7.0,7.0,0.0,14,7.0,False
+2025,Uncle Rico,ThreatLevelMidnight,10.0,4.0,0.0,14,10.0,False
+2025,Uncle Rico,Uncle Rico,7.0,7.0,0.0,14,7.0,True
+2025,Uncle Rico,Voldemort,8.0,6.0,0.0,14,8.0,False
+2025,Uncle Rico,malle_dips_pouches,8.0,6.0,0.0,14,8.0,False
+2025,Voldemort,Buttermilk Puuump,8.0,6.0,0.0,14,8.0,False
+2025,Voldemort,Ginger FC,6.0,8.0,0.0,14,6.0,False
+2025,Voldemort,Joe Mantegna,5.0,9.0,0.0,14,5.0,False
+2025,Voldemort,Malle ❤️ 🐸,3.0,11.0,0.0,14,3.0,False
+2025,Voldemort,Patty Primetimes,9.0,5.0,0.0,14,9.0,False
+2025,Voldemort,Pop Lockett Drop it,5.0,9.0,0.0,14,5.0,False
+2025,Voldemort,Post Mahomes,6.0,8.0,0.0,14,6.0,False
+2025,Voldemort,The Big Gronkowski,6.0,8.0,0.0,14,6.0,False
+2025,Voldemort,ThreatLevelMidnight,7.0,7.0,0.0,14,7.0,False
+2025,Voldemort,Uncle Rico,8.0,6.0,0.0,14,8.0,False
+2025,Voldemort,Voldemort,6.0,8.0,0.0,14,6.0,True
+2025,Voldemort,malle_dips_pouches,5.0,9.0,0.0,14,5.0,False
+2025,malle_dips_pouches,Buttermilk Puuump,3.0,11.0,0.0,14,3.0,False
+2025,malle_dips_pouches,Ginger FC,2.0,12.0,0.0,14,2.0,False
+2025,malle_dips_pouches,Joe Mantegna,1.0,13.0,0.0,14,1.0,False
+2025,malle_dips_pouches,Malle ❤️ 🐸,2.0,12.0,0.0,14,2.0,False
+2025,malle_dips_pouches,Patty Primetimes,5.0,9.0,0.0,14,5.0,False
+2025,malle_dips_pouches,Pop Lockett Drop it,4.0,10.0,0.0,14,4.0,False
+2025,malle_dips_pouches,Post Mahomes,3.0,11.0,0.0,14,3.0,False
+2025,malle_dips_pouches,The Big Gronkowski,6.0,8.0,0.0,14,6.0,False
+2025,malle_dips_pouches,ThreatLevelMidnight,4.0,10.0,0.0,14,4.0,False
+2025,malle_dips_pouches,Uncle Rico,6.0,8.0,0.0,14,6.0,False
+2025,malle_dips_pouches,Voldemort,4.0,10.0,0.0,14,4.0,False
+2025,malle_dips_pouches,malle_dips_pouches,6.0,8.0,0.0,14,6.0,True

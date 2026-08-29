@@ -1,0 +1,41 @@
+year,team,actual_wins,actual_losses,actual_ties,games,average_schedule_wins,best_schedule_wins,worst_schedule_wins,schedule_win_std,schedules_tested,actual_win_equivalent,schedule_luck,schedule_range,best_schedule_team,best_schedule_record_wins,worst_schedule_team,worst_schedule_record_wins,schedule_luck_rank,schedule_difficulty_rank,extreme_type
+2018,malle_dips_pouches,11.0,2.0,0.0,13,7.25,11.0,5.0,1.9128750375000736,12,11.0,3.75,6.0,malle_dips_pouches,11.0,Ginger FC,5.0,1,12,Most Helped
+2023,Joe Mantegna,13.0,1.0,0.0,14,9.25,13.0,5.0,2.2207697273283835,12,13.0,3.75,8.0,Joe Mantegna,13.0,malle_dips_pouches,5.0,1,12,Most Helped
+2019,Voldemort,12.0,1.0,0.0,13,8.916666666666666,12.0,7.0,1.2401124093721456,12,12.0,3.083333333333334,5.0,Voldemort,12.0,Joe Mantegna,7.0,1,12,Most Helped
+2021,Malle ❤️ 🐸,11.0,3.0,0.0,14,7.916666666666667,11.0,5.0,2.0652243256245835,12,11.0,3.083333333333333,6.0,Malle ❤️ 🐸,11.0,The Big Gronkowski,5.0,1,12,Most Helped
+2017,Pop Lockett Drop it,9.0,4.0,0.0,13,5.916666666666667,9.0,4.0,1.6213537179739277,12,9.0,3.083333333333333,5.0,Pop Lockett Drop it,9.0,The Big Gronkowski,4.0,1,12,Most Helped
+2017,Ginger FC,10.0,3.0,0.0,13,7.166666666666667,10.0,5.0,1.6422453217986943,12,10.0,2.833333333333333,5.0,Ginger FC,10.0,Malle ❤️ 🐸,5.0,2,11,Most Helped
+2021,ThreatLevelMidnight,11.0,3.0,0.0,14,8.333333333333334,11.0,5.0,2.015094553763188,12,11.0,2.666666666666666,6.0,Malle ❤️ 🐸,11.0,Ginger FC,5.0,2,11,Most Helped
+2025,Patty Primetimes,12.0,2.0,0.0,14,9.416666666666666,12.0,7.0,1.3113721705515067,12,12.0,2.583333333333334,5.0,Patty Primetimes,12.0,Malle ❤️ 🐸,7.0,1,12,Most Helped
+2023,malle_dips_pouches,8.0,6.0,0.0,14,5.5,9.0,2.0,2.195035721390843,12,8.0,2.5,7.0,Joe Mantegna,9.0,Pop Lockett Drop it,2.0,2,11,Most Helped
+2024,Malle ❤️ 🐸,10.0,4.0,0.0,14,7.708333333333333,11.0,6.0,1.484133253839262,12,10.0,2.291666666666667,5.0,The Big Gronkowski,11.0,Pop Lockett Drop it,6.0,1,12,Most Helped
+2018,The Big Gronkowski,7.0,6.0,0.0,13,4.75,8.0,3.0,1.712255291076124,12,7.0,2.25,5.0,malle_dips_pouches,8.0,Ginger FC,3.0,2,11,Most Helped
+2022,Post Mahomes,7.0,7.0,0.0,14,4.75,7.0,2.0,1.2880570286640685,12,7.0,2.25,5.0,Post Mahomes,7.0,Uncle Rico,2.0,1,12,Most Helped
+2025,malle_dips_pouches,6.0,8.0,0.0,14,3.8333333333333335,6.0,1.0,1.696699112626596,12,6.0,2.1666666666666665,5.0,The Big Gronkowski,6.0,Joe Mantegna,1.0,2,11,Most Helped
+2020,Uncle Rico,8.0,5.0,0.0,13,5.916666666666667,8.0,3.0,1.3113721705515067,12,8.0,2.083333333333333,5.0,Uncle Rico,8.0,ThreatLevelMidnight,3.0,1,12,Most Helped
+2020,Pop Lockett Drop it,10.0,3.0,0.0,13,8.0,10.0,4.0,2.04494943258218,12,10.0,2.0,6.0,Big Sack Jack,10.0,ThreatLevelMidnight,4.0,2,11,Most Helped
+2025,Ginger FC,10.0,4.0,0.0,14,8.25,12.0,5.0,2.0943647333651407,12,10.0,1.75,7.0,Post Mahomes,12.0,Malle ❤️ 🐸,5.0,3,10,Most Helped
+2021,Joe Mantegna,9.0,5.0,0.0,14,7.333333333333333,10.0,5.0,1.6143297699232975,12,9.0,1.666666666666667,5.0,Malle ❤️ 🐸,10.0,Big Sack Jack,5.0,3,10,Most Helped
+2019,Pop Lockett Drop it,10.0,3.0,0.0,13,8.333333333333334,10.0,6.0,1.2309149097933274,12,10.0,1.666666666666666,4.0,Patty Primetimes,10.0,Uncle Rico,6.0,2,11,Most Helped
+2022,Big Sack Jack,10.0,4.0,0.0,14,8.416666666666666,10.0,5.0,1.6764862244009224,12,10.0,1.583333333333334,5.0,Big Sack Jack,10.0,Uncle Rico,5.0,2,11,Most Helped
+2024,The Big Gronkowski,9.0,5.0,0.0,14,7.5,9.0,6.0,0.9999999999999999,12,9.0,1.5,3.0,Joe Mantegna,9.0,Pop Lockett Drop it,6.0,2,11,Most Helped
+2020,ThreatLevelMidnight,3.0,10.0,0.0,13,6.5,9.0,3.0,2.1105794120443453,12,3.0,-3.5,6.0,Big Sack Jack,9.0,ThreatLevelMidnight,3.0,12,1,Most Hurt
+2022,Uncle Rico,5.0,9.0,0.0,14,8.416666666666666,11.0,5.0,1.729862492345632,12,5.0,-3.416666666666666,6.0,Joe Mantegna,11.0,Uncle Rico,5.0,12,1,Most Hurt
+2019,Uncle Rico,2.0,11.0,0.0,13,4.833333333333333,9.0,2.0,2.124888588879783,12,2.0,-2.833333333333333,7.0,Pop Lockett Drop it,9.0,Uncle Rico,2.0,12,1,Most Hurt
+2018,Joe Mantegna,4.0,9.0,0.0,13,6.416666666666667,11.0,4.0,1.9752253419585197,12,4.0,-2.416666666666667,7.0,malle_dips_pouches,11.0,Big Sack Jack,4.0,12,1,Most Hurt
+2017,The Big Gronkowski,5.0,8.0,0.0,13,7.416666666666667,9.0,5.0,1.4433756729740643,12,5.0,-2.416666666666667,4.0,Big Sack Jack,9.0,The Big Gronkowski,5.0,12,1,Most Hurt
+2021,Ginger FC,5.0,9.0,0.0,14,7.333333333333333,9.0,5.0,1.3706888336846839,12,5.0,-2.333333333333333,4.0,Joe Mantegna,9.0,Ginger FC,5.0,12,1,Most Hurt
+2021,The Big Gronkowski,7.0,7.0,0.0,14,9.25,11.0,7.0,1.3568010505999362,12,7.0,-2.25,4.0,Malle ❤️ 🐸,11.0,The Big Gronkowski,7.0,11,2,Most Hurt
+2025,Buttermilk Puuump,4.0,10.0,0.0,14,6.166666666666667,8.0,4.0,1.4034589305344738,12,4.0,-2.166666666666667,4.0,Patty Primetimes,8.0,Buttermilk Puuump,4.0,12,1,Most Hurt
+2018,Post Mahomes,6.0,7.0,0.0,13,8.083333333333334,11.0,6.0,1.4433756729740643,12,6.0,-2.083333333333334,5.0,malle_dips_pouches,11.0,Pop Lockett Drop it,6.0,11,2,Most Hurt
+2024,Voldemort,4.0,10.0,0.0,14,6.083333333333333,9.0,3.0,1.9752253419585197,12,4.0,-2.083333333333333,6.0,Malle ❤️ 🐸,9.0,Ginger FC,3.0,12,1,Most Hurt
+2021,Uncle Rico,4.0,10.0,0.0,14,6.0,8.0,4.0,1.2792042981336627,12,4.0,-2.0,4.0,Joe Mantegna,8.0,Ginger FC,4.0,10,3,Most Hurt
+2023,Post Mahomes,8.0,6.0,0.0,14,9.916666666666666,12.0,8.0,1.443375672974064,12,8.0,-1.916666666666666,4.0,Buttermilk Puuump,12.0,Post Mahomes,8.0,12,1,Most Hurt
+2021,Big Sack Jack,3.0,11.0,0.0,14,4.833333333333333,8.0,2.0,1.8504708655481241,12,3.0,-1.833333333333333,6.0,Malle ❤️ 🐸,8.0,Ginger FC,2.0,9,4,Most Hurt
+2019,Joe Mantegna,4.0,9.0,0.0,13,5.666666666666667,11.0,3.0,2.2696949467968492,12,4.0,-1.666666666666667,8.0,Voldemort,11.0,malle_dips_pouches,3.0,11,2,Most Hurt
+2024,Ginger FC,4.0,10.0,0.0,14,5.666666666666667,8.0,4.0,1.3706888336846839,12,4.0,-1.666666666666667,4.0,The Big Gronkowski,8.0,Ginger FC,4.0,11,2,Most Hurt
+2022,Malle ❤️ 🐸,4.0,10.0,0.0,14,5.583333333333333,8.0,3.0,1.4433756729740643,12,4.0,-1.583333333333333,5.0,Big Sack Jack,8.0,Uncle Rico,3.0,11,2,Most Hurt
+2022,Patty Primetimes,3.0,11.0,0.0,14,4.5,8.0,1.0,1.834021909257456,12,3.0,-1.5,7.0,Big Sack Jack,8.0,Uncle Rico,1.0,10,3,Most Hurt
+2023,Pop Lockett Drop it,5.0,9.0,0.0,14,6.416666666666667,9.0,5.0,1.378954368902449,12,5.0,-1.416666666666667,4.0,Buttermilk Puuump,9.0,Pop Lockett Drop it,5.0,11,2,Most Hurt
+2020,Malle ❤️ 🐸,8.0,5.0,0.0,13,9.416666666666666,12.0,7.0,1.8319554050414562,12,8.0,-1.416666666666666,5.0,Post Mahomes,12.0,Ginger FC,7.0,11,2,Most Hurt
+2020,Ginger FC,5.0,8.0,0.0,13,6.333333333333333,9.0,4.0,1.4974726182552531,12,5.0,-1.333333333333333,5.0,Big Sack Jack,9.0,ThreatLevelMidnight,4.0,10,3,Most Hurt
