@@ -423,11 +423,29 @@ KEEPERS_2026 = {
         "status": "🟢 1st-Year Keeper",
         "acquisition": "Drafted — Round 9",
     },
-    "Pop Lockett Drop it": {
-        "player": "Kenneth Walker III",
-        "round": 1,
+    "Buttermilk Puuump": {
+        "player": "George Pickens",
+        "round": 3,
         "status": "🟢 1st-Year Keeper",
-        "acquisition": "Drafted — Round 2",
+        "acquisition": "Drafted — Round 4",
+    },
+    "Ginger FC": {
+        "player": "Chris Olave",
+        "round": 5,
+        "status": "🟢 1st-Year Keeper",
+        "acquisition": "Drafted — Round 6",
+    },
+    "Pop Lockett Drop it": {
+        "player": "Javonte Williams",
+        "round": 7,
+        "status": "🟢 1st-Year Keeper",
+        "acquisition": "Drafted — Round 8",
+    },
+    "Post Mahomes": {
+        "player": "Cam Skattebo",
+        "round": 9,
+        "status": "🟢 1st-Year Keeper",
+        "acquisition": "Drafted — Round 10",
     },
     "Voldemort": {
         "player": "Jaxon Smith-Njigba",

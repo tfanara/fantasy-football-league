@@ -319,7 +319,7 @@ analysis_groups = [
         "Strategy",
         [
             ("🏈 QB/WR Stacks", "🏈 QB/WR Stacking", True),
-            ("🏟️ Positional Edge", "🏟️ Positional Advantage", False),
+            ("🏟️ Positional Edge", "🏟️ Positional Advantage", True),
             ("👑 Star Dependency", "👑 Star Dependency", False),
         ],
     ),
@@ -342,7 +342,7 @@ analysis_groups = [
         "Winning",
         [
             ("🏆 Championship DNA", "🏆 Championship DNA", True),
-            ("🧠 Manager Skill", "🧠 Manager Skill", False),
+            ("🧠 Manager Skill", "🧠 Manager Skill", True),
         ],
     ),
 ]
@@ -5121,6 +5121,1802 @@ elif analysis_choice == "🏆 Championship DNA":
             Championship DNA is therefore a descriptive analysis of
             recurring traits — not a formula for determining who
             "deserved" a championship.
+            """
+        )
+
+
+
+elif analysis_choice == "🏟️ Positional Advantage":
+
+    st.title("🏟️ Positional Advantage")
+
+    st.caption(
+        "Where each franchise has historically gained — or lost — "
+        "points at QB, RB, WR, and TE."
+    )
+
+    POSITIONAL_EDGE_DIR = Path("data/analysis")
+
+    POSITIONAL_TEAM_WEEK_PATH = (
+        POSITIONAL_EDGE_DIR /
+        "positional_edge_team_week.csv"
+    )
+
+    POSITIONAL_SEASON_PATH = (
+        POSITIONAL_EDGE_DIR /
+        "positional_edge_season.csv"
+    )
+
+    POSITIONAL_FRANCHISE_PATH = (
+        POSITIONAL_EDGE_DIR /
+        "positional_edge_franchise.csv"
+    )
+
+    POSITIONAL_EXTREMES_PATH = (
+        POSITIONAL_EDGE_DIR /
+        "positional_edge_extremes.csv"
+    )
+
+    POSITIONAL_PLAYER_PATH = (
+        POSITIONAL_EDGE_DIR /
+        "positional_edge_player_contributions.csv"
+    )
+
+    required_positional_files = [
+        POSITIONAL_TEAM_WEEK_PATH,
+        POSITIONAL_SEASON_PATH,
+        POSITIONAL_FRANCHISE_PATH,
+        POSITIONAL_EXTREMES_PATH,
+        POSITIONAL_PLAYER_PATH,
+    ]
+
+    missing_positional_files = [
+        str(path)
+        for path in required_positional_files
+        if not path.exists()
+    ]
+
+    if missing_positional_files:
+
+        st.error(
+            "Positional Advantage data is missing. "
+            "Run `python build_positional_edge_analysis.py` first."
+        )
+
+        st.code(
+            "\n".join(
+                missing_positional_files
+            )
+        )
+
+        st.stop()
+
+
+    # ========================================================
+    # LOAD DATA
+    # ========================================================
+
+    positional_team_week = pd.read_csv(
+        POSITIONAL_TEAM_WEEK_PATH
+    )
+
+    positional_season = pd.read_csv(
+        POSITIONAL_SEASON_PATH
+    )
+
+    positional_franchise = pd.read_csv(
+        POSITIONAL_FRANCHISE_PATH
+    )
+
+    positional_extremes = pd.read_csv(
+        POSITIONAL_EXTREMES_PATH
+    )
+
+    positional_players = pd.read_csv(
+        POSITIONAL_PLAYER_PATH
+    )
+
+
+    # ========================================================
+    # INTRO
+    # ========================================================
+
+    st.markdown(
+        """
+        **Positional Edge** measures how many points a team's
+        starters produced above or below the rest of the league
+        at the same position.
+
+        Each week, starter production at **QB, RB, WR, and TE**
+        is compared with the average of the other 11 teams.
+        FLEX production is credited to the player's actual
+        fantasy position.
+
+        A positive number means the franchise generated more
+        production than the league baseline. A negative number
+        means it generated less.
+        """
+    )
+
+    with st.expander(
+        "How to read Positional Edge"
+    ):
+
+        st.markdown(
+            """
+            If your RB starters score 30 points in a week while
+            the other 11 teams average 20, your **RB Edge is
+            +10 points**.
+
+            If they score 16 while everyone else averages 20,
+            your **RB Edge is −4 points**.
+
+            Season totals add those weekly advantages together.
+
+            **Edge / Week** is used for historical franchise
+            comparisons so franchises with different numbers
+            of seasons can be compared fairly.
+
+            Kicker and defense are intentionally excluded from
+            the primary analysis.
+            """
+        )
+
+
+    # ========================================================
+    # ALL-TIME POSITION LEADERS
+    # ========================================================
+
+    st.subheader("All-Time Position Leaders")
+
+    st.caption(
+        "Historical advantage per week. "
+        "Use the position tabs to compare franchises directly."
+    )
+
+    position_config = {
+        "QB": (
+            "qb_edge_per_week",
+            "Quarterback",
+        ),
+        "RB": (
+            "rb_edge_per_week",
+            "Running Back",
+        ),
+        "WR": (
+            "wr_edge_per_week",
+            "Wide Receiver",
+        ),
+        "TE": (
+            "te_edge_per_week",
+            "Tight End",
+        ),
+    }
+
+    position_tabs = st.tabs(
+        list(position_config.keys())
+    )
+
+    for tab, (
+        position,
+        (
+            edge_col,
+            position_name,
+        ),
+    ) in zip(
+        position_tabs,
+        position_config.items(),
+    ):
+
+        with tab:
+
+            position_table = (
+                positional_franchise[
+                    [
+                        "fantasy_team",
+                        "seasons",
+                        "weeks",
+                        edge_col,
+                    ]
+                ]
+                .copy()
+                .sort_values(
+                    edge_col,
+                    ascending=False,
+                )
+                .reset_index(
+                    drop=True
+                )
+            )
+
+            position_table.insert(
+                0,
+                "Rank",
+                range(
+                    1,
+                    len(position_table) + 1,
+                ),
+            )
+
+            position_table = (
+                position_table.rename(
+                    columns={
+                        "fantasy_team":
+                            "Franchise",
+                        "seasons":
+                            "Seasons",
+                        "weeks":
+                            "Weeks",
+                        edge_col:
+                            "Edge / Week",
+                    }
+                )
+            )
+
+            leader = position_table.iloc[0]
+
+            c1, c2, c3 = st.columns(3)
+
+            c1.metric(
+                f"Best {position_name} Franchise",
+                leader["Franchise"],
+            )
+
+            c2.metric(
+                "Edge / Week",
+                f'{leader["Edge / Week"]:+.2f}',
+            )
+
+            c3.metric(
+                "Seasons",
+                int(
+                    leader["Seasons"]
+                ),
+            )
+
+            st.dataframe(
+                position_table,
+                hide_index=True,
+                use_container_width=True,
+                column_config={
+                    "Rank":
+                        st.column_config.NumberColumn(
+                            "Rank",
+                            format="%d",
+                        ),
+                    "Seasons":
+                        st.column_config.NumberColumn(
+                            "Seasons",
+                            format="%d",
+                        ),
+                    "Weeks":
+                        st.column_config.NumberColumn(
+                            "Weeks",
+                            format="%d",
+                        ),
+                    "Edge / Week":
+                        st.column_config.NumberColumn(
+                            "Edge / Week",
+                            format="%+.2f",
+                        ),
+                },
+            )
+
+
+    # ========================================================
+    # FRANCHISE POSITION PROFILES
+    # ========================================================
+
+    st.divider()
+
+    st.subheader("Franchise Position Profiles")
+
+    st.caption(
+        "Average weekly advantage by position across each "
+        "franchise's history."
+    )
+
+    profile = positional_franchise[
+        [
+            "fantasy_team",
+            "seasons",
+            "qb_edge_per_week",
+            "rb_edge_per_week",
+            "wr_edge_per_week",
+            "te_edge_per_week",
+            "strongest_position",
+            "weakest_position",
+        ]
+    ].copy()
+
+    profile = profile.rename(
+        columns={
+            "fantasy_team":
+                "Franchise",
+            "seasons":
+                "Seasons",
+            "qb_edge_per_week":
+                "QB",
+            "rb_edge_per_week":
+                "RB",
+            "wr_edge_per_week":
+                "WR",
+            "te_edge_per_week":
+                "TE",
+            "strongest_position":
+                "Strongest",
+            "weakest_position":
+                "Weakest",
+        }
+    )
+
+    # Sort by franchise name rather than a synthetic overall
+    # positional ranking. Raw position edges are intentionally
+    # kept separate because scoring volume differs by position.
+    profile = profile.sort_values(
+        "Franchise"
+    )
+
+    st.dataframe(
+        profile,
+        hide_index=True,
+        use_container_width=True,
+        column_config={
+            "Seasons":
+                st.column_config.NumberColumn(
+                    "Seasons",
+                    format="%d",
+                ),
+            "QB":
+                st.column_config.NumberColumn(
+                    "QB Edge / Wk",
+                    format="%+.2f",
+                ),
+            "RB":
+                st.column_config.NumberColumn(
+                    "RB Edge / Wk",
+                    format="%+.2f",
+                ),
+            "WR":
+                st.column_config.NumberColumn(
+                    "WR Edge / Wk",
+                    format="%+.2f",
+                ),
+            "TE":
+                st.column_config.NumberColumn(
+                    "TE Edge / Wk",
+                    format="%+.2f",
+                ),
+        },
+    )
+
+
+    # ========================================================
+    # FRANCHISE EXPLORER
+    # ========================================================
+
+    st.divider()
+
+    st.subheader("Franchise Explorer")
+
+    franchise_options = sorted(
+        positional_season[
+            "fantasy_team"
+        ]
+        .dropna()
+        .unique()
+        .tolist()
+    )
+
+    selected_franchise = st.selectbox(
+        "Choose a franchise",
+        franchise_options,
+        key="positional_edge_franchise",
+    )
+
+    franchise_history = (
+        positional_season[
+            positional_season[
+                "fantasy_team"
+            ].eq(
+                selected_franchise
+            )
+        ]
+        .copy()
+        .sort_values(
+            "year",
+            ascending=False,
+        )
+    )
+
+    franchise_summary = (
+        positional_franchise[
+            positional_franchise[
+                "fantasy_team"
+            ].eq(
+                selected_franchise
+            )
+        ]
+        .iloc[0]
+    )
+
+    c1, c2, c3 = st.columns(3)
+
+    c1.metric(
+        "Strongest Position",
+        franchise_summary[
+            "strongest_position"
+        ],
+    )
+
+    c2.metric(
+        "Weakest Position",
+        franchise_summary[
+            "weakest_position"
+        ],
+    )
+
+    c3.metric(
+        "Seasons",
+        int(
+            franchise_summary[
+                "seasons"
+            ]
+        ),
+    )
+
+    history_display = franchise_history[
+        [
+            "year",
+            "qb_edge",
+            "rb_edge",
+            "wr_edge",
+            "te_edge",
+            "best_position",
+            "worst_position",
+        ]
+    ].copy()
+
+    history_display = history_display.rename(
+        columns={
+            "year":
+                "Year",
+            "qb_edge":
+                "QB Edge",
+            "rb_edge":
+                "RB Edge",
+            "wr_edge":
+                "WR Edge",
+            "te_edge":
+                "TE Edge",
+            "best_position":
+                "Best",
+            "worst_position":
+                "Worst",
+        }
+    )
+
+    st.dataframe(
+        history_display,
+        hide_index=True,
+        use_container_width=True,
+        column_config={
+            "Year":
+                st.column_config.NumberColumn(
+                    "Year",
+                    format="%d",
+                ),
+            "QB Edge":
+                st.column_config.NumberColumn(
+                    "QB Edge",
+                    format="%+.1f",
+                ),
+            "RB Edge":
+                st.column_config.NumberColumn(
+                    "RB Edge",
+                    format="%+.1f",
+                ),
+            "WR Edge":
+                st.column_config.NumberColumn(
+                    "WR Edge",
+                    format="%+.1f",
+                ),
+            "TE Edge":
+                st.column_config.NumberColumn(
+                    "TE Edge",
+                    format="%+.1f",
+                ),
+        },
+    )
+
+
+    # ========================================================
+    # BEST / WORST POSITIONAL SEASONS
+    # ========================================================
+
+    st.divider()
+
+    st.subheader("Historical Extremes")
+
+    st.caption(
+        "Key Contributors shows the starters most responsible "
+        "for each positional advantage or disadvantage."
+    )
+
+
+    # --------------------------------------------------------
+    # FORMAT KEY CONTRIBUTORS
+    # --------------------------------------------------------
+
+    def positional_key_contributors(
+        year,
+        fantasy_team,
+        edge_position,
+        positive=True,
+        limit=3,
+    ):
+
+        rows = positional_players[
+            positional_players[
+                "year"
+            ].eq(year)
+            &
+            positional_players[
+                "fantasy_team"
+            ].eq(fantasy_team)
+            &
+            positional_players[
+                "edge_position"
+            ].eq(edge_position)
+        ].copy()
+
+        if rows.empty:
+            return "—"
+
+        rows = rows.sort_values(
+            "player_edge_contribution",
+            ascending=not positive,
+        )
+
+        if positive:
+
+            rows = rows[
+                rows[
+                    "player_edge_contribution"
+                ] > 0
+            ]
+
+        else:
+
+            rows = rows[
+                rows[
+                    "player_edge_contribution"
+                ] < 0
+            ]
+
+        rows = rows.head(limit)
+
+        if rows.empty:
+            return "—"
+
+        return " · ".join(
+            f'{row["player"]} '
+            f'{row["player_edge_contribution"]:+.1f}'
+            for _, row in rows.iterrows()
+        )
+
+
+    best_tab, worst_tab = st.tabs(
+        [
+            "🔥 Best Positional Seasons",
+            "🧊 Worst Positional Seasons",
+        ]
+    )
+
+    extreme_columns = [
+        "year",
+        "fantasy_team",
+        "edge_position",
+        "starter_points",
+        "positional_edge",
+        "edge_per_week",
+        "position_rank",
+    ]
+
+
+    # ========================================================
+    # BEST
+    # ========================================================
+
+    with best_tab:
+
+        best_seasons = (
+            positional_extremes[
+                positional_extremes[
+                    "extreme_type"
+                ].eq(
+                    "Best Positional Season"
+                )
+            ][
+                extreme_columns
+            ]
+            .copy()
+            .sort_values(
+                "positional_edge",
+                ascending=False,
+            )
+        )
+
+        best_seasons[
+            "key_contributors"
+        ] = best_seasons.apply(
+            lambda row:
+                positional_key_contributors(
+                    row["year"],
+                    row["fantasy_team"],
+                    row["edge_position"],
+                    positive=True,
+                    limit=3,
+                ),
+            axis=1,
+        )
+
+        best_seasons = best_seasons.rename(
+            columns={
+                "year":
+                    "Year",
+                "fantasy_team":
+                    "Franchise",
+                "edge_position":
+                    "Position",
+                "starter_points":
+                    "Starter Points",
+                "positional_edge":
+                    "Season Edge",
+                "edge_per_week":
+                    "Edge / Week",
+                "position_rank":
+                    "Position Rank",
+                "key_contributors":
+                    "Key Contributors",
+            }
+        )
+
+        st.dataframe(
+            best_seasons,
+            hide_index=True,
+            use_container_width=True,
+            column_config={
+                "Year":
+                    st.column_config.NumberColumn(
+                        "Year",
+                        format="%d",
+                    ),
+                "Starter Points":
+                    st.column_config.NumberColumn(
+                        "Starter Points",
+                        format="%.1f",
+                    ),
+                "Season Edge":
+                    st.column_config.NumberColumn(
+                        "Season Edge",
+                        format="%+.1f",
+                    ),
+                "Edge / Week":
+                    st.column_config.NumberColumn(
+                        "Edge / Week",
+                        format="%+.2f",
+                    ),
+                "Position Rank":
+                    st.column_config.NumberColumn(
+                        "Position Rank",
+                        format="%.0f",
+                    ),
+                "Key Contributors":
+                    st.column_config.TextColumn(
+                        "Key Contributors",
+                        width="large",
+                        help=(
+                            "Top three player Edge Contributions "
+                            "to the positional advantage."
+                        ),
+                    ),
+            },
+        )
+
+
+    # ========================================================
+    # WORST
+    # ========================================================
+
+    with worst_tab:
+
+        worst_seasons = (
+            positional_extremes[
+                positional_extremes[
+                    "extreme_type"
+                ].eq(
+                    "Worst Positional Season"
+                )
+            ][
+                extreme_columns
+            ]
+            .copy()
+            .sort_values(
+                "positional_edge",
+                ascending=True,
+            )
+        )
+
+        worst_seasons[
+            "key_contributors"
+        ] = worst_seasons.apply(
+            lambda row:
+                positional_key_contributors(
+                    row["year"],
+                    row["fantasy_team"],
+                    row["edge_position"],
+                    positive=False,
+                    limit=3,
+                ),
+            axis=1,
+        )
+
+        worst_seasons = worst_seasons.rename(
+            columns={
+                "year":
+                    "Year",
+                "fantasy_team":
+                    "Franchise",
+                "edge_position":
+                    "Position",
+                "starter_points":
+                    "Starter Points",
+                "positional_edge":
+                    "Season Edge",
+                "edge_per_week":
+                    "Edge / Week",
+                "position_rank":
+                    "Position Rank",
+                "key_contributors":
+                    "Key Contributors",
+            }
+        )
+
+        st.dataframe(
+            worst_seasons,
+            hide_index=True,
+            use_container_width=True,
+            column_config={
+                "Year":
+                    st.column_config.NumberColumn(
+                        "Year",
+                        format="%d",
+                    ),
+                "Starter Points":
+                    st.column_config.NumberColumn(
+                        "Starter Points",
+                        format="%.1f",
+                    ),
+                "Season Edge":
+                    st.column_config.NumberColumn(
+                        "Season Edge",
+                        format="%+.1f",
+                    ),
+                "Edge / Week":
+                    st.column_config.NumberColumn(
+                        "Edge / Week",
+                        format="%+.2f",
+                    ),
+                "Position Rank":
+                    st.column_config.NumberColumn(
+                        "Position Rank",
+                        format="%.0f",
+                    ),
+                "Key Contributors":
+                    st.column_config.TextColumn(
+                        "Key Contributors",
+                        width="large",
+                        help=(
+                            "Top three player Edge Contributions "
+                            "to the positional disadvantage."
+                        ),
+                    ),
+            },
+        )
+
+
+    # ========================================================
+    # SEASON EXPLORER
+    # ========================================================
+
+    st.divider()
+
+    st.subheader("Season Explorer")
+
+    season_years = sorted(
+        positional_season[
+            "year"
+        ]
+        .dropna()
+        .astype(int)
+        .unique()
+        .tolist(),
+        reverse=True,
+    )
+
+    selected_year = st.selectbox(
+        "Choose a season",
+        season_years,
+        key="positional_edge_year",
+    )
+
+    year_table = (
+        positional_season[
+            positional_season[
+                "year"
+            ].eq(
+                selected_year
+            )
+        ][
+            [
+                "fantasy_team",
+                "qb_edge",
+                "rb_edge",
+                "wr_edge",
+                "te_edge",
+                "best_position",
+                "worst_position",
+            ]
+        ]
+        .copy()
+        .sort_values(
+            "fantasy_team"
+        )
+    )
+
+    year_table = year_table.rename(
+        columns={
+            "fantasy_team":
+                "Franchise",
+            "qb_edge":
+                "QB Edge",
+            "rb_edge":
+                "RB Edge",
+            "wr_edge":
+                "WR Edge",
+            "te_edge":
+                "TE Edge",
+            "best_position":
+                "Best",
+            "worst_position":
+                "Worst",
+        }
+    )
+
+    st.dataframe(
+        year_table,
+        hide_index=True,
+        use_container_width=True,
+        column_config={
+            "QB Edge":
+                st.column_config.NumberColumn(
+                    "QB Edge",
+                    format="%+.1f",
+                ),
+            "RB Edge":
+                st.column_config.NumberColumn(
+                    "RB Edge",
+                    format="%+.1f",
+                ),
+            "WR Edge":
+                st.column_config.NumberColumn(
+                    "WR Edge",
+                    format="%+.1f",
+                ),
+            "TE Edge":
+                st.column_config.NumberColumn(
+                    "TE Edge",
+                    format="%+.1f",
+                ),
+        },
+    )
+
+
+    # ========================================================
+    # METHODOLOGY
+    # ========================================================
+
+    st.divider()
+
+    with st.expander(
+        "Methodology & limitations"
+    ):
+
+        st.markdown(
+            """
+            ### Method
+
+            For every regular-season team-week:
+
+            1. Identify the team's actual starters.
+            2. Assign every starter to QB, RB, WR, or TE.
+            3. Attribute W/R/T starters to their underlying
+               fantasy position.
+            4. Sum starter fantasy points at each position.
+            5. Compare that production with the average of the
+               **other 11 teams** at the same position that week.
+
+            `Positional Edge = Team Starter Points − Other-Team Average`
+
+            Weekly edges are summed for season totals.
+
+            Historical franchise comparisons use **Edge / Week**
+            because franchises have participated in different
+            numbers of seasons.
+
+            ### What this measures
+
+            Positional Edge describes the production a franchise
+            actually received from the starters it used at each
+            position.
+
+            It reflects a combination of roster construction,
+            player performance, injuries, acquisitions, and
+            lineup choices.
+
+            ### What this does not measure
+
+            Positional Edge is **not** a causal manager-skill
+            score. A manager can make a reasonable decision and
+            still receive poor production.
+
+            The four positions are also **not combined into an
+            overall manager ranking** because RB and WR naturally
+            account for more starting slots and scoring volume
+            than QB and TE.
+
+            Kicker and defense are excluded from the primary
+            analysis.
+            """
+        )
+
+
+elif analysis_choice == "🧠 Manager Skill":
+
+    # ========================================================
+    # LOAD DATA
+    # ========================================================
+
+    manager_team_season_path = (
+        "data/analysis/management_index_team_season.csv"
+    )
+
+    manager_franchise_path = (
+        "data/analysis/management_index_franchise.csv"
+    )
+
+    manager_extremes_path = (
+        "data/analysis/management_index_extremes.csv"
+    )
+
+    manager_profiles_path = (
+        "data/analysis/management_index_profiles.csv"
+    )
+
+    manager_team_season = pd.read_csv(
+        manager_team_season_path
+    )
+
+    manager_franchise = pd.read_csv(
+        manager_franchise_path
+    )
+
+    manager_extremes = pd.read_csv(
+        manager_extremes_path
+    )
+
+    manager_profiles = pd.read_csv(
+        manager_profiles_path
+    )
+
+
+    # ========================================================
+    # HERO
+    # ========================================================
+
+    st.title("🧠 Manager Skill")
+
+    st.markdown(
+        """
+        ### Management Index
+
+        The **Management Index** measures the parts of fantasy
+        football management we can observe directly:
+
+        **50% Lineup Execution + 25% Draft Value + 25% Waiver Value**
+
+        Each component is converted to a percentile within that
+        season before the three pieces are combined.
+
+        The goal is not to reward managers simply for winning.
+        Wins, scoring, championships, schedule luck, and roster
+        strength are treated as outcomes or context rather than
+        ingredients in the score.
+        """
+    )
+
+    st.info(
+        "2018 does not receive a Management Index because complete "
+        "waiver transaction history is unavailable. Available 2018 "
+        "lineup and draft results remain part of their individual "
+        "analysis pages, but no incomplete Management Index is created."
+    )
+
+
+    # ========================================================
+    # OFFICIAL LEADERBOARD
+    # ========================================================
+
+    st.subheader("🏆 All-Time Management Index")
+
+    official = (
+        manager_franchise[
+            manager_franchise["official"] == True
+        ]
+        .copy()
+        .sort_values(
+            "management_rank"
+        )
+    )
+
+    limited = (
+        manager_franchise[
+            manager_franchise["official"] == False
+        ]
+        .copy()
+        .sort_values(
+            "management_index",
+            ascending=False,
+        )
+    )
+
+    leader = official.iloc[0]
+
+    c1, c2, c3, c4 = st.columns(4)
+
+    c1.metric(
+        "All-Time Leader",
+        leader["team"],
+    )
+
+    c2.metric(
+        "Management Index",
+        f'{leader["management_index"]:.2f}',
+    )
+
+    c3.metric(
+        "Measured Seasons",
+        int(leader["measured_seasons"]),
+    )
+
+    c4.metric(
+        "Championships",
+        int(leader["championships"]),
+    )
+
+    leaderboard = official[
+        [
+            "management_rank",
+            "team",
+            "measured_seasons",
+            "management_index",
+            "lineup_index",
+            "draft_index",
+            "waiver_index",
+            "winning_percentile",
+            "championships",
+        ]
+    ].copy()
+
+    leaderboard.columns = [
+        "Rank",
+        "Franchise",
+        "Measured Seasons",
+        "Management Index",
+        "Lineup",
+        "Draft",
+        "Waivers",
+        "Winning",
+        "Championships",
+    ]
+
+    for col in [
+        "Management Index",
+        "Lineup",
+        "Draft",
+        "Waivers",
+        "Winning",
+    ]:
+        leaderboard[col] = (
+            leaderboard[col]
+            .round(2)
+        )
+
+    leaderboard["Rank"] = (
+        leaderboard["Rank"]
+        .astype(int)
+    )
+
+    st.dataframe(
+        leaderboard,
+        use_container_width=True,
+        hide_index=True,
+    )
+
+    st.caption(
+        "Official all-time ranking requires at least "
+        "5 fully measured seasons."
+    )
+
+
+    # ========================================================
+    # MANAGEMENT PROFILES
+    # ========================================================
+
+    st.subheader("🎯 Management Profiles")
+
+    st.markdown(
+        """
+        A manager can reach a similar overall score in very different
+        ways. This table shows each franchise's strongest and weakest
+        historical management area.
+        """
+    )
+
+    profiles = (
+        manager_profiles[
+            manager_profiles["official"] == True
+        ]
+        .copy()
+        .sort_values(
+            "management_rank"
+        )
+    )
+
+    profile_table = profiles[
+        [
+            "management_rank",
+            "team",
+            "management_index",
+            "lineup_index",
+            "draft_index",
+            "waiver_index",
+            "strongest_area",
+            "weakest_area",
+        ]
+    ].copy()
+
+    profile_table.columns = [
+        "Rank",
+        "Franchise",
+        "Index",
+        "Lineup",
+        "Draft",
+        "Waivers",
+        "Strongest Area",
+        "Weakest Area",
+    ]
+
+    profile_table["Rank"] = (
+        profile_table["Rank"]
+        .astype(int)
+    )
+
+    for col in [
+        "Index",
+        "Lineup",
+        "Draft",
+        "Waivers",
+    ]:
+        profile_table[col] = (
+            profile_table[col]
+            .round(2)
+        )
+
+    st.dataframe(
+        profile_table,
+        use_container_width=True,
+        hide_index=True,
+    )
+
+
+    # ========================================================
+    # LIMITED SAMPLE
+    # ========================================================
+
+    if not limited.empty:
+
+        with st.expander(
+            "Limited-Sample Franchises"
+        ):
+
+            st.markdown(
+                """
+                These franchises do not have the five fully measured
+                seasons required for the official all-time ranking.
+                Their Management Index is shown for context only.
+                """
+            )
+
+            limited_table = limited[
+                [
+                    "team",
+                    "measured_seasons",
+                    "management_index",
+                    "lineup_index",
+                    "draft_index",
+                    "waiver_index",
+                ]
+            ].copy()
+
+            limited_table.columns = [
+                "Franchise",
+                "Measured Seasons",
+                "Management Index",
+                "Lineup",
+                "Draft",
+                "Waivers",
+            ]
+
+            for col in [
+                "Management Index",
+                "Lineup",
+                "Draft",
+                "Waivers",
+            ]:
+                limited_table[col] = (
+                    limited_table[col]
+                    .round(2)
+                )
+
+            st.dataframe(
+                limited_table,
+                use_container_width=True,
+                hide_index=True,
+            )
+
+
+    # ========================================================
+    # BEST / WORST MANAGEMENT SEASONS
+    # ========================================================
+
+    st.subheader("📅 Best & Worst Management Seasons")
+
+    best_tab, worst_tab = st.tabs(
+        [
+            "Best Seasons",
+            "Worst Seasons",
+        ]
+    )
+
+    season_cols = [
+        "year",
+        "team",
+        "management_index",
+        "management_rank",
+        "lineup_index",
+        "draft_index",
+        "waiver_index",
+        "winning_percentile",
+        "scoring_percentile",
+        "is_champion",
+    ]
+
+    with best_tab:
+
+        best = (
+            manager_team_season[
+                manager_team_season[
+                    "fully_measured"
+                ] == True
+            ][season_cols]
+            .sort_values(
+                "management_index",
+                ascending=False,
+            )
+            .head(20)
+            .copy()
+        )
+
+        best.columns = [
+            "Year",
+            "Franchise",
+            "Management Index",
+            "Season Rank",
+            "Lineup",
+            "Draft",
+            "Waivers",
+            "Winning",
+            "Scoring",
+            "Champion",
+        ]
+
+        for col in [
+            "Management Index",
+            "Lineup",
+            "Draft",
+            "Waivers",
+            "Winning",
+            "Scoring",
+        ]:
+            best[col] = (
+                best[col]
+                .round(2)
+            )
+
+        best["Season Rank"] = (
+            best["Season Rank"]
+            .astype(int)
+        )
+
+        st.dataframe(
+            best,
+            use_container_width=True,
+            hide_index=True,
+        )
+
+    with worst_tab:
+
+        worst = (
+            manager_team_season[
+                manager_team_season[
+                    "fully_measured"
+                ] == True
+            ][season_cols]
+            .sort_values(
+                "management_index",
+                ascending=True,
+            )
+            .head(20)
+            .copy()
+        )
+
+        worst.columns = [
+            "Year",
+            "Franchise",
+            "Management Index",
+            "Season Rank",
+            "Lineup",
+            "Draft",
+            "Waivers",
+            "Winning",
+            "Scoring",
+            "Champion",
+        ]
+
+        for col in [
+            "Management Index",
+            "Lineup",
+            "Draft",
+            "Waivers",
+            "Winning",
+            "Scoring",
+        ]:
+            worst[col] = (
+                worst[col]
+                .round(2)
+            )
+
+        worst["Season Rank"] = (
+            worst["Season Rank"]
+            .astype(int)
+        )
+
+        st.dataframe(
+            worst,
+            use_container_width=True,
+            hide_index=True,
+        )
+
+
+    # ========================================================
+    # FRANCHISE EXPLORER
+    # ========================================================
+
+    st.subheader("🔎 Franchise Management Explorer")
+
+    manager_options = sorted(
+        manager_team_season[
+            "team"
+        ].dropna().unique()
+    )
+
+    selected_manager = st.selectbox(
+        "Choose a franchise",
+        manager_options,
+        key="manager_skill_franchise",
+    )
+
+    manager_history = (
+        manager_team_season[
+            manager_team_season["team"]
+            == selected_manager
+        ]
+        .copy()
+        .sort_values("year")
+    )
+
+    measured_history = manager_history[
+        manager_history["fully_measured"] == True
+    ]
+
+    if not measured_history.empty:
+
+        avg_index = (
+            measured_history[
+                "management_index"
+            ].mean()
+        )
+
+        best_row = (
+            measured_history
+            .sort_values(
+                "management_index",
+                ascending=False,
+            )
+            .iloc[0]
+        )
+
+        worst_row = (
+            measured_history
+            .sort_values(
+                "management_index",
+                ascending=True,
+            )
+            .iloc[0]
+        )
+
+        h1, h2, h3, h4 = st.columns(4)
+
+        h1.metric(
+            "Career Index",
+            f"{avg_index:.2f}",
+        )
+
+        h2.metric(
+            "Measured Seasons",
+            len(measured_history),
+        )
+
+        h3.metric(
+            "Best Season",
+            f'{int(best_row["year"])} — '
+            f'{best_row["management_index"]:.2f}',
+        )
+
+        h4.metric(
+            "Worst Season",
+            f'{int(worst_row["year"])} — '
+            f'{worst_row["management_index"]:.2f}',
+        )
+
+
+    history_table = manager_history[
+        [
+            "year",
+            "management_index",
+            "management_rank",
+            "lineup_index",
+            "draft_index",
+            "waiver_index",
+            "winning_percentile",
+            "scoring_percentile",
+            "is_champion",
+        ]
+    ].copy()
+
+    history_table.columns = [
+        "Year",
+        "Management Index",
+        "Season Rank",
+        "Lineup",
+        "Draft",
+        "Waivers",
+        "Winning",
+        "Scoring",
+        "Champion",
+    ]
+
+    for col in [
+        "Management Index",
+        "Season Rank",
+        "Lineup",
+        "Draft",
+        "Waivers",
+        "Winning",
+        "Scoring",
+    ]:
+        history_table[col] = (
+            pd.to_numeric(
+                history_table[col],
+                errors="coerce",
+            )
+            .round(2)
+        )
+
+    st.dataframe(
+        history_table,
+        use_container_width=True,
+        hide_index=True,
+    )
+
+    st.caption(
+        "2018 Management Index is intentionally blank because "
+        "complete waiver data is unavailable."
+    )
+
+
+    # ========================================================
+    # MANAGEMENT VS RESULTS
+    # ========================================================
+
+    st.subheader("⚖️ Management vs Results")
+
+    st.markdown(
+        """
+        Strong management helps, but it does not guarantee wins.
+
+        A team's record also depends on roster quality, weekly scoring
+        variance, injuries, and which opponents happen to appear on
+        the schedule.
+        """
+    )
+
+    measured_results = (
+        manager_team_season[
+            manager_team_season[
+                "fully_measured"
+            ] == True
+        ]
+        .copy()
+    )
+
+    corr_wins = (
+        measured_results[
+            [
+                "management_index",
+                "winning_percentile",
+            ]
+        ]
+        .corr()
+        .iloc[0, 1]
+    )
+
+    corr_scoring = (
+        measured_results[
+            [
+                "management_index",
+                "scoring_percentile",
+            ]
+        ]
+        .corr()
+        .iloc[0, 1]
+    )
+
+    r1, r2, r3 = st.columns(3)
+
+    r1.metric(
+        "Measured Team-Seasons",
+        len(measured_results),
+    )
+
+    r2.metric(
+        "Correlation with Winning",
+        f"{corr_wins:.3f}",
+    )
+
+    r3.metric(
+        "Correlation with Scoring",
+        f"{corr_scoring:.3f}",
+    )
+
+    st.markdown(
+        """
+        The Index is intentionally **not** a disguised standings table.
+        A moderate relationship with wins and scoring is desirable:
+        management decisions matter, but they are only one part of
+        fantasy football outcomes.
+        """
+    )
+
+
+    # ========================================================
+    # INTERESTING CONTRASTS
+    # ========================================================
+
+    st.subheader("🧪 When Management and Results Disagree")
+
+    contrast = (
+        measured_results[
+            [
+                "year",
+                "team",
+                "management_index",
+                "winning_percentile",
+                "scoring_percentile",
+                "is_champion",
+            ]
+        ]
+        .copy()
+    )
+
+    contrast["management_minus_winning"] = (
+        contrast["management_index"]
+        -
+        contrast["winning_percentile"]
+    )
+
+    unlucky_management = (
+        contrast.sort_values(
+            "management_minus_winning",
+            ascending=False,
+        )
+        .head(10)
+        .copy()
+    )
+
+    results_over_management = (
+        contrast.sort_values(
+            "management_minus_winning",
+            ascending=True,
+        )
+        .head(10)
+        .copy()
+    )
+
+    ctab1, ctab2 = st.tabs(
+        [
+            "Strong Management, Weak Results",
+            "Results Above Management",
+        ]
+    )
+
+    with ctab1:
+
+        table = unlucky_management[
+            [
+                "year",
+                "team",
+                "management_index",
+                "winning_percentile",
+                "scoring_percentile",
+                "management_minus_winning",
+            ]
+        ].copy()
+
+        table.columns = [
+            "Year",
+            "Franchise",
+            "Management Index",
+            "Winning",
+            "Scoring",
+            "Mgmt − Winning",
+        ]
+
+        for col in [
+            "Management Index",
+            "Winning",
+            "Scoring",
+            "Mgmt − Winning",
+        ]:
+            table[col] = table[col].round(2)
+
+        st.dataframe(
+            table,
+            use_container_width=True,
+            hide_index=True,
+        )
+
+    with ctab2:
+
+        table = results_over_management[
+            [
+                "year",
+                "team",
+                "management_index",
+                "winning_percentile",
+                "scoring_percentile",
+                "management_minus_winning",
+            ]
+        ].copy()
+
+        table.columns = [
+            "Year",
+            "Franchise",
+            "Management Index",
+            "Winning",
+            "Scoring",
+            "Mgmt − Winning",
+        ]
+
+        for col in [
+            "Management Index",
+            "Winning",
+            "Scoring",
+            "Mgmt − Winning",
+        ]:
+            table[col] = table[col].round(2)
+
+        st.dataframe(
+            table,
+            use_container_width=True,
+            hide_index=True,
+        )
+
+
+    # ========================================================
+    # METHODOLOGY
+    # ========================================================
+
+    with st.expander("Methodology"):
+
+        st.markdown(
+            """
+            **Management Index formula**
+
+            - **50% Lineup Execution**
+              - Season lineup efficiency relative to the other
+                managers that year.
+              - Measures how much of the available roster scoring
+                potential actually made it into the starting lineup.
+
+            - **25% Draft Value**
+              - Draft outcome relative to the expected positional
+                result for the pick.
+              - Each team's season is converted to a percentile
+                within that fantasy season.
+
+            - **25% Waiver Value**
+              - Production and positional value generated by
+                meaningful waiver/free-agent acquisitions.
+              - Each team's season is converted to a percentile
+                within that fantasy season.
+
+            **Why percentiles?**
+
+            Scoring environments, NFL seasons, and league conditions
+            change over time. Comparing each manager to the other
+            managers in the same season makes the components
+            comparable across league history.
+
+            **2018**
+
+            Complete historical waiver transaction data is not
+            available for 2018. Rather than redistribute the missing
+            25% weight or treat missing waiver performance as zero,
+            the Management Index is left blank for that season.
+
+            **Official all-time ranking**
+
+            A franchise needs at least **5 fully measured seasons**
+            to qualify for the official leaderboard.
+
+            **What is intentionally excluded**
+
+            Wins, championships, points scored, roster strength,
+            Schedule Swap results, Bad Beat results, and other luck
+            measures are not part of the Management Index.
+
+            Those are outcomes and context. Keeping them separate
+            allows the analysis to identify seasons where strong
+            management produced poor results — or where weak
+            management still produced a strong record.
+
+            **Bench Decisions**
+
+            The separate Bench Decisions analysis is not used in the
+            Management Index.
             """
         )
 
