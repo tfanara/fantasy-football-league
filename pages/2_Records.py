@@ -83,6 +83,8 @@ def team_col(df):
 
 FRANCHISE_ALIASES = {
     "PickUpYourBratsMalle": "ThreatLevelMidnight",
+    "Little Red Fournette": "Post Mahomes",
+    "Ur The Best Bellows": "Joe Mantegna",
     "You Better Park It": "Buttermilk Puuump",
     "Buttermilk Pump": "Buttermilk Puuump",
 }
@@ -165,10 +167,10 @@ st.markdown('''
 </div>
 ''', unsafe_allow_html=True)
 
-st.caption('Regular-season team and matchup records come from clean historical game data. Roster records use validated weekly player data where available.')
+st.caption('Regular-season records come from clean historical game data. Roster records use validated weekly player data where available.')
 
-(tab_league, tab_season, tab_matchup, tab_roster, tab_streaks, tab_milestones) = st.tabs([
-    '🏛️ League','📅 Season','⚔️ Matchup','🧍 Roster','🔥 Streaks','🎯 Milestones'
+(tab_league, tab_season, tab_roster, tab_streaks, tab_milestones) = st.tabs([
+    '🏛️ League','📅 Season','🧍 Roster','🔥 Streaks','🎯 Milestones'
 ])
 
 # ============================================================
@@ -3844,259 +3846,1797 @@ with tab_season:
 
 
 # ============================================================
-# MATCHUP
-# ============================================================
-with tab_matchup:
-    st.header('⚔️ Matchup Records')
-    st.caption('Records created in a single regular-season matchup.')
-
-    if team_games.empty:
-        st.info('Team game history is not available. Run build_league_history.py.')
-    else:
-        games = team_games.copy()
-        games['combined_score'] = games['points_for'] + games['points_against']
-        if 'margin' not in games.columns:
-            games['margin'] = games['points_for'] - games['points_against']
-
-        if 'matchup_id' in games.columns:
-            unique_games = games.drop_duplicates(subset=['matchup_id']).copy()
-        else:
-            games['_pair'] = games.apply(lambda r: tuple(sorted([str(r['team']),str(r['opponent'])])), axis=1)
-            unique_games = games.drop_duplicates(subset=['year','week','_pair']).copy()
-
-        highest = games.sort_values('points_for',ascending=False).iloc[0]
-        lowest = games.sort_values('points_for',ascending=True).iloc[0]
-        biggest = games.sort_values('margin',ascending=False).iloc[0]
-        closest = unique_games.loc[unique_games['margin'].abs().idxmin()]
-
-        c1,c2,c3,c4 = st.columns(4)
-        c1.metric('Highest Team Score',highest['team'],f"{highest['points_for']:.2f} · {int(highest['year'])} W{int(highest['week'])}")
-        c2.metric('Lowest Team Score',lowest['team'],f"{lowest['points_for']:.2f} · {int(lowest['year'])} W{int(lowest['week'])}")
-        c3.metric('Biggest Blowout',biggest['team'],f"+{biggest['margin']:.2f} vs {biggest['opponent']}")
-        c4.metric('Closest Game',f"{closest['team']} vs {closest['opponent']}",f"{abs(closest['margin']):.2f} pts")
-
-        st.subheader('Highest Individual Team Scores')
-        top_table(games,'points_for',False,['year','week','team','opponent','points_for','points_against','result'],{
-            'year':'Season','week':'Week','team':'Franchise','opponent':'Opponent','points_for':'Score','points_against':'Opp Score','result':'Result'
-        },20)
-
-        m1,m2 = st.columns(2)
-        with m1:
-            st.subheader('Highest Combined Scores')
-            top_table(unique_games,'combined_score',False,['year','week','team','opponent','points_for','points_against','combined_score'],{
-                'year':'Season','week':'Week','team':'Team 1','opponent':'Team 2','points_for':'Score 1','points_against':'Score 2','combined_score':'Combined'
-            },10)
-        with m2:
-            st.subheader('Lowest Combined Scores')
-            top_table(unique_games,'combined_score',True,['year','week','team','opponent','points_for','points_against','combined_score'],{
-                'year':'Season','week':'Week','team':'Team 1','opponent':'Team 2','points_for':'Score 1','points_against':'Score 2','combined_score':'Combined'
-            },10)
-
-        if 'result' in games.columns:
-            u1,u2 = st.columns(2)
-            with u1:
-                st.subheader('Highest Score in a Loss')
-                losses = games[games['result']=='L']
-                top_table(losses,'points_for',False,['year','week','team','opponent','points_for','points_against'],{
-                    'year':'Season','week':'Week','team':'Franchise','opponent':'Opponent','points_for':'Score','points_against':'Opp Score'
-                },10)
-            with u2:
-                st.subheader('Lowest Score in a Win')
-                wins = games[games['result']=='W']
-                top_table(wins,'points_for',True,['year','week','team','opponent','points_for','points_against'],{
-                    'year':'Season','week':'Week','team':'Franchise','opponent':'Opponent','points_for':'Score','points_against':'Opp Score'
-                },10)
-
-# ============================================================
 # ROSTER
 # ============================================================
 with tab_roster:
-    st.header('🧍 Roster & Player Records')
-    st.caption('Player records currently use validated 2018–2025 weekly lineup data.')
+    st.header("🧍 Roster & Player Records")
 
     if weekly_lineups.empty:
-        st.info('Weekly player history is not available.')
+        st.info("Weekly player history is not available.")
     else:
-        roster = weekly_lineups[weekly_lineups['player'].astype(str).str.strip().ne('(Empty)')].copy()
-        if 'is_starter' in roster.columns:
-            starter_mask = roster['is_starter'].astype(str).str.strip().str.lower().isin(['true','1','yes'])
+        roster = weekly_lineups[
+            weekly_lineups["player"].astype(str).str.strip().ne("(Empty)")
+        ].copy()
+        numeric(roster, ["year", "week", "fantasy_points"])
+        roster = roster.dropna(subset=["player", "year", "week"]).copy()
+        roster["year"] = roster["year"].astype(int)
+        roster["week"] = roster["week"].astype(int)
+
+        if "is_starter" in roster.columns:
+            starter_mask = (
+                roster["is_starter"].astype(str).str.strip().str.lower()
+                .isin(["true", "1", "yes"])
+            )
         else:
-            starter_mask = ~roster['lineup_slot'].astype(str).str.upper().isin(['BN','IR','IR+'])
+            starter_mask = ~roster["lineup_slot"].astype(str).str.upper().isin(
+                ["BN", "IR", "IR+"]
+            )
+
         starters = roster[starter_mask].copy()
         bench = roster[~starter_mask].copy()
-        starters['fantasy_points'] = pd.to_numeric(starters['fantasy_points'],errors='coerce')
-        bench['fantasy_points'] = pd.to_numeric(bench['fantasy_points'],errors='coerce')
-
-        career = starters.groupby('player',as_index=False).agg(
-            counted_points=('fantasy_points','sum'),starts=('player','size'),seasons=('year','nunique'),best_game=('fantasy_points','max')
+        starters["fantasy_points"] = pd.to_numeric(
+            starters["fantasy_points"], errors="coerce"
         )
-        career['points_per_start'] = career['counted_points']/career['starts']
-        career = career.sort_values('counted_points',ascending=False)
+        bench["fantasy_points"] = pd.to_numeric(
+            bench["fantasy_points"], errors="coerce"
+        )
 
-        best_game = starters.sort_values('fantasy_points',ascending=False).iloc[0]
-        leader = career.iloc[0]
-        starts_leader = career.sort_values('starts',ascending=False).iloc[0]
+        min_year = int(roster["year"].min()) if not roster.empty else None
+        max_year = int(roster["year"].max()) if not roster.empty else None
+        if min_year is not None and max_year is not None:
+            st.caption(
+                f"Choose a player-history record. Weekly lineup records use validated "
+                f"{min_year}–{max_year} player data; career totals count starting-lineup production."
+            )
 
-        c1,c2,c3,c4 = st.columns(4)
-        c1.metric('Highest Player Week',best_game['player'],f"{best_game['fantasy_points']:.2f} pts · {int(best_game['year'])} W{int(best_game['week'])}")
-        c2.metric('Most Counted Career Points',leader['player'],f"{leader['counted_points']:,.2f}")
-        c3.metric('Most Career Starts',starts_leader['player'],f"{int(starts_leader['starts'])} starts")
-        if not bench.empty and bench['fantasy_points'].notna().any():
-            bench_bomb = bench.sort_values('fantasy_points',ascending=False).iloc[0]
-            c4.metric('Highest Bench Score',bench_bomb['player'],f"{bench_bomb['fantasy_points']:.2f} pts · {int(bench_bomb['year'])} W{int(bench_bomb['week'])}")
+        # ------------------------------------------------------------
+        # CAREER DATA
+        # ------------------------------------------------------------
+        career_week = (
+            starters.dropna(subset=["fantasy_points"])
+            .groupby(["player", "year", "week"], as_index=False)
+            .agg(
+                week_points=("fantasy_points", "sum"),
+                starts=("player", "size"),
+            )
+            .sort_values(["player", "year", "week"])
+        )
+        if not career_week.empty:
+            career_week["career_points"] = career_week.groupby("player")[
+                "week_points"
+            ].cumsum()
+            career_week["career_starts"] = career_week.groupby("player")[
+                "starts"
+            ].cumsum()
 
-        st.subheader('Career Starting-Lineup Scoring Leaders')
-        top_table(career,'counted_points',False,['player','counted_points','starts','seasons','points_per_start','best_game'],{
-            'player':'Player','counted_points':'Career Points','starts':'Starts','seasons':'Seasons','points_per_start':'Pts / Start','best_game':'Best Game'
-        },25)
+        career = (
+            starters.dropna(subset=["fantasy_points"])
+            .groupby("player", as_index=False)
+            .agg(
+                counted_points=("fantasy_points", "sum"),
+                starts=("player", "size"),
+                seasons=("year", "nunique"),
+                best_game=("fantasy_points", "max"),
+            )
+        )
+        if not career.empty:
+            career["points_per_start"] = (
+                career["counted_points"] / career["starts"]
+            )
 
-        st.subheader('Highest Single-Week Player Scores')
-        top_table(starters,'fantasy_points',False,['year','week','player','fantasy_team','lineup_slot','fantasy_points'],{
-            'year':'Season','week':'Week','player':'Player','fantasy_team':'Franchise','lineup_slot':'Slot','fantasy_points':'Points'
-        },25)
+        # ------------------------------------------------------------
+        # RECORD MENU
+        # ------------------------------------------------------------
+        roster_configs = {
+            "🔥 Highest Starter Score": {
+                "short": "🔥 Starter Week",
+                "group": "Single Week",
+                "kind": "starter_week",
+                "label": "POINTS",
+                "format": lambda x: f"{x:.2f}",
+                "description": "Highest fantasy score by a player used in a starting lineup in one week.",
+            },
+            "🪑 Highest Bench Score": {
+                "short": "🪑 Bench Week",
+                "group": "Single Week",
+                "kind": "bench_week",
+                "label": "BENCH POINTS",
+                "format": lambda x: f"{x:.2f}",
+                "description": "Highest fantasy score left on a fantasy bench in one week.",
+            },
+            "📚 Most Career Starter Points": {
+                "short": "📚 Career Points",
+                "group": "Career",
+                "kind": "career_points",
+                "label": "CAREER STARTER POINTS",
+                "format": lambda x: f"{x:,.2f}",
+                "description": "Most fantasy points accumulated while appearing in a starting lineup.",
+            },
+            "🎬 Most Career Starts": {
+                "short": "🎬 Starts",
+                "group": "Career",
+                "kind": "career_starts",
+                "label": "CAREER STARTS",
+                "format": lambda x: f"{int(round(x)):,}",
+                "description": "Most starting-lineup appearances by a player in league history.",
+            },
+            "💍 Most Championship Rosters": {
+                "short": "💍 Titles",
+                "group": "Championships",
+                "kind": "championships",
+                "label": "CHAMPIONSHIP ROSTERS",
+                "format": lambda x: f"{int(round(x))}",
+                "description": "Most league championship rosters featuring the same player. Final regular-season rosters are used as the historical roster proxy.",
+            },
+        }
 
-        if not player_pedigree.empty and 'championships' in player_pedigree.columns:
-            st.subheader('Most Championship Rosters')
-            top_table(player_pedigree,'championships',False,['player','championships','championship_seasons','champion_franchises'],{
-                'player':'Player','championships':'Championships','championship_seasons':'Title Seasons','champion_franchises':'Champion Franchises'
-            },25)
-            st.caption("Championship-roster counts use the champion's final regular-season roster as the historical roster proxy.")
+        roster_groups = [
+            ("Single Week", ["🔥 Highest Starter Score", "🪑 Highest Bench Score"]),
+            ("Career", ["📚 Most Career Starter Points", "🎬 Most Career Starts"]),
+            ("Championships", ["💍 Most Championship Rosters"]),
+        ]
+
+        if "roster_record_choice" not in st.session_state:
+            st.session_state["roster_record_choice"] = "🔥 Highest Starter Score"
+
+        for group_name, choices in roster_groups:
+            st.markdown(f"**{group_name}**")
+            cols = st.columns(len(choices))
+            for col, choice in zip(cols, choices):
+                with col:
+                    button_type = (
+                        "primary"
+                        if st.session_state["roster_record_choice"] == choice
+                        else "secondary"
+                    )
+                    if st.button(
+                        roster_configs[choice]["short"],
+                        key=f"roster_record_{choice}",
+                        use_container_width=True,
+                        type=button_type,
+                    ):
+                        st.session_state["roster_record_choice"] = choice
+                        st.rerun()
+
+        choice = st.session_state["roster_record_choice"]
+        config = roster_configs[choice]
+        kind = config["kind"]
+
+        st.divider()
+        st.subheader(choice)
+
+        # ------------------------------------------------------------
+        # BUILD STANDINGS + PROGRESSION
+        # ------------------------------------------------------------
+        standings = pd.DataFrame()
+        progression_rows = []
+
+        if kind in {"starter_week", "bench_week"}:
+            source = starters if kind == "starter_week" else bench
+            source = source.dropna(subset=["fantasy_points"]).copy()
+            source = source.sort_values(
+                ["fantasy_points", "year", "week", "player"],
+                ascending=[False, True, True, True],
+            )
+            if not source.empty:
+                standings = source[[
+                    "year", "week", "player", "fantasy_team",
+                    "lineup_slot", "fantasy_points"
+                ]].copy()
+                standings = standings.rename(columns={"fantasy_points": "value"})
+
+                standing_record = None
+                for _, row in source.sort_values(
+                    ["year", "week", "player"]
+                ).iterrows():
+                    value = float(row["fantasy_points"])
+                    if standing_record is None or value > standing_record + 1e-9:
+                        standing_record = value
+                        event_type = "New Record"
+                    elif np.isclose(value, standing_record):
+                        event_type = "Tied Record"
+                    else:
+                        continue
+                    progression_rows.append({
+                        "year": int(row["year"]),
+                        "week": int(row["week"]),
+                        "player": row["player"],
+                        "value": value,
+                        "type": event_type,
+                    })
+
+        elif kind in {"career_points", "career_starts"}:
+            value_col = "counted_points" if kind == "career_points" else "starts"
+            history_col = "career_points" if kind == "career_points" else "career_starts"
+            if not career.empty:
+                standings = career[[
+                    "player", "counted_points", "starts", "seasons", "best_game"
+                ]].copy()
+                standings["value"] = standings[value_col]
+                standings = standings.sort_values(
+                    ["value", "player"], ascending=[False, True]
+                )
+
+            if not career_week.empty:
+                standing_record = None
+                for _, row in career_week.sort_values(
+                    ["year", "week", "player"]
+                ).iterrows():
+                    value = float(row[history_col])
+                    if standing_record is None or value > standing_record + 1e-9:
+                        standing_record = value
+                        event_type = "New Record"
+                    elif np.isclose(value, standing_record):
+                        event_type = "Tied Record"
+                    else:
+                        continue
+                    progression_rows.append({
+                        "year": int(row["year"]),
+                        "week": int(row["week"]),
+                        "player": row["player"],
+                        "value": value,
+                        "type": event_type,
+                    })
+
+        elif kind == "championships":
+            if not player_pedigree.empty and "championships" in player_pedigree.columns:
+                ped = player_pedigree.copy()
+                ped["championships"] = pd.to_numeric(
+                    ped["championships"], errors="coerce"
+                )
+                ped = ped.dropna(subset=["player", "championships"])
+                standings = ped[[
+                    c for c in [
+                        "player", "championships", "championship_seasons",
+                        "champion_franchises"
+                    ] if c in ped.columns
+                ]].copy()
+                standings["value"] = standings["championships"]
+                standings = standings.sort_values(
+                    ["value", "player"], ascending=[False, True]
+                )
+
+                # Reconstruct title-count progression from the stored title seasons.
+                title_events = []
+                if "championship_seasons" in ped.columns:
+                    for _, row in ped.iterrows():
+                        seasons = pd.Series(
+                            str(row.get("championship_seasons", ""))
+                            .replace("[", " ").replace("]", " ")
+                            .replace("'", " ").replace('"', " ")
+                            .replace(";", ",").split(",")
+                        ).astype(str).str.extract(r"(20\d{2})", expand=False).dropna()
+                        for year_text in seasons:
+                            title_events.append({
+                                "year": int(year_text),
+                                "player": row["player"],
+                            })
+
+                if title_events:
+                    title_events = pd.DataFrame(title_events).sort_values(
+                        ["year", "player"]
+                    )
+                    counts = {}
+                    standing_record = 0
+                    for _, row in title_events.iterrows():
+                        player = row["player"]
+                        counts[player] = counts.get(player, 0) + 1
+                        value = counts[player]
+                        if value > standing_record:
+                            standing_record = value
+                            event_type = "New Record"
+                        elif value == standing_record:
+                            event_type = "Tied Record"
+                        else:
+                            continue
+                        progression_rows.append({
+                            "year": int(row["year"]),
+                            "week": np.nan,
+                            "player": player,
+                            "value": float(value),
+                            "type": event_type,
+                        })
+
+        progression = pd.DataFrame(progression_rows)
+
+        if standings.empty:
+            st.info("No player records are available for this metric.")
+        else:
+            best_value = float(standings.iloc[0]["value"])
+            holders = standings[np.isclose(standings["value"], best_value)].copy()
+            holder_text = " & ".join(holders["player"].astype(str).tolist())
+
+            if not progression.empty:
+                record_hits = progression[np.isclose(progression["value"], best_value)]
+                first_set_year = int(record_hits["year"].min()) if not record_hits.empty else None
+                latest_year = int(roster["year"].max())
+                years_held = max(latest_year - first_set_year, 0) if first_set_year else 0
+            else:
+                first_set_year = None
+                years_held = 0
+
+            c1, c2, c3 = st.columns(3)
+            c1.metric(
+                "🏆 Current Record",
+                config["format"](best_value),
+                holder_text,
+            )
+            c2.metric(
+                "📅 First Set",
+                str(first_set_year) if first_set_year else "—",
+                (
+                    f"{years_held} season{'s' if years_held != 1 else ''} ago"
+                    if first_set_year and years_held > 0
+                    else "Current record"
+                ),
+            )
+            c3.metric(
+                "🤝 Record Holders",
+                str(len(holders)),
+                "Including ties" if len(holders) > 1 else "Sole holder",
+            )
+
+            st.markdown(
+                (
+                    "<div style='text-align:center;padding:1rem 0 1.2rem 0;'>"
+                    "<div style='font-size:4.5rem;font-weight:900;line-height:.95;'>"
+                    f"{config['format'](best_value)}"
+                    "</div>"
+                    "<div style='font-size:1.4rem;font-weight:800;opacity:.62;"
+                    "letter-spacing:.08em;margin-top:.35rem;'>"
+                    f"{config['label']}"
+                    "</div>"
+                    "<div style='font-size:1.1rem;font-weight:750;margin-top:.75rem;'>"
+                    f"🏆 {holder_text}"
+                    "</div></div>"
+                ),
+                unsafe_allow_html=True,
+            )
+            st.caption(config["description"])
+
+            left, right = st.columns([1.08, .92], gap="medium")
+
+            with left:
+                st.subheader("Current Record Standings")
+                board = standings.copy().head(12)
+                board.insert(0, "Rank", range(1, len(board) + 1))
+                board["Player"] = board["player"].apply(
+                    lambda p: f"🏆 {p}" if str(p) in set(holders["player"].astype(str)) else str(p)
+                )
+
+                if kind in {"starter_week", "bench_week"}:
+                    board["Season"] = board["year"].astype(int)
+                    board["Week"] = board["week"].astype(int)
+                    board["Franchise"] = board["fantasy_team"].astype(str)
+                    board["Score"] = board["value"].apply(lambda x: f"{float(x):.2f}")
+                    display_cols = ["Rank", "Season", "Week", "Player", "Franchise", "Score"]
+                elif kind == "career_points":
+                    board["Career Points"] = board["value"].apply(lambda x: f"{float(x):,.2f}")
+                    board["Starts"] = board["starts"].astype(int)
+                    board["Seasons"] = board["seasons"].astype(int)
+                    board["Pts / Start"] = board["points_per_start"].apply(lambda x: f"{float(x):.2f}") if "points_per_start" in board.columns else "—"
+                    display_cols = ["Rank", "Player", "Career Points", "Starts", "Seasons"]
+                elif kind == "career_starts":
+                    board["Starts"] = board["value"].astype(int)
+                    board["Career Points"] = board["counted_points"].apply(lambda x: f"{float(x):,.2f}")
+                    board["Seasons"] = board["seasons"].astype(int)
+                    display_cols = ["Rank", "Player", "Starts", "Career Points", "Seasons"]
+                else:
+                    board["Championships"] = board["value"].astype(int)
+                    if "championship_seasons" in board.columns:
+                        board["Title Seasons"] = board["championship_seasons"].astype(str)
+                    if "champion_franchises" in board.columns:
+                        board["Champion Franchises"] = board["champion_franchises"].astype(str)
+                    display_cols = [
+                        c for c in ["Rank", "Player", "Championships", "Title Seasons", "Champion Franchises"]
+                        if c in board.columns
+                    ]
+
+                st.dataframe(
+                    board[display_cols],
+                    hide_index=True,
+                    use_container_width=True,
+                    height=min(350, 34 + 29 * len(board)),
+                    row_height=29,
+                    column_config={
+                        "Rank": st.column_config.NumberColumn("Rank", format="#%d", width="small"),
+                        "Season": st.column_config.NumberColumn("Yr", format="%d", width="small"),
+                        "Week": st.column_config.NumberColumn("Wk", format="%d", width="small"),
+                        "Player": st.column_config.TextColumn("Player", width="medium"),
+                        "Franchise": st.column_config.TextColumn("Franchise", width="medium"),
+                        "Score": st.column_config.TextColumn("Pts", width="small"),
+                        "Career Points": st.column_config.TextColumn("Points", width="small"),
+                        "Starts": st.column_config.NumberColumn("Starts", format="%d", width="small"),
+                        "Seasons": st.column_config.NumberColumn("Yrs", format="%d", width="small"),
+                        "Championships": st.column_config.NumberColumn("Titles", format="%d", width="small"),
+                        "Title Seasons": st.column_config.TextColumn("Seasons", width="medium"),
+                        "Champion Franchises": st.column_config.TextColumn("Franchises", width="medium"),
+                    },
+                )
+
+            with right:
+                st.subheader("Record Progression")
+                st.caption("Every time the league's player benchmark was set or tied.")
+
+                if progression.empty:
+                    st.caption("Historical progression is not available for this record.")
+                else:
+                    prog = progression.iloc[::-1].reset_index(drop=True)
+                    for i, row in prog.iterrows():
+                        p1, p2, p3 = st.columns([.10, .68, .22], vertical_alignment="top")
+                        p1.markdown("### 🏆" if i == 0 else "### 🔵")
+                        p2.markdown(f"**{row['player']}**")
+                        period = f"{int(row['year'])}"
+                        if pd.notna(row.get("week")):
+                            period += f" · W{int(row['week'])}"
+                        p2.caption(f"{period}\n\n{row['type']}")
+                        p3.markdown(
+                            (
+                                "<div style='text-align:right;font-size:1.1rem;"
+                                "font-weight:800;padding-top:.15rem;'>"
+                                f"{config['format'](float(row['value']))}"
+                                "</div>"
+                            ),
+                            unsafe_allow_html=True,
+                        )
+                        if i < len(prog) - 1:
+                            st.divider()
+
+        if kind == "championships":
+            st.caption(
+                "Championship-roster counts use the champion's final regular-season roster "
+                "as the historical roster proxy."
+            )
 
 # ============================================================
 # STREAKS
 # ============================================================
 with tab_streaks:
-    st.header('🔥 Streak Records')
-    st.caption('Consecutive regular-season game streaks calculated chronologically.')
+    st.header("🔥 Streak Records")
+    st.caption(
+        "Game streaks use regular-season matchups only. Season qualification streaks "
+        "and postseason game streaks are measured separately so playoff games are never "
+        "mixed into regular-season runs."
+    )
 
-    if team_games.empty:
-        st.info('Team game history is not available.')
-    else:
-        games = team_games.sort_values(['team','year','week']).copy()
+    games = normalize_franchise_columns(team_games.copy())
+    numeric(games, ["year", "week", "points_for"])
+    if not games.empty:
+        games = (
+            games.dropna(subset=["team", "year", "week"])
+            .sort_values(["team", "year", "week"])
+            .copy()
+        )
+        games["year"] = games["year"].astype(int)
+        games["week"] = games["week"].astype(int)
 
-        def streak_runs(df, condition_func):
-            records = []
-            for team, group in df.groupby('team'):
-                group = group.sort_values(['year','week'])
-                current, best = [], []
-                for _, row in group.iterrows():
-                    if condition_func(row):
-                        current.append(row)
-                    else:
-                        if len(current) > len(best): best = current[:]
-                        current = []
-                if len(current) > len(best): best = current[:]
-                if best:
-                    records.append({
-                        'team':team,'games':len(best),
-                        'start_year':int(best[0]['year']),'start_week':int(best[0]['week']),
-                        'end_year':int(best[-1]['year']),'end_week':int(best[-1]['week'])
+        # Weekly context for era-resistant streaks.
+        games["weekly_rank"] = (
+            games.groupby(["year", "week"])["points_for"]
+            .rank(method="min", ascending=False)
+        )
+        games["weekly_median"] = (
+            games.groupby(["year", "week"])["points_for"]
+            .transform("median")
+        )
+
+    def build_game_streak_history(df, condition_func):
+        """Every maximal game streak plus chronological league-record progression."""
+        run_rows = []
+        progression_rows = []
+        if df.empty:
+            return pd.DataFrame(), pd.DataFrame()
+
+        for team, group in df.groupby("team"):
+            group = group.sort_values(["year", "week"])
+            current = []
+            for _, row in group.iterrows():
+                if condition_func(row):
+                    current.append(row)
+                else:
+                    if current:
+                        run_rows.append({
+                            "team": team,
+                            "length": len(current),
+                            "start_year": int(current[0]["year"]),
+                            "start_week": int(current[0]["week"]),
+                            "end_year": int(current[-1]["year"]),
+                            "end_week": int(current[-1]["week"]),
+                        })
+                    current = []
+            if current:
+                run_rows.append({
+                    "team": team,
+                    "length": len(current),
+                    "start_year": int(current[0]["year"]),
+                    "start_week": int(current[0]["week"]),
+                    "end_year": int(current[-1]["year"]),
+                    "end_week": int(current[-1]["week"]),
+                })
+
+        counters = {}
+        standing_record = 0
+        for _, row in df.sort_values(["year", "week", "team"]).iterrows():
+            team = row["team"]
+            if condition_func(row):
+                counters[team] = counters.get(team, 0) + 1
+                value = int(counters[team])
+                if value > standing_record:
+                    standing_record = value
+                    progression_rows.append({
+                        "year": int(row["year"]), "week": int(row["week"]),
+                        "team": team, "value": value, "type": "New Record",
                     })
-            return pd.DataFrame(records)
+                elif value == standing_record and value > 0:
+                    progression_rows.append({
+                        "year": int(row["year"]), "week": int(row["week"]),
+                        "team": team, "value": value, "type": "Tied Record",
+                    })
+            else:
+                counters[team] = 0
 
-        win_streaks = streak_runs(games,lambda r:r['result']=='W')
-        loss_streaks = streak_runs(games,lambda r:r['result']=='L')
-        hundred_streaks = streak_runs(games,lambda r:r['points_for']>=100)
-        sub100_streaks = streak_runs(games,lambda r:r['points_for']<100)
+        return pd.DataFrame(run_rows), pd.DataFrame(progression_rows)
 
-        c1,c2,c3,c4 = st.columns(4)
-        if not win_streaks.empty:
-            r=win_streaks.sort_values('games',ascending=False).iloc[0]; c1.metric('Longest Win Streak',r['team'],f"{int(r['games'])} games")
-        if not loss_streaks.empty:
-            r=loss_streaks.sort_values('games',ascending=False).iloc[0]; c2.metric('Longest Losing Streak',r['team'],f"{int(r['games'])} games")
-        if not hundred_streaks.empty:
-            r=hundred_streaks.sort_values('games',ascending=False).iloc[0]; c3.metric('Longest 100+ Streak',r['team'],f"{int(r['games'])} games")
-        if not sub100_streaks.empty:
-            r=sub100_streaks.sort_values('games',ascending=False).iloc[0]; c4.metric('Longest Sub-100 Streak',r['team'],f"{int(r['games'])} games")
+    def build_season_streak_history(season_df, condition_col):
+        """Consecutive qualifying active seasons; gaps in participation break a streak."""
+        run_rows = []
+        progression_rows = []
+        if season_df.empty:
+            return pd.DataFrame(), pd.DataFrame()
 
-        def show_streak_table(title, df):
-            st.subheader(title)
-            if df.empty:
-                st.info('No streak data.')
-                return
-            work=df.sort_values('games',ascending=False).head(15).copy()
-            work['Start']=work['start_year'].astype(str)+' W'+work['start_week'].astype(str)
-            work['End']=work['end_year'].astype(str)+' W'+work['end_week'].astype(str)
-            work=work.rename(columns={'team':'Franchise','games':'Games'})
-            st.dataframe(work[['Franchise','Games','Start','End']],hide_index=True,use_container_width=True)
+        for team, group in season_df.groupby("team"):
+            group = group.sort_values("year")
+            current = []
+            previous_year = None
+            for _, row in group.iterrows():
+                year = int(row["year"])
+                qualifies = bool(row[condition_col])
+                consecutive = previous_year is None or year == previous_year + 1
+                if qualifies and consecutive:
+                    current.append(row)
+                elif qualifies:
+                    if current:
+                        run_rows.append({
+                            "team": team, "length": len(current),
+                            "start_year": int(current[0]["year"]),
+                            "end_year": int(current[-1]["year"]),
+                        })
+                    current = [row]
+                else:
+                    if current:
+                        run_rows.append({
+                            "team": team, "length": len(current),
+                            "start_year": int(current[0]["year"]),
+                            "end_year": int(current[-1]["year"]),
+                        })
+                    current = []
+                previous_year = year
+            if current:
+                run_rows.append({
+                    "team": team, "length": len(current),
+                    "start_year": int(current[0]["year"]),
+                    "end_year": int(current[-1]["year"]),
+                })
 
-        s1,s2=st.columns(2)
-        with s1: show_streak_table('Longest Win Streaks',win_streaks)
-        with s2: show_streak_table('Longest Losing Streaks',loss_streaks)
-        s3,s4=st.columns(2)
-        with s3: show_streak_table('Consecutive 100+ Point Games',hundred_streaks)
-        with s4: show_streak_table('Consecutive Games Below 100',sub100_streaks)
+        counters = {}
+        last_year = {}
+        standing_record = 0
+        for _, row in season_df.sort_values(["year", "team"]).iterrows():
+            team = row["team"]
+            year = int(row["year"])
+            if bool(row[condition_col]):
+                counters[team] = (
+                    counters.get(team, 0) + 1
+                    if last_year.get(team) == year - 1
+                    else 1
+                )
+                value = counters[team]
+                if value > standing_record:
+                    standing_record = value
+                    progression_rows.append({
+                        "year": year, "team": team, "value": value,
+                        "type": "New Record",
+                    })
+                elif value == standing_record and value > 0:
+                    progression_rows.append({
+                        "year": year, "team": team, "value": value,
+                        "type": "Tied Record",
+                    })
+            else:
+                counters[team] = 0
+            last_year[team] = year
+
+        return pd.DataFrame(run_rows), pd.DataFrame(progression_rows)
+
+    # Build one row per active franchise-season from authoritative regular-season games.
+    season_streaks = pd.DataFrame()
+    if not games.empty:
+        season_streaks = (
+            games.groupby(["team", "year"], as_index=False)
+            .agg(
+                wins=("result", lambda s: int((s == "W").sum())),
+                losses=("result", lambda s: int((s == "L").sum())),
+                ties=("result", lambda s: int((s == "T").sum())),
+            )
+        )
+        season_streaks["games_played"] = (
+            season_streaks["wins"] + season_streaks["losses"] + season_streaks["ties"]
+        )
+        season_streaks["win_value"] = season_streaks["wins"] + 0.5 * season_streaks["ties"]
+        season_streaks["winning_season"] = (
+            season_streaks["win_value"] > season_streaks["games_played"] / 2
+        )
+        season_streaks["losing_season"] = (
+            season_streaks["win_value"] < season_streaks["games_played"] / 2
+        )
+
+        playoff_keys = set()
+        if not playoff_appearances.empty:
+            po = normalize_franchise_columns(playoff_appearances.copy())
+            numeric(po, ["year"])
+            po_team_col = team_col(po)
+            if po_team_col and "year" in po.columns:
+                playoff_keys = set(
+                    zip(
+                        po[po_team_col].astype(str),
+                        pd.to_numeric(po["year"], errors="coerce"),
+                    )
+                )
+
+        season_streaks["made_playoffs"] = season_streaks.apply(
+            lambda r: (str(r["team"]), float(r["year"])) in playoff_keys,
+            axis=1,
+        )
+        season_streaks["missed_playoffs"] = ~season_streaks["made_playoffs"]
+
+    # Normalize postseason matchup history locally for streaks.  Do not depend on
+    # the League-tab helper because that function is defined only when the user
+    # selects one of the League playoff-game records.
+    def normalize_playoff_streak_games(source):
+        if source is None or source.empty:
+            return pd.DataFrame()
+
+        df = normalize_franchise_columns(source.copy())
+        schema_options = [
+            ("team_1", "team_1_score", "team_2", "team_2_score"),
+            ("left_team", "left_score", "right_team", "right_score"),
+            ("team_a", "score_a", "team_b", "score_b"),
+            ("team1", "team1_score", "team2", "team2_score"),
+            ("winner", "winner_score", "loser", "loser_score"),
+        ]
+
+        chosen = next(
+            (option for option in schema_options if all(col in df.columns for col in option)),
+            None,
+        )
+        if chosen is None or "year" not in df.columns:
+            return pd.DataFrame()
+
+        t1_col, s1_col, t2_col, s2_col = chosen
+
+        if "week" in df.columns:
+            period = pd.to_numeric(df["week"], errors="coerce")
+        elif "playoff_week" in df.columns:
+            period = pd.to_numeric(df["playoff_week"], errors="coerce")
+        elif "round" in df.columns:
+            numeric_round = pd.to_numeric(df["round"], errors="coerce")
+            period = (
+                numeric_round
+                if numeric_round.notna().any()
+                else df.groupby("year")["round"].transform(
+                    lambda s: pd.factorize(s, sort=False)[0] + 1
+                )
+            )
+        elif "playoff_round" in df.columns:
+            numeric_round = pd.to_numeric(df["playoff_round"], errors="coerce")
+            period = (
+                numeric_round
+                if numeric_round.notna().any()
+                else df.groupby("year")["playoff_round"].transform(
+                    lambda s: pd.factorize(s, sort=False)[0] + 1
+                )
+            )
+        else:
+            period = df.groupby("year").cumcount() + 1
+
+        df["_playoff_period"] = pd.to_numeric(period, errors="coerce")
+        winner_loser_schema = t1_col == "winner" and t2_col == "loser"
+        rows = []
+
+        for _, row in df.iterrows():
+            year = pd.to_numeric(pd.Series([row.get("year")]), errors="coerce").iloc[0]
+            score1 = pd.to_numeric(pd.Series([row.get(s1_col)]), errors="coerce").iloc[0]
+            score2 = pd.to_numeric(pd.Series([row.get(s2_col)]), errors="coerce").iloc[0]
+            if pd.isna(year) or pd.isna(score1) or pd.isna(score2):
+                continue
+
+            team1 = normalize_franchise_name(row.get(t1_col))
+            team2 = normalize_franchise_name(row.get(t2_col))
+            if pd.isna(team1) or pd.isna(team2):
+                continue
+            team1, team2 = str(team1).strip(), str(team2).strip()
+            if not team1 or not team2 or team1.lower() == "nan" or team2.lower() == "nan":
+                continue
+
+            playoff_period = row.get("_playoff_period")
+            playoff_period = 1 if pd.isna(playoff_period) else int(playoff_period)
+
+            if winner_loser_schema:
+                result1, result2 = "W", "L"
+            elif score1 > score2:
+                result1, result2 = "W", "L"
+            elif score1 < score2:
+                result1, result2 = "L", "W"
+            else:
+                result1 = result2 = "T"
+
+            rows.extend([
+                {
+                    "year": int(year), "week": playoff_period, "team": team1,
+                    "opponent": team2, "points_for": float(score1),
+                    "points_against": float(score2), "result": result1,
+                },
+                {
+                    "year": int(year), "week": playoff_period, "team": team2,
+                    "opponent": team1, "points_for": float(score2),
+                    "points_against": float(score1), "result": result2,
+                },
+            ])
+
+        if not rows:
+            return pd.DataFrame()
+
+        return (
+            pd.DataFrame(rows)
+            .sort_values(["team", "year", "week"])
+            .reset_index(drop=True)
+        )
+
+    playoff_streak_games = normalize_playoff_streak_games(playoff_games)
+
+    # Finals appearances come directly from the authoritative championships file:
+    # both champion and runner-up reached the league final in that season.
+    finals_keys = set()
+    if not championships.empty and "year" in championships.columns:
+        finals_source = normalize_franchise_columns(championships.copy())
+        numeric(finals_source, ["year"])
+        for _, row in finals_source.dropna(subset=["year"]).iterrows():
+            year = int(row["year"])
+            for col in ("champion", "runner_up"):
+                if col in finals_source.columns and pd.notna(row.get(col)):
+                    team = normalize_franchise_name(row.get(col))
+                    if pd.notna(team) and str(team).strip():
+                        finals_keys.add((str(team).strip(), year))
+
+    if not season_streaks.empty:
+        season_streaks["made_finals"] = season_streaks.apply(
+            lambda r: (str(r["team"]), int(r["year"])) in finals_keys,
+            axis=1,
+        )
+
+    streak_configs = {
+        "🏆 Longest Win Streak": {
+            "short": "🏆 Wins", "group": "Game Results", "kind": "regular",
+            "condition": lambda r: r["result"] == "W",
+            "label": "CONSECUTIVE WINS",
+            "description": "Most consecutive regular-season victories by one franchise.",
+        },
+        "💀 Longest Losing Streak": {
+            "short": "💀 Losses", "group": "Game Results", "kind": "regular",
+            "condition": lambda r: r["result"] == "L",
+            "label": "CONSECUTIVE LOSSES",
+            "description": "Most consecutive regular-season losses by one franchise.",
+        },
+        "📈 Consecutive Winning Seasons": {
+            "short": "📈 Winning Yrs", "group": "Season Results", "kind": "season",
+            "condition_col": "winning_season", "label": "CONSECUTIVE WINNING SEASONS",
+            "description": "Most consecutive active seasons finishing above .500. A .500 season breaks the streak.",
+        },
+        "📉 Consecutive Losing Seasons": {
+            "short": "📉 Losing Yrs", "group": "Season Results", "kind": "season",
+            "condition_col": "losing_season", "label": "CONSECUTIVE LOSING SEASONS",
+            "description": "Most consecutive active seasons finishing below .500. A .500 season breaks the streak.",
+        },
+        "🔥 Longest 100+ Point Streak": {
+            "short": "🔥 100+", "group": "Scoring", "kind": "regular",
+            "condition": lambda r: pd.notna(r["points_for"]) and r["points_for"] >= 100,
+            "label": "CONSECUTIVE 100+ GAMES",
+            "description": "Most consecutive regular-season games scoring at least 100 fantasy points.",
+        },
+        "💥 Longest 120+ Point Streak": {
+            "short": "💥 120+", "group": "Scoring", "kind": "regular",
+            "condition": lambda r: pd.notna(r["points_for"]) and r["points_for"] >= 120,
+            "label": "CONSECUTIVE 120+ GAMES",
+            "description": "Most consecutive regular-season games scoring at least 120 fantasy points.",
+        },
+        "🧊 Longest Sub-100 Point Streak": {
+            "short": "🧊 Sub-100", "group": "Scoring", "kind": "regular",
+            "condition": lambda r: pd.notna(r["points_for"]) and r["points_for"] < 100,
+            "label": "CONSECUTIVE SUB-100 GAMES",
+            "description": "Most consecutive regular-season games scoring fewer than 100 fantasy points.",
+        },
+        "🥶 Longest Sub-80 Point Streak": {
+            "short": "🥶 Sub-80", "group": "Scoring", "kind": "regular",
+            "condition": lambda r: pd.notna(r["points_for"]) and r["points_for"] < 80,
+            "label": "CONSECUTIVE SUB-80 GAMES",
+            "description": "Most consecutive regular-season games scoring fewer than 80 fantasy points.",
+        },
+        "🥇 Consecutive Weekly Top-3 Scores": {
+            "short": "🥇 Top 3", "group": "Weekly Rank", "kind": "regular",
+            "condition": lambda r: pd.notna(r["weekly_rank"]) and r["weekly_rank"] <= 3,
+            "label": "CONSECUTIVE TOP-3 WEEKS",
+            "description": "Most consecutive regular-season weeks finishing among the league's three highest scores.",
+        },
+        "⬆️ Consecutive Above-Median Weeks": {
+            "short": "⬆️ Above Med", "group": "Weekly Rank", "kind": "regular",
+            "condition": lambda r: pd.notna(r["points_for"]) and pd.notna(r["weekly_median"]) and r["points_for"] > r["weekly_median"],
+            "label": "CONSECUTIVE ABOVE-MEDIAN WEEKS",
+            "description": "Most consecutive regular-season weeks scoring strictly above that week's league median.",
+        },
+        "🎟️ Consecutive Playoff Seasons": {
+            "short": "🎟️ Made", "group": "Playoffs", "kind": "season",
+            "condition_col": "made_playoffs", "label": "CONSECUTIVE PLAYOFF SEASONS",
+            "description": "Most consecutive active seasons in which a franchise made the championship bracket.",
+        },
+        "🚫 Consecutive Missed Playoffs": {
+            "short": "🚫 Missed", "group": "Playoffs", "kind": "season",
+            "condition_col": "missed_playoffs", "label": "CONSECUTIVE MISSED PLAYOFFS",
+            "description": "Most consecutive active seasons in which a franchise missed the championship bracket.",
+        },
+        "🏆 Consecutive Finals Appearances": {
+            "short": "🏆 Finals", "group": "Playoffs", "kind": "season",
+            "condition_col": "made_finals", "label": "CONSECUTIVE FINALS APPEARANCES",
+            "description": "Most consecutive seasons reaching the league championship game, whether as champion or runner-up.",
+        },
+        "🏟️ Consecutive Playoff Wins": {
+            "short": "🏟️ PO Wins", "group": "Playoffs", "kind": "playoff",
+            "condition": lambda r: r["result"] == "W", "label": "CONSECUTIVE PLAYOFF WINS",
+            "description": "Most consecutive postseason game victories. Regular-season games are excluded.",
+        },
+        "☠️ Consecutive Playoff Losses": {
+            "short": "☠️ PO Losses", "group": "Playoffs", "kind": "playoff",
+            "condition": lambda r: r["result"] == "L", "label": "CONSECUTIVE PLAYOFF LOSSES",
+            "description": "Most consecutive postseason game losses. Regular-season games are excluded.",
+        },
+    }
+
+    streak_groups = [
+        ("Game Results", ["🏆 Longest Win Streak", "💀 Longest Losing Streak"]),
+        ("Season Results", ["📈 Consecutive Winning Seasons", "📉 Consecutive Losing Seasons"]),
+        ("Scoring", [
+            "🔥 Longest 100+ Point Streak", "💥 Longest 120+ Point Streak",
+            "🧊 Longest Sub-100 Point Streak", "🥶 Longest Sub-80 Point Streak",
+        ]),
+        ("Weekly Rank", ["🥇 Consecutive Weekly Top-3 Scores", "⬆️ Consecutive Above-Median Weeks"]),
+        ("Playoffs", [
+            "🎟️ Consecutive Playoff Seasons", "🚫 Consecutive Missed Playoffs",
+            "🏆 Consecutive Finals Appearances", "🏟️ Consecutive Playoff Wins",
+            "☠️ Consecutive Playoff Losses",
+        ]),
+    ]
+
+    if "streak_record_choice" not in st.session_state:
+        st.session_state["streak_record_choice"] = "🏆 Longest Win Streak"
+
+    def choose_streak_record(record_name):
+        st.session_state["streak_record_choice"] = record_name
+
+    for group_name, options in streak_groups:
+        label_col, *button_cols = st.columns([0.72] + [1.0] * len(options), gap="small")
+        with label_col:
+            st.markdown(
+                "<div style='padding-top:.45rem;font-size:.78rem;font-weight:800;"
+                "opacity:.60;text-transform:uppercase;letter-spacing:.06em;'>"
+                f"{group_name}</div>",
+                unsafe_allow_html=True,
+            )
+        for col, option in zip(button_cols, options):
+            with col:
+                active = st.session_state["streak_record_choice"] == option
+                st.button(
+                    f"● {streak_configs[option]['short']}" if active else streak_configs[option]["short"],
+                    key=f"streak_record_btn_{option}", use_container_width=True,
+                    type="primary" if active else "secondary",
+                    on_click=choose_streak_record, args=(option,),
+                )
+
+    streak_choice = st.session_state["streak_record_choice"]
+    st.divider()
+    config = streak_configs[streak_choice]
+    kind = config["kind"]
+
+    if kind == "season":
+        runs, progression = build_season_streak_history(season_streaks, config["condition_col"])
+        unit = "seasons"
+    elif kind == "playoff":
+        runs, progression = build_game_streak_history(playoff_streak_games, config["condition"])
+        unit = "games"
+    else:
+        runs, progression = build_game_streak_history(games, config["condition"])
+        unit = "games"
+
+    if runs.empty:
+        st.info("No streak data is available for this record.")
+    else:
+        sort_cols = ["length", "end_year", "team"] if kind == "season" else ["length", "end_year", "end_week", "team"]
+        sort_asc = [False, True, True] if kind == "season" else [False, True, True, True]
+        runs = runs.sort_values(sort_cols, ascending=sort_asc).reset_index(drop=True)
+        best_value = int(runs["length"].max())
+        holders = runs[runs["length"] == best_value].copy()
+        holder_sort = ["end_year", "team"] if kind == "season" else ["end_year", "end_week", "team"]
+        first_record = holders.sort_values(holder_sort).iloc[0]
+        latest_record = holders.sort_values(holder_sort).iloc[-1]
+        holder_text = " & ".join(holders["team"].drop_duplicates().astype(str).tolist())
+
+        c1, c2, c3 = st.columns(3)
+        c1.metric("🏆 Current Record", f"{best_value} {unit}", holder_text)
+        first_when = str(int(first_record["end_year"])) if kind == "season" else f"{int(first_record['end_year'])} W{int(first_record['end_week'])}"
+        c2.metric("📅 First Set", first_when, str(first_record["team"]))
+        c3.metric(
+            "🤝 Record Streaks", str(len(holders)),
+            f"{holders['team'].nunique()} franchise" + ("s" if holders["team"].nunique() != 1 else ""),
+        )
+
+        latest_when = str(int(latest_record["end_year"])) if kind == "season" else f"{int(latest_record['end_year'])} Week {int(latest_record['end_week'])}"
+        st.markdown(
+            "<div style='text-align:center;padding:1rem 0 1.2rem 0;'>"
+            f"<div style='font-size:4.5rem;font-weight:900;line-height:.95;'>{best_value}</div>"
+            "<div style='font-size:1.4rem;font-weight:800;opacity:.62;letter-spacing:.08em;margin-top:.35rem;'>"
+            f"{config['label']}</div>"
+            f"<div style='font-size:1.1rem;font-weight:750;margin-top:.75rem;'>🏆 {holder_text}</div>"
+            f"<div style='opacity:.65;margin-top:.2rem;'>Most recent record streak ended {latest_when}</div>"
+            "</div>",
+            unsafe_allow_html=True,
+        )
+        st.caption(config["description"])
+
+        # ------------------------------------------------------------
+        # RECORD WATCH
+        # ------------------------------------------------------------
+        st.divider()
+        st.subheader("👀 Record Watch")
+        st.caption(
+            "Active streaks that are still alive and closest to the all-time record. "
+            "A streak must belong to the latest league season/playoff period to appear here."
+        )
+
+        watch_rows = []
+        if kind == "season" and not season_streaks.empty:
+            latest_year = int(season_streaks["year"].max())
+            for team, group in season_streaks.groupby("team"):
+                group = group.sort_values("year")
+                last = group.iloc[-1]
+                if int(last["year"]) != latest_year or not bool(last[config["condition_col"]]):
+                    continue
+                current = 0
+                expected_year = latest_year
+                for _, srow in group.iloc[::-1].iterrows():
+                    if int(srow["year"]) != expected_year or not bool(srow[config["condition_col"]]):
+                        break
+                    current += 1
+                    expected_year -= 1
+                watch_rows.append({"member": team, "current": current})
+
+        elif kind in {"regular", "playoff"}:
+            source_watch = games if kind == "regular" else playoff_streak_games
+            if not source_watch.empty:
+                latest_year = int(source_watch["year"].max())
+                latest_week = int(source_watch[source_watch["year"].eq(latest_year)]["week"].max())
+                for team, group in source_watch.groupby("team"):
+                    group = group.sort_values(["year", "week"])
+                    last = group.iloc[-1]
+                    # Regular-season watch requires the team's final game to be in the
+                    # latest league period. Playoff watch requires the latest playoff year.
+                    current_period = (
+                        int(last["year"]) == latest_year
+                        and (kind == "playoff" or int(last["week"]) == latest_week)
+                    )
+                    if not current_period or not config["condition"](last):
+                        continue
+                    current = 0
+                    for _, grow in group.iloc[::-1].iterrows():
+                        if not config["condition"](grow):
+                            break
+                        current += 1
+                    watch_rows.append({"member": team, "current": current})
+
+        if watch_rows:
+            watch = pd.DataFrame(watch_rows)
+            watch["record"] = best_value
+            watch["away"] = (watch["record"] - watch["current"]).clip(lower=0)
+            watch["progress"] = np.where(
+                watch["record"] > 0,
+                watch["current"] / watch["record"],
+                0.0,
+            )
+            watch = (
+                watch.sort_values(["away", "current", "member"], ascending=[True, False, True])
+                .head(8)
+                .reset_index(drop=True)
+            )
+            watch["Franchise"] = watch["member"]
+            watch["Current"] = watch["current"].astype(int)
+            watch["Record"] = watch["record"].astype(int)
+            watch["Away"] = watch["away"].astype(int)
+            watch["Progress"] = watch["progress"].apply(lambda x: f"{x:.0%}")
+            st.dataframe(
+                watch[["Franchise", "Current", "Record", "Away", "Progress"]],
+                hide_index=True,
+                use_container_width=True,
+                height=38 + 35 * len(watch),
+                column_config={
+                    "Franchise": st.column_config.TextColumn("Franchise", width="large"),
+                    "Current": st.column_config.NumberColumn("Current", format="%d", width="small"),
+                    "Record": st.column_config.NumberColumn("Record", format="%d", width="small"),
+                    "Away": st.column_config.NumberColumn("Away", format="%d", width="small"),
+                    "Progress": st.column_config.TextColumn("Progress", width="small"),
+                },
+            )
+        else:
+            st.caption("No active streaks currently qualify for record watch.")
+
+
+        left, right = st.columns([1.20, .80], gap="large")
+        with left:
+            st.subheader("Current Record Standings")
+            board = runs.copy()
+            board["#"] = board["length"].rank(method="min", ascending=False).astype(int)
+            board["Franchise"] = np.where(
+                board["length"].eq(best_value),
+                "🏆 " + board["team"].astype(str), board["team"].astype(str),
+            )
+            length_label = "Years" if kind == "season" else "Games"
+            board[length_label] = board["length"].astype(int)
+            if kind == "season":
+                board["Span"] = np.where(
+                    board["start_year"].eq(board["end_year"]),
+                    board["start_year"].astype(int).astype(str),
+                    board["start_year"].astype(int).astype(str) + "–" + board["end_year"].astype(int).astype(str),
+                )
+            else:
+                board["Span"] = (
+                    board["start_year"].astype(int).astype(str) + " W" + board["start_week"].astype(int).astype(str)
+                    + " – " + board["end_year"].astype(int).astype(str) + " W" + board["end_week"].astype(int).astype(str)
+                )
+            display_board = board[["#", "Franchise", length_label, "Span"]].head(12)
+            st.dataframe(
+                display_board, hide_index=True, use_container_width=True,
+                height=38 + 35 * len(display_board),
+                column_config={
+                    "#": st.column_config.NumberColumn("#", format="#%d", width="small"),
+                    "Franchise": st.column_config.TextColumn("Franchise", width="medium"),
+                    length_label: st.column_config.NumberColumn(length_label, format="%d", width="small"),
+                    "Span": st.column_config.TextColumn("Span", width="medium"),
+                },
+            )
+            if len(board) > 12:
+                st.caption("Showing the top 12 streaks.")
+
+        with right:
+            st.subheader("Record Progression")
+            st.caption(
+                "Every season the all-time streak benchmark was set or tied."
+                if kind == "season"
+                else "Every game the all-time streak benchmark was set or tied."
+            )
+            if progression.empty:
+                st.info("No record progression is available.")
+            else:
+                prog = progression.iloc[::-1].reset_index(drop=True)
+                for i, row in prog.iterrows():
+                    p1, p2, p3 = st.columns([.10, .68, .22], vertical_alignment="top")
+                    p1.markdown("### 🏆" if i == 0 else "### 🔵")
+                    p2.markdown(f"**{row['team']}**")
+                    when = str(int(row["year"])) if kind == "season" else f"{int(row['year'])} Week {int(row['week'])}"
+                    p2.caption(f"{when}\n\n{row['type']}")
+                    p3.markdown(
+                        "<div style='text-align:right;font-size:1.1rem;font-weight:800;padding-top:.15rem;'>"
+                        f"{int(row['value'])}</div>",
+                        unsafe_allow_html=True,
+                    )
+                    if i < len(prog) - 1:
+                        st.divider()
+
+
 
 # ============================================================
 # MILESTONES
 # ============================================================
 with tab_milestones:
-    st.header('🎯 Milestones')
-    st.caption('Career achievements and the franchises/players that reached them.')
+    st.header("🎯 Milestones")
+    st.caption(
+        "Choose a career milestone to see who reached the club, who got there first, "
+        "and the chronological history of every member."
+    )
 
-    if team_games.empty:
-        st.info('Team game history is not available.')
-    else:
-        games=team_games.sort_values(['year','week','team']).copy()
+    milestone_configs = {
+        "🏆 25 Wins": {
+            "short": "🏆 25 Wins",
+            "group": "Franchise Wins",
+            "kind": "team_wins",
+            "threshold": 25,
+            "label": "WIN CLUB",
+            "description": "Franchises that reached 25 regular-season career wins.",
+        },
+        "🏆 50 Wins": {
+            "short": "🏆 50 Wins",
+            "group": "Franchise Wins",
+            "kind": "team_wins",
+            "threshold": 50,
+            "label": "WIN CLUB",
+            "description": "Franchises that reached 50 regular-season career wins.",
+        },
+        "🏆 75 Wins": {
+            "short": "🏆 75 Wins",
+            "group": "Franchise Wins",
+            "kind": "team_wins",
+            "threshold": 75,
+            "label": "WIN CLUB",
+            "description": "Franchises that reached 75 regular-season career wins.",
+        },
+        "🏆 100 Wins": {
+            "short": "🏆 100 Wins",
+            "group": "Franchise Wins",
+            "kind": "team_wins",
+            "threshold": 100,
+            "label": "WIN CLUB",
+            "description": "Franchises that reached 100 regular-season career wins.",
+        },
+        "📈 5,000 Points": {
+            "short": "📈 5K",
+            "group": "Franchise Points",
+            "kind": "team_points",
+            "threshold": 5000,
+            "label": "POINT CLUB",
+            "description": "Franchises that reached 5,000 regular-season career fantasy points.",
+        },
+        "📈 10,000 Points": {
+            "short": "📈 10K",
+            "group": "Franchise Points",
+            "kind": "team_points",
+            "threshold": 10000,
+            "label": "POINT CLUB",
+            "description": "Franchises that reached 10,000 regular-season career fantasy points.",
+        },
+        "📈 15,000 Points": {
+            "short": "📈 15K",
+            "group": "Franchise Points",
+            "kind": "team_points",
+            "threshold": 15000,
+            "label": "POINT CLUB",
+            "description": "Franchises that reached 15,000 regular-season career fantasy points.",
+        },
+        "👑 1 Championship": {
+            "short": "👑 1 Title",
+            "group": "Championships",
+            "kind": "titles",
+            "threshold": 1,
+            "label": "CHAMPIONSHIP CLUB",
+            "description": "Franchises that won their first league championship.",
+        },
+        "👑 2 Championships": {
+            "short": "👑 2 Titles",
+            "group": "Championships",
+            "kind": "titles",
+            "threshold": 2,
+            "label": "CHAMPIONSHIP CLUB",
+            "description": "Franchises that reached two league championships.",
+        },
+        "⭐ 1,000 Player Points": {
+            "short": "⭐ 1K Pts",
+            "group": "Players",
+            "kind": "player_points",
+            "threshold": 1000,
+            "label": "COUNTED POINT CLUB",
+            "description": "Players who reached 1,000 fantasy points while in a starting lineup.",
+        },
+        "🧍 100 Player Starts": {
+            "short": "🧍 100 Starts",
+            "group": "Players",
+            "kind": "player_starts",
+            "threshold": 100,
+            "label": "START CLUB",
+            "description": "Players who reached 100 career fantasy starts in validated lineup history.",
+        },
+    }
 
-        st.subheader('Franchise Win Clubs')
-        win_levels=[25,50,75,100]
-        rows=[]
-        for team,group in games.groupby('team'):
-            group=group.sort_values(['year','week']).copy()
-            group['career_wins']=group['result'].eq('W').cumsum()
-            for level in win_levels:
-                hit=group[group['career_wins']>=level]
+    milestone_groups = [
+        (
+            "Franchise Wins",
+            [
+                "🏆 25 Wins",
+                "🏆 50 Wins",
+                "🏆 75 Wins",
+                "🏆 100 Wins",
+            ],
+        ),
+        (
+            "Franchise Points",
+            [
+                "📈 5,000 Points",
+                "📈 10,000 Points",
+                "📈 15,000 Points",
+            ],
+        ),
+        (
+            "Championships",
+            [
+                "👑 1 Championship",
+                "👑 2 Championships",
+            ],
+        ),
+        (
+            "Players",
+            [
+                "⭐ 1,000 Player Points",
+                "🧍 100 Player Starts",
+            ],
+        ),
+    ]
+
+    if "milestone_choice" not in st.session_state:
+        st.session_state["milestone_choice"] = "🏆 50 Wins"
+
+    def choose_milestone(record_name):
+        st.session_state["milestone_choice"] = record_name
+
+    for group_name, options in milestone_groups:
+        label_col, *button_cols = st.columns(
+            [0.72] + [1.0] * len(options),
+            gap="small",
+        )
+
+        with label_col:
+            st.markdown(
+                (
+                    "<div style='padding-top:.45rem;"
+                    "font-size:.78rem;font-weight:800;"
+                    "opacity:.60;text-transform:uppercase;"
+                    "letter-spacing:.06em;'>"
+                    f"{group_name}</div>"
+                ),
+                unsafe_allow_html=True,
+            )
+
+        for col, option in zip(button_cols, options):
+            with col:
+                active = (
+                    st.session_state["milestone_choice"]
+                    == option
+                )
+
+                st.button(
+                    (
+                        f"● {milestone_configs[option]['short']}"
+                        if active
+                        else milestone_configs[option]["short"]
+                    ),
+                    key=f"milestone_btn_{option}",
+                    use_container_width=True,
+                    type="primary" if active else "secondary",
+                    on_click=choose_milestone,
+                    args=(option,),
+                )
+
+    milestone_choice = st.session_state["milestone_choice"]
+    st.divider()
+
+    config = milestone_configs[milestone_choice]
+    threshold = config["threshold"]
+    kind = config["kind"]
+
+    milestone_rows = []
+    milestone_watch_rows = []
+    member_label = "Franchise"
+    value_label = "Career Total"
+
+    if kind in {"team_wins", "team_points"}:
+        if team_games.empty:
+            st.info("Team game history is not available.")
+        else:
+            source = normalize_franchise_columns(team_games.copy())
+            numeric(source, ["year", "week", "points_for"])
+            source = source.sort_values(
+                ["team", "year", "week"]
+            )
+
+            for team, group in source.groupby("team"):
+                group = group.sort_values(
+                    ["year", "week"]
+                ).copy()
+
+                if kind == "team_wins":
+                    group["_career_value"] = (
+                        group["result"].eq("W").cumsum()
+                    )
+                    final_value = int(
+                        group["_career_value"].iloc[-1]
+                    )
+                    value_label = "Career Wins"
+                else:
+                    group["_career_value"] = (
+                        pd.to_numeric(
+                            group["points_for"],
+                            errors="coerce",
+                        )
+                        .fillna(0)
+                        .cumsum()
+                    )
+                    final_value = float(
+                        group["_career_value"].iloc[-1]
+                    )
+                    value_label = "Career Points"
+
+                hit = group[group["_career_value"] >= threshold]
+
                 if not hit.empty:
-                    r=hit.iloc[0]
-                    rows.append({'Milestone':f'{level} Wins','Franchise':team,'Reached':f"{int(r['year'])} Week {int(r['week'])}"})
-        milestone_df=pd.DataFrame(rows)
-        if not milestone_df.empty:
-            for milestone in ['100 Wins','75 Wins','50 Wins','25 Wins']:
-                club=milestone_df[milestone_df['Milestone']==milestone]
-                if not club.empty:
-                    st.markdown(f'**{milestone} Club**')
-                    st.dataframe(club[['Franchise','Reached']],hide_index=True,use_container_width=True)
+                    hit_index = int(np.flatnonzero(group["_career_value"].to_numpy() >= threshold)[0])
+                    row = group.iloc[hit_index]
+                    seasons_to_reach = int(group.iloc[: hit_index + 1]["year"].nunique())
+                    milestone_rows.append({
+                        "member": team,
+                        "year": int(row["year"]),
+                        "week": int(row["week"]),
+                        "career_total": final_value,
+                        "opportunities_to_reach": hit_index + 1,
+                        "seasons_to_reach": seasons_to_reach,
+                    })
+                else:
+                    milestone_watch_rows.append({
+                        "member": team,
+                        "current": final_value,
+                        "remaining": max(float(threshold) - float(final_value), 0.0),
+                        "progress": min(float(final_value) / float(threshold), 1.0) if threshold else 0.0,
+                    })
 
-        st.subheader('Franchise Scoring Clubs')
-        score_levels=[5000,10000,15000]
-        score_rows=[]
-        for team,group in games.groupby('team'):
-            group=group.sort_values(['year','week']).copy()
-            group['career_points']=group['points_for'].cumsum()
-            for level in score_levels:
-                hit=group[group['career_points']>=level]
-                if not hit.empty:
-                    r=hit.iloc[0]
-                    score_rows.append({'Milestone':f'{level:,} Points','Franchise':team,'Reached':f"{int(r['year'])} Week {int(r['week'])}"})
-        score_df=pd.DataFrame(score_rows)
-        if not score_df.empty:
-            st.dataframe(score_df,hide_index=True,use_container_width=True)
+    elif kind == "titles":
+        if championships.empty or "champion" not in championships.columns:
+            st.info("Championship history is not available.")
+        else:
+            source = normalize_franchise_columns(
+                championships.copy()
+            )
+            numeric(source, ["year"])
+            source = (
+                source.dropna(subset=["year", "champion"])
+                .sort_values(["year", "champion"])
+            )
 
-        if not weekly_lineups.empty:
-            st.subheader('Player Career Milestones')
-            roster=weekly_lineups[weekly_lineups['player'].astype(str).str.strip().ne('(Empty)')].copy()
-            if 'is_starter' in roster.columns:
-                starter_mask=roster['is_starter'].astype(str).str.strip().str.lower().isin(['true','1','yes'])
+            title_counts = source["champion"].value_counts()
+
+            for team, group in source.groupby("champion"):
+                group = group.sort_values("year").reset_index(
+                    drop=True
+                )
+
+                total_titles = int(title_counts.get(team, 0))
+                if len(group) >= threshold:
+                    row = group.iloc[threshold - 1]
+                    hit_year = int(row["year"])
+                    active_years = []
+                    if not team_games.empty:
+                        team_history = normalize_franchise_columns(team_games.copy())
+                        numeric(team_history, ["year"])
+                        active_years = sorted(
+                            team_history.loc[
+                                team_history["team"].astype(str).eq(str(team))
+                                & team_history["year"].le(hit_year),
+                                "year",
+                            ].dropna().astype(int).unique().tolist()
+                        )
+                    seasons_to_reach = len(active_years) if active_years else np.nan
+                    milestone_rows.append({
+                        "member": team,
+                        "year": hit_year,
+                        "week": np.nan,
+                        "career_total": total_titles,
+                        "opportunities_to_reach": np.nan,
+                        "seasons_to_reach": seasons_to_reach,
+                    })
+                else:
+                    milestone_watch_rows.append({
+                        "member": team,
+                        "current": total_titles,
+                        "remaining": max(int(threshold) - total_titles, 0),
+                        "progress": min(total_titles / float(threshold), 1.0) if threshold else 0.0,
+                    })
+
+            # Include active franchises with zero championships in Milestone Watch.
+            if not team_games.empty:
+                active_teams = set(
+                    normalize_franchise_columns(team_games.copy())["team"]
+                    .dropna().astype(str).unique()
+                )
+                known = {str(row["member"]) for row in milestone_watch_rows}
+                reached = {str(row["member"]) for row in milestone_rows}
+                for team in sorted(active_teams - known - reached):
+                    milestone_watch_rows.append({
+                        "member": team,
+                        "current": 0,
+                        "remaining": float(threshold),
+                        "progress": 0.0,
+                    })
+
+            value_label = "Championships"
+
+    elif kind in {"player_points", "player_starts"}:
+        member_label = "Player"
+
+        if weekly_lineups.empty:
+            st.info("Weekly player history is not available.")
+        else:
+            roster = weekly_lineups[
+                weekly_lineups["player"]
+                .astype(str)
+                .str.strip()
+                .ne("(Empty)")
+            ].copy()
+
+            if "is_starter" in roster.columns:
+                starter_mask = (
+                    roster["is_starter"]
+                    .astype(str)
+                    .str.strip()
+                    .str.lower()
+                    .isin(["true", "1", "yes"])
+                )
             else:
-                starter_mask=~roster['lineup_slot'].astype(str).str.upper().isin(['BN','IR','IR+'])
-            starters=roster[starter_mask].copy()
-            starters['fantasy_points']=pd.to_numeric(starters['fantasy_points'],errors='coerce')
-            player_career=starters.groupby('player',as_index=False).agg(career_points=('fantasy_points','sum'),starts=('player','size'),seasons=('year','nunique')).sort_values('career_points',ascending=False)
-            p1,p2=st.columns(2)
-            with p1:
-                st.markdown('**1,000+ Counted Fantasy Points**')
-                club=player_career[player_career['career_points']>=1000]
-                st.dataframe(club.rename(columns={'player':'Player','career_points':'Career Points','starts':'Starts','seasons':'Seasons'}),hide_index=True,use_container_width=True)
-            with p2:
-                st.markdown('**100+ Career Starts**')
-                club=player_career[player_career['starts']>=100]
-                st.dataframe(club.rename(columns={'player':'Player','career_points':'Career Points','starts':'Starts','seasons':'Seasons'}),hide_index=True,use_container_width=True)
+                starter_mask = ~(
+                    roster["lineup_slot"]
+                    .astype(str)
+                    .str.upper()
+                    .isin(["BN", "IR", "IR+"])
+                )
 
-        if not championships.empty and 'champion' in championships.columns:
-            st.subheader('Championship Milestones')
-            titles=championships['champion'].value_counts().rename_axis('Franchise').reset_index(name='Championships')
-            st.dataframe(titles,hide_index=True,use_container_width=True)
+            starters = roster[
+                starter_mask
+            ].copy()
+
+            numeric(
+                starters,
+                ["year", "week", "fantasy_points"],
+            )
+
+            starters = starters.dropna(
+                subset=["player", "year", "week"]
+            ).sort_values(
+                ["player", "year", "week"]
+            )
+
+            for player, group in starters.groupby("player"):
+                group = group.sort_values(
+                    ["year", "week"]
+                ).copy()
+
+                if kind == "player_points":
+                    group["_career_value"] = (
+                        pd.to_numeric(
+                            group["fantasy_points"],
+                            errors="coerce",
+                        )
+                        .fillna(0)
+                        .cumsum()
+                    )
+                    final_value = float(
+                        group["_career_value"].iloc[-1]
+                    )
+                    value_label = "Counted Points"
+                else:
+                    group["_career_value"] = range(
+                        1,
+                        len(group) + 1,
+                    )
+                    final_value = int(len(group))
+                    value_label = "Career Starts"
+
+                hit = group[group["_career_value"] >= threshold]
+
+                if not hit.empty:
+                    hit_index = int(np.flatnonzero(group["_career_value"].to_numpy() >= threshold)[0])
+                    row = group.iloc[hit_index]
+                    seasons_to_reach = int(group.iloc[: hit_index + 1]["year"].nunique())
+                    milestone_rows.append({
+                        "member": player,
+                        "year": int(row["year"]),
+                        "week": int(row["week"]),
+                        "career_total": final_value,
+                        "opportunities_to_reach": hit_index + 1,
+                        "seasons_to_reach": seasons_to_reach,
+                    })
+                else:
+                    milestone_watch_rows.append({
+                        "member": player,
+                        "current": final_value,
+                        "remaining": max(float(threshold) - float(final_value), 0.0),
+                        "progress": min(float(final_value) / float(threshold), 1.0) if threshold else 0.0,
+                    })
+
+    milestone_df = pd.DataFrame(milestone_rows)
+
+    if milestone_df.empty:
+        st.info(
+            "No one has reached this milestone yet."
+        )
+    else:
+        milestone_df = (
+            milestone_df.sort_values(
+                ["year", "week", "member"],
+                na_position="last",
+            )
+            .reset_index(drop=True)
+        )
+
+        milestone_df["Member #"] = range(
+            1,
+            len(milestone_df) + 1,
+        )
+
+        first = milestone_df.iloc[0]
+        latest = milestone_df.iloc[-1]
+
+        def milestone_period(row):
+            if pd.notna(row["week"]):
+                return (
+                    f"{int(row['year'])} "
+                    f"Week {int(row['week'])}"
+                )
+            return str(int(row["year"]))
+
+        threshold_text = (
+            f"{threshold:,}"
+            if isinstance(threshold, (int, np.integer))
+            else f"{threshold}"
+        )
+
+        c1, c2, c3, c4 = st.columns(4)
+
+        c1.metric(
+            "🎯 Club Size",
+            str(len(milestone_df)),
+            (
+                f"{member_label.lower()}"
+                + ("s" if len(milestone_df) != 1 else "")
+            ),
+        )
+
+        c2.metric(
+            "🥇 First to Reach",
+            str(first["member"]),
+            milestone_period(first),
+        )
+
+        speed_df = milestone_df.copy()
+        if kind == "titles":
+            speed_df = speed_df.dropna(subset=["seasons_to_reach"])
+            fastest = speed_df.sort_values(["seasons_to_reach", "year", "member"]).iloc[0]
+            fastest_value = f"{int(fastest['seasons_to_reach'])} seasons"
+        else:
+            speed_df = speed_df.dropna(subset=["opportunities_to_reach"])
+            fastest = speed_df.sort_values(
+                ["opportunities_to_reach", "seasons_to_reach", "year", "member"]
+            ).iloc[0]
+            opportunity_label = "starts" if kind in {"player_points", "player_starts"} else "games"
+            fastest_value = f"{int(fastest['opportunities_to_reach'])} {opportunity_label}"
+            if pd.notna(fastest.get("seasons_to_reach")):
+                fastest_value += f" / {int(fastest['seasons_to_reach'])} seasons"
+
+        c3.metric(
+            "⚡ Fastest to Reach",
+            str(fastest["member"]),
+            fastest_value,
+        )
+
+        c4.metric(
+            "🆕 Most Recent",
+            str(latest["member"]),
+            milestone_period(latest),
+        )
+
+        st.markdown(
+            (
+                "<div style='text-align:center;padding:1rem 0 1.2rem 0;'>"
+                "<div style='font-size:4.5rem;font-weight:900;line-height:.95;'>"
+                f"{threshold_text}</div>"
+                "<div style='font-size:1.4rem;font-weight:800;opacity:.62;"
+                "letter-spacing:.08em;margin-top:.35rem;'>"
+                f"{config['label']}</div>"
+                "<div style='font-size:1.1rem;font-weight:750;margin-top:.75rem;'>"
+                f"🥇 {first['member']}</div>"
+                "<div style='opacity:.65;margin-top:.2rem;'>"
+                f"First reached {milestone_period(first)}</div>"
+                "</div>"
+            ),
+            unsafe_allow_html=True,
+        )
+
+        st.caption(config["description"])
+
+        st.divider()
+        st.subheader("👀 Milestone Watch")
+        st.caption(
+            "The closest members who have not reached this milestone yet. "
+            "This is current progress only — no projections are being invented."
+        )
+
+        watch_df = pd.DataFrame(milestone_watch_rows)
+        if watch_df.empty:
+            st.caption("Everyone in the tracked history has already reached this milestone, or no eligible candidates are available.")
+        else:
+            watch_df = (
+                watch_df.sort_values(["progress", "remaining", "member"], ascending=[False, True, True])
+                .head(10)
+                .reset_index(drop=True)
+            )
+            watch_df[member_label] = watch_df["member"]
+            if kind in {"team_points", "player_points"}:
+                watch_df["Current"] = watch_df["current"].apply(lambda x: f"{float(x):,.2f}")
+                watch_df["To Go"] = watch_df["remaining"].apply(lambda x: f"{float(x):,.2f}")
+            else:
+                watch_df["Current"] = watch_df["current"].apply(lambda x: f"{int(round(x)):,}")
+                watch_df["To Go"] = watch_df["remaining"].apply(lambda x: f"{int(round(x)):,}")
+            watch_df["Progress"] = watch_df["progress"].apply(lambda x: f"{x:.0%}")
+
+            st.dataframe(
+                watch_df[[member_label, "Current", "To Go", "Progress"]],
+                hide_index=True,
+                use_container_width=True,
+                height=38 + 35 * len(watch_df),
+                column_config={
+                    member_label: st.column_config.TextColumn(member_label, width="large"),
+                    "Current": st.column_config.TextColumn(value_label, width="medium"),
+                    "To Go": st.column_config.TextColumn("To Go", width="medium"),
+                    "Progress": st.column_config.TextColumn("Progress", width="small"),
+                },
+            )
+
+        left, right = st.columns(
+            [1.20, .80],
+            gap="large",
+        )
+
+        with left:
+            st.subheader("Milestone Members")
+
+            board = milestone_df.copy()
+            board["Rank"] = board["Member #"]
+            board[member_label] = board["member"]
+            board["Reached"] = board.apply(
+                milestone_period,
+                axis=1,
+            )
+
+            def milestone_speed_text(row):
+                if kind == "titles":
+                    return (
+                        f"{int(row['seasons_to_reach'])} seasons"
+                        if pd.notna(row.get("seasons_to_reach"))
+                        else "—"
+                    )
+                opportunities = row.get("opportunities_to_reach")
+                seasons = row.get("seasons_to_reach")
+                if pd.isna(opportunities):
+                    return "—"
+                opportunity_label = "starts" if kind in {"player_points", "player_starts"} else "games"
+                result = f"{int(opportunities)} {opportunity_label}"
+                if pd.notna(seasons):
+                    result += f" / {int(seasons)} seasons"
+                return result
+
+            board["Speed"] = board.apply(milestone_speed_text, axis=1)
+
+            if kind in {"team_points", "player_points"}:
+                board["Current"] = board[
+                    "career_total"
+                ].apply(
+                    lambda x: f"{float(x):,.2f}"
+                )
+            else:
+                board["Current"] = board[
+                    "career_total"
+                ].apply(
+                    lambda x: f"{int(round(x)):,}"
+                )
+
+            board.loc[
+                board["Rank"].eq(1),
+                member_label,
+            ] = (
+                "🥇 "
+                + board.loc[
+                    board["Rank"].eq(1),
+                    member_label,
+                ].astype(str)
+            )
+
+            st.dataframe(
+                board[
+                    [
+                        "Rank",
+                        member_label,
+                        "Reached",
+                        "Speed",
+                        "Current",
+                    ]
+                ],
+                hide_index=True,
+                use_container_width=True,
+                height=520,
+                column_config={
+                    "Rank": st.column_config.NumberColumn(
+                        "Rank",
+                        format="#%d",
+                        width="small",
+                    ),
+                    member_label: st.column_config.TextColumn(
+                        member_label,
+                        width="large",
+                    ),
+                    "Reached": st.column_config.TextColumn(
+                        "Reached",
+                        width="medium",
+                    ),
+                    "Speed": st.column_config.TextColumn(
+                        "Speed to Milestone",
+                        width="medium",
+                    ),
+                    "Current": st.column_config.TextColumn(
+                        value_label,
+                        width="medium",
+                    ),
+                },
+            )
+
+        with right:
+            st.subheader("Milestone Timeline")
+            st.caption(
+                "Members are listed in the order they entered the club."
+            )
+
+            timeline = (
+                milestone_df.iloc[::-1]
+                .reset_index(drop=True)
+            )
+
+            for i, row in timeline.iterrows():
+                t1, t2, t3 = st.columns(
+                    [.10, .68, .22],
+                    vertical_alignment="top",
+                )
+
+                is_first = int(row["Member #"]) == 1
+
+                t1.markdown(
+                    "### 🥇"
+                    if is_first
+                    else "### 🎯"
+                )
+
+                t2.markdown(
+                    f"**{row['member']}**"
+                )
+
+                t2.caption(
+                    (
+                        f"{milestone_period(row)}"
+                        f"\n\nMember #{int(row['Member #'])}"
+                    )
+                )
+
+                t3.markdown(
+                    (
+                        "<div style='text-align:right;"
+                        "font-size:1.1rem;font-weight:800;"
+                        "padding-top:.15rem;'>"
+                        f"#{int(row['Member #'])}"
+                        "</div>"
+                    ),
+                    unsafe_allow_html=True,
+                )
+
+                if i < len(timeline) - 1:
+                    st.divider()
+
+
 
 st.divider()
-st.caption('League Record Book • Regular-season franchise/matchup records come from data/history/team_games.csv. Player records currently cover validated weekly lineup history from 2018–2025.')
+st.caption('League Record Book • Regular-season franchise/matchup records come from data/history/team_games.csv. Player records currently cover validated weekly lineup history from 2017–2025.')

@@ -4,6 +4,12 @@ import numpy as np
 from pathlib import Path
 from textwrap import dedent
 
+try:
+    from team_aliases import canonical_team
+except ImportError:
+    def canonical_team(name):
+        return name
+
 
 # ============================================================
 # PAGE CONFIG
@@ -320,6 +326,7 @@ analysis_groups = [
         [
             ("🏈 QB/WR Stacks", "🏈 QB/WR Stacking", True),
             ("🏟️ Positional Edge", "🏟️ Positional Advantage", True),
+            ("📝 Draft Trends", "📝 Draft Trends", True),
             ("👑 Star Dependency", "👑 Star Dependency", False),
         ],
     ),
@@ -1296,6 +1303,848 @@ if analysis_choice == "🏈 QB/WR Stacking":
 # ============================================================
 # BAD BEAT INDEX PAGE
 # ============================================================
+
+
+
+elif analysis_choice == "📝 Draft Trends":
+
+    # ========================================================
+    # DRAFT TRENDS
+    # ========================================================
+
+    st.header("📝 Draft Trends")
+    st.caption(
+        "Historical draft-slot outcomes, roster-building strategy, and franchise "
+        "draft tendencies. This section uses completed drafts only for performance "
+        "analysis; the posted 2026 order is not treated as a completed season."
+    )
+
+    draft_file = BASE_DIR / "data" / "drafts" / "all_drafts.csv"
+    strategy_file = BASE_DIR / "data" / "drafts" / "draft_position_strategy.csv"
+    standings_file = BASE_DIR / "data" / "all_standings.csv"
+    championships_file = BASE_DIR / "data" / "playoffs" / "championships.csv"
+    playoff_file = BASE_DIR / "data" / "playoffs" / "playoff_appearances.csv"
+
+    required_paths = [
+        draft_file,
+        strategy_file,
+        standings_file,
+        championships_file,
+        playoff_file,
+    ]
+
+    missing_paths = [str(path) for path in required_paths if not path.exists()]
+
+    if missing_paths:
+        st.error(
+            "Draft Trends data is incomplete. Run the draft strategy builder and "
+            "confirm the historical standings/playoff files are present."
+        )
+        with st.expander("Missing files"):
+            for path in missing_paths:
+                st.code(path)
+        st.stop()
+
+    drafts_trends = pd.read_csv(draft_file)
+    strategy = pd.read_csv(strategy_file)
+    standings_history = pd.read_csv(standings_file)
+    championships_trends = pd.read_csv(championships_file)
+    playoff_trends = pd.read_csv(playoff_file)
+
+    for frame, cols in [
+        (drafts_trends, ["year", "round", "pick_in_round", "overall_pick"]),
+        (strategy, ["year"]),
+        (standings_history, ["year", "rank", "points_for"]),
+        (championships_trends, ["year"]),
+        (playoff_trends, ["year"]),
+    ]:
+        numeric(frame, cols)
+
+    if "team" in drafts_trends.columns:
+        drafts_trends["team"] = drafts_trends["team"].apply(canonical_team)
+    if "team" in strategy.columns:
+        strategy["team"] = strategy["team"].apply(canonical_team)
+    if "team" in standings_history.columns:
+        standings_history["team"] = standings_history["team"].apply(canonical_team)
+    if "team" in playoff_trends.columns:
+        playoff_trends["team"] = playoff_trends["team"].apply(canonical_team)
+    if "champion" in championships_trends.columns:
+        championships_trends["champion"] = championships_trends["champion"].apply(canonical_team)
+    if "runner_up" in championships_trends.columns:
+        championships_trends["runner_up"] = championships_trends["runner_up"].apply(canonical_team)
+
+    strategy_columns = [
+        "first_qb_overall",
+        "second_qb_overall",
+        "first_rb_overall",
+        "second_rb_overall",
+        "third_rb_overall",
+        "first_wr_overall",
+        "second_wr_overall",
+        "third_wr_overall",
+        "first_te_overall",
+        "first_k_overall",
+        "first_def_overall",
+    ]
+    numeric(strategy, strategy_columns)
+
+    completed_years = sorted(
+        drafts_trends["year"].dropna().astype(int).unique().tolist()
+    )
+
+    def format_round_pick(value):
+        if pd.isna(value):
+            return "—"
+
+        value = float(value)
+        round_number = int((value - 1) // 12) + 1
+        pick_in_round = value - (round_number - 1) * 12
+
+        if abs(pick_in_round - round(pick_in_round)) < 0.05:
+            pick_text = str(int(round(pick_in_round)))
+        else:
+            pick_text = f"{pick_in_round:.1f}"
+
+        return f"R{round_number}, P{pick_text}"
+
+    def format_strategy_difference(value):
+        if pd.isna(value):
+            return "—"
+        return f"{value:+.1f} picks"
+
+    # --------------------------------------------------------
+    # SUB-NAVIGATION
+    # --------------------------------------------------------
+
+    draft_trend_view = st.segmented_control(
+        "Draft analysis",
+        options=[
+            "Draft Slot Outcomes",
+            "Strategy by Finish",
+            "Franchise Tendencies",
+        ],
+        default="Draft Slot Outcomes",
+        key="draft_trends_view",
+    )
+
+    st.divider()
+
+    # ========================================================
+    # DRAFT SLOT OUTCOMES
+    # ========================================================
+
+    if draft_trend_view == "Draft Slot Outcomes":
+
+        st.subheader("🎯 Draft Slot Outcomes")
+        st.caption(
+            "Do earlier first-round draft slots actually lead to better finishes?"
+        )
+
+        first_round_positions = (
+            drafts_trends[drafts_trends["round"] == 1][
+                ["year", "team", "pick_in_round"]
+            ]
+            .copy()
+            .rename(columns={"pick_in_round": "draft_position"})
+        )
+
+        champion_lookup = championships_trends[
+            ["year", "champion", "runner_up"]
+        ].copy()
+
+        team_season_positions = first_round_positions.merge(
+            champion_lookup,
+            on="year",
+            how="left",
+        )
+
+        team_season_positions["is_champion"] = (
+            team_season_positions["team"] == team_season_positions["champion"]
+        )
+        team_season_positions["is_runner_up"] = (
+            team_season_positions["team"] == team_season_positions["runner_up"]
+        )
+
+        playoff_lookup = playoff_trends[
+            ["year", "team", "finish"]
+        ].copy()
+
+        team_season_positions = team_season_positions.merge(
+            playoff_lookup,
+            on=["year", "team"],
+            how="left",
+        )
+        team_season_positions["made_playoffs"] = (
+            team_season_positions["finish"].notna()
+        )
+
+        champion_draft_positions = (
+            championships_trends[["year", "champion"]]
+            .merge(
+                first_round_positions,
+                left_on=["year", "champion"],
+                right_on=["year", "team"],
+                how="left",
+            )
+            .drop(columns=["team"])
+            .rename(
+                columns={
+                    "year": "Season",
+                    "champion": "Champion",
+                    "draft_position": "Draft Position",
+                }
+            )
+            .sort_values("Season", ascending=False)
+        )
+
+        valid_champions = champion_draft_positions.dropna(
+            subset=["Draft Position"]
+        ).copy()
+
+        if valid_champions.empty:
+            st.info("Champion draft-position history is unavailable.")
+        else:
+            avg_champion_position = valid_champions["Draft Position"].mean()
+            earliest_champion = valid_champions.sort_values(
+                "Draft Position"
+            ).iloc[0]
+            latest_champion = valid_champions.sort_values(
+                "Draft Position", ascending=False
+            ).iloc[0]
+
+            c1, c2, c3 = st.columns(3)
+            c1.metric(
+                "Average Champion Slot",
+                f"{avg_champion_position:.1f}",
+            )
+            c2.metric(
+                "Earliest-Drafting Champion",
+                f"Pick {int(earliest_champion['Draft Position'])}",
+                f"{earliest_champion['Champion']} ({int(earliest_champion['Season'])})",
+            )
+            c3.metric(
+                "Latest-Drafting Champion",
+                f"Pick {int(latest_champion['Draft Position'])}",
+                f"{latest_champion['Champion']} ({int(latest_champion['Season'])})",
+            )
+
+        champion_avg = team_season_positions.loc[
+            team_season_positions["is_champion"], "draft_position"
+        ].mean()
+        runner_up_avg = team_season_positions.loc[
+            team_season_positions["is_runner_up"], "draft_position"
+        ].mean()
+        playoff_avg = team_season_positions.loc[
+            team_season_positions["made_playoffs"], "draft_position"
+        ].mean()
+        missed_avg = team_season_positions.loc[
+            ~team_season_positions["made_playoffs"], "draft_position"
+        ].mean()
+
+        st.markdown("### Average Draft Slot by Finish")
+        c1, c2, c3, c4 = st.columns(4)
+        c1.metric("Champions", f"{champion_avg:.1f}")
+        c2.metric("Runner-Ups", f"{runner_up_avg:.1f}")
+        c3.metric("Playoff Teams", f"{playoff_avg:.1f}")
+        c4.metric("Missed Playoffs", f"{missed_avg:.1f}")
+        st.caption("Lower numbers mean the franchise drafted earlier.")
+
+        slot_stats = (
+            team_season_positions
+            .groupby("draft_position")
+            .agg(
+                Seasons=("year", "size"),
+                Championships=("is_champion", "sum"),
+                Runner_Ups=("is_runner_up", "sum"),
+                Playoff_Appearances=("made_playoffs", "sum"),
+            )
+            .reset_index()
+        )
+
+        slot_stats["Finals"] = (
+            slot_stats["Runner_Ups"] + slot_stats["Championships"]
+        )
+        slot_stats["Playoff %"] = (
+            slot_stats["Playoff_Appearances"]
+            / slot_stats["Seasons"]
+            * 100
+        ).round(1)
+        slot_stats["Championship %"] = (
+            slot_stats["Championships"]
+            / slot_stats["Seasons"]
+            * 100
+        ).round(1)
+
+        slot_stats = slot_stats.rename(
+            columns={
+                "draft_position": "Draft Position",
+                "Playoff_Appearances": "Playoff Appearances",
+            }
+        )
+
+        st.markdown("### Results by Draft Slot")
+        st.dataframe(
+            slot_stats[
+                [
+                    "Draft Position",
+                    "Seasons",
+                    "Championships",
+                    "Finals",
+                    "Playoff Appearances",
+                    "Playoff %",
+                    "Championship %",
+                ]
+            ],
+            hide_index=True,
+            use_container_width=True,
+            column_config={
+                "Draft Position": st.column_config.NumberColumn(format="%d"),
+                "Seasons": st.column_config.NumberColumn(format="%d"),
+                "Championships": st.column_config.NumberColumn(format="%d"),
+                "Finals": st.column_config.NumberColumn(format="%d"),
+                "Playoff Appearances": st.column_config.NumberColumn(format="%d"),
+                "Playoff %": st.column_config.NumberColumn(format="%.1f%%"),
+                "Championship %": st.column_config.NumberColumn(format="%.1f%%"),
+            },
+        )
+
+        chart = slot_stats.set_index("Draft Position")[["Championships"]]
+        st.bar_chart(chart, y="Championships", use_container_width=True)
+
+        if not slot_stats.empty:
+            best_slot = (
+                slot_stats
+                .sort_values(
+                    ["Championships", "Playoff %"],
+                    ascending=[False, False],
+                )
+                .iloc[0]
+            )
+            st.info(
+                f"Across {len(completed_years)} completed drafts, slot "
+                f"#{int(best_slot['Draft Position'])} has produced the most "
+                f"championships ({int(best_slot['Championships'])}) and a "
+                f"{best_slot['Playoff %']:.1f}% playoff rate."
+            )
+
+        with st.expander("Champion draft slots by season"):
+            st.dataframe(
+                champion_draft_positions,
+                hide_index=True,
+                use_container_width=True,
+                column_config={
+                    "Season": st.column_config.NumberColumn(format="%d"),
+                    "Draft Position": st.column_config.NumberColumn(format="%d"),
+                },
+            )
+
+    # ========================================================
+    # STRATEGY BY FINISH
+    # ========================================================
+
+    elif draft_trend_view == "Strategy by Finish":
+
+        st.subheader("🧠 Draft Strategy by Finish")
+        st.caption(
+            "Compare when teams addressed each roster-building milestone. "
+            "Lower picks mean that position was addressed earlier."
+        )
+
+        strategy_view_mode = st.radio(
+            "Show draft strategy as",
+            ["Overall Pick", "Round & Pick"],
+            horizontal=True,
+            key="draft_strategy_view_mode_analysis",
+        )
+
+        strategy_years = set(
+            strategy["year"].dropna().astype(int).unique()
+        )
+
+        outcome = strategy.copy()
+
+        champion_lookup_strategy = championships_trends[
+            ["year", "champion", "runner_up"]
+        ].copy()
+
+        outcome = outcome.merge(
+            champion_lookup_strategy,
+            on="year",
+            how="left",
+        )
+
+        outcome["is_champion"] = outcome["team"] == outcome["champion"]
+        outcome["is_runner_up"] = outcome["team"] == outcome["runner_up"]
+
+        playoff_keys = (
+            playoff_trends[
+                playoff_trends["year"].isin(strategy_years)
+            ][["year", "team"]]
+            .drop_duplicates()
+            .assign(made_playoffs=True)
+        )
+
+        outcome = outcome.merge(
+            playoff_keys,
+            on=["year", "team"],
+            how="left",
+        )
+        outcome["made_playoffs"] = (
+            outcome["made_playoffs"].fillna(False).astype(bool)
+        )
+
+        standings_completed = standings_history[
+            standings_history["year"].isin(strategy_years)
+        ].copy()
+
+        def parse_standings_record(record):
+            try:
+                parts = [int(x) for x in str(record).strip().split("-")]
+                if len(parts) == 2:
+                    wins, losses = parts
+                    ties = 0
+                elif len(parts) == 3:
+                    wins, losses, ties = parts
+                else:
+                    raise ValueError
+
+                games = wins + losses + ties
+                win_pct = (wins + 0.5 * ties) / games if games else pd.NA
+
+                return pd.Series(
+                    {
+                        "wins": wins,
+                        "losses": losses,
+                        "ties": ties,
+                        "win_pct": win_pct,
+                    }
+                )
+            except Exception:
+                return pd.Series(
+                    {
+                        "wins": pd.NA,
+                        "losses": pd.NA,
+                        "ties": pd.NA,
+                        "win_pct": pd.NA,
+                    }
+                )
+
+        record_parts = standings_completed["record"].apply(
+            parse_standings_record
+        )
+        standings_completed = pd.concat(
+            [standings_completed, record_parts],
+            axis=1,
+        )
+
+        cellar_rows = (
+            standings_completed
+            .dropna(subset=["win_pct", "points_for"])
+            .sort_values(
+                ["year", "win_pct", "points_for"],
+                ascending=[True, True, True],
+            )
+            .groupby("year", as_index=False)
+            .first()[
+                ["year", "team", "record", "points_for", "win_pct"]
+            ]
+            .rename(
+                columns={
+                    "team": "cellar_boy",
+                    "record": "cellar_record",
+                    "points_for": "cellar_points_for",
+                    "win_pct": "cellar_win_pct",
+                }
+            )
+        )
+
+        outcome = outcome.merge(
+            cellar_rows,
+            on="year",
+            how="left",
+        )
+        outcome["is_cellar_boy"] = (
+            outcome["team"] == outcome["cellar_boy"]
+        )
+
+        main_metrics = {
+            "first_qb_overall": "1st QB",
+            "second_qb_overall": "2nd QB",
+            "first_rb_overall": "1st RB",
+            "second_rb_overall": "2nd RB",
+            "third_rb_overall": "3rd RB",
+            "first_wr_overall": "1st WR",
+            "second_wr_overall": "2nd WR",
+            "third_wr_overall": "3rd WR",
+            "first_te_overall": "1st TE",
+        }
+
+        def strategy_group_row(label, frame):
+            row = {
+                "Finish": label,
+                "Team-Seasons": len(frame),
+            }
+            for source, display in main_metrics.items():
+                row[display] = frame[source].mean()
+            return row
+
+        strategy_finish_table = pd.DataFrame(
+            [
+                strategy_group_row(
+                    "Champions",
+                    outcome[outcome["is_champion"]],
+                ),
+                strategy_group_row(
+                    "Runner-Ups",
+                    outcome[outcome["is_runner_up"]],
+                ),
+                strategy_group_row(
+                    "Playoff Teams",
+                    outcome[outcome["made_playoffs"]],
+                ),
+                strategy_group_row(
+                    "Non-Playoff Teams",
+                    outcome[~outcome["made_playoffs"]],
+                ),
+                strategy_group_row(
+                    "Cellar Boy",
+                    outcome[outcome["is_cellar_boy"]],
+                ),
+                strategy_group_row(
+                    "League Average",
+                    outcome,
+                ),
+            ]
+        )
+
+        for col in main_metrics.values():
+            strategy_finish_table[col] = (
+                strategy_finish_table[col].round(1)
+            )
+
+        display = strategy_finish_table.copy()
+
+        if strategy_view_mode == "Round & Pick":
+            for col in main_metrics.values():
+                display[col] = display[col].apply(format_round_pick)
+            column_config = {
+                "Team-Seasons": st.column_config.NumberColumn(format="%d")
+            }
+        else:
+            column_config = {
+                "Team-Seasons": st.column_config.NumberColumn(format="%d"),
+                **{
+                    col: st.column_config.NumberColumn(format="%.1f")
+                    for col in main_metrics.values()
+                },
+            }
+
+        st.markdown("### Average Position-Building Picks")
+        st.dataframe(
+            display,
+            hide_index=True,
+            use_container_width=True,
+            column_config=column_config,
+        )
+
+        st.markdown("### Kicker & Defense Strategy")
+
+        special_rows = []
+        for label, frame in [
+            ("Champions", outcome[outcome["is_champion"]]),
+            ("Runner-Ups", outcome[outcome["is_runner_up"]]),
+            ("Playoff Teams", outcome[outcome["made_playoffs"]]),
+            ("Non-Playoff Teams", outcome[~outcome["made_playoffs"]]),
+            ("Cellar Boy", outcome[outcome["is_cellar_boy"]]),
+            ("League Average", outcome),
+        ]:
+            special_rows.append(
+                {
+                    "Finish": label,
+                    "1st K": frame["first_k_overall"].mean(),
+                    "1st DEF": frame["first_def_overall"].mean(),
+                }
+            )
+
+        special_table = pd.DataFrame(special_rows)
+        special_table[["1st K", "1st DEF"]] = (
+            special_table[["1st K", "1st DEF"]].round(1)
+        )
+
+        if strategy_view_mode == "Round & Pick":
+            special_display = special_table.copy()
+            for col in ["1st K", "1st DEF"]:
+                special_display[col] = special_display[col].apply(
+                    format_round_pick
+                )
+            special_config = {}
+        else:
+            special_display = special_table
+            special_config = {
+                "1st K": st.column_config.NumberColumn(format="%.1f"),
+                "1st DEF": st.column_config.NumberColumn(format="%.1f"),
+            }
+
+        st.dataframe(
+            special_display,
+            hide_index=True,
+            use_container_width=True,
+            column_config=special_config,
+        )
+
+        with st.expander("Cellar Boy by Season"):
+            cellar_display = (
+                cellar_rows
+                .rename(
+                    columns={
+                        "year": "Season",
+                        "cellar_boy": "Cellar Boy",
+                        "cellar_record": "Record",
+                        "cellar_points_for": "Points For",
+                        "cellar_win_pct": "Win %",
+                    }
+                )
+                .sort_values("Season", ascending=False)
+            )
+
+            st.dataframe(
+                cellar_display,
+                hide_index=True,
+                use_container_width=True,
+                column_config={
+                    "Season": st.column_config.NumberColumn(format="%d"),
+                    "Points For": st.column_config.NumberColumn(format="%.2f"),
+                    "Win %": st.column_config.NumberColumn(format="%.3f"),
+                },
+            )
+
+    # ========================================================
+    # FRANCHISE TENDENCIES
+    # ========================================================
+
+    else:
+
+        st.subheader("🏗️ Franchise Draft Tendencies")
+        st.caption(
+            "How each franchise historically built its roster, measured by "
+            "the average overall pick used on each positional milestone."
+        )
+
+        strategy_view_mode = st.radio(
+            "Show draft strategy as",
+            ["Overall Pick", "Round & Pick"],
+            horizontal=True,
+            key="draft_tendencies_view_mode_analysis",
+        )
+
+        strategy_teams = sorted(
+            strategy["team"].dropna().unique()
+        )
+
+        strategy_team = st.selectbox(
+            "Choose a franchise",
+            strategy_teams,
+            key="analysis_strategy_franchise",
+        )
+
+        franchise_strategy = (
+            strategy[strategy["team"] == strategy_team]
+            .copy()
+            .sort_values("year")
+        )
+
+        comparison_metrics = {
+            "first_qb_overall": "1st QB",
+            "second_qb_overall": "2nd QB",
+            "first_rb_overall": "1st RB",
+            "second_rb_overall": "2nd RB",
+            "third_rb_overall": "3rd RB",
+            "first_wr_overall": "1st WR",
+            "second_wr_overall": "2nd WR",
+            "third_wr_overall": "3rd WR",
+            "first_te_overall": "1st TE",
+            "first_k_overall": "1st K",
+            "first_def_overall": "1st DEF",
+        }
+
+        comparison_rows = []
+        for source, display_name in comparison_metrics.items():
+            team_avg = franchise_strategy[source].mean()
+            league_avg = strategy[source].mean()
+            comparison_rows.append(
+                {
+                    "Position Slot": display_name,
+                    "Franchise Avg Pick": team_avg,
+                    "League Avg Pick": league_avg,
+                    "Difference": team_avg - league_avg,
+                }
+            )
+
+        franchise_comparison = pd.DataFrame(comparison_rows)
+        franchise_comparison[
+            ["Franchise Avg Pick", "League Avg Pick", "Difference"]
+        ] = franchise_comparison[
+            ["Franchise Avg Pick", "League Avg Pick", "Difference"]
+        ].round(1)
+
+        c1, c2, c3 = st.columns(3)
+        c1.metric(
+            "Drafts Analyzed",
+            franchise_strategy["year"].nunique(),
+        )
+
+        first_qb_avg = franchise_strategy["first_qb_overall"].mean()
+        first_rb_avg = franchise_strategy["first_rb_overall"].mean()
+
+        c2.metric(
+            "Average 1st QB Pick",
+            (
+                format_round_pick(first_qb_avg)
+                if strategy_view_mode == "Round & Pick"
+                else (f"{first_qb_avg:.1f}" if pd.notna(first_qb_avg) else "—")
+            ),
+        )
+        c3.metric(
+            "Average 1st RB Pick",
+            (
+                format_round_pick(first_rb_avg)
+                if strategy_view_mode == "Round & Pick"
+                else (f"{first_rb_avg:.1f}" if pd.notna(first_rb_avg) else "—")
+            ),
+        )
+
+        st.markdown("### Franchise vs. League")
+
+        comparison_display = franchise_comparison.copy()
+
+        if strategy_view_mode == "Round & Pick":
+            for col in ["Franchise Avg Pick", "League Avg Pick"]:
+                comparison_display[col] = comparison_display[col].apply(
+                    format_round_pick
+                )
+            comparison_display["Difference"] = comparison_display[
+                "Difference"
+            ].apply(format_strategy_difference)
+            comparison_config = {}
+        else:
+            comparison_config = {
+                "Franchise Avg Pick": st.column_config.NumberColumn(format="%.1f"),
+                "League Avg Pick": st.column_config.NumberColumn(format="%.1f"),
+                "Difference": st.column_config.NumberColumn(
+                    format="%+.1f",
+                    help=(
+                        "Negative means this franchise drafts the position "
+                        "earlier than league average; positive means later."
+                    ),
+                ),
+            }
+
+        st.dataframe(
+            comparison_display,
+            hide_index=True,
+            use_container_width=True,
+            column_config=comparison_config,
+        )
+
+        st.caption(
+            "Negative differences mean the franchise addressed that position "
+            "earlier than league average. Positive differences mean it waited longer."
+        )
+
+        st.markdown("### Year-by-Year Draft Strategy")
+
+        year_columns = {
+            "year": "Season",
+            **comparison_metrics,
+        }
+
+        year_by_year = (
+            franchise_strategy[list(year_columns.keys())]
+            .rename(columns=year_columns)
+            .sort_values("Season", ascending=False)
+        )
+
+        year_by_year_display = year_by_year.copy()
+        if strategy_view_mode == "Round & Pick":
+            for col in comparison_metrics.values():
+                year_by_year_display[col] = year_by_year_display[col].apply(
+                    format_round_pick
+                )
+            year_config = {
+                "Season": st.column_config.NumberColumn(format="%d")
+            }
+        else:
+            year_config = {
+                "Season": st.column_config.NumberColumn(format="%d"),
+                **{
+                    col: st.column_config.NumberColumn(format="%.1f")
+                    for col in comparison_metrics.values()
+                },
+            }
+
+        st.dataframe(
+            year_by_year_display,
+            hide_index=True,
+            use_container_width=True,
+            column_config=year_config,
+        )
+
+        with st.expander("All-Franchise Strategy Averages"):
+            franchise_average_table = (
+                strategy
+                .groupby("team")[list(comparison_metrics.keys())]
+                .mean()
+                .rename(columns=comparison_metrics)
+                .round(1)
+                .reset_index()
+                .rename(columns={"team": "Franchise"})
+                .sort_values("Franchise")
+            )
+
+            franchise_average_display = franchise_average_table.copy()
+
+            if strategy_view_mode == "Round & Pick":
+                for col in comparison_metrics.values():
+                    franchise_average_display[col] = (
+                        franchise_average_display[col].apply(format_round_pick)
+                    )
+                franchise_average_config = {}
+            else:
+                franchise_average_config = {
+                    display_name: st.column_config.NumberColumn(format="%.1f")
+                    for display_name in comparison_metrics.values()
+                }
+
+            st.dataframe(
+                franchise_average_display,
+                hide_index=True,
+                use_container_width=True,
+                column_config=franchise_average_config,
+            )
+
+    with st.expander("Methodology & scope"):
+        st.markdown(
+            """
+            **Draft Slot Outcomes**
+            uses each franchise's first-round draft position from completed
+            drafts and compares that slot with playoff, finals, and championship
+            outcomes from the same season.
+
+            **Strategy by Finish**
+            measures the overall pick where a team first addressed QB, RB, WR,
+            TE, K and DEF roster-building milestones, then compares champions,
+            runner-ups, playoff teams, non-playoff teams, and the season's
+            lowest regular-season finisher.
+
+            **Franchise Tendencies**
+            compares each franchise's historical position-building timing with
+            the league average.
+
+            These are descriptive historical patterns, not proof that drafting
+            from a particular slot or selecting a position at a particular time
+            causes better results.
+            """
+        )
 
 
 elif analysis_choice == "📈 Draft Value":
@@ -7794,4 +8643,3 @@ elif analysis_choice == "🪑 Bench Decisions":
             decision at the time.
             """
         )
-
