@@ -1,5 +1,19 @@
 import streamlit as st
 import pandas as pd
+from pathlib import Path
+
+try:
+    from team_aliases import canonical_team
+except ImportError:
+    def canonical_team(name):
+        aliases = {
+            "PickUpYourBratsMalle": "ThreatLevelMidnight",
+            "Little Red Fournette": "Post Mahomes",
+            "Ur The Best Bellows": "Joe Mantegna",
+            "You Better Park It": "Buttermilk Puuump",
+            "Buttermilk Pump": "Buttermilk Puuump",
+        }
+        return aliases.get(name, name)
 
 
 # ---------------------------------------------------------
@@ -13,119 +27,173 @@ st.set_page_config(
     initial_sidebar_state="collapsed",
 )
 
+BASE_DIR = Path(__file__).resolve().parent
 
-# ---------------------------------------------------------
-# SAMPLE DATA
-# ---------------------------------------------------------
+CURRENT_SEASON = 2026
 
-teams = [
-    {
-        "Team": "The Fighting Mongooses",
-        "Owner": "Steve",
-        "W": 8,
-        "L": 2,
-        "PF": 1245.7,
-        "PA": 1087.3,
-    },
-    {
-        "Team": "Team Suck It",
-        "Owner": "Dave",
-        "W": 7,
-        "L": 3,
-        "PF": 1212.4,
-        "PA": 1121.8,
-    },
-    {
-        "Team": "The Winners",
-        "Owner": "Mike",
-        "W": 6,
-        "L": 4,
-        "PF": 1198.6,
-        "PA": 1143.2,
-    },
-    {
-        "Team": "Sunday Scaries",
-        "Owner": "Chris",
-        "W": 5,
-        "L": 5,
-        "PF": 1172.1,
-        "PA": 1168.4,
-    },
-    {
-        "Team": "Gridiron Idiots",
-        "Owner": "Jeff",
-        "W": 5,
-        "L": 5,
-        "PF": 1103.8,
-        "PA": 1187.5,
-    },
-    {
-        "Team": "Fourth and Drunk",
-        "Owner": "Matt",
-        "W": 4,
-        "L": 6,
-        "PF": 1088.2,
-        "PA": 1192.7,
-    },
-    {
-        "Team": "The Waiver Wire Warriors",
-        "Owner": "Tom",
-        "W": 4,
-        "L": 6,
-        "PF": 1064.5,
-        "PA": 1201.3,
-    },
-    {
-        "Team": "Points Are Overrated",
-        "Owner": "Ryan",
-        "W": 3,
-        "L": 7,
-        "PF": 1011.6,
-        "PA": 1234.9,
-    },
-    {
-        "Team": "The Bye Week Bandits",
-        "Owner": "Jason",
-        "W": 3,
-        "L": 7,
-        "PF": 998.3,
-        "PA": 1251.8,
-    },
-    {
-        "Team": "Auto Draft Heroes",
-        "Owner": "Kevin",
-        "W": 2,
-        "L": 8,
-        "PF": 941.2,
-        "PA": 1278.6,
-    },
-    {
-        "Team": "Commissioner's Mistake",
-        "Owner": "Malle",
-        "W": 2,
-        "L": 8,
-        "PF": 921.7,
-        "PA": 1302.4,
-    },
-    {
-        "Team": "Participation Trophy",
-        "Owner": "Alex",
-        "W": 1,
-        "L": 9,
-        "PF": 876.4,
-        "PA": 1331.7,
-    },
+CURRENT_TEAMS = [
+    "malle_dips_pouches",
+    "Patty Primetimes",
+    "Joe Mantegna",
+    "Malle ❤️ 🐸",
+    "Buttermilk Puuump",
+    "ThreatLevelMidnight",
+    "The Big Gronkowski",
+    "Pop Lockett Drop it",
+    "Voldemort",
+    "Post Mahomes",
+    "Uncle Rico",
+    "Ginger FC",
 ]
 
+STANDINGS_FILE = BASE_DIR / "data" / "all_standings.csv"
+MATCHUPS_FILE = BASE_DIR / "data" / "all_matchups_clean_2017_2025.csv"
+CHAMPIONSHIPS_FILE = BASE_DIR / "data" / "playoffs" / "championships.csv"
 
-standings = pd.DataFrame(teams)
 
-standings = standings.sort_values(
-    by=["W", "PF"],
-    ascending=[False, False]
-).reset_index(drop=True)
+# ---------------------------------------------------------
+# DATA HELPERS
+# ---------------------------------------------------------
 
-standings.insert(0, "Rank", range(1, len(standings) + 1))
+@st.cache_data
+def load_csv(path):
+    if not path.exists():
+        return pd.DataFrame()
+
+    try:
+        return pd.read_csv(path)
+    except Exception:
+        return pd.DataFrame()
+
+
+def normalize_team_columns(df):
+    df = df.copy()
+
+    for col in [
+        "team",
+        "fantasy_team",
+        "opponent",
+        "champion",
+        "runner_up",
+    ]:
+        if col in df.columns:
+            df[col] = df[col].apply(canonical_team)
+
+    return df
+
+
+def current_standings():
+    # 2026 has not started yet. Show the real league field at 0-0
+    # instead of attempting to interpret incomplete/future standings rows.
+    return pd.DataFrame(
+        {
+            "Rank": range(1, len(CURRENT_TEAMS) + 1),
+            "Team": CURRENT_TEAMS,
+            "W": 0,
+            "L": 0,
+            "T": 0,
+            "PF": 0.0,
+            "PA": 0.0,
+        }
+    )
+
+
+def latest_completed_standings():
+    standings = normalize_team_columns(load_csv(STANDINGS_FILE))
+
+    if standings.empty or "year" not in standings.columns:
+        return pd.DataFrame(), None
+
+    standings["year"] = pd.to_numeric(
+        standings["year"],
+        errors="coerce",
+    )
+
+    completed = standings[
+        standings["year"] < CURRENT_SEASON
+    ].copy()
+
+    if completed.empty:
+        return pd.DataFrame(), None
+
+    year = int(completed["year"].max())
+    latest = completed[completed["year"] == year].copy()
+
+    if "rank" in latest.columns:
+        latest["rank"] = pd.to_numeric(
+            latest["rank"],
+            errors="coerce",
+        )
+        latest = latest.sort_values(
+            ["rank", "team"],
+            ascending=[True, True],
+        )
+    elif {"wins", "points_for"}.issubset(latest.columns):
+        latest["wins"] = pd.to_numeric(
+            latest["wins"],
+            errors="coerce",
+        )
+        latest["points_for"] = pd.to_numeric(
+            latest["points_for"],
+            errors="coerce",
+        )
+        latest = latest.sort_values(
+            ["wins", "points_for"],
+            ascending=[False, False],
+        )
+
+    return latest.reset_index(drop=True), year
+
+
+def league_records():
+    games = normalize_team_columns(load_csv(MATCHUPS_FILE))
+
+    if games.empty:
+        return None
+
+    # Support either team-row or matchup-row clean schemas.
+    if {"team_score", "opponent_score"}.issubset(games.columns):
+        team_score = pd.to_numeric(
+            games["team_score"],
+            errors="coerce",
+        )
+        opp_score = pd.to_numeric(
+            games["opponent_score"],
+            errors="coerce",
+        )
+
+        scores = team_score.dropna()
+        margins = (team_score - opp_score).abs().dropna()
+
+    elif {"team_1_score", "team_2_score"}.issubset(games.columns):
+        s1 = pd.to_numeric(
+            games["team_1_score"],
+            errors="coerce",
+        )
+        s2 = pd.to_numeric(
+            games["team_2_score"],
+            errors="coerce",
+        )
+
+        scores = pd.concat([s1, s2]).dropna()
+        margins = (s1 - s2).abs().dropna()
+
+    else:
+        return None
+
+    if scores.empty or margins.empty:
+        return None
+
+    return {
+        "high": float(scores.max()),
+        "low": float(scores.min()),
+        "blowout": float(margins.max()),
+    }
+
+
+standings = current_standings()
+latest_standings, latest_year = latest_completed_standings()
+records = league_records()
 
 
 # ---------------------------------------------------------
@@ -157,23 +225,6 @@ st.markdown(
         margin-bottom: 1rem;
     }
 
-    .news-card {
-        padding: 1.2rem;
-        border-radius: 10px;
-        border: 1px solid rgba(128,128,128,.3);
-        margin-bottom: 1rem;
-    }
-
-    .news-headline {
-        font-size: 1.25rem;
-        font-weight: 800;
-    }
-
-    .small-text {
-        font-size: .9rem;
-        opacity: .75;
-    }
-
     </style>
     """,
     unsafe_allow_html=True,
@@ -191,12 +242,12 @@ with st.sidebar:
     st.markdown("---")
 
     st.markdown("### Current Season")
-    st.markdown("**2026**")
+    st.markdown(f"**{CURRENT_SEASON}**")
 
     st.markdown("---")
 
     st.markdown("### League History")
-    st.markdown("2017 → 2026")
+    st.markdown(f"2017 → {CURRENT_SEASON}")
 
     st.markdown("---")
 
@@ -229,72 +280,77 @@ st.divider()
 # TOP METRICS
 # ---------------------------------------------------------
 
+completed_seasons = (
+    int(latest_year) - 2017 + 1
+    if latest_year is not None
+    else 0
+)
+
 col1, col2, col3, col4 = st.columns(4)
 
-with col1:
-    st.metric(
-        "Teams",
-        "12",
-    )
+col1.metric("Teams", len(CURRENT_TEAMS))
+col2.metric("Completed Seasons", completed_seasons)
+col3.metric("Current Season", CURRENT_SEASON)
 
-with col2:
-    st.metric(
-        "Seasons",
-        "10",
-    )
+if latest_year is not None:
+    championships = normalize_team_columns(load_csv(CHAMPIONSHIPS_FILE))
+    latest_champion = "—"
 
-with col3:
-    st.metric(
-        "Current Season",
-        "2026",
-    )
+    if (
+        not championships.empty
+        and {"year", "champion"}.issubset(championships.columns)
+    ):
+        championships["year"] = pd.to_numeric(
+            championships["year"],
+            errors="coerce",
+        )
+        row = championships[
+            championships["year"] == latest_year
+        ]
 
-with col4:
-    st.metric(
-        "Commissioner Rating",
-        "14/100",
-        delta="-3",
+        if not row.empty:
+            latest_champion = str(row.iloc[0]["champion"])
+
+    col4.metric(
+        f"{latest_year} Champion",
+        latest_champion,
     )
+else:
+    col4.metric("Latest Champion", "—")
 
 
 # ---------------------------------------------------------
-# COMMISSIONER WATCH
-# ---------------------------------------------------------
-
-st.markdown(
-    '<div class="section-title">🚨 COMMISSIONER WATCH</div>',
-    unsafe_allow_html=True,
-)
-
-st.warning(
-    """
-    **Commissioner Malle has once again demonstrated a complete disregard
-    for the well-being of the league.**
-
-    League officials are currently investigating how someone with
-    administrative privileges has managed to make the league worse every
-    single year since 2017.
-
-    **Current Commissioner Rating: 14/100**
-    """
-)
-
-
-# ---------------------------------------------------------
-# STANDINGS
+# CURRENT STANDINGS
 # ---------------------------------------------------------
 
 st.markdown(
-    '<div class="section-title">🏆 2026 STANDINGS</div>',
+    f'<div class="section-title">🏆 {CURRENT_SEASON} STANDINGS</div>',
     unsafe_allow_html=True,
 )
 
-display_standings = standings[
-    ["Rank", "Team", "Owner", "W", "L", "PF", "PA"]
-].copy()
+st.caption(
+    "The 2026 regular season has not started yet. "
+    "These are the actual 12 franchises, shown at 0-0."
+)
 
-display_standings["PF"] = display_standings["PF"].round(1)
-display_standings["PA"] = display_standings["PA"].round(1)
+display_cols = [
+    col
+    for col in ["Rank", "Team", "W", "L", "T", "PF", "PA"]
+    if col in standings.columns
+]
+
+display_standings = standings[display_cols].copy()
+
+for col in ["PF", "PA"]:
+    if col in display_standings.columns:
+        display_standings[col] = (
+            pd.to_numeric(
+                display_standings[col],
+                errors="coerce",
+            )
+            .fillna(0)
+            .round(1)
+        )
 
 st.dataframe(
     display_standings,
@@ -304,88 +360,61 @@ st.dataframe(
 
 
 # ---------------------------------------------------------
-# POWER RANKINGS
+# LATEST COMPLETED SEASON
 # ---------------------------------------------------------
 
-st.markdown(
-    '<div class="section-title">🔥 TOTALLY SCIENTIFIC POWER RANKINGS</div>',
-    unsafe_allow_html=True,
-)
-
-power_rankings = [
-    ("The Fighting Mongooses", "Probably legitimate."),
-    ("Team Suck It", "Suspiciously competent."),
-    ("The Winners", "Name checks out."),
-    ("Sunday Scaries", "Terrified of Monday."),
-    ("Gridiron Idiots", "The name is accurate."),
-    ("Fourth and Drunk", "At least they're consistent."),
-    ("Waiver Wire Warriors", "Living exclusively on hope."),
-    ("Points Are Overrated", "They certainly seem to think so."),
-    ("Bye Week Bandits", "They keep forgetting their players."),
-    ("Auto Draft Heroes", "Technology is doing most of the work."),
-    ("Commissioner's Mistake", "The mistake was letting Malle play."),
-    ("Participation Trophy", "Congratulations on participating."),
-]
-
-for i, (team, commentary) in enumerate(power_rankings, start=1):
-
-    col1, col2, col3 = st.columns([1, 4, 5])
-
-    with col1:
-        st.write(f"**#{i}**")
-
-    with col2:
-        st.write(f"**{team}**")
-
-    with col3:
-        st.write(commentary)
-
-
-# ---------------------------------------------------------
-# LEAGUE NEWS
-# ---------------------------------------------------------
-
-st.markdown(
-    '<div class="section-title">📰 THE LEAGUE PRESS</div>',
-    unsafe_allow_html=True,
-)
-
-news = [
-    (
-        "BREAKING: Local Manager Discovers the Waiver Wire",
-        "After nine consecutive weeks of starting injured players, "
-        "sources confirm that one manager has finally discovered "
-        "the waiver wire. Scientists are calling it 'an unprecedented breakthrough.'",
-    ),
-    (
-        "Commissioner Denies Any Wrongdoing",
-        "Malle released a statement Tuesday insisting that every "
-        "controversial league decision since 2017 was 'completely reasonable.' "
-        "Nobody interviewed for this article agreed.",
-    ),
-    (
-        "Team Owner Claims 3–7 Record Is Actually Encouraging",
-        "The owner explained that the team is 'statistically better than "
-        "the record suggests.' Experts have confirmed that this is "
-        "something people say when their record is 3–7.",
-    ),
-]
-
-for headline, article in news:
+if not latest_standings.empty and latest_year is not None:
 
     st.markdown(
-        f"""
-        <div class="news-card">
-            <div class="news-headline">{headline}</div>
-            <p>{article}</p>
-        </div>
-        """,
+        f'<div class="section-title">📊 {latest_year} FINAL REGULAR-SEASON STANDINGS</div>',
         unsafe_allow_html=True,
+    )
+
+    latest_display = latest_standings.copy()
+
+    rename_map = {
+        "rank": "Rank",
+        "team": "Team",
+        "record": "Record",
+        "wins": "W",
+        "losses": "L",
+        "ties": "T",
+        "points_for": "PF",
+        "points_against": "PA",
+    }
+
+    latest_display = latest_display.rename(
+        columns={
+            key: value
+            for key, value in rename_map.items()
+            if key in latest_display.columns
+        }
+    )
+
+    wanted = [
+        col
+        for col in [
+            "Rank",
+            "Team",
+            "Record",
+            "W",
+            "L",
+            "T",
+            "PF",
+            "PA",
+        ]
+        if col in latest_display.columns
+    ]
+
+    st.dataframe(
+        latest_display[wanted],
+        use_container_width=True,
+        hide_index=True,
     )
 
 
 # ---------------------------------------------------------
-# RECORDS
+# LEAGUE RECORDS
 # ---------------------------------------------------------
 
 st.markdown(
@@ -393,24 +422,26 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-record_col1, record_col2, record_col3 = st.columns(3)
+if records is None:
+    st.caption(
+        "Historical matchup data is not available on this deployment."
+    )
+else:
+    record_col1, record_col2, record_col3 = st.columns(3)
 
-with record_col1:
-    st.metric(
+    record_col1.metric(
         "Highest Single-Week Score",
-        "214.82",
+        f"{records['high']:.2f}",
     )
 
-with record_col2:
-    st.metric(
+    record_col2.metric(
         "Lowest Single-Week Score",
-        "51.34",
+        f"{records['low']:.2f}",
     )
 
-with record_col3:
-    st.metric(
+    record_col3.metric(
         "Biggest Blowout",
-        "103.41 pts",
+        f"{records['blowout']:.2f} pts",
     )
 
 
@@ -422,5 +453,5 @@ st.divider()
 
 st.caption(
     "Malle Is The Worst Commissioner • Est. 2017 • "
-    "Currently surviving against all odds"
+    "Historical data updates from the league archive"
 )
