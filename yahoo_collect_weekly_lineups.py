@@ -9,14 +9,19 @@ from typing import Any
 import pandas as pd
 from playwright.sync_api import sync_playwright, Page
 
+from season_config import CURRENT_SEASON, YAHOO_LEAGUE_IDS, REGULAR_SEASON_END_WEEK
+
 
 # =============================================================================
 # SETTINGS — VALIDATION RUN V2
 # =============================================================================
 
 KNOWN_LEAGUE_IDS = {
-    2025: "637567",
+    year: league_id
+    for year, league_id in YAHOO_LEAGUE_IDS.items()
+    if 2017 <= year <= CURRENT_SEASON
 }
+
 
 print()
 print("Yahoo lineup season collector")
@@ -31,10 +36,10 @@ while True:
         print("Enter a four-digit season such as 2024.")
         continue
 
-    if 2017 <= YEAR <= 2025:
+    if 2017 <= YEAR <= CURRENT_SEASON:
         break
 
-    print("Enter a season from 2017 through 2025.")
+    print(f"Enter a season from 2017 through {CURRENT_SEASON}.")
 
 
 LEAGUE_ID = KNOWN_LEAGUE_IDS.get(YEAR)
@@ -60,16 +65,8 @@ if not LEAGUE_ID:
         print("Enter digits only for the Yahoo league ID.")
 
 
-REGULAR_SEASON_END = {
-    2018: 13,
-    2019: 13,
-    2020: 13,
-    2021: 14,
-    2022: 14,
-    2023: 14,
-    2024: 14,
-    2025: 14,
-}
+REGULAR_SEASON_END = REGULAR_SEASON_END_WEEK
+
 
 START_WEEK = 1
 END_WEEK = REGULAR_SEASON_END[YEAR]

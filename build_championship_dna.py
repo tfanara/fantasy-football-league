@@ -2,6 +2,11 @@ from pathlib import Path
 import pandas as pd
 import numpy as np
 
+from season_config import (
+    LAST_COMPLETED_SEASON,
+    print_season_config,
+)
+
 
 # ============================================================
 # PATHS
@@ -77,12 +82,66 @@ def canon(team):
 print("=" * 90)
 print("CHAMPIONSHIP DNA")
 print("=" * 90)
+print_season_config()
 
 games = pd.read_csv(MATCHUPS)
 eff = pd.read_csv(EFFICIENCY)
 draft = pd.read_csv(DRAFT)
 waiver = pd.read_csv(WAIVER)
 champ_rosters = pd.read_csv(CHAMP_ROSTERS)
+
+season_frames = {
+    "matchups": games,
+    "lineup efficiency": eff,
+    "draft value": draft,
+    "waiver value": waiver,
+    "championship rosters": champ_rosters,
+}
+
+for label, frame in season_frames.items():
+    if "year" not in frame.columns:
+        raise RuntimeError(
+            f"{label} input is missing required column: year"
+        )
+
+    frame["year"] = pd.to_numeric(
+        frame["year"],
+        errors="coerce",
+    )
+
+    if frame["year"].isna().any():
+        raise RuntimeError(
+            f"{label} input contains "
+            f"{int(frame['year'].isna().sum())} invalid year rows."
+        )
+
+    frame["year"] = frame["year"].astype(int)
+
+    future_count = int(
+        (frame["year"] > LAST_COMPLETED_SEASON).sum()
+    )
+
+    if future_count:
+        print(
+            f"Excluding {future_count:,} {label} rows after "
+            f"LAST_COMPLETED_SEASON={LAST_COMPLETED_SEASON}."
+        )
+
+games = games[
+    games["year"] <= LAST_COMPLETED_SEASON
+].copy()
+eff = eff[
+    eff["year"] <= LAST_COMPLETED_SEASON
+].copy()
+draft = draft[
+    draft["year"] <= LAST_COMPLETED_SEASON
+].copy()
+waiver = waiver[
+    waiver["year"] <= LAST_COMPLETED_SEASON
+].copy()
+champ_rosters = champ_rosters[
+    champ_rosters["year"] <= LAST_COMPLETED_SEASON
+].copy()
 
 
 # ============================================================
@@ -105,9 +164,14 @@ champions = champions[
     ["year", "team"]
 ].copy()
 
-if len(champions) != 9:
+expected_completed_seasons = (
+    LAST_COMPLETED_SEASON - 2017 + 1
+)
+
+if len(champions) != expected_completed_seasons:
     raise RuntimeError(
-        f"Expected 9 champions; found {len(champions)}."
+        f"Expected {expected_completed_seasons} champions through "
+        f"{LAST_COMPLETED_SEASON}; found {len(champions)}."
     )
 
 if champions["year"].duplicated().any():
@@ -701,14 +765,41 @@ print(
     ),
 )
 
-if len(dna) != 108:
+season_counts = (
+    dna.groupby("year")
+    .size()
+    .sort_index()
+)
+
+bad_season_counts = season_counts[
+    season_counts != 12
+]
+
+if not bad_season_counts.empty:
     raise RuntimeError(
-        "Expected 108 team-seasons."
+        "Expected 12 team-seasons in every completed season. "
+        f"Found: {bad_season_counts.to_dict()}"
     )
 
-if dna["is_champion"].sum() != 9:
+expected_team_seasons = (
+    expected_completed_seasons * 12
+)
+
+if len(dna) != expected_team_seasons:
     raise RuntimeError(
-        "Expected 9 champion seasons."
+        f"Expected {expected_team_seasons} team-seasons through "
+        f"{LAST_COMPLETED_SEASON}; found {len(dna)}."
+    )
+
+if int(dna["is_champion"].sum()) != expected_completed_seasons:
+    raise RuntimeError(
+        f"Expected {expected_completed_seasons} champion seasons through "
+        f"{LAST_COMPLETED_SEASON}."
+    )
+
+if (dna["year"] > LAST_COMPLETED_SEASON).any():
+    raise RuntimeError(
+        "Incomplete/future season leaked into Championship DNA output."
     )
 
 if dna[

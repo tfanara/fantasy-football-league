@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 from pathlib import Path
 
+from season_config import LAST_COMPLETED_SEASON
+
 
 # ============================================================
 # PAGE CONFIG
@@ -49,7 +51,7 @@ PLAYER_WEEK_DIR = (
 
 WEEKLY_LINEUPS_FILE = (
     PLAYER_WEEK_DIR
-    / "all_weekly_lineups_2017_2025.csv"
+    / "all_weekly_lineups.csv"
 )
 
 LUCK_DIR = PLAYER_WEEK_DIR / "analysis"
@@ -771,8 +773,13 @@ else:
         )
 
 
+    completed_luck_seasons = team_luck_seasons[
+        pd.to_numeric(team_luck_seasons["year"], errors="coerce")
+        .le(LAST_COMPLETED_SEASON)
+    ].copy()
+
     luckiest_season = (
-        team_luck_seasons
+        completed_luck_seasons
         .sort_values(
             "schedule_luck_wins",
             ascending=False,
@@ -781,7 +788,7 @@ else:
     )
 
     unluckiest_season = (
-        team_luck_seasons
+        completed_luck_seasons
         .sort_values(
             "schedule_luck_wins",
             ascending=True,
@@ -790,7 +797,7 @@ else:
     )
 
     hardest_schedule = (
-        team_luck_seasons
+        completed_luck_seasons
         .sort_values(
             "strength_of_schedule",
             ascending=False,
@@ -799,7 +806,7 @@ else:
     )
 
     easiest_schedule = (
-        team_luck_seasons
+        completed_luck_seasons
         .sort_values(
             "strength_of_schedule",
             ascending=True,
@@ -921,9 +928,14 @@ st.divider()
 
 st.header("Season Extremes")
 
+completed_team_seasons = team_seasons[
+    pd.to_numeric(team_seasons["year"], errors="coerce")
+    .le(LAST_COMPLETED_SEASON)
+].copy()
+
 
 best_season = (
-    team_seasons
+    completed_team_seasons
     .sort_values(
         [
             "win_pct",
@@ -941,7 +953,7 @@ best_season = (
 
 
 worst_season = (
-    team_seasons
+    completed_team_seasons
     .sort_values(
         [
             "win_pct",
@@ -1182,9 +1194,18 @@ season_table = (
 )
 
 
-season_table["Postseason"] = (
-    season_table["Postseason"]
-    .fillna("Missed Playoffs")
+season_table["Postseason"] = season_table.apply(
+    lambda row: (
+        "In Progress"
+        if int(row["year"]) > LAST_COMPLETED_SEASON
+        and pd.isna(row["Postseason"])
+        else (
+            "Missed Playoffs"
+            if pd.isna(row["Postseason"])
+            else row["Postseason"]
+        )
+    ),
+    axis=1,
 )
 
 

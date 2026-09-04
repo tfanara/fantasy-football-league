@@ -6,6 +6,10 @@ import numpy as np
 import pandas as pd
 
 from team_aliases import canonical_team
+from season_config import (
+    LAST_COMPLETED_SEASON,
+    print_season_config,
+)
 
 
 # ============================================================
@@ -15,6 +19,9 @@ from team_aliases import canonical_team
 DRAFT_PATH = Path(
     "data/drafts/all_drafts.csv"
 )
+
+# Draft Value is outcome-based, so its cutoff comes from season_config.py.
+DRAFT_VALUE_THROUGH_YEAR = LAST_COMPLETED_SEASON
 
 LINEUP_DIR = Path(
     "data/matchups/player_week_stats"
@@ -190,6 +197,7 @@ print("=" * 80)
 
 print("Draft master:", DRAFT_PATH)
 print("Lineup master:", LINEUP_PATH)
+print_season_config()
 
 draft = pd.read_csv(
     DRAFT_PATH
@@ -494,7 +502,8 @@ picks["starter_capture_rate"] = np.where(
 # ============================================================
 
 picks["draft_value_eligible"] = (
-    (~picks["keeper"])
+    (picks["year"] <= DRAFT_VALUE_THROUGH_YEAR)
+    & (~picks["keeper"])
     & picks["position"].isin(
         SKILL_POSITIONS
     )
@@ -593,7 +602,8 @@ if NFL_TEAM_PATH.exists():
 # Recalculate eligibility after NFL position enrichment.
 
 picks["draft_value_eligible"] = (
-    (~picks["keeper"])
+    (picks["year"] <= DRAFT_VALUE_THROUGH_YEAR)
+    & (~picks["keeper"])
     & picks["position"].isin(
         SKILL_POSITIONS
     )
@@ -1463,6 +1473,37 @@ rated_count = int(
         picks["draft_value_eligible"]
         & picks["expected_points"].notna()
     ).sum()
+)
+
+future_rated = int(
+    (
+        (picks["year"] > DRAFT_VALUE_THROUGH_YEAR)
+        & picks["draft_value"].notna()
+    ).sum()
+)
+
+if future_rated:
+    raise ValueError(
+        f"{future_rated} picks after {DRAFT_VALUE_THROUGH_YEAR} "
+        "were incorrectly assigned Draft Value."
+    )
+
+future_eligible = int(
+    (
+        (picks["year"] > DRAFT_VALUE_THROUGH_YEAR)
+        & picks["draft_value_eligible"]
+    ).sum()
+)
+
+if future_eligible:
+    raise ValueError(
+        f"{future_eligible} picks after {DRAFT_VALUE_THROUGH_YEAR} "
+        "were incorrectly marked Draft Value eligible."
+    )
+
+print(
+    f"PASS — Draft Value outcomes are frozen through "
+    f"{DRAFT_VALUE_THROUGH_YEAR}."
 )
 
 print(

@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 from pathlib import Path
 
+from season_config import CURRENT_SEASON, LAST_COMPLETED_SEASON
+
 
 # ============================================================
 # PAGE CONFIG
@@ -16,7 +18,7 @@ st.set_page_config(
 st.title("📚 League History")
 st.caption(
     "Regular-season records, playoff failures, championships, "
-    "and eight years of receipts."
+    "and years of receipts."
 )
 
 
@@ -756,9 +758,16 @@ st.divider()
 
 st.header("Best and Worst Regular Seasons Ever")
 
+# Historical season superlatives must compare completed seasons only.
+# The current season remains available above in Season-by-Season and below
+# in Franchise History as completed weekly results accumulate.
+completed_season_records = season_records[
+    season_records["year"].le(LAST_COMPLETED_SEASON)
+].copy()
+
 
 best_seasons = (
-    season_records
+    completed_season_records
     .sort_values(
         [
             "win_pct",
@@ -777,7 +786,7 @@ best_seasons = (
 
 
 worst_seasons = (
-    season_records
+    completed_season_records
     .sort_values(
         [
             "win_pct",

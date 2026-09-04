@@ -1,0 +1,1622 @@
+[
+  {
+    "year": 2026,
+    "round": 1,
+    "pick_in_round": 1,
+    "overall_pick": 1,
+    "team": "malle_dips_pouches",
+    "player": "Jahmyr Gibbs",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 1,
+    "pick_in_round": 2,
+    "overall_pick": 2,
+    "team": "Patty Primetimes",
+    "player": "Bijan Robinson",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 1,
+    "pick_in_round": 3,
+    "overall_pick": 3,
+    "team": "Joe Mantegna",
+    "player": "Ja'Marr Chase",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 1,
+    "pick_in_round": 4,
+    "overall_pick": 4,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Puka Nacua",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 1,
+    "pick_in_round": 5,
+    "overall_pick": 5,
+    "team": "Buttermilk Puuump",
+    "player": "De'Von Achane",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 1,
+    "pick_in_round": 6,
+    "overall_pick": 6,
+    "team": "ThreatLevelMidnight",
+    "player": "Christian McCaffrey",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 1,
+    "pick_in_round": 7,
+    "overall_pick": 7,
+    "team": "The Big Gronkowski",
+    "player": "CeeDee Lamb",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 1,
+    "pick_in_round": 8,
+    "overall_pick": 8,
+    "team": "Pop Lockett Drop it",
+    "player": "Amon-Ra St. Brown",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 1,
+    "pick_in_round": 9,
+    "overall_pick": 9,
+    "team": "Voldemort",
+    "player": "Saquon Barkley",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 1,
+    "pick_in_round": 10,
+    "overall_pick": 10,
+    "team": "Post Mahomes",
+    "player": "Chase Brown",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 1,
+    "pick_in_round": 11,
+    "overall_pick": 11,
+    "team": "Uncle Rico",
+    "player": "Jonathan Taylor",
+    "keeper": true
+  },
+  {
+    "year": 2026,
+    "round": 1,
+    "pick_in_round": 12,
+    "overall_pick": 12,
+    "team": "Ginger FC \ud83c\udfc6\ud83c\udfc6",
+    "player": "Justin Jefferson",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 2,
+    "pick_in_round": 1,
+    "overall_pick": 13,
+    "team": "Ginger FC \ud83c\udfc6\ud83c\udfc6",
+    "player": "Derrick Henry",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 2,
+    "pick_in_round": 2,
+    "overall_pick": 14,
+    "team": "Uncle Rico",
+    "player": "Nico Collins",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 2,
+    "pick_in_round": 3,
+    "overall_pick": 15,
+    "team": "Post Mahomes",
+    "player": "A.J. Brown",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 2,
+    "pick_in_round": 4,
+    "overall_pick": 16,
+    "team": "Voldemort",
+    "player": "Jaxon Smith-Njigba",
+    "keeper": true
+  },
+  {
+    "year": 2026,
+    "round": 2,
+    "pick_in_round": 5,
+    "overall_pick": 17,
+    "team": "Pop Lockett Drop it",
+    "player": "Kenneth Walker III",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 2,
+    "pick_in_round": 6,
+    "overall_pick": 18,
+    "team": "The Big Gronkowski",
+    "player": "Malik Nabers",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 2,
+    "pick_in_round": 7,
+    "overall_pick": 19,
+    "team": "ThreatLevelMidnight",
+    "player": "Kyren Williams",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 2,
+    "pick_in_round": 8,
+    "overall_pick": 20,
+    "team": "Buttermilk Puuump",
+    "player": "Breece Hall",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 2,
+    "pick_in_round": 9,
+    "overall_pick": 21,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Omarion Hampton",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 2,
+    "pick_in_round": 10,
+    "overall_pick": 22,
+    "team": "Joe Mantegna",
+    "player": "Brock Bowers",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 2,
+    "pick_in_round": 11,
+    "overall_pick": 23,
+    "team": "Patty Primetimes",
+    "player": "James Cook III",
+    "keeper": true
+  },
+  {
+    "year": 2026,
+    "round": 2,
+    "pick_in_round": 12,
+    "overall_pick": 24,
+    "team": "malle_dips_pouches",
+    "player": "Ashton Jeanty",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 3,
+    "pick_in_round": 1,
+    "overall_pick": 25,
+    "team": "malle_dips_pouches",
+    "player": "Drake London",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 3,
+    "pick_in_round": 2,
+    "overall_pick": 26,
+    "team": "Patty Primetimes",
+    "player": "Josh Allen",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 3,
+    "pick_in_round": 3,
+    "overall_pick": 27,
+    "team": "Joe Mantegna",
+    "player": "DeVonta Smith",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 3,
+    "pick_in_round": 4,
+    "overall_pick": 28,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Jeremiyah Love",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 3,
+    "pick_in_round": 5,
+    "overall_pick": 29,
+    "team": "Buttermilk Puuump",
+    "player": "George Pickens",
+    "keeper": true
+  },
+  {
+    "year": 2026,
+    "round": 3,
+    "pick_in_round": 6,
+    "overall_pick": 30,
+    "team": "ThreatLevelMidnight",
+    "player": "Zay Flowers",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 3,
+    "pick_in_round": 7,
+    "overall_pick": 31,
+    "team": "The Big Gronkowski",
+    "player": "Travis Etienne Jr.",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 3,
+    "pick_in_round": 8,
+    "overall_pick": 32,
+    "team": "Pop Lockett Drop it",
+    "player": "Trey McBride",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 3,
+    "pick_in_round": 9,
+    "overall_pick": 33,
+    "team": "Voldemort",
+    "player": "Bucky Irving",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 3,
+    "pick_in_round": 10,
+    "overall_pick": 34,
+    "team": "Post Mahomes",
+    "player": "Tee Higgins",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 3,
+    "pick_in_round": 11,
+    "overall_pick": 35,
+    "team": "Uncle Rico",
+    "player": "Colston Loveland",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 3,
+    "pick_in_round": 12,
+    "overall_pick": 36,
+    "team": "Ginger FC \ud83c\udfc6\ud83c\udfc6",
+    "player": "David Montgomery",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 4,
+    "pick_in_round": 1,
+    "overall_pick": 37,
+    "team": "Ginger FC \ud83c\udfc6\ud83c\udfc6",
+    "player": "Tetairoa McMillan",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 4,
+    "pick_in_round": 2,
+    "overall_pick": 38,
+    "team": "Uncle Rico",
+    "player": "Lamar Jackson",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 4,
+    "pick_in_round": 3,
+    "overall_pick": 39,
+    "team": "Post Mahomes",
+    "player": "Ladd McConkey",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 4,
+    "pick_in_round": 4,
+    "overall_pick": 40,
+    "team": "Voldemort",
+    "player": "Jaylen Waddle",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 4,
+    "pick_in_round": 5,
+    "overall_pick": 41,
+    "team": "Pop Lockett Drop it",
+    "player": "Emeka Egbuka",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 4,
+    "pick_in_round": 6,
+    "overall_pick": 42,
+    "team": "The Big Gronkowski",
+    "player": "Bhayshul Tuten",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 4,
+    "pick_in_round": 7,
+    "overall_pick": 43,
+    "team": "ThreatLevelMidnight",
+    "player": "Quinshon Judkins",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 4,
+    "pick_in_round": 8,
+    "overall_pick": 44,
+    "team": "Buttermilk Puuump",
+    "player": "Luther Burden III",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 4,
+    "pick_in_round": 9,
+    "overall_pick": 45,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "D'Andre Swift",
+    "keeper": true
+  },
+  {
+    "year": 2026,
+    "round": 4,
+    "pick_in_round": 10,
+    "overall_pick": 46,
+    "team": "Joe Mantegna",
+    "player": "Jadarian Price",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 4,
+    "pick_in_round": 11,
+    "overall_pick": 47,
+    "team": "Patty Primetimes",
+    "player": "DJ Moore",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 4,
+    "pick_in_round": 12,
+    "overall_pick": 48,
+    "team": "malle_dips_pouches",
+    "player": "Tucker Kraft",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 5,
+    "pick_in_round": 1,
+    "overall_pick": 49,
+    "team": "malle_dips_pouches",
+    "player": "Garrett Wilson",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 5,
+    "pick_in_round": 2,
+    "overall_pick": 50,
+    "team": "Patty Primetimes",
+    "player": "Jameson Williams",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 5,
+    "pick_in_round": 3,
+    "overall_pick": 51,
+    "team": "Joe Mantegna",
+    "player": "Rhamondre Stevenson",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 5,
+    "pick_in_round": 4,
+    "overall_pick": 52,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Davante Adams",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 5,
+    "pick_in_round": 5,
+    "overall_pick": 53,
+    "team": "Buttermilk Puuump",
+    "player": "Terry McLaurin",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 5,
+    "pick_in_round": 6,
+    "overall_pick": 54,
+    "team": "ThreatLevelMidnight",
+    "player": "Joe Burrow",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 5,
+    "pick_in_round": 7,
+    "overall_pick": 55,
+    "team": "The Big Gronkowski",
+    "player": "DK Metcalf",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 5,
+    "pick_in_round": 8,
+    "overall_pick": 56,
+    "team": "Pop Lockett Drop it",
+    "player": "Christian Watson",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 5,
+    "pick_in_round": 9,
+    "overall_pick": 57,
+    "team": "Voldemort",
+    "player": "TreVeyon Henderson",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 5,
+    "pick_in_round": 10,
+    "overall_pick": 58,
+    "team": "Post Mahomes",
+    "player": "Jaylen Warren",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 5,
+    "pick_in_round": 11,
+    "overall_pick": 59,
+    "team": "Uncle Rico",
+    "player": "Rome Odunze",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 5,
+    "pick_in_round": 12,
+    "overall_pick": 60,
+    "team": "Ginger FC \ud83c\udfc6\ud83c\udfc6",
+    "player": "Chris Olave",
+    "keeper": true
+  },
+  {
+    "year": 2026,
+    "round": 6,
+    "pick_in_round": 1,
+    "overall_pick": 61,
+    "team": "Ginger FC \ud83c\udfc6\ud83c\udfc6",
+    "player": "Parker Washington",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 6,
+    "pick_in_round": 2,
+    "overall_pick": 62,
+    "team": "Uncle Rico",
+    "player": "Jonathon Brooks",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 6,
+    "pick_in_round": 3,
+    "overall_pick": 63,
+    "team": "Post Mahomes",
+    "player": "Harold Fannin Jr.",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 6,
+    "pick_in_round": 4,
+    "overall_pick": 64,
+    "team": "Voldemort",
+    "player": "Jayden Daniels",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 6,
+    "pick_in_round": 5,
+    "overall_pick": 65,
+    "team": "Pop Lockett Drop it",
+    "player": "MarShawn Lloyd",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 6,
+    "pick_in_round": 6,
+    "overall_pick": 66,
+    "team": "The Big Gronkowski",
+    "player": "Tony Pollard",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 6,
+    "pick_in_round": 7,
+    "overall_pick": 67,
+    "team": "ThreatLevelMidnight",
+    "player": "Rashee Rice",
+    "keeper": true
+  },
+  {
+    "year": 2026,
+    "round": 6,
+    "pick_in_round": 8,
+    "overall_pick": 68,
+    "team": "Buttermilk Puuump",
+    "player": "Rico Dowdle",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 6,
+    "pick_in_round": 9,
+    "overall_pick": 69,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Jalen Hurts",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 6,
+    "pick_in_round": 10,
+    "overall_pick": 70,
+    "team": "Joe Mantegna",
+    "player": "Caleb Williams",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 6,
+    "pick_in_round": 11,
+    "overall_pick": 71,
+    "team": "Patty Primetimes",
+    "player": "Carnell Tate",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 6,
+    "pick_in_round": 12,
+    "overall_pick": 72,
+    "team": "malle_dips_pouches",
+    "player": "Jacory Croskey-Merritt",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 7,
+    "pick_in_round": 1,
+    "overall_pick": 73,
+    "team": "malle_dips_pouches",
+    "player": "Brian Thomas Jr.",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 7,
+    "pick_in_round": 2,
+    "overall_pick": 74,
+    "team": "Patty Primetimes",
+    "player": "George Kittle",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 7,
+    "pick_in_round": 3,
+    "overall_pick": 75,
+    "team": "Joe Mantegna",
+    "player": "Mike Evans",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 7,
+    "pick_in_round": 4,
+    "overall_pick": 76,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Travis Kelce",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 7,
+    "pick_in_round": 5,
+    "overall_pick": 77,
+    "team": "Buttermilk Puuump",
+    "player": "Dak Prescott",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 7,
+    "pick_in_round": 6,
+    "overall_pick": 78,
+    "team": "ThreatLevelMidnight",
+    "player": "Chuba Hubbard",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 7,
+    "pick_in_round": 7,
+    "overall_pick": 79,
+    "team": "The Big Gronkowski",
+    "player": "Sam LaPorta",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 7,
+    "pick_in_round": 8,
+    "overall_pick": 80,
+    "team": "Pop Lockett Drop it",
+    "player": "Javonte Williams",
+    "keeper": true
+  },
+  {
+    "year": 2026,
+    "round": 7,
+    "pick_in_round": 9,
+    "overall_pick": 81,
+    "team": "Voldemort",
+    "player": "Kyle Pitts Sr.",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 7,
+    "pick_in_round": 10,
+    "overall_pick": 82,
+    "team": "Post Mahomes",
+    "player": "Marvin Harrison Jr.",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 7,
+    "pick_in_round": 11,
+    "overall_pick": 83,
+    "team": "Uncle Rico",
+    "player": "Chris Godwin Jr.",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 7,
+    "pick_in_round": 12,
+    "overall_pick": 84,
+    "team": "Ginger FC \ud83c\udfc6\ud83c\udfc6",
+    "player": "Jordan Mason",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 8,
+    "pick_in_round": 1,
+    "overall_pick": 85,
+    "team": "Ginger FC \ud83c\udfc6\ud83c\udfc6",
+    "player": "J.K. Dobbins",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 8,
+    "pick_in_round": 2,
+    "overall_pick": 86,
+    "team": "Uncle Rico",
+    "player": "Blake Corum",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 8,
+    "pick_in_round": 3,
+    "overall_pick": 87,
+    "team": "Post Mahomes",
+    "player": "RJ Harvey",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 8,
+    "pick_in_round": 4,
+    "overall_pick": 88,
+    "team": "Voldemort",
+    "player": "Josh Jacobs",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 8,
+    "pick_in_round": 5,
+    "overall_pick": 89,
+    "team": "Pop Lockett Drop it",
+    "player": "Justin Herbert",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 8,
+    "pick_in_round": 6,
+    "overall_pick": 90,
+    "team": "The Big Gronkowski",
+    "player": "Drake Maye",
+    "keeper": true
+  },
+  {
+    "year": 2026,
+    "round": 8,
+    "pick_in_round": 7,
+    "overall_pick": 91,
+    "team": "ThreatLevelMidnight",
+    "player": "Jayden Reed",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 8,
+    "pick_in_round": 8,
+    "overall_pick": 92,
+    "team": "Buttermilk Puuump",
+    "player": "Mark Andrews",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 8,
+    "pick_in_round": 9,
+    "overall_pick": 93,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Stefon Diggs",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 8,
+    "pick_in_round": 10,
+    "overall_pick": 94,
+    "team": "Joe Mantegna",
+    "player": "Trevor Lawrence",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 8,
+    "pick_in_round": 11,
+    "overall_pick": 95,
+    "team": "Patty Primetimes",
+    "player": "Courtland Sutton",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 8,
+    "pick_in_round": 12,
+    "overall_pick": 96,
+    "team": "malle_dips_pouches",
+    "player": "Mike Washington Jr.",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 9,
+    "pick_in_round": 1,
+    "overall_pick": 97,
+    "team": "malle_dips_pouches",
+    "player": "Michael Wilson",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 9,
+    "pick_in_round": 2,
+    "overall_pick": 98,
+    "team": "Patty Primetimes",
+    "player": "Josh Downs",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 9,
+    "pick_in_round": 3,
+    "overall_pick": 99,
+    "team": "Joe Mantegna",
+    "player": "Tyler Warren",
+    "keeper": true
+  },
+  {
+    "year": 2026,
+    "round": 9,
+    "pick_in_round": 4,
+    "overall_pick": 100,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Quentin Johnston",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 9,
+    "pick_in_round": 5,
+    "overall_pick": 101,
+    "team": "Buttermilk Puuump",
+    "player": "Alec Pierce",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 9,
+    "pick_in_round": 6,
+    "overall_pick": 102,
+    "team": "ThreatLevelMidnight",
+    "player": "Jordan Addison",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 9,
+    "pick_in_round": 7,
+    "overall_pick": 103,
+    "team": "The Big Gronkowski",
+    "player": "Aaron Jones Sr.",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 9,
+    "pick_in_round": 8,
+    "overall_pick": 104,
+    "team": "Pop Lockett Drop it",
+    "player": "De'Zhaun Stribling",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 9,
+    "pick_in_round": 9,
+    "overall_pick": 105,
+    "team": "Voldemort",
+    "player": "Michael Pittman Jr.",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 9,
+    "pick_in_round": 10,
+    "overall_pick": 106,
+    "team": "Post Mahomes",
+    "player": "Cam Skattebo",
+    "keeper": true
+  },
+  {
+    "year": 2026,
+    "round": 9,
+    "pick_in_round": 11,
+    "overall_pick": 107,
+    "team": "Uncle Rico",
+    "player": "KC Concepcion",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 9,
+    "pick_in_round": 12,
+    "overall_pick": 108,
+    "team": "Ginger FC \ud83c\udfc6\ud83c\udfc6",
+    "player": "Bo Nix",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 10,
+    "pick_in_round": 1,
+    "overall_pick": 109,
+    "team": "Ginger FC \ud83c\udfc6\ud83c\udfc6",
+    "player": "Dalton Kincaid",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 10,
+    "pick_in_round": 2,
+    "overall_pick": 110,
+    "team": "Uncle Rico",
+    "player": "Kyle Monangai",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 10,
+    "pick_in_round": 3,
+    "overall_pick": 111,
+    "team": "Post Mahomes",
+    "player": "Kenny Gainwell",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 10,
+    "pick_in_round": 4,
+    "overall_pick": 112,
+    "team": "Voldemort",
+    "player": "Rachaad White",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 10,
+    "pick_in_round": 5,
+    "overall_pick": 113,
+    "team": "Pop Lockett Drop it",
+    "player": "Woody Marks",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 10,
+    "pick_in_round": 6,
+    "overall_pick": 114,
+    "team": "The Big Gronkowski",
+    "player": "Matthew Golden",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 10,
+    "pick_in_round": 7,
+    "overall_pick": 115,
+    "team": "ThreatLevelMidnight",
+    "player": "Chris Rodriguez Jr.",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 10,
+    "pick_in_round": 8,
+    "overall_pick": 116,
+    "team": "Buttermilk Puuump",
+    "player": "Jakobi Meyers",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 10,
+    "pick_in_round": 9,
+    "overall_pick": 117,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Dallas Goedert",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 10,
+    "pick_in_round": 10,
+    "overall_pick": 118,
+    "team": "Joe Mantegna",
+    "player": "Makai Lemon",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 10,
+    "pick_in_round": 11,
+    "overall_pick": 119,
+    "team": "Patty Primetimes",
+    "player": "Tyler Allgeier",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 10,
+    "pick_in_round": 12,
+    "overall_pick": 120,
+    "team": "malle_dips_pouches",
+    "player": "Jalen Coker",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 11,
+    "pick_in_round": 1,
+    "overall_pick": 121,
+    "team": "malle_dips_pouches",
+    "player": "Jared Goff",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 11,
+    "pick_in_round": 2,
+    "overall_pick": 122,
+    "team": "Patty Primetimes",
+    "player": "Isaiah Likely",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 11,
+    "pick_in_round": 3,
+    "overall_pick": 123,
+    "team": "Joe Mantegna",
+    "player": "Keaton Mitchell",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 11,
+    "pick_in_round": 4,
+    "overall_pick": 124,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Rashid Shaheed",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 11,
+    "pick_in_round": 5,
+    "overall_pick": 125,
+    "team": "Buttermilk Puuump",
+    "player": "Hunter Henry",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 11,
+    "pick_in_round": 6,
+    "overall_pick": 126,
+    "team": "ThreatLevelMidnight",
+    "player": "Zach Charbonnet",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 11,
+    "pick_in_round": 7,
+    "overall_pick": 127,
+    "team": "The Big Gronkowski",
+    "player": "Xavier Worthy",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 11,
+    "pick_in_round": 8,
+    "overall_pick": 128,
+    "team": "Pop Lockett Drop it",
+    "player": "Romeo Doubs",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 11,
+    "pick_in_round": 9,
+    "overall_pick": 129,
+    "team": "Voldemort",
+    "player": "Brock Purdy",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 11,
+    "pick_in_round": 10,
+    "overall_pick": 130,
+    "team": "Post Mahomes",
+    "player": "Patrick Mahomes",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 11,
+    "pick_in_round": 11,
+    "overall_pick": 131,
+    "team": "Uncle Rico",
+    "player": "Wan'Dale Robinson",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 11,
+    "pick_in_round": 12,
+    "overall_pick": 132,
+    "team": "Ginger FC \ud83c\udfc6\ud83c\udfc6",
+    "player": "Tyjae Spears",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 12,
+    "pick_in_round": 1,
+    "overall_pick": 133,
+    "team": "Ginger FC \ud83c\udfc6\ud83c\udfc6",
+    "player": "Denzel Boston",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 12,
+    "pick_in_round": 2,
+    "overall_pick": 134,
+    "team": "Uncle Rico",
+    "player": "Matthew Stafford",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 12,
+    "pick_in_round": 3,
+    "overall_pick": 135,
+    "team": "Post Mahomes",
+    "player": "Texans",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 12,
+    "pick_in_round": 4,
+    "overall_pick": 136,
+    "team": "Voldemort",
+    "player": "Juwan Johnson",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 12,
+    "pick_in_round": 5,
+    "overall_pick": 137,
+    "team": "Pop Lockett Drop it",
+    "player": "Khalil Shakir",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 12,
+    "pick_in_round": 6,
+    "overall_pick": 138,
+    "team": "The Big Gronkowski",
+    "player": "Tank Bigsby",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 12,
+    "pick_in_round": 7,
+    "overall_pick": 139,
+    "team": "ThreatLevelMidnight",
+    "player": "Jake Ferguson",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 12,
+    "pick_in_round": 8,
+    "overall_pick": 140,
+    "team": "Buttermilk Puuump",
+    "player": "Harrison Mevis",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 12,
+    "pick_in_round": 9,
+    "overall_pick": 141,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Jaxson Dart",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 12,
+    "pick_in_round": 10,
+    "overall_pick": 142,
+    "team": "Joe Mantegna",
+    "player": "Dalton Schultz",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 12,
+    "pick_in_round": 11,
+    "overall_pick": 143,
+    "team": "Patty Primetimes",
+    "player": "Rams",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 12,
+    "pick_in_round": 12,
+    "overall_pick": 144,
+    "team": "malle_dips_pouches",
+    "player": "Seahawks",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 13,
+    "pick_in_round": 1,
+    "overall_pick": 145,
+    "team": "malle_dips_pouches",
+    "player": "Brandon Aubrey",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 13,
+    "pick_in_round": 2,
+    "overall_pick": 146,
+    "team": "Patty Primetimes",
+    "player": "Emmett Johnson",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 13,
+    "pick_in_round": 3,
+    "overall_pick": 147,
+    "team": "Joe Mantegna",
+    "player": "Kyler Murray",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 13,
+    "pick_in_round": 4,
+    "overall_pick": 148,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Jonah Coleman",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 13,
+    "pick_in_round": 5,
+    "overall_pick": 149,
+    "team": "Buttermilk Puuump",
+    "player": "Broncos",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 13,
+    "pick_in_round": 6,
+    "overall_pick": 150,
+    "team": "ThreatLevelMidnight",
+    "player": "Ka'imi Fairbairn",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 13,
+    "pick_in_round": 7,
+    "overall_pick": 151,
+    "team": "The Big Gronkowski",
+    "player": "Jordan Love",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 13,
+    "pick_in_round": 8,
+    "overall_pick": 152,
+    "team": "Pop Lockett Drop it",
+    "player": "Kayshon Boutte",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 13,
+    "pick_in_round": 9,
+    "overall_pick": 153,
+    "team": "Voldemort",
+    "player": "Jordyn Tyson",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 13,
+    "pick_in_round": 10,
+    "overall_pick": 154,
+    "team": "Post Mahomes",
+    "player": "Dylan Sampson",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 13,
+    "pick_in_round": 11,
+    "overall_pick": 155,
+    "team": "Uncle Rico",
+    "player": "Terrance Ferguson",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 13,
+    "pick_in_round": 12,
+    "overall_pick": 156,
+    "team": "Ginger FC \ud83c\udfc6\ud83c\udfc6",
+    "player": "Jalen McMillan",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 14,
+    "pick_in_round": 1,
+    "overall_pick": 157,
+    "team": "Ginger FC \ud83c\udfc6\ud83c\udfc6",
+    "player": "Jaguars",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 14,
+    "pick_in_round": 2,
+    "overall_pick": 158,
+    "team": "Uncle Rico",
+    "player": "Cameron Dicker",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 14,
+    "pick_in_round": 3,
+    "overall_pick": 159,
+    "team": "Post Mahomes",
+    "player": "Cam Little",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 14,
+    "pick_in_round": 4,
+    "overall_pick": 160,
+    "team": "Voldemort",
+    "player": "Eagles",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 14,
+    "pick_in_round": 5,
+    "overall_pick": 161,
+    "team": "Pop Lockett Drop it",
+    "player": "Jason Myers",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 14,
+    "pick_in_round": 6,
+    "overall_pick": 162,
+    "team": "The Big Gronkowski",
+    "player": "Ravens",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 14,
+    "pick_in_round": 7,
+    "overall_pick": 163,
+    "team": "ThreatLevelMidnight",
+    "player": "Chargers",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 14,
+    "pick_in_round": 8,
+    "overall_pick": 164,
+    "team": "Buttermilk Puuump",
+    "player": "Deebo Samuel Sr.",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 14,
+    "pick_in_round": 9,
+    "overall_pick": 165,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Vikings",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 14,
+    "pick_in_round": 10,
+    "overall_pick": 166,
+    "team": "Joe Mantegna",
+    "player": "Patriots",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 14,
+    "pick_in_round": 11,
+    "overall_pick": 167,
+    "team": "Patty Primetimes",
+    "player": "Evan McPherson",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 14,
+    "pick_in_round": 12,
+    "overall_pick": 168,
+    "team": "malle_dips_pouches",
+    "player": "Caleb Douglas",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 15,
+    "pick_in_round": 1,
+    "overall_pick": 169,
+    "team": "malle_dips_pouches",
+    "player": "Brenton Strange",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 15,
+    "pick_in_round": 2,
+    "overall_pick": 170,
+    "team": "Patty Primetimes",
+    "player": "Baker Mayfield",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 15,
+    "pick_in_round": 3,
+    "overall_pick": 171,
+    "team": "Joe Mantegna",
+    "player": "Tyler Loop",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 15,
+    "pick_in_round": 4,
+    "overall_pick": 172,
+    "team": "Malle \u2764\ufe0f \ud83d\udc38",
+    "player": "Will Reichard",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 15,
+    "pick_in_round": 5,
+    "overall_pick": 173,
+    "team": "Buttermilk Puuump",
+    "player": "Malik Willis",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 15,
+    "pick_in_round": 6,
+    "overall_pick": 174,
+    "team": "ThreatLevelMidnight",
+    "player": "Ray Davis",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 15,
+    "pick_in_round": 7,
+    "overall_pick": 175,
+    "team": "The Big Gronkowski",
+    "player": "Harrison Butker",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 15,
+    "pick_in_round": 8,
+    "overall_pick": 176,
+    "team": "Pop Lockett Drop it",
+    "player": "Lions",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 15,
+    "pick_in_round": 9,
+    "overall_pick": 177,
+    "team": "Voldemort",
+    "player": "Cairo Santos",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 15,
+    "pick_in_round": 10,
+    "overall_pick": 178,
+    "team": "Post Mahomes",
+    "player": "Cyrus Allen",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 15,
+    "pick_in_round": 11,
+    "overall_pick": 179,
+    "team": "Uncle Rico",
+    "player": "Steelers",
+    "keeper": false
+  },
+  {
+    "year": 2026,
+    "round": 15,
+    "pick_in_round": 12,
+    "overall_pick": 180,
+    "team": "Ginger FC \ud83c\udfc6\ud83c\udfc6",
+    "player": "Jake Bates",
+    "keeper": false
+  }
+]

@@ -4,6 +4,11 @@ import numpy as np
 from pathlib import Path
 from textwrap import dedent
 
+from season_config import (
+    LAST_COMPLETED_SEASON,
+    LAST_COMPLETED_DRAFT_SEASON,
+)
+
 try:
     from team_aliases import canonical_team
 except ImportError:
@@ -1314,9 +1319,9 @@ elif analysis_choice == "📝 Draft Trends":
 
     st.header("📝 Draft Trends")
     st.caption(
-        "Historical draft-slot outcomes, roster-building strategy, and franchise "
-        "draft tendencies. This section uses completed drafts only for performance "
-        "analysis; the posted 2026 order is not treated as a completed season."
+        f"Draft-selection trends include completed drafts through "
+        f"{LAST_COMPLETED_DRAFT_SEASON}. Finish/outcome comparisons use only "
+        f"completed seasons through {LAST_COMPLETED_SEASON}."
     )
 
     draft_file = BASE_DIR / "data" / "drafts" / "all_drafts.csv"
@@ -1388,8 +1393,25 @@ elif analysis_choice == "📝 Draft Trends":
     ]
     numeric(strategy, strategy_columns)
 
-    completed_years = sorted(
-        drafts_trends["year"].dropna().astype(int).unique().tolist()
+    # Selection-behavior analysis may include the latest completed draft.
+    drafts_selection = drafts_trends[
+        drafts_trends["year"] <= LAST_COMPLETED_DRAFT_SEASON
+    ].copy()
+    strategy_selection = strategy[
+        strategy["year"] <= LAST_COMPLETED_DRAFT_SEASON
+    ].copy()
+
+    # Any comparison to standings/playoffs/championships must stop at the
+    # latest fully completed season.
+    drafts_outcomes = drafts_trends[
+        drafts_trends["year"] <= LAST_COMPLETED_SEASON
+    ].copy()
+    strategy_outcomes = strategy[
+        strategy["year"] <= LAST_COMPLETED_SEASON
+    ].copy()
+
+    completed_outcome_years = sorted(
+        drafts_outcomes["year"].dropna().astype(int).unique().tolist()
     )
 
     def format_round_pick(value):
@@ -1441,7 +1463,7 @@ elif analysis_choice == "📝 Draft Trends":
         )
 
         first_round_positions = (
-            drafts_trends[drafts_trends["round"] == 1][
+            drafts_outcomes[drafts_outcomes["round"] == 1][
                 ["year", "team", "pick_in_round"]
             ]
             .copy()
@@ -1621,7 +1643,7 @@ elif analysis_choice == "📝 Draft Trends":
                 .iloc[0]
             )
             st.info(
-                f"Across {len(completed_years)} completed drafts, slot "
+                f"Across {len(completed_outcome_years)} completed seasons, slot "
                 f"#{int(best_slot['Draft Position'])} has produced the most "
                 f"championships ({int(best_slot['Championships'])}) and a "
                 f"{best_slot['Playoff %']:.1f}% playoff rate."
@@ -1658,10 +1680,10 @@ elif analysis_choice == "📝 Draft Trends":
         )
 
         strategy_years = set(
-            strategy["year"].dropna().astype(int).unique()
+            strategy_outcomes["year"].dropna().astype(int).unique()
         )
 
-        outcome = strategy.copy()
+        outcome = strategy_outcomes.copy()
 
         champion_lookup_strategy = championships_trends[
             ["year", "champion", "runner_up"]
@@ -1938,7 +1960,7 @@ elif analysis_choice == "📝 Draft Trends":
         )
 
         strategy_teams = sorted(
-            strategy["team"].dropna().unique()
+            strategy_selection["team"].dropna().unique()
         )
 
         strategy_team = st.selectbox(
@@ -1948,7 +1970,9 @@ elif analysis_choice == "📝 Draft Trends":
         )
 
         franchise_strategy = (
-            strategy[strategy["team"] == strategy_team]
+            strategy_selection[
+                strategy_selection["team"] == strategy_team
+            ]
             .copy()
             .sort_values("year")
         )
@@ -1970,7 +1994,7 @@ elif analysis_choice == "📝 Draft Trends":
         comparison_rows = []
         for source, display_name in comparison_metrics.items():
             team_avg = franchise_strategy[source].mean()
-            league_avg = strategy[source].mean()
+            league_avg = strategy_selection[source].mean()
             comparison_rows.append(
                 {
                     "Position Slot": display_name,
@@ -6572,6 +6596,11 @@ elif analysis_choice == "🏟️ Positional Advantage":
         "position_rank",
     ]
 
+    completed_positional_extremes = positional_extremes[
+        pd.to_numeric(positional_extremes["year"], errors="coerce")
+        .le(LAST_COMPLETED_SEASON)
+    ].copy()
+
 
     # ========================================================
     # BEST
@@ -6580,8 +6609,8 @@ elif analysis_choice == "🏟️ Positional Advantage":
     with best_tab:
 
         best_seasons = (
-            positional_extremes[
-                positional_extremes[
+            completed_positional_extremes[
+                completed_positional_extremes[
                     "extreme_type"
                 ].eq(
                     "Best Positional Season"
@@ -6681,8 +6710,8 @@ elif analysis_choice == "🏟️ Positional Advantage":
     with worst_tab:
 
         worst_seasons = (
-            positional_extremes[
-                positional_extremes[
+            completed_positional_extremes[
+                completed_positional_extremes[
                     "extreme_type"
                 ].eq(
                     "Worst Positional Season"

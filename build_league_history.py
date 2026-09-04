@@ -2,9 +2,10 @@ from pathlib import Path
 import pandas as pd
 
 from team_aliases import canonical_team
+from season_config import detect_latest_completed_week, filter_weekly_current_matchups, print_season_config
 
 
-DATA_FILE = Path("data/all_matchups_clean_2017_2025.csv")
+DATA_FILE = Path("data/all_matchups_clean.csv")
 OUTPUT_DIR = Path("data/history")
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -15,13 +16,24 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 # ============================================================
 
 df = pd.read_csv(DATA_FILE)
+weekly_state = detect_latest_completed_week(df)
+df = filter_weekly_current_matchups(df, weekly_state=weekly_state)
 
 print()
 print("=" * 80)
 print("BUILDING MALLE'S LEAGUE HISTORY")
 print("=" * 80)
 print()
-print(f"Loaded {len(df)} games.")
+print_season_config(weekly_state)
+print(f"Loaded {len(df)} weekly-current games from {DATA_FILE}.")
+
+frozen_2017_2025 = df[pd.to_numeric(df["year"], errors="coerce").between(2017, 2025)]
+if len(frozen_2017_2025) != 732:
+    raise RuntimeError(
+        f"Frozen 2017-2025 history regression failed: "
+        f"found {len(frozen_2017_2025)} games; expected 732."
+    )
+print("[PASS] Frozen 2017-2025 history baseline: 732 games.")
 
 
 # ============================================================

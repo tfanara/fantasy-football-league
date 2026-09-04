@@ -4,12 +4,14 @@ import json
 import pandas as pd
 from playwright.sync_api import sync_playwright
 
+from season_config import CURRENT_SEASON, YAHOO_LEAGUE_IDS
+
 
 # ---------------------------------------------------------
 # SETTINGS
 # ---------------------------------------------------------
 
-LEAGUE_ID = "742546"
+LEAGUE_ID = YAHOO_LEAGUE_IDS[CURRENT_SEASON]
 
 LEAGUE_URL = (
     f"https://football.fantasysports.yahoo.com/"
@@ -147,7 +149,9 @@ with sync_playwright() as p:
     # SAVE JSON
     # -----------------------------------------------------
 
-    json_path = DATA_DIR / "standings_2025.json"
+    season_dir = DATA_DIR / str(CURRENT_SEASON)
+    season_dir.mkdir(parents=True, exist_ok=True)
+    json_path = season_dir / "standings.json"
 
     with open(json_path, "w") as f:
         json.dump(
@@ -163,7 +167,7 @@ with sync_playwright() as p:
 
     df = pd.DataFrame(standings)
 
-    csv_path = DATA_DIR / "standings_2025.csv"
+    csv_path = season_dir / "standings.csv"
 
     df.to_csv(
         csv_path,
@@ -177,7 +181,7 @@ with sync_playwright() as p:
 
     print()
     print("=" * 60)
-    print("2025 STANDINGS")
+    print(f"{CURRENT_SEASON} STANDINGS")
     print("=" * 60)
 
     print(df.to_string(index=False))

@@ -8,6 +8,11 @@ from itertools import combinations
 
 import pandas as pd
 
+from season_config import (
+    CURRENT_SEASON,
+    LAST_COMPLETED_SEASON,
+    print_season_config,
+)
 
 
 # =============================================================================
@@ -18,7 +23,7 @@ import pandas as pd
 
 START_YEAR = 2017
 
-END_YEAR = 2025
+END_YEAR = CURRENT_SEASON
 
 BASE_DIR = Path(__file__).resolve().parent
 
@@ -28,7 +33,7 @@ MASTER_LINEUPS_FILE = (
 
     DATA_DIR
 
-    / f"all_weekly_lineups_{START_YEAR}_{END_YEAR}.csv"
+    / "all_weekly_lineups.csv"
 
 )
 
@@ -250,7 +255,7 @@ def build_historical_position_lookup(df: pd.DataFrame) -> dict[str, str]:
 
     Build a player -> position lookup from fixed starting slots across the full
 
-    2017-2025 history.
+    completed-season history.
 
     Bench rows often only say BN, but the same player usually appears in a
 
@@ -913,6 +918,7 @@ def build_decision_rows(
 def main():
 
     banner("BUILDING LINEUP EFFICIENCY ANALYSIS")
+    print_season_config()
 
     if not MASTER_LINEUPS_FILE.exists():
 
@@ -960,6 +966,38 @@ def main():
 
             f"Missing required columns: {sorted(missing)}"
 
+        )
+
+    df["year"] = pd.to_numeric(
+        df["year"],
+        errors="coerce",
+    )
+
+    if df["year"].isna().any():
+        raise RuntimeError(
+            f"Master lineup file contains "
+            f"{int(df['year'].isna().sum())} rows with invalid years."
+        )
+
+    df["year"] = df["year"].astype(int)
+
+    future_rows = df[
+        df["year"] > CURRENT_SEASON
+    ].copy()
+
+    if not future_rows.empty:
+        print(
+            f"Excluding {len(future_rows):,} lineup rows after "
+            f"CURRENT_SEASON={CURRENT_SEASON}."
+        )
+
+    df = df[
+        df["year"] <= CURRENT_SEASON
+    ].copy()
+
+    if df.empty:
+        raise RuntimeError(
+            "No completed-season lineup rows remain after season filtering."
         )
 
     for col in [
@@ -1979,6 +2017,23 @@ def main():
         ]
 
     )
+
+    # -------------------------------------------------------------------------
+    # Completed-season regression
+    # -------------------------------------------------------------------------
+
+    for label, frame in [
+        ("team-week", team_week_df),
+        ("season", season_df),
+        ("decisions", decisions_df),
+    ]:
+        if not frame.empty and (
+            pd.to_numeric(frame["year"], errors="coerce")
+            > CURRENT_SEASON
+        ).any():
+            raise RuntimeError(
+                f"Incomplete/future season leaked into {label} output."
+            )
 
     # -------------------------------------------------------------------------
 

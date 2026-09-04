@@ -2,6 +2,11 @@ import streamlit as st
 import pandas as pd
 from pathlib import Path
 
+from season_config import (
+    CURRENT_SEASON,
+    LAST_COMPLETED_SEASON,
+)
+
 try:
     from team_aliases import canonical_team
 except ImportError:
@@ -17,13 +22,12 @@ except ImportError:
 
 
 st.set_page_config(
-    page_title="2026 Standings",
+    page_title=f"{CURRENT_SEASON} Standings",
     page_icon="🏆",
     layout="wide",
 )
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-CURRENT_SEASON = 2026
 
 CURRENT_TEAMS = [
     "malle_dips_pouches",
@@ -71,55 +75,104 @@ def normalize_standings(df):
 
 all_standings = normalize_standings(load_standings())
 
-st.title("🏆 2026 Standings")
+st.title(f"🏆 {CURRENT_SEASON} Standings")
 
-current = pd.DataFrame(
-    {
-        "Rank": range(1, len(CURRENT_TEAMS) + 1),
-        "Team": CURRENT_TEAMS,
-        "Wins": 0,
-        "Losses": 0,
-    }
-)
+current = pd.DataFrame()
 
-st.caption(
-    "The 2026 regular season has not started yet. "
-    "All 12 current franchises are shown at 0-0."
-)
+if not all_standings.empty and "year" in all_standings.columns:
+    current = all_standings[
+        all_standings["year"] == CURRENT_SEASON
+    ].copy()
 
-display_cols = [
-    "Rank",
-    "Team",
-    "Wins",
-    "Losses",
-]
+if not current.empty:
+    if "rank" in current.columns:
+        current["rank"] = pd.to_numeric(
+            current["rank"],
+            errors="coerce",
+        )
+        current = current.sort_values(
+            ["rank", "team"],
+            ascending=[True, True],
+        )
+    elif {"wins", "points_for"}.issubset(current.columns):
+        current["wins"] = pd.to_numeric(
+            current["wins"],
+            errors="coerce",
+        )
+        current["points_for"] = pd.to_numeric(
+            current["points_for"],
+            errors="coerce",
+        )
+        current = current.sort_values(
+            ["wins", "points_for"],
+            ascending=[False, False],
+        )
 
-st.dataframe(
-    current[display_cols],
-    use_container_width=True,
-    hide_index=True,
-    column_config={
-        "Rank": st.column_config.NumberColumn(
-            "Rank",
-            format="%d",
-            width="small",
-        ),
-        "Team": st.column_config.TextColumn(
-            "Franchise",
-            width="large",
-        ),
-        "Wins": st.column_config.NumberColumn(
-            "W",
-            format="%d",
-            width="small",
-        ),
-        "Losses": st.column_config.NumberColumn(
-            "L",
-            format="%d",
-            width="small",
-        ),
-    },
-)
+    current = current.rename(
+        columns={
+            "rank": "Rank",
+            "team": "Team",
+            "record": "Record",
+            "wins": "Wins",
+            "losses": "Losses",
+            "ties": "Ties",
+            "points_for": "Points For",
+            "points_against": "Points Against",
+        }
+    )
+
+    display_cols = [
+        col
+        for col in [
+            "Rank", "Team", "Record", "Wins", "Losses",
+            "Ties", "Points For", "Points Against",
+        ]
+        if col in current.columns
+    ]
+
+    st.caption(
+        f"Live {CURRENT_SEASON} standings from the league standings data."
+    )
+
+    st.dataframe(
+        current[display_cols],
+        use_container_width=True,
+        hide_index=True,
+        column_config={
+            "Rank": st.column_config.NumberColumn("Rank", format="%d", width="small"),
+            "Team": st.column_config.TextColumn("Franchise", width="large"),
+            "Wins": st.column_config.NumberColumn("W", format="%d", width="small"),
+            "Losses": st.column_config.NumberColumn("L", format="%d", width="small"),
+            "Ties": st.column_config.NumberColumn("T", format="%d", width="small"),
+        },
+    )
+else:
+    current = pd.DataFrame(
+        {
+            "Rank": range(1, len(CURRENT_TEAMS) + 1),
+            "Team": CURRENT_TEAMS,
+            "Wins": 0,
+            "Losses": 0,
+        }
+    )
+
+    st.caption(
+        f"{CURRENT_SEASON} is the active league season. "
+        "Yahoo has not supplied current-season standings yet, "
+        "so the 12 active franchises are shown at 0-0 until standings data is available."
+    )
+
+    st.dataframe(
+        current,
+        use_container_width=True,
+        hide_index=True,
+        column_config={
+            "Rank": st.column_config.NumberColumn("Rank", format="%d", width="small"),
+            "Team": st.column_config.TextColumn("Franchise", width="large"),
+            "Wins": st.column_config.NumberColumn("W", format="%d", width="small"),
+            "Losses": st.column_config.NumberColumn("L", format="%d", width="small"),
+        },
+    )
 
 st.divider()
 
@@ -130,7 +183,7 @@ st.divider()
 if not all_standings.empty and "year" in all_standings.columns:
 
     completed = all_standings[
-        all_standings["year"] < CURRENT_SEASON
+        all_standings["year"] <= LAST_COMPLETED_SEASON
     ].copy()
 
     if not completed.empty:
@@ -169,8 +222,8 @@ if not all_standings.empty and "year" in all_standings.columns:
         )
 
         st.caption(
-            "The most recent completed season is shown for context "
-            "until 2026 games begin."
+            f"The most recent completed season ({latest_year}) is shown "
+            f"for context while {CURRENT_SEASON} is the active season."
         )
 
         latest = latest.rename(

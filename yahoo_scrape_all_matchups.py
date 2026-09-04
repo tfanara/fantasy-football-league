@@ -6,6 +6,8 @@ import time
 import pandas as pd
 from playwright.sync_api import sync_playwright
 
+from season_config import CURRENT_SEASON, YAHOO_LEAGUE_IDS, REGULAR_SEASON_END_WEEK
+
 
 PROFILE_DIR = Path("yahoo_browser_profile")
 DATA_DIR = Path("data")
@@ -18,15 +20,11 @@ DATA_DIR.mkdir(exist_ok=True)
 # ---------------------------------------------------------
 
 league_ids = {
-    2018: "941496",
-    2019: "322794",
-    2020: "510142",
-    2021: "410355",
-    2022: "854563",
-    2023: "684195",
-    2024: "673480",
-    2025: "637567",
+    year: league_id
+    for year, league_id in YAHOO_LEAGUE_IDS.items()
+    if 2018 <= year <= CURRENT_SEASON
 }
+
 
 
 # ---------------------------------------------------------
@@ -39,7 +37,7 @@ league_ids = {
 # We'll scrape playoffs separately afterward.
 # ---------------------------------------------------------
 
-REGULAR_SEASON_WEEKS = range(1, 14)
+# Per-season regular-season lengths come from season_config.py.
 
 
 def matchup_url(year, league_id, week):
@@ -261,7 +259,7 @@ with sync_playwright() as p:
 
         season_matchups = []
 
-        for week in REGULAR_SEASON_WEEKS:
+        for week in range(1, REGULAR_SEASON_END_WEEK[year] + 1):
 
             print(
                 f"Week {week}... ",

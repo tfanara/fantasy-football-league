@@ -2,6 +2,11 @@ from pathlib import Path
 import pandas as pd
 import numpy as np
 
+from season_config import (
+    LAST_COMPLETED_SEASON,
+    print_season_config,
+)
+
 
 INPUT = Path("data/analysis/championship_dna_team_season.csv")
 OUTPUT_DIR = Path("data/analysis")
@@ -56,6 +61,37 @@ OUTPUT_DIR.mkdir(
 
 df = pd.read_csv(INPUT)
 
+print_season_config()
+
+if "year" not in df.columns:
+    raise RuntimeError("Input is missing required column: year")
+
+df["year"] = pd.to_numeric(
+    df["year"],
+    errors="coerce",
+)
+
+if df["year"].isna().any():
+    raise RuntimeError(
+        f"Input contains {int(df['year'].isna().sum())} rows with invalid years."
+    )
+
+df["year"] = df["year"].astype(int)
+
+future_rows = df[
+    df["year"] > LAST_COMPLETED_SEASON
+].copy()
+
+if not future_rows.empty:
+    print(
+        f"Excluding {len(future_rows):,} team-season rows after "
+        f"LAST_COMPLETED_SEASON={LAST_COMPLETED_SEASON}."
+    )
+
+df = df[
+    df["year"] <= LAST_COMPLETED_SEASON
+].copy()
+
 
 required = [
     "year",
@@ -83,9 +119,20 @@ if missing:
 # BASIC VALIDATION
 # ============================================================
 
-if len(df) != 108:
+season_counts = (
+    df.groupby("year")
+    .size()
+    .sort_index()
+)
+
+bad_season_counts = season_counts[
+    season_counts != 12
+]
+
+if not bad_season_counts.empty:
     raise RuntimeError(
-        f"Expected 108 team-seasons, found {len(df)}"
+        "Expected 12 team-seasons in every completed season. "
+        f"Found: {bad_season_counts.to_dict()}"
     )
 
 duplicates = df.duplicated(
@@ -198,15 +245,14 @@ coverage = (
 )
 
 expected = {
-    2017: 12,
-    2018: 0,
-    2019: 12,
-    2020: 12,
-    2021: 12,
-    2022: 12,
-    2023: 12,
-    2024: 12,
-    2025: 12,
+    year: (
+        0
+        if year == 2018
+        else 12
+    )
+    for year in sorted(
+        df["year"].unique()
+    )
 }
 
 for year, count in expected.items():
@@ -226,9 +272,13 @@ measured = df[
     df["fully_measured"]
 ].copy()
 
-if len(measured) != 96:
+expected_measured = sum(
+    expected.values()
+)
+
+if len(measured) != expected_measured:
     raise RuntimeError(
-        f"Expected 96 fully measured team-seasons, "
+        f"Expected {expected_measured} fully measured team-seasons, "
         f"found {len(measured)}"
     )
 
@@ -464,6 +514,11 @@ profile.to_csv(
 # ============================================================
 # REGRESSION CHECKS
 # ============================================================
+
+if (df["year"] > LAST_COMPLETED_SEASON).any():
+    raise RuntimeError(
+        "Incomplete/future season leaked into Management Index output."
+    )
 
 official = franchise[
     franchise["official"]

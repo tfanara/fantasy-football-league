@@ -3,6 +3,12 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+from season_config import (
+    LAST_COMPLETED_SEASON,
+    detect_latest_completed_week,
+    filter_weekly_current_matchups,
+    print_season_config,
+)
 from team_aliases import canonical_team
 
 
@@ -11,7 +17,10 @@ from team_aliases import canonical_team
 # ============================================================
 
 MATCHUP_CANDIDATES = [
-    Path("data/all_matchups_clean_2017_2025.csv"),
+    Path(
+        f"data/all_matchups_clean_2017_"
+        f"{LAST_COMPLETED_SEASON}.csv"
+    ),
     Path("data/all_matchups_clean.csv"),
 ]
 
@@ -24,25 +33,11 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 # ============================================================
 
 def find_matchup_file():
-    for path in MATCHUP_CANDIDATES:
-        if path.exists():
-            return path
+    stable = Path("data/all_matchups_clean.csv")
+    if not stable.exists():
+        raise FileNotFoundError(stable)
+    return stable
 
-    candidates = sorted(
-        Path("data").glob("all_matchups_clean_*.csv")
-    )
-
-    if candidates:
-        return candidates[-1]
-
-    raise FileNotFoundError(
-        "Could not find a clean matchup master."
-    )
-
-
-# ============================================================
-# LOAD TEAM-WEEKS
-# ============================================================
 
 def build_team_weeks(matchups):
 
@@ -376,16 +371,35 @@ def main():
     print("=" * 72)
     print("BUILDING BAD BEAT ANALYSIS")
     print("=" * 72)
+    print_season_config()
 
     print(f"\nMatchup source: {matchup_file}")
 
     matchups = pd.read_csv(matchup_file)
 
-    matchups = matchups[
-        ~matchups["is_playoffs"].astype(str)
-        .str.lower()
-        .isin(["true", "1"])
-    ].copy()
+    matchups["year"] = pd.to_numeric(
+        matchups["year"],
+        errors="coerce",
+    )
+
+    if matchups["year"].isna().any():
+        raise RuntimeError(
+            "Matchup input contains "
+            f"{int(matchups['year'].isna().sum())} invalid year rows."
+        )
+
+    matchups["year"] = matchups["year"].astype(int)
+
+    weekly_state = detect_latest_completed_week(matchups)
+    matchups = filter_weekly_current_matchups(
+        matchups, weekly_state=weekly_state
+    )
+    print_season_config(weekly_state)
+
+    if matchups.empty:
+        raise RuntimeError(
+            "No completed-season regular-season matchups remain."
+        )
 
     print(
         f"Regular-season games: {len(matchups):,}"
@@ -471,6 +485,74 @@ def main():
         )
     )
 
+    if (
+        pd.to_numeric(
+            team_weeks["year"],
+            errors="coerce",
+        ) > weekly_state.current_season
+    ).any():
+        raise RuntimeError(
+            "Incomplete/future season leaked into Bad Beat output."
+        )
+
+    season_team_counts = (
+        team_weeks.groupby("year")["fantasy_team"]
+        .nunique()
+        .sort_index()
+    )
+
+    bad_season_counts = season_team_counts[
+        season_team_counts != 12
+    ]
+
+    if not bad_season_counts.empty:
+        raise RuntimeError(
+            "Expected 12 teams in every completed season; found: "
+            + str(bad_season_counts.to_dict())
+        )
+
+    if weekly_state.latest_completed_week == 0:
+        baseline_checks = {
+            "regular-season games": (
+                len(matchups),
+                732,
+            ),
+            "team-weeks": (
+                len(team_weeks),
+                1464,
+            ),
+            "bad beats": (
+                int(team_weeks["bad_beat"].sum()),
+                166,
+            ),
+            "severe bad beats": (
+                int(team_weeks["severe_bad_beat"].sum()),
+                29,
+            ),
+            "brutal top-3-score losses": (
+                int(team_weeks["brutal_bad_beat"].sum()),
+                29,
+            ),
+            "lucky wins": (
+                int(team_weeks["lucky_win"].sum()),
+                166,
+            ),
+        }
+
+        for label, (actual, expected) in baseline_checks.items():
+            if actual != expected:
+                raise RuntimeError(
+                    f"Audited 2017-2025 {label} regression failed: "
+                    f"expected {expected:,}, found {actual:,}."
+                )
+
+        print(
+            "PASS — audited 2017-2025 Bad Beat baseline "
+            "(732 games / 1,464 team-weeks / "
+            "166 bad beats / 29 severe / "
+            "29 brutal / 166 lucky wins)."
+        )
+
     outputs = {
         "bad_beat_team_week.csv": team_weeks,
         "bad_beat_franchise.csv": franchise,
@@ -530,6 +612,10 @@ def main():
 
     print(
         "PASS — all-play records reconcile."
+    )
+
+    print(
+        "PASS — every completed season contains 12 teams."
     )
 
     print("\n" + "=" * 72)

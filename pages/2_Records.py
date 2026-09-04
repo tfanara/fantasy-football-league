@@ -1,63 +1,4 @@
-import streamlit as st
-import pandas as pd
-import numpy as np
-from pathlib import Path
 
-st.set_page_config(page_title='League Records', page_icon='🏅', layout='wide')
-
-BASE_DIR = Path(__file__).resolve().parents[1]
-HISTORY_DIR = BASE_DIR / 'data' / 'history'
-PLAYOFF_DIR = BASE_DIR / 'data' / 'playoffs'
-PLAYER_WEEK_DIR = BASE_DIR / 'data' / 'matchups' / 'player_week_stats'
-ANALYSIS_DIR = PLAYER_WEEK_DIR / 'analysis'
-
-FILES = {
-    'team_games': HISTORY_DIR / 'team_games.csv',
-    'season_records': HISTORY_DIR / 'season_records.csv',
-    'all_time_records': HISTORY_DIR / 'all_time_records.csv',
-    'championships': PLAYOFF_DIR / 'championships.csv',
-    'playoff_records': PLAYOFF_DIR / 'playoff_records.csv',
-    'playoff_games': PLAYOFF_DIR / 'playoff_games.csv',
-    'playoff_appearances': PLAYOFF_DIR / 'playoff_appearances.csv',
-    'player_pedigree': PLAYOFF_DIR / 'player_championship_pedigree.csv',
-    'weekly_lineups': PLAYER_WEEK_DIR / 'all_weekly_lineups_2017_2025.csv',
-    'luck_team_week': ANALYSIS_DIR / 'luck_team_week.csv',
-    'luck_season': ANALYSIS_DIR / 'luck_season.csv',
-    'efficiency_season': ANALYSIS_DIR / 'lineup_efficiency_season.csv',
-}
-
-st.markdown('''
-<style>
-.block-container{max-width:1500px;padding-top:1.5rem;padding-bottom:3rem}
-.records-hero{padding:1.6rem 1.8rem;border-radius:18px;background:linear-gradient(135deg,rgba(30,41,59,.98),rgba(15,23,42,.98));color:white;margin-bottom:1.2rem}
-.records-hero h1{margin:0;font-size:2.25rem;font-weight:800}
-.records-hero p{margin:.4rem 0 0 0;color:#cbd5e1}
-div[data-testid="stMetric"]{background:rgba(148,163,184,.08);border:1px solid rgba(148,163,184,.18);padding:.85rem;border-radius:14px}
-</style>
-''', unsafe_allow_html=True)
-
-@st.cache_data
-def load_data():
-    out = {}
-    for name, path in FILES.items():
-        try:
-            out[name] = pd.read_csv(path) if path.exists() else pd.DataFrame()
-        except Exception:
-            out[name] = pd.DataFrame()
-    return out
-
-data = load_data()
-team_games = data['team_games'].copy()
-season_records = data['season_records'].copy()
-all_time = data['all_time_records'].copy()
-championships = data['championships'].copy()
-playoff_records = data['playoff_records'].copy()
-playoff_games = data['playoff_games'].copy()
-playoff_appearances = data['playoff_appearances'].copy()
-player_pedigree = data['player_pedigree'].copy()
-weekly_lineups = data['weekly_lineups'].copy()
-luck_team_week = data['luck_team_week'].copy()
-luck_season = data['luck_season'].copy()
 efficiency_season = data['efficiency_season'].copy()
 
 def numeric(df, cols):
@@ -5639,4 +5580,4 @@ with tab_milestones:
 
 
 st.divider()
-st.caption('League Record Book • Regular-season franchise/matchup records come from data/history/team_games.csv. Player records currently cover validated weekly lineup history from 2017–2025.')
+st.caption('League Record Book • Regular-season franchise/matchup records come from data/history/team_games.csv. Player records use the validated canonical weekly-lineup master through the latest completed player-week horizon.')

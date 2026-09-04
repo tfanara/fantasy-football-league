@@ -1,1621 +1,1801 @@
-year,round,pick_in_round,overall_pick,team,player,keeper
-2017,1,1,1,Post Mahomes,David Johnson,False
-2017,1,2,2,Pop Lockett Drop it,Le'Veon Bell,False
-2017,1,3,3,ThreatLevelMidnight,Antonio Brown,False
-2017,1,4,4,Joe Mantegna,Odell Beckham Jr.,False
-2017,1,5,5,malle_dips_pouches,Julio Jones,False
-2017,1,6,6,Malle ❤️ 🐸,LeSean McCoy,False
-2017,1,7,7,Ginger FC,Mike Evans,False
-2017,1,8,8,Dillon Panthers,Devonta Freeman,False
-2017,1,9,9,The Big Gronkowski,A.J. Green,False
-2017,1,10,10,Voldemort,Melvin Gordon III,False
-2017,1,11,11,Hello Harvard,Michael Thomas,False
-2017,1,12,12,Big Sack Jack,DeMarco Murray,False
-2017,2,1,13,Big Sack Jack,Brandin Cooks,False
-2017,2,2,14,Hello Harvard,Jordan Howard,False
-2017,2,3,15,Voldemort,Jordy Nelson,False
-2017,2,4,16,The Big Gronkowski,Ezekiel Elliott,False
-2017,2,5,17,Dillon Panthers,Dez Bryant,False
-2017,2,6,18,Ginger FC,Jay Ajayi,False
-2017,2,7,19,Malle ❤️ 🐸,Amari Cooper,False
-2017,2,8,20,malle_dips_pouches,Todd Gurley,False
-2017,2,9,21,Joe Mantegna,Christian McCaffrey,False
-2017,2,10,22,ThreatLevelMidnight,Terrelle Pryor Sr.,False
-2017,2,11,23,Pop Lockett Drop it,Isaiah Crowell,False
-2017,2,12,24,Post Mahomes,Doug Baldwin,False
-2017,3,1,25,Post Mahomes,Leonard Fournette,False
-2017,3,2,26,Pop Lockett Drop it,T.Y. Hilton,False
-2017,3,3,27,ThreatLevelMidnight,Lamar Miller,False
-2017,3,4,28,Joe Mantegna,Travis Kelce,False
-2017,3,5,29,malle_dips_pouches,Rob Gronkowski,False
-2017,3,6,30,Malle ❤️ 🐸,Dalvin Cook,False
-2017,3,7,31,Ginger FC,Carlos Hyde,False
-2017,3,8,32,Dillon Panthers,Aaron Rodgers,False
-2017,3,9,33,The Big Gronkowski,Marshawn Lynch,False
-2017,3,10,34,Voldemort,Tom Brady,False
-2017,3,11,35,Hello Harvard,Ty Montgomery II,False
-2017,3,12,36,Big Sack Jack,Tyreek Hill,False
-2017,4,1,37,Big Sack Jack,Mark Ingram II,False
-2017,4,2,38,Hello Harvard,Joe Mixon,False
-2017,4,3,39,Voldemort,Kareem Hunt,False
-2017,4,4,40,The Big Gronkowski,Davante Adams,False
-2017,4,5,41,Dillon Panthers,Greg Olsen,False
-2017,4,6,42,Ginger FC,DeAndre Hopkins,False
-2017,4,7,43,Malle ❤️ 🐸,Russell Wilson,False
-2017,4,8,44,malle_dips_pouches,Michael Crabtree,False
-2017,4,9,45,Joe Mantegna,Kelvin Benjamin,False
-2017,4,10,46,ThreatLevelMidnight,C.J. Anderson,False
-2017,4,11,47,Pop Lockett Drop it,Alshon Jeffery,False
-2017,4,12,48,Post Mahomes,Demaryius Thomas,False
-2017,5,1,49,Post Mahomes,Drew Brees,False
-2017,5,2,50,Pop Lockett Drop it,Matt Ryan,False
-2017,5,3,51,ThreatLevelMidnight,Keenan Allen,False
-2017,5,4,52,Joe Mantegna,Ameer Abdullah,False
-2017,5,5,53,malle_dips_pouches,Tevin Coleman,False
-2017,5,6,54,Malle ❤️ 🐸,DeSean Jackson,False
-2017,5,7,55,Ginger FC,Jimmy Graham,False
-2017,5,8,56,Dillon Panthers,Emmanuel Sanders,False
-2017,5,9,57,The Big Gronkowski,Golden Tate,False
-2017,5,10,58,Voldemort,Jordan Reed,False
-2017,5,11,59,Hello Harvard,DeVante Parker,False
-2017,5,12,60,Big Sack Jack,Martavis Bryant,False
-2017,6,1,61,Big Sack Jack,Doug Martin,False
-2017,6,2,62,Hello Harvard,Rob Kelley,False
-2017,6,3,63,Voldemort,Allen Robinson,False
-2017,6,4,64,The Big Gronkowski,Mike Gillislee,False
-2017,6,5,65,Dillon Panthers,Derrick Henry,False
-2017,6,6,66,Ginger FC,Marcus Mariota,False
-2017,6,7,67,Malle ❤️ 🐸,Kyle Rudolph,False
-2017,6,8,68,malle_dips_pouches,Jamison Crowder,False
-2017,6,9,69,Joe Mantegna,Jameis Winston,False
-2017,6,10,70,ThreatLevelMidnight,Brandon Marshall,False
-2017,6,11,71,Pop Lockett Drop it,Tyler Eifert,False
-2017,6,12,72,Post Mahomes,Bilal Powell,False
-2017,7,1,73,Post Mahomes,Larry Fitzgerald,False
-2017,7,2,74,Pop Lockett Drop it,Jarvis Landry,False
-2017,7,3,75,ThreatLevelMidnight,Martellus Bennett,False
-2017,7,4,76,Joe Mantegna,Adrian Peterson,False
-2017,7,5,77,malle_dips_pouches,LeGarrette Blount,False
-2017,7,6,78,Malle ❤️ 🐸,Willie Snead IV,False
-2017,7,7,79,Ginger FC,Danny Woodhead,False
-2017,7,8,80,Dillon Panthers,Jeremy Maclin,False
-2017,7,9,81,The Big Gronkowski,Delanie Walker,False
-2017,7,10,82,Voldemort,Eddie Lacy,False
-2017,7,11,83,Hello Harvard,Pierre Garcon,False
-2017,7,12,84,Big Sack Jack,Hunter Henry,False
-2017,8,1,85,Big Sack Jack,Kirk Cousins,False
-2017,8,2,86,Hello Harvard,Thomas Rawls,False
-2017,8,3,87,Voldemort,Chris Hogan,False
-2017,8,4,88,The Big Gronkowski,Ben Roethlisberger,False
-2017,8,5,89,Dillon Panthers,Cam Newton,False
-2017,8,6,90,Ginger FC,Broncos,False
-2017,8,7,91,Malle ❤️ 🐸,Terrance West,False
-2017,8,8,92,malle_dips_pouches,Derek Carr,False
-2017,8,9,93,Joe Mantegna,Sammy Watkins,False
-2017,8,10,94,ThreatLevelMidnight,Dak Prescott,False
-2017,8,11,95,Pop Lockett Drop it,Justin Tucker,False
-2017,8,12,96,Post Mahomes,Stefon Diggs,False
-2017,9,1,97,Post Mahomes,Frank Gore,False
-2017,9,2,98,Pop Lockett Drop it,Seahawks,False
-2017,9,3,99,ThreatLevelMidnight,Texans,False
-2017,9,4,100,Joe Mantegna,Randall Cobb,False
-2017,9,5,101,malle_dips_pouches,Tyrell Williams,False
-2017,9,6,102,Malle ❤️ 🐸,Chiefs,False
-2017,9,7,103,Ginger FC,Stephen Gostkowski,False
-2017,9,8,104,Dillon Panthers,Patriots,False
-2017,9,9,105,The Big Gronkowski,Dan Bailey,False
-2017,9,10,106,Voldemort,Paul Perkins,False
-2017,9,11,107,Hello Harvard,Darren McFadden,False
-2017,9,12,108,Big Sack Jack,Philip Rivers,False
-2017,10,1,109,Big Sack Jack,Vikings,False
-2017,10,2,110,Hello Harvard,Matthew Stafford,False
-2017,10,3,111,Voldemort,Donte Moncrief,False
-2017,10,4,112,The Big Gronkowski,Andy Dalton,False
-2017,10,5,113,Dillon Panthers,Matt Bryant,False
-2017,10,6,114,Ginger FC,Zach Ertz,False
-2017,10,7,115,Malle ❤️ 🐸,Eric Decker,False
-2017,10,8,116,malle_dips_pouches,Jonathan Stewart,False
-2017,10,9,117,Joe Mantegna,Rex Burkhead,False
-2017,10,10,118,ThreatLevelMidnight,Rishard Matthews,False
-2017,10,11,119,Pop Lockett Drop it,Duke Johnson,False
-2017,10,12,120,Post Mahomes,Kenny Britt,False
-2017,11,1,121,Post Mahomes,Mike Wallace,False
-2017,11,2,122,Pop Lockett Drop it,Andrew Luck,False
-2017,11,3,123,ThreatLevelMidnight,Eli Manning,False
-2017,11,4,124,Joe Mantegna,Cardinals,False
-2017,11,5,125,malle_dips_pouches,Corey Coleman,False
-2017,11,6,126,Malle ❤️ 🐸,Adam Vinatieri,False
-2017,11,7,127,Ginger FC,Jack Doyle,False
-2017,11,8,128,Dillon Panthers,Theo Riddick,False
-2017,11,9,129,The Big Gronkowski,Ted Ginn Jr.,False
-2017,11,10,130,Voldemort,Jeremy Hill,False
-2017,11,11,131,Hello Harvard,Adam Thielen,False
-2017,11,12,132,Big Sack Jack,Marvin Jones Jr.,False
-2017,12,1,133,Big Sack Jack,John Brown,False
-2017,12,2,134,Hello Harvard,Austin Hooper,False
-2017,12,3,135,Voldemort,Matt Forte,False
-2017,12,4,136,The Big Gronkowski,Steelers,False
-2017,12,5,137,Dillon Panthers,Eric Ebron,False
-2017,12,6,138,Ginger FC,Jordan Matthews,False
-2017,12,7,139,Malle ❤️ 🐸,Carson Wentz,False
-2017,12,8,140,malle_dips_pouches,Sebastian Janikowski,False
-2017,12,9,141,Joe Mantegna,Carson Palmer,False
-2017,12,10,142,ThreatLevelMidnight,Mason Crosby,False
-2017,12,11,143,Pop Lockett Drop it,Danny Amendola,False
-2017,12,12,144,Post Mahomes,Coby Fleener,False
-2017,13,1,145,Post Mahomes,Panthers,False
-2017,13,2,146,Pop Lockett Drop it,Kevin White,False
-2017,13,3,147,ThreatLevelMidnight,Jason Witten,False
-2017,13,4,148,Joe Mantegna,Matt Prater,False
-2017,13,5,149,malle_dips_pouches,Giants,False
-2017,13,6,150,Malle ❤️ 🐸,Antonio Gates,False
-2017,13,7,151,Ginger FC,Jacquizz Rodgers,False
-2017,13,8,152,Dillon Panthers,James White,False
-2017,13,9,153,The Big Gronkowski,O.J. Howard,False
-2017,13,10,154,Voldemort,Tyrod Taylor,False
-2017,13,11,155,Hello Harvard,Cairo Santos,False
-2017,13,12,156,Big Sack Jack,Latavius Murray,False
-2017,14,1,157,Big Sack Jack,C.J. Fiedorowicz,False
-2017,14,2,158,Hello Harvard,Jaguars,False
-2017,14,3,159,Voldemort,Blake Bortles,False
-2017,14,4,160,The Big Gronkowski,Kenny Stills,False
-2017,14,5,161,Dillon Panthers,Zay Jones,False
-2017,14,6,162,Ginger FC,Jay Cutler,False
-2017,14,7,163,Malle ❤️ 🐸,Corey Davis,False
-2017,14,8,164,malle_dips_pouches,Charles Clay,False
-2017,14,9,165,Joe Mantegna,Julius Thomas,False
-2017,14,10,166,ThreatLevelMidnight,Sterling Shepard,False
-2017,14,11,167,Pop Lockett Drop it,Samaje Perine,False
-2017,14,12,168,Post Mahomes,Robbie Chosen,False
-2017,15,1,169,Post Mahomes,Wil Lutz,False
-2017,15,2,170,Pop Lockett Drop it,Cole Beasley,False
-2017,15,3,171,ThreatLevelMidnight,C.J. Prosise,False
-2017,15,4,172,Joe Mantegna,Darren Sproles,False
-2017,15,5,173,malle_dips_pouches,Allen Hurns,False
-2017,15,6,174,Malle ❤️ 🐸,Packers,False
-2017,15,7,175,Ginger FC,Rams,False
-2017,15,8,176,Dillon Panthers,Ravens,False
-2017,15,9,177,The Big Gronkowski,Robert Turbin,False
-2017,15,10,178,Voldemort,Bills,False
-2017,15,11,179,Hello Harvard,Tyler Lockett,False
-2017,15,12,180,Big Sack Jack,Chris Boswell,False
-2018,1,1,1,Uncle Rico,Todd Gurley,False
-2018,1,2,2,Post Mahomes,Ezekiel Elliott,False
-2018,1,3,3,Malle ❤️ 🐸,David Johnson,False
-2018,1,4,4,Big Sack Jack,Alvin Kamara,False
-2018,1,5,5,Dillon Panthers,Antonio Brown,False
-2018,1,6,6,Ginger FC,DeAndre Hopkins,False
-2018,1,7,7,Joe Mantegna,Saquon Barkley,False
-2018,1,8,8,ThreatLevelMidnight,Melvin Gordon III,False
-2018,1,9,9,Voldemort,Le'Veon Bell,False
-2018,1,10,10,malle_dips_pouches,Leonard Fournette,False
-2018,1,11,11,Pop Lockett Drop it,Kareem Hunt,False
-2018,1,12,12,The Big Gronkowski,Christian McCaffrey,False
-2018,2,1,13,The Big Gronkowski,Dalvin Cook,False
-2018,2,2,14,Pop Lockett Drop it,Odell Beckham Jr.,False
-2018,2,3,15,malle_dips_pouches,Davante Adams,False
-2018,2,4,16,Voldemort,Devonta Freeman,False
-2018,2,5,17,ThreatLevelMidnight,Jordan Howard,False
-2018,2,6,18,Joe Mantegna,Julio Jones,False
-2018,2,7,19,Ginger FC,Rob Gronkowski,False
-2018,2,8,20,Dillon Panthers,A.J. Green,False
-2018,2,9,21,Big Sack Jack,Tyreek Hill,False
-2018,2,10,22,Malle ❤️ 🐸,Mike Evans,False
-2018,2,11,23,Post Mahomes,Michael Thomas,False
-2018,2,12,24,Uncle Rico,Keenan Allen,False
-2018,3,1,25,Uncle Rico,Aaron Rodgers,False
-2018,3,2,26,Post Mahomes,Joe Mixon,False
-2018,3,3,27,Malle ❤️ 🐸,Kenyan Drake,False
-2018,3,4,28,Big Sack Jack,Travis Kelce,False
-2018,3,5,29,Dillon Panthers,Alex Collins,False
-2018,3,6,30,Ginger FC,Jay Ajayi,False
-2018,3,7,31,Joe Mantegna,Zach Ertz,False
-2018,3,8,32,ThreatLevelMidnight,Adam Thielen,False
-2018,3,9,33,Voldemort,Stefon Diggs,False
-2018,3,10,34,malle_dips_pouches,Amari Cooper,False
-2018,3,11,35,Pop Lockett Drop it,Royce Freeman,False
-2018,3,12,36,The Big Gronkowski,JuJu Smith-Schuster,False
-2018,4,1,37,The Big Gronkowski,Larry Fitzgerald,False
-2018,4,2,38,Pop Lockett Drop it,Golden Tate,False
-2018,4,3,39,malle_dips_pouches,Lamar Miller,False
-2018,4,4,40,Voldemort,Tom Brady,False
-2018,4,5,41,ThreatLevelMidnight,LeSean McCoy,False
-2018,4,6,42,Joe Mantegna,Deshaun Watson,False
-2018,4,7,43,Ginger FC,Russell Wilson,False
-2018,4,8,44,Dillon Panthers,Drew Brees,False
-2018,4,9,45,Big Sack Jack,Derrick Henry,False
-2018,4,10,46,Malle ❤️ 🐸,Cam Newton,False
-2018,4,11,47,Post Mahomes,T.Y. Hilton,False
-2018,4,12,48,Uncle Rico,Chris Hogan,False
-2018,5,1,49,Uncle Rico,Doug Baldwin,False
-2018,5,2,50,Post Mahomes,Mark Ingram II,False
-2018,5,3,51,Malle ❤️ 🐸,Allen Robinson,False
-2018,5,4,52,Big Sack Jack,Jarvis Landry,False
-2018,5,5,53,Dillon Panthers,Carlos Hyde,False
-2018,5,6,54,Ginger FC,Carson Wentz,False
-2018,5,7,55,Joe Mantegna,Corey Davis,False
-2018,5,8,56,ThreatLevelMidnight,Marvin Jones Jr.,False
-2018,5,9,57,Voldemort,Demaryius Thomas,False
-2018,5,10,58,malle_dips_pouches,Dion Lewis,False
-2018,5,11,59,Pop Lockett Drop it,Jimmy Graham,False
-2018,5,12,60,The Big Gronkowski,Rex Burkhead,False
-2018,6,1,61,The Big Gronkowski,Brandin Cooks,False
-2018,6,2,62,Pop Lockett Drop it,Josh Gordon,False
-2018,6,3,63,malle_dips_pouches,Delanie Walker,False
-2018,6,4,64,Voldemort,Marshawn Lynch,False
-2018,6,5,65,ThreatLevelMidnight,Greg Olsen,False
-2018,6,6,66,Joe Mantegna,Alfred Morris,False
-2018,6,7,67,Ginger FC,Jamaal Williams,False
-2018,6,8,68,Dillon Panthers,Emmanuel Sanders,False
-2018,6,9,69,Big Sack Jack,Matthew Stafford,False
-2018,6,10,70,Malle ❤️ 🐸,Tevin Coleman,False
-2018,6,11,71,Post Mahomes,Evan Engram,False
-2018,6,12,72,Uncle Rico,Chris Carson,False
-2018,7,1,73,Uncle Rico,Kyle Rudolph,False
-2018,7,2,74,Post Mahomes,Marquise Goodwin,False
-2018,7,3,75,Malle ❤️ 🐸,Ben Roethlisberger,False
-2018,7,4,76,Big Sack Jack,Robert Woods,False
-2018,7,5,77,Dillon Panthers,Trey Burton,False
-2018,7,6,78,Ginger FC,Devin Funchess,False
-2018,7,7,79,Joe Mantegna,Jamison Crowder,False
-2018,7,8,80,ThreatLevelMidnight,Kirk Cousins,False
-2018,7,9,81,Voldemort,James Conner,False
-2018,7,10,82,malle_dips_pouches,Michael Crabtree,False
-2018,7,11,83,Pop Lockett Drop it,Adrian Peterson,False
-2018,7,12,84,The Big Gronkowski,Philip Rivers,False
-2018,8,1,85,The Big Gronkowski,David Njoku,False
-2018,8,2,86,Pop Lockett Drop it,Matt Ryan,False
-2018,8,3,87,malle_dips_pouches,Cooper Kupp,False
-2018,8,4,88,Voldemort,Jordan Reed,False
-2018,8,5,89,ThreatLevelMidnight,Will Fuller V,False
-2018,8,6,90,Joe Mantegna,Jaguars,False
-2018,8,7,91,Ginger FC,Chris Thompson,False
-2018,8,8,92,Dillon Panthers,Kerryon Johnson,False
-2018,8,9,93,Big Sack Jack,Sony Michel,False
-2018,8,10,94,Malle ❤️ 🐸,Cameron Brate,False
-2018,8,11,95,Post Mahomes,Sammy Watkins,False
-2018,8,12,96,Uncle Rico,Robbie Chosen,False
-2018,9,1,97,Uncle Rico,Duke Johnson,False
-2018,9,2,98,Post Mahomes,Andrew Luck,False
-2018,9,3,99,Malle ❤️ 🐸,Alshon Jeffery,False
-2018,9,4,100,Big Sack Jack,Jordy Nelson,False
-2018,9,5,101,Dillon Panthers,Jimmy Garoppolo,False
-2018,9,6,102,Ginger FC,Pierre Garcon,False
-2018,9,7,103,Joe Mantegna,Stephen Gostkowski,False
-2018,9,8,104,ThreatLevelMidnight,Rashaad Penny,False
-2018,9,9,105,Voldemort,Julian Edelman,False
-2018,9,10,106,malle_dips_pouches,Jared Goff,False
-2018,9,11,107,Pop Lockett Drop it,Nelson Agholor,False
-2018,9,12,108,The Big Gronkowski,Jack Doyle,False
-2018,10,1,109,The Big Gronkowski,Alex Smith,False
-2018,10,2,110,Pop Lockett Drop it,Ronald Jones,False
-2018,10,3,111,malle_dips_pouches,Bilal Powell,False
-2018,10,4,112,Voldemort,Peyton Barber,False
-2018,10,5,113,ThreatLevelMidnight,Dak Prescott,False
-2018,10,6,114,Joe Mantegna,Patrick Mahomes,False
-2018,10,7,115,Ginger FC,Greg Zuerlein,False
-2018,10,8,116,Dillon Panthers,Tarik Cohen,False
-2018,10,9,117,Big Sack Jack,Latavius Murray,False
-2018,10,10,118,Malle ❤️ 🐸,Sterling Shepard,False
-2018,10,11,119,Post Mahomes,Isaiah Crowell,False
-2018,10,12,120,Uncle Rico,Aaron Jones Sr.,False
-2018,11,1,121,Uncle Rico,Kenny Stills,False
-2018,11,2,122,Post Mahomes,Marcus Mariota,False
-2018,11,3,123,Malle ❤️ 🐸,Marlon Mack,False
-2018,11,4,124,Big Sack Jack,Vikings,False
-2018,11,5,125,Dillon Panthers,Eagles,False
-2018,11,6,126,Ginger FC,Rishard Matthews,False
-2018,11,7,127,Joe Mantegna,George Kittle,False
-2018,11,8,128,ThreatLevelMidnight,Justin Tucker,False
-2018,11,9,129,Voldemort,Matt Breida,False
-2018,11,10,130,malle_dips_pouches,Rams,False
-2018,11,11,131,Pop Lockett Drop it,Texans,False
-2018,11,12,132,The Big Gronkowski,Chargers,False
-2018,12,1,133,The Big Gronkowski,Matt Bryant,False
-2018,12,2,134,Pop Lockett Drop it,Jake Elliott,False
-2018,12,3,135,malle_dips_pouches,Matt Prater,False
-2018,12,4,136,Voldemort,C.J. Anderson,False
-2018,12,5,137,ThreatLevelMidnight,Broncos,False
-2018,12,6,138,Joe Mantegna,O.J. Howard,False
-2018,12,7,139,Ginger FC,Steelers,False
-2018,12,8,140,Dillon Panthers,Daniel Carlson,False
-2018,12,9,141,Big Sack Jack,Mike Williams,False
-2018,12,10,142,Malle ❤️ 🐸,Harrison Butker,False
-2018,12,11,143,Post Mahomes,Kenny Golladay,False
-2018,12,12,144,Uncle Rico,Nick Chubb,False
-2018,13,1,145,Uncle Rico,Blake Bortles,False
-2018,13,2,146,Post Mahomes,Ravens,False
-2018,13,3,147,Malle ❤️ 🐸,Saints,False
-2018,13,4,148,Big Sack Jack,LeGarrette Blount,False
-2018,13,5,149,Dillon Panthers,Tyler Lockett,False
-2018,13,6,150,Ginger FC,DJ Moore,False
-2018,13,7,151,Joe Mantegna,Keelan Cole Sr.,False
-2018,13,8,152,ThreatLevelMidnight,Kelvin Benjamin,False
-2018,13,9,153,Voldemort,Josh Doctson,False
-2018,13,10,154,malle_dips_pouches,Randall Cobb,False
-2018,13,11,155,Pop Lockett Drop it,Danny Amendola,False
-2018,13,12,156,The Big Gronkowski,Tyrell Williams,False
-2018,14,1,157,The Big Gronkowski,Corey Clement,False
-2018,14,2,158,Pop Lockett Drop it,James White,False
-2018,14,3,159,malle_dips_pouches,Tyler Eifert,False
-2018,14,4,160,Voldemort,Wil Lutz,False
-2018,14,5,161,ThreatLevelMidnight,Ben Watson,False
-2018,14,6,162,Joe Mantegna,Bears,False
-2018,14,7,163,Ginger FC,DeVante Parker,False
-2018,14,8,164,Dillon Panthers,Austin Hooper,False
-2018,14,9,165,Big Sack Jack,Chris Boswell,False
-2018,14,10,166,Malle ❤️ 🐸,Ricky Seals-Jones,False
-2018,14,11,167,Post Mahomes,Jordan Wilkins,False
-2018,14,12,168,Uncle Rico,Patriots,False
-2018,15,1,169,Uncle Rico,Robbie Gould,False
-2018,15,2,170,Post Mahomes,Ryan Succop,False
-2018,15,3,171,Malle ❤️ 🐸,Falcons,False
-2018,15,4,172,Big Sack Jack,Derek Carr,False
-2018,15,5,173,Dillon Panthers,Mohamed Sanu,False
-2018,15,6,174,Ginger FC,Vance McDonald,False
-2018,15,7,175,Joe Mantegna,Giovani Bernard,False
-2018,15,8,176,ThreatLevelMidnight,Chris Godwin Jr.,False
-2018,15,9,177,Voldemort,Panthers,False
-2018,15,10,178,malle_dips_pouches,Theo Riddick,False
-2018,15,11,179,Pop Lockett Drop it,Cameron Meredith,False
-2018,15,12,180,The Big Gronkowski,Calvin Ridley,False
-2019,1,1,1,Pop Lockett Drop it,Saquon Barkley,False
-2019,1,2,2,The Big Gronkowski,Alvin Kamara,False
-2019,1,3,3,malle_dips_pouches,Ezekiel Elliott,False
-2019,1,4,4,Voldemort,Christian McCaffrey,False
-2019,1,5,5,Patty Primetimes,Nick Chubb,False
-2019,1,6,6,Ginger FC,Todd Gurley,False
-2019,1,7,7,ThreatLevelMidnight,James Conner,False
-2019,1,8,8,Post Mahomes,David Johnson,False
-2019,1,9,9,Malle ❤️ 🐸,Le'Veon Bell,False
-2019,1,10,10,Joe Mantegna,DeAndre Hopkins,False
-2019,1,11,11,Uncle Rico,Julio Jones,False
-2019,1,12,12,Big Sack Jack,Tyreek Hill,False
-2019,2,1,13,Big Sack Jack,Sony Michel,False
-2019,2,2,14,Uncle Rico,Davante Adams,False
-2019,2,3,15,Joe Mantegna,Odell Beckham Jr.,False
-2019,2,4,16,Malle ❤️ 🐸,Devonta Freeman,False
-2019,2,5,17,Post Mahomes,Dalvin Cook,False
-2019,2,6,18,ThreatLevelMidnight,Aaron Jones Sr.,False
-2019,2,7,19,Ginger FC,Michael Thomas,False
-2019,2,8,20,Patty Primetimes,Travis Kelce,False
-2019,2,9,21,Voldemort,Patrick Mahomes,False
-2019,2,10,22,malle_dips_pouches,Joe Mixon,False
-2019,2,11,23,The Big Gronkowski,JuJu Smith-Schuster,False
-2019,2,12,24,Pop Lockett Drop it,Mike Evans,False
-2019,3,1,25,Pop Lockett Drop it,George Kittle,False
-2019,3,2,26,The Big Gronkowski,Antonio Brown,False
-2019,3,3,27,malle_dips_pouches,Brandin Cooks,False
-2019,3,4,28,Voldemort,Keenan Allen,False
-2019,3,5,29,Patty Primetimes,Kerryon Johnson,False
-2019,3,6,30,Ginger FC,Baker Mayfield,False
-2019,3,7,31,ThreatLevelMidnight,Leonard Fournette,False
-2019,3,8,32,Post Mahomes,Adam Thielen,False
-2019,3,9,33,Malle ❤️ 🐸,Amari Cooper,False
-2019,3,10,34,Joe Mantegna,Stefon Diggs,False
-2019,3,11,35,Uncle Rico,Damien Williams,False
-2019,3,12,36,Big Sack Jack,Zach Ertz,False
-2019,4,1,37,Big Sack Jack,Chris Godwin Jr.,False
-2019,4,2,38,Uncle Rico,Derrick Henry,False
-2019,4,3,39,Joe Mantegna,David Montgomery,False
-2019,4,4,40,Malle ❤️ 🐸,Allen Robinson,False
-2019,4,5,41,Post Mahomes,Deshaun Watson,False
-2019,4,6,42,ThreatLevelMidnight,Robert Woods,False
-2019,4,7,43,Ginger FC,Phillip Lindsay,False
-2019,4,8,44,Patty Primetimes,Tyler Lockett,False
-2019,4,9,45,Voldemort,Chris Carson,False
-2019,4,10,46,malle_dips_pouches,Julian Edelman,False
-2019,4,11,47,The Big Gronkowski,Marlon Mack,False
-2019,4,12,48,Pop Lockett Drop it,Josh Jacobs,False
-2019,5,1,49,Pop Lockett Drop it,Kenny Golladay,False
-2019,5,2,50,The Big Gronkowski,Mark Ingram II,False
-2019,5,3,51,malle_dips_pouches,Aaron Rodgers,False
-2019,5,4,52,Voldemort,O.J. Howard,False
-2019,5,5,53,Patty Primetimes,Austin Ekeler,False
-2019,5,6,54,Ginger FC,Mike Williams,False
-2019,5,7,55,ThreatLevelMidnight,Robbie Chosen,False
-2019,5,8,56,Post Mahomes,T.Y. Hilton,False
-2019,5,9,57,Malle ❤️ 🐸,Matt Ryan,False
-2019,5,10,58,Joe Mantegna,Miles Sanders,False
-2019,5,11,59,Uncle Rico,Tyler Boyd,False
-2019,5,12,60,Big Sack Jack,Cooper Kupp,False
-2019,6,1,61,Big Sack Jack,Melvin Gordon III,False
-2019,6,2,62,Uncle Rico,Evan Engram,False
-2019,6,3,63,Joe Mantegna,Duke Johnson,False
-2019,6,4,64,Malle ❤️ 🐸,Calvin Ridley,False
-2019,6,5,65,Post Mahomes,James White,False
-2019,6,6,66,ThreatLevelMidnight,Josh Gordon,False
-2019,6,7,67,Ginger FC,Kenyan Drake,False
-2019,6,8,68,Patty Primetimes,Will Fuller V,False
-2019,6,9,69,Voldemort,Tevin Coleman,False
-2019,6,10,70,malle_dips_pouches,DJ Moore,False
-2019,6,11,71,The Big Gronkowski,Hunter Henry,False
-2019,6,12,72,Pop Lockett Drop it,Alshon Jeffery,False
-2019,7,1,73,Pop Lockett Drop it,Russell Wilson,False
-2019,7,2,74,The Big Gronkowski,Jarvis Landry,False
-2019,7,3,75,malle_dips_pouches,Tarik Cohen,False
-2019,7,4,76,Voldemort,Latavius Murray,False
-2019,7,5,77,Patty Primetimes,Drew Brees,False
-2019,7,6,78,Ginger FC,Jared Cook,False
-2019,7,7,79,ThreatLevelMidnight,Vance McDonald,False
-2019,7,8,80,Post Mahomes,Derrius Guice,False
-2019,7,9,81,Malle ❤️ 🐸,David Njoku,False
-2019,7,10,82,Joe Mantegna,Carson Wentz,False
-2019,7,11,83,Uncle Rico,Cam Newton,False
-2019,7,12,84,Big Sack Jack,Dede Westbrook,False
-2019,8,1,85,Big Sack Jack,Tom Brady,False
-2019,8,2,86,Uncle Rico,Christian Kirk,False
-2019,8,3,87,Joe Mantegna,Austin Hooper,False
-2019,8,4,88,Malle ❤️ 🐸,Kareem Hunt,False
-2019,8,5,89,Post Mahomes,A.J. Green,False
-2019,8,6,90,ThreatLevelMidnight,Jared Goff,False
-2019,8,7,91,Ginger FC,Sammy Watkins,False
-2019,8,8,92,Patty Primetimes,Marvin Jones Jr.,False
-2019,8,9,93,Voldemort,Curtis Samuel,False
-2019,8,10,94,malle_dips_pouches,Sterling Shepard,False
-2019,8,11,95,The Big Gronkowski,Philip Rivers,False
-2019,8,12,96,Pop Lockett Drop it,Devin Singletary,False
-2019,9,1,97,Pop Lockett Drop it,Tyrell Williams,False
-2019,9,2,98,The Big Gronkowski,Greg Zuerlein,False
-2019,9,3,99,malle_dips_pouches,LeSean McCoy,False
-2019,9,4,100,Voldemort,Royce Freeman,False
-2019,9,5,101,Patty Primetimes,Lamar Jackson,False
-2019,9,6,102,Ginger FC,Justin Tucker,False
-2019,9,7,103,ThreatLevelMidnight,Corey Davis,False
-2019,9,8,104,Post Mahomes,Rashaad Penny,False
-2019,9,9,105,Malle ❤️ 🐸,Larry Fitzgerald,False
-2019,9,10,106,Joe Mantegna,Bears,False
-2019,9,11,107,Uncle Rico,Matt Breida,False
-2019,9,12,108,Big Sack Jack,Rams,False
-2019,10,1,109,Big Sack Jack,Jordan Howard,False
-2019,10,2,110,Uncle Rico,Michael Gallup,False
-2019,10,3,111,Joe Mantegna,Harrison Butker,False
-2019,10,4,112,Malle ❤️ 🐸,Darrell Henderson Jr.,False
-2019,10,5,113,Post Mahomes,Kyler Murray,False
-2019,10,6,114,ThreatLevelMidnight,Stephen Gostkowski,False
-2019,10,7,115,Ginger FC,Browns,False
-2019,10,8,116,Patty Primetimes,Donte Moncrief,False
-2019,10,9,117,Voldemort,Dante Pettis,False
-2019,10,10,118,malle_dips_pouches,Delanie Walker,False
-2019,10,11,119,The Big Gronkowski,Jaguars,False
-2019,10,12,120,Pop Lockett Drop it,DK Metcalf,False
-2019,11,1,121,Pop Lockett Drop it,Mark Andrews,False
-2019,11,2,122,The Big Gronkowski,Eric Ebron,False
-2019,11,3,123,malle_dips_pouches,Carlos Hyde,False
-2019,11,4,124,Voldemort,Justin Jackson,False
-2019,11,5,125,Patty Primetimes,Tony Pollard,False
-2019,11,6,126,Ginger FC,John Brown,False
-2019,11,7,127,ThreatLevelMidnight,DeSean Jackson,False
-2019,11,8,128,Post Mahomes,Courtland Sutton,False
-2019,11,9,129,Malle ❤️ 🐸,Wil Lutz,False
-2019,11,10,130,Joe Mantegna,Jameis Winston,False
-2019,11,11,131,Uncle Rico,Trey Burton,False
-2019,11,12,132,Big Sack Jack,Ka'imi Fairbairn,False
-2019,12,1,133,Big Sack Jack,Mohamed Sanu,False
-2019,12,2,134,Uncle Rico,Peyton Barber,False
-2019,12,3,135,Joe Mantegna,Marquez Valdes-Scantling,False
-2019,12,4,136,Malle ❤️ 🐸,Geronimo Allison,False
-2019,12,5,137,Post Mahomes,Greg Olsen,False
-2019,12,6,138,ThreatLevelMidnight,Darwin Thompson,False
-2019,12,7,139,Ginger FC,Ben Roethlisberger,False
-2019,12,8,140,Patty Primetimes,Ravens,False
-2019,12,9,141,Voldemort,Jaylen Samuels,False
-2019,12,10,142,malle_dips_pouches,Emmanuel Sanders,False
-2019,12,11,143,The Big Gronkowski,Jimmy Garoppolo,False
-2019,12,12,144,Pop Lockett Drop it,Chris Thompson,False
-2019,13,1,145,Pop Lockett Drop it,Kirk Cousins,False
-2019,13,2,146,The Big Gronkowski,Dion Lewis,False
-2019,13,3,147,malle_dips_pouches,Matt Bryant,False
-2019,13,4,148,Voldemort,Damien Harris,False
-2019,13,5,149,Patty Primetimes,Michael Badgley,False
-2019,13,6,150,Ginger FC,Kyle Rudolph,False
-2019,13,7,151,ThreatLevelMidnight,Patriots,False
-2019,13,8,152,Post Mahomes,Kalen Ballage,False
-2019,13,9,153,Malle ❤️ 🐸,Dak Prescott,False
-2019,13,10,154,Joe Mantegna,Jordan Reed,False
-2019,13,11,155,Uncle Rico,Josh Allen,False
-2019,13,12,156,Big Sack Jack,Ty Montgomery II,False
-2019,14,1,157,Big Sack Jack,Anthony Miller,False
-2019,14,2,158,Uncle Rico,Texans,False
-2019,14,3,159,Joe Mantegna,Vikings,False
-2019,14,4,160,Malle ❤️ 🐸,Chargers,False
-2019,14,5,161,Post Mahomes,Saints,False
-2019,14,6,162,ThreatLevelMidnight,Nyheim Miller-Hines,False
-2019,14,7,163,Ginger FC,Hollywood Brown,False
-2019,14,8,164,Patty Primetimes,Keke Coutee,False
-2019,14,9,165,Voldemort,Seahawks,False
-2019,14,10,166,malle_dips_pouches,Chiefs,False
-2019,14,11,167,The Big Gronkowski,Jamison Crowder,False
-2019,14,12,168,Pop Lockett Drop it,Bills,False
-2019,15,1,169,Pop Lockett Drop it,Robbie Gould,False
-2019,15,2,170,The Big Gronkowski,Ronald Jones,False
-2019,15,3,171,malle_dips_pouches,Jack Doyle,False
-2019,15,4,172,Voldemort,Jake Elliott,False
-2019,15,5,173,Patty Primetimes,Darren Waller,False
-2019,15,6,174,Ginger FC,Tre'Quan Smith,False
-2019,15,7,175,ThreatLevelMidnight,Jamaal Williams,False
-2019,15,8,176,Post Mahomes,Mason Crosby,False
-2019,15,9,177,Malle ❤️ 🐸,T.J. Hockenson,False
-2019,15,10,178,Joe Mantegna,Justice Hill,False
-2019,15,11,179,Uncle Rico,Matt Prater,False
-2019,15,12,180,Big Sack Jack,Mitchell Trubisky,False
-2020,1,1,1,Ginger FC,Christian McCaffrey,False
-2020,1,2,2,Post Mahomes,Saquon Barkley,False
-2020,1,3,3,Big Sack Jack,Ezekiel Elliott,False
-2020,1,4,4,Uncle Rico,Michael Thomas,False
-2020,1,5,5,Malle ❤️ 🐸,Alvin Kamara,False
-2020,1,6,6,The Big Gronkowski,Dalvin Cook,False
-2020,1,7,7,Joe Mantegna,Clyde Edwards-Helaire,False
-2020,1,8,8,Voldemort,Tyreek Hill,False
-2020,1,9,9,ThreatLevelMidnight,Joe Mixon,False
-2020,1,10,10,malle_dips_pouches,Aaron Jones Sr.,False
-2020,1,11,11,Patty Primetimes,Nick Chubb,False
-2020,1,12,12,Pop Lockett Drop it,David Johnson,False
-2020,2,1,13,Pop Lockett Drop it,Julio Jones,False
-2020,2,2,14,Patty Primetimes,Austin Ekeler,False
-2020,2,3,15,malle_dips_pouches,DeAndre Hopkins,False
-2020,2,4,16,ThreatLevelMidnight,Davante Adams,False
-2020,2,5,17,Voldemort,Kenyan Drake,False
-2020,2,6,18,Joe Mantegna,George Kittle,False
-2020,2,7,19,The Big Gronkowski,James Conner,False
-2020,2,8,20,Malle ❤️ 🐸,Travis Kelce,False
-2020,2,9,21,Uncle Rico,Chris Godwin Jr.,False
-2020,2,10,22,Big Sack Jack,Patrick Mahomes,False
-2020,2,11,23,Post Mahomes,Kenny Golladay,False
-2020,2,12,24,Ginger FC,Mike Evans,False
-2020,3,1,25,Ginger FC,Russell Wilson,False
-2020,3,2,26,Post Mahomes,Chris Carson,False
-2020,3,3,27,Big Sack Jack,Odell Beckham Jr.,False
-2020,3,4,28,Uncle Rico,Derrick Henry,True
-2020,3,5,29,Malle ❤️ 🐸,Adam Thielen,False
-2020,3,6,30,The Big Gronkowski,Allen Robinson,False
-2020,3,7,31,Joe Mantegna,Todd Gurley,False
-2020,3,8,32,Voldemort,Jonathan Taylor,False
-2020,3,9,33,ThreatLevelMidnight,A.J. Brown,False
-2020,3,10,34,malle_dips_pouches,Le'Veon Bell,False
-2020,3,11,35,Patty Primetimes,Mark Andrews,False
-2020,3,12,36,Pop Lockett Drop it,Josh Jacobs,True
-2020,4,1,37,Pop Lockett Drop it,Courtland Sutton,False
-2020,4,2,38,Patty Primetimes,Tyler Lockett,False
-2020,4,3,39,malle_dips_pouches,Amari Cooper,False
-2020,4,4,40,ThreatLevelMidnight,Raheem Mostert,False
-2020,4,5,41,Voldemort,Mark Ingram II,False
-2020,4,6,42,Joe Mantegna,JuJu Smith-Schuster,False
-2020,4,7,43,The Big Gronkowski,Cooper Kupp,False
-2020,4,8,44,Malle ❤️ 🐸,Calvin Ridley,False
-2020,4,9,45,Uncle Rico,Zach Ertz,False
-2020,4,10,46,Big Sack Jack,Hollywood Brown,False
-2020,4,11,47,Post Mahomes,DJ Moore,False
-2020,4,12,48,Ginger FC,Cam Akers,False
-2020,5,1,49,Ginger FC,DK Metcalf,False
-2020,5,2,50,Post Mahomes,David Montgomery,False
-2020,5,3,51,Big Sack Jack,Melvin Gordon III,True
-2020,5,4,52,Uncle Rico,D'Andre Swift,False
-2020,5,5,53,Malle ❤️ 🐸,Tom Brady,False
-2020,5,6,54,The Big Gronkowski,Keenan Allen,False
-2020,5,7,55,Joe Mantegna,DJ Chark,False
-2020,5,8,56,Voldemort,Dak Prescott,False
-2020,5,9,57,ThreatLevelMidnight,Michael Gallup,False
-2020,5,10,58,malle_dips_pouches,Hunter Henry,False
-2020,5,11,59,Patty Primetimes,T.Y. Hilton,False
-2020,5,12,60,Pop Lockett Drop it,Stefon Diggs,False
-2020,6,1,61,Pop Lockett Drop it,Austin Hooper,False
-2020,6,2,62,Patty Primetimes,J.K. Dobbins,False
-2020,6,3,63,malle_dips_pouches,Devin Singletary,False
-2020,6,4,64,ThreatLevelMidnight,Tyler Boyd,False
-2020,6,5,65,Voldemort,Leonard Fournette,False
-2020,6,6,66,Joe Mantegna,Deshaun Watson,False
-2020,6,7,67,The Big Gronkowski,Darren Waller,False
-2020,6,8,68,Malle ❤️ 🐸,Jordan Howard,False
-2020,6,9,69,Uncle Rico,Antonio Gibson,False
-2020,6,10,70,Big Sack Jack,Julian Edelman,False
-2020,6,11,71,Post Mahomes,Robert Woods,False
-2020,6,12,72,Ginger FC,DeVante Parker,False
-2020,7,1,73,Ginger FC,Sony Michel,False
-2020,7,2,74,Post Mahomes,A.J. Green,False
-2020,7,3,75,Big Sack Jack,Evan Engram,False
-2020,7,4,76,Uncle Rico,Josh Allen,False
-2020,7,5,77,Malle ❤️ 🐸,Kareem Hunt,True
-2020,7,6,78,The Big Gronkowski,Ronald Jones,False
-2020,7,7,79,Joe Mantegna,Jarvis Landry,False
-2020,7,8,80,Voldemort,Tyler Higbee,False
-2020,7,9,81,ThreatLevelMidnight,Matt Ryan,False
-2020,7,10,82,malle_dips_pouches,Deebo Samuel Sr.,False
-2020,7,11,83,Patty Primetimes,Rob Gronkowski,False
-2020,7,12,84,Pop Lockett Drop it,Aaron Rodgers,False
-2020,8,1,85,Pop Lockett Drop it,Will Fuller V,False
-2020,8,2,86,Patty Primetimes,Lamar Jackson,True
-2020,8,3,87,malle_dips_pouches,Mecole Hardman Jr.,False
-2020,8,4,88,ThreatLevelMidnight,Marvin Jones Jr.,False
-2020,8,5,89,Voldemort,Brandin Cooks,False
-2020,8,6,90,Joe Mantegna,Zack Moss,False
-2020,8,7,91,The Big Gronkowski,Sterling Shepard,False
-2020,8,8,92,Malle ❤️ 🐸,Latavius Murray,False
-2020,8,9,93,Uncle Rico,Diontae Johnson,False
-2020,8,10,94,Big Sack Jack,James White,False
-2020,8,11,95,Post Mahomes,Phillip Lindsay,False
-2020,8,12,96,Ginger FC,Matt Breida,False
-2020,9,1,97,Ginger FC,Jared Cook,False
-2020,9,2,98,Post Mahomes,Kyler Murray,True
-2020,9,3,99,Big Sack Jack,CeeDee Lamb,False
-2020,9,4,100,Uncle Rico,Tevin Coleman,False
-2020,9,5,101,Malle ❤️ 🐸,Justin Tucker,False
-2020,9,6,102,The Big Gronkowski,Drew Brees,False
-2020,9,7,103,Joe Mantegna,Tarik Cohen,False
-2020,9,8,104,Voldemort,John Brown,False
-2020,9,9,105,ThreatLevelMidnight,Kerryon Johnson,False
-2020,9,10,106,malle_dips_pouches,Jerry Jeudy,False
-2020,9,11,107,Patty Primetimes,Matthew Stafford,False
-2020,9,12,108,Pop Lockett Drop it,Henry Ruggs III,False
-2020,10,1,109,Pop Lockett Drop it,Emmanuel Sanders,False
-2020,10,2,110,Patty Primetimes,Christian Kirk,False
-2020,10,3,111,malle_dips_pouches,Marlon Mack,False
-2020,10,4,112,ThreatLevelMidnight,Joe Burrow,False
-2020,10,5,113,Voldemort,Terry McLaurin,True
-2020,10,6,114,Joe Mantegna,Miles Sanders,True
-2020,10,7,115,The Big Gronkowski,Darius Slayton,False
-2020,10,8,116,Malle ❤️ 🐸,Ben Roethlisberger,False
-2020,10,9,117,Uncle Rico,Jamison Crowder,False
-2020,10,10,118,Big Sack Jack,Sammy Watkins,False
-2020,10,11,119,Post Mahomes,Hayden Hurst,False
-2020,10,12,120,Ginger FC,Allen Lazard,False
-2020,11,1,121,Ginger FC,Harrison Butker,False
-2020,11,2,122,Post Mahomes,Carson Wentz,False
-2020,11,3,123,Big Sack Jack,Anthony Miller,False
-2020,11,4,124,Uncle Rico,Cam Newton,False
-2020,11,5,125,Malle ❤️ 🐸,DeSean Jackson,False
-2020,11,6,126,The Big Gronkowski,49ers,False
-2020,11,7,127,Joe Mantegna,Cole Beasley,False
-2020,11,8,128,Voldemort,Alexander Mattison,False
-2020,11,9,129,ThreatLevelMidnight,Tony Pollard,False
-2020,11,10,130,malle_dips_pouches,Bills,False
-2020,11,11,131,Patty Primetimes,Golden Tate,False
-2020,11,12,132,Pop Lockett Drop it,Ryquell Armstead,False
-2020,12,1,133,Pop Lockett Drop it,Justin Jefferson,False
-2020,12,2,134,Patty Primetimes,Adrian Peterson,False
-2020,12,3,135,malle_dips_pouches,Ryan Tannehill,False
-2020,12,4,136,ThreatLevelMidnight,Mike Williams,False
-2020,12,5,137,Voldemort,T.J. Hockenson,False
-2020,12,6,138,Joe Mantegna,Curtis Samuel,False
-2020,12,7,139,The Big Gronkowski,Wil Lutz,False
-2020,12,8,140,Malle ❤️ 🐸,Preston Williams,False
-2020,12,9,141,Uncle Rico,Mike Gesicki,False
-2020,12,10,142,Big Sack Jack,Ravens,False
-2020,12,11,143,Post Mahomes,Noah Fant,False
-2020,12,12,144,Ginger FC,Steelers,False
-2020,13,1,145,Ginger FC,Jimmy Garoppolo,False
-2020,13,2,146,Post Mahomes,Darrell Henderson Jr.,False
-2020,13,3,147,Big Sack Jack,Greg Zuerlein,False
-2020,13,4,148,Uncle Rico,Darrynton Evans,False
-2020,13,5,149,Malle ❤️ 🐸,Bears,False
-2020,13,6,150,The Big Gronkowski,Jared Goff,False
-2020,13,7,151,Joe Mantegna,Patriots,False
-2020,13,8,152,Voldemort,Duke Johnson,False
-2020,13,9,153,ThreatLevelMidnight,Chris Herndon,False
-2020,13,10,154,malle_dips_pouches,Eric Ebron,False
-2020,13,11,155,Patty Primetimes,Chase Edmonds,False
-2020,13,12,156,Pop Lockett Drop it,Vikings,False
-2020,14,1,157,Pop Lockett Drop it,Daniel Jones,False
-2020,14,2,158,Patty Primetimes,Colts,False
-2020,14,3,159,malle_dips_pouches,Robbie Gould,False
-2020,14,4,160,ThreatLevelMidnight,Saints,False
-2020,14,5,161,Voldemort,Chiefs,False
-2020,14,6,162,Joe Mantegna,Zane Gonzalez,False
-2020,14,7,163,The Big Gronkowski,Boston Scott,False
-2020,14,8,164,Malle ❤️ 🐸,Blake Jarwin,False
-2020,14,9,165,Uncle Rico,Rams,False
-2020,14,10,166,Big Sack Jack,Baker Mayfield,False
-2020,14,11,167,Post Mahomes,Broncos,False
-2020,14,12,168,Ginger FC,Brandon Aiyuk,False
-2020,15,1,169,Ginger FC,Chris Thompson,False
-2020,15,2,170,Post Mahomes,Matt Prater,False
-2020,15,3,171,Big Sack Jack,Dallas Goedert,False
-2020,15,4,172,Uncle Rico,Jake Elliott,False
-2020,15,5,173,Malle ❤️ 🐸,Damien Harris,False
-2020,15,6,174,The Big Gronkowski,Jonnu Smith,False
-2020,15,7,175,Joe Mantegna,Kirk Cousins,False
-2020,15,8,176,Voldemort,Ka'imi Fairbairn,False
-2020,15,9,177,ThreatLevelMidnight,Jason Myers,False
-2020,15,10,178,malle_dips_pouches,Derek Carr,False
-2020,15,11,179,Patty Primetimes,Michael Badgley,False
-2020,15,12,180,Pop Lockett Drop it,Mason Crosby,False
-2021,1,1,1,Uncle Rico,Christian McCaffrey,False
-2021,1,2,2,Joe Mantegna,Dalvin Cook,False
-2021,1,3,3,Patty Primetimes,Alvin Kamara,False
-2021,1,4,4,malle_dips_pouches,Aaron Jones Sr.,False
-2021,1,5,5,Malle ❤️ 🐸,Tyreek Hill,False
-2021,1,6,6,Ginger FC,Ezekiel Elliott,False
-2021,1,7,7,Big Sack Jack,Patrick Mahomes,True
-2021,1,8,8,Voldemort,Nick Chubb,False
-2021,1,9,9,Post Mahomes,Jonathan Taylor,False
-2021,1,10,10,ThreatLevelMidnight,Davante Adams,False
-2021,1,11,11,Pop Lockett Drop it,Austin Ekeler,False
-2021,1,12,12,The Big Gronkowski,Antonio Gibson,False
-2021,2,1,13,The Big Gronkowski,Najee Harris,False
-2021,2,2,14,Pop Lockett Drop it,Travis Kelce,False
-2021,2,3,15,ThreatLevelMidnight,Joe Mixon,False
-2021,2,4,16,Post Mahomes,Saquon Barkley,False
-2021,2,5,17,Voldemort,Calvin Ridley,False
-2021,2,6,18,Big Sack Jack,Josh Jacobs,False
-2021,2,7,19,Ginger FC,DeAndre Hopkins,False
-2021,2,8,20,Malle ❤️ 🐸,Keenan Allen,False
-2021,2,9,21,malle_dips_pouches,A.J. Brown,False
-2021,2,10,22,Patty Primetimes,Clyde Edwards-Helaire,False
-2021,2,11,23,Joe Mantegna,Terry McLaurin,False
-2021,2,12,24,Uncle Rico,Derrick Henry,True
-2021,3,1,25,Uncle Rico,Allen Robinson,False
-2021,3,2,26,Joe Mantegna,George Kittle,False
-2021,3,3,27,Patty Primetimes,Chris Carson,False
-2021,3,4,28,malle_dips_pouches,D'Andre Swift,False
-2021,3,5,29,Malle ❤️ 🐸,Mike Evans,False
-2021,3,6,30,Ginger FC,Amari Cooper,False
-2021,3,7,31,Big Sack Jack,James Robinson,False
-2021,3,8,32,Voldemort,David Montgomery,False
-2021,3,9,33,Post Mahomes,CeeDee Lamb,False
-2021,3,10,34,ThreatLevelMidnight,Chris Godwin Jr.,False
-2021,3,11,35,Pop Lockett Drop it,Robbie Chosen,False
-2021,3,12,36,The Big Gronkowski,Cooper Kupp,False
-2021,4,1,37,The Big Gronkowski,Tyler Lockett,False
-2021,4,2,38,Pop Lockett Drop it,Stefon Diggs,True
-2021,4,3,39,ThreatLevelMidnight,Darrell Henderson Jr.,False
-2021,4,4,40,Post Mahomes,Gus Edwards,False
-2021,4,5,41,Voldemort,Robert Woods,False
-2021,4,6,42,Big Sack Jack,DJ Moore,False
-2021,4,7,43,Ginger FC,DK Metcalf,True
-2021,4,8,44,Malle ❤️ 🐸,Adam Thielen,False
-2021,4,9,45,malle_dips_pouches,Kareem Hunt,False
-2021,4,10,46,Patty Primetimes,Julio Jones,False
-2021,4,11,47,Joe Mantegna,Diontae Johnson,False
-2021,4,12,48,Uncle Rico,Lamar Jackson,False
-2021,5,1,49,Uncle Rico,Mark Andrews,False
-2021,5,2,50,Joe Mantegna,Myles Gaskin,False
-2021,5,3,51,Patty Primetimes,Tee Higgins,False
-2021,5,4,52,malle_dips_pouches,Tyler Boyd,False
-2021,5,5,53,Malle ❤️ 🐸,Raheem Mostert,False
-2021,5,6,54,Ginger FC,Aaron Rodgers,False
-2021,5,7,55,Big Sack Jack,Robert Tonyan,False
-2021,5,8,56,Voldemort,Dak Prescott,False
-2021,5,9,57,Post Mahomes,Kyle Pitts Sr.,False
-2021,5,10,58,ThreatLevelMidnight,Trey Sermon,False
-2021,5,11,59,Pop Lockett Drop it,Jamaal Williams,False
-2021,5,12,60,The Big Gronkowski,Darren Waller,True
-2021,6,1,61,The Big Gronkowski,Chase Claypool,False
-2021,6,2,62,Pop Lockett Drop it,Courtland Sutton,False
-2021,6,3,63,ThreatLevelMidnight,Russell Wilson,False
-2021,6,4,64,Post Mahomes,Brandon Aiyuk,False
-2021,6,5,65,Voldemort,Chase Edmonds,False
-2021,6,6,66,Big Sack Jack,JuJu Smith-Schuster,False
-2021,6,7,67,Ginger FC,Javonte Williams,False
-2021,6,8,68,Malle ❤️ 🐸,Tom Brady,False
-2021,6,9,69,malle_dips_pouches,Logan Thomas,False
-2021,6,10,70,Patty Primetimes,Josh Allen,True
-2021,6,11,71,Joe Mantegna,Justin Herbert,False
-2021,6,12,72,Uncle Rico,Odell Beckham Jr.,False
-2021,7,1,73,Uncle Rico,Ja'Marr Chase,False
-2021,7,2,74,Joe Mantegna,Ronald Jones,False
-2021,7,3,75,Patty Primetimes,DeVonta Smith,False
-2021,7,4,76,malle_dips_pouches,James Conner,False
-2021,7,5,77,Malle ❤️ 🐸,T.J. Hockenson,False
-2021,7,6,78,Ginger FC,Devin Singletary,False
-2021,7,7,79,Big Sack Jack,Melvin Gordon III,False
-2021,7,8,80,Voldemort,Tyler Higbee,False
-2021,7,9,81,Post Mahomes,Kenny Golladay,False
-2021,7,10,82,ThreatLevelMidnight,Noah Fant,False
-2021,7,11,83,Pop Lockett Drop it,Michael Gallup,False
-2021,7,12,84,The Big Gronkowski,Matthew Stafford,False
-2021,8,1,85,The Big Gronkowski,AJ Dillon,False
-2021,8,2,86,Pop Lockett Drop it,Sony Michel,False
-2021,8,3,87,ThreatLevelMidnight,Corey Davis,False
-2021,8,4,88,Post Mahomes,Kyler Murray,True
-2021,8,5,89,Voldemort,Deebo Samuel Sr.,False
-2021,8,6,90,Big Sack Jack,Mecole Hardman Jr.,False
-2021,8,7,91,Ginger FC,Leonard Fournette,False
-2021,8,8,92,Malle ❤️ 🐸,Rams,False
-2021,8,9,93,malle_dips_pouches,Jerry Jeudy,True
-2021,8,10,94,Patty Primetimes,Dallas Goedert,False
-2021,8,11,95,Joe Mantegna,Commanders,False
-2021,8,12,96,Uncle Rico,Antonio Brown,False
-2021,9,1,97,Uncle Rico,Michael Carter,False
-2021,9,2,98,Joe Mantegna,Miles Sanders,True
-2021,9,3,99,Patty Primetimes,Kenyan Drake,False
-2021,9,4,100,malle_dips_pouches,Ryan Tannehill,False
-2021,9,5,101,Malle ❤️ 🐸,Justin Tucker,False
-2021,9,6,102,Ginger FC,Rob Gronkowski,False
-2021,9,7,103,Big Sack Jack,Marquez Callaway,False
-2021,9,8,104,Voldemort,Zack Moss,False
-2021,9,9,105,Post Mahomes,Brandin Cooks,False
-2021,9,10,106,ThreatLevelMidnight,Jakobi Meyers,False
-2021,9,11,107,Pop Lockett Drop it,David Johnson,False
-2021,9,12,108,The Big Gronkowski,Michael Pittman Jr.,False
-2021,10,1,109,The Big Gronkowski,Nyheim Miller-Hines,False
-2021,10,2,110,Pop Lockett Drop it,Henry Ruggs III,False
-2021,10,3,111,ThreatLevelMidnight,Mike Davis,True
-2021,10,4,112,Post Mahomes,Tony Pollard,False
-2021,10,5,113,Voldemort,Michael Thomas,False
-2021,10,6,114,Big Sack Jack,Steelers,False
-2021,10,7,115,Ginger FC,Laviska Shenault Jr.,False
-2021,10,8,116,Malle ❤️ 🐸,Jalen Hurts,False
-2021,10,9,117,malle_dips_pouches,Mike Williams,False
-2021,10,10,118,Patty Primetimes,Matt Ryan,False
-2021,10,11,119,Joe Mantegna,Harrison Butker,False
-2021,10,12,120,Uncle Rico,DJ Chark,False
-2021,11,1,121,Uncle Rico,James White,False
-2021,11,2,122,Joe Mantegna,Will Fuller V,False
-2021,11,3,123,Patty Primetimes,Mike Gesicki,False
-2021,11,4,124,malle_dips_pouches,Marvin Jones Jr.,False
-2021,11,5,125,Malle ❤️ 🐸,Phillip Lindsay,False
-2021,11,6,126,Ginger FC,Jarvis Landry,False
-2021,11,7,127,Big Sack Jack,Amon-Ra St. Brown,False
-2021,11,8,128,Voldemort,Justin Jefferson,True
-2021,11,9,129,Post Mahomes,J.D. McKissic,False
-2021,11,10,130,ThreatLevelMidnight,Jaylen Waddle,False
-2021,11,11,131,Pop Lockett Drop it,Hollywood Brown,False
-2021,11,12,132,The Big Gronkowski,Gerald Everett,False
-2021,12,1,133,The Big Gronkowski,Joe Burrow,False
-2021,12,2,134,Pop Lockett Drop it,Tevin Coleman,False
-2021,12,3,135,ThreatLevelMidnight,Cam Akers,False
-2021,12,4,136,Post Mahomes,Curtis Samuel,False
-2021,12,5,137,Voldemort,Younghoe Koo,False
-2021,12,6,138,Big Sack Jack,Greg Zuerlein,False
-2021,12,7,139,Ginger FC,Tyrell Williams,False
-2021,12,8,140,Malle ❤️ 🐸,Jonnu Smith,False
-2021,12,9,141,malle_dips_pouches,Evan Engram,False
-2021,12,10,142,Patty Primetimes,Darnell Mooney,False
-2021,12,11,143,Joe Mantegna,Irv Smith Jr.,False
-2021,12,12,144,Uncle Rico,Trevor Lawrence,False
-2021,13,1,145,Uncle Rico,Giovani Bernard,False
-2021,13,2,146,Joe Mantegna,Kirk Cousins,False
-2021,13,3,147,Patty Primetimes,Matt Gay,False
-2021,13,4,148,malle_dips_pouches,Darrel Williams,False
-2021,13,5,149,Malle ❤️ 🐸,Alexander Mattison,False
-2021,13,6,150,Ginger FC,Buccaneers,False
-2021,13,7,151,Big Sack Jack,Austin Hooper,False
-2021,13,8,152,Voldemort,49ers,False
-2021,13,9,153,Post Mahomes,Ravens,False
-2021,13,10,154,ThreatLevelMidnight,Browns,False
-2021,13,11,155,Pop Lockett Drop it,Baker Mayfield,False
-2021,13,12,156,The Big Gronkowski,Robbie Gould,False
-2021,14,1,157,The Big Gronkowski,Chiefs,False
-2021,14,2,158,Pop Lockett Drop it,Rodrigo Blankenship,False
-2021,14,3,159,ThreatLevelMidnight,Tyler Bass,False
-2021,14,4,160,Post Mahomes,Devontae Booker,False
-2021,14,5,161,Voldemort,Latavius Murray,False
-2021,14,6,162,Big Sack Jack,Jalen Reagor,False
-2021,14,7,163,Ginger FC,Ryan Succop,False
-2021,14,8,164,Malle ❤️ 🐸,Damien Harris,True
-2021,14,9,165,malle_dips_pouches,Bills,False
-2021,14,10,166,Patty Primetimes,Patriots,False
-2021,14,11,167,Joe Mantegna,Rashaad Penny,False
-2021,14,12,168,Uncle Rico,Colts,False
-2021,15,1,169,Uncle Rico,Jason Sanders,False
-2021,15,2,170,Joe Mantegna,Broncos,False
-2021,15,3,171,Patty Primetimes,Travis Etienne Jr.,False
-2021,15,4,172,malle_dips_pouches,Chris Boswell,False
-2021,15,5,173,Malle ❤️ 🐸,Ryan Fitzpatrick,False
-2021,15,6,174,Ginger FC,Jameis Winston,False
-2021,15,7,175,Big Sack Jack,Rhamondre Stevenson,False
-2021,15,8,176,Voldemort,Ben Roethlisberger,False
-2021,15,9,177,Post Mahomes,Matt Prater,False
-2021,15,10,178,ThreatLevelMidnight,Chuba Hubbard,False
-2021,15,11,179,Pop Lockett Drop it,Vikings,False
-2021,15,12,180,The Big Gronkowski,Cole Beasley,False
-2022,1,1,1,Post Mahomes,Jonathan Taylor,False
-2022,1,2,2,malle_dips_pouches,Christian McCaffrey,False
-2022,1,3,3,The Big Gronkowski,Austin Ekeler,False
-2022,1,4,4,Patty Primetimes,Derrick Henry,False
-2022,1,5,5,Voldemort,Joe Mixon,False
-2022,1,6,6,Pop Lockett Drop it,Najee Harris,False
-2022,1,7,7,Big Sack Jack,Dalvin Cook,False
-2022,1,8,8,ThreatLevelMidnight,Stefon Diggs,False
-2022,1,9,9,Malle ❤️ 🐸,CeeDee Lamb,False
-2022,1,10,10,Ginger FC,Alvin Kamara,False
-2022,1,11,11,Uncle Rico,Saquon Barkley,False
-2022,1,12,12,Joe Mantegna,Davante Adams,False
-2022,2,1,13,Joe Mantegna,Aaron Jones Sr.,False
-2022,2,2,14,Uncle Rico,Nick Chubb,False
-2022,2,3,15,Ginger FC,Travis Kelce,False
-2022,2,4,16,Malle ❤️ 🐸,D'Andre Swift,False
-2022,2,5,17,ThreatLevelMidnight,Mike Evans,False
-2022,2,6,18,Big Sack Jack,Tyreek Hill,False
-2022,2,7,19,Pop Lockett Drop it,Michael Pittman Jr.,False
-2022,2,8,20,Voldemort,Deebo Samuel Sr.,False
-2022,2,9,21,Patty Primetimes,Javonte Williams,False
-2022,2,10,22,The Big Gronkowski,Cooper Kupp,True
-2022,2,11,23,malle_dips_pouches,Mark Andrews,False
-2022,2,12,24,Post Mahomes,A.J. Brown,False
-2022,3,1,25,Post Mahomes,Ezekiel Elliott,False
-2022,3,2,26,malle_dips_pouches,Josh Jacobs,False
-2022,3,3,27,The Big Gronkowski,Tee Higgins,False
-2022,3,4,28,Patty Primetimes,Terry McLaurin,False
-2022,3,5,29,Voldemort,Josh Allen,False
-2022,3,6,30,Pop Lockett Drop it,Keenan Allen,False
-2022,3,7,31,Big Sack Jack,DJ Moore,True
-2022,3,8,32,ThreatLevelMidnight,Allen Robinson,False
-2022,3,9,33,Malle ❤️ 🐸,Adam Thielen,True
-2022,3,10,34,Ginger FC,Mike Williams,False
-2022,3,11,35,Uncle Rico,Kyle Pitts Sr.,False
-2022,3,12,36,Joe Mantegna,Breece Hall,False
-2022,4,1,37,Joe Mantegna,Courtland Sutton,False
-2022,4,2,38,Uncle Rico,Patrick Mahomes,False
-2022,4,3,39,Ginger FC,Kyler Murray,False
-2022,4,4,40,Malle ❤️ 🐸,Diontae Johnson,False
-2022,4,5,41,ThreatLevelMidnight,Chase Edmonds,False
-2022,4,6,42,Big Sack Jack,AJ Dillon,False
-2022,4,7,43,Pop Lockett Drop it,Dameon Pierce,False
-2022,4,8,44,Voldemort,David Montgomery,False
-2022,4,9,45,Patty Primetimes,Darren Waller,False
-2022,4,10,46,The Big Gronkowski,George Kittle,False
-2022,4,11,47,malle_dips_pouches,Lamar Jackson,False
-2022,4,12,48,Post Mahomes,Gabe Davis,False
-2022,5,1,49,Post Mahomes,Brandin Cooks,False
-2022,5,2,50,malle_dips_pouches,Jaylen Waddle,False
-2022,5,3,51,The Big Gronkowski,JuJu Smith-Schuster,False
-2022,5,4,52,Patty Primetimes,DK Metcalf,False
-2022,5,5,53,Voldemort,Antonio Gibson,False
-2022,5,6,54,Pop Lockett Drop it,Dalton Schultz,False
-2022,5,7,55,Big Sack Jack,Amon-Ra St. Brown,False
-2022,5,8,56,ThreatLevelMidnight,Rashaad Penny,False
-2022,5,9,57,Malle ❤️ 🐸,J.K. Dobbins,False
-2022,5,10,58,Ginger FC,Jerry Jeudy,False
-2022,5,11,59,Uncle Rico,Brandon Aiyuk,False
-2022,5,12,60,Joe Mantegna,Justin Herbert,True
-2022,6,1,61,Joe Mantegna,Dallas Goedert,False
-2022,6,2,62,Uncle Rico,Ja'Marr Chase,True
-2022,6,3,63,Ginger FC,Rhamondre Stevenson,False
-2022,6,4,64,Malle ❤️ 🐸,Jalen Hurts,False
-2022,6,5,65,ThreatLevelMidnight,Rashod Bateman,False
-2022,6,6,66,Big Sack Jack,Joe Burrow,False
-2022,6,7,67,Pop Lockett Drop it,Russell Wilson,False
-2022,6,8,68,Voldemort,Darnell Mooney,False
-2022,6,9,69,Patty Primetimes,Hunter Renfrow,False
-2022,6,10,70,The Big Gronkowski,Damien Harris,False
-2022,6,11,71,malle_dips_pouches,James Conner,True
-2022,6,12,72,Post Mahomes,Tom Brady,False
-2022,7,1,73,Post Mahomes,Clyde Edwards-Helaire,False
-2022,7,2,74,malle_dips_pouches,Amari Cooper,False
-2022,7,3,75,The Big Gronkowski,Tony Pollard,False
-2022,7,4,76,Patty Primetimes,Michael Thomas,False
-2022,7,5,77,Voldemort,Chris Godwin Jr.,False
-2022,7,6,78,Pop Lockett Drop it,Christian Kirk,False
-2022,7,7,79,Big Sack Jack,Dawson Knox,False
-2022,7,8,80,ThreatLevelMidnight,Miles Sanders,False
-2022,7,9,81,Malle ❤️ 🐸,T.J. Hockenson,False
-2022,7,10,82,Ginger FC,Leonard Fournette,True
-2022,7,11,83,Uncle Rico,Robert Woods,False
-2022,7,12,84,Joe Mantegna,Devin Singletary,False
-2022,8,1,85,Joe Mantegna,Elijah Moore,False
-2022,8,2,86,Uncle Rico,Cordarrelle Patterson,False
-2022,8,3,87,Ginger FC,Kareem Hunt,False
-2022,8,4,88,Malle ❤️ 🐸,Bills,False
-2022,8,5,89,ThreatLevelMidnight,Dak Prescott,False
-2022,8,6,90,Big Sack Jack,49ers,False
-2022,8,7,91,Pop Lockett Drop it,Melvin Gordon III,False
-2022,8,8,92,Voldemort,Zach Ertz,False
-2022,8,9,93,Patty Primetimes,Matthew Stafford,False
-2022,8,10,94,The Big Gronkowski,Trey Lance,False
-2022,8,11,95,malle_dips_pouches,DeVonta Smith,False
-2022,8,12,96,Post Mahomes,Allen Lazard,False
-2022,9,1,97,Post Mahomes,Drake London,False
-2022,9,2,98,malle_dips_pouches,Michael Carter,False
-2022,9,3,99,The Big Gronkowski,Kirk Cousins,False
-2022,9,4,100,Patty Primetimes,Chris Olave,False
-2022,9,5,101,Voldemort,James Cook III,False
-2022,9,6,102,Pop Lockett Drop it,Rondale Moore,False
-2022,9,7,103,Big Sack Jack,Justin Tucker,False
-2022,9,8,104,ThreatLevelMidnight,DeAndre Hopkins,False
-2022,9,9,105,Malle ❤️ 🐸,Evan McPherson,False
-2022,9,10,106,Ginger FC,Tyler Lockett,False
-2022,9,11,107,Uncle Rico,Kadarius Toney,False
-2022,9,12,108,Joe Mantegna,Darrell Henderson Jr.,False
-2022,10,1,109,Joe Mantegna,Russell Gage Jr.,False
-2022,10,2,110,Uncle Rico,George Pickens,False
-2022,10,3,111,Ginger FC,Devin Duvernay,False
-2022,10,4,112,Malle ❤️ 🐸,Cole Kmet,False
-2022,10,5,113,ThreatLevelMidnight,Elijah Mitchell,True
-2022,10,6,114,Big Sack Jack,Nyheim Miller-Hines,False
-2022,10,7,115,Pop Lockett Drop it,Hollywood Brown,True
-2022,10,8,116,Voldemort,Justin Jefferson,True
-2022,10,9,117,Patty Primetimes,Aaron Rodgers,False
-2022,10,10,118,The Big Gronkowski,Buccaneers,False
-2022,10,11,119,malle_dips_pouches,Tyler Boyd,False
-2022,10,12,120,Post Mahomes,Kenneth Walker III,False
-2022,11,1,121,Post Mahomes,Cam Akers,True
-2022,11,2,122,malle_dips_pouches,Pat Freiermuth,False
-2022,11,3,123,The Big Gronkowski,David Njoku,False
-2022,11,4,124,Patty Primetimes,Colts,False
-2022,11,5,125,Voldemort,James Robinson,False
-2022,11,6,126,Pop Lockett Drop it,Alexander Mattison,False
-2022,11,7,127,Big Sack Jack,Derek Carr,False
-2022,11,8,128,ThreatLevelMidnight,Raheem Mostert,False
-2022,11,9,129,Malle ❤️ 🐸,Trevor Lawrence,False
-2022,11,10,130,Ginger FC,Rams,False
-2022,11,11,131,Uncle Rico,Jakobi Meyers,False
-2022,11,12,132,Joe Mantegna,Julio Jones,False
-2022,12,1,133,Joe Mantegna,Chase Claypool,False
-2022,12,2,134,Uncle Rico,Isiah Pacheco,False
-2022,12,3,135,Ginger FC,DJ Chark,False
-2022,12,4,136,Malle ❤️ 🐸,Jamaal Williams,False
-2022,12,5,137,ThreatLevelMidnight,Treylon Burks,False
-2022,12,6,138,Big Sack Jack,Khalil Herbert,False
-2022,12,7,139,Pop Lockett Drop it,Romeo Doubs,False
-2022,12,8,140,Voldemort,Kenny Gainwell,False
-2022,12,9,141,Patty Primetimes,Rachaad White,False
-2022,12,10,142,The Big Gronkowski,Tyler Bass,False
-2022,12,11,143,malle_dips_pouches,DeVante Parker,False
-2022,12,12,144,Post Mahomes,Irv Smith Jr.,False
-2022,13,1,145,Post Mahomes,Saints,False
-2022,13,2,146,malle_dips_pouches,Matt Gay,False
-2022,13,3,147,The Big Gronkowski,Isaiah McKenzie,False
-2022,13,4,148,Patty Primetimes,Skyy Moore,False
-2022,13,5,149,Voldemort,Marquez Valdes-Scantling,False
-2022,13,6,150,Pop Lockett Drop it,Chargers,False
-2022,13,7,151,Big Sack Jack,Nico Collins,False
-2022,13,8,152,ThreatLevelMidnight,Albert Okwuegbunam Jr.,False
-2022,13,9,153,Malle ❤️ 🐸,Jarvis Landry,False
-2022,13,10,154,Ginger FC,Daniel Carlson,False
-2022,13,11,155,Uncle Rico,Tyler Allgeier,False
-2022,13,12,156,Joe Mantegna,Ronald Jones,False
-2022,14,1,157,Joe Mantegna,Broncos,False
-2022,14,2,158,Uncle Rico,Browns,False
-2022,14,3,159,Ginger FC,Sammy Watkins,False
-2022,14,4,160,Malle ❤️ 🐸,J.D. McKissic,False
-2022,14,5,161,ThreatLevelMidnight,Brian Robinson,False
-2022,14,6,162,Big Sack Jack,Hunter Henry,False
-2022,14,7,163,Pop Lockett Drop it,Tua Tagovailoa,False
-2022,14,8,164,Voldemort,Patriots,False
-2022,14,9,165,Patty Primetimes,Travis Etienne Jr.,True
-2022,14,10,166,The Big Gronkowski,Jeff Wilson Jr.,False
-2022,14,11,167,malle_dips_pouches,Ravens,False
-2022,14,12,168,Post Mahomes,Harrison Butker,False
-2022,15,1,169,Post Mahomes,Zamir White,False
-2022,15,2,170,malle_dips_pouches,Justin Fields,False
-2022,15,3,171,The Big Gronkowski,Packers,False
-2022,15,4,172,Patty Primetimes,Greg Joseph,False
-2022,15,5,173,Voldemort,Ryan Succop,False
-2022,15,6,174,Pop Lockett Drop it,Robbie Gould,False
-2022,15,7,175,Big Sack Jack,Chiefs,False
-2022,15,8,176,ThreatLevelMidnight,Cowboys,False
-2022,15,9,177,Malle ❤️ 🐸,Eagles,False
-2022,15,10,178,Ginger FC,Mark Ingram II,False
-2022,15,11,179,Uncle Rico,Jake Elliott,False
-2022,15,12,180,Joe Mantegna,Younghoe Koo,False
-2023,1,1,1,Malle ❤️ 🐸,Justin Jefferson,False
-2023,1,2,2,Post Mahomes,Christian McCaffrey,False
-2023,1,3,3,Ginger FC,Bijan Robinson,False
-2023,1,4,4,The Big Gronkowski,Austin Ekeler,False
-2023,1,5,5,Joe Mantegna,Tyreek Hill,False
-2023,1,6,6,Buttermilk Puuump,Travis Kelce,False
-2023,1,7,7,malle_dips_pouches,Cooper Kupp,False
-2023,1,8,8,Pop Lockett Drop it,CeeDee Lamb,False
-2023,1,9,9,Patty Primetimes,Stefon Diggs,False
-2023,1,10,10,ThreatLevelMidnight,Saquon Barkley,False
-2023,1,11,11,Voldemort,Nick Chubb,False
-2023,1,12,12,Uncle Rico,Josh Jacobs,False
-2023,2,1,13,Uncle Rico,A.J. Brown,False
-2023,2,2,14,Voldemort,Davante Adams,False
-2023,2,3,15,ThreatLevelMidnight,Derrick Henry,False
-2023,2,4,16,Patty Primetimes,Jaylen Waddle,False
-2023,2,5,17,Pop Lockett Drop it,Chris Olave,False
-2023,2,6,18,malle_dips_pouches,Joe Mixon,False
-2023,2,7,19,Buttermilk Puuump,Najee Harris,False
-2023,2,8,20,Joe Mantegna,Rhamondre Stevenson,False
-2023,2,9,21,The Big Gronkowski,DeVonta Smith,False
-2023,2,10,22,Ginger FC,Tee Higgins,False
-2023,2,11,23,Post Mahomes,Aaron Jones Sr.,False
-2023,2,12,24,Malle ❤️ 🐸,Jahmyr Gibbs,False
-2023,3,1,25,Malle ❤️ 🐸,Deebo Samuel Sr.,False
-2023,3,2,26,Post Mahomes,Patrick Mahomes,False
-2023,3,3,27,Ginger FC,J.K. Dobbins,False
-2023,3,4,28,The Big Gronkowski,DK Metcalf,False
-2023,3,5,29,Joe Mantegna,Breece Hall,False
-2023,3,6,30,Buttermilk Puuump,Kenneth Walker III,False
-2023,3,7,31,malle_dips_pouches,Josh Allen,False
-2023,3,8,32,Pop Lockett Drop it,Cam Akers,False
-2023,3,9,33,Patty Primetimes,Dameon Pierce,False
-2023,3,10,34,ThreatLevelMidnight,Mark Andrews,False
-2023,3,11,35,Voldemort,Lamar Jackson,False
-2023,3,12,36,Uncle Rico,Alexander Mattison,False
-2023,4,1,37,Uncle Rico,Diontae Johnson,False
-2023,4,2,38,Voldemort,Miles Sanders,False
-2023,4,3,39,ThreatLevelMidnight,Brandon Aiyuk,False
-2023,4,4,40,Patty Primetimes,DeAndre Hopkins,False
-2023,4,5,41,Pop Lockett Drop it,T.J. Hockenson,False
-2023,4,6,42,malle_dips_pouches,James Conner,False
-2023,4,7,43,Buttermilk Puuump,Amon-Ra St. Brown,True
-2023,4,8,44,Joe Mantegna,Keenan Allen,False
-2023,4,9,45,The Big Gronkowski,DJ Moore,False
-2023,4,10,46,Ginger FC,Jahan Dotson,False
-2023,4,11,47,Post Mahomes,Jonathan Taylor,False
-2023,4,12,48,Malle ❤️ 🐸,Javonte Williams,False
-2023,5,1,49,Malle ❤️ 🐸,Jalen Hurts,True
-2023,5,2,50,Post Mahomes,George Kittle,False
-2023,5,3,51,Ginger FC,Dalvin Cook,False
-2023,5,4,52,The Big Gronkowski,Dallas Goedert,False
-2023,5,5,53,Joe Mantegna,David Montgomery,False
-2023,5,6,54,Buttermilk Puuump,Chris Godwin Jr.,False
-2023,5,7,55,malle_dips_pouches,Terry McLaurin,False
-2023,5,8,56,Pop Lockett Drop it,Isiah Pacheco,False
-2023,5,9,57,Patty Primetimes,Darren Waller,False
-2023,5,10,58,ThreatLevelMidnight,Trevor Lawrence,False
-2023,5,11,59,Voldemort,Tyler Lockett,False
-2023,5,12,60,Uncle Rico,Ja'Marr Chase,True
-2023,6,1,61,Uncle Rico,Joe Burrow,False
-2023,6,2,62,Voldemort,Rachaad White,False
-2023,6,3,63,ThreatLevelMidnight,Alvin Kamara,False
-2023,6,4,64,Patty Primetimes,Michael Pittman Jr.,False
-2023,6,5,65,Pop Lockett Drop it,Brian Robinson,False
-2023,6,6,66,malle_dips_pouches,Amari Cooper,True
-2023,6,7,67,Buttermilk Puuump,D'Andre Swift,False
-2023,6,8,68,Joe Mantegna,Kyle Pitts Sr.,False
-2023,6,9,69,The Big Gronkowski,Tony Pollard,True
-2023,6,10,70,Ginger FC,Khalil Herbert,False
-2023,6,11,71,Post Mahomes,Drake London,False
-2023,6,12,72,Malle ❤️ 🐸,Mike Evans,False
-2023,7,1,73,Malle ❤️ 🐸,Pat Freiermuth,False
-2023,7,2,74,Post Mahomes,Christian Kirk,False
-2023,7,3,75,Ginger FC,David Njoku,False
-2023,7,4,76,The Big Gronkowski,Justin Herbert,False
-2023,7,5,77,Joe Mantegna,Hollywood Brown,False
-2023,7,6,78,Buttermilk Puuump,Mike Williams,False
-2023,7,7,79,malle_dips_pouches,Damien Harris,False
-2023,7,8,80,Pop Lockett Drop it,Jordan Addison,False
-2023,7,9,81,Patty Primetimes,Antonio Gibson,False
-2023,7,10,82,ThreatLevelMidnight,George Pickens,False
-2023,7,11,83,Voldemort,Evan Engram,False
-2023,7,12,84,Uncle Rico,Gabe Davis,False
-2023,8,1,85,Uncle Rico,AJ Dillon,False
-2023,8,2,86,Voldemort,Jerick McKinnon,False
-2023,8,3,87,ThreatLevelMidnight,Zach Charbonnet,False
-2023,8,4,88,Patty Primetimes,Jamaal Williams,False
-2023,8,5,89,Pop Lockett Drop it,Jaxon Smith-Njigba,False
-2023,8,6,90,malle_dips_pouches,Tyler Higbee,False
-2023,8,7,91,Buttermilk Puuump,Jerry Jeudy,False
-2023,8,8,92,Joe Mantegna,James Cook III,True
-2023,8,9,93,The Big Gronkowski,Samaje Perine,False
-2023,8,10,94,Ginger FC,Rashod Bateman,False
-2023,8,11,95,Post Mahomes,Brandin Cooks,False
-2023,8,12,96,Malle ❤️ 🐸,49ers,False
-2023,9,1,97,Malle ❤️ 🐸,Justin Tucker,False
-2023,9,2,98,Post Mahomes,Jaylen Warren,False
-2023,9,3,99,Ginger FC,Aaron Rodgers,True
-2023,9,4,100,The Big Gronkowski,Courtland Sutton,False
-2023,9,5,101,Joe Mantegna,Deshaun Watson,False
-2023,9,6,102,Buttermilk Puuump,JuJu Smith-Schuster,False
-2023,9,7,103,malle_dips_pouches,Rashaad Penny,False
-2023,9,8,104,Pop Lockett Drop it,Tyler Allgeier,False
-2023,9,9,105,Patty Primetimes,Tua Tagovailoa,False
-2023,9,10,106,ThreatLevelMidnight,Quentin Johnston,False
-2023,9,11,107,Voldemort,Zay Flowers,False
-2023,9,12,108,Uncle Rico,Jeff Wilson Jr.,False
-2023,10,1,109,Uncle Rico,Elijah Moore,False
-2023,10,2,110,Voldemort,Christian Watson,True
-2023,10,3,111,ThreatLevelMidnight,Calvin Ridley,True
-2023,10,4,112,Patty Primetimes,Kadarius Toney,False
-2023,10,5,113,Pop Lockett Drop it,Marvin Mims Jr.,False
-2023,10,6,114,malle_dips_pouches,Michael Thomas,False
-2023,10,7,115,Buttermilk Puuump,Dak Prescott,False
-2023,10,8,116,Joe Mantegna,Nico Collins,False
-2023,10,9,117,The Big Gronkowski,Skyy Moore,False
-2023,10,10,118,Ginger FC,Treylon Burks,False
-2023,10,11,119,Post Mahomes,Garrett Wilson,True
-2023,10,12,120,Malle ❤️ 🐸,Daniel Jones,False
-2023,11,1,121,Malle ❤️ 🐸,Kenny Gainwell,False
-2023,11,2,122,Post Mahomes,Elijah Mitchell,False
-2023,11,3,123,Ginger FC,Ezekiel Elliott,False
-2023,11,4,124,The Big Gronkowski,Tank Bigsby,False
-2023,11,5,125,Joe Mantegna,Jakobi Meyers,False
-2023,11,6,126,Buttermilk Puuump,De'Von Achane,False
-2023,11,7,127,malle_dips_pouches,Allen Lazard,False
-2023,11,8,128,Pop Lockett Drop it,Zay Jones,False
-2023,11,9,129,Patty Primetimes,Anthony Richardson Sr.,False
-2023,11,10,130,ThreatLevelMidnight,Raheem Mostert,False
-2023,11,11,131,Voldemort,DJ Chark,False
-2023,11,12,132,Uncle Rico,Chig Okonkwo,False
-2023,12,1,133,Uncle Rico,Geno Smith,False
-2023,12,2,134,Voldemort,Devin Singletary,False
-2023,12,3,135,ThreatLevelMidnight,Rashee Rice,False
-2023,12,4,136,Patty Primetimes,Eagles,False
-2023,12,5,137,Pop Lockett Drop it,Rondale Moore,False
-2023,12,6,138,malle_dips_pouches,Jets,False
-2023,12,7,139,Buttermilk Puuump,Odell Beckham Jr.,False
-2023,12,8,140,Joe Mantegna,Kendre Miller,False
-2023,12,9,141,The Big Gronkowski,Cowboys,False
-2023,12,10,142,Ginger FC,Kirk Cousins,False
-2023,12,11,143,Post Mahomes,Bills,False
-2023,12,12,144,Malle ❤️ 🐸,Dalton Kincaid,False
-2023,13,1,145,Malle ❤️ 🐸,Adam Thielen,False
-2023,13,2,146,Post Mahomes,Roschon Johnson,False
-2023,13,3,147,Ginger FC,Daniel Carlson,False
-2023,13,4,148,The Big Gronkowski,Tyler Bass,False
-2023,13,5,149,Joe Mantegna,Tyler Boyd,False
-2023,13,6,150,Buttermilk Puuump,Jared Goff,False
-2023,13,7,151,malle_dips_pouches,Evan McPherson,False
-2023,13,8,152,Pop Lockett Drop it,Harrison Butker,False
-2023,13,9,153,Patty Primetimes,Travis Etienne Jr.,True
-2023,13,10,154,ThreatLevelMidnight,D'Onta Foreman,False
-2023,13,11,155,Voldemort,Deon Jackson,False
-2023,13,12,156,Uncle Rico,Romeo Doubs,False
-2023,14,1,157,Uncle Rico,Patriots,False
-2023,14,2,158,Voldemort,Ravens,False
-2023,14,3,159,ThreatLevelMidnight,Younghoe Koo,False
-2023,14,4,160,Patty Primetimes,Jameson Williams,False
-2023,14,5,161,Pop Lockett Drop it,Justin Fields,True
-2023,14,6,162,malle_dips_pouches,Russell Wilson,False
-2023,14,7,163,Buttermilk Puuump,Jason Sanders,False
-2023,14,8,164,Joe Mantegna,Broncos,False
-2023,14,9,165,The Big Gronkowski,Matthew Stafford,False
-2023,14,10,166,Ginger FC,Saints,False
-2023,14,11,167,Post Mahomes,Darnell Mooney,False
-2023,14,12,168,Malle ❤️ 🐸,Tyjae Spears,False
-2023,15,1,169,Malle ❤️ 🐸,Dolphins,False
-2023,15,2,170,Post Mahomes,Jake Elliott,False
-2023,15,3,171,Ginger FC,Michael Gallup,False
-2023,15,4,172,The Big Gronkowski,Dalton Schultz,False
-2023,15,5,173,Joe Mantegna,Cameron Dicker,False
-2023,15,6,174,Buttermilk Puuump,Packers,False
-2023,15,7,175,malle_dips_pouches,Dawson Knox,False
-2023,15,8,176,Pop Lockett Drop it,Steelers,False
-2023,15,9,177,Patty Primetimes,Riley Patterson,False
-2023,15,10,178,ThreatLevelMidnight,Chiefs,False
-2023,15,11,179,Voldemort,Jason Myers,False
-2023,15,12,180,Uncle Rico,Chris Boswell,False
-2024,1,1,1,Ginger FC,Christian McCaffrey,False
-2024,1,2,2,Buttermilk Puuump,Tyreek Hill,False
-2024,1,3,3,Patty Primetimes,CeeDee Lamb,False
-2024,1,4,4,ThreatLevelMidnight,Ja'Marr Chase,False
-2024,1,5,5,The Big Gronkowski,Justin Jefferson,False
-2024,1,6,6,Pop Lockett Drop it,Bijan Robinson,False
-2024,1,7,7,malle_dips_pouches,A.J. Brown,False
-2024,1,8,8,Voldemort,Jonathan Taylor,False
-2024,1,9,9,Uncle Rico,Derrick Henry,False
-2024,1,10,10,Joe Mantegna,Garrett Wilson,False
-2024,1,11,11,Post Mahomes,Jahmyr Gibbs,False
-2024,1,12,12,Malle ❤️ 🐸,Saquon Barkley,False
-2024,2,1,13,Malle ❤️ 🐸,Marvin Harrison Jr.,False
-2024,2,2,14,Post Mahomes,Isiah Pacheco,False
-2024,2,3,15,Joe Mantegna,Breece Hall,True
-2024,2,4,16,Uncle Rico,Davante Adams,False
-2024,2,5,17,Voldemort,Travis Etienne Jr.,False
-2024,2,6,18,malle_dips_pouches,Drake London,False
-2024,2,7,19,Pop Lockett Drop it,Mike Evans,False
-2024,2,8,20,The Big Gronkowski,Chris Olave,False
-2024,2,9,21,ThreatLevelMidnight,Josh Jacobs,False
-2024,2,10,22,Patty Primetimes,Cooper Kupp,False
-2024,2,11,23,Buttermilk Puuump,Rachaad White,False
-2024,2,12,24,Ginger FC,Brandon Aiyuk,False
-2024,3,1,25,Ginger FC,Deebo Samuel Sr.,False
-2024,3,2,26,Buttermilk Puuump,Amon-Ra St. Brown,True
-2024,3,3,27,Patty Primetimes,Travis Kelce,False
-2024,3,4,28,ThreatLevelMidnight,DK Metcalf,False
-2024,3,5,29,The Big Gronkowski,DJ Moore,False
-2024,3,6,30,Pop Lockett Drop it,DeVonta Smith,False
-2024,3,7,31,malle_dips_pouches,Jaylen Waddle,False
-2024,3,8,32,Voldemort,Josh Allen,False
-2024,3,9,33,Uncle Rico,Patrick Mahomes,False
-2024,3,10,34,Joe Mantegna,Nico Collins,False
-2024,3,11,35,Post Mahomes,Michael Pittman Jr.,False
-2024,3,12,36,Malle ❤️ 🐸,Jalen Hurts,False
-2024,4,1,37,Malle ❤️ 🐸,Malik Nabers,False
-2024,4,2,38,Post Mahomes,Lamar Jackson,False
-2024,4,3,39,Joe Mantegna,James Cook III,False
-2024,4,4,40,Uncle Rico,Mark Andrews,False
-2024,4,5,41,Voldemort,Kenneth Walker III,False
-2024,4,6,42,malle_dips_pouches,Joe Mixon,False
-2024,4,7,43,Pop Lockett Drop it,David Montgomery,False
-2024,4,8,44,The Big Gronkowski,Alvin Kamara,False
-2024,4,9,45,ThreatLevelMidnight,James Conner,False
-2024,4,10,46,Patty Primetimes,Aaron Jones Sr.,False
-2024,4,11,47,Buttermilk Puuump,Najee Harris,False
-2024,4,12,48,Ginger FC,Stefon Diggs,False
-2024,5,1,49,Ginger FC,Amari Cooper,False
-2024,5,2,50,Buttermilk Puuump,Raheem Mostert,False
-2024,5,3,51,Patty Primetimes,Terry McLaurin,False
-2024,5,4,52,ThreatLevelMidnight,Kyler Murray,False
-2024,5,5,53,The Big Gronkowski,Joe Burrow,False
-2024,5,6,54,Pop Lockett Drop it,Trey McBride,False
-2024,5,7,55,malle_dips_pouches,Rhamondre Stevenson,False
-2024,5,8,56,Voldemort,Dalton Kincaid,False
-2024,5,9,57,Uncle Rico,D'Andre Swift,False
-2024,5,10,58,Joe Mantegna,Dak Prescott,False
-2024,5,11,59,Post Mahomes,Rashee Rice,False
-2024,5,12,60,Malle ❤️ 🐸,George Kittle,False
-2024,6,1,61,Malle ❤️ 🐸,Zamir White,False
-2024,6,2,62,Post Mahomes,Tee Higgins,False
-2024,6,3,63,Joe Mantegna,George Pickens,False
-2024,6,4,64,Uncle Rico,Zay Flowers,False
-2024,6,5,65,Voldemort,Calvin Ridley,False
-2024,6,6,66,malle_dips_pouches,Kyle Pitts Sr.,False
-2024,6,7,67,Pop Lockett Drop it,Jayden Reed,False
-2024,6,8,68,The Big Gronkowski,Jake Ferguson,False
-2024,6,9,69,ThreatLevelMidnight,Christian Kirk,False
-2024,6,10,70,Patty Primetimes,Tony Pollard,False
-2024,6,11,71,Buttermilk Puuump,Keenan Allen,False
-2024,6,12,72,Ginger FC,Jordan Love,False
-2024,7,1,73,Ginger FC,49ers,False
-2024,7,2,74,Buttermilk Puuump,Jared Goff,False
-2024,7,3,75,Patty Primetimes,Xavier Worthy,False
-2024,7,4,76,ThreatLevelMidnight,Chris Godwin Jr.,False
-2024,7,5,77,The Big Gronkowski,Javonte Williams,False
-2024,7,6,78,Pop Lockett Drop it,Zack Moss,False
-2024,7,7,79,malle_dips_pouches,Brian Robinson,False
-2024,7,8,80,Voldemort,Diontae Johnson,False
-2024,7,9,81,Uncle Rico,Devin Singletary,False
-2024,7,10,82,Joe Mantegna,Evan Engram,False
-2024,7,11,83,Post Mahomes,Tyjae Spears,False
-2024,7,12,84,Malle ❤️ 🐸,Ravens,False
-2024,8,1,85,Malle ❤️ 🐸,Justin Tucker,False
-2024,8,2,86,Post Mahomes,Jaylen Warren,False
-2024,8,3,87,Joe Mantegna,DeAndre Hopkins,False
-2024,8,4,88,Uncle Rico,Austin Ekeler,False
-2024,8,5,89,Voldemort,Chase Brown,False
-2024,8,6,90,malle_dips_pouches,Christian Watson,False
-2024,8,7,91,Pop Lockett Drop it,Rico Dowdle,False
-2024,8,8,92,The Big Gronkowski,Jaxon Smith-Njigba,False
-2024,8,9,93,ThreatLevelMidnight,Jerome Ford,False
-2024,8,10,94,Patty Primetimes,Jayden Daniels,False
-2024,8,11,95,Buttermilk Puuump,David Njoku,False
-2024,8,12,96,Ginger FC,Dallas Goedert,False
-2024,9,1,97,Ginger FC,Nick Chubb,False
-2024,9,2,98,Buttermilk Puuump,Jordan Addison,False
-2024,9,3,99,Patty Primetimes,Ladd McConkey,False
-2024,9,4,100,ThreatLevelMidnight,Trey Benson,False
-2024,9,5,101,The Big Gronkowski,Gus Edwards,False
-2024,9,6,102,Pop Lockett Drop it,Rome Odunze,False
-2024,9,7,103,malle_dips_pouches,Courtland Sutton,False
-2024,9,8,104,Voldemort,Khalil Shakir,False
-2024,9,9,105,Uncle Rico,Jonathon Brooks,False
-2024,9,10,106,Joe Mantegna,Hollywood Brown,False
-2024,9,11,107,Post Mahomes,Ezekiel Elliott,False
-2024,9,12,108,Malle ❤️ 🐸,Brock Purdy,False
-2024,10,1,109,Malle ❤️ 🐸,Adam Thielen,True
-2024,10,2,110,Post Mahomes,Kyren Williams,True
-2024,10,3,111,Joe Mantegna,Tua Tagovailoa,False
-2024,10,4,112,Uncle Rico,Tank Dell,True
-2024,10,5,113,Voldemort,Puka Nacua,True
-2024,10,6,114,malle_dips_pouches,Harrison Butker,False
-2024,10,7,115,Pop Lockett Drop it,C.J. Stroud,True
-2024,10,8,116,The Big Gronkowski,Matthew Stafford,False
-2024,10,9,117,ThreatLevelMidnight,Sam LaPorta,True
-2024,10,10,118,Patty Primetimes,Anthony Richardson Sr.,True
-2024,10,11,119,Buttermilk Puuump,Joshua Palmer,False
-2024,10,12,120,Ginger FC,De'Von Achane,True
-2024,11,1,121,Ginger FC,Brian Thomas Jr.,False
-2024,11,2,122,Buttermilk Puuump,Blake Corum,False
-2024,11,3,123,Patty Primetimes,Khalil Herbert,False
-2024,11,4,124,ThreatLevelMidnight,Curtis Samuel,False
-2024,11,5,125,The Big Gronkowski,Cowboys,False
-2024,11,6,126,Pop Lockett Drop it,Jameson Williams,False
-2024,11,7,127,malle_dips_pouches,Justin Herbert,False
-2024,11,8,128,Voldemort,Chuba Hubbard,False
-2024,11,9,129,Uncle Rico,Zach Charbonnet,False
-2024,11,10,130,Joe Mantegna,Ty Chandler,False
-2024,11,11,131,Post Mahomes,Brock Bowers,False
-2024,11,12,132,Malle ❤️ 🐸,Rashid Shaheed,False
-2024,12,1,133,Malle ❤️ 🐸,Tyler Lockett,False
-2024,12,2,134,Post Mahomes,Keon Coleman,False
-2024,12,3,135,Joe Mantegna,Jakobi Meyers,False
-2024,12,4,136,Uncle Rico,Romeo Doubs,False
-2024,12,5,137,Voldemort,J.K. Dobbins,False
-2024,12,6,138,malle_dips_pouches,Caleb Williams,False
-2024,12,7,139,Pop Lockett Drop it,Trevor Lawrence,False
-2024,12,8,140,The Big Gronkowski,Brandon Aubrey,False
-2024,12,9,141,ThreatLevelMidnight,Deshaun Watson,False
-2024,12,10,142,Patty Primetimes,Dalton Schultz,False
-2024,12,11,143,Buttermilk Puuump,Younghoe Koo,False
-2024,12,12,144,Ginger FC,Antonio Gibson,False
-2024,13,1,145,Ginger FC,Jake Elliott,False
-2024,13,2,146,Buttermilk Puuump,Jerry Jeudy,False
-2024,13,3,147,Patty Primetimes,Evan McPherson,False
-2024,13,4,148,ThreatLevelMidnight,Cameron Dicker,False
-2024,13,5,149,The Big Gronkowski,Luke Musgrave,False
-2024,13,6,150,Pop Lockett Drop it,Ka'imi Fairbairn,False
-2024,13,7,151,malle_dips_pouches,Pat Freiermuth,False
-2024,13,8,152,Voldemort,Jets,False
-2024,13,9,153,Uncle Rico,Browns,False
-2024,13,10,154,Joe Mantegna,Jason Sanders,False
-2024,13,11,155,Post Mahomes,Chiefs,False
-2024,13,12,156,Malle ❤️ 🐸,Jaleel McLaughlin,False
-2024,14,1,157,Malle ❤️ 🐸,Cole Kmet,False
-2024,14,2,158,Post Mahomes,Jake Moody,False
-2024,14,3,159,Joe Mantegna,Mike Williams,False
-2024,14,4,160,Uncle Rico,Brandin Cooks,False
-2024,14,5,161,Voldemort,Tyler Allgeier,False
-2024,14,6,162,malle_dips_pouches,Steelers,False
-2024,14,7,163,Pop Lockett Drop it,Kirk Cousins,False
-2024,14,8,164,The Big Gronkowski,Adonai Mitchell,False
-2024,14,9,165,ThreatLevelMidnight,Ja'Lynn Polk,False
-2024,14,10,166,Patty Primetimes,Bears,False
-2024,14,11,167,Buttermilk Puuump,Aaron Rodgers,False
-2024,14,12,168,Ginger FC,Gabe Davis,False
-2024,15,1,169,Ginger FC,Dameon Pierce,False
-2024,15,2,170,Buttermilk Puuump,Bills,False
-2024,15,3,171,Patty Primetimes,Tank Bigsby,False
-2024,15,4,172,ThreatLevelMidnight,Dolphins,False
-2024,15,5,173,The Big Gronkowski,MarShawn Lloyd,False
-2024,15,6,174,Pop Lockett Drop it,Texans,False
-2024,15,7,175,malle_dips_pouches,Josh Downs,False
-2024,15,8,176,Voldemort,Matt Gay,False
-2024,15,9,177,Uncle Rico,Tyler Bass,False
-2024,15,10,178,Joe Mantegna,Eagles,False
-2024,15,11,179,Post Mahomes,T.J. Hockenson,False
-2024,15,12,180,Malle ❤️ 🐸,Vikings,False
-2025,1,1,1,Joe Mantegna,Ja'Marr Chase,False
-2025,1,2,2,Patty Primetimes,Saquon Barkley,False
-2025,1,3,3,ThreatLevelMidnight,Bijan Robinson,False
-2025,1,4,4,Post Mahomes,Jahmyr Gibbs,False
-2025,1,5,5,Pop Lockett Drop it,CeeDee Lamb,False
-2025,1,6,6,Voldemort,Justin Jefferson,False
-2025,1,7,7,Uncle Rico,Christian McCaffrey,False
-2025,1,8,8,Ginger FC,Derrick Henry,False
-2025,1,9,9,Buttermilk Puuump,Josh Jacobs,False
-2025,1,10,10,malle_dips_pouches,Ashton Jeanty,False
-2025,1,11,11,The Big Gronkowski,Nico Collins,False
-2025,1,12,12,Malle ❤️ 🐸,Drake London,False
-2025,2,1,13,Malle ❤️ 🐸,Brian Thomas Jr.,False
-2025,2,2,14,The Big Gronkowski,A.J. Brown,False
-2025,2,3,15,malle_dips_pouches,Bucky Irving,False
-2025,2,4,16,Buttermilk Puuump,Amon-Ra St. Brown,True
-2025,2,5,17,Ginger FC,Tyreek Hill,False
-2025,2,6,18,Uncle Rico,Jonathan Taylor,False
-2025,2,7,19,Voldemort,Chase Brown,False
-2025,2,8,20,Pop Lockett Drop it,Kenneth Walker III,False
-2025,2,9,21,Post Mahomes,Brock Bowers,False
-2025,2,10,22,ThreatLevelMidnight,James Conner,False
-2025,2,11,23,Patty Primetimes,Josh Allen,False
-2025,2,12,24,Joe Mantegna,Omarion Hampton,False
-2025,3,1,25,Joe Mantegna,Malik Nabers,True
-2025,3,2,26,Patty Primetimes,James Cook III,False
-2025,3,3,27,ThreatLevelMidnight,Marvin Harrison Jr.,False
-2025,3,4,28,Post Mahomes,Tee Higgins,False
-2025,3,5,29,Pop Lockett Drop it,Lamar Jackson,False
-2025,3,6,30,Voldemort,Jaxon Smith-Njigba,False
-2025,3,7,31,Uncle Rico,Terry McLaurin,False
-2025,3,8,32,Ginger FC,Davante Adams,False
-2025,3,9,33,Buttermilk Puuump,Breece Hall,False
-2025,3,10,34,malle_dips_pouches,Mike Evans,False
-2025,3,11,35,The Big Gronkowski,Chuba Hubbard,False
-2025,3,12,36,Malle ❤️ 🐸,George Kittle,False
-2025,4,1,37,Malle ❤️ 🐸,Jayden Daniels,False
-2025,4,2,38,The Big Gronkowski,TreVeyon Henderson,False
-2025,4,3,39,malle_dips_pouches,Jalen Hurts,False
-2025,4,4,40,Buttermilk Puuump,George Pickens,False
-2025,4,5,41,Ginger FC,DeVonta Smith,False
-2025,4,6,42,Uncle Rico,Joe Burrow,False
-2025,4,7,43,Voldemort,Alvin Kamara,False
-2025,4,8,44,Pop Lockett Drop it,Trey McBride,True
-2025,4,9,45,Post Mahomes,Garrett Wilson,False
-2025,4,10,46,ThreatLevelMidnight,Tony Pollard,False
-2025,4,11,47,Patty Primetimes,DK Metcalf,False
-2025,4,12,48,Joe Mantegna,RJ Harvey,False
-2025,5,1,49,Joe Mantegna,Zay Flowers,False
-2025,5,2,50,Patty Primetimes,Courtland Sutton,False
-2025,5,3,51,ThreatLevelMidnight,DJ Moore,False
-2025,5,4,52,Post Mahomes,Patrick Mahomes,False
-2025,5,5,53,Pop Lockett Drop it,Tetairoa McMillan,False
-2025,5,6,54,Voldemort,David Montgomery,False
-2025,5,7,55,Uncle Rico,Jaylen Waddle,False
-2025,5,8,56,Ginger FC,Mark Andrews,False
-2025,5,9,57,Buttermilk Puuump,Travis Hunter,False
-2025,5,10,58,malle_dips_pouches,Calvin Ridley,False
-2025,5,11,59,The Big Gronkowski,T.J. Hockenson,False
-2025,5,12,60,Malle ❤️ 🐸,D'Andre Swift,False
-2025,6,1,61,Malle ❤️ 🐸,Isiah Pacheco,False
-2025,6,2,62,The Big Gronkowski,Jameson Williams,False
-2025,6,3,63,malle_dips_pouches,Tyrone Tracy Jr.,False
-2025,6,4,64,Buttermilk Puuump,Aaron Jones Sr.,False
-2025,6,5,65,Ginger FC,Chris Olave,False
-2025,6,6,66,Uncle Rico,Emeka Egbuka,False
-2025,6,7,67,Voldemort,Jaylen Warren,False
-2025,6,8,68,Pop Lockett Drop it,Kaleb Johnson,False
-2025,6,9,69,Post Mahomes,Ricky Pearsall,False
-2025,6,10,70,ThreatLevelMidnight,Xavier Worthy,True
-2025,6,11,71,Patty Primetimes,Travis Kelce,False
-2025,6,12,72,Joe Mantegna,Tucker Kraft,False
-2025,7,1,73,Joe Mantegna,Bo Nix,False
-2025,7,2,74,Patty Primetimes,J.K. Dobbins,False
-2025,7,3,75,ThreatLevelMidnight,Rashee Rice,False
-2025,7,4,76,Post Mahomes,Jordan Mason,False
-2025,7,5,77,Pop Lockett Drop it,Rome Odunze,False
-2025,7,6,78,Voldemort,David Njoku,False
-2025,7,7,79,Uncle Rico,Jerry Jeudy,False
-2025,7,8,80,Ginger FC,Travis Etienne Jr.,False
-2025,7,9,81,Buttermilk Puuump,Evan Engram,False
-2025,7,10,82,malle_dips_pouches,Stefon Diggs,False
-2025,7,11,83,The Big Gronkowski,Dak Prescott,False
-2025,7,12,84,Malle ❤️ 🐸,Jordan Addison,False
-2025,8,1,85,Malle ❤️ 🐸,Brock Purdy,False
-2025,8,2,86,The Big Gronkowski,Braelon Allen,False
-2025,8,3,87,malle_dips_pouches,Jakobi Meyers,False
-2025,8,4,88,Buttermilk Puuump,Deebo Samuel Sr.,False
-2025,8,5,89,Ginger FC,Michael Pittman Jr.,False
-2025,8,6,90,Uncle Rico,Matthew Golden,False
-2025,8,7,91,Voldemort,Kyler Murray,False
-2025,8,8,92,Pop Lockett Drop it,Javonte Williams,False
-2025,8,9,93,Post Mahomes,Austin Ekeler,False
-2025,8,10,94,ThreatLevelMidnight,Baker Mayfield,False
-2025,8,11,95,Patty Primetimes,Ladd McConkey,True
-2025,8,12,96,Joe Mantegna,Jauan Jennings,False
-2025,9,1,97,Joe Mantegna,Jacory Croskey-Merritt,False
-2025,9,2,98,Patty Primetimes,Tank Bigsby,False
-2025,9,3,99,ThreatLevelMidnight,Rhamondre Stevenson,False
-2025,9,4,100,Post Mahomes,Kyren Williams,True
-2025,9,5,101,Pop Lockett Drop it,Jayden Reed,False
-2025,9,6,102,Voldemort,Puka Nacua,True
-2025,9,7,103,Uncle Rico,Bhayshul Tuten,False
-2025,9,8,104,Ginger FC,De'Von Achane,True
-2025,9,9,105,Buttermilk Puuump,Jared Goff,False
-2025,9,10,106,malle_dips_pouches,Sam LaPorta,True
-2025,9,11,107,The Big Gronkowski,Drake Maye,False
-2025,9,12,108,Malle ❤️ 🐸,Khalil Shakir,False
-2025,10,1,109,Malle ❤️ 🐸,Rashid Shaheed,True
-2025,10,2,110,The Big Gronkowski,Dylan Sampson,False
-2025,10,3,111,malle_dips_pouches,Josh Downs,False
-2025,10,4,112,Buttermilk Puuump,Nick Chubb,False
-2025,10,5,113,Ginger FC,Justin Herbert,False
-2025,10,6,114,Uncle Rico,Zach Charbonnet,True
-2025,10,7,115,Voldemort,Keenan Allen,False
-2025,10,8,116,Pop Lockett Drop it,Brian Robinson,False
-2025,10,9,117,Post Mahomes,Cam Skattebo,False
-2025,10,10,118,ThreatLevelMidnight,Jake Ferguson,False
-2025,10,11,119,Patty Primetimes,Keon Coleman,False
-2025,10,12,120,Joe Mantegna,Tyler Warren,False
-2025,11,1,121,Joe Mantegna,Cooper Kupp,False
-2025,11,2,122,Patty Primetimes,Colston Loveland,False
-2025,11,3,123,ThreatLevelMidnight,Darnell Mooney,False
-2025,11,4,124,Post Mahomes,Chris Godwin Jr.,False
-2025,11,5,125,Pop Lockett Drop it,Cedric Tillman,False
-2025,11,6,126,Voldemort,Tyler Allgeier,False
-2025,11,7,127,Uncle Rico,Dalton Kincaid,False
-2025,11,8,128,Ginger FC,Trey Benson,False
-2025,11,9,129,Buttermilk Puuump,Luther Burden III,False
-2025,11,10,130,malle_dips_pouches,Rachaad White,False
-2025,11,11,131,The Big Gronkowski,Rashod Bateman,False
-2025,11,12,132,Malle ❤️ 🐸,Dallas Goedert,False
-2025,12,1,133,Malle ❤️ 🐸,Jerome Ford,False
-2025,12,2,134,The Big Gronkowski,Hunter Henry,False
-2025,12,3,135,malle_dips_pouches,Christian Kirk,False
-2025,12,4,136,Buttermilk Puuump,Najee Harris,False
-2025,12,5,137,Ginger FC,Ray Davis,False
-2025,12,6,138,Uncle Rico,J.J. McCarthy,False
-2025,12,7,139,Voldemort,Justin Fields,False
-2025,12,8,140,Pop Lockett Drop it,Brandon Aiyuk,False
-2025,12,9,141,Post Mahomes,Broncos,False
-2025,12,10,142,ThreatLevelMidnight,Jaydon Blue,False
-2025,12,11,143,Patty Primetimes,Caleb Williams,False
-2025,12,12,144,Joe Mantegna,Jayden Higgins,False
-2025,13,1,145,Joe Mantegna,Brandon Aubrey,False
-2025,13,2,146,Patty Primetimes,Cameron Dicker,False
-2025,13,3,147,ThreatLevelMidnight,Quinshon Judkins,False
-2025,13,4,148,Post Mahomes,Joe Mixon,False
-2025,13,5,149,Pop Lockett Drop it,Jake Bates,False
-2025,13,6,150,Voldemort,Chig Okonkwo,False
-2025,13,7,151,Uncle Rico,Joshua Palmer,False
-2025,13,8,152,Ginger FC,Marvin Mims Jr.,False
-2025,13,9,153,Buttermilk Puuump,Jordan Love,False
-2025,13,10,154,malle_dips_pouches,Zach Ertz,False
-2025,13,11,155,The Big Gronkowski,C.J. Stroud,False
-2025,13,12,156,Malle ❤️ 🐸,Tyjae Spears,False
-2025,14,1,157,Malle ❤️ 🐸,Eagles,False
-2025,14,2,158,The Big Gronkowski,Ka'imi Fairbairn,False
-2025,14,3,159,malle_dips_pouches,Ravens,False
-2025,14,4,160,Buttermilk Puuump,Tyler Bass,False
-2025,14,5,161,Ginger FC,Chiefs,False
-2025,14,6,162,Uncle Rico,Steelers,False
-2025,14,7,163,Voldemort,Vikings,False
-2025,14,8,164,Pop Lockett Drop it,Ollie Gordon II,False
-2025,14,9,165,Post Mahomes,DeMario Douglas,False
-2025,14,10,166,ThreatLevelMidnight,Bills,False
-2025,14,11,167,Patty Primetimes,Will Shipley,False
-2025,14,12,168,Joe Mantegna,Trevor Lawrence,False
-2025,15,1,169,Joe Mantegna,Lions,False
-2025,15,2,170,Patty Primetimes,Texans,False
-2025,15,3,171,ThreatLevelMidnight,Chase McLaughlin,False
-2025,15,4,172,Post Mahomes,Harrison Butker,False
-2025,15,5,173,Pop Lockett Drop it,Packers,False
-2025,15,6,174,Voldemort,Chris Boswell,False
-2025,15,7,175,Uncle Rico,Wil Lutz,False
-2025,15,8,176,Ginger FC,Evan McPherson,False
-2025,15,9,177,Buttermilk Puuump,49ers,False
-2025,15,10,178,malle_dips_pouches,Jake Elliott,False
-2025,15,11,179,The Big Gronkowski,Jets,False
-2025,15,12,180,Malle ❤️ 🐸,Jason Sanders,False
+year,round,pick_in_round,overall_pick,team,player,keeper,position,position_source
+2017,1,1,1,Post Mahomes,David Johnson,False,RB,Weekly Lineup
+2017,1,2,2,Pop Lockett Drop it,Le'Veon Bell,False,RB,Weekly Lineup
+2017,1,3,3,ThreatLevelMidnight,Antonio Brown,False,WR,Weekly Lineup
+2017,1,4,4,Joe Mantegna,Odell Beckham Jr.,False,WR,Weekly Lineup
+2017,1,5,5,malle_dips_pouches,Julio Jones,False,WR,Weekly Lineup
+2017,1,6,6,Malle ❤️ 🐸,LeSean McCoy,False,RB,Weekly Lineup
+2017,1,7,7,Ginger FC,Mike Evans,False,WR,Weekly Lineup
+2017,1,8,8,Dillon Panthers,Devonta Freeman,False,RB,Weekly Lineup
+2017,1,9,9,The Big Gronkowski,A.J. Green,False,WR,Weekly Lineup
+2017,1,10,10,Voldemort,Melvin Gordon III,False,RB,Weekly Lineup
+2017,1,11,11,Hello Harvard,Michael Thomas,False,WR,Weekly Lineup
+2017,1,12,12,Big Sack Jack,DeMarco Murray,False,RB,Weekly Lineup
+2017,2,1,13,Big Sack Jack,Brandin Cooks,False,WR,Weekly Lineup
+2017,2,2,14,Hello Harvard,Jordan Howard,False,RB,Weekly Lineup
+2017,2,3,15,Voldemort,Jordy Nelson,False,WR,Weekly Lineup
+2017,2,4,16,The Big Gronkowski,Ezekiel Elliott,False,RB,Weekly Lineup
+2017,2,5,17,Dillon Panthers,Dez Bryant,False,WR,Weekly Lineup
+2017,2,6,18,Ginger FC,Jay Ajayi,False,RB,Weekly Lineup
+2017,2,7,19,Malle ❤️ 🐸,Amari Cooper,False,WR,Weekly Lineup
+2017,2,8,20,malle_dips_pouches,Todd Gurley,False,RB,Weekly Lineup
+2017,2,9,21,Joe Mantegna,Christian McCaffrey,False,RB,Weekly Lineup
+2017,2,10,22,ThreatLevelMidnight,Terrelle Pryor Sr.,False,WR,Weekly Lineup
+2017,2,11,23,Pop Lockett Drop it,Isaiah Crowell,False,RB,Weekly Lineup
+2017,2,12,24,Post Mahomes,Doug Baldwin,False,WR,Weekly Lineup
+2017,3,1,25,Post Mahomes,Leonard Fournette,False,RB,Weekly Lineup
+2017,3,2,26,Pop Lockett Drop it,T.Y. Hilton,False,WR,NFLverse Exact
+2017,3,3,27,ThreatLevelMidnight,Lamar Miller,False,RB,Weekly Lineup
+2017,3,4,28,Joe Mantegna,Travis Kelce,False,TE,Weekly Lineup
+2017,3,5,29,malle_dips_pouches,Rob Gronkowski,False,TE,Weekly Lineup
+2017,3,6,30,Malle ❤️ 🐸,Dalvin Cook,False,RB,Weekly Lineup
+2017,3,7,31,Ginger FC,Carlos Hyde,False,RB,Weekly Lineup
+2017,3,8,32,Dillon Panthers,Aaron Rodgers,False,QB,Weekly Lineup
+2017,3,9,33,The Big Gronkowski,Marshawn Lynch,False,RB,Weekly Lineup
+2017,3,10,34,Voldemort,Tom Brady,False,QB,Weekly Lineup
+2017,3,11,35,Hello Harvard,Ty Montgomery II,False,RB,Weekly Lineup
+2017,3,12,36,Big Sack Jack,Tyreek Hill,False,WR,Weekly Lineup
+2017,4,1,37,Big Sack Jack,Mark Ingram II,False,RB,Weekly Lineup
+2017,4,2,38,Hello Harvard,Joe Mixon,False,RB,Weekly Lineup
+2017,4,3,39,Voldemort,Kareem Hunt,False,RB,Weekly Lineup
+2017,4,4,40,The Big Gronkowski,Davante Adams,False,WR,Weekly Lineup
+2017,4,5,41,Dillon Panthers,Greg Olsen,False,TE,Weekly Lineup
+2017,4,6,42,Ginger FC,DeAndre Hopkins,False,WR,Weekly Lineup
+2017,4,7,43,Malle ❤️ 🐸,Russell Wilson,False,QB,Weekly Lineup
+2017,4,8,44,malle_dips_pouches,Michael Crabtree,False,WR,Weekly Lineup
+2017,4,9,45,Joe Mantegna,Kelvin Benjamin,False,WR,Weekly Lineup
+2017,4,10,46,ThreatLevelMidnight,C.J. Anderson,False,RB,Weekly Lineup
+2017,4,11,47,Pop Lockett Drop it,Alshon Jeffery,False,WR,Weekly Lineup
+2017,4,12,48,Post Mahomes,Demaryius Thomas,False,WR,Weekly Lineup
+2017,5,1,49,Post Mahomes,Drew Brees,False,QB,Weekly Lineup
+2017,5,2,50,Pop Lockett Drop it,Matt Ryan,False,QB,Weekly Lineup
+2017,5,3,51,ThreatLevelMidnight,Keenan Allen,False,WR,Weekly Lineup
+2017,5,4,52,Joe Mantegna,Ameer Abdullah,False,RB,Weekly Lineup
+2017,5,5,53,malle_dips_pouches,Tevin Coleman,False,RB,Weekly Lineup
+2017,5,6,54,Malle ❤️ 🐸,DeSean Jackson,False,WR,Weekly Lineup
+2017,5,7,55,Ginger FC,Jimmy Graham,False,TE,Weekly Lineup
+2017,5,8,56,Dillon Panthers,Emmanuel Sanders,False,WR,Weekly Lineup
+2017,5,9,57,The Big Gronkowski,Golden Tate,False,WR,Weekly Lineup
+2017,5,10,58,Voldemort,Jordan Reed,False,TE,Weekly Lineup
+2017,5,11,59,Hello Harvard,DeVante Parker,False,WR,Weekly Lineup
+2017,5,12,60,Big Sack Jack,Martavis Bryant,False,WR,NFLverse Exact
+2017,6,1,61,Big Sack Jack,Doug Martin,False,RB,Weekly Lineup
+2017,6,2,62,Hello Harvard,Rob Kelley,False,RB,NFLverse Exact
+2017,6,3,63,Voldemort,Allen Robinson,False,WR,Weekly Lineup
+2017,6,4,64,The Big Gronkowski,Mike Gillislee,False,RB,Weekly Lineup
+2017,6,5,65,Dillon Panthers,Derrick Henry,False,RB,Weekly Lineup
+2017,6,6,66,Ginger FC,Marcus Mariota,False,QB,Weekly Lineup
+2017,6,7,67,Malle ❤️ 🐸,Kyle Rudolph,False,TE,Weekly Lineup
+2017,6,8,68,malle_dips_pouches,Jamison Crowder,False,WR,Weekly Lineup
+2017,6,9,69,Joe Mantegna,Jameis Winston,False,QB,Weekly Lineup
+2017,6,10,70,ThreatLevelMidnight,Brandon Marshall,False,WR,NFLverse Exact
+2017,6,11,71,Pop Lockett Drop it,Tyler Eifert,False,TE,Weekly Lineup
+2017,6,12,72,Post Mahomes,Bilal Powell,False,RB,Weekly Lineup
+2017,7,1,73,Post Mahomes,Larry Fitzgerald,False,WR,Weekly Lineup
+2017,7,2,74,Pop Lockett Drop it,Jarvis Landry,False,WR,Weekly Lineup
+2017,7,3,75,ThreatLevelMidnight,Martellus Bennett,False,TE,Weekly Lineup
+2017,7,4,76,Joe Mantegna,Adrian Peterson,False,RB,Weekly Lineup
+2017,7,5,77,malle_dips_pouches,LeGarrette Blount,False,RB,Weekly Lineup
+2017,7,6,78,Malle ❤️ 🐸,Willie Snead IV,False,WR,Weekly Lineup
+2017,7,7,79,Ginger FC,Danny Woodhead,False,RB,Weekly Lineup
+2017,7,8,80,Dillon Panthers,Jeremy Maclin,False,WR,Weekly Lineup
+2017,7,9,81,The Big Gronkowski,Delanie Walker,False,TE,Weekly Lineup
+2017,7,10,82,Voldemort,Eddie Lacy,False,RB,Weekly Lineup
+2017,7,11,83,Hello Harvard,Pierre Garcon,False,WR,Weekly Lineup
+2017,7,12,84,Big Sack Jack,Hunter Henry,False,TE,Weekly Lineup
+2017,8,1,85,Big Sack Jack,Kirk Cousins,False,QB,Weekly Lineup
+2017,8,2,86,Hello Harvard,Thomas Rawls,False,RB,Weekly Lineup
+2017,8,3,87,Voldemort,Chris Hogan,False,WR,Weekly Lineup
+2017,8,4,88,The Big Gronkowski,Ben Roethlisberger,False,QB,Weekly Lineup
+2017,8,5,89,Dillon Panthers,Cam Newton,False,QB,Weekly Lineup
+2017,8,6,90,Ginger FC,Broncos,False,DEF,Defense
+2017,8,7,91,Malle ❤️ 🐸,Terrance West,False,RB,Weekly Lineup
+2017,8,8,92,malle_dips_pouches,Derek Carr,False,QB,Weekly Lineup
+2017,8,9,93,Joe Mantegna,Sammy Watkins,False,WR,Weekly Lineup
+2017,8,10,94,ThreatLevelMidnight,Dak Prescott,False,QB,Weekly Lineup
+2017,8,11,95,Pop Lockett Drop it,Justin Tucker,False,K,Weekly Lineup
+2017,8,12,96,Post Mahomes,Stefon Diggs,False,WR,NFLverse Exact
+2017,9,1,97,Post Mahomes,Frank Gore,False,RB,Weekly Lineup
+2017,9,2,98,Pop Lockett Drop it,Seahawks,False,DEF,Defense
+2017,9,3,99,ThreatLevelMidnight,Texans,False,DEF,Defense
+2017,9,4,100,Joe Mantegna,Randall Cobb,False,WR,NFLverse Exact
+2017,9,5,101,malle_dips_pouches,Tyrell Williams,False,WR,Weekly Lineup
+2017,9,6,102,Malle ❤️ 🐸,Chiefs,False,DEF,Defense
+2017,9,7,103,Ginger FC,Stephen Gostkowski,False,K,Weekly Lineup
+2017,9,8,104,Dillon Panthers,Patriots,False,DEF,Defense
+2017,9,9,105,The Big Gronkowski,Dan Bailey,False,K,Weekly Lineup
+2017,9,10,106,Voldemort,Paul Perkins,False,RB,NFLverse Exact
+2017,9,11,107,Hello Harvard,Darren McFadden,False,RB,NFLverse Exact
+2017,9,12,108,Big Sack Jack,Philip Rivers,False,QB,Weekly Lineup
+2017,10,1,109,Big Sack Jack,Vikings,False,DEF,Defense
+2017,10,2,110,Hello Harvard,Matthew Stafford,False,QB,Weekly Lineup
+2017,10,3,111,Voldemort,Donte Moncrief,False,WR,NFLverse Exact
+2017,10,4,112,The Big Gronkowski,Andy Dalton,False,QB,Weekly Lineup
+2017,10,5,113,Dillon Panthers,Matt Bryant,False,K,Weekly Lineup
+2017,10,6,114,Ginger FC,Zach Ertz,False,TE,Weekly Lineup
+2017,10,7,115,Malle ❤️ 🐸,Eric Decker,False,WR,Weekly Lineup
+2017,10,8,116,malle_dips_pouches,Jonathan Stewart,False,RB,Weekly Lineup
+2017,10,9,117,Joe Mantegna,Rex Burkhead,False,RB,NFLverse Exact
+2017,10,10,118,ThreatLevelMidnight,Rishard Matthews,False,WR,NFLverse Exact
+2017,10,11,119,Pop Lockett Drop it,Duke Johnson,False,RB,Weekly Lineup
+2017,10,12,120,Post Mahomes,Kenny Britt,False,WR,NFLverse Exact
+2017,11,1,121,Post Mahomes,Mike Wallace,False,WR,NFLverse Exact
+2017,11,2,122,Pop Lockett Drop it,Andrew Luck,False,QB,NFLverse Exact
+2017,11,3,123,ThreatLevelMidnight,Eli Manning,False,QB,NFLverse Exact
+2017,11,4,124,Joe Mantegna,Cardinals,False,DEF,Defense
+2017,11,5,125,malle_dips_pouches,Corey Coleman,False,WR,NFLverse Exact
+2017,11,6,126,Malle ❤️ 🐸,Adam Vinatieri,False,K,Weekly Lineup
+2017,11,7,127,Ginger FC,Jack Doyle,False,TE,Weekly Lineup
+2017,11,8,128,Dillon Panthers,Theo Riddick,False,RB,NFLverse Exact
+2017,11,9,129,The Big Gronkowski,Ted Ginn Jr.,False,WR,Weekly Lineup
+2017,11,10,130,Voldemort,Jeremy Hill,False,RB,NFLverse Exact
+2017,11,11,131,Hello Harvard,Adam Thielen,False,WR,Weekly Lineup
+2017,11,12,132,Big Sack Jack,Marvin Jones Jr.,False,WR,Weekly Lineup
+2017,12,1,133,Big Sack Jack,John Brown,False,WR,NFLverse Exact
+2017,12,2,134,Hello Harvard,Austin Hooper,False,TE,Weekly Lineup
+2017,12,3,135,Voldemort,Matt Forte,False,RB,NFLverse Exact
+2017,12,4,136,The Big Gronkowski,Steelers,False,DEF,Defense
+2017,12,5,137,Dillon Panthers,Eric Ebron,False,TE,Weekly Lineup
+2017,12,6,138,Ginger FC,Jordan Matthews,False,WR,Weekly Lineup
+2017,12,7,139,Malle ❤️ 🐸,Carson Wentz,False,QB,Weekly Lineup
+2017,12,8,140,malle_dips_pouches,Sebastian Janikowski,False,K,NFLverse Exact
+2017,12,9,141,Joe Mantegna,Carson Palmer,False,QB,Weekly Lineup
+2017,12,10,142,ThreatLevelMidnight,Mason Crosby,False,K,Weekly Lineup
+2017,12,11,143,Pop Lockett Drop it,Danny Amendola,False,WR,NFLverse Exact
+2017,12,12,144,Post Mahomes,Coby Fleener,False,TE,Weekly Lineup
+2017,13,1,145,Post Mahomes,Panthers,False,DEF,Defense
+2017,13,2,146,Pop Lockett Drop it,Kevin White,False,WR,Weekly Lineup
+2017,13,3,147,ThreatLevelMidnight,Jason Witten,False,TE,Weekly Lineup
+2017,13,4,148,Joe Mantegna,Matt Prater,False,K,Weekly Lineup
+2017,13,5,149,malle_dips_pouches,Giants,False,DEF,Defense
+2017,13,6,150,Malle ❤️ 🐸,Antonio Gates,False,TE,NFLverse Exact
+2017,13,7,151,Ginger FC,Jacquizz Rodgers,False,RB,NFLverse Exact
+2017,13,8,152,Dillon Panthers,James White,False,RB,Weekly Lineup
+2017,13,9,153,The Big Gronkowski,O.J. Howard,False,TE,Weekly Lineup
+2017,13,10,154,Voldemort,Tyrod Taylor,False,QB,Weekly Lineup
+2017,13,11,155,Hello Harvard,Cairo Santos,False,K,Weekly Lineup
+2017,13,12,156,Big Sack Jack,Latavius Murray,False,RB,Weekly Lineup
+2017,14,1,157,Big Sack Jack,C.J. Fiedorowicz,False,TE,Weekly Lineup
+2017,14,2,158,Hello Harvard,Jaguars,False,DEF,Defense
+2017,14,3,159,Voldemort,Blake Bortles,False,QB,Weekly Lineup
+2017,14,4,160,The Big Gronkowski,Kenny Stills,False,WR,Weekly Lineup
+2017,14,5,161,Dillon Panthers,Zay Jones,False,WR,NFLverse Exact
+2017,14,6,162,Ginger FC,Jay Cutler,False,QB,NFLverse Exact
+2017,14,7,163,Malle ❤️ 🐸,Corey Davis,False,WR,Weekly Lineup
+2017,14,8,164,malle_dips_pouches,Charles Clay,False,TE,Weekly Lineup
+2017,14,9,165,Joe Mantegna,Julius Thomas,False,TE,NFLverse Exact
+2017,14,10,166,ThreatLevelMidnight,Sterling Shepard,False,WR,Weekly Lineup
+2017,14,11,167,Pop Lockett Drop it,Samaje Perine,False,RB,Weekly Lineup
+2017,14,12,168,Post Mahomes,Robbie Chosen,False,WR,Weekly Lineup
+2017,15,1,169,Post Mahomes,Wil Lutz,False,K,Weekly Lineup
+2017,15,2,170,Pop Lockett Drop it,Cole Beasley,False,WR,NFLverse Exact
+2017,15,3,171,ThreatLevelMidnight,C.J. Prosise,False,RB,NFLverse Exact
+2017,15,4,172,Joe Mantegna,Darren Sproles,False,RB,NFLverse Exact
+2017,15,5,173,malle_dips_pouches,Allen Hurns,False,WR,Weekly Lineup
+2017,15,6,174,Malle ❤️ 🐸,Packers,False,DEF,Defense
+2017,15,7,175,Ginger FC,Rams,False,DEF,Defense
+2017,15,8,176,Dillon Panthers,Ravens,False,DEF,Defense
+2017,15,9,177,The Big Gronkowski,Robert Turbin,False,RB,NFLverse Exact
+2017,15,10,178,Voldemort,Bills,False,DEF,Defense
+2017,15,11,179,Hello Harvard,Tyler Lockett,False,WR,Weekly Lineup
+2017,15,12,180,Big Sack Jack,Chris Boswell,False,K,Weekly Lineup
+2018,1,1,1,Uncle Rico,Todd Gurley,False,RB,Weekly Lineup
+2018,1,2,2,Post Mahomes,Ezekiel Elliott,False,RB,Weekly Lineup
+2018,1,3,3,Malle ❤️ 🐸,David Johnson,False,RB,Weekly Lineup
+2018,1,4,4,Big Sack Jack,Alvin Kamara,False,RB,Weekly Lineup
+2018,1,5,5,Dillon Panthers,Antonio Brown,False,WR,Weekly Lineup
+2018,1,6,6,Ginger FC,DeAndre Hopkins,False,WR,Weekly Lineup
+2018,1,7,7,Joe Mantegna,Saquon Barkley,False,RB,Weekly Lineup
+2018,1,8,8,ThreatLevelMidnight,Melvin Gordon III,False,RB,Weekly Lineup
+2018,1,9,9,Voldemort,Le'Veon Bell,False,RB,NFLverse Exact
+2018,1,10,10,malle_dips_pouches,Leonard Fournette,False,RB,Weekly Lineup
+2018,1,11,11,Pop Lockett Drop it,Kareem Hunt,False,RB,Weekly Lineup
+2018,1,12,12,The Big Gronkowski,Christian McCaffrey,False,RB,Weekly Lineup
+2018,2,1,13,The Big Gronkowski,Dalvin Cook,False,RB,Weekly Lineup
+2018,2,2,14,Pop Lockett Drop it,Odell Beckham Jr.,False,WR,Weekly Lineup
+2018,2,3,15,malle_dips_pouches,Davante Adams,False,WR,Weekly Lineup
+2018,2,4,16,Voldemort,Devonta Freeman,False,RB,Weekly Lineup
+2018,2,5,17,ThreatLevelMidnight,Jordan Howard,False,RB,Weekly Lineup
+2018,2,6,18,Joe Mantegna,Julio Jones,False,WR,Weekly Lineup
+2018,2,7,19,Ginger FC,Rob Gronkowski,False,TE,Weekly Lineup
+2018,2,8,20,Dillon Panthers,A.J. Green,False,WR,Weekly Lineup
+2018,2,9,21,Big Sack Jack,Tyreek Hill,False,WR,Weekly Lineup
+2018,2,10,22,Malle ❤️ 🐸,Mike Evans,False,WR,Weekly Lineup
+2018,2,11,23,Post Mahomes,Michael Thomas,False,WR,Weekly Lineup
+2018,2,12,24,Uncle Rico,Keenan Allen,False,WR,Weekly Lineup
+2018,3,1,25,Uncle Rico,Aaron Rodgers,False,QB,Weekly Lineup
+2018,3,2,26,Post Mahomes,Joe Mixon,False,RB,Weekly Lineup
+2018,3,3,27,Malle ❤️ 🐸,Kenyan Drake,False,RB,Weekly Lineup
+2018,3,4,28,Big Sack Jack,Travis Kelce,False,TE,Weekly Lineup
+2018,3,5,29,Dillon Panthers,Alex Collins,False,RB,Weekly Lineup
+2018,3,6,30,Ginger FC,Jay Ajayi,False,RB,Weekly Lineup
+2018,3,7,31,Joe Mantegna,Zach Ertz,False,TE,Weekly Lineup
+2018,3,8,32,ThreatLevelMidnight,Adam Thielen,False,WR,Weekly Lineup
+2018,3,9,33,Voldemort,Stefon Diggs,False,WR,Weekly Lineup
+2018,3,10,34,malle_dips_pouches,Amari Cooper,False,WR,Weekly Lineup
+2018,3,11,35,Pop Lockett Drop it,Royce Freeman,False,RB,Weekly Lineup
+2018,3,12,36,The Big Gronkowski,JuJu Smith-Schuster,False,WR,Weekly Lineup
+2018,4,1,37,The Big Gronkowski,Larry Fitzgerald,False,WR,Weekly Lineup
+2018,4,2,38,Pop Lockett Drop it,Golden Tate,False,WR,Weekly Lineup
+2018,4,3,39,malle_dips_pouches,Lamar Miller,False,RB,Weekly Lineup
+2018,4,4,40,Voldemort,Tom Brady,False,QB,Weekly Lineup
+2018,4,5,41,ThreatLevelMidnight,LeSean McCoy,False,RB,NFLverse Exact
+2018,4,6,42,Joe Mantegna,Deshaun Watson,False,QB,Weekly Lineup
+2018,4,7,43,Ginger FC,Russell Wilson,False,QB,Weekly Lineup
+2018,4,8,44,Dillon Panthers,Drew Brees,False,QB,Weekly Lineup
+2018,4,9,45,Big Sack Jack,Derrick Henry,False,RB,Weekly Lineup
+2018,4,10,46,Malle ❤️ 🐸,Cam Newton,False,QB,Weekly Lineup
+2018,4,11,47,Post Mahomes,T.Y. Hilton,False,WR,Weekly Lineup
+2018,4,12,48,Uncle Rico,Chris Hogan,False,WR,Weekly Lineup
+2018,5,1,49,Uncle Rico,Doug Baldwin,False,WR,Weekly Lineup
+2018,5,2,50,Post Mahomes,Mark Ingram II,False,RB,Weekly Lineup
+2018,5,3,51,Malle ❤️ 🐸,Allen Robinson,False,WR,Weekly Lineup
+2018,5,4,52,Big Sack Jack,Jarvis Landry,False,WR,Weekly Lineup
+2018,5,5,53,Dillon Panthers,Carlos Hyde,False,RB,Weekly Lineup
+2018,5,6,54,Ginger FC,Carson Wentz,False,QB,Weekly Lineup
+2018,5,7,55,Joe Mantegna,Corey Davis,False,WR,Weekly Lineup
+2018,5,8,56,ThreatLevelMidnight,Marvin Jones Jr.,False,WR,Weekly Lineup
+2018,5,9,57,Voldemort,Demaryius Thomas,False,WR,Weekly Lineup
+2018,5,10,58,malle_dips_pouches,Dion Lewis,False,RB,Weekly Lineup
+2018,5,11,59,Pop Lockett Drop it,Jimmy Graham,False,TE,Weekly Lineup
+2018,5,12,60,The Big Gronkowski,Rex Burkhead,False,RB,Weekly Lineup
+2018,6,1,61,The Big Gronkowski,Brandin Cooks,False,WR,Weekly Lineup
+2018,6,2,62,Pop Lockett Drop it,Josh Gordon,False,WR,Weekly Lineup
+2018,6,3,63,malle_dips_pouches,Delanie Walker,False,TE,Weekly Lineup
+2018,6,4,64,Voldemort,Marshawn Lynch,False,RB,Weekly Lineup
+2018,6,5,65,ThreatLevelMidnight,Greg Olsen,False,TE,Weekly Lineup
+2018,6,6,66,Joe Mantegna,Alfred Morris,False,RB,Weekly Lineup
+2018,6,7,67,Ginger FC,Jamaal Williams,False,RB,Weekly Lineup
+2018,6,8,68,Dillon Panthers,Emmanuel Sanders,False,WR,Weekly Lineup
+2018,6,9,69,Big Sack Jack,Matthew Stafford,False,QB,Weekly Lineup
+2018,6,10,70,Malle ❤️ 🐸,Tevin Coleman,False,RB,Weekly Lineup
+2018,6,11,71,Post Mahomes,Evan Engram,False,TE,Weekly Lineup
+2018,6,12,72,Uncle Rico,Chris Carson,False,RB,Weekly Lineup
+2018,7,1,73,Uncle Rico,Kyle Rudolph,False,TE,Weekly Lineup
+2018,7,2,74,Post Mahomes,Marquise Goodwin,False,WR,NFLverse Exact
+2018,7,3,75,Malle ❤️ 🐸,Ben Roethlisberger,False,QB,Weekly Lineup
+2018,7,4,76,Big Sack Jack,Robert Woods,False,WR,Weekly Lineup
+2018,7,5,77,Dillon Panthers,Trey Burton,False,TE,Weekly Lineup
+2018,7,6,78,Ginger FC,Devin Funchess,False,WR,Weekly Lineup
+2018,7,7,79,Joe Mantegna,Jamison Crowder,False,WR,NFLverse Exact
+2018,7,8,80,ThreatLevelMidnight,Kirk Cousins,False,QB,Weekly Lineup
+2018,7,9,81,Voldemort,James Conner,False,RB,Weekly Lineup
+2018,7,10,82,malle_dips_pouches,Michael Crabtree,False,WR,Weekly Lineup
+2018,7,11,83,Pop Lockett Drop it,Adrian Peterson,False,RB,Weekly Lineup
+2018,7,12,84,The Big Gronkowski,Philip Rivers,False,QB,Weekly Lineup
+2018,8,1,85,The Big Gronkowski,David Njoku,False,TE,Weekly Lineup
+2018,8,2,86,Pop Lockett Drop it,Matt Ryan,False,QB,Weekly Lineup
+2018,8,3,87,malle_dips_pouches,Cooper Kupp,False,WR,Weekly Lineup
+2018,8,4,88,Voldemort,Jordan Reed,False,TE,Weekly Lineup
+2018,8,5,89,ThreatLevelMidnight,Will Fuller V,False,WR,Weekly Lineup
+2018,8,6,90,Joe Mantegna,Jaguars,False,DEF,Defense
+2018,8,7,91,Ginger FC,Chris Thompson,False,RB,Weekly Lineup
+2018,8,8,92,Dillon Panthers,Kerryon Johnson,False,RB,Weekly Lineup
+2018,8,9,93,Big Sack Jack,Sony Michel,False,RB,Weekly Lineup
+2018,8,10,94,Malle ❤️ 🐸,Cameron Brate,False,TE,Weekly Lineup
+2018,8,11,95,Post Mahomes,Sammy Watkins,False,WR,Weekly Lineup
+2018,8,12,96,Uncle Rico,Robbie Chosen,False,WR,Weekly Lineup
+2018,9,1,97,Uncle Rico,Duke Johnson,False,RB,NFLverse Exact
+2018,9,2,98,Post Mahomes,Andrew Luck,False,QB,Weekly Lineup
+2018,9,3,99,Malle ❤️ 🐸,Alshon Jeffery,False,WR,Weekly Lineup
+2018,9,4,100,Big Sack Jack,Jordy Nelson,False,WR,NFLverse Exact
+2018,9,5,101,Dillon Panthers,Jimmy Garoppolo,False,QB,NFLverse Exact
+2018,9,6,102,Ginger FC,Pierre Garcon,False,WR,NFLverse Exact
+2018,9,7,103,Joe Mantegna,Stephen Gostkowski,False,K,Weekly Lineup
+2018,9,8,104,ThreatLevelMidnight,Rashaad Penny,False,RB,NFLverse Exact
+2018,9,9,105,Voldemort,Julian Edelman,False,WR,Weekly Lineup
+2018,9,10,106,malle_dips_pouches,Jared Goff,False,QB,Weekly Lineup
+2018,9,11,107,Pop Lockett Drop it,Nelson Agholor,False,WR,Weekly Lineup
+2018,9,12,108,The Big Gronkowski,Jack Doyle,False,TE,Weekly Lineup
+2018,10,1,109,The Big Gronkowski,Alex Smith,False,QB,NFLverse Exact
+2018,10,2,110,Pop Lockett Drop it,Ronald Jones,False,RB,NFLverse Exact
+2018,10,3,111,malle_dips_pouches,Bilal Powell,False,RB,Weekly Lineup
+2018,10,4,112,Voldemort,Peyton Barber,False,RB,Weekly Lineup
+2018,10,5,113,ThreatLevelMidnight,Dak Prescott,False,QB,NFLverse Exact
+2018,10,6,114,Joe Mantegna,Patrick Mahomes,False,QB,Weekly Lineup
+2018,10,7,115,Ginger FC,Greg Zuerlein,False,K,Weekly Lineup
+2018,10,8,116,Dillon Panthers,Tarik Cohen,False,RB,Weekly Lineup
+2018,10,9,117,Big Sack Jack,Latavius Murray,False,RB,Weekly Lineup
+2018,10,10,118,Malle ❤️ 🐸,Sterling Shepard,False,WR,Weekly Lineup
+2018,10,11,119,Post Mahomes,Isaiah Crowell,False,RB,Weekly Lineup
+2018,10,12,120,Uncle Rico,Aaron Jones Sr.,False,RB,Weekly Lineup
+2018,11,1,121,Uncle Rico,Kenny Stills,False,WR,Weekly Lineup
+2018,11,2,122,Post Mahomes,Marcus Mariota,False,QB,NFLverse Exact
+2018,11,3,123,Malle ❤️ 🐸,Marlon Mack,False,RB,Weekly Lineup
+2018,11,4,124,Big Sack Jack,Vikings,False,DEF,Defense
+2018,11,5,125,Dillon Panthers,Eagles,False,DEF,Defense
+2018,11,6,126,Ginger FC,Rishard Matthews,False,WR,NFLverse Exact
+2018,11,7,127,Joe Mantegna,George Kittle,False,TE,Weekly Lineup
+2018,11,8,128,ThreatLevelMidnight,Justin Tucker,False,K,Weekly Lineup
+2018,11,9,129,Voldemort,Matt Breida,False,RB,Weekly Lineup
+2018,11,10,130,malle_dips_pouches,Rams,False,DEF,Defense
+2018,11,11,131,Pop Lockett Drop it,Texans,False,DEF,Defense
+2018,11,12,132,The Big Gronkowski,Chargers,False,DEF,Defense
+2018,12,1,133,The Big Gronkowski,Matt Bryant,False,K,Weekly Lineup
+2018,12,2,134,Pop Lockett Drop it,Jake Elliott,False,K,Weekly Lineup
+2018,12,3,135,malle_dips_pouches,Matt Prater,False,K,Weekly Lineup
+2018,12,4,136,Voldemort,C.J. Anderson,False,RB,NFLverse Exact
+2018,12,5,137,ThreatLevelMidnight,Broncos,False,DEF,Defense
+2018,12,6,138,Joe Mantegna,O.J. Howard,False,TE,Weekly Lineup
+2018,12,7,139,Ginger FC,Steelers,False,DEF,Defense
+2018,12,8,140,Dillon Panthers,Daniel Carlson,False,K,Weekly Lineup
+2018,12,9,141,Big Sack Jack,Mike Williams,False,WR,NFLverse Exact
+2018,12,10,142,Malle ❤️ 🐸,Harrison Butker,False,K,Weekly Lineup
+2018,12,11,143,Post Mahomes,Kenny Golladay,False,WR,Weekly Lineup
+2018,12,12,144,Uncle Rico,Nick Chubb,False,RB,Weekly Lineup
+2018,13,1,145,Uncle Rico,Blake Bortles,False,QB,Weekly Lineup
+2018,13,2,146,Post Mahomes,Ravens,False,DEF,Defense
+2018,13,3,147,Malle ❤️ 🐸,Saints,False,DEF,Defense
+2018,13,4,148,Big Sack Jack,LeGarrette Blount,False,RB,NFLverse Exact
+2018,13,5,149,Dillon Panthers,Tyler Lockett,False,WR,Weekly Lineup
+2018,13,6,150,Ginger FC,DJ Moore,False,WR,NFLverse Exact
+2018,13,7,151,Joe Mantegna,Keelan Cole Sr.,False,WR,Weekly Lineup
+2018,13,8,152,ThreatLevelMidnight,Kelvin Benjamin,False,WR,NFLverse Exact
+2018,13,9,153,Voldemort,Josh Doctson,False,WR,NFLverse Exact
+2018,13,10,154,malle_dips_pouches,Randall Cobb,False,WR,Weekly Lineup
+2018,13,11,155,Pop Lockett Drop it,Danny Amendola,False,WR,NFLverse Exact
+2018,13,12,156,The Big Gronkowski,Tyrell Williams,False,WR,NFLverse Exact
+2018,14,1,157,The Big Gronkowski,Corey Clement,False,RB,NFLverse Exact
+2018,14,2,158,Pop Lockett Drop it,James White,False,RB,Weekly Lineup
+2018,14,3,159,malle_dips_pouches,Tyler Eifert,False,TE,NFLverse Exact
+2018,14,4,160,Voldemort,Wil Lutz,False,K,Weekly Lineup
+2018,14,5,161,ThreatLevelMidnight,Ben Watson,False,TE,Weekly Lineup
+2018,14,6,162,Joe Mantegna,Bears,False,DEF,Defense
+2018,14,7,163,Ginger FC,DeVante Parker,False,WR,NFLverse Exact
+2018,14,8,164,Dillon Panthers,Austin Hooper,False,TE,Weekly Lineup
+2018,14,9,165,Big Sack Jack,Chris Boswell,False,K,Weekly Lineup
+2018,14,10,166,Malle ❤️ 🐸,Ricky Seals-Jones,False,TE,Weekly Lineup
+2018,14,11,167,Post Mahomes,Jordan Wilkins,False,RB,NFLverse Exact
+2018,14,12,168,Uncle Rico,Patriots,False,DEF,Defense
+2018,15,1,169,Uncle Rico,Robbie Gould,False,K,Weekly Lineup
+2018,15,2,170,Post Mahomes,Ryan Succop,False,K,Weekly Lineup
+2018,15,3,171,Malle ❤️ 🐸,Falcons,False,DEF,Defense
+2018,15,4,172,Big Sack Jack,Derek Carr,False,QB,Weekly Lineup
+2018,15,5,173,Dillon Panthers,Mohamed Sanu,False,WR,NFLverse Exact
+2018,15,6,174,Ginger FC,Vance McDonald,False,TE,Weekly Lineup
+2018,15,7,175,Joe Mantegna,Giovani Bernard,False,RB,Weekly Lineup
+2018,15,8,176,ThreatLevelMidnight,Chris Godwin Jr.,False,WR,Weekly Lineup
+2018,15,9,177,Voldemort,Panthers,False,DEF,Defense
+2018,15,10,178,malle_dips_pouches,Theo Riddick,False,RB,Weekly Lineup
+2018,15,11,179,Pop Lockett Drop it,Cameron Meredith,False,WR,NFLverse Exact
+2018,15,12,180,The Big Gronkowski,Calvin Ridley,False,WR,Weekly Lineup
+2019,1,1,1,Pop Lockett Drop it,Saquon Barkley,False,RB,Weekly Lineup
+2019,1,2,2,The Big Gronkowski,Alvin Kamara,False,RB,Weekly Lineup
+2019,1,3,3,malle_dips_pouches,Ezekiel Elliott,False,RB,Weekly Lineup
+2019,1,4,4,Voldemort,Christian McCaffrey,False,RB,Weekly Lineup
+2019,1,5,5,Patty Primetimes,Nick Chubb,False,RB,Weekly Lineup
+2019,1,6,6,Ginger FC,Todd Gurley,False,RB,Weekly Lineup
+2019,1,7,7,ThreatLevelMidnight,James Conner,False,RB,Weekly Lineup
+2019,1,8,8,Post Mahomes,David Johnson,False,RB,Weekly Lineup
+2019,1,9,9,Malle ❤️ 🐸,Le'Veon Bell,False,RB,Weekly Lineup
+2019,1,10,10,Joe Mantegna,DeAndre Hopkins,False,WR,Weekly Lineup
+2019,1,11,11,Uncle Rico,Julio Jones,False,WR,Weekly Lineup
+2019,1,12,12,Big Sack Jack,Tyreek Hill,False,WR,Weekly Lineup
+2019,2,1,13,Big Sack Jack,Sony Michel,False,RB,Weekly Lineup
+2019,2,2,14,Uncle Rico,Davante Adams,False,WR,Weekly Lineup
+2019,2,3,15,Joe Mantegna,Odell Beckham Jr.,False,WR,Weekly Lineup
+2019,2,4,16,Malle ❤️ 🐸,Devonta Freeman,False,RB,Weekly Lineup
+2019,2,5,17,Post Mahomes,Dalvin Cook,False,RB,Weekly Lineup
+2019,2,6,18,ThreatLevelMidnight,Aaron Jones Sr.,False,RB,Weekly Lineup
+2019,2,7,19,Ginger FC,Michael Thomas,False,WR,Weekly Lineup
+2019,2,8,20,Patty Primetimes,Travis Kelce,False,TE,Weekly Lineup
+2019,2,9,21,Voldemort,Patrick Mahomes,False,QB,Weekly Lineup
+2019,2,10,22,malle_dips_pouches,Joe Mixon,False,RB,Weekly Lineup
+2019,2,11,23,The Big Gronkowski,JuJu Smith-Schuster,False,WR,Weekly Lineup
+2019,2,12,24,Pop Lockett Drop it,Mike Evans,False,WR,Weekly Lineup
+2019,3,1,25,Pop Lockett Drop it,George Kittle,False,TE,Weekly Lineup
+2019,3,2,26,The Big Gronkowski,Antonio Brown,False,WR,Weekly Lineup
+2019,3,3,27,malle_dips_pouches,Brandin Cooks,False,WR,Weekly Lineup
+2019,3,4,28,Voldemort,Keenan Allen,False,WR,Weekly Lineup
+2019,3,5,29,Patty Primetimes,Kerryon Johnson,False,RB,Weekly Lineup
+2019,3,6,30,Ginger FC,Baker Mayfield,False,QB,Weekly Lineup
+2019,3,7,31,ThreatLevelMidnight,Leonard Fournette,False,RB,Weekly Lineup
+2019,3,8,32,Post Mahomes,Adam Thielen,False,WR,Weekly Lineup
+2019,3,9,33,Malle ❤️ 🐸,Amari Cooper,False,WR,Weekly Lineup
+2019,3,10,34,Joe Mantegna,Stefon Diggs,False,WR,Weekly Lineup
+2019,3,11,35,Uncle Rico,Damien Williams,False,RB,Weekly Lineup
+2019,3,12,36,Big Sack Jack,Zach Ertz,False,TE,Weekly Lineup
+2019,4,1,37,Big Sack Jack,Chris Godwin Jr.,False,WR,Weekly Lineup
+2019,4,2,38,Uncle Rico,Derrick Henry,False,RB,Weekly Lineup
+2019,4,3,39,Joe Mantegna,David Montgomery,False,RB,Weekly Lineup
+2019,4,4,40,Malle ❤️ 🐸,Allen Robinson,False,WR,Weekly Lineup
+2019,4,5,41,Post Mahomes,Deshaun Watson,False,QB,Weekly Lineup
+2019,4,6,42,ThreatLevelMidnight,Robert Woods,False,WR,Weekly Lineup
+2019,4,7,43,Ginger FC,Phillip Lindsay,False,RB,Weekly Lineup
+2019,4,8,44,Patty Primetimes,Tyler Lockett,False,WR,Weekly Lineup
+2019,4,9,45,Voldemort,Chris Carson,False,RB,Weekly Lineup
+2019,4,10,46,malle_dips_pouches,Julian Edelman,False,WR,Weekly Lineup
+2019,4,11,47,The Big Gronkowski,Marlon Mack,False,RB,Weekly Lineup
+2019,4,12,48,Pop Lockett Drop it,Josh Jacobs,False,RB,Weekly Lineup
+2019,5,1,49,Pop Lockett Drop it,Kenny Golladay,False,WR,Weekly Lineup
+2019,5,2,50,The Big Gronkowski,Mark Ingram II,False,RB,Weekly Lineup
+2019,5,3,51,malle_dips_pouches,Aaron Rodgers,False,QB,Weekly Lineup
+2019,5,4,52,Voldemort,O.J. Howard,False,TE,Weekly Lineup
+2019,5,5,53,Patty Primetimes,Austin Ekeler,False,RB,Weekly Lineup
+2019,5,6,54,Ginger FC,Mike Williams,False,WR,Weekly Lineup
+2019,5,7,55,ThreatLevelMidnight,Robbie Chosen,False,WR,Weekly Lineup
+2019,5,8,56,Post Mahomes,T.Y. Hilton,False,WR,Weekly Lineup
+2019,5,9,57,Malle ❤️ 🐸,Matt Ryan,False,QB,Weekly Lineup
+2019,5,10,58,Joe Mantegna,Miles Sanders,False,RB,Weekly Lineup
+2019,5,11,59,Uncle Rico,Tyler Boyd,False,WR,Weekly Lineup
+2019,5,12,60,Big Sack Jack,Cooper Kupp,False,WR,Weekly Lineup
+2019,6,1,61,Big Sack Jack,Melvin Gordon III,False,RB,Weekly Lineup
+2019,6,2,62,Uncle Rico,Evan Engram,False,TE,Weekly Lineup
+2019,6,3,63,Joe Mantegna,Duke Johnson,False,RB,Weekly Lineup
+2019,6,4,64,Malle ❤️ 🐸,Calvin Ridley,False,WR,Weekly Lineup
+2019,6,5,65,Post Mahomes,James White,False,RB,Weekly Lineup
+2019,6,6,66,ThreatLevelMidnight,Josh Gordon,False,WR,Weekly Lineup
+2019,6,7,67,Ginger FC,Kenyan Drake,False,RB,Weekly Lineup
+2019,6,8,68,Patty Primetimes,Will Fuller V,False,WR,Weekly Lineup
+2019,6,9,69,Voldemort,Tevin Coleman,False,RB,Weekly Lineup
+2019,6,10,70,malle_dips_pouches,DJ Moore,False,WR,NFLverse Exact
+2019,6,11,71,The Big Gronkowski,Hunter Henry,False,TE,Weekly Lineup
+2019,6,12,72,Pop Lockett Drop it,Alshon Jeffery,False,WR,Weekly Lineup
+2019,7,1,73,Pop Lockett Drop it,Russell Wilson,False,QB,Weekly Lineup
+2019,7,2,74,The Big Gronkowski,Jarvis Landry,False,WR,Weekly Lineup
+2019,7,3,75,malle_dips_pouches,Tarik Cohen,False,RB,NFLverse Exact
+2019,7,4,76,Voldemort,Latavius Murray,False,RB,Weekly Lineup
+2019,7,5,77,Patty Primetimes,Drew Brees,False,QB,Weekly Lineup
+2019,7,6,78,Ginger FC,Jared Cook,False,TE,Weekly Lineup
+2019,7,7,79,ThreatLevelMidnight,Vance McDonald,False,TE,Weekly Lineup
+2019,7,8,80,Post Mahomes,Derrius Guice,False,RB,Weekly Lineup
+2019,7,9,81,Malle ❤️ 🐸,David Njoku,False,TE,Weekly Lineup
+2019,7,10,82,Joe Mantegna,Carson Wentz,False,QB,Weekly Lineup
+2019,7,11,83,Uncle Rico,Cam Newton,False,QB,Weekly Lineup
+2019,7,12,84,Big Sack Jack,Dede Westbrook,False,WR,Weekly Lineup
+2019,8,1,85,Big Sack Jack,Tom Brady,False,QB,Weekly Lineup
+2019,8,2,86,Uncle Rico,Christian Kirk,False,WR,Weekly Lineup
+2019,8,3,87,Joe Mantegna,Austin Hooper,False,TE,Weekly Lineup
+2019,8,4,88,Malle ❤️ 🐸,Kareem Hunt,False,RB,Weekly Lineup
+2019,8,5,89,Post Mahomes,A.J. Green,False,WR,NFLverse Exact
+2019,8,6,90,ThreatLevelMidnight,Jared Goff,False,QB,Weekly Lineup
+2019,8,7,91,Ginger FC,Sammy Watkins,False,WR,NFLverse Exact
+2019,8,8,92,Patty Primetimes,Marvin Jones Jr.,False,WR,Weekly Lineup
+2019,8,9,93,Voldemort,Curtis Samuel,False,WR,Weekly Lineup
+2019,8,10,94,malle_dips_pouches,Sterling Shepard,False,WR,NFLverse Exact
+2019,8,11,95,The Big Gronkowski,Philip Rivers,False,QB,Weekly Lineup
+2019,8,12,96,Pop Lockett Drop it,Devin Singletary,False,RB,Weekly Lineup
+2019,9,1,97,Pop Lockett Drop it,Tyrell Williams,False,WR,NFLverse Exact
+2019,9,2,98,The Big Gronkowski,Greg Zuerlein,False,K,Weekly Lineup
+2019,9,3,99,malle_dips_pouches,LeSean McCoy,False,RB,Weekly Lineup
+2019,9,4,100,Voldemort,Royce Freeman,False,RB,NFLverse Exact
+2019,9,5,101,Patty Primetimes,Lamar Jackson,False,QB,Weekly Lineup
+2019,9,6,102,Ginger FC,Justin Tucker,False,K,Weekly Lineup
+2019,9,7,103,ThreatLevelMidnight,Corey Davis,False,WR,Weekly Lineup
+2019,9,8,104,Post Mahomes,Rashaad Penny,False,RB,NFLverse Exact
+2019,9,9,105,Malle ❤️ 🐸,Larry Fitzgerald,False,WR,NFLverse Exact
+2019,9,10,106,Joe Mantegna,Bears,False,DEF,Defense
+2019,9,11,107,Uncle Rico,Matt Breida,False,RB,Weekly Lineup
+2019,9,12,108,Big Sack Jack,Rams,False,DEF,Defense
+2019,10,1,109,Big Sack Jack,Jordan Howard,False,RB,Weekly Lineup
+2019,10,2,110,Uncle Rico,Michael Gallup,False,WR,Weekly Lineup
+2019,10,3,111,Joe Mantegna,Harrison Butker,False,K,Weekly Lineup
+2019,10,4,112,Malle ❤️ 🐸,Darrell Henderson Jr.,False,RB,NFLverse Exact
+2019,10,5,113,Post Mahomes,Kyler Murray,False,QB,Weekly Lineup
+2019,10,6,114,ThreatLevelMidnight,Stephen Gostkowski,False,K,Weekly Lineup
+2019,10,7,115,Ginger FC,Browns,False,DEF,Defense
+2019,10,8,116,Patty Primetimes,Donte Moncrief,False,WR,NFLverse Exact
+2019,10,9,117,Voldemort,Dante Pettis,False,WR,NFLverse Exact
+2019,10,10,118,malle_dips_pouches,Delanie Walker,False,TE,Weekly Lineup
+2019,10,11,119,The Big Gronkowski,Jaguars,False,DEF,Defense
+2019,10,12,120,Pop Lockett Drop it,DK Metcalf,False,WR,NFLverse Exact
+2019,11,1,121,Pop Lockett Drop it,Mark Andrews,False,TE,Weekly Lineup
+2019,11,2,122,The Big Gronkowski,Eric Ebron,False,TE,Weekly Lineup
+2019,11,3,123,malle_dips_pouches,Carlos Hyde,False,RB,Weekly Lineup
+2019,11,4,124,Voldemort,Justin Jackson,False,RB,NFLverse Exact
+2019,11,5,125,Patty Primetimes,Tony Pollard,False,RB,NFLverse Exact
+2019,11,6,126,Ginger FC,John Brown,False,WR,Weekly Lineup
+2019,11,7,127,ThreatLevelMidnight,DeSean Jackson,False,WR,NFLverse Exact
+2019,11,8,128,Post Mahomes,Courtland Sutton,False,WR,Weekly Lineup
+2019,11,9,129,Malle ❤️ 🐸,Wil Lutz,False,K,Weekly Lineup
+2019,11,10,130,Joe Mantegna,Jameis Winston,False,QB,Weekly Lineup
+2019,11,11,131,Uncle Rico,Trey Burton,False,TE,NFLverse Exact
+2019,11,12,132,Big Sack Jack,Ka'imi Fairbairn,False,K,Weekly Lineup
+2019,12,1,133,Big Sack Jack,Mohamed Sanu,False,WR,Weekly Lineup
+2019,12,2,134,Uncle Rico,Peyton Barber,False,RB,Weekly Lineup
+2019,12,3,135,Joe Mantegna,Marquez Valdes-Scantling,False,WR,NFLverse Exact
+2019,12,4,136,Malle ❤️ 🐸,Geronimo Allison,False,WR,NFLverse Exact
+2019,12,5,137,Post Mahomes,Greg Olsen,False,TE,Weekly Lineup
+2019,12,6,138,ThreatLevelMidnight,Darwin Thompson,False,RB,NFLverse Exact
+2019,12,7,139,Ginger FC,Ben Roethlisberger,False,QB,NFLverse Exact
+2019,12,8,140,Patty Primetimes,Ravens,False,DEF,Defense
+2019,12,9,141,Voldemort,Jaylen Samuels,False,RB,NFLverse Exact
+2019,12,10,142,malle_dips_pouches,Emmanuel Sanders,False,WR,Weekly Lineup
+2019,12,11,143,The Big Gronkowski,Jimmy Garoppolo,False,QB,Weekly Lineup
+2019,12,12,144,Pop Lockett Drop it,Chris Thompson,False,RB,Weekly Lineup
+2019,13,1,145,Pop Lockett Drop it,Kirk Cousins,False,QB,Weekly Lineup
+2019,13,2,146,The Big Gronkowski,Dion Lewis,False,RB,NFLverse Exact
+2019,13,3,147,malle_dips_pouches,Matt Bryant,False,K,Weekly Lineup
+2019,13,4,148,Voldemort,Damien Harris,False,RB,NFLverse Exact
+2019,13,5,149,Patty Primetimes,Michael Badgley,False,K,NFLverse Cross-Year
+2019,13,6,150,Ginger FC,Kyle Rudolph,False,TE,Weekly Lineup
+2019,13,7,151,ThreatLevelMidnight,Patriots,False,DEF,Defense
+2019,13,8,152,Post Mahomes,Kalen Ballage,False,RB,Weekly Lineup
+2019,13,9,153,Malle ❤️ 🐸,Dak Prescott,False,QB,Weekly Lineup
+2019,13,10,154,Joe Mantegna,Jordan Reed,False,TE,NFLverse Exact
+2019,13,11,155,Uncle Rico,Josh Allen,False,QB,Weekly Lineup
+2019,13,12,156,Big Sack Jack,Ty Montgomery II,False,RB,NFLverse Exact
+2019,14,1,157,Big Sack Jack,Anthony Miller,False,WR,NFLverse Exact
+2019,14,2,158,Uncle Rico,Texans,False,DEF,Defense
+2019,14,3,159,Joe Mantegna,Vikings,False,DEF,Defense
+2019,14,4,160,Malle ❤️ 🐸,Chargers,False,DEF,Defense
+2019,14,5,161,Post Mahomes,Saints,False,DEF,Defense
+2019,14,6,162,ThreatLevelMidnight,Nyheim Miller-Hines,False,RB,Weekly Lineup
+2019,14,7,163,Ginger FC,Hollywood Brown,False,WR,Weekly Lineup
+2019,14,8,164,Patty Primetimes,Keke Coutee,False,WR,NFLverse Exact
+2019,14,9,165,Voldemort,Seahawks,False,DEF,Defense
+2019,14,10,166,malle_dips_pouches,Chiefs,False,DEF,Defense
+2019,14,11,167,The Big Gronkowski,Jamison Crowder,False,WR,Weekly Lineup
+2019,14,12,168,Pop Lockett Drop it,Bills,False,DEF,Defense
+2019,15,1,169,Pop Lockett Drop it,Robbie Gould,False,K,Weekly Lineup
+2019,15,2,170,The Big Gronkowski,Ronald Jones,False,RB,Weekly Lineup
+2019,15,3,171,malle_dips_pouches,Jack Doyle,False,TE,Weekly Lineup
+2019,15,4,172,Voldemort,Jake Elliott,False,K,Weekly Lineup
+2019,15,5,173,Patty Primetimes,Darren Waller,False,TE,Weekly Lineup
+2019,15,6,174,Ginger FC,Tre'Quan Smith,False,WR,NFLverse Exact
+2019,15,7,175,ThreatLevelMidnight,Jamaal Williams,False,RB,NFLverse Exact
+2019,15,8,176,Post Mahomes,Mason Crosby,False,K,Weekly Lineup
+2019,15,9,177,Malle ❤️ 🐸,T.J. Hockenson,False,TE,Weekly Lineup
+2019,15,10,178,Joe Mantegna,Justice Hill,False,RB,NFLverse Exact
+2019,15,11,179,Uncle Rico,Matt Prater,False,K,Weekly Lineup
+2019,15,12,180,Big Sack Jack,Mitchell Trubisky,False,QB,NFLverse Exact
+2020,1,1,1,Ginger FC,Christian McCaffrey,False,RB,Weekly Lineup
+2020,1,2,2,Post Mahomes,Saquon Barkley,False,RB,Weekly Lineup
+2020,1,3,3,Big Sack Jack,Ezekiel Elliott,False,RB,Weekly Lineup
+2020,1,4,4,Uncle Rico,Michael Thomas,False,WR,Weekly Lineup
+2020,1,5,5,Malle ❤️ 🐸,Alvin Kamara,False,RB,Weekly Lineup
+2020,1,6,6,The Big Gronkowski,Dalvin Cook,False,RB,Weekly Lineup
+2020,1,7,7,Joe Mantegna,Clyde Edwards-Helaire,False,RB,Weekly Lineup
+2020,1,8,8,Voldemort,Tyreek Hill,False,WR,Weekly Lineup
+2020,1,9,9,ThreatLevelMidnight,Joe Mixon,False,RB,Weekly Lineup
+2020,1,10,10,malle_dips_pouches,Aaron Jones Sr.,False,RB,Weekly Lineup
+2020,1,11,11,Patty Primetimes,Nick Chubb,False,RB,Weekly Lineup
+2020,1,12,12,Pop Lockett Drop it,David Johnson,False,RB,Weekly Lineup
+2020,2,1,13,Pop Lockett Drop it,Julio Jones,False,WR,Weekly Lineup
+2020,2,2,14,Patty Primetimes,Austin Ekeler,False,RB,Weekly Lineup
+2020,2,3,15,malle_dips_pouches,DeAndre Hopkins,False,WR,Weekly Lineup
+2020,2,4,16,ThreatLevelMidnight,Davante Adams,False,WR,Weekly Lineup
+2020,2,5,17,Voldemort,Kenyan Drake,False,RB,Weekly Lineup
+2020,2,6,18,Joe Mantegna,George Kittle,False,TE,Weekly Lineup
+2020,2,7,19,The Big Gronkowski,James Conner,False,RB,Weekly Lineup
+2020,2,8,20,Malle ❤️ 🐸,Travis Kelce,False,TE,Weekly Lineup
+2020,2,9,21,Uncle Rico,Chris Godwin Jr.,False,WR,Weekly Lineup
+2020,2,10,22,Big Sack Jack,Patrick Mahomes,False,QB,Weekly Lineup
+2020,2,11,23,Post Mahomes,Kenny Golladay,False,WR,Weekly Lineup
+2020,2,12,24,Ginger FC,Mike Evans,False,WR,Weekly Lineup
+2020,3,1,25,Ginger FC,Russell Wilson,False,QB,Weekly Lineup
+2020,3,2,26,Post Mahomes,Chris Carson,False,RB,Weekly Lineup
+2020,3,3,27,Big Sack Jack,Odell Beckham Jr.,False,WR,Weekly Lineup
+2020,3,4,28,Uncle Rico,Derrick Henry,True,RB,Weekly Lineup
+2020,3,5,29,Malle ❤️ 🐸,Adam Thielen,False,WR,Weekly Lineup
+2020,3,6,30,The Big Gronkowski,Allen Robinson,False,WR,Weekly Lineup
+2020,3,7,31,Joe Mantegna,Todd Gurley,False,RB,Weekly Lineup
+2020,3,8,32,Voldemort,Jonathan Taylor,False,RB,Weekly Lineup
+2020,3,9,33,ThreatLevelMidnight,A.J. Brown,False,WR,Weekly Lineup
+2020,3,10,34,malle_dips_pouches,Le'Veon Bell,False,RB,Weekly Lineup
+2020,3,11,35,Patty Primetimes,Mark Andrews,False,TE,Weekly Lineup
+2020,3,12,36,Pop Lockett Drop it,Josh Jacobs,True,RB,Weekly Lineup
+2020,4,1,37,Pop Lockett Drop it,Courtland Sutton,False,WR,NFLverse Exact
+2020,4,2,38,Patty Primetimes,Tyler Lockett,False,WR,Weekly Lineup
+2020,4,3,39,malle_dips_pouches,Amari Cooper,False,WR,Weekly Lineup
+2020,4,4,40,ThreatLevelMidnight,Raheem Mostert,False,RB,Weekly Lineup
+2020,4,5,41,Voldemort,Mark Ingram II,False,RB,Weekly Lineup
+2020,4,6,42,Joe Mantegna,JuJu Smith-Schuster,False,WR,Weekly Lineup
+2020,4,7,43,The Big Gronkowski,Cooper Kupp,False,WR,Weekly Lineup
+2020,4,8,44,Malle ❤️ 🐸,Calvin Ridley,False,WR,Weekly Lineup
+2020,4,9,45,Uncle Rico,Zach Ertz,False,TE,Weekly Lineup
+2020,4,10,46,Big Sack Jack,Hollywood Brown,False,WR,Weekly Lineup
+2020,4,11,47,Post Mahomes,DJ Moore,False,WR,Weekly Lineup
+2020,4,12,48,Ginger FC,Cam Akers,False,RB,Weekly Lineup
+2020,5,1,49,Ginger FC,DK Metcalf,False,WR,Weekly Lineup
+2020,5,2,50,Post Mahomes,David Montgomery,False,RB,Weekly Lineup
+2020,5,3,51,Big Sack Jack,Melvin Gordon III,True,RB,Weekly Lineup
+2020,5,4,52,Uncle Rico,D'Andre Swift,False,RB,Weekly Lineup
+2020,5,5,53,Malle ❤️ 🐸,Tom Brady,False,QB,Weekly Lineup
+2020,5,6,54,The Big Gronkowski,Keenan Allen,False,WR,Weekly Lineup
+2020,5,7,55,Joe Mantegna,DJ Chark,False,WR,Weekly Lineup
+2020,5,8,56,Voldemort,Dak Prescott,False,QB,Weekly Lineup
+2020,5,9,57,ThreatLevelMidnight,Michael Gallup,False,WR,Weekly Lineup
+2020,5,10,58,malle_dips_pouches,Hunter Henry,False,TE,Weekly Lineup
+2020,5,11,59,Patty Primetimes,T.Y. Hilton,False,WR,Weekly Lineup
+2020,5,12,60,Pop Lockett Drop it,Stefon Diggs,False,WR,Weekly Lineup
+2020,6,1,61,Pop Lockett Drop it,Austin Hooper,False,TE,Weekly Lineup
+2020,6,2,62,Patty Primetimes,J.K. Dobbins,False,RB,Weekly Lineup
+2020,6,3,63,malle_dips_pouches,Devin Singletary,False,RB,Weekly Lineup
+2020,6,4,64,ThreatLevelMidnight,Tyler Boyd,False,WR,Weekly Lineup
+2020,6,5,65,Voldemort,Leonard Fournette,False,RB,Weekly Lineup
+2020,6,6,66,Joe Mantegna,Deshaun Watson,False,QB,Weekly Lineup
+2020,6,7,67,The Big Gronkowski,Darren Waller,False,TE,Weekly Lineup
+2020,6,8,68,Malle ❤️ 🐸,Jordan Howard,False,RB,Weekly Lineup
+2020,6,9,69,Uncle Rico,Antonio Gibson,False,RB,Weekly Lineup
+2020,6,10,70,Big Sack Jack,Julian Edelman,False,WR,NFLverse Exact
+2020,6,11,71,Post Mahomes,Robert Woods,False,WR,Weekly Lineup
+2020,6,12,72,Ginger FC,DeVante Parker,False,WR,Weekly Lineup
+2020,7,1,73,Ginger FC,Sony Michel,False,RB,NFLverse Exact
+2020,7,2,74,Post Mahomes,A.J. Green,False,WR,Weekly Lineup
+2020,7,3,75,Big Sack Jack,Evan Engram,False,TE,Weekly Lineup
+2020,7,4,76,Uncle Rico,Josh Allen,False,QB,Weekly Lineup
+2020,7,5,77,Malle ❤️ 🐸,Kareem Hunt,True,RB,Weekly Lineup
+2020,7,6,78,The Big Gronkowski,Ronald Jones,False,RB,Weekly Lineup
+2020,7,7,79,Joe Mantegna,Jarvis Landry,False,WR,Weekly Lineup
+2020,7,8,80,Voldemort,Tyler Higbee,False,TE,Weekly Lineup
+2020,7,9,81,ThreatLevelMidnight,Matt Ryan,False,QB,Weekly Lineup
+2020,7,10,82,malle_dips_pouches,Deebo Samuel Sr.,False,WR,Weekly Lineup
+2020,7,11,83,Patty Primetimes,Rob Gronkowski,False,TE,Weekly Lineup
+2020,7,12,84,Pop Lockett Drop it,Aaron Rodgers,False,QB,Weekly Lineup
+2020,8,1,85,Pop Lockett Drop it,Will Fuller V,False,WR,Weekly Lineup
+2020,8,2,86,Patty Primetimes,Lamar Jackson,True,QB,Weekly Lineup
+2020,8,3,87,malle_dips_pouches,Mecole Hardman Jr.,False,WR,NFLverse Exact
+2020,8,4,88,ThreatLevelMidnight,Marvin Jones Jr.,False,WR,Weekly Lineup
+2020,8,5,89,Voldemort,Brandin Cooks,False,WR,NFLverse Exact
+2020,8,6,90,Joe Mantegna,Zack Moss,False,RB,Weekly Lineup
+2020,8,7,91,The Big Gronkowski,Sterling Shepard,False,WR,NFLverse Exact
+2020,8,8,92,Malle ❤️ 🐸,Latavius Murray,False,RB,Weekly Lineup
+2020,8,9,93,Uncle Rico,Diontae Johnson,False,WR,Weekly Lineup
+2020,8,10,94,Big Sack Jack,James White,False,RB,Weekly Lineup
+2020,8,11,95,Post Mahomes,Phillip Lindsay,False,RB,Weekly Lineup
+2020,8,12,96,Ginger FC,Matt Breida,False,RB,Weekly Lineup
+2020,9,1,97,Ginger FC,Jared Cook,False,TE,Weekly Lineup
+2020,9,2,98,Post Mahomes,Kyler Murray,True,QB,Weekly Lineup
+2020,9,3,99,Big Sack Jack,CeeDee Lamb,False,WR,Weekly Lineup
+2020,9,4,100,Uncle Rico,Tevin Coleman,False,RB,NFLverse Exact
+2020,9,5,101,Malle ❤️ 🐸,Justin Tucker,False,K,Weekly Lineup
+2020,9,6,102,The Big Gronkowski,Drew Brees,False,QB,Weekly Lineup
+2020,9,7,103,Joe Mantegna,Tarik Cohen,False,RB,NFLverse Exact
+2020,9,8,104,Voldemort,John Brown,False,WR,NFLverse Exact
+2020,9,9,105,ThreatLevelMidnight,Kerryon Johnson,False,RB,Weekly Lineup
+2020,9,10,106,malle_dips_pouches,Jerry Jeudy,False,WR,Weekly Lineup
+2020,9,11,107,Patty Primetimes,Matthew Stafford,False,QB,Weekly Lineup
+2020,9,12,108,Pop Lockett Drop it,Henry Ruggs III,False,WR,Weekly Lineup
+2020,10,1,109,Pop Lockett Drop it,Emmanuel Sanders,False,WR,Weekly Lineup
+2020,10,2,110,Patty Primetimes,Christian Kirk,False,WR,Weekly Lineup
+2020,10,3,111,malle_dips_pouches,Marlon Mack,False,RB,NFLverse Exact
+2020,10,4,112,ThreatLevelMidnight,Joe Burrow,False,QB,Weekly Lineup
+2020,10,5,113,Voldemort,Terry McLaurin,True,WR,Weekly Lineup
+2020,10,6,114,Joe Mantegna,Miles Sanders,True,RB,Weekly Lineup
+2020,10,7,115,The Big Gronkowski,Darius Slayton,False,WR,NFLverse Exact
+2020,10,8,116,Malle ❤️ 🐸,Ben Roethlisberger,False,QB,Weekly Lineup
+2020,10,9,117,Uncle Rico,Jamison Crowder,False,WR,Weekly Lineup
+2020,10,10,118,Big Sack Jack,Sammy Watkins,False,WR,NFLverse Exact
+2020,10,11,119,Post Mahomes,Hayden Hurst,False,TE,Weekly Lineup
+2020,10,12,120,Ginger FC,Allen Lazard,False,WR,NFLverse Exact
+2020,11,1,121,Ginger FC,Harrison Butker,False,K,Weekly Lineup
+2020,11,2,122,Post Mahomes,Carson Wentz,False,QB,Weekly Lineup
+2020,11,3,123,Big Sack Jack,Anthony Miller,False,WR,NFLverse Exact
+2020,11,4,124,Uncle Rico,Cam Newton,False,QB,Weekly Lineup
+2020,11,5,125,Malle ❤️ 🐸,DeSean Jackson,False,WR,Weekly Lineup
+2020,11,6,126,The Big Gronkowski,49ers,False,DEF,Defense
+2020,11,7,127,Joe Mantegna,Cole Beasley,False,WR,Weekly Lineup
+2020,11,8,128,Voldemort,Alexander Mattison,False,RB,Weekly Lineup
+2020,11,9,129,ThreatLevelMidnight,Tony Pollard,False,RB,NFLverse Exact
+2020,11,10,130,malle_dips_pouches,Bills,False,DEF,Defense
+2020,11,11,131,Patty Primetimes,Golden Tate,False,WR,NFLverse Exact
+2020,11,12,132,Pop Lockett Drop it,Ryquell Armstead,False,RB,NFLverse Exact
+2020,12,1,133,Pop Lockett Drop it,Justin Jefferson,False,WR,Weekly Lineup
+2020,12,2,134,Patty Primetimes,Adrian Peterson,False,RB,Weekly Lineup
+2020,12,3,135,malle_dips_pouches,Ryan Tannehill,False,QB,Weekly Lineup
+2020,12,4,136,ThreatLevelMidnight,Mike Williams,False,WR,Weekly Lineup
+2020,12,5,137,Voldemort,T.J. Hockenson,False,TE,Weekly Lineup
+2020,12,6,138,Joe Mantegna,Curtis Samuel,False,WR,Weekly Lineup
+2020,12,7,139,The Big Gronkowski,Wil Lutz,False,K,Weekly Lineup
+2020,12,8,140,Malle ❤️ 🐸,Preston Williams,False,WR,Weekly Lineup
+2020,12,9,141,Uncle Rico,Mike Gesicki,False,TE,Weekly Lineup
+2020,12,10,142,Big Sack Jack,Ravens,False,DEF,Defense
+2020,12,11,143,Post Mahomes,Noah Fant,False,TE,Weekly Lineup
+2020,12,12,144,Ginger FC,Steelers,False,DEF,Defense
+2020,13,1,145,Ginger FC,Jimmy Garoppolo,False,QB,Weekly Lineup
+2020,13,2,146,Post Mahomes,Darrell Henderson Jr.,False,RB,Weekly Lineup
+2020,13,3,147,Big Sack Jack,Greg Zuerlein,False,K,Weekly Lineup
+2020,13,4,148,Uncle Rico,Darrynton Evans,False,RB,NFLverse Exact
+2020,13,5,149,Malle ❤️ 🐸,Bears,False,DEF,Defense
+2020,13,6,150,The Big Gronkowski,Jared Goff,False,QB,Weekly Lineup
+2020,13,7,151,Joe Mantegna,Patriots,False,DEF,Defense
+2020,13,8,152,Voldemort,Duke Johnson,False,RB,Weekly Lineup
+2020,13,9,153,ThreatLevelMidnight,Chris Herndon,False,TE,Weekly Lineup
+2020,13,10,154,malle_dips_pouches,Eric Ebron,False,TE,NFLverse Exact
+2020,13,11,155,Patty Primetimes,Chase Edmonds,False,RB,Weekly Lineup
+2020,13,12,156,Pop Lockett Drop it,Vikings,False,DEF,Defense
+2020,14,1,157,Pop Lockett Drop it,Daniel Jones,False,QB,NFLverse Exact
+2020,14,2,158,Patty Primetimes,Colts,False,DEF,Defense
+2020,14,3,159,malle_dips_pouches,Robbie Gould,False,K,Weekly Lineup
+2020,14,4,160,ThreatLevelMidnight,Saints,False,DEF,Defense
+2020,14,5,161,Voldemort,Chiefs,False,DEF,Defense
+2020,14,6,162,Joe Mantegna,Zane Gonzalez,False,K,Weekly Lineup
+2020,14,7,163,The Big Gronkowski,Boston Scott,False,RB,Weekly Lineup
+2020,14,8,164,Malle ❤️ 🐸,Blake Jarwin,False,TE,NFLverse Exact
+2020,14,9,165,Uncle Rico,Rams,False,DEF,Defense
+2020,14,10,166,Big Sack Jack,Baker Mayfield,False,QB,NFLverse Exact
+2020,14,11,167,Post Mahomes,Broncos,False,DEF,Defense
+2020,14,12,168,Ginger FC,Brandon Aiyuk,False,WR,Weekly Lineup
+2020,15,1,169,Ginger FC,Chris Thompson,False,RB,Weekly Lineup
+2020,15,2,170,Post Mahomes,Matt Prater,False,K,Weekly Lineup
+2020,15,3,171,Big Sack Jack,Dallas Goedert,False,TE,Weekly Lineup
+2020,15,4,172,Uncle Rico,Jake Elliott,False,K,Weekly Lineup
+2020,15,5,173,Malle ❤️ 🐸,Damien Harris,False,RB,Weekly Lineup
+2020,15,6,174,The Big Gronkowski,Jonnu Smith,False,TE,Weekly Lineup
+2020,15,7,175,Joe Mantegna,Kirk Cousins,False,QB,Weekly Lineup
+2020,15,8,176,Voldemort,Ka'imi Fairbairn,False,K,Weekly Lineup
+2020,15,9,177,ThreatLevelMidnight,Jason Myers,False,K,Weekly Lineup
+2020,15,10,178,malle_dips_pouches,Derek Carr,False,QB,Weekly Lineup
+2020,15,11,179,Patty Primetimes,Michael Badgley,False,K,Weekly Lineup
+2020,15,12,180,Pop Lockett Drop it,Mason Crosby,False,K,Weekly Lineup
+2021,1,1,1,Uncle Rico,Christian McCaffrey,False,RB,Weekly Lineup
+2021,1,2,2,Joe Mantegna,Dalvin Cook,False,RB,Weekly Lineup
+2021,1,3,3,Patty Primetimes,Alvin Kamara,False,RB,Weekly Lineup
+2021,1,4,4,malle_dips_pouches,Aaron Jones Sr.,False,RB,Weekly Lineup
+2021,1,5,5,Malle ❤️ 🐸,Tyreek Hill,False,WR,Weekly Lineup
+2021,1,6,6,Ginger FC,Ezekiel Elliott,False,RB,Weekly Lineup
+2021,1,7,7,Big Sack Jack,Patrick Mahomes,True,QB,Weekly Lineup
+2021,1,8,8,Voldemort,Nick Chubb,False,RB,Weekly Lineup
+2021,1,9,9,Post Mahomes,Jonathan Taylor,False,RB,Weekly Lineup
+2021,1,10,10,ThreatLevelMidnight,Davante Adams,False,WR,Weekly Lineup
+2021,1,11,11,Pop Lockett Drop it,Austin Ekeler,False,RB,Weekly Lineup
+2021,1,12,12,The Big Gronkowski,Antonio Gibson,False,RB,Weekly Lineup
+2021,2,1,13,The Big Gronkowski,Najee Harris,False,RB,Weekly Lineup
+2021,2,2,14,Pop Lockett Drop it,Travis Kelce,False,TE,Weekly Lineup
+2021,2,3,15,ThreatLevelMidnight,Joe Mixon,False,RB,Weekly Lineup
+2021,2,4,16,Post Mahomes,Saquon Barkley,False,RB,Weekly Lineup
+2021,2,5,17,Voldemort,Calvin Ridley,False,WR,Weekly Lineup
+2021,2,6,18,Big Sack Jack,Josh Jacobs,False,RB,Weekly Lineup
+2021,2,7,19,Ginger FC,DeAndre Hopkins,False,WR,Weekly Lineup
+2021,2,8,20,Malle ❤️ 🐸,Keenan Allen,False,WR,Weekly Lineup
+2021,2,9,21,malle_dips_pouches,A.J. Brown,False,WR,Weekly Lineup
+2021,2,10,22,Patty Primetimes,Clyde Edwards-Helaire,False,RB,Weekly Lineup
+2021,2,11,23,Joe Mantegna,Terry McLaurin,False,WR,Weekly Lineup
+2021,2,12,24,Uncle Rico,Derrick Henry,True,RB,Weekly Lineup
+2021,3,1,25,Uncle Rico,Allen Robinson,False,WR,Weekly Lineup
+2021,3,2,26,Joe Mantegna,George Kittle,False,TE,Weekly Lineup
+2021,3,3,27,Patty Primetimes,Chris Carson,False,RB,Weekly Lineup
+2021,3,4,28,malle_dips_pouches,D'Andre Swift,False,RB,Weekly Lineup
+2021,3,5,29,Malle ❤️ 🐸,Mike Evans,False,WR,Weekly Lineup
+2021,3,6,30,Ginger FC,Amari Cooper,False,WR,Weekly Lineup
+2021,3,7,31,Big Sack Jack,James Robinson,False,RB,Weekly Lineup
+2021,3,8,32,Voldemort,David Montgomery,False,RB,Weekly Lineup
+2021,3,9,33,Post Mahomes,CeeDee Lamb,False,WR,Weekly Lineup
+2021,3,10,34,ThreatLevelMidnight,Chris Godwin Jr.,False,WR,Weekly Lineup
+2021,3,11,35,Pop Lockett Drop it,Robbie Chosen,False,WR,Weekly Lineup
+2021,3,12,36,The Big Gronkowski,Cooper Kupp,False,WR,Weekly Lineup
+2021,4,1,37,The Big Gronkowski,Tyler Lockett,False,WR,Weekly Lineup
+2021,4,2,38,Pop Lockett Drop it,Stefon Diggs,True,WR,Weekly Lineup
+2021,4,3,39,ThreatLevelMidnight,Darrell Henderson Jr.,False,RB,Weekly Lineup
+2021,4,4,40,Post Mahomes,Gus Edwards,False,RB,NFLverse Exact
+2021,4,5,41,Voldemort,Robert Woods,False,WR,Weekly Lineup
+2021,4,6,42,Big Sack Jack,DJ Moore,False,WR,Weekly Lineup
+2021,4,7,43,Ginger FC,DK Metcalf,True,WR,Weekly Lineup
+2021,4,8,44,Malle ❤️ 🐸,Adam Thielen,False,WR,Weekly Lineup
+2021,4,9,45,malle_dips_pouches,Kareem Hunt,False,RB,NFLverse Exact
+2021,4,10,46,Patty Primetimes,Julio Jones,False,WR,Weekly Lineup
+2021,4,11,47,Joe Mantegna,Diontae Johnson,False,WR,Weekly Lineup
+2021,4,12,48,Uncle Rico,Lamar Jackson,False,QB,Weekly Lineup
+2021,5,1,49,Uncle Rico,Mark Andrews,False,TE,Weekly Lineup
+2021,5,2,50,Joe Mantegna,Myles Gaskin,False,RB,Weekly Lineup
+2021,5,3,51,Patty Primetimes,Tee Higgins,False,WR,Weekly Lineup
+2021,5,4,52,malle_dips_pouches,Tyler Boyd,False,WR,Weekly Lineup
+2021,5,5,53,Malle ❤️ 🐸,Raheem Mostert,False,RB,Weekly Lineup
+2021,5,6,54,Ginger FC,Aaron Rodgers,False,QB,Weekly Lineup
+2021,5,7,55,Big Sack Jack,Robert Tonyan,False,TE,Weekly Lineup
+2021,5,8,56,Voldemort,Dak Prescott,False,QB,Weekly Lineup
+2021,5,9,57,Post Mahomes,Kyle Pitts Sr.,False,TE,Weekly Lineup
+2021,5,10,58,ThreatLevelMidnight,Trey Sermon,False,RB,NFLverse Exact
+2021,5,11,59,Pop Lockett Drop it,Jamaal Williams,False,RB,Weekly Lineup
+2021,5,12,60,The Big Gronkowski,Darren Waller,True,TE,Weekly Lineup
+2021,6,1,61,The Big Gronkowski,Chase Claypool,False,WR,Weekly Lineup
+2021,6,2,62,Pop Lockett Drop it,Courtland Sutton,False,WR,NFLverse Exact
+2021,6,3,63,ThreatLevelMidnight,Russell Wilson,False,QB,Weekly Lineup
+2021,6,4,64,Post Mahomes,Brandon Aiyuk,False,WR,Weekly Lineup
+2021,6,5,65,Voldemort,Chase Edmonds,False,RB,Weekly Lineup
+2021,6,6,66,Big Sack Jack,JuJu Smith-Schuster,False,WR,Weekly Lineup
+2021,6,7,67,Ginger FC,Javonte Williams,False,RB,Weekly Lineup
+2021,6,8,68,Malle ❤️ 🐸,Tom Brady,False,QB,Weekly Lineup
+2021,6,9,69,malle_dips_pouches,Logan Thomas,False,TE,Weekly Lineup
+2021,6,10,70,Patty Primetimes,Josh Allen,True,QB,Weekly Lineup
+2021,6,11,71,Joe Mantegna,Justin Herbert,False,QB,Weekly Lineup
+2021,6,12,72,Uncle Rico,Odell Beckham Jr.,False,WR,NFLverse Exact
+2021,7,1,73,Uncle Rico,Ja'Marr Chase,False,WR,Weekly Lineup
+2021,7,2,74,Joe Mantegna,Ronald Jones,False,RB,Weekly Lineup
+2021,7,3,75,Patty Primetimes,DeVonta Smith,False,WR,Weekly Lineup
+2021,7,4,76,malle_dips_pouches,James Conner,False,RB,Weekly Lineup
+2021,7,5,77,Malle ❤️ 🐸,T.J. Hockenson,False,TE,Weekly Lineup
+2021,7,6,78,Ginger FC,Devin Singletary,False,RB,NFLverse Exact
+2021,7,7,79,Big Sack Jack,Melvin Gordon III,False,RB,Weekly Lineup
+2021,7,8,80,Voldemort,Tyler Higbee,False,TE,Weekly Lineup
+2021,7,9,81,Post Mahomes,Kenny Golladay,False,WR,Weekly Lineup
+2021,7,10,82,ThreatLevelMidnight,Noah Fant,False,TE,Weekly Lineup
+2021,7,11,83,Pop Lockett Drop it,Michael Gallup,False,WR,Weekly Lineup
+2021,7,12,84,The Big Gronkowski,Matthew Stafford,False,QB,Weekly Lineup
+2021,8,1,85,The Big Gronkowski,AJ Dillon,False,RB,Weekly Lineup
+2021,8,2,86,Pop Lockett Drop it,Sony Michel,False,RB,Weekly Lineup
+2021,8,3,87,ThreatLevelMidnight,Corey Davis,False,WR,Weekly Lineup
+2021,8,4,88,Post Mahomes,Kyler Murray,True,QB,Weekly Lineup
+2021,8,5,89,Voldemort,Deebo Samuel Sr.,False,WR,Weekly Lineup
+2021,8,6,90,Big Sack Jack,Mecole Hardman Jr.,False,WR,Weekly Lineup
+2021,8,7,91,Ginger FC,Leonard Fournette,False,RB,Weekly Lineup
+2021,8,8,92,Malle ❤️ 🐸,Rams,False,DEF,Defense
+2021,8,9,93,malle_dips_pouches,Jerry Jeudy,True,WR,Weekly Lineup
+2021,8,10,94,Patty Primetimes,Dallas Goedert,False,TE,Weekly Lineup
+2021,8,11,95,Joe Mantegna,Commanders,False,DEF,Defense
+2021,8,12,96,Uncle Rico,Antonio Brown,False,WR,Weekly Lineup
+2021,9,1,97,Uncle Rico,Michael Carter,False,RB,Weekly Lineup
+2021,9,2,98,Joe Mantegna,Miles Sanders,True,RB,Weekly Lineup
+2021,9,3,99,Patty Primetimes,Kenyan Drake,False,RB,Weekly Lineup
+2021,9,4,100,malle_dips_pouches,Ryan Tannehill,False,QB,Weekly Lineup
+2021,9,5,101,Malle ❤️ 🐸,Justin Tucker,False,K,Weekly Lineup
+2021,9,6,102,Ginger FC,Rob Gronkowski,False,TE,Weekly Lineup
+2021,9,7,103,Big Sack Jack,Marquez Callaway,False,WR,Weekly Lineup
+2021,9,8,104,Voldemort,Zack Moss,False,RB,Weekly Lineup
+2021,9,9,105,Post Mahomes,Brandin Cooks,False,WR,Weekly Lineup
+2021,9,10,106,ThreatLevelMidnight,Jakobi Meyers,False,WR,Weekly Lineup
+2021,9,11,107,Pop Lockett Drop it,David Johnson,False,RB,Weekly Lineup
+2021,9,12,108,The Big Gronkowski,Michael Pittman Jr.,False,WR,Weekly Lineup
+2021,10,1,109,The Big Gronkowski,Nyheim Miller-Hines,False,RB,Manual Override
+2021,10,2,110,Pop Lockett Drop it,Henry Ruggs III,False,WR,Weekly Lineup
+2021,10,3,111,ThreatLevelMidnight,Mike Davis,True,RB,Weekly Lineup
+2021,10,4,112,Post Mahomes,Tony Pollard,False,RB,Weekly Lineup
+2021,10,5,113,Voldemort,Michael Thomas,False,WR,NFLverse Exact
+2021,10,6,114,Big Sack Jack,Steelers,False,DEF,Defense
+2021,10,7,115,Ginger FC,Laviska Shenault Jr.,False,WR,NFLverse Exact
+2021,10,8,116,Malle ❤️ 🐸,Jalen Hurts,False,QB,Weekly Lineup
+2021,10,9,117,malle_dips_pouches,Mike Williams,False,WR,Weekly Lineup
+2021,10,10,118,Patty Primetimes,Matt Ryan,False,QB,Weekly Lineup
+2021,10,11,119,Joe Mantegna,Harrison Butker,False,K,Weekly Lineup
+2021,10,12,120,Uncle Rico,DJ Chark,False,WR,NFLverse Exact
+2021,11,1,121,Uncle Rico,James White,False,RB,NFLverse Exact
+2021,11,2,122,Joe Mantegna,Will Fuller V,False,WR,NFLverse Exact
+2021,11,3,123,Patty Primetimes,Mike Gesicki,False,TE,Weekly Lineup
+2021,11,4,124,malle_dips_pouches,Marvin Jones Jr.,False,WR,Weekly Lineup
+2021,11,5,125,Malle ❤️ 🐸,Phillip Lindsay,False,RB,NFLverse Exact
+2021,11,6,126,Ginger FC,Jarvis Landry,False,WR,NFLverse Exact
+2021,11,7,127,Big Sack Jack,Amon-Ra St. Brown,False,WR,Weekly Lineup
+2021,11,8,128,Voldemort,Justin Jefferson,True,WR,Weekly Lineup
+2021,11,9,129,Post Mahomes,J.D. McKissic,False,RB,Weekly Lineup
+2021,11,10,130,ThreatLevelMidnight,Jaylen Waddle,False,WR,Weekly Lineup
+2021,11,11,131,Pop Lockett Drop it,Hollywood Brown,False,WR,Weekly Lineup
+2021,11,12,132,The Big Gronkowski,Gerald Everett,False,TE,NFLverse Exact
+2021,12,1,133,The Big Gronkowski,Joe Burrow,False,QB,Weekly Lineup
+2021,12,2,134,Pop Lockett Drop it,Tevin Coleman,False,RB,Weekly Lineup
+2021,12,3,135,ThreatLevelMidnight,Cam Akers,False,RB,NFLverse Exact
+2021,12,4,136,Post Mahomes,Curtis Samuel,False,WR,NFLverse Exact
+2021,12,5,137,Voldemort,Younghoe Koo,False,K,Weekly Lineup
+2021,12,6,138,Big Sack Jack,Greg Zuerlein,False,K,Weekly Lineup
+2021,12,7,139,Ginger FC,Tyrell Williams,False,WR,NFLverse Exact
+2021,12,8,140,Malle ❤️ 🐸,Jonnu Smith,False,TE,Weekly Lineup
+2021,12,9,141,malle_dips_pouches,Evan Engram,False,TE,Weekly Lineup
+2021,12,10,142,Patty Primetimes,Darnell Mooney,False,WR,Weekly Lineup
+2021,12,11,143,Joe Mantegna,Irv Smith Jr.,False,TE,NFLverse Exact
+2021,12,12,144,Uncle Rico,Trevor Lawrence,False,QB,NFLverse Exact
+2021,13,1,145,Uncle Rico,Giovani Bernard,False,RB,Weekly Lineup
+2021,13,2,146,Joe Mantegna,Kirk Cousins,False,QB,NFLverse Exact
+2021,13,3,147,Patty Primetimes,Matt Gay,False,K,Weekly Lineup
+2021,13,4,148,malle_dips_pouches,Darrel Williams,False,RB,Weekly Lineup
+2021,13,5,149,Malle ❤️ 🐸,Alexander Mattison,False,RB,Weekly Lineup
+2021,13,6,150,Ginger FC,Buccaneers,False,DEF,Defense
+2021,13,7,151,Big Sack Jack,Austin Hooper,False,TE,NFLverse Exact
+2021,13,8,152,Voldemort,49ers,False,DEF,Defense
+2021,13,9,153,Post Mahomes,Ravens,False,DEF,Defense
+2021,13,10,154,ThreatLevelMidnight,Browns,False,DEF,Defense
+2021,13,11,155,Pop Lockett Drop it,Baker Mayfield,False,QB,Weekly Lineup
+2021,13,12,156,The Big Gronkowski,Robbie Gould,False,K,Weekly Lineup
+2021,14,1,157,The Big Gronkowski,Chiefs,False,DEF,Defense
+2021,14,2,158,Pop Lockett Drop it,Rodrigo Blankenship,False,K,Weekly Lineup
+2021,14,3,159,ThreatLevelMidnight,Tyler Bass,False,K,Weekly Lineup
+2021,14,4,160,Post Mahomes,Devontae Booker,False,RB,Weekly Lineup
+2021,14,5,161,Voldemort,Latavius Murray,False,RB,Weekly Lineup
+2021,14,6,162,Big Sack Jack,Jalen Reagor,False,WR,NFLverse Exact
+2021,14,7,163,Ginger FC,Ryan Succop,False,K,Weekly Lineup
+2021,14,8,164,Malle ❤️ 🐸,Damien Harris,True,RB,Weekly Lineup
+2021,14,9,165,malle_dips_pouches,Bills,False,DEF,Defense
+2021,14,10,166,Patty Primetimes,Patriots,False,DEF,Defense
+2021,14,11,167,Joe Mantegna,Rashaad Penny,False,RB,NFLverse Exact
+2021,14,12,168,Uncle Rico,Colts,False,DEF,Defense
+2021,15,1,169,Uncle Rico,Jason Sanders,False,K,Weekly Lineup
+2021,15,2,170,Joe Mantegna,Broncos,False,DEF,Defense
+2021,15,3,171,Patty Primetimes,Travis Etienne Jr.,False,RB,NFLverse Exact
+2021,15,4,172,malle_dips_pouches,Chris Boswell,False,K,Weekly Lineup
+2021,15,5,173,Malle ❤️ 🐸,Ryan Fitzpatrick,False,QB,NFLverse Exact
+2021,15,6,174,Ginger FC,Jameis Winston,False,QB,Weekly Lineup
+2021,15,7,175,Big Sack Jack,Rhamondre Stevenson,False,RB,NFLverse Exact
+2021,15,8,176,Voldemort,Ben Roethlisberger,False,QB,NFLverse Exact
+2021,15,9,177,Post Mahomes,Matt Prater,False,K,Weekly Lineup
+2021,15,10,178,ThreatLevelMidnight,Chuba Hubbard,False,RB,Weekly Lineup
+2021,15,11,179,Pop Lockett Drop it,Vikings,False,DEF,Defense
+2021,15,12,180,The Big Gronkowski,Cole Beasley,False,WR,Weekly Lineup
+2022,1,1,1,Post Mahomes,Jonathan Taylor,False,RB,Weekly Lineup
+2022,1,2,2,malle_dips_pouches,Christian McCaffrey,False,RB,Weekly Lineup
+2022,1,3,3,The Big Gronkowski,Austin Ekeler,False,RB,Weekly Lineup
+2022,1,4,4,Patty Primetimes,Derrick Henry,False,RB,Weekly Lineup
+2022,1,5,5,Voldemort,Joe Mixon,False,RB,Weekly Lineup
+2022,1,6,6,Pop Lockett Drop it,Najee Harris,False,RB,Weekly Lineup
+2022,1,7,7,Big Sack Jack,Dalvin Cook,False,RB,Weekly Lineup
+2022,1,8,8,ThreatLevelMidnight,Stefon Diggs,False,WR,Weekly Lineup
+2022,1,9,9,Malle ❤️ 🐸,CeeDee Lamb,False,WR,Weekly Lineup
+2022,1,10,10,Ginger FC,Alvin Kamara,False,RB,Weekly Lineup
+2022,1,11,11,Uncle Rico,Saquon Barkley,False,RB,Weekly Lineup
+2022,1,12,12,Joe Mantegna,Davante Adams,False,WR,Weekly Lineup
+2022,2,1,13,Joe Mantegna,Aaron Jones Sr.,False,RB,Weekly Lineup
+2022,2,2,14,Uncle Rico,Nick Chubb,False,RB,Weekly Lineup
+2022,2,3,15,Ginger FC,Travis Kelce,False,TE,Weekly Lineup
+2022,2,4,16,Malle ❤️ 🐸,D'Andre Swift,False,RB,Weekly Lineup
+2022,2,5,17,ThreatLevelMidnight,Mike Evans,False,WR,Weekly Lineup
+2022,2,6,18,Big Sack Jack,Tyreek Hill,False,WR,Weekly Lineup
+2022,2,7,19,Pop Lockett Drop it,Michael Pittman Jr.,False,WR,Weekly Lineup
+2022,2,8,20,Voldemort,Deebo Samuel Sr.,False,WR,Weekly Lineup
+2022,2,9,21,Patty Primetimes,Javonte Williams,False,RB,Weekly Lineup
+2022,2,10,22,The Big Gronkowski,Cooper Kupp,True,WR,Weekly Lineup
+2022,2,11,23,malle_dips_pouches,Mark Andrews,False,TE,Weekly Lineup
+2022,2,12,24,Post Mahomes,A.J. Brown,False,WR,Weekly Lineup
+2022,3,1,25,Post Mahomes,Ezekiel Elliott,False,RB,Weekly Lineup
+2022,3,2,26,malle_dips_pouches,Josh Jacobs,False,RB,Weekly Lineup
+2022,3,3,27,The Big Gronkowski,Tee Higgins,False,WR,Weekly Lineup
+2022,3,4,28,Patty Primetimes,Terry McLaurin,False,WR,Weekly Lineup
+2022,3,5,29,Voldemort,Josh Allen,False,QB,Weekly Lineup
+2022,3,6,30,Pop Lockett Drop it,Keenan Allen,False,WR,Weekly Lineup
+2022,3,7,31,Big Sack Jack,DJ Moore,True,WR,Weekly Lineup
+2022,3,8,32,ThreatLevelMidnight,Allen Robinson,False,WR,Weekly Lineup
+2022,3,9,33,Malle ❤️ 🐸,Adam Thielen,True,WR,Weekly Lineup
+2022,3,10,34,Ginger FC,Mike Williams,False,WR,Weekly Lineup
+2022,3,11,35,Uncle Rico,Kyle Pitts Sr.,False,TE,Weekly Lineup
+2022,3,12,36,Joe Mantegna,Breece Hall,False,RB,Weekly Lineup
+2022,4,1,37,Joe Mantegna,Courtland Sutton,False,WR,Weekly Lineup
+2022,4,2,38,Uncle Rico,Patrick Mahomes,False,QB,Weekly Lineup
+2022,4,3,39,Ginger FC,Kyler Murray,False,QB,Weekly Lineup
+2022,4,4,40,Malle ❤️ 🐸,Diontae Johnson,False,WR,Weekly Lineup
+2022,4,5,41,ThreatLevelMidnight,Chase Edmonds,False,RB,Weekly Lineup
+2022,4,6,42,Big Sack Jack,AJ Dillon,False,RB,Weekly Lineup
+2022,4,7,43,Pop Lockett Drop it,Dameon Pierce,False,RB,Weekly Lineup
+2022,4,8,44,Voldemort,David Montgomery,False,RB,Weekly Lineup
+2022,4,9,45,Patty Primetimes,Darren Waller,False,TE,Weekly Lineup
+2022,4,10,46,The Big Gronkowski,George Kittle,False,TE,Weekly Lineup
+2022,4,11,47,malle_dips_pouches,Lamar Jackson,False,QB,Weekly Lineup
+2022,4,12,48,Post Mahomes,Gabe Davis,False,WR,Weekly Lineup
+2022,5,1,49,Post Mahomes,Brandin Cooks,False,WR,Weekly Lineup
+2022,5,2,50,malle_dips_pouches,Jaylen Waddle,False,WR,Weekly Lineup
+2022,5,3,51,The Big Gronkowski,JuJu Smith-Schuster,False,WR,Weekly Lineup
+2022,5,4,52,Patty Primetimes,DK Metcalf,False,WR,Weekly Lineup
+2022,5,5,53,Voldemort,Antonio Gibson,False,RB,Weekly Lineup
+2022,5,6,54,Pop Lockett Drop it,Dalton Schultz,False,TE,Weekly Lineup
+2022,5,7,55,Big Sack Jack,Amon-Ra St. Brown,False,WR,Weekly Lineup
+2022,5,8,56,ThreatLevelMidnight,Rashaad Penny,False,RB,Weekly Lineup
+2022,5,9,57,Malle ❤️ 🐸,J.K. Dobbins,False,RB,Weekly Lineup
+2022,5,10,58,Ginger FC,Jerry Jeudy,False,WR,Weekly Lineup
+2022,5,11,59,Uncle Rico,Brandon Aiyuk,False,WR,Weekly Lineup
+2022,5,12,60,Joe Mantegna,Justin Herbert,True,QB,Weekly Lineup
+2022,6,1,61,Joe Mantegna,Dallas Goedert,False,TE,Weekly Lineup
+2022,6,2,62,Uncle Rico,Ja'Marr Chase,True,WR,Weekly Lineup
+2022,6,3,63,Ginger FC,Rhamondre Stevenson,False,RB,Weekly Lineup
+2022,6,4,64,Malle ❤️ 🐸,Jalen Hurts,False,QB,Weekly Lineup
+2022,6,5,65,ThreatLevelMidnight,Rashod Bateman,False,WR,Weekly Lineup
+2022,6,6,66,Big Sack Jack,Joe Burrow,False,QB,Weekly Lineup
+2022,6,7,67,Pop Lockett Drop it,Russell Wilson,False,QB,Weekly Lineup
+2022,6,8,68,Voldemort,Darnell Mooney,False,WR,NFLverse Exact
+2022,6,9,69,Patty Primetimes,Hunter Renfrow,False,WR,Weekly Lineup
+2022,6,10,70,The Big Gronkowski,Damien Harris,False,RB,Weekly Lineup
+2022,6,11,71,malle_dips_pouches,James Conner,True,RB,Weekly Lineup
+2022,6,12,72,Post Mahomes,Tom Brady,False,QB,Weekly Lineup
+2022,7,1,73,Post Mahomes,Clyde Edwards-Helaire,False,RB,Weekly Lineup
+2022,7,2,74,malle_dips_pouches,Amari Cooper,False,WR,Weekly Lineup
+2022,7,3,75,The Big Gronkowski,Tony Pollard,False,RB,Weekly Lineup
+2022,7,4,76,Patty Primetimes,Michael Thomas,False,WR,Weekly Lineup
+2022,7,5,77,Voldemort,Chris Godwin Jr.,False,WR,Weekly Lineup
+2022,7,6,78,Pop Lockett Drop it,Christian Kirk,False,WR,Weekly Lineup
+2022,7,7,79,Big Sack Jack,Dawson Knox,False,TE,Weekly Lineup
+2022,7,8,80,ThreatLevelMidnight,Miles Sanders,False,RB,Weekly Lineup
+2022,7,9,81,Malle ❤️ 🐸,T.J. Hockenson,False,TE,Weekly Lineup
+2022,7,10,82,Ginger FC,Leonard Fournette,True,RB,Weekly Lineup
+2022,7,11,83,Uncle Rico,Robert Woods,False,WR,NFLverse Exact
+2022,7,12,84,Joe Mantegna,Devin Singletary,False,RB,Weekly Lineup
+2022,8,1,85,Joe Mantegna,Elijah Moore,False,WR,NFLverse Exact
+2022,8,2,86,Uncle Rico,Cordarrelle Patterson,False,RB,Weekly Lineup
+2022,8,3,87,Ginger FC,Kareem Hunt,False,RB,Weekly Lineup
+2022,8,4,88,Malle ❤️ 🐸,Bills,False,DEF,Defense
+2022,8,5,89,ThreatLevelMidnight,Dak Prescott,False,QB,Weekly Lineup
+2022,8,6,90,Big Sack Jack,49ers,False,DEF,Defense
+2022,8,7,91,Pop Lockett Drop it,Melvin Gordon III,False,RB,Weekly Lineup
+2022,8,8,92,Voldemort,Zach Ertz,False,TE,Weekly Lineup
+2022,8,9,93,Patty Primetimes,Matthew Stafford,False,QB,Weekly Lineup
+2022,8,10,94,The Big Gronkowski,Trey Lance,False,QB,NFLverse Exact
+2022,8,11,95,malle_dips_pouches,DeVonta Smith,False,WR,Weekly Lineup
+2022,8,12,96,Post Mahomes,Allen Lazard,False,WR,Weekly Lineup
+2022,9,1,97,Post Mahomes,Drake London,False,WR,Weekly Lineup
+2022,9,2,98,malle_dips_pouches,Michael Carter,False,RB,Weekly Lineup
+2022,9,3,99,The Big Gronkowski,Kirk Cousins,False,QB,Weekly Lineup
+2022,9,4,100,Patty Primetimes,Chris Olave,False,WR,Weekly Lineup
+2022,9,5,101,Voldemort,James Cook III,False,RB,NFLverse Exact
+2022,9,6,102,Pop Lockett Drop it,Rondale Moore,False,WR,Weekly Lineup
+2022,9,7,103,Big Sack Jack,Justin Tucker,False,K,Weekly Lineup
+2022,9,8,104,ThreatLevelMidnight,DeAndre Hopkins,False,WR,Weekly Lineup
+2022,9,9,105,Malle ❤️ 🐸,Evan McPherson,False,K,Weekly Lineup
+2022,9,10,106,Ginger FC,Tyler Lockett,False,WR,Weekly Lineup
+2022,9,11,107,Uncle Rico,Kadarius Toney,False,WR,NFLverse Exact
+2022,9,12,108,Joe Mantegna,Darrell Henderson Jr.,False,RB,Weekly Lineup
+2022,10,1,109,Joe Mantegna,Russell Gage Jr.,False,WR,NFLverse Exact
+2022,10,2,110,Uncle Rico,George Pickens,False,WR,NFLverse Exact
+2022,10,3,111,Ginger FC,Devin Duvernay,False,WR,Weekly Lineup
+2022,10,4,112,Malle ❤️ 🐸,Cole Kmet,False,TE,Weekly Lineup
+2022,10,5,113,ThreatLevelMidnight,Elijah Mitchell,True,RB,Weekly Lineup
+2022,10,6,114,Big Sack Jack,Nyheim Miller-Hines,False,RB,Manual Override
+2022,10,7,115,Pop Lockett Drop it,Hollywood Brown,True,WR,Weekly Lineup
+2022,10,8,116,Voldemort,Justin Jefferson,True,WR,Weekly Lineup
+2022,10,9,117,Patty Primetimes,Aaron Rodgers,False,QB,Weekly Lineup
+2022,10,10,118,The Big Gronkowski,Buccaneers,False,DEF,Defense
+2022,10,11,119,malle_dips_pouches,Tyler Boyd,False,WR,Weekly Lineup
+2022,10,12,120,Post Mahomes,Kenneth Walker III,False,RB,Weekly Lineup
+2022,11,1,121,Post Mahomes,Cam Akers,True,RB,Weekly Lineup
+2022,11,2,122,malle_dips_pouches,Pat Freiermuth,False,TE,Weekly Lineup
+2022,11,3,123,The Big Gronkowski,David Njoku,False,TE,Weekly Lineup
+2022,11,4,124,Patty Primetimes,Colts,False,DEF,Defense
+2022,11,5,125,Voldemort,James Robinson,False,RB,Weekly Lineup
+2022,11,6,126,Pop Lockett Drop it,Alexander Mattison,False,RB,Weekly Lineup
+2022,11,7,127,Big Sack Jack,Derek Carr,False,QB,Weekly Lineup
+2022,11,8,128,ThreatLevelMidnight,Raheem Mostert,False,RB,Weekly Lineup
+2022,11,9,129,Malle ❤️ 🐸,Trevor Lawrence,False,QB,Weekly Lineup
+2022,11,10,130,Ginger FC,Rams,False,DEF,Defense
+2022,11,11,131,Uncle Rico,Jakobi Meyers,False,WR,Weekly Lineup
+2022,11,12,132,Joe Mantegna,Julio Jones,False,WR,NFLverse Exact
+2022,12,1,133,Joe Mantegna,Chase Claypool,False,WR,Weekly Lineup
+2022,12,2,134,Uncle Rico,Isiah Pacheco,False,RB,Weekly Lineup
+2022,12,3,135,Ginger FC,DJ Chark,False,WR,Weekly Lineup
+2022,12,4,136,Malle ❤️ 🐸,Jamaal Williams,False,RB,Weekly Lineup
+2022,12,5,137,ThreatLevelMidnight,Treylon Burks,False,WR,NFLverse Exact
+2022,12,6,138,Big Sack Jack,Khalil Herbert,False,RB,Weekly Lineup
+2022,12,7,139,Pop Lockett Drop it,Romeo Doubs,False,WR,Weekly Lineup
+2022,12,8,140,Voldemort,Kenny Gainwell,False,RB,NFLverse Cross-Year
+2022,12,9,141,Patty Primetimes,Rachaad White,False,RB,Weekly Lineup
+2022,12,10,142,The Big Gronkowski,Tyler Bass,False,K,Weekly Lineup
+2022,12,11,143,malle_dips_pouches,DeVante Parker,False,WR,NFLverse Exact
+2022,12,12,144,Post Mahomes,Irv Smith Jr.,False,TE,Weekly Lineup
+2022,13,1,145,Post Mahomes,Saints,False,DEF,Defense
+2022,13,2,146,malle_dips_pouches,Matt Gay,False,K,Weekly Lineup
+2022,13,3,147,The Big Gronkowski,Isaiah McKenzie,False,WR,NFLverse Exact
+2022,13,4,148,Patty Primetimes,Skyy Moore,False,WR,NFLverse Exact
+2022,13,5,149,Voldemort,Marquez Valdes-Scantling,False,WR,NFLverse Exact
+2022,13,6,150,Pop Lockett Drop it,Chargers,False,DEF,Defense
+2022,13,7,151,Big Sack Jack,Nico Collins,False,WR,NFLverse Exact
+2022,13,8,152,ThreatLevelMidnight,Albert Okwuegbunam Jr.,False,TE,Weekly Lineup
+2022,13,9,153,Malle ❤️ 🐸,Jarvis Landry,False,WR,NFLverse Exact
+2022,13,10,154,Ginger FC,Daniel Carlson,False,K,Weekly Lineup
+2022,13,11,155,Uncle Rico,Tyler Allgeier,False,RB,Weekly Lineup
+2022,13,12,156,Joe Mantegna,Ronald Jones,False,RB,NFLverse Exact
+2022,14,1,157,Joe Mantegna,Broncos,False,DEF,Defense
+2022,14,2,158,Uncle Rico,Browns,False,DEF,Defense
+2022,14,3,159,Ginger FC,Sammy Watkins,False,WR,NFLverse Exact
+2022,14,4,160,Malle ❤️ 🐸,J.D. McKissic,False,RB,Weekly Lineup
+2022,14,5,161,ThreatLevelMidnight,Brian Robinson,False,RB,Weekly Lineup
+2022,14,6,162,Big Sack Jack,Hunter Henry,False,TE,Weekly Lineup
+2022,14,7,163,Pop Lockett Drop it,Tua Tagovailoa,False,QB,Weekly Lineup
+2022,14,8,164,Voldemort,Patriots,False,DEF,Defense
+2022,14,9,165,Patty Primetimes,Travis Etienne Jr.,True,RB,Weekly Lineup
+2022,14,10,166,The Big Gronkowski,Jeff Wilson Jr.,False,RB,Weekly Lineup
+2022,14,11,167,malle_dips_pouches,Ravens,False,DEF,Defense
+2022,14,12,168,Post Mahomes,Harrison Butker,False,K,Weekly Lineup
+2022,15,1,169,Post Mahomes,Zamir White,False,RB,NFLverse Exact
+2022,15,2,170,malle_dips_pouches,Justin Fields,False,QB,Weekly Lineup
+2022,15,3,171,The Big Gronkowski,Packers,False,DEF,Defense
+2022,15,4,172,Patty Primetimes,Greg Joseph,False,K,Weekly Lineup
+2022,15,5,173,Voldemort,Ryan Succop,False,K,Weekly Lineup
+2022,15,6,174,Pop Lockett Drop it,Robbie Gould,False,K,Weekly Lineup
+2022,15,7,175,Big Sack Jack,Chiefs,False,DEF,Defense
+2022,15,8,176,ThreatLevelMidnight,Cowboys,False,DEF,Defense
+2022,15,9,177,Malle ❤️ 🐸,Eagles,False,DEF,Defense
+2022,15,10,178,Ginger FC,Mark Ingram II,False,RB,NFLverse Exact
+2022,15,11,179,Uncle Rico,Jake Elliott,False,K,Weekly Lineup
+2022,15,12,180,Joe Mantegna,Younghoe Koo,False,K,Weekly Lineup
+2023,1,1,1,Malle ❤️ 🐸,Justin Jefferson,False,WR,Weekly Lineup
+2023,1,2,2,Post Mahomes,Christian McCaffrey,False,RB,Weekly Lineup
+2023,1,3,3,Ginger FC,Bijan Robinson,False,RB,Weekly Lineup
+2023,1,4,4,The Big Gronkowski,Austin Ekeler,False,RB,Weekly Lineup
+2023,1,5,5,Joe Mantegna,Tyreek Hill,False,WR,Weekly Lineup
+2023,1,6,6,Buttermilk Puuump,Travis Kelce,False,TE,Weekly Lineup
+2023,1,7,7,malle_dips_pouches,Cooper Kupp,False,WR,Weekly Lineup
+2023,1,8,8,Pop Lockett Drop it,CeeDee Lamb,False,WR,Weekly Lineup
+2023,1,9,9,Patty Primetimes,Stefon Diggs,False,WR,Weekly Lineup
+2023,1,10,10,ThreatLevelMidnight,Saquon Barkley,False,RB,Weekly Lineup
+2023,1,11,11,Voldemort,Nick Chubb,False,RB,Weekly Lineup
+2023,1,12,12,Uncle Rico,Josh Jacobs,False,RB,Weekly Lineup
+2023,2,1,13,Uncle Rico,A.J. Brown,False,WR,Weekly Lineup
+2023,2,2,14,Voldemort,Davante Adams,False,WR,Weekly Lineup
+2023,2,3,15,ThreatLevelMidnight,Derrick Henry,False,RB,Weekly Lineup
+2023,2,4,16,Patty Primetimes,Jaylen Waddle,False,WR,Weekly Lineup
+2023,2,5,17,Pop Lockett Drop it,Chris Olave,False,WR,Weekly Lineup
+2023,2,6,18,malle_dips_pouches,Joe Mixon,False,RB,Weekly Lineup
+2023,2,7,19,Buttermilk Puuump,Najee Harris,False,RB,Weekly Lineup
+2023,2,8,20,Joe Mantegna,Rhamondre Stevenson,False,RB,Weekly Lineup
+2023,2,9,21,The Big Gronkowski,DeVonta Smith,False,WR,Weekly Lineup
+2023,2,10,22,Ginger FC,Tee Higgins,False,WR,Weekly Lineup
+2023,2,11,23,Post Mahomes,Aaron Jones Sr.,False,RB,Weekly Lineup
+2023,2,12,24,Malle ❤️ 🐸,Jahmyr Gibbs,False,RB,Weekly Lineup
+2023,3,1,25,Malle ❤️ 🐸,Deebo Samuel Sr.,False,WR,Weekly Lineup
+2023,3,2,26,Post Mahomes,Patrick Mahomes,False,QB,Weekly Lineup
+2023,3,3,27,Ginger FC,J.K. Dobbins,False,RB,Weekly Lineup
+2023,3,4,28,The Big Gronkowski,DK Metcalf,False,WR,Weekly Lineup
+2023,3,5,29,Joe Mantegna,Breece Hall,False,RB,Weekly Lineup
+2023,3,6,30,Buttermilk Puuump,Kenneth Walker III,False,RB,Weekly Lineup
+2023,3,7,31,malle_dips_pouches,Josh Allen,False,QB,Weekly Lineup
+2023,3,8,32,Pop Lockett Drop it,Cam Akers,False,RB,Weekly Lineup
+2023,3,9,33,Patty Primetimes,Dameon Pierce,False,RB,Weekly Lineup
+2023,3,10,34,ThreatLevelMidnight,Mark Andrews,False,TE,Weekly Lineup
+2023,3,11,35,Voldemort,Lamar Jackson,False,QB,Weekly Lineup
+2023,3,12,36,Uncle Rico,Alexander Mattison,False,RB,Weekly Lineup
+2023,4,1,37,Uncle Rico,Diontae Johnson,False,WR,Weekly Lineup
+2023,4,2,38,Voldemort,Miles Sanders,False,RB,Weekly Lineup
+2023,4,3,39,ThreatLevelMidnight,Brandon Aiyuk,False,WR,Weekly Lineup
+2023,4,4,40,Patty Primetimes,DeAndre Hopkins,False,WR,Weekly Lineup
+2023,4,5,41,Pop Lockett Drop it,T.J. Hockenson,False,TE,Weekly Lineup
+2023,4,6,42,malle_dips_pouches,James Conner,False,RB,Weekly Lineup
+2023,4,7,43,Buttermilk Puuump,Amon-Ra St. Brown,True,WR,Weekly Lineup
+2023,4,8,44,Joe Mantegna,Keenan Allen,False,WR,Weekly Lineup
+2023,4,9,45,The Big Gronkowski,DJ Moore,False,WR,Weekly Lineup
+2023,4,10,46,Ginger FC,Jahan Dotson,False,WR,Weekly Lineup
+2023,4,11,47,Post Mahomes,Jonathan Taylor,False,RB,Weekly Lineup
+2023,4,12,48,Malle ❤️ 🐸,Javonte Williams,False,RB,Weekly Lineup
+2023,5,1,49,Malle ❤️ 🐸,Jalen Hurts,True,QB,Weekly Lineup
+2023,5,2,50,Post Mahomes,George Kittle,False,TE,Weekly Lineup
+2023,5,3,51,Ginger FC,Dalvin Cook,False,RB,Weekly Lineup
+2023,5,4,52,The Big Gronkowski,Dallas Goedert,False,TE,Weekly Lineup
+2023,5,5,53,Joe Mantegna,David Montgomery,False,RB,Weekly Lineup
+2023,5,6,54,Buttermilk Puuump,Chris Godwin Jr.,False,WR,Weekly Lineup
+2023,5,7,55,malle_dips_pouches,Terry McLaurin,False,WR,Weekly Lineup
+2023,5,8,56,Pop Lockett Drop it,Isiah Pacheco,False,RB,Weekly Lineup
+2023,5,9,57,Patty Primetimes,Darren Waller,False,TE,Weekly Lineup
+2023,5,10,58,ThreatLevelMidnight,Trevor Lawrence,False,QB,Weekly Lineup
+2023,5,11,59,Voldemort,Tyler Lockett,False,WR,Weekly Lineup
+2023,5,12,60,Uncle Rico,Ja'Marr Chase,True,WR,Weekly Lineup
+2023,6,1,61,Uncle Rico,Joe Burrow,False,QB,Weekly Lineup
+2023,6,2,62,Voldemort,Rachaad White,False,RB,Weekly Lineup
+2023,6,3,63,ThreatLevelMidnight,Alvin Kamara,False,RB,Weekly Lineup
+2023,6,4,64,Patty Primetimes,Michael Pittman Jr.,False,WR,Weekly Lineup
+2023,6,5,65,Pop Lockett Drop it,Brian Robinson,False,RB,Weekly Lineup
+2023,6,6,66,malle_dips_pouches,Amari Cooper,True,WR,Weekly Lineup
+2023,6,7,67,Buttermilk Puuump,D'Andre Swift,False,RB,Weekly Lineup
+2023,6,8,68,Joe Mantegna,Kyle Pitts Sr.,False,TE,Weekly Lineup
+2023,6,9,69,The Big Gronkowski,Tony Pollard,True,RB,Weekly Lineup
+2023,6,10,70,Ginger FC,Khalil Herbert,False,RB,Weekly Lineup
+2023,6,11,71,Post Mahomes,Drake London,False,WR,Weekly Lineup
+2023,6,12,72,Malle ❤️ 🐸,Mike Evans,False,WR,Weekly Lineup
+2023,7,1,73,Malle ❤️ 🐸,Pat Freiermuth,False,TE,Weekly Lineup
+2023,7,2,74,Post Mahomes,Christian Kirk,False,WR,Weekly Lineup
+2023,7,3,75,Ginger FC,David Njoku,False,TE,Weekly Lineup
+2023,7,4,76,The Big Gronkowski,Justin Herbert,False,QB,Weekly Lineup
+2023,7,5,77,Joe Mantegna,Hollywood Brown,False,WR,Weekly Lineup
+2023,7,6,78,Buttermilk Puuump,Mike Williams,False,WR,NFLverse Exact
+2023,7,7,79,malle_dips_pouches,Damien Harris,False,RB,NFLverse Exact
+2023,7,8,80,Pop Lockett Drop it,Jordan Addison,False,WR,Weekly Lineup
+2023,7,9,81,Patty Primetimes,Antonio Gibson,False,RB,NFLverse Exact
+2023,7,10,82,ThreatLevelMidnight,George Pickens,False,WR,Weekly Lineup
+2023,7,11,83,Voldemort,Evan Engram,False,TE,Weekly Lineup
+2023,7,12,84,Uncle Rico,Gabe Davis,False,WR,Weekly Lineup
+2023,8,1,85,Uncle Rico,AJ Dillon,False,RB,Weekly Lineup
+2023,8,2,86,Voldemort,Jerick McKinnon,False,RB,Weekly Lineup
+2023,8,3,87,ThreatLevelMidnight,Zach Charbonnet,False,RB,Weekly Lineup
+2023,8,4,88,Patty Primetimes,Jamaal Williams,False,RB,Weekly Lineup
+2023,8,5,89,Pop Lockett Drop it,Jaxon Smith-Njigba,False,WR,NFLverse Exact
+2023,8,6,90,malle_dips_pouches,Tyler Higbee,False,TE,Weekly Lineup
+2023,8,7,91,Buttermilk Puuump,Jerry Jeudy,False,WR,Weekly Lineup
+2023,8,8,92,Joe Mantegna,James Cook III,True,RB,Weekly Lineup
+2023,8,9,93,The Big Gronkowski,Samaje Perine,False,RB,Weekly Lineup
+2023,8,10,94,Ginger FC,Rashod Bateman,False,WR,NFLverse Exact
+2023,8,11,95,Post Mahomes,Brandin Cooks,False,WR,NFLverse Exact
+2023,8,12,96,Malle ❤️ 🐸,49ers,False,DEF,Defense
+2023,9,1,97,Malle ❤️ 🐸,Justin Tucker,False,K,Weekly Lineup
+2023,9,2,98,Post Mahomes,Jaylen Warren,False,RB,Weekly Lineup
+2023,9,3,99,Ginger FC,Aaron Rodgers,True,QB,NFLverse Exact
+2023,9,4,100,The Big Gronkowski,Courtland Sutton,False,WR,Weekly Lineup
+2023,9,5,101,Joe Mantegna,Deshaun Watson,False,QB,Weekly Lineup
+2023,9,6,102,Buttermilk Puuump,JuJu Smith-Schuster,False,WR,NFLverse Exact
+2023,9,7,103,malle_dips_pouches,Rashaad Penny,False,RB,NFLverse Exact
+2023,9,8,104,Pop Lockett Drop it,Tyler Allgeier,False,RB,Weekly Lineup
+2023,9,9,105,Patty Primetimes,Tua Tagovailoa,False,QB,Weekly Lineup
+2023,9,10,106,ThreatLevelMidnight,Quentin Johnston,False,WR,NFLverse Exact
+2023,9,11,107,Voldemort,Zay Flowers,False,WR,Weekly Lineup
+2023,9,12,108,Uncle Rico,Jeff Wilson Jr.,False,RB,NFLverse Exact
+2023,10,1,109,Uncle Rico,Elijah Moore,False,WR,Weekly Lineup
+2023,10,2,110,Voldemort,Christian Watson,True,WR,Weekly Lineup
+2023,10,3,111,ThreatLevelMidnight,Calvin Ridley,True,WR,Weekly Lineup
+2023,10,4,112,Patty Primetimes,Kadarius Toney,False,WR,NFLverse Exact
+2023,10,5,113,Pop Lockett Drop it,Marvin Mims Jr.,False,WR,NFLverse Exact
+2023,10,6,114,malle_dips_pouches,Michael Thomas,False,WR,NFLverse Exact
+2023,10,7,115,Buttermilk Puuump,Dak Prescott,False,QB,Weekly Lineup
+2023,10,8,116,Joe Mantegna,Nico Collins,False,WR,Weekly Lineup
+2023,10,9,117,The Big Gronkowski,Skyy Moore,False,WR,NFLverse Exact
+2023,10,10,118,Ginger FC,Treylon Burks,False,WR,NFLverse Exact
+2023,10,11,119,Post Mahomes,Garrett Wilson,True,WR,Weekly Lineup
+2023,10,12,120,Malle ❤️ 🐸,Daniel Jones,False,QB,NFLverse Exact
+2023,11,1,121,Malle ❤️ 🐸,Kenny Gainwell,False,RB,Weekly Lineup
+2023,11,2,122,Post Mahomes,Elijah Mitchell,False,RB,NFLverse Exact
+2023,11,3,123,Ginger FC,Ezekiel Elliott,False,RB,Weekly Lineup
+2023,11,4,124,The Big Gronkowski,Tank Bigsby,False,RB,NFLverse Exact
+2023,11,5,125,Joe Mantegna,Jakobi Meyers,False,WR,NFLverse Exact
+2023,11,6,126,Buttermilk Puuump,De'Von Achane,False,RB,Weekly Lineup
+2023,11,7,127,malle_dips_pouches,Allen Lazard,False,WR,NFLverse Exact
+2023,11,8,128,Pop Lockett Drop it,Zay Jones,False,WR,NFLverse Exact
+2023,11,9,129,Patty Primetimes,Anthony Richardson Sr.,False,QB,Weekly Lineup
+2023,11,10,130,ThreatLevelMidnight,Raheem Mostert,False,RB,Weekly Lineup
+2023,11,11,131,Voldemort,DJ Chark,False,WR,NFLverse Exact
+2023,11,12,132,Uncle Rico,Chig Okonkwo,False,TE,Weekly Lineup
+2023,12,1,133,Uncle Rico,Geno Smith,False,QB,Weekly Lineup
+2023,12,2,134,Voldemort,Devin Singletary,False,RB,Weekly Lineup
+2023,12,3,135,ThreatLevelMidnight,Rashee Rice,False,WR,Weekly Lineup
+2023,12,4,136,Patty Primetimes,Eagles,False,DEF,Defense
+2023,12,5,137,Pop Lockett Drop it,Rondale Moore,False,WR,NFLverse Exact
+2023,12,6,138,malle_dips_pouches,Jets,False,DEF,Defense
+2023,12,7,139,Buttermilk Puuump,Odell Beckham Jr.,False,WR,Weekly Lineup
+2023,12,8,140,Joe Mantegna,Kendre Miller,False,RB,NFLverse Exact
+2023,12,9,141,The Big Gronkowski,Cowboys,False,DEF,Defense
+2023,12,10,142,Ginger FC,Kirk Cousins,False,QB,Weekly Lineup
+2023,12,11,143,Post Mahomes,Bills,False,DEF,Defense
+2023,12,12,144,Malle ❤️ 🐸,Dalton Kincaid,False,TE,Weekly Lineup
+2023,13,1,145,Malle ❤️ 🐸,Adam Thielen,False,WR,Weekly Lineup
+2023,13,2,146,Post Mahomes,Roschon Johnson,False,RB,NFLverse Exact
+2023,13,3,147,Ginger FC,Daniel Carlson,False,K,Weekly Lineup
+2023,13,4,148,The Big Gronkowski,Tyler Bass,False,K,Weekly Lineup
+2023,13,5,149,Joe Mantegna,Tyler Boyd,False,WR,NFLverse Exact
+2023,13,6,150,Buttermilk Puuump,Jared Goff,False,QB,Weekly Lineup
+2023,13,7,151,malle_dips_pouches,Evan McPherson,False,K,Weekly Lineup
+2023,13,8,152,Pop Lockett Drop it,Harrison Butker,False,K,Weekly Lineup
+2023,13,9,153,Patty Primetimes,Travis Etienne Jr.,True,RB,Weekly Lineup
+2023,13,10,154,ThreatLevelMidnight,D'Onta Foreman,False,RB,Weekly Lineup
+2023,13,11,155,Voldemort,Deon Jackson,False,RB,NFLverse Exact
+2023,13,12,156,Uncle Rico,Romeo Doubs,False,WR,NFLverse Exact
+2023,14,1,157,Uncle Rico,Patriots,False,DEF,Defense
+2023,14,2,158,Voldemort,Ravens,False,DEF,Defense
+2023,14,3,159,ThreatLevelMidnight,Younghoe Koo,False,K,Weekly Lineup
+2023,14,4,160,Patty Primetimes,Jameson Williams,False,WR,NFLverse Exact
+2023,14,5,161,Pop Lockett Drop it,Justin Fields,True,QB,Weekly Lineup
+2023,14,6,162,malle_dips_pouches,Russell Wilson,False,QB,Weekly Lineup
+2023,14,7,163,Buttermilk Puuump,Jason Sanders,False,K,Weekly Lineup
+2023,14,8,164,Joe Mantegna,Broncos,False,DEF,Defense
+2023,14,9,165,The Big Gronkowski,Matthew Stafford,False,QB,Weekly Lineup
+2023,14,10,166,Ginger FC,Saints,False,DEF,Defense
+2023,14,11,167,Post Mahomes,Darnell Mooney,False,WR,NFLverse Exact
+2023,14,12,168,Malle ❤️ 🐸,Tyjae Spears,False,RB,NFLverse Exact
+2023,15,1,169,Malle ❤️ 🐸,Dolphins,False,DEF,Defense
+2023,15,2,170,Post Mahomes,Jake Elliott,False,K,Weekly Lineup
+2023,15,3,171,Ginger FC,Michael Gallup,False,WR,NFLverse Exact
+2023,15,4,172,The Big Gronkowski,Dalton Schultz,False,TE,Weekly Lineup
+2023,15,5,173,Joe Mantegna,Cameron Dicker,False,K,Weekly Lineup
+2023,15,6,174,Buttermilk Puuump,Packers,False,DEF,Defense
+2023,15,7,175,malle_dips_pouches,Dawson Knox,False,TE,NFLverse Exact
+2023,15,8,176,Pop Lockett Drop it,Steelers,False,DEF,Defense
+2023,15,9,177,Patty Primetimes,Riley Patterson,False,K,Weekly Lineup
+2023,15,10,178,ThreatLevelMidnight,Chiefs,False,DEF,Defense
+2023,15,11,179,Voldemort,Jason Myers,False,K,Weekly Lineup
+2023,15,12,180,Uncle Rico,Chris Boswell,False,K,Weekly Lineup
+2024,1,1,1,Ginger FC,Christian McCaffrey,False,RB,Weekly Lineup
+2024,1,2,2,Buttermilk Puuump,Tyreek Hill,False,WR,Weekly Lineup
+2024,1,3,3,Patty Primetimes,CeeDee Lamb,False,WR,Weekly Lineup
+2024,1,4,4,ThreatLevelMidnight,Ja'Marr Chase,False,WR,Weekly Lineup
+2024,1,5,5,The Big Gronkowski,Justin Jefferson,False,WR,Weekly Lineup
+2024,1,6,6,Pop Lockett Drop it,Bijan Robinson,False,RB,Weekly Lineup
+2024,1,7,7,malle_dips_pouches,A.J. Brown,False,WR,Weekly Lineup
+2024,1,8,8,Voldemort,Jonathan Taylor,False,RB,Weekly Lineup
+2024,1,9,9,Uncle Rico,Derrick Henry,False,RB,Weekly Lineup
+2024,1,10,10,Joe Mantegna,Garrett Wilson,False,WR,Weekly Lineup
+2024,1,11,11,Post Mahomes,Jahmyr Gibbs,False,RB,Weekly Lineup
+2024,1,12,12,Malle ❤️ 🐸,Saquon Barkley,False,RB,Weekly Lineup
+2024,2,1,13,Malle ❤️ 🐸,Marvin Harrison Jr.,False,WR,Weekly Lineup
+2024,2,2,14,Post Mahomes,Isiah Pacheco,False,RB,Weekly Lineup
+2024,2,3,15,Joe Mantegna,Breece Hall,True,RB,Weekly Lineup
+2024,2,4,16,Uncle Rico,Davante Adams,False,WR,Weekly Lineup
+2024,2,5,17,Voldemort,Travis Etienne Jr.,False,RB,Weekly Lineup
+2024,2,6,18,malle_dips_pouches,Drake London,False,WR,Weekly Lineup
+2024,2,7,19,Pop Lockett Drop it,Mike Evans,False,WR,Weekly Lineup
+2024,2,8,20,The Big Gronkowski,Chris Olave,False,WR,Weekly Lineup
+2024,2,9,21,ThreatLevelMidnight,Josh Jacobs,False,RB,Weekly Lineup
+2024,2,10,22,Patty Primetimes,Cooper Kupp,False,WR,Weekly Lineup
+2024,2,11,23,Buttermilk Puuump,Rachaad White,False,RB,Weekly Lineup
+2024,2,12,24,Ginger FC,Brandon Aiyuk,False,WR,Weekly Lineup
+2024,3,1,25,Ginger FC,Deebo Samuel Sr.,False,WR,Weekly Lineup
+2024,3,2,26,Buttermilk Puuump,Amon-Ra St. Brown,True,WR,Weekly Lineup
+2024,3,3,27,Patty Primetimes,Travis Kelce,False,TE,Weekly Lineup
+2024,3,4,28,ThreatLevelMidnight,DK Metcalf,False,WR,Weekly Lineup
+2024,3,5,29,The Big Gronkowski,DJ Moore,False,WR,Weekly Lineup
+2024,3,6,30,Pop Lockett Drop it,DeVonta Smith,False,WR,Weekly Lineup
+2024,3,7,31,malle_dips_pouches,Jaylen Waddle,False,WR,Weekly Lineup
+2024,3,8,32,Voldemort,Josh Allen,False,QB,Weekly Lineup
+2024,3,9,33,Uncle Rico,Patrick Mahomes,False,QB,Weekly Lineup
+2024,3,10,34,Joe Mantegna,Nico Collins,False,WR,Weekly Lineup
+2024,3,11,35,Post Mahomes,Michael Pittman Jr.,False,WR,Weekly Lineup
+2024,3,12,36,Malle ❤️ 🐸,Jalen Hurts,False,QB,Weekly Lineup
+2024,4,1,37,Malle ❤️ 🐸,Malik Nabers,False,WR,Weekly Lineup
+2024,4,2,38,Post Mahomes,Lamar Jackson,False,QB,Weekly Lineup
+2024,4,3,39,Joe Mantegna,James Cook III,False,RB,Weekly Lineup
+2024,4,4,40,Uncle Rico,Mark Andrews,False,TE,Weekly Lineup
+2024,4,5,41,Voldemort,Kenneth Walker III,False,RB,Weekly Lineup
+2024,4,6,42,malle_dips_pouches,Joe Mixon,False,RB,Weekly Lineup
+2024,4,7,43,Pop Lockett Drop it,David Montgomery,False,RB,Weekly Lineup
+2024,4,8,44,The Big Gronkowski,Alvin Kamara,False,RB,Weekly Lineup
+2024,4,9,45,ThreatLevelMidnight,James Conner,False,RB,Weekly Lineup
+2024,4,10,46,Patty Primetimes,Aaron Jones Sr.,False,RB,Weekly Lineup
+2024,4,11,47,Buttermilk Puuump,Najee Harris,False,RB,Weekly Lineup
+2024,4,12,48,Ginger FC,Stefon Diggs,False,WR,Weekly Lineup
+2024,5,1,49,Ginger FC,Amari Cooper,False,WR,Weekly Lineup
+2024,5,2,50,Buttermilk Puuump,Raheem Mostert,False,RB,Weekly Lineup
+2024,5,3,51,Patty Primetimes,Terry McLaurin,False,WR,Weekly Lineup
+2024,5,4,52,ThreatLevelMidnight,Kyler Murray,False,QB,Weekly Lineup
+2024,5,5,53,The Big Gronkowski,Joe Burrow,False,QB,Weekly Lineup
+2024,5,6,54,Pop Lockett Drop it,Trey McBride,False,TE,Weekly Lineup
+2024,5,7,55,malle_dips_pouches,Rhamondre Stevenson,False,RB,Weekly Lineup
+2024,5,8,56,Voldemort,Dalton Kincaid,False,TE,Weekly Lineup
+2024,5,9,57,Uncle Rico,D'Andre Swift,False,RB,Weekly Lineup
+2024,5,10,58,Joe Mantegna,Dak Prescott,False,QB,Weekly Lineup
+2024,5,11,59,Post Mahomes,Rashee Rice,False,WR,Weekly Lineup
+2024,5,12,60,Malle ❤️ 🐸,George Kittle,False,TE,Weekly Lineup
+2024,6,1,61,Malle ❤️ 🐸,Zamir White,False,RB,Weekly Lineup
+2024,6,2,62,Post Mahomes,Tee Higgins,False,WR,Weekly Lineup
+2024,6,3,63,Joe Mantegna,George Pickens,False,WR,Weekly Lineup
+2024,6,4,64,Uncle Rico,Zay Flowers,False,WR,Weekly Lineup
+2024,6,5,65,Voldemort,Calvin Ridley,False,WR,Weekly Lineup
+2024,6,6,66,malle_dips_pouches,Kyle Pitts Sr.,False,TE,Weekly Lineup
+2024,6,7,67,Pop Lockett Drop it,Jayden Reed,False,WR,Weekly Lineup
+2024,6,8,68,The Big Gronkowski,Jake Ferguson,False,TE,Weekly Lineup
+2024,6,9,69,ThreatLevelMidnight,Christian Kirk,False,WR,NFLverse Exact
+2024,6,10,70,Patty Primetimes,Tony Pollard,False,RB,Weekly Lineup
+2024,6,11,71,Buttermilk Puuump,Keenan Allen,False,WR,Weekly Lineup
+2024,6,12,72,Ginger FC,Jordan Love,False,QB,Weekly Lineup
+2024,7,1,73,Ginger FC,49ers,False,DEF,Defense
+2024,7,2,74,Buttermilk Puuump,Jared Goff,False,QB,Weekly Lineup
+2024,7,3,75,Patty Primetimes,Xavier Worthy,False,WR,Weekly Lineup
+2024,7,4,76,ThreatLevelMidnight,Chris Godwin Jr.,False,WR,Weekly Lineup
+2024,7,5,77,The Big Gronkowski,Javonte Williams,False,RB,Weekly Lineup
+2024,7,6,78,Pop Lockett Drop it,Zack Moss,False,RB,Weekly Lineup
+2024,7,7,79,malle_dips_pouches,Brian Robinson,False,RB,Weekly Lineup
+2024,7,8,80,Voldemort,Diontae Johnson,False,WR,Weekly Lineup
+2024,7,9,81,Uncle Rico,Devin Singletary,False,RB,NFLverse Exact
+2024,7,10,82,Joe Mantegna,Evan Engram,False,TE,Weekly Lineup
+2024,7,11,83,Post Mahomes,Tyjae Spears,False,RB,Weekly Lineup
+2024,7,12,84,Malle ❤️ 🐸,Ravens,False,DEF,Defense
+2024,8,1,85,Malle ❤️ 🐸,Justin Tucker,False,K,Weekly Lineup
+2024,8,2,86,Post Mahomes,Jaylen Warren,False,RB,Weekly Lineup
+2024,8,3,87,Joe Mantegna,DeAndre Hopkins,False,WR,Weekly Lineup
+2024,8,4,88,Uncle Rico,Austin Ekeler,False,RB,Weekly Lineup
+2024,8,5,89,Voldemort,Chase Brown,False,RB,Weekly Lineup
+2024,8,6,90,malle_dips_pouches,Christian Watson,False,WR,Weekly Lineup
+2024,8,7,91,Pop Lockett Drop it,Rico Dowdle,False,RB,Weekly Lineup
+2024,8,8,92,The Big Gronkowski,Jaxon Smith-Njigba,False,WR,Weekly Lineup
+2024,8,9,93,ThreatLevelMidnight,Jerome Ford,False,RB,Weekly Lineup
+2024,8,10,94,Patty Primetimes,Jayden Daniels,False,QB,Weekly Lineup
+2024,8,11,95,Buttermilk Puuump,David Njoku,False,TE,Weekly Lineup
+2024,8,12,96,Ginger FC,Dallas Goedert,False,TE,Weekly Lineup
+2024,9,1,97,Ginger FC,Nick Chubb,False,RB,Weekly Lineup
+2024,9,2,98,Buttermilk Puuump,Jordan Addison,False,WR,NFLverse Exact
+2024,9,3,99,Patty Primetimes,Ladd McConkey,False,WR,NFLverse Exact
+2024,9,4,100,ThreatLevelMidnight,Trey Benson,False,RB,NFLverse Exact
+2024,9,5,101,The Big Gronkowski,Gus Edwards,False,RB,NFLverse Exact
+2024,9,6,102,Pop Lockett Drop it,Rome Odunze,False,WR,Weekly Lineup
+2024,9,7,103,malle_dips_pouches,Courtland Sutton,False,WR,Weekly Lineup
+2024,9,8,104,Voldemort,Khalil Shakir,False,WR,Weekly Lineup
+2024,9,9,105,Uncle Rico,Jonathon Brooks,False,RB,NFLverse Exact
+2024,9,10,106,Joe Mantegna,Hollywood Brown,False,WR,Manual Override
+2024,9,11,107,Post Mahomes,Ezekiel Elliott,False,RB,NFLverse Exact
+2024,9,12,108,Malle ❤️ 🐸,Brock Purdy,False,QB,Weekly Lineup
+2024,10,1,109,Malle ❤️ 🐸,Adam Thielen,True,WR,NFLverse Exact
+2024,10,2,110,Post Mahomes,Kyren Williams,True,RB,Weekly Lineup
+2024,10,3,111,Joe Mantegna,Tua Tagovailoa,False,QB,Weekly Lineup
+2024,10,4,112,Uncle Rico,Tank Dell,True,WR,NFLverse Exact
+2024,10,5,113,Voldemort,Puka Nacua,True,WR,Weekly Lineup
+2024,10,6,114,malle_dips_pouches,Harrison Butker,False,K,Weekly Lineup
+2024,10,7,115,Pop Lockett Drop it,C.J. Stroud,True,QB,Weekly Lineup
+2024,10,8,116,The Big Gronkowski,Matthew Stafford,False,QB,Weekly Lineup
+2024,10,9,117,ThreatLevelMidnight,Sam LaPorta,True,TE,Weekly Lineup
+2024,10,10,118,Patty Primetimes,Anthony Richardson Sr.,True,QB,Weekly Lineup
+2024,10,11,119,Buttermilk Puuump,Joshua Palmer,False,WR,Manual Override
+2024,10,12,120,Ginger FC,De'Von Achane,True,RB,Weekly Lineup
+2024,11,1,121,Ginger FC,Brian Thomas Jr.,False,WR,Weekly Lineup
+2024,11,2,122,Buttermilk Puuump,Blake Corum,False,RB,NFLverse Exact
+2024,11,3,123,Patty Primetimes,Khalil Herbert,False,RB,NFLverse Exact
+2024,11,4,124,ThreatLevelMidnight,Curtis Samuel,False,WR,NFLverse Exact
+2024,11,5,125,The Big Gronkowski,Cowboys,False,DEF,Defense
+2024,11,6,126,Pop Lockett Drop it,Jameson Williams,False,WR,Weekly Lineup
+2024,11,7,127,malle_dips_pouches,Justin Herbert,False,QB,Weekly Lineup
+2024,11,8,128,Voldemort,Chuba Hubbard,False,RB,Weekly Lineup
+2024,11,9,129,Uncle Rico,Zach Charbonnet,False,RB,Weekly Lineup
+2024,11,10,130,Joe Mantegna,Ty Chandler,False,RB,NFLverse Exact
+2024,11,11,131,Post Mahomes,Brock Bowers,False,TE,Weekly Lineup
+2024,11,12,132,Malle ❤️ 🐸,Rashid Shaheed,False,WR,Weekly Lineup
+2024,12,1,133,Malle ❤️ 🐸,Tyler Lockett,False,WR,Weekly Lineup
+2024,12,2,134,Post Mahomes,Keon Coleman,False,WR,Weekly Lineup
+2024,12,3,135,Joe Mantegna,Jakobi Meyers,False,WR,NFLverse Exact
+2024,12,4,136,Uncle Rico,Romeo Doubs,False,WR,NFLverse Exact
+2024,12,5,137,Voldemort,J.K. Dobbins,False,RB,Weekly Lineup
+2024,12,6,138,malle_dips_pouches,Caleb Williams,False,QB,Weekly Lineup
+2024,12,7,139,Pop Lockett Drop it,Trevor Lawrence,False,QB,NFLverse Exact
+2024,12,8,140,The Big Gronkowski,Brandon Aubrey,False,K,Weekly Lineup
+2024,12,9,141,ThreatLevelMidnight,Deshaun Watson,False,QB,NFLverse Exact
+2024,12,10,142,Patty Primetimes,Dalton Schultz,False,TE,Weekly Lineup
+2024,12,11,143,Buttermilk Puuump,Younghoe Koo,False,K,Weekly Lineup
+2024,12,12,144,Ginger FC,Antonio Gibson,False,RB,Weekly Lineup
+2024,13,1,145,Ginger FC,Jake Elliott,False,K,Weekly Lineup
+2024,13,2,146,Buttermilk Puuump,Jerry Jeudy,False,WR,NFLverse Exact
+2024,13,3,147,Patty Primetimes,Evan McPherson,False,K,Weekly Lineup
+2024,13,4,148,ThreatLevelMidnight,Cameron Dicker,False,K,Weekly Lineup
+2024,13,5,149,The Big Gronkowski,Luke Musgrave,False,TE,NFLverse Exact
+2024,13,6,150,Pop Lockett Drop it,Ka'imi Fairbairn,False,K,Weekly Lineup
+2024,13,7,151,malle_dips_pouches,Pat Freiermuth,False,TE,NFLverse Exact
+2024,13,8,152,Voldemort,Jets,False,DEF,Defense
+2024,13,9,153,Uncle Rico,Browns,False,DEF,Defense
+2024,13,10,154,Joe Mantegna,Jason Sanders,False,K,Weekly Lineup
+2024,13,11,155,Post Mahomes,Chiefs,False,DEF,Defense
+2024,13,12,156,Malle ❤️ 🐸,Jaleel McLaughlin,False,RB,Weekly Lineup
+2024,14,1,157,Malle ❤️ 🐸,Cole Kmet,False,TE,Weekly Lineup
+2024,14,2,158,Post Mahomes,Jake Moody,False,K,Weekly Lineup
+2024,14,3,159,Joe Mantegna,Mike Williams,False,WR,NFLverse Exact
+2024,14,4,160,Uncle Rico,Brandin Cooks,False,WR,NFLverse Exact
+2024,14,5,161,Voldemort,Tyler Allgeier,False,RB,Weekly Lineup
+2024,14,6,162,malle_dips_pouches,Steelers,False,DEF,Defense
+2024,14,7,163,Pop Lockett Drop it,Kirk Cousins,False,QB,Weekly Lineup
+2024,14,8,164,The Big Gronkowski,Adonai Mitchell,False,WR,NFLverse Exact
+2024,14,9,165,ThreatLevelMidnight,Ja'Lynn Polk,False,WR,NFLverse Exact
+2024,14,10,166,Patty Primetimes,Bears,False,DEF,Defense
+2024,14,11,167,Buttermilk Puuump,Aaron Rodgers,False,QB,Weekly Lineup
+2024,14,12,168,Ginger FC,Gabe Davis,False,WR,NFLverse Exact
+2024,15,1,169,Ginger FC,Dameon Pierce,False,RB,NFLverse Exact
+2024,15,2,170,Buttermilk Puuump,Bills,False,DEF,Defense
+2024,15,3,171,Patty Primetimes,Tank Bigsby,False,RB,Weekly Lineup
+2024,15,4,172,ThreatLevelMidnight,Dolphins,False,DEF,Defense
+2024,15,5,173,The Big Gronkowski,MarShawn Lloyd,False,RB,NFLverse Exact
+2024,15,6,174,Pop Lockett Drop it,Texans,False,DEF,Defense
+2024,15,7,175,malle_dips_pouches,Josh Downs,False,WR,Weekly Lineup
+2024,15,8,176,Voldemort,Matt Gay,False,K,NFLverse Exact
+2024,15,9,177,Uncle Rico,Tyler Bass,False,K,Weekly Lineup
+2024,15,10,178,Joe Mantegna,Eagles,False,DEF,Defense
+2024,15,11,179,Post Mahomes,T.J. Hockenson,False,TE,Weekly Lineup
+2024,15,12,180,Malle ❤️ 🐸,Vikings,False,DEF,Defense
+2025,1,1,1,Joe Mantegna,Ja'Marr Chase,False,WR,Weekly Lineup
+2025,1,2,2,Patty Primetimes,Saquon Barkley,False,RB,Weekly Lineup
+2025,1,3,3,ThreatLevelMidnight,Bijan Robinson,False,RB,Weekly Lineup
+2025,1,4,4,Post Mahomes,Jahmyr Gibbs,False,RB,Weekly Lineup
+2025,1,5,5,Pop Lockett Drop it,CeeDee Lamb,False,WR,Weekly Lineup
+2025,1,6,6,Voldemort,Justin Jefferson,False,WR,Weekly Lineup
+2025,1,7,7,Uncle Rico,Christian McCaffrey,False,RB,Weekly Lineup
+2025,1,8,8,Ginger FC,Derrick Henry,False,RB,Weekly Lineup
+2025,1,9,9,Buttermilk Puuump,Josh Jacobs,False,RB,Weekly Lineup
+2025,1,10,10,malle_dips_pouches,Ashton Jeanty,False,RB,Weekly Lineup
+2025,1,11,11,The Big Gronkowski,Nico Collins,False,WR,Weekly Lineup
+2025,1,12,12,Malle ❤️ 🐸,Drake London,False,WR,Weekly Lineup
+2025,2,1,13,Malle ❤️ 🐸,Brian Thomas Jr.,False,WR,Weekly Lineup
+2025,2,2,14,The Big Gronkowski,A.J. Brown,False,WR,Weekly Lineup
+2025,2,3,15,malle_dips_pouches,Bucky Irving,False,RB,Weekly Lineup
+2025,2,4,16,Buttermilk Puuump,Amon-Ra St. Brown,True,WR,Weekly Lineup
+2025,2,5,17,Ginger FC,Tyreek Hill,False,WR,Weekly Lineup
+2025,2,6,18,Uncle Rico,Jonathan Taylor,False,RB,Weekly Lineup
+2025,2,7,19,Voldemort,Chase Brown,False,RB,Weekly Lineup
+2025,2,8,20,Pop Lockett Drop it,Kenneth Walker III,False,RB,Weekly Lineup
+2025,2,9,21,Post Mahomes,Brock Bowers,False,TE,Weekly Lineup
+2025,2,10,22,ThreatLevelMidnight,James Conner,False,RB,Weekly Lineup
+2025,2,11,23,Patty Primetimes,Josh Allen,False,QB,Weekly Lineup
+2025,2,12,24,Joe Mantegna,Omarion Hampton,False,RB,Weekly Lineup
+2025,3,1,25,Joe Mantegna,Malik Nabers,True,WR,Weekly Lineup
+2025,3,2,26,Patty Primetimes,James Cook III,False,RB,Weekly Lineup
+2025,3,3,27,ThreatLevelMidnight,Marvin Harrison Jr.,False,WR,Weekly Lineup
+2025,3,4,28,Post Mahomes,Tee Higgins,False,WR,Weekly Lineup
+2025,3,5,29,Pop Lockett Drop it,Lamar Jackson,False,QB,Weekly Lineup
+2025,3,6,30,Voldemort,Jaxon Smith-Njigba,False,WR,Weekly Lineup
+2025,3,7,31,Uncle Rico,Terry McLaurin,False,WR,Weekly Lineup
+2025,3,8,32,Ginger FC,Davante Adams,False,WR,Weekly Lineup
+2025,3,9,33,Buttermilk Puuump,Breece Hall,False,RB,Weekly Lineup
+2025,3,10,34,malle_dips_pouches,Mike Evans,False,WR,Weekly Lineup
+2025,3,11,35,The Big Gronkowski,Chuba Hubbard,False,RB,Weekly Lineup
+2025,3,12,36,Malle ❤️ 🐸,George Kittle,False,TE,Weekly Lineup
+2025,4,1,37,Malle ❤️ 🐸,Jayden Daniels,False,QB,Weekly Lineup
+2025,4,2,38,The Big Gronkowski,TreVeyon Henderson,False,RB,Weekly Lineup
+2025,4,3,39,malle_dips_pouches,Jalen Hurts,False,QB,Weekly Lineup
+2025,4,4,40,Buttermilk Puuump,George Pickens,False,WR,Weekly Lineup
+2025,4,5,41,Ginger FC,DeVonta Smith,False,WR,Weekly Lineup
+2025,4,6,42,Uncle Rico,Joe Burrow,False,QB,Weekly Lineup
+2025,4,7,43,Voldemort,Alvin Kamara,False,RB,Weekly Lineup
+2025,4,8,44,Pop Lockett Drop it,Trey McBride,True,TE,Weekly Lineup
+2025,4,9,45,Post Mahomes,Garrett Wilson,False,WR,Weekly Lineup
+2025,4,10,46,ThreatLevelMidnight,Tony Pollard,False,RB,Weekly Lineup
+2025,4,11,47,Patty Primetimes,DK Metcalf,False,WR,Weekly Lineup
+2025,4,12,48,Joe Mantegna,RJ Harvey,False,RB,Weekly Lineup
+2025,5,1,49,Joe Mantegna,Zay Flowers,False,WR,Weekly Lineup
+2025,5,2,50,Patty Primetimes,Courtland Sutton,False,WR,Weekly Lineup
+2025,5,3,51,ThreatLevelMidnight,DJ Moore,False,WR,Weekly Lineup
+2025,5,4,52,Post Mahomes,Patrick Mahomes,False,QB,Weekly Lineup
+2025,5,5,53,Pop Lockett Drop it,Tetairoa McMillan,False,WR,Weekly Lineup
+2025,5,6,54,Voldemort,David Montgomery,False,RB,Weekly Lineup
+2025,5,7,55,Uncle Rico,Jaylen Waddle,False,WR,Weekly Lineup
+2025,5,8,56,Ginger FC,Mark Andrews,False,TE,Weekly Lineup
+2025,5,9,57,Buttermilk Puuump,Travis Hunter,False,WR,NFLverse Exact
+2025,5,10,58,malle_dips_pouches,Calvin Ridley,False,WR,Weekly Lineup
+2025,5,11,59,The Big Gronkowski,T.J. Hockenson,False,TE,Weekly Lineup
+2025,5,12,60,Malle ❤️ 🐸,D'Andre Swift,False,RB,Weekly Lineup
+2025,6,1,61,Malle ❤️ 🐸,Isiah Pacheco,False,RB,Weekly Lineup
+2025,6,2,62,The Big Gronkowski,Jameson Williams,False,WR,Weekly Lineup
+2025,6,3,63,malle_dips_pouches,Tyrone Tracy Jr.,False,RB,Weekly Lineup
+2025,6,4,64,Buttermilk Puuump,Aaron Jones Sr.,False,RB,Weekly Lineup
+2025,6,5,65,Ginger FC,Chris Olave,False,WR,Weekly Lineup
+2025,6,6,66,Uncle Rico,Emeka Egbuka,False,WR,Weekly Lineup
+2025,6,7,67,Voldemort,Jaylen Warren,False,RB,Weekly Lineup
+2025,6,8,68,Pop Lockett Drop it,Kaleb Johnson,False,RB,NFLverse Exact
+2025,6,9,69,Post Mahomes,Ricky Pearsall,False,WR,Weekly Lineup
+2025,6,10,70,ThreatLevelMidnight,Xavier Worthy,True,WR,Weekly Lineup
+2025,6,11,71,Patty Primetimes,Travis Kelce,False,TE,Weekly Lineup
+2025,6,12,72,Joe Mantegna,Tucker Kraft,False,TE,Weekly Lineup
+2025,7,1,73,Joe Mantegna,Bo Nix,False,QB,Weekly Lineup
+2025,7,2,74,Patty Primetimes,J.K. Dobbins,False,RB,Weekly Lineup
+2025,7,3,75,ThreatLevelMidnight,Rashee Rice,False,WR,Weekly Lineup
+2025,7,4,76,Post Mahomes,Jordan Mason,False,RB,Weekly Lineup
+2025,7,5,77,Pop Lockett Drop it,Rome Odunze,False,WR,Weekly Lineup
+2025,7,6,78,Voldemort,David Njoku,False,TE,Weekly Lineup
+2025,7,7,79,Uncle Rico,Jerry Jeudy,False,WR,Weekly Lineup
+2025,7,8,80,Ginger FC,Travis Etienne Jr.,False,RB,Weekly Lineup
+2025,7,9,81,Buttermilk Puuump,Evan Engram,False,TE,Weekly Lineup
+2025,7,10,82,malle_dips_pouches,Stefon Diggs,False,WR,Weekly Lineup
+2025,7,11,83,The Big Gronkowski,Dak Prescott,False,QB,Weekly Lineup
+2025,7,12,84,Malle ❤️ 🐸,Jordan Addison,False,WR,Weekly Lineup
+2025,8,1,85,Malle ❤️ 🐸,Brock Purdy,False,QB,Weekly Lineup
+2025,8,2,86,The Big Gronkowski,Braelon Allen,False,RB,NFLverse Exact
+2025,8,3,87,malle_dips_pouches,Jakobi Meyers,False,WR,Weekly Lineup
+2025,8,4,88,Buttermilk Puuump,Deebo Samuel Sr.,False,WR,Weekly Lineup
+2025,8,5,89,Ginger FC,Michael Pittman Jr.,False,WR,Weekly Lineup
+2025,8,6,90,Uncle Rico,Matthew Golden,False,WR,NFLverse Exact
+2025,8,7,91,Voldemort,Kyler Murray,False,QB,Weekly Lineup
+2025,8,8,92,Pop Lockett Drop it,Javonte Williams,False,RB,Weekly Lineup
+2025,8,9,93,Post Mahomes,Austin Ekeler,False,RB,NFLverse Exact
+2025,8,10,94,ThreatLevelMidnight,Baker Mayfield,False,QB,Weekly Lineup
+2025,8,11,95,Patty Primetimes,Ladd McConkey,True,WR,Weekly Lineup
+2025,8,12,96,Joe Mantegna,Jauan Jennings,False,WR,Weekly Lineup
+2025,9,1,97,Joe Mantegna,Jacory Croskey-Merritt,False,RB,Weekly Lineup
+2025,9,2,98,Patty Primetimes,Tank Bigsby,False,RB,NFLverse Exact
+2025,9,3,99,ThreatLevelMidnight,Rhamondre Stevenson,False,RB,Weekly Lineup
+2025,9,4,100,Post Mahomes,Kyren Williams,True,RB,Weekly Lineup
+2025,9,5,101,Pop Lockett Drop it,Jayden Reed,False,WR,NFLverse Exact
+2025,9,6,102,Voldemort,Puka Nacua,True,WR,Weekly Lineup
+2025,9,7,103,Uncle Rico,Bhayshul Tuten,False,RB,Weekly Lineup
+2025,9,8,104,Ginger FC,De'Von Achane,True,RB,Weekly Lineup
+2025,9,9,105,Buttermilk Puuump,Jared Goff,False,QB,Weekly Lineup
+2025,9,10,106,malle_dips_pouches,Sam LaPorta,True,TE,Weekly Lineup
+2025,9,11,107,The Big Gronkowski,Drake Maye,False,QB,Weekly Lineup
+2025,9,12,108,Malle ❤️ 🐸,Khalil Shakir,False,WR,Weekly Lineup
+2025,10,1,109,Malle ❤️ 🐸,Rashid Shaheed,True,WR,Weekly Lineup
+2025,10,2,110,The Big Gronkowski,Dylan Sampson,False,RB,NFLverse Exact
+2025,10,3,111,malle_dips_pouches,Josh Downs,False,WR,NFLverse Exact
+2025,10,4,112,Buttermilk Puuump,Nick Chubb,False,RB,Weekly Lineup
+2025,10,5,113,Ginger FC,Justin Herbert,False,QB,Weekly Lineup
+2025,10,6,114,Uncle Rico,Zach Charbonnet,True,RB,Weekly Lineup
+2025,10,7,115,Voldemort,Keenan Allen,False,WR,Weekly Lineup
+2025,10,8,116,Pop Lockett Drop it,Brian Robinson,False,RB,Weekly Lineup
+2025,10,9,117,Post Mahomes,Cam Skattebo,False,RB,Weekly Lineup
+2025,10,10,118,ThreatLevelMidnight,Jake Ferguson,False,TE,Weekly Lineup
+2025,10,11,119,Patty Primetimes,Keon Coleman,False,WR,NFLverse Exact
+2025,10,12,120,Joe Mantegna,Tyler Warren,False,TE,Weekly Lineup
+2025,11,1,121,Joe Mantegna,Cooper Kupp,False,WR,NFLverse Exact
+2025,11,2,122,Patty Primetimes,Colston Loveland,False,TE,Weekly Lineup
+2025,11,3,123,ThreatLevelMidnight,Darnell Mooney,False,WR,Weekly Lineup
+2025,11,4,124,Post Mahomes,Chris Godwin Jr.,False,WR,Weekly Lineup
+2025,11,5,125,Pop Lockett Drop it,Cedric Tillman,False,WR,Weekly Lineup
+2025,11,6,126,Voldemort,Tyler Allgeier,False,RB,NFLverse Exact
+2025,11,7,127,Uncle Rico,Dalton Kincaid,False,TE,Weekly Lineup
+2025,11,8,128,Ginger FC,Trey Benson,False,RB,NFLverse Exact
+2025,11,9,129,Buttermilk Puuump,Luther Burden III,False,WR,NFLverse Exact
+2025,11,10,130,malle_dips_pouches,Rachaad White,False,RB,Weekly Lineup
+2025,11,11,131,The Big Gronkowski,Rashod Bateman,False,WR,NFLverse Exact
+2025,11,12,132,Malle ❤️ 🐸,Dallas Goedert,False,TE,Weekly Lineup
+2025,12,1,133,Malle ❤️ 🐸,Jerome Ford,False,RB,NFLverse Exact
+2025,12,2,134,The Big Gronkowski,Hunter Henry,False,TE,Weekly Lineup
+2025,12,3,135,malle_dips_pouches,Christian Kirk,False,WR,NFLverse Exact
+2025,12,4,136,Buttermilk Puuump,Najee Harris,False,RB,NFLverse Exact
+2025,12,5,137,Ginger FC,Ray Davis,False,RB,NFLverse Exact
+2025,12,6,138,Uncle Rico,J.J. McCarthy,False,QB,Weekly Lineup
+2025,12,7,139,Voldemort,Justin Fields,False,QB,Weekly Lineup
+2025,12,8,140,Pop Lockett Drop it,Brandon Aiyuk,False,WR,NFLverse Exact
+2025,12,9,141,Post Mahomes,Broncos,False,DEF,Defense
+2025,12,10,142,ThreatLevelMidnight,Jaydon Blue,False,RB,NFLverse Exact
+2025,12,11,143,Patty Primetimes,Caleb Williams,False,QB,Weekly Lineup
+2025,12,12,144,Joe Mantegna,Jayden Higgins,False,WR,NFLverse Exact
+2025,13,1,145,Joe Mantegna,Brandon Aubrey,False,K,Weekly Lineup
+2025,13,2,146,Patty Primetimes,Cameron Dicker,False,K,Weekly Lineup
+2025,13,3,147,ThreatLevelMidnight,Quinshon Judkins,False,RB,Weekly Lineup
+2025,13,4,148,Post Mahomes,Joe Mixon,False,RB,NFLverse Exact
+2025,13,5,149,Pop Lockett Drop it,Jake Bates,False,K,Weekly Lineup
+2025,13,6,150,Voldemort,Chig Okonkwo,False,TE,NFLverse Exact
+2025,13,7,151,Uncle Rico,Joshua Palmer,False,WR,Manual Override
+2025,13,8,152,Ginger FC,Marvin Mims Jr.,False,WR,NFLverse Exact
+2025,13,9,153,Buttermilk Puuump,Jordan Love,False,QB,Weekly Lineup
+2025,13,10,154,malle_dips_pouches,Zach Ertz,False,TE,Weekly Lineup
+2025,13,11,155,The Big Gronkowski,C.J. Stroud,False,QB,NFLverse Exact
+2025,13,12,156,Malle ❤️ 🐸,Tyjae Spears,False,RB,NFLverse Exact
+2025,14,1,157,Malle ❤️ 🐸,Eagles,False,DEF,Defense
+2025,14,2,158,The Big Gronkowski,Ka'imi Fairbairn,False,K,Weekly Lineup
+2025,14,3,159,malle_dips_pouches,Ravens,False,DEF,Defense
+2025,14,4,160,Buttermilk Puuump,Tyler Bass,False,K,NFLverse Exact
+2025,14,5,161,Ginger FC,Chiefs,False,DEF,Defense
+2025,14,6,162,Uncle Rico,Steelers,False,DEF,Defense
+2025,14,7,163,Voldemort,Vikings,False,DEF,Defense
+2025,14,8,164,Pop Lockett Drop it,Ollie Gordon II,False,RB,NFLverse Exact
+2025,14,9,165,Post Mahomes,DeMario Douglas,False,WR,NFLverse Exact
+2025,14,10,166,ThreatLevelMidnight,Bills,False,DEF,Defense
+2025,14,11,167,Patty Primetimes,Will Shipley,False,RB,NFLverse Exact
+2025,14,12,168,Joe Mantegna,Trevor Lawrence,False,QB,Weekly Lineup
+2025,15,1,169,Joe Mantegna,Lions,False,DEF,Defense
+2025,15,2,170,Patty Primetimes,Texans,False,DEF,Defense
+2025,15,3,171,ThreatLevelMidnight,Chase McLaughlin,False,K,Weekly Lineup
+2025,15,4,172,Post Mahomes,Harrison Butker,False,K,Weekly Lineup
+2025,15,5,173,Pop Lockett Drop it,Packers,False,DEF,Defense
+2025,15,6,174,Voldemort,Chris Boswell,False,K,Weekly Lineup
+2025,15,7,175,Uncle Rico,Wil Lutz,False,K,Weekly Lineup
+2025,15,8,176,Ginger FC,Evan McPherson,False,K,Weekly Lineup
+2025,15,9,177,Buttermilk Puuump,49ers,False,DEF,Defense
+2025,15,10,178,malle_dips_pouches,Jake Elliott,False,K,Weekly Lineup
+2025,15,11,179,The Big Gronkowski,Jets,False,DEF,Defense
+2025,15,12,180,Malle ❤️ 🐸,Jason Sanders,False,K,NFLverse Exact
+2026,1,1,1,malle_dips_pouches,Jahmyr Gibbs,False,RB,NFLverse Exact
+2026,1,2,2,Patty Primetimes,Bijan Robinson,False,RB,NFLverse Exact
+2026,1,3,3,Joe Mantegna,Ja'Marr Chase,False,WR,NFLverse Exact
+2026,1,4,4,Malle ❤️ 🐸,Puka Nacua,False,WR,NFLverse Exact
+2026,1,5,5,Buttermilk Puuump,De'Von Achane,False,RB,NFLverse Exact
+2026,1,6,6,ThreatLevelMidnight,Christian McCaffrey,False,RB,NFLverse Exact
+2026,1,7,7,The Big Gronkowski,CeeDee Lamb,False,WR,NFLverse Exact
+2026,1,8,8,Pop Lockett Drop it,Amon-Ra St. Brown,False,WR,NFLverse Exact
+2026,1,9,9,Voldemort,Saquon Barkley,False,RB,NFLverse Exact
+2026,1,10,10,Post Mahomes,Chase Brown,False,RB,NFLverse Exact
+2026,1,11,11,Uncle Rico,Jonathan Taylor,True,RB,NFLverse Exact
+2026,1,12,12,Ginger FC,Justin Jefferson,False,WR,NFLverse Exact
+2026,2,1,13,Ginger FC,Derrick Henry,False,RB,NFLverse Exact
+2026,2,2,14,Uncle Rico,Nico Collins,False,WR,NFLverse Exact
+2026,2,3,15,Post Mahomes,A.J. Brown,False,WR,NFLverse Exact
+2026,2,4,16,Voldemort,Jaxon Smith-Njigba,True,WR,NFLverse Exact
+2026,2,5,17,Pop Lockett Drop it,Kenneth Walker III,False,RB,NFLverse Exact
+2026,2,6,18,The Big Gronkowski,Malik Nabers,False,WR,NFLverse Exact
+2026,2,7,19,ThreatLevelMidnight,Kyren Williams,False,RB,NFLverse Exact
+2026,2,8,20,Buttermilk Puuump,Breece Hall,False,RB,NFLverse Exact
+2026,2,9,21,Malle ❤️ 🐸,Omarion Hampton,False,RB,NFLverse Exact
+2026,2,10,22,Joe Mantegna,Brock Bowers,False,TE,NFLverse Exact
+2026,2,11,23,Patty Primetimes,James Cook III,True,RB,NFLverse Exact
+2026,2,12,24,malle_dips_pouches,Ashton Jeanty,False,RB,NFLverse Exact
+2026,3,1,25,malle_dips_pouches,Drake London,False,WR,NFLverse Exact
+2026,3,2,26,Patty Primetimes,Josh Allen,False,QB,NFLverse Exact
+2026,3,3,27,Joe Mantegna,DeVonta Smith,False,WR,NFLverse Exact
+2026,3,4,28,Malle ❤️ 🐸,Jeremiyah Love,False,RB,NFLverse Exact
+2026,3,5,29,Buttermilk Puuump,George Pickens,True,WR,NFLverse Exact
+2026,3,6,30,ThreatLevelMidnight,Zay Flowers,False,WR,NFLverse Exact
+2026,3,7,31,The Big Gronkowski,Travis Etienne Jr.,False,RB,NFLverse Exact
+2026,3,8,32,Pop Lockett Drop it,Trey McBride,False,TE,NFLverse Exact
+2026,3,9,33,Voldemort,Bucky Irving,False,RB,NFLverse Exact
+2026,3,10,34,Post Mahomes,Tee Higgins,False,WR,NFLverse Exact
+2026,3,11,35,Uncle Rico,Colston Loveland,False,TE,NFLverse Exact
+2026,3,12,36,Ginger FC,David Montgomery,False,RB,NFLverse Exact
+2026,4,1,37,Ginger FC,Tetairoa McMillan,False,WR,NFLverse Exact
+2026,4,2,38,Uncle Rico,Lamar Jackson,False,QB,NFLverse Exact
+2026,4,3,39,Post Mahomes,Ladd McConkey,False,WR,NFLverse Exact
+2026,4,4,40,Voldemort,Jaylen Waddle,False,WR,NFLverse Exact
+2026,4,5,41,Pop Lockett Drop it,Emeka Egbuka,False,WR,NFLverse Exact
+2026,4,6,42,The Big Gronkowski,Bhayshul Tuten,False,RB,NFLverse Exact
+2026,4,7,43,ThreatLevelMidnight,Quinshon Judkins,False,RB,NFLverse Exact
+2026,4,8,44,Buttermilk Puuump,Luther Burden III,False,WR,NFLverse Exact
+2026,4,9,45,Malle ❤️ 🐸,D'Andre Swift,True,RB,NFLverse Exact
+2026,4,10,46,Joe Mantegna,Jadarian Price,False,RB,NFLverse Exact
+2026,4,11,47,Patty Primetimes,DJ Moore,False,WR,NFLverse Exact
+2026,4,12,48,malle_dips_pouches,Tucker Kraft,False,TE,NFLverse Exact
+2026,5,1,49,malle_dips_pouches,Garrett Wilson,False,WR,NFLverse Exact
+2026,5,2,50,Patty Primetimes,Jameson Williams,False,WR,NFLverse Exact
+2026,5,3,51,Joe Mantegna,Rhamondre Stevenson,False,RB,NFLverse Exact
+2026,5,4,52,Malle ❤️ 🐸,Davante Adams,False,WR,NFLverse Exact
+2026,5,5,53,Buttermilk Puuump,Terry McLaurin,False,WR,NFLverse Exact
+2026,5,6,54,ThreatLevelMidnight,Joe Burrow,False,QB,NFLverse Exact
+2026,5,7,55,The Big Gronkowski,DK Metcalf,False,WR,NFLverse Exact
+2026,5,8,56,Pop Lockett Drop it,Christian Watson,False,WR,NFLverse Exact
+2026,5,9,57,Voldemort,TreVeyon Henderson,False,RB,NFLverse Exact
+2026,5,10,58,Post Mahomes,Jaylen Warren,False,RB,NFLverse Exact
+2026,5,11,59,Uncle Rico,Rome Odunze,False,WR,NFLverse Exact
+2026,5,12,60,Ginger FC,Chris Olave,True,WR,NFLverse Exact
+2026,6,1,61,Ginger FC,Parker Washington,False,WR,NFLverse Exact
+2026,6,2,62,Uncle Rico,Jonathon Brooks,False,RB,NFLverse Exact
+2026,6,3,63,Post Mahomes,Harold Fannin Jr.,False,TE,NFLverse Exact
+2026,6,4,64,Voldemort,Jayden Daniels,False,QB,NFLverse Exact
+2026,6,5,65,Pop Lockett Drop it,MarShawn Lloyd,False,RB,NFLverse Exact
+2026,6,6,66,The Big Gronkowski,Tony Pollard,False,RB,NFLverse Exact
+2026,6,7,67,ThreatLevelMidnight,Rashee Rice,True,WR,NFLverse Exact
+2026,6,8,68,Buttermilk Puuump,Rico Dowdle,False,RB,NFLverse Exact
+2026,6,9,69,Malle ❤️ 🐸,Jalen Hurts,False,QB,NFLverse Exact
+2026,6,10,70,Joe Mantegna,Caleb Williams,False,QB,NFLverse Exact
+2026,6,11,71,Patty Primetimes,Carnell Tate,False,WR,NFLverse Exact
+2026,6,12,72,malle_dips_pouches,Jacory Croskey-Merritt,False,RB,NFLverse Exact
+2026,7,1,73,malle_dips_pouches,Brian Thomas Jr.,False,WR,NFLverse Exact
+2026,7,2,74,Patty Primetimes,George Kittle,False,TE,NFLverse Exact
+2026,7,3,75,Joe Mantegna,Mike Evans,False,WR,NFLverse Exact
+2026,7,4,76,Malle ❤️ 🐸,Travis Kelce,False,TE,NFLverse Exact
+2026,7,5,77,Buttermilk Puuump,Dak Prescott,False,QB,NFLverse Exact
+2026,7,6,78,ThreatLevelMidnight,Chuba Hubbard,False,RB,NFLverse Exact
+2026,7,7,79,The Big Gronkowski,Sam LaPorta,False,TE,NFLverse Exact
+2026,7,8,80,Pop Lockett Drop it,Javonte Williams,True,RB,NFLverse Exact
+2026,7,9,81,Voldemort,Kyle Pitts Sr.,False,TE,NFLverse Exact
+2026,7,10,82,Post Mahomes,Marvin Harrison Jr.,False,WR,NFLverse Exact
+2026,7,11,83,Uncle Rico,Chris Godwin Jr.,False,WR,NFLverse Exact
+2026,7,12,84,Ginger FC,Jordan Mason,False,RB,NFLverse Exact
+2026,8,1,85,Ginger FC,J.K. Dobbins,False,RB,NFLverse Exact
+2026,8,2,86,Uncle Rico,Blake Corum,False,RB,NFLverse Exact
+2026,8,3,87,Post Mahomes,RJ Harvey,False,RB,NFLverse Exact
+2026,8,4,88,Voldemort,Josh Jacobs,False,RB,NFLverse Exact
+2026,8,5,89,Pop Lockett Drop it,Justin Herbert,False,QB,NFLverse Exact
+2026,8,6,90,The Big Gronkowski,Drake Maye,True,QB,NFLverse Exact
+2026,8,7,91,ThreatLevelMidnight,Jayden Reed,False,WR,NFLverse Exact
+2026,8,8,92,Buttermilk Puuump,Mark Andrews,False,TE,NFLverse Exact
+2026,8,9,93,Malle ❤️ 🐸,Stefon Diggs,False,WR,NFLverse Exact
+2026,8,10,94,Joe Mantegna,Trevor Lawrence,False,QB,NFLverse Exact
+2026,8,11,95,Patty Primetimes,Courtland Sutton,False,WR,NFLverse Exact
+2026,8,12,96,malle_dips_pouches,Mike Washington Jr.,False,RB,NFLverse Exact
+2026,9,1,97,malle_dips_pouches,Michael Wilson,False,WR,NFLverse Exact
+2026,9,2,98,Patty Primetimes,Josh Downs,False,WR,NFLverse Exact
+2026,9,3,99,Joe Mantegna,Tyler Warren,True,TE,NFLverse Exact
+2026,9,4,100,Malle ❤️ 🐸,Quentin Johnston,False,WR,NFLverse Exact
+2026,9,5,101,Buttermilk Puuump,Alec Pierce,False,WR,NFLverse Exact
+2026,9,6,102,ThreatLevelMidnight,Jordan Addison,False,WR,NFLverse Exact
+2026,9,7,103,The Big Gronkowski,Aaron Jones Sr.,False,RB,NFLverse Exact
+2026,9,8,104,Pop Lockett Drop it,De'Zhaun Stribling,False,WR,NFLverse Exact
+2026,9,9,105,Voldemort,Michael Pittman Jr.,False,WR,NFLverse Exact
+2026,9,10,106,Post Mahomes,Cam Skattebo,True,RB,NFLverse Exact
+2026,9,11,107,Uncle Rico,KC Concepcion,False,WR,NFLverse Exact
+2026,9,12,108,Ginger FC,Bo Nix,False,QB,NFLverse Exact
+2026,10,1,109,Ginger FC,Dalton Kincaid,False,TE,NFLverse Exact
+2026,10,2,110,Uncle Rico,Kyle Monangai,False,RB,NFLverse Exact
+2026,10,3,111,Post Mahomes,Kenny Gainwell,False,RB,NFLverse Exact
+2026,10,4,112,Voldemort,Rachaad White,False,RB,NFLverse Exact
+2026,10,5,113,Pop Lockett Drop it,Woody Marks,False,RB,NFLverse Exact
+2026,10,6,114,The Big Gronkowski,Matthew Golden,False,WR,NFLverse Exact
+2026,10,7,115,ThreatLevelMidnight,Chris Rodriguez Jr.,False,RB,NFLverse Exact
+2026,10,8,116,Buttermilk Puuump,Jakobi Meyers,False,WR,NFLverse Exact
+2026,10,9,117,Malle ❤️ 🐸,Dallas Goedert,False,TE,NFLverse Exact
+2026,10,10,118,Joe Mantegna,Makai Lemon,False,WR,NFLverse Exact
+2026,10,11,119,Patty Primetimes,Tyler Allgeier,False,RB,NFLverse Exact
+2026,10,12,120,malle_dips_pouches,Jalen Coker,False,WR,NFLverse Exact
+2026,11,1,121,malle_dips_pouches,Jared Goff,False,QB,NFLverse Exact
+2026,11,2,122,Patty Primetimes,Isaiah Likely,False,TE,NFLverse Exact
+2026,11,3,123,Joe Mantegna,Keaton Mitchell,False,RB,NFLverse Exact
+2026,11,4,124,Malle ❤️ 🐸,Rashid Shaheed,False,WR,NFLverse Exact
+2026,11,5,125,Buttermilk Puuump,Hunter Henry,False,TE,NFLverse Exact
+2026,11,6,126,ThreatLevelMidnight,Zach Charbonnet,False,RB,NFLverse Exact
+2026,11,7,127,The Big Gronkowski,Xavier Worthy,False,WR,NFLverse Exact
+2026,11,8,128,Pop Lockett Drop it,Romeo Doubs,False,WR,NFLverse Exact
+2026,11,9,129,Voldemort,Brock Purdy,False,QB,NFLverse Exact
+2026,11,10,130,Post Mahomes,Patrick Mahomes,False,QB,NFLverse Exact
+2026,11,11,131,Uncle Rico,Wan'Dale Robinson,False,WR,NFLverse Exact
+2026,11,12,132,Ginger FC,Tyjae Spears,False,RB,NFLverse Exact
+2026,12,1,133,Ginger FC,Denzel Boston,False,WR,NFLverse Exact
+2026,12,2,134,Uncle Rico,Matthew Stafford,False,QB,NFLverse Exact
+2026,12,3,135,Post Mahomes,Texans,False,DEF,Defense
+2026,12,4,136,Voldemort,Juwan Johnson,False,TE,NFLverse Exact
+2026,12,5,137,Pop Lockett Drop it,Khalil Shakir,False,WR,NFLverse Exact
+2026,12,6,138,The Big Gronkowski,Tank Bigsby,False,RB,NFLverse Exact
+2026,12,7,139,ThreatLevelMidnight,Jake Ferguson,False,TE,NFLverse Exact
+2026,12,8,140,Buttermilk Puuump,Harrison Mevis,False,K,NFLverse Exact
+2026,12,9,141,Malle ❤️ 🐸,Jaxson Dart,False,QB,NFLverse Exact
+2026,12,10,142,Joe Mantegna,Dalton Schultz,False,TE,NFLverse Exact
+2026,12,11,143,Patty Primetimes,Rams,False,DEF,Defense
+2026,12,12,144,malle_dips_pouches,Seahawks,False,DEF,Defense
+2026,13,1,145,malle_dips_pouches,Brandon Aubrey,False,K,NFLverse Exact
+2026,13,2,146,Patty Primetimes,Emmett Johnson,False,RB,NFLverse Exact
+2026,13,3,147,Joe Mantegna,Kyler Murray,False,QB,NFLverse Exact
+2026,13,4,148,Malle ❤️ 🐸,Jonah Coleman,False,RB,NFLverse Exact
+2026,13,5,149,Buttermilk Puuump,Broncos,False,DEF,Defense
+2026,13,6,150,ThreatLevelMidnight,Ka'imi Fairbairn,False,K,NFLverse Exact
+2026,13,7,151,The Big Gronkowski,Jordan Love,False,QB,NFLverse Exact
+2026,13,8,152,Pop Lockett Drop it,Kayshon Boutte,False,WR,NFLverse Exact
+2026,13,9,153,Voldemort,Jordyn Tyson,False,WR,NFLverse Exact
+2026,13,10,154,Post Mahomes,Dylan Sampson,False,RB,NFLverse Exact
+2026,13,11,155,Uncle Rico,Terrance Ferguson,False,TE,NFLverse Exact
+2026,13,12,156,Ginger FC,Jalen McMillan,False,WR,NFLverse Exact
+2026,14,1,157,Ginger FC,Jaguars,False,DEF,Defense
+2026,14,2,158,Uncle Rico,Cameron Dicker,False,K,NFLverse Exact
+2026,14,3,159,Post Mahomes,Cam Little,False,K,NFLverse Exact
+2026,14,4,160,Voldemort,Eagles,False,DEF,Defense
+2026,14,5,161,Pop Lockett Drop it,Jason Myers,False,K,NFLverse Exact
+2026,14,6,162,The Big Gronkowski,Ravens,False,DEF,Defense
+2026,14,7,163,ThreatLevelMidnight,Chargers,False,DEF,Defense
+2026,14,8,164,Buttermilk Puuump,Deebo Samuel Sr.,False,WR,NFLverse Exact
+2026,14,9,165,Malle ❤️ 🐸,Vikings,False,DEF,Defense
+2026,14,10,166,Joe Mantegna,Patriots,False,DEF,Defense
+2026,14,11,167,Patty Primetimes,Evan McPherson,False,K,NFLverse Exact
+2026,14,12,168,malle_dips_pouches,Caleb Douglas,False,WR,NFLverse Exact
+2026,15,1,169,malle_dips_pouches,Brenton Strange,False,TE,NFLverse Exact
+2026,15,2,170,Patty Primetimes,Baker Mayfield,False,QB,NFLverse Exact
+2026,15,3,171,Joe Mantegna,Tyler Loop,False,K,NFLverse Exact
+2026,15,4,172,Malle ❤️ 🐸,Will Reichard,False,K,NFLverse Exact
+2026,15,5,173,Buttermilk Puuump,Malik Willis,False,QB,NFLverse Exact
+2026,15,6,174,ThreatLevelMidnight,Ray Davis,False,RB,NFLverse Exact
+2026,15,7,175,The Big Gronkowski,Harrison Butker,False,K,NFLverse Exact
+2026,15,8,176,Pop Lockett Drop it,Lions,False,DEF,Defense
+2026,15,9,177,Voldemort,Cairo Santos,False,K,NFLverse Exact
+2026,15,10,178,Post Mahomes,Cyrus Allen,False,WR,NFLverse Exact
+2026,15,11,179,Uncle Rico,Steelers,False,DEF,Defense
+2026,15,12,180,Ginger FC,Jake Bates,False,K,NFLverse Exact

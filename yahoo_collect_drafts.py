@@ -1,4 +1,5 @@
 from pathlib import Path
+import argparse
 import json
 import re
 
@@ -369,6 +370,56 @@ def save_season(
 
 
 # ============================================================
+# COMMAND-LINE ARGUMENTS
+# ============================================================
+
+parser = argparse.ArgumentParser(
+    description=(
+        "Collect Yahoo draft results. By default, collects every "
+        "configured historical season. Use --year to collect only "
+        "one season without rebuilding the others."
+    )
+)
+
+parser.add_argument(
+    "--year",
+    type=int,
+    help="Collect only this draft season, for example --year 2026.",
+)
+
+parser.add_argument(
+    "--league-id",
+    type=str,
+    help=(
+        "Yahoo league ID for --year when that season is not already "
+        "listed in LEAGUE_IDS."
+    ),
+)
+
+args = parser.parse_args()
+
+if args.year is None:
+    seasons_to_collect = list(LEAGUE_IDS.items())
+    single_year_mode = False
+else:
+    single_year_mode = True
+
+    if args.year in LEAGUE_IDS:
+        league_id = LEAGUE_IDS[args.year]
+    elif args.league_id:
+        league_id = args.league_id.strip()
+    else:
+        league_id = None
+
+    seasons_to_collect = [
+        (
+            args.year,
+            league_id,
+        )
+    ]
+
+
+# ============================================================
 # MAIN
 # ============================================================
 
@@ -430,15 +481,21 @@ with sync_playwright() as p:
     # ========================================================
 
     for year, league_id in (
-        LEAGUE_IDS.items()
+        seasons_to_collect
     ):
 
-        expected_url = (
-            "https://football."
-            "fantasysports.yahoo.com/"
-            f"{year}/f1/"
-            f"{league_id}/draftresults"
-        )
+        if league_id:
+
+            expected_url = (
+                "https://football."
+                "fantasysports.yahoo.com/"
+                f"{year}/f1/"
+                f"{league_id}/draftresults"
+            )
+
+        else:
+
+            expected_url = None
 
 
         print()
@@ -449,14 +506,35 @@ with sync_playwright() as p:
         print("=" * 80)
 
         print()
-        print(
-            "Paste this into Chromium:"
-        )
 
-        print()
-        print(
-            expected_url
-        )
+        if expected_url:
+
+            print(
+                "Paste this into Chromium:"
+            )
+
+            print()
+            print(
+                expected_url
+            )
+
+        else:
+
+            print(
+                f"No league ID is configured for {year}."
+            )
+
+            print()
+            print(
+                "Open the completed Yahoo Draft Results page "
+                "for this league in Chromium."
+            )
+
+            print()
+            print(
+                "Tip: next time you can supply the league ID with "
+                f"`--year {year} --league-id YOUR_LEAGUE_ID`."
+            )
 
         print()
         print(
@@ -682,9 +760,62 @@ with sync_playwright() as p:
     # SAVE MASTER DATASET
     # ========================================================
 
-    master = pd.DataFrame(
+    collected = pd.DataFrame(
         all_drafts
     )
+
+
+    master_csv = (
+        OUTPUT_DIR
+        / "all_drafts.csv"
+    )
+
+    master_json = (
+        OUTPUT_DIR
+        / "all_drafts.json"
+    )
+
+
+    if single_year_mode:
+
+        if collected.empty:
+
+            raise RuntimeError(
+                f"No {args.year} draft picks were collected. "
+                "Existing master draft data was left unchanged."
+            )
+
+        if master_csv.exists():
+
+            existing_master = pd.read_csv(
+                master_csv
+            )
+
+            existing_years = pd.to_numeric(
+                existing_master["year"],
+                errors="coerce",
+            )
+
+            preserved = existing_master[
+                existing_years
+                != args.year
+            ].copy()
+
+            master = pd.concat(
+                [
+                    preserved,
+                    collected,
+                ],
+                ignore_index=True,
+            )
+
+        else:
+
+            master = collected.copy()
+
+    else:
+
+        master = collected.copy()
 
 
     master = (
@@ -698,17 +829,6 @@ with sync_playwright() as p:
         .reset_index(
             drop=True
         )
-    )
-
-
-    master_csv = (
-        OUTPUT_DIR
-        / "all_drafts.csv"
-    )
-
-    master_json = (
-        OUTPUT_DIR
-        / "all_drafts.json"
     )
 
 
@@ -746,6 +866,16 @@ with sync_playwright() as p:
 
 
     print()
+
+    if single_year_mode:
+
+        print(
+            f"{args.year} collection complete. "
+            "All other seasons in the existing master were preserved."
+        )
+
+        print()
+
     print(
         f"Total picks saved: "
         f"{len(master)}"

@@ -3,13 +3,15 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+from season_config import detect_latest_completed_week, filter_weekly_current_matchups, print_season_config
+
 
 # ============================================================
 # PATHS
 # ============================================================
 
 SOURCE_FILE = Path(
-    "data/all_matchups_clean_2017_2025.csv"
+    "data/all_matchups_clean.csv"
 )
 
 OUT_DIR = Path("data/analysis")
@@ -77,6 +79,9 @@ if not SOURCE_FILE.exists():
     raise FileNotFoundError(SOURCE_FILE)
 
 games = pd.read_csv(SOURCE_FILE)
+weekly_state = detect_latest_completed_week(games)
+games = filter_weekly_current_matchups(games, weekly_state=weekly_state)
+print_season_config(weekly_state)
 
 print(f"\nSource games: {len(games):,}")
 

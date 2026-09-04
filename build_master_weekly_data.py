@@ -1,8 +1,10 @@
 from pathlib import Path
 import pandas as pd
 
-START_YEAR = 2018
-END_YEAR = 2025
+from season_config import CURRENT_SEASON, LAST_COMPLETED_SEASON, REGULAR_SEASON_END_WEEK, print_season_config
+
+START_YEAR = 2017
+END_YEAR = CURRENT_SEASON
 
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data" / "matchups" / "player_week_stats"
@@ -12,14 +14,8 @@ MATCHUPS_OUT = DATA_DIR / f"all_matchups_{START_YEAR}_{END_YEAR}.csv"
 
 # Regular-season weeks used by the validated historical files.
 REGULAR_SEASON_WEEKS = {
-    2018: 13,
-    2019: 13,
-    2020: 13,
-    2021: 14,
-    2022: 14,
-    2023: 14,
-    2024: 14,
-    2025: 14,
+    year: REGULAR_SEASON_END_WEEK[year]
+    for year in range(START_YEAR, LAST_COMPLETED_SEASON + 1)
 }
 
 TEAMS = 12
@@ -45,7 +41,9 @@ def truthy(series):
 
 
 def main():
+    global REGULAR_SEASON_WEEKS
     banner("BUILDING MASTER WEEKLY LINEUP + MATCHUP DATASETS")
+    print_season_config()
     print(f"Seasons: {START_YEAR}-{END_YEAR}")
     print(f"Folder:  {DATA_DIR}")
 
@@ -54,90 +52,85 @@ def main():
 
     banner("1. LOADING VALIDATED SEASON FILES")
 
+    included_weeks = dict(REGULAR_SEASON_WEEKS)
+
     for year in range(START_YEAR, END_YEAR + 1):
         lineup_file = DATA_DIR / f"{year}_weekly_lineups.csv"
         matchup_file = DATA_DIR / f"{year}_matchups.csv"
 
-        if not lineup_file.exists():
-            fail(f"Missing lineup file: {lineup_file}")
-
-        if not matchup_file.exists():
-            fail(f"Missing matchup file: {matchup_file}")
+        if not lineup_file.exists() or not matchup_file.exists():
+            if year <= LAST_COMPLETED_SEASON:
+                fail(f"Missing validated season files for completed season {year}.")
+            print(f"{year}: current-season player-week files not available yet; skipping.")
+            continue
 
         lineups = pd.read_csv(lineup_file)
         matchups = pd.read_csv(matchup_file)
+        if lineups.empty or matchups.empty:
+            if year <= LAST_COMPLETED_SEASON:
+                fail(f"{year} validated season file is empty.")
+            print(f"{year}: current-season player-week files are empty; skipping.")
+            continue
 
-        if lineups.empty:
-            fail(f"{year} lineup file is empty.")
-
-        if matchups.empty:
-            fail(f"{year} matchup file is empty.")
-
-        # Keep only validated regular-season weeks for this season.
-        # Older master files may still physically contain playoff weeks
-        # (for example, 2020 Week 14), but those should not enter the
-        # combined regular-season dataset.
-        final_week = REGULAR_SEASON_WEEKS[year]
-
-        lineups["week"] = pd.to_numeric(
-            lineups["week"],
-            errors="raise",
-        ).astype(int)
-
-        matchups["week"] = pd.to_numeric(
-            matchups["week"],
-            errors="raise",
-        ).astype(int)
-
-        lineups = lineups[
-            lineups["week"].between(
-                1,
-                final_week,
-            )
-        ].copy()
-
-        matchups = matchups[
-            matchups["week"].between(
-                1,
-                final_week,
-            )
-        ].copy()
-
+        lineups["week"] = pd.to_numeric(lineups["week"], errors="raise").astype(int)
+        matchups["week"] = pd.to_numeric(matchups["week"], errors="raise").astype(int)
         if "year" not in lineups.columns:
             lineups["year"] = year
-
         if "year" not in matchups.columns:
             matchups["year"] = year
-
-        lineups["year"] = pd.to_numeric(
-            lineups["year"], errors="raise"
-        ).astype(int)
-
-        matchups["year"] = pd.to_numeric(
-            matchups["year"], errors="raise"
-        ).astype(int)
-
+        lineups["year"] = pd.to_numeric(lineups["year"], errors="raise").astype(int)
+        matchups["year"] = pd.to_numeric(matchups["year"], errors="raise").astype(int)
         if set(lineups["year"].unique()) != {year}:
-            fail(
-                f"{year} lineup file contains unexpected year values: "
-                f"{sorted(lineups['year'].unique())}"
-            )
-
+            fail(f"{year} lineup file contains unexpected year values: {sorted(lineups['year'].unique())}")
         if set(matchups["year"].unique()) != {year}:
-            fail(
-                f"{year} matchup file contains unexpected year values: "
-                f"{sorted(matchups['year'].unique())}"
-            )
+            fail(f"{year} matchup file contains unexpected year values: {sorted(matchups['year'].unique())}")
 
+        if year <= LAST_COMPLETED_SEASON:
+            final_week = REGULAR_SEASON_WEEKS[year]
+        else:
+            # Player-week analytics use their own validated horizon. A current
+            # week is eligible only when the collector produced 6 matchups,
+            # 12 teams, and exactly 9 starters for every team.
+            complete = []
+            for week in range(1, REGULAR_SEASON_END_WEEK[year] + 1):
+                mw = matchups[matchups["week"] == week]
+                lw = lineups[lineups["week"] == week]
+                if len(mw) != MATCHUPS_PER_WEEK or lw.empty:
+                    continue
+                if "fantasy_team" not in lw.columns or lw["fantasy_team"].nunique() != TEAMS:
+                    continue
+                if "is_starter" not in lw.columns:
+                    continue
+                sc = (
+                    lw[truthy(lw["is_starter"])]
+                    .groupby("fantasy_team")
+                    .size()
+                )
+                if len(sc) == TEAMS and (sc == STARTERS_PER_TEAM).all():
+                    complete.append(week)
+            final_week = 0
+            for week in range(1, max(complete, default=0) + 1):
+                if week not in complete:
+                    break
+                final_week = week
+            if final_week == 0:
+                print(f"{year}: no validated player-week is complete yet; skipping.")
+                continue
+            included_weeks[year] = final_week
+
+        lineups = lineups[lineups["week"].between(1, final_week)].copy()
+        matchups = matchups[matchups["week"].between(1, final_week)].copy()
         lineup_frames.append(lineups)
         matchup_frames.append(matchups)
-
         print(
-            f"{year}: "
-            f"{len(lineups):,} regular-season lineup rows · "
-            f"{len(matchups):,} regular-season matchups "
-            f"(Weeks 1-{final_week})"
+            f"{year}: {len(lineups):,} lineup rows · {len(matchups):,} matchups "
+            f"(validated Weeks 1-{final_week})"
         )
+
+    if not lineup_frames or not matchup_frames:
+        fail("No validated weekly player data found.")
+
+    REGULAR_SEASON_WEEKS = included_weeks
 
     all_lineups = pd.concat(
         lineup_frames,
@@ -419,8 +412,17 @@ def main():
     all_lineups.to_csv(LINEUPS_OUT, index=False)
     all_matchups.to_csv(MATCHUPS_OUT, index=False)
 
+    # Stable canonical aliases let downstream builders stop depending on a
+    # year embedded in the filename during the Layer-2 migration.
+    canonical_lineups = DATA_DIR / "all_weekly_lineups.csv"
+    canonical_matchups = DATA_DIR / "all_matchups.csv"
+    all_lineups.to_csv(canonical_lineups, index=False)
+    all_matchups.to_csv(canonical_matchups, index=False)
+
     print(LINEUPS_OUT)
     print(MATCHUPS_OUT)
+    print(canonical_lineups)
+    print(canonical_matchups)
 
     banner("MASTER DATASET BUILD COMPLETE")
     print(f"Seasons:       {START_YEAR}-{END_YEAR}")

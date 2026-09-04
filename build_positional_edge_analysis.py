@@ -5,7 +5,7 @@ import numpy as np
 
 LINEUPS = Path(
     "data/matchups/player_week_stats/"
-    "all_weekly_lineups_2017_2025.csv"
+    "all_weekly_lineups.csv"
 )
 
 NFL_MAP = Path(

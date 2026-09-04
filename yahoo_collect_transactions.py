@@ -7,6 +7,7 @@ import pandas as pd
 from playwright.sync_api import sync_playwright
 
 from team_aliases import canonical_team
+from season_config import CURRENT_SEASON, YAHOO_LEAGUE_IDS
 
 
 PROFILE_DIR = Path("yahoo_browser_profile")
@@ -19,14 +20,11 @@ OUTPUT_DIR.mkdir(
 
 
 LEAGUE_IDS = {
-    2019: "322794",
-    2020: "510142",
-    2021: "410355",
-    2022: "854563",
-    2023: "684195",
-    2024: "673480",
-    2025: "637567",
+    year: league_id
+    for year, league_id in YAHOO_LEAGUE_IDS.items()
+    if 2019 <= year <= CURRENT_SEASON
 }
+
 
 
 # ============================================================

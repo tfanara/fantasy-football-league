@@ -1,5 +1,14 @@
 from pathlib import Path
+import re
+import unicodedata
+
+import numpy as np
 import pandas as pd
+
+from season_config import (
+    LAST_COMPLETED_DRAFT_SEASON,
+    print_season_config,
+)
 
 
 # ============================================================
@@ -13,6 +22,13 @@ DRAFT_FILE = (
     / "data"
     / "drafts"
     / "all_drafts.csv"
+)
+
+NFL_PLAYER_FILE = (
+    BASE_DIR
+    / "data"
+    / "nfl"
+    / "player_week_teams.csv"
 )
 
 OUTPUT_DIR = (
@@ -54,6 +70,30 @@ SLOT_NAMES = {
 
 
 # ============================================================
+# PLAYER NAME NORMALIZATION
+# ============================================================
+
+def norm_name(value):
+    if pd.isna(value):
+        return ""
+
+    s = unicodedata.normalize("NFKD", str(value).strip())
+    s = "".join(
+        c for c in s
+        if not unicodedata.combining(c)
+    )
+    s = s.lower()
+    s = s.replace("’", "'")
+    s = s.replace(".", "")
+    s = s.replace("'", "")
+    s = s.replace("-", " ")
+    s = re.sub(r"\bdef\b$", "", s)
+    s = re.sub(r"\b(jr|sr|ii|iii|iv|v)\b", "", s)
+    s = re.sub(r"[^a-z0-9]+", " ", s)
+    return re.sub(r"\s+", " ", s).strip()
+
+
+# ============================================================
 # LOAD DRAFT DATA
 # ============================================================
 
@@ -66,9 +106,23 @@ drafts = pd.read_csv(
     DRAFT_FILE
 )
 
+print_season_config()
+
 print()
 print(
     f"Loaded {len(drafts)} draft selections."
+)
+
+drafts = drafts[
+    pd.to_numeric(
+        drafts["year"],
+        errors="coerce",
+    ) <= LAST_COMPLETED_DRAFT_SEASON
+].copy()
+
+print(
+    f"Using {len(drafts)} selections through "
+    f"{LAST_COMPLETED_DRAFT_SEASON} for draft-strategy analysis."
 )
 
 
@@ -80,7 +134,6 @@ required_columns = {
     "year",
     "team",
     "player",
-    "position",
     "round",
     "pick_in_round",
     "overall_pick",
@@ -120,6 +173,11 @@ for column in [
     )
 
 
+# Position is optional in the draft master. Prefer it when present,
+# then enrich unresolved players from the NFL player-week position file.
+if "position" not in drafts.columns:
+    drafts["position"] = ""
+
 drafts["position"] = (
     drafts["position"]
     .fillna("")
@@ -127,6 +185,86 @@ drafts["position"] = (
     .str.strip()
     .str.upper()
 )
+
+drafts["name_key"] = drafts["player"].map(norm_name)
+
+if NFL_PLAYER_FILE.exists():
+    nfl = pd.read_csv(NFL_PLAYER_FILE)
+
+    required_nfl_columns = {
+        "year",
+        "player",
+        "nfl_position",
+    }
+    missing_nfl = required_nfl_columns - set(nfl.columns)
+
+    if missing_nfl:
+        raise RuntimeError(
+            "Missing required columns from player_week_teams.csv: "
+            + ", ".join(sorted(missing_nfl))
+        )
+
+    nfl["year"] = pd.to_numeric(
+        nfl["year"],
+        errors="coerce",
+    )
+    nfl["name_key"] = nfl["player"].map(norm_name)
+    nfl["nfl_position"] = (
+        nfl["nfl_position"]
+        .fillna("")
+        .astype(str)
+        .str.strip()
+        .str.upper()
+    )
+
+    position_lookup = (
+        nfl[
+            nfl["nfl_position"].isin(
+                set(POSITION_SLOTS.keys())
+            )
+        ]
+        .groupby(
+            ["year", "name_key"]
+        )["nfl_position"]
+        .agg(
+            lambda s:
+                s.mode().iloc[0]
+                if not s.mode().empty
+                else ""
+        )
+        .reset_index()
+    )
+
+    drafts = drafts.merge(
+        position_lookup,
+        on=["year", "name_key"],
+        how="left",
+    )
+
+    unresolved_mask = ~drafts["position"].isin(
+        set(POSITION_SLOTS.keys())
+    )
+
+    drafts.loc[
+        unresolved_mask,
+        "position",
+    ] = (
+        drafts.loc[
+            unresolved_mask,
+            "nfl_position",
+        ]
+        .fillna("")
+    )
+
+    drafts = drafts.drop(
+        columns=["nfl_position"]
+    )
+else:
+    print()
+    print(
+        "WARNING: NFL player-position file not found: "
+        f"{NFL_PLAYER_FILE}"
+    )
 
 
 drafts["team"] = (
@@ -177,6 +315,45 @@ if unknown_positions:
         print(
             f"  {position}"
         )
+
+
+unresolved = drafts[
+    ~drafts["position"].isin(
+        expected_positions
+    )
+].copy()
+
+if not unresolved.empty:
+    print()
+    print("=" * 80)
+    print("UNRESOLVED DRAFT POSITIONS")
+    print("=" * 80)
+    print(
+        unresolved[
+            [
+                "year",
+                "overall_pick",
+                "team",
+                "player",
+                "position",
+            ]
+        ]
+        .sort_values(
+            ["year", "overall_pick"]
+        )
+        .to_string(index=False)
+    )
+
+    raise RuntimeError(
+        f"{len(unresolved)} draft selections have unresolved "
+        "positions. Strategy output was not written."
+    )
+
+print()
+print(
+    f"PASS — positions resolved for all {len(drafts):,} "
+    "draft selections used in strategy analysis."
+)
 
 
 # ============================================================

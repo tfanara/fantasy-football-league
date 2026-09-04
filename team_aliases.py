@@ -32,6 +32,14 @@ TEAM_ALIASES = {
     "You Better Park It": "Buttermilk Puuump",
     "Buttermilk Pump": "Buttermilk Puuump",
 
+
+    # ---------------------------------------------------------
+    # GINGER FC FRANCHISE
+    # ---------------------------------------------------------
+
+    # Yahoo display variant with championship trophies
+    "Ginger FC 🏆🏆": "Ginger FC",
+
 }
 
 

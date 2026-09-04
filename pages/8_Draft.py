@@ -115,7 +115,7 @@ if draft_page_style == "Sports Dashboard":
             <div class="draft-eyebrow">Malle's League · Draft Center</div>
             <div class="draft-title">📝 Draft History</div>
             <p class="draft-subtitle">
-                Historical drafts, 2026 order, keeper costs, franchise history,
+                Completed drafts through 2026, keeper costs, franchise history,
                 and player draft history.
             </p>
         </div>
@@ -187,7 +187,7 @@ elif draft_page_style == "Clean Minimal":
 
     st.title("Draft History")
     st.caption(
-        "2018–2025 completed drafts · official 2026 order · keeper submissions · "
+        "2018–2026 completed drafts · keeper history · "
         "franchise history · player history"
     )
 
@@ -294,7 +294,7 @@ else:
 
     st.title("📝 Draft History")
     st.caption(
-        "Every pick from every completed draft, plus the official 2026 draft order."
+        "Every pick from every completed draft through 2026."
     )
 
 
@@ -398,16 +398,22 @@ DRAFT_ORDER_2026 = [
 
 KEEPERS_2026 = {
     "Patty Primetimes": {
-        "player": "Colston Loveland",
-        "round": 10,
+        "player": "James Cook III",
+        "round": 2,
         "status": "🟢 1st-Year Keeper",
-        "acquisition": "Drafted — Round 11",
+        "acquisition": "Drafted — Round 3",
     },
     "Joe Mantegna": {
         "player": "Tyler Warren",
         "round": 9,
         "status": "🟢 1st-Year Keeper",
         "acquisition": "Drafted — Round 10",
+    },
+    "Malle ❤️ 🐸": {
+        "player": "D'Andre Swift",
+        "round": 4,
+        "status": "🟢 1st-Year Keeper",
+        "acquisition": "Drafted — Round 5",
     },
     "ThreatLevelMidnight": {
         "player": "Rashee Rice",
@@ -605,7 +611,7 @@ players = sorted(
 
 if draft_page_style == "Mobile First":
     st.info(
-        "The 2026 draft order and submitted keepers are shown immediately below "
+        "The completed 2026 draft and keeper recap are shown immediately below "
         "the league summary. Tables use the tightest row spacing in this mode."
     )
 
@@ -655,11 +661,11 @@ if draft_page_style == "Sports Dashboard":
 
 st.divider()
 
-st.header("2026 Draft Order" if draft_page_style == "Clean Minimal" else "🏈 2026 Draft Order")
+st.header("2026 Draft Recap" if draft_page_style == "Clean Minimal" else "🏈 2026 Draft Recap")
 
 st.caption(
-    "The official 2026 first-round draft order, including keeper selections "
-    "that have already been submitted. The 2026 draft itself has not taken place yet."
+    "The completed 2026 first-round draft order and keeper selections. "
+    "The full 2026 draft is available in Draft by Season below."
 )
 
 compact_dataframe(
@@ -1402,38 +1408,11 @@ position_history = (
 )
 
 
-# Add the official 2026 order to draft-position history without
-# adding fake draft picks to all_drafts.csv.
-position_history_2026 = (
-    draft_order_2026
-    .rename(
-        columns={
-            "Draft Position": "pick_in_round",
-            "Franchise": "team",
-        }
-    )
-    .assign(year=2026)
-    [
-        [
-            "year",
-            "pick_in_round",
-            "team",
-        ]
-    ]
-)
-
-
-position_history_with_2026 = pd.concat(
-    [
-        position_history,
-        position_history_2026,
-    ],
-    ignore_index=True,
-)
-
-
+# The master draft dataset now contains the completed 2026 draft,
+# so Draft Position History uses the actual first-round results
+# directly without manually injecting a future draft order.
 position_pivot = (
-    position_history_with_2026
+    position_history
     .pivot(
         index="team",
         columns="year",
@@ -1442,9 +1421,8 @@ position_pivot = (
 )
 
 
-# Add average draft position across all known draft orders,
-# including the posted 2026 order. Pandas ignores seasons in
-# which a franchise did not participate.
+# Add average draft position across all completed drafts.
+# Pandas ignores seasons in which a franchise did not participate.
 position_pivot["Average"] = (
     position_pivot
     .mean(
@@ -1482,9 +1460,8 @@ compact_dataframe(
 
 st.caption(
     "Average is each franchise's mean first-round draft "
-    "position across the seasons in which that franchise "
-    "participated, including the posted 2026 order. "
-    "Lower numbers mean an earlier average draft position."
+    "position across completed drafts in which that franchise "
+    "participated. Lower numbers mean an earlier average draft position."
 )
 
 # ============================================================
@@ -1494,9 +1471,7 @@ st.caption(
 st.divider()
 
 st.caption(
-    "Completed draft history covers 2018–2025. The official "
-    "2026 draft order is included in Draft Position History without "
-    "being treated as a completed draft. Historical team-name changes "
-    "are grouped by franchise. Draft-performance and strategy analysis "
-    "now lives on the Analysis page."
+    "Completed draft history covers 2017–2026. Historical team-name "
+    "changes are grouped by franchise. Draft-performance and strategy "
+    "analysis now lives on the Analysis page."
 )

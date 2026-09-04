@@ -4,6 +4,8 @@ from pathlib import Path
 
 import pandas as pd
 
+from season_config import CURRENT_SEASON
+
 
 # =============================================================================
 # SETTINGS
@@ -20,9 +22,9 @@ while True:
     except ValueError:
         print("Enter a four-digit season such as 2024.")
         continue
-    if 2017 <= YEAR <= 2025:
+    if 2017 <= YEAR <= CURRENT_SEASON:
         break
-    print("Enter a season from 2017 through 2025.")
+    print(f"Enter a season from 2017 through {CURRENT_SEASON}.")
 
 REGULAR_SEASON_END = {
     2018: 13,
@@ -33,6 +35,7 @@ REGULAR_SEASON_END = {
     2023: 14,
     2024: 14,
     2025: 14,
+    2026: 14,
 }
 
 EXPECTED_WEEKS = list(
@@ -173,7 +176,52 @@ def main():
     print(f"Lineups:  {LINEUPS_FILE}")
     print(f"Matchups: {MATCHUPS_FILE}")
 
+    # Preseason/current-season zero-week state:
+    # Before the first weekly lineup collection, neither raw current-season
+    # file exists yet. That is valid: there are simply no player weeks to
+    # validate. Historical seasons remain strict, and a one-file-only state
+    # remains an error because it indicates an incomplete collection.
+    lineups_exists = LINEUPS_FILE.exists()
+    matchups_exists = MATCHUPS_FILE.exists()
+
+    if YEAR == CURRENT_SEASON and not lineups_exists and not matchups_exists:
+        banner("CURRENT-SEASON VALIDATION HORIZON")
+        result(
+            PASS,
+            f"{CURRENT_SEASON} has no weekly lineup data to validate yet",
+            "0 completed player weeks",
+        )
+        print()
+        print(
+            "This is a valid preseason / pre-collection state. "
+            "Run this validator again after the first weekly lineup collection."
+        )
+        banner("FINAL VALIDATION RESULT")
+        print("Failures: 0")
+        print("Warnings: 0")
+        print()
+        print(
+            f"VALIDATION PASSED: {CURRENT_SEASON} currently has 0 completed player weeks."
+        )
+        return
+
     lineups, matchups = load_data()
+
+    global EXPECTED_WEEKS
+    if YEAR == CURRENT_SEASON:
+        observed = sorted(
+            int(w) for w in pd.to_numeric(matchups["week"], errors="coerce").dropna().unique()
+            if int(w) >= 1
+        )
+        latest = 0
+        for expected in range(1, max(observed, default=0) + 1):
+            if expected not in observed:
+                break
+            latest = expected
+        EXPECTED_WEEKS = list(range(1, latest + 1))
+        if not EXPECTED_WEEKS:
+            raise RuntimeError(f"No contiguous {CURRENT_SEASON} matchup weeks are available to validate.")
+        print(f"Current-season validation horizon: Weeks 1-{latest}")
 
     # Keep only the configured regular-season weeks for this season.
     # This prevents playoff/consolation weeks from contaminating validation.

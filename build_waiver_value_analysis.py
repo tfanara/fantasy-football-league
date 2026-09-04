@@ -6,6 +6,12 @@ import nflreadpy as nfl
 import pandas as pd
 import numpy as np
 
+from season_config import (
+    CURRENT_SEASON,
+    LAST_COMPLETED_SEASON,
+    print_season_config,
+)
+
 
 # ============================================================
 # CONFIG
@@ -13,9 +19,15 @@ import numpy as np
 
 TX_FILE = Path("data/transactions/all_transactions.csv")
 
+START_YEAR = 2017
+WAIVER_DATA_MISSING_YEARS = {2018}
+
 LINEUP_FILE = Path(
-    "data/matchups/player_week_stats/"
-    "all_weekly_lineups_2017_2025.csv"
+    "data/matchups/player_week_stats/all_weekly_lineups.csv"
+)
+
+MATCHUP_FILE = Path(
+    "data/matchups/player_week_stats/all_matchups.csv"
 )
 
 PLAYER_TEAM_FILE = Path(
@@ -29,26 +41,30 @@ STINT_FILE = OUT_DIR / "waiver_stints.csv"
 STINT_WEEK_FILE = OUT_DIR / "waiver_stint_weeks.csv"
 AUDIT_FILE = OUT_DIR / "waiver_stint_audit.csv"
 
-YEARS = [
-    2017,
-    2019,
-    2020,
-    2021,
-    2022,
-    2023,
-    2024,
-    2025,
+HISTORICAL_YEARS = [
+    year
+    for year in range(
+        START_YEAR,
+        LAST_COMPLETED_SEASON + 1,
+    )
+    if year not in WAIVER_DATA_MISSING_YEARS
 ]
 
+# YEARS and the current-season analysis horizon are finalized after the
+# canonical player-week matchup master is loaded below.
+YEARS = list(HISTORICAL_YEARS)
+CURRENT_PLAYER_WEEK = 0
+
 REGULAR_SEASON_END = {
-    2017: 13,
-    2019: 13,
-    2020: 13,
-    2021: 14,
-    2022: 14,
-    2023: 14,
-    2024: 14,
-    2025: 14,
+    year: (
+        13
+        if year <= 2020
+        else 14
+    )
+    for year in range(
+        START_YEAR,
+        CURRENT_SEASON + 1,
+    )
 }
 
 TEAM_ALIASES = {
@@ -141,10 +157,112 @@ def parse_transaction_datetime(row):
 print("=" * 90)
 print("WAIVER VALUE — TRANSACTION-AUTHORITATIVE BUILDER")
 print("=" * 90)
+print_season_config()
 
 tx = pd.read_csv(TX_FILE)
 lu = pd.read_csv(LINEUP_FILE)
+matchup_master = pd.read_csv(MATCHUP_FILE)
 pt = pd.read_csv(PLAYER_TEAM_FILE)
+
+for label, frame in [
+    ("transactions", tx),
+    ("weekly lineups", lu),
+    ("player-week matchups", matchup_master),
+    ("player-week teams", pt),
+]:
+    if "year" not in frame.columns:
+        raise RuntimeError(
+            f"{label} input is missing required column: year"
+        )
+
+    frame["year"] = pd.to_numeric(
+        frame["year"],
+        errors="coerce",
+    )
+
+    if frame["year"].isna().any():
+        raise RuntimeError(
+            f"{label} input contains "
+            f"{int(frame['year'].isna().sum())} invalid year rows."
+        )
+
+    frame["year"] = frame["year"].astype(int)
+
+    future_rows = int(
+        (frame["year"] > CURRENT_SEASON).sum()
+    )
+
+    if future_rows:
+        print(
+            f"Excluding {future_rows:,} {label} rows after "
+            f"CURRENT_SEASON={CURRENT_SEASON}."
+        )
+
+# The master player-week matchup file is built upstream from validated
+# season files. Use it to determine the latest contiguous current-season
+# player week that downstream Waiver Value is allowed to score.
+current_matchups = matchup_master[
+    matchup_master["year"].eq(CURRENT_SEASON)
+].copy()
+
+if not current_matchups.empty:
+    if "week" not in current_matchups.columns:
+        raise RuntimeError(
+            "Canonical player-week matchup master is missing required column: week"
+        )
+
+    current_matchups["week"] = pd.to_numeric(
+        current_matchups["week"],
+        errors="coerce",
+    )
+
+    if current_matchups["week"].isna().any():
+        raise RuntimeError(
+            "Canonical current-season matchup master contains invalid week values."
+        )
+
+    current_week_counts = (
+        current_matchups
+        .groupby("week")
+        .size()
+        .sort_index()
+    )
+
+    completed_weeks = [
+        int(week)
+        for week, count in current_week_counts.items()
+        if int(count) == 6
+    ]
+
+    latest = 0
+    for expected_week in range(1, max(completed_weeks, default=0) + 1):
+        if expected_week not in completed_weeks:
+            break
+        latest = expected_week
+
+    CURRENT_PLAYER_WEEK = latest
+
+if CURRENT_PLAYER_WEEK > 0:
+    YEARS = HISTORICAL_YEARS + [CURRENT_SEASON]
+else:
+    YEARS = list(HISTORICAL_YEARS)
+
+ANALYSIS_WEEK_END = {
+    year: REGULAR_SEASON_END[year]
+    for year in HISTORICAL_YEARS
+}
+
+if CURRENT_PLAYER_WEEK > 0:
+    ANALYSIS_WEEK_END[CURRENT_SEASON] = CURRENT_PLAYER_WEEK
+    print(
+        f"Current Waiver Value player-week horizon: "
+        f"Weeks 1-{CURRENT_PLAYER_WEEK} of {CURRENT_SEASON}"
+    )
+else:
+    print(
+        f"Current Waiver Value player-week horizon: "
+        f"0 completed {CURRENT_SEASON} player weeks"
+    )
 
 tx = tx[
     tx["year"].isin(YEARS)
@@ -157,6 +275,11 @@ lu = lu[
 pt = pt[
     pt["year"].isin(YEARS)
 ].copy()
+
+if tx["year"].eq(2018).any():
+    raise RuntimeError(
+        "2018 transaction rows unexpectedly entered Waiver Value."
+    )
 
 
 # ============================================================
@@ -205,7 +328,7 @@ tx["source_order"] = range(len(tx))
 print("\nLoading NFL schedule...")
 
 sched = nfl.load_schedules(
-    seasons=list(range(2017, 2026))
+    seasons=list(YEARS)
 )
 
 if hasattr(sched, "to_pandas"):
@@ -576,7 +699,7 @@ stints["primary_eligible"] = (
 #       6-point passing TD
 #       -1 passing interception
 #
-#   2020-2025:
+#   2020+ completed seasons:
 #       half-PPR
 #       6-point passing TD
 #       -1 passing interception
@@ -1060,7 +1183,7 @@ for row in stints.itertuples(index=False):
         row.first_eligible_week
     )
 
-    max_week = REGULAR_SEASON_END[
+    max_week = ANALYSIS_WEEK_END[
         int(row.year)
     ]
 
@@ -1702,6 +1825,24 @@ inseason = eligible[
     eligible["first_eligible_week"]
     .notna()
 ].copy()
+
+# A current-season acquisition may already exist in Yahoo transactions even
+# though its first scoring opportunity is in a future, not-yet-validated
+# player week. Keep the stint in the audit tables, but do not let it enter
+# Waiver Value scoring or percentile/ranking calculations until that week
+# is inside the canonical player-week horizon.
+if CURRENT_PLAYER_WEEK > 0:
+    future_current_stint = (
+        inseason["year"].eq(CURRENT_SEASON)
+        &
+        pd.to_numeric(
+            inseason["first_eligible_week"],
+            errors="coerce",
+        ).gt(CURRENT_PLAYER_WEEK)
+    )
+    inseason = inseason[
+        ~future_current_stint
+    ].copy()
 
 total_candidate_weeks = int(
     inseason[
@@ -2511,16 +2652,26 @@ print(
     ),
 )
 
-if len(waiver_value) != 817:
+audited_waiver_value = waiver_value[
+    waiver_value["year"] <= 2025
+].copy()
+
+audited_meaningful_waiver = meaningful_waiver[
+    meaningful_waiver["year"] <= 2025
+].copy()
+
+if len(audited_waiver_value) != 817:
     raise RuntimeError(
-        "Expected 817 scored skill-position acquisitions; "
-        f"found {len(waiver_value)}."
+        "Expected 817 scored skill-position acquisitions "
+        "in the audited 2017-2025 baseline; "
+        f"found {len(audited_waiver_value)}."
     )
 
-if len(meaningful_waiver) != 615:
+if len(audited_meaningful_waiver) != 615:
     raise RuntimeError(
-        "Expected 615 meaningful acquisitions; "
-        f"found {len(meaningful_waiver)}."
+        "Expected 615 meaningful acquisitions "
+        "in the audited 2017-2025 baseline; "
+        f"found {len(audited_meaningful_waiver)}."
     )
 
 if waiver_value["stint_id"].duplicated().any():
@@ -2615,17 +2766,87 @@ expected_top_three = [
     "malle_dips_pouches",
 ]
 
-if official_manager_order[:3] != expected_top_three:
-    raise RuntimeError(
-        "Unexpected official waiver manager top three: "
-        + str(
-            official_manager_order[:3]
+# Regression-lock the historical 2017-2025 manager ordering even after
+# current-season acquisitions begin contributing to the live manager table.
+audited_manager_order = (
+    audited_meaningful_waiver
+    .groupby("team_canonical")
+    .agg(
+        meaningful_acquisitions=("stint_id", "size"),
+        avg_waiver_value=("waiver_value", "mean"),
+    )
+    .query("meaningful_acquisitions >= 20")
+    .sort_values(
+        "avg_waiver_value",
+        ascending=False,
+    )
+    .index
+    .tolist()
+)
+
+if LAST_COMPLETED_SEASON == 2025:
+    if audited_manager_order[:3] != expected_top_three:
+        raise RuntimeError(
+            "Unexpected audited historical waiver manager top three: "
+            + str(
+                audited_manager_order[:3]
+            )
         )
+
+    print(
+        "Official manager top-three historical regression check: PASS"
+    )
+else:
+    print(
+        "Official manager top-three historical regression check: "
+        "SKIPPED outside audited 2017-2025 endpoint"
     )
 
-print(
-    "Official manager top-three regression check: PASS"
-)
+for label, frame in [
+    ("waiver acquisitions", waiver_value),
+    ("waiver team-season", waiver_seasons),
+]:
+    if not frame.empty and (
+        pd.to_numeric(
+            frame["year"],
+            errors="coerce",
+        ) > CURRENT_SEASON
+    ).any():
+        raise RuntimeError(
+            f"Future season leaked into {label} output."
+        )
+
+if CURRENT_PLAYER_WEEK > 0:
+    leaked_current_weeks = stint_weeks[
+        stint_weeks["year"].eq(CURRENT_SEASON)
+        &
+        pd.to_numeric(
+            stint_weeks["week"],
+            errors="coerce",
+        ).gt(CURRENT_PLAYER_WEEK)
+    ]
+
+    if not leaked_current_weeks.empty:
+        raise RuntimeError(
+            "Current-season Waiver Value stint weeks exceeded the "
+            f"validated player-week horizon of Week {CURRENT_PLAYER_WEEK}."
+        )
+
+    print(
+        f"Current-season Waiver Value horizon check: PASS "
+        f"(through Week {CURRENT_PLAYER_WEEK})"
+    )
+else:
+    if waiver_value["year"].eq(CURRENT_SEASON).any():
+        raise RuntimeError(
+            "Current-season Waiver Value rows exist with zero validated "
+            "player weeks."
+        )
+
+    print(
+        "Current-season Waiver Value horizon check: PASS "
+        "(0 completed player weeks)"
+    )
 
 WAIVER_VALUE_FILE = (
     OUT_DIR

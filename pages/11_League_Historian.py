@@ -71,9 +71,8 @@ FILES = {
     "biggest_blowouts": HISTORY_DIR / "biggest_blowouts.csv",
     "closest_games": HISTORY_DIR / "closest_games.csv",
     "clean_matchups": first_existing(
-        DATA_DIR / "all_matchups_clean_2017_2025.csv",
-        PLAYER_WEEK_DIR / "all_matchups_2017_2025.csv",
-        PLAYER_WEEK_DIR / "all_matchups_2018_2025.csv",
+        DATA_DIR / "all_matchups_clean.csv",
+        PLAYER_WEEK_DIR / "all_matchups.csv",
     ),
 
     # Playoffs / championships
@@ -90,10 +89,7 @@ FILES = {
     "transactions": TRANSACTION_DIR / "all_transactions.csv",
 
     # Weekly lineup history
-    "weekly_lineups": first_existing(
-        PLAYER_WEEK_DIR / "all_weekly_lineups_2017_2025.csv",
-        PLAYER_WEEK_DIR / "all_weekly_lineups_2018_2025.csv",
-    ),
+    "weekly_lineups": PLAYER_WEEK_DIR / "all_weekly_lineups.csv",
 
     # Lineup efficiency + luck (legacy analysis location)
     "luck_team_week": first_existing(
@@ -1665,8 +1661,11 @@ GROUNDING RULES:
 12. 2018 transaction history is unavailable. Do not fabricate 2018 waiver
     conclusions or an overall 2018 Management Index.
 13. Historical franchise aliases have already been normalized in the evidence.
-14. 2026 is the current/future draft season. Do not mix the posted 2026 draft
-    order or keeper board into completed historical draft-performance results.
+14. 2026 is the current active season. Draft and keeper facts from 2026 may be
+    used when directly relevant, and validated completed weekly results may be used
+    for current-season questions. Do not treat partial 2026 results as a completed
+    season, do not mix 2026 draft picks into finalized historical draft-performance
+    conclusions, and do not infer 2026 playoff/championship outcomes before they exist.
 15. Use exact numbers when useful, usually rounded to 1-2 decimal places.
 16. When asked "best" or "worst" and multiple definitions are reasonable, state
     the answer by category (for example management, results, drafting, luck)

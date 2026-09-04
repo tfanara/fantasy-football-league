@@ -2,6 +2,11 @@ import streamlit as st
 import pandas as pd
 from pathlib import Path
 
+from season_config import (
+    CURRENT_SEASON,
+    LAST_COMPLETED_SEASON,
+)
+
 try:
     from team_aliases import canonical_team
 except ImportError:
@@ -29,8 +34,6 @@ st.set_page_config(
 
 BASE_DIR = Path(__file__).resolve().parent
 
-CURRENT_SEASON = 2026
-
 CURRENT_TEAMS = [
     "malle_dips_pouches",
     "Patty Primetimes",
@@ -47,7 +50,7 @@ CURRENT_TEAMS = [
 ]
 
 STANDINGS_FILE = BASE_DIR / "data" / "all_standings.csv"
-MATCHUPS_FILE = BASE_DIR / "data" / "all_matchups_clean_2017_2025.csv"
+MATCHUPS_FILE = BASE_DIR / "data" / "all_matchups_clean.csv"
 CHAMPIONSHIPS_FILE = BASE_DIR / "data" / "playoffs" / "championships.csv"
 
 
@@ -83,8 +86,8 @@ def normalize_team_columns(df):
 
 
 def current_standings():
-    # 2026 has not started yet. Show the real league field at 0-0
-    # instead of attempting to interpret incomplete/future standings rows.
+    # Until current-season standings are intentionally wired to Yahoo,
+    # show the real league field at 0-0 rather than infer live results.
     return pd.DataFrame(
         {
             "Rank": range(1, len(CURRENT_TEAMS) + 1),
@@ -110,7 +113,7 @@ def latest_completed_standings():
     )
 
     completed = standings[
-        standings["year"] < CURRENT_SEASON
+        standings["year"] <= LAST_COMPLETED_SEASON
     ].copy()
 
     if completed.empty:
@@ -329,8 +332,9 @@ st.markdown(
 )
 
 st.caption(
-    "The 2026 regular season has not started yet. "
-    "These are the actual 12 franchises, shown at 0-0."
+    f"{CURRENT_SEASON} is the current league season. "
+    "Current-season results are not yet loaded into this page, "
+    "so the 12 active franchises are shown at 0-0."
 )
 
 display_cols = [

@@ -3,6 +3,21 @@ import json
 import pandas as pd
 from playwright.sync_api import sync_playwright
 
+from season_config import CURRENT_SEASON, YAHOO_LEAGUE_IDS
+
+try:
+    from team_aliases import canonical_team
+except ImportError:
+    def canonical_team(name):
+        aliases = {
+            "PickUpYourBratsMalle": "ThreatLevelMidnight",
+            "Little Red Fournette": "Post Mahomes",
+            "Ur The Best Bellows": "Joe Mantegna",
+            "You Better Park It": "Buttermilk Puuump",
+            "Buttermilk Pump": "Buttermilk Puuump",
+        }
+        return aliases.get(name, name)
+
 
 # ---------------------------------------------------------
 # SETTINGS
@@ -14,17 +29,11 @@ DATA_DIR = Path("data")
 DATA_DIR.mkdir(exist_ok=True)
 
 
-# Yahoo league IDs discovered from your Fantasy Profile
+# Use the centralized season configuration as the authoritative league map.
 league_ids = {
-    2018: "941496",
-    2019: "322794",
-    2020: "510142",
-    2021: "410355",
-    2022: "854563",
-    2023: "684195",
-    2024: "673480",
-    2025: "637567",
-    2026: "742546",
+    year: str(league_id)
+    for year, league_id in YAHOO_LEAGUE_IDS.items()
+    if 2018 <= year <= CURRENT_SEASON
 }
 
 
@@ -34,7 +43,7 @@ league_ids = {
 
 def get_league_url(year, league_id):
 
-    if year == 2026:
+    if year == CURRENT_SEASON:
         return (
             f"https://football.fantasysports.yahoo.com/"
             f"f1/{league_id}?lhst=stand#leaguehomestandings"
@@ -147,8 +156,10 @@ def clean_standings(standings):
         team["team"] = (
             team["team"]
             .replace("", "")
+            .replace("🏆", "")
             .strip()
         )
+        team["team"] = canonical_team(team["team"])
 
     return standings
 
@@ -219,6 +230,17 @@ with sync_playwright() as p:
         standings = clean_standings(
             standings
         )
+
+        if len(standings) != 12:
+            raise RuntimeError(
+                f"{year} standings returned {len(standings)} teams; expected 12."
+            )
+
+        canonical_names = [team["team"] for team in standings]
+        if len(set(canonical_names)) != 12:
+            raise RuntimeError(
+                f"{year} standings contain duplicate canonical team names."
+            )
 
 
         # Add season information

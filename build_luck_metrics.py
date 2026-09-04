@@ -2,10 +2,21 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+from season_config import (
+    LAST_COMPLETED_SEASON,
+    filter_weekly_current_matchups,
+    detect_latest_completed_week,
+    print_season_config,
+)
+
 
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data" / "matchups" / "player_week_stats"
-MATCHUPS_FILE = BASE_DIR / "data" / "all_matchups_clean_2017_2025.csv"
+MATCHUPS_FILE = (
+    BASE_DIR
+    / "data"
+    / "all_matchups_clean.csv"
+)
 
 OUT_DIR = DATA_DIR / "analysis"
 TEAM_WEEK_OUT = OUT_DIR / "luck_team_week.csv"
@@ -49,6 +60,7 @@ def luck_label(x):
 
 def main():
     banner("BUILDING FANTASY FOOTBALL LUCK + STRENGTH OF SCHEDULE METRICS")
+    print_season_config()
 
     if not MATCHUPS_FILE.exists():
         raise FileNotFoundError(f"Missing master matchup file: {MATCHUPS_FILE}")
@@ -68,6 +80,13 @@ def main():
     raw[week_col] = pd.to_numeric(raw[week_col], errors="raise").astype(int)
     raw[s1_col] = pd.to_numeric(raw[s1_col], errors="coerce")
     raw[s2_col] = pd.to_numeric(raw[s2_col], errors="coerce")
+
+    weekly_state = detect_latest_completed_week(raw)
+    raw = filter_weekly_current_matchups(raw, weekly_state=weekly_state)
+    print_season_config(weekly_state)
+
+    if raw.empty:
+        raise RuntimeError("No weekly-current matchup rows remain after filtering.")
 
     banner("1. MASTER MATCHUP INPUT")
     print(f"Rows: {len(raw):,}")
@@ -369,9 +388,43 @@ def main():
     if not team_week["expected_win_value"].between(0, 1).all():
         raise RuntimeError("Expected win values outside 0-1.")
 
+    if (
+        pd.to_numeric(team_week["year"], errors="coerce")
+        > weekly_state.current_season
+    ).any():
+        raise RuntimeError(
+            "Future season leaked into Luck team-week output."
+        )
+
+    season_team_counts = (
+        season.groupby("year")["fantasy_team"]
+        .nunique()
+        .sort_index()
+    )
+
+    bad_season_counts = season_team_counts[
+        season_team_counts != 12
+    ]
+
+    if not bad_season_counts.empty:
+        raise RuntimeError(
+            "Expected 12 teams in every completed season; found: "
+            + str(bad_season_counts.to_dict())
+        )
+
     print(f"[PASS] Team-weeks: {len(team_week):,}")
     print(f"[PASS] League-wide schedule luck nets to {net_luck:.8f}")
     print("[PASS] Expected win values are all between 0 and 1.")
+    print("[PASS] Every completed season contains 12 teams.")
+
+    frozen_raw = raw[raw[year_col] <= 2025]
+    frozen_tw = team_week[pd.to_numeric(team_week["year"], errors="coerce") <= 2025]
+    if len(frozen_raw) != 732 or len(frozen_tw) != 1464:
+        raise RuntimeError(
+            "Audited 2017-2025 Luck baseline changed: "
+            f"{len(frozen_raw)} games / {len(frozen_tw)} team-weeks."
+        )
+    print("[PASS] Audited 2017-2025 baseline: 732 games / 1,464 team-weeks.")
 
     banner("6. SAVING FILES")
 
