@@ -47,7 +47,6 @@ CURRENT_TEAMS = [
 STANDINGS_FILE = BASE_DIR / "data" / "all_standings.csv"
 
 
-@st.cache_data
 def load_standings():
     if not STANDINGS_FILE.exists():
         return pd.DataFrame()
