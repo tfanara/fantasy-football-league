@@ -20,6 +20,36 @@ MATCHUPS_PER_WEEK = TEAMS // 2
 EXPECTED_FROZEN_GAMES = 732
 
 
+# Franchise display names used by derived/canonical outputs only.
+# IMPORTANT: the frozen 2017-2025 source is validated before these aliases are
+# applied, so the audited historical file itself remains untouched.
+TEAM_ALIASES = {
+    "Ginger FC": "Ginger FC 🏆🏆",
+    "Ginger FC 🏆🏆": "Ginger FC 🏆🏆",
+    "Ginger FC Trophy Trophy": "Ginger FC 🏆🏆",
+    "PickUpYourBratsMalle": "ThreatLevelMidnight",
+    "You Better Park It": "Buttermilk Puuump",
+    "Buttermilk Pump": "Buttermilk Puuump",
+    "Little Red Fournette": "Post Mahomes",
+    "Ur The Best Bellows": "Joe Mantegna",
+}
+
+
+def canonicalize_derived_team_names(df: pd.DataFrame) -> pd.DataFrame:
+    out = df.copy()
+
+    team_columns = [
+        col for col in ("team_1", "team_2", "winner", "loser")
+        if col in out.columns
+    ]
+    for col in team_columns:
+        out[col] = out[col].map(
+            lambda value: TEAM_ALIASES.get(str(value).strip(), str(value).strip())
+            if pd.notna(value) else value
+        )
+    return out
+
+
 def fail(message: str):
     raise RuntimeError(message)
 
@@ -184,6 +214,11 @@ def main():
             f"expected {expected_current} through Week {state.latest_completed_week}."
         )
 
+    # The frozen-history regression above deliberately compares RAW historical
+    # values first. Only after that invariant passes do we normalize franchise
+    # names in the derived canonical master consumed by downstream analytics.
+    combined = canonicalize_derived_team_names(combined)
+
     combined = combined.sort_values(["year", "week", "team_1"], kind="stable").reset_index(drop=True)
 
     canonical_csv = DATA_DIR / "all_matchups_clean.csv"
@@ -196,7 +231,17 @@ def main():
     combined.to_csv(snapshot_csv, index=False)
     save_json(combined, snapshot_json)
 
+    legacy_names = set(TEAM_ALIASES) - set(TEAM_ALIASES.values())
+    canonical_name_values = set()
+    for col in ("team_1", "team_2", "winner", "loser"):
+        if col in combined.columns:
+            canonical_name_values.update(combined[col].dropna().astype(str).str.strip())
+    leaked = sorted(legacy_names & canonical_name_values)
+    if leaked:
+        fail(f"Legacy franchise names leaked into canonical matchup master: {leaked}")
+
     print(f"[PASS] Frozen history preserved exactly: {len(frozen)} games")
+    print("[PASS] Derived canonical franchise names normalized after frozen-history validation")
     print(f"[PASS] {CURRENT_SEASON} completed games included: {len(current_rows)}")
     print(f"[PASS] Canonical matchup master: {len(combined)} games")
     print_season_config(state)

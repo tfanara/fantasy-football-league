@@ -5,9 +5,9 @@ Purpose
 -------
 Give routine maintenance one entry point and one PASS/FAIL summary.
 
-This script intentionally does NOT guess how to drive authenticated Yahoo
-browser collectors. Collection remains an explicit upstream step until each
-collector has a stable non-interactive CLI.
+The active-season Yahoo source collector is authenticated and non-interactive,
+so --sources / --weekly collect current Yahoo data before rebuilding canonical
+weekly sources. Browser scraping remains fallback-only.
 
 Normal weekly use:
     1. Collect/update current Yahoo standings, matchups, transactions, and
@@ -65,6 +65,7 @@ class Task:
 
 # The dependency order matters.
 SOURCE_TASKS = [
+    Task("Collect Yahoo current season", "collect_yahoo_current_season.py", "weekly-source"),
     Task("Merge authoritative matchups", "merge_matchups.py", "weekly-source"),
     Task("League history / records / streaks / H2H", "build_league_history.py", "weekly-source"),
     Task("Master weekly player data", "build_master_weekly_data.py", "weekly-source"),
@@ -78,6 +79,7 @@ WEEKLY_ANALYTIC_TASKS = [
     Task("Waiver Value", "build_waiver_value_analysis.py", "weekly"),
     Task("QB/WR Stacks", "build_stack_analysis.py", "weekly", required=False),
     Task("Positional Edge", "build_positional_edge_analysis.py", "weekly", required=False),
+    Task("Weekly News Intelligence", "build_weekly_news_context.py", "weekly"),
 ]
 
 SEASON_FINAL_TASKS = [
@@ -172,15 +174,11 @@ def rebuild_standings_master(*, dry_run: bool) -> tuple[str, str]:
                 f"{CURRENT_SEASON} standings returned {len(current)} rows; expected 12"
             )
 
-        current["team"] = (
-            current["team"]
-            .astype(str)
-            .str.replace("🏆", "", regex=False)
-            .str.replace("", "", regex=False)
-            .str.strip()
-        )
+        current["team"] = current["team"].astype(str).str.strip()
 
         aliases = {
+            "Ginger FC": "Ginger FC 🏆🏆",
+            "Ginger FC 🏆🏆": "Ginger FC 🏆🏆",
             "PickUpYourBratsMalle": "ThreatLevelMidnight",
             "Little Red Fournette": "Post Mahomes",
             "Ur The Best Bellows": "Joe Mantegna",

@@ -31,7 +31,7 @@ import pandas as pd
 
 
 CURRENT_SEASON = 2026
-CURRENT_SEASON_PHASE = "post_draft"
+CURRENT_SEASON_PHASE = "in_season"
 
 VALID_SEASON_PHASES = {
     "pre_draft",

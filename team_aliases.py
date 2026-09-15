@@ -37,8 +37,11 @@ TEAM_ALIASES = {
     # GINGER FC FRANCHISE
     # ---------------------------------------------------------
 
-    # Yahoo display variant with championship trophies
-    "Ginger FC 🏆🏆": "Ginger FC",
+    # Current/final Yahoo franchise name.
+    # Historical/plain and accidental text variants all resolve here.
+    "Ginger FC": "Ginger FC 🏆🏆",
+    "Ginger FC 🏆🏆": "Ginger FC 🏆🏆",
+    "Ginger FC Trophy Trophy": "Ginger FC 🏆🏆",
 
 }
 

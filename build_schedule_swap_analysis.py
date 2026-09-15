@@ -39,6 +39,9 @@ EXTREMES_FILE = (
 # ============================================================
 
 TEAM_ALIASES = {
+    "Ginger FC": "Ginger FC 🏆🏆",
+    "Ginger FC 🏆🏆": "Ginger FC 🏆🏆",
+    "Ginger FC Trophy Trophy": "Ginger FC 🏆🏆",
     "PickUpYourBratsMalle": "ThreatLevelMidnight",
     "Little Red Fournette": "Post Mahomes",
     "Ur The Best Bellows": "Joe Mantegna",
@@ -772,8 +775,12 @@ extremes = pd.concat(
 # FINAL VALIDATION
 # ============================================================
 
-expected_season_rows = 9 * 12
-expected_swap_rows = 9 * 12 * 12
+# Derive expectations from the validated weekly-current seasons actually
+# admitted above. This keeps the audited historical behavior unchanged while
+# allowing a structurally complete current season (for example 2026 W1) to
+# participate immediately.
+expected_season_rows = len(years) * 12
+expected_swap_rows = len(years) * 12 * 12
 
 print()
 print("=" * 90)

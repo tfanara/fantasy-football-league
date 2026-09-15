@@ -73,6 +73,9 @@ TEAM_ALIASES = {
     "Ur The Best Bellows": "Joe Mantegna",
     "You Better Park It": "Buttermilk Puuump",
     "Buttermilk Pump": "Buttermilk Puuump",
+    "Ginger FC": "Ginger FC 🏆🏆",
+    "Ginger FC Trophy Trophy": "Ginger FC 🏆🏆",
+    "Ginger FC 🏆🏆": "Ginger FC 🏆🏆",
 }
 
 SKILL_POSITIONS = {"QB", "RB", "WR", "TE"}
