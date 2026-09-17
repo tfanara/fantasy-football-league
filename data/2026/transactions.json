@@ -96,5 +96,47 @@
     "dropped_player": "Lions",
     "status": "successful",
     "source": "yahoo_fantasy_api"
+  },
+  {
+    "year": 2026,
+    "transaction_id": 22,
+    "transaction_key": "470.l.742546.tr.22",
+    "timestamp": 1789565565,
+    "date": "2026-09-16T09:32:45-04:00",
+    "team": "ThreatLevelMidnight",
+    "transaction_type": "add/drop",
+    "added_player": "49ers",
+    "acquisition_type": "free_agent",
+    "dropped_player": "Chargers",
+    "status": "successful",
+    "source": "yahoo_fantasy_api"
+  },
+  {
+    "year": 2026,
+    "transaction_id": 23,
+    "transaction_key": "470.l.742546.tr.23",
+    "timestamp": 1789566876,
+    "date": "2026-09-16T09:54:36-04:00",
+    "team": "Post Mahomes",
+    "transaction_type": "add",
+    "added_player": "Devaughn Vele",
+    "acquisition_type": "free_agent",
+    "dropped_player": NaN,
+    "status": "successful",
+    "source": "yahoo_fantasy_api"
+  },
+  {
+    "year": 2026,
+    "transaction_id": 24,
+    "transaction_key": "470.l.742546.tr.24",
+    "timestamp": 1789567061,
+    "date": "2026-09-16T09:57:41-04:00",
+    "team": "Post Mahomes",
+    "transaction_type": "add",
+    "added_player": "Mike Gesicki",
+    "acquisition_type": "free_agent",
+    "dropped_player": NaN,
+    "status": "successful",
+    "source": "yahoo_fantasy_api"
   }
 ]

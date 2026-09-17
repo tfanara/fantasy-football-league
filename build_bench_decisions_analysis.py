@@ -593,7 +593,53 @@ def main():
     print("VALIDATION")
     print("=" * 76)
 
-    assert len(team_week) == 1464
+    # Dynamic team-week validation.
+    # Every completed league week must contain exactly 12 teams.
+    if team_week.empty:
+        raise RuntimeError("No team-week rows were produced.")
+
+    required_cols = {"year", "week", "fantasy_team"}
+    missing_cols = required_cols - set(team_week.columns)
+
+    if missing_cols:
+        raise RuntimeError(
+            "team_week is missing required columns: "
+            + ", ".join(sorted(missing_cols))
+        )
+
+    coverage = (
+        team_week[
+            ["year", "week", "fantasy_team"]
+        ]
+        .drop_duplicates()
+        .groupby(["year", "week"])["fantasy_team"]
+        .nunique()
+    )
+
+    bad_coverage = coverage[coverage != 12]
+
+    if not bad_coverage.empty:
+        raise RuntimeError(
+            "Expected exactly 12 fantasy teams in every completed "
+            "season-week. Bad coverage:\n"
+            f"{bad_coverage.to_string()}"
+        )
+
+    expected_team_weeks = len(coverage) * 12
+
+    if len(team_week) != expected_team_weeks:
+        raise RuntimeError(
+            f"Team-week row count mismatch: "
+            f"{len(team_week):,} rows found, "
+            f"{expected_team_weeks:,} expected from "
+            f"{len(coverage):,} completed league weeks."
+        )
+
+    print(
+        f"[PASS] Team-week coverage: "
+        f"{len(team_week):,} rows across "
+        f"{len(coverage):,} completed league weeks."
+    )
 
     assert (
         team_week[

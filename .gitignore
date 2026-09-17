@@ -21,3 +21,4 @@ data/analysis/*_test.csv
 data/analysis/waiver_value_model_comparison.csv
 backups/
 data/2026/transactions_yahoo_raw.xml
+data/*/transactions_yahoo_raw.xml

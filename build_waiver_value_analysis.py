@@ -126,15 +126,52 @@ def norm_name(value):
 
 def parse_transaction_datetime(row):
     """
-    Yahoo displays transaction month/day/time while season year
-    is stored separately in our transaction file.
+    Parse transaction timestamps from both data generations.
 
-    January/February following a fantasy season belong to the
-    next calendar year.
+    Historical Yahoo transaction files store display-style dates:
+        Sep 11, 4:42 am
+
+    Current Yahoo API transactions store ISO-8601 timestamps:
+        2026-09-16T09:57:41-04:00
+
+    Internally, all transaction datetimes are normalized to
+    timezone-naive local clock time so historical and API records
+    can be sorted and compared together.
     """
 
     raw = str(row["date"]).strip()
     season = int(row["year"])
+
+    if not raw or raw.lower() in {"nan", "nat", "none"}:
+        return pd.NaT
+
+    # --------------------------------------------------------
+    # CURRENT YAHOO API FORMAT
+    # --------------------------------------------------------
+
+    if (
+        len(raw) >= 10
+        and raw[:4].isdigit()
+        and raw[4] == "-"
+        and raw[7] == "-"
+    ):
+        dt = pd.to_datetime(
+            raw,
+            errors="coerce",
+        )
+
+        if pd.notna(dt):
+            # API timestamps already represent the correct local
+            # transaction time. Remove timezone metadata without
+            # shifting the displayed clock time.
+            if getattr(dt, "tzinfo", None) is not None:
+                dt = dt.tz_localize(None)
+
+            return dt
+
+    # --------------------------------------------------------
+    # HISTORICAL YAHOO DISPLAY FORMAT
+    # --------------------------------------------------------
 
     dt = pd.to_datetime(
         f"{raw} {season}",
@@ -142,6 +179,85 @@ def parse_transaction_datetime(row):
         errors="coerce",
     )
 
+    # January / February following a fantasy season belong to
+    # the next calendar year.
+    if (
+        pd.notna(dt)
+        and dt.month <= 2
+    ):
+        dt = dt.replace(
+            year=season + 1
+        )
+
+    # Defensive normalization in case a historical value ever
+    # arrives with timezone information.
+    if (
+        pd.notna(dt)
+        and getattr(dt, "tzinfo", None) is not None
+    ):
+        dt = dt.tz_localize(None)
+
+    return dt
+    """
+    Parse transaction timestamps from both data generations.
+
+    Historical Yahoo transaction files store display-style dates
+    such as:
+        Sep 11, 4:42 am
+
+    Current-season Yahoo API transactions store ISO-8601 timestamps
+    such as:
+        2026-09-16T09:57:41-04:00
+
+    Historical January/February transactions belong to the calendar
+    year following the fantasy season.
+    """
+
+    raw = str(row["date"]).strip()
+    season = int(row["year"])
+
+    if not raw or raw.lower() in {"nan", "nat", "none"}:
+        return pd.NaT
+
+    # --------------------------------------------------------
+    # CURRENT YAHOO API FORMAT
+    #
+    # ISO timestamps already contain the full calendar date and
+    # timezone, so do NOT append the fantasy season.
+    # --------------------------------------------------------
+
+    if (
+        len(raw) >= 10
+        and raw[:4].isdigit()
+        and raw[4] == "-"
+        and raw[7] == "-"
+    ):
+        dt = pd.to_datetime(
+            raw,
+            errors="coerce",
+        )
+
+        if pd.notna(dt):
+            return dt
+
+    # --------------------------------------------------------
+    # HISTORICAL YAHOO DISPLAY FORMAT
+    #
+    # Example:
+    #     Sep 11, 4:42 am
+    #
+    # These rows do not contain a year, so append the fantasy
+    # season year before parsing.
+    # --------------------------------------------------------
+
+    dt = pd.to_datetime(
+        f"{raw} {season}",
+        format="mixed",
+        errors="coerce",
+    )
+
+    # January / February transactions following a fantasy season
+    # belong to the next calendar year.
     if (
         pd.notna(dt)
         and dt.month <= 2

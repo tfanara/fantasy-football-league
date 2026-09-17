@@ -152,13 +152,89 @@ starters = df[
     df["is_starter"] == True
 ].copy()
 
-expected_starters = 1464 * 9
 
-if len(starters) != expected_starters:
+# ------------------------------------------------------------
+# DYNAMIC STARTER COVERAGE VALIDATION
+# ------------------------------------------------------------
+#
+# Every completed fantasy team-week should contain exactly
+# 9 occupied starter slots.
+#
+# Do not use a fixed historical row count here. The dataset
+# grows by 12 team-weeks / 108 starter rows every completed
+# league week.
+# ------------------------------------------------------------
+
+required_starter_columns = {
+    "year",
+    "week",
+    "fantasy_team",
+}
+
+missing_starter_columns = (
+    required_starter_columns - set(starters.columns)
+)
+
+if missing_starter_columns:
     raise RuntimeError(
-        f"Expected {expected_starters:,} starter rows, "
-        f"found {len(starters):,}"
+        "Starter data is missing required columns: "
+        + ", ".join(sorted(missing_starter_columns))
     )
+
+
+starter_counts = (
+    starters
+    .groupby(
+        [
+            "year",
+            "week",
+            "fantasy_team",
+        ],
+        dropna=False,
+    )
+    .size()
+)
+
+
+# Validate every individual team-week, not just the league-wide
+# total. This catches missing or duplicated starter slots.
+
+bad_starter_counts = starter_counts[
+    starter_counts != 9
+]
+
+if not bad_starter_counts.empty:
+    raise RuntimeError(
+        "Expected exactly 9 starters per team-week. "
+        f"Found {len(bad_starter_counts):,} invalid "
+        "team-weeks:\n"
+        + bad_starter_counts.to_string()
+    )
+
+
+# Validate the overall total against the dynamically discovered
+# number of completed team-weeks.
+
+team_week_count = len(starter_counts)
+
+expected_starters = team_week_count * 9
+actual_starters = len(starters)
+
+if actual_starters != expected_starters:
+    raise RuntimeError(
+        f"Starter row count mismatch: "
+        f"{actual_starters:,} rows found, "
+        f"{expected_starters:,} expected from "
+        f"{team_week_count:,} team-weeks × 9 starters."
+    )
+
+
+print(
+    f"[PASS] Starter coverage: "
+    f"{actual_starters:,} starter rows across "
+    f"{team_week_count:,} team-weeks "
+    f"({team_week_count:,} × 9)."
+)
 
 
 # ============================================================
@@ -299,6 +375,11 @@ def resolve_position(row):
         "Jeff Wilson Jr.": "RB",
         "Michael Carter": "RB",
         "Michael Thomas": "WR",
+
+        # 2026 position resolution exception.
+        # Current player-week position mapping did not resolve
+        # Jalen Coker when used in the W/R/T slot.
+        "Jalen Coker": "WR",
 
         # Yahoo allowed Kendall Hinton in W/R/T during the
         # unusual 2020 Week 12 Denver game. For fantasy
@@ -1361,35 +1442,145 @@ extremes = pd.concat(
 # FINAL VALIDATION
 # ============================================================
 
-if len(team_weeks) != 1464:
+# ------------------------------------------------------------
+# TEAM-WEEK COVERAGE
+# ------------------------------------------------------------
+#
+# team_weeks contains one row per fantasy team per completed
+# league week. The total must grow automatically as new weeks
+# and seasons are added.
+# ------------------------------------------------------------
+
+if team_weeks.empty:
     raise RuntimeError(
-        f"Expected 1,464 team-weeks, "
-        f"found {len(team_weeks):,}"
+        "No team-week records were produced."
     )
 
-if len(team_week) != 1464 * 4:
+required_team_week_columns = {
+    "year",
+    "week",
+    "fantasy_team",
+}
+
+missing_team_week_columns = (
+    required_team_week_columns - set(team_weeks.columns)
+)
+
+if missing_team_week_columns:
     raise RuntimeError(
-        f"Expected {1464 * 4:,} team-week-position rows, "
-        f"found {len(team_week):,}"
+        "team_weeks is missing required columns: "
+        + ", ".join(sorted(missing_team_week_columns))
     )
 
-if len(season) != 108:
+
+team_week_coverage = (
+    team_weeks
+    .groupby(
+        ["year", "week"],
+        dropna=False,
+    )["fantasy_team"]
+    .nunique()
+)
+
+bad_team_week_coverage = team_week_coverage[
+    team_week_coverage != 12
+]
+
+if not bad_team_week_coverage.empty:
     raise RuntimeError(
-        f"Expected 108 team-seasons, "
-        f"found {len(season):,}"
+        "Expected exactly 12 fantasy teams in every "
+        "completed season-week. Bad coverage:\n"
+        + bad_team_week_coverage.to_string()
+    )
+
+
+completed_league_weeks = len(team_week_coverage)
+expected_team_weeks = completed_league_weeks * 12
+
+if len(team_weeks) != expected_team_weeks:
+    raise RuntimeError(
+        f"Team-week count mismatch: "
+        f"{len(team_weeks):,} rows found, "
+        f"{expected_team_weeks:,} expected from "
+        f"{completed_league_weeks:,} completed league weeks "
+        f"× 12 teams."
+    )
+
+
+# ------------------------------------------------------------
+# TEAM-WEEK-POSITION COVERAGE
+# ------------------------------------------------------------
+#
+# Positional Edge produces four analyzed position groups for
+# every fantasy team-week.
+# ------------------------------------------------------------
+
+expected_position_rows = expected_team_weeks * 4
+
+if len(team_week) != expected_position_rows:
+    raise RuntimeError(
+        f"Team-week-position count mismatch: "
+        f"{len(team_week):,} rows found, "
+        f"{expected_position_rows:,} expected from "
+        f"{expected_team_weeks:,} team-weeks × 4 positions."
+    )
+
+
+# ------------------------------------------------------------
+# TEAM-SEASON COVERAGE
+# ------------------------------------------------------------
+#
+# Every represented fantasy season should contain exactly
+# 12 team-season rows. Do not hard-code the number of seasons.
+# ------------------------------------------------------------
+
+if season.empty:
+    raise RuntimeError(
+        "No team-season records were produced."
+    )
+
+if "year" not in season.columns:
+    raise RuntimeError(
+        "Season output is missing required column: year"
     )
 
 season_counts_check = (
-    season.groupby("year")
+    season
+    .groupby("year")
     .size()
 )
 
-if not (
-    season_counts_check == 12
-).all():
+bad_season_counts = season_counts_check[
+    season_counts_check != 12
+]
+
+if not bad_season_counts.empty:
     raise RuntimeError(
-        "Expected 12 teams in every season."
+        "Expected exactly 12 teams in every season. "
+        "Bad coverage:\n"
+        + bad_season_counts.to_string()
     )
+
+season_count = len(season_counts_check)
+expected_team_seasons = season_count * 12
+
+if len(season) != expected_team_seasons:
+    raise RuntimeError(
+        f"Team-season count mismatch: "
+        f"{len(season):,} rows found, "
+        f"{expected_team_seasons:,} expected from "
+        f"{season_count:,} seasons × 12 teams."
+    )
+
+
+print(
+    f"[PASS] Final Positional Edge coverage: "
+    f"{completed_league_weeks:,} completed league weeks / "
+    f"{expected_team_weeks:,} team-weeks / "
+    f"{expected_position_rows:,} team-week-position rows / "
+    f"{season_count:,} seasons / "
+    f"{expected_team_seasons:,} team-seasons."
+)
 
 
 # ============================================================

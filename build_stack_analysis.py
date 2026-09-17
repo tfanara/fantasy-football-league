@@ -193,6 +193,17 @@ nfl_lookup = (
 )
 
 
+# Preserve any NFL-team value already present in the lineup
+# dataset as a fallback. The canonical player-week NFL mapping
+# remains authoritative for Stack Analysis.
+if "nfl_team" in lineups.columns:
+    lineups = lineups.rename(
+        columns={
+            "nfl_team": "lineup_nfl_team",
+        }
+    )
+
+
 players = lineups.merge(
     nfl_lookup,
     on=[
@@ -202,6 +213,25 @@ players = lineups.merge(
     ],
     how="left",
 )
+
+
+# ------------------------------------------------------------
+# NFL TEAM RESOLUTION
+# ------------------------------------------------------------
+#
+# player_week_teams.csv is the preferred source because it is
+# explicitly keyed by season/week/player. If that mapping is
+# unavailable for an older row, retain the NFL-team value that
+# was already present in the canonical lineup dataset.
+# ------------------------------------------------------------
+
+if "lineup_nfl_team" in players.columns:
+    players["nfl_team"] = (
+        players["nfl_team"]
+        .fillna(
+            players["lineup_nfl_team"]
+        )
+    )
 
 
 # ============================================================

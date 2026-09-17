@@ -6,3 +6,6 @@ year,transaction_id,transaction_key,timestamp,date,team,transaction_type,added_p
 2026,19,470.l.742546.tr.19,1788878602,2026-09-08T10:43:22-04:00,ThreatLevelMidnight,add/drop,Kaelon Black,free_agent,Ray Davis,successful,yahoo_fantasy_api
 2026,20,470.l.742546.tr.20,1789480801,2026-09-15T10:00:01-04:00,Post Mahomes,drop,,,Dylan Sampson,successful,yahoo_fantasy_api
 2026,21,470.l.742546.tr.21,1789547672,2026-09-16T04:34:32-04:00,Pop Lockett Drop it,add/drop,Buccaneers,waiver,Lions,successful,yahoo_fantasy_api
+2026,22,470.l.742546.tr.22,1789565565,2026-09-16T09:32:45-04:00,ThreatLevelMidnight,add/drop,49ers,free_agent,Chargers,successful,yahoo_fantasy_api
+2026,23,470.l.742546.tr.23,1789566876,2026-09-16T09:54:36-04:00,Post Mahomes,add,Devaughn Vele,free_agent,,successful,yahoo_fantasy_api
+2026,24,470.l.742546.tr.24,1789567061,2026-09-16T09:57:41-04:00,Post Mahomes,add,Mike Gesicki,free_agent,,successful,yahoo_fantasy_api
