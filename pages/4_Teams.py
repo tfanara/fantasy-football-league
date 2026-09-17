@@ -3,6 +3,7 @@ import pandas as pd
 from pathlib import Path
 
 from season_config import LAST_COMPLETED_SEASON
+from team_aliases import canonical_team
 
 
 # ============================================================
@@ -122,6 +123,51 @@ except FileNotFoundError:
     )
 
     st.stop()
+
+
+# ============================================================
+# FRANCHISE IDENTITY NORMALIZATION
+# ============================================================
+
+def normalize_team_columns(df):
+    """Apply league-wide canonical franchise names before profile calculations."""
+    if df is None or df.empty:
+        return df
+
+    out = df.copy()
+    team_columns = [
+        "team",
+        "fantasy_team",
+        "franchise",
+        "opponent",
+        "champion",
+        "runner_up",
+        "winner",
+        "loser",
+    ]
+
+    for col in team_columns:
+        if col in out.columns:
+            out[col] = out[col].map(
+                lambda value: canonical_team(value)
+                if not pd.isna(value)
+                else value
+            )
+
+    return out
+
+
+team_games = normalize_team_columns(team_games)
+season_records = normalize_team_columns(season_records)
+all_time = normalize_team_columns(all_time)
+playoff_records = normalize_team_columns(playoff_records)
+playoff_appearances = normalize_team_columns(playoff_appearances)
+championships = normalize_team_columns(championships)
+player_championship_pedigree = normalize_team_columns(player_championship_pedigree)
+player_championship_rosters = normalize_team_columns(player_championship_rosters)
+weekly_lineups = normalize_team_columns(weekly_lineups)
+luck_season = normalize_team_columns(luck_season)
+luck_all_time = normalize_team_columns(luck_all_time)
 
 
 # ============================================================
@@ -283,8 +329,20 @@ if not team_playoffs.empty:
         p.get("ties", 0),
     )
 
+    completed_appearances = team_appearances[
+        pd.to_numeric(
+            team_appearances["year"],
+            errors="coerce",
+        ).le(LAST_COMPLETED_SEASON)
+    ].copy()
+
     playoff_seasons = int(
-        p["playoff_seasons"]
+        pd.to_numeric(
+            completed_appearances["year"],
+            errors="coerce",
+        )
+        .dropna()
+        .nunique()
     )
 
     titles = int(
@@ -298,12 +356,28 @@ if not team_playoffs.empty:
 else:
 
     playoff_record = "0-0"
-    playoff_seasons = 0
+
+    completed_appearances = team_appearances[
+        pd.to_numeric(
+            team_appearances["year"],
+            errors="coerce",
+        ).le(LAST_COMPLETED_SEASON)
+    ].copy()
+
+    playoff_seasons = int(
+        pd.to_numeric(
+            completed_appearances["year"],
+            errors="coerce",
+        )
+        .dropna()
+        .nunique()
+    )
+
     titles = 0
     finals = 0
 
 
-c1, c2, c3, c4, c5 = st.columns(5)
+c1, c2, c3, c4, c5, c6 = st.columns(6)
 
 c1.metric(
     "Regular-Season Record",
@@ -316,16 +390,21 @@ c2.metric(
 )
 
 c3.metric(
+    "Playoff Appearances",
+    playoff_seasons,
+)
+
+c4.metric(
     "Playoff Record",
     playoff_record,
 )
 
-c4.metric(
+c5.metric(
     "Championships",
     titles,
 )
 
-c5.metric(
+c6.metric(
     "Finals",
     finals,
 )
@@ -1196,7 +1275,7 @@ season_table = (
 
 season_table["Postseason"] = season_table.apply(
     lambda row: (
-        "In Progress"
+        ""
         if int(row["year"]) > LAST_COMPLETED_SEASON
         and pd.isna(row["Postseason"])
         else (

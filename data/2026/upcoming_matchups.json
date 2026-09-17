@@ -1,0 +1,68 @@
+[
+  {
+    "year": 2026,
+    "week": 2,
+    "team_1": "The Big Gronkowski",
+    "team_2": "Joe Mantegna",
+    "team_1_projected": 100.85,
+    "team_2_projected": 106.34,
+    "status": "midevent",
+    "is_playoffs": false,
+    "source": "yahoo_fantasy_api"
+  },
+  {
+    "year": 2026,
+    "week": 2,
+    "team_1": "Malle ❤️ 🐸",
+    "team_2": "Uncle Rico",
+    "team_1_projected": 103.22,
+    "team_2_projected": 102.07,
+    "status": "midevent",
+    "is_playoffs": false,
+    "source": "yahoo_fantasy_api"
+  },
+  {
+    "year": 2026,
+    "week": 2,
+    "team_1": "Voldemort",
+    "team_2": "ThreatLevelMidnight",
+    "team_1_projected": 109.8,
+    "team_2_projected": 114.39,
+    "status": "midevent",
+    "is_playoffs": false,
+    "source": "yahoo_fantasy_api"
+  },
+  {
+    "year": 2026,
+    "week": 2,
+    "team_1": "Pop Lockett Drop it",
+    "team_2": "Buttermilk Puuump",
+    "team_1_projected": 108.25,
+    "team_2_projected": 112.96,
+    "status": "midevent",
+    "is_playoffs": false,
+    "source": "yahoo_fantasy_api"
+  },
+  {
+    "year": 2026,
+    "week": 2,
+    "team_1": "Post Mahomes",
+    "team_2": "Patty Primetimes",
+    "team_1_projected": 99.3,
+    "team_2_projected": 113.88,
+    "status": "midevent",
+    "is_playoffs": false,
+    "source": "yahoo_fantasy_api"
+  },
+  {
+    "year": 2026,
+    "week": 2,
+    "team_1": "Ginger FC 🏆🏆",
+    "team_2": "malle_dips_pouches",
+    "team_1_projected": 110.25,
+    "team_2_projected": 112.9,
+    "status": "midevent",
+    "is_playoffs": false,
+    "source": "yahoo_fantasy_api"
+  }
+]

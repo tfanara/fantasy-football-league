@@ -1,27 +1,16 @@
 from yahoofantasy import Context
 
-
-# ---------------------------------------------------------
-# CREATE AUTHENTICATED YAHOO CONTEXT
-# ---------------------------------------------------------
-
 ctx = Context()
-
 
 print()
 print("Yahoo Fantasy Context created!")
 print()
 
-
-# ---------------------------------------------------------
-# TEST 2025 NFL
-# ---------------------------------------------------------
-
-print("Testing 2025 NFL...")
+print("Testing 2026 NFL...")
 print("=" * 50)
 
 try:
-    leagues = ctx.get_leagues("nfl", 2025)
+    leagues = ctx.get_leagues("nfl", 2026)
 
     print()
     print(f"Found {len(leagues)} league(s):")
@@ -37,4 +26,5 @@ try:
 except Exception as e:
     print()
     print("ERROR:")
+    print(type(e).__name__)
     print(e)

@@ -6,8 +6,8 @@
     "points_for": 169.76,
     "points_against": 98.6,
     "streak": "win",
-    "waiver": 5,
-    "moves": 0,
+    "waiver": 12,
+    "moves": 1,
     "year": 2026,
     "league_id": "742546"
   },
@@ -30,7 +30,7 @@
     "points_for": 149.86,
     "points_against": 107.46,
     "streak": "win",
-    "waiver": 11,
+    "waiver": 10,
     "moves": 0,
     "year": 2026,
     "league_id": "742546"
@@ -42,7 +42,7 @@
     "points_for": 149.44,
     "points_against": 111.76,
     "streak": "win",
-    "waiver": 12,
+    "waiver": 11,
     "moves": 1,
     "year": 2026,
     "league_id": "742546"
@@ -66,7 +66,7 @@
     "points_for": 92.46,
     "points_against": 84.52,
     "streak": "win",
-    "waiver": 7,
+    "waiver": 6,
     "moves": 2,
     "year": 2026,
     "league_id": "742546"
@@ -78,7 +78,7 @@
     "points_for": 120.52,
     "points_against": 164.54,
     "streak": "loss",
-    "waiver": 9,
+    "waiver": 8,
     "moves": 0,
     "year": 2026,
     "league_id": "742546"
@@ -90,7 +90,7 @@
     "points_for": 111.76,
     "points_against": 149.44,
     "streak": "loss",
-    "waiver": 10,
+    "waiver": 9,
     "moves": 1,
     "year": 2026,
     "league_id": "742546"
@@ -126,7 +126,7 @@
     "points_for": 84.52,
     "points_against": 92.46,
     "streak": "loss",
-    "waiver": 6,
+    "waiver": 5,
     "moves": 0,
     "year": 2026,
     "league_id": "742546"
@@ -138,7 +138,7 @@
     "points_for": 71.4,
     "points_against": 98.36,
     "streak": "loss",
-    "waiver": 8,
+    "waiver": 7,
     "moves": 0,
     "year": 2026,
     "league_id": "742546"

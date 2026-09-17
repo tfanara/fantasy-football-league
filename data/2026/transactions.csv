@@ -1,0 +1,8 @@
+year,transaction_id,transaction_key,timestamp,date,team,transaction_type,added_player,acquisition_type,dropped_player,status,source
+2026,15,470.l.742546.tr.15,1788506202,2026-09-04T03:16:42-04:00,malle_dips_pouches,add,Tank Dell,waiver,,successful,yahoo_fantasy_api
+2026,16,470.l.742546.tr.16,1788537581,2026-09-04T11:59:41-04:00,ThreatLevelMidnight,add,Tre Tucker,free_agent,,successful,yahoo_fantasy_api
+2026,17,470.l.742546.tr.17,1788791386,2026-09-07T10:29:46-04:00,Joe Mantegna,add/drop,Dontayvion Wicks,free_agent,Kyler Murray,successful,yahoo_fantasy_api
+2026,18,470.l.742546.tr.18,1788866542,2026-09-08T07:22:22-04:00,Voldemort,add,Jalen Nailor,free_agent,,successful,yahoo_fantasy_api
+2026,19,470.l.742546.tr.19,1788878602,2026-09-08T10:43:22-04:00,ThreatLevelMidnight,add/drop,Kaelon Black,free_agent,Ray Davis,successful,yahoo_fantasy_api
+2026,20,470.l.742546.tr.20,1789480801,2026-09-15T10:00:01-04:00,Post Mahomes,drop,,,Dylan Sampson,successful,yahoo_fantasy_api
+2026,21,470.l.742546.tr.21,1789547672,2026-09-16T04:34:32-04:00,Pop Lockett Drop it,add/drop,Buccaneers,waiver,Lions,successful,yahoo_fantasy_api

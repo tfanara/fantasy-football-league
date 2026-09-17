@@ -3,6 +3,8 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 
+import season_config as season_cfg
+
 st.set_page_config(page_title='League Records', page_icon='🏅', layout='wide')
 
 BASE_DIR = Path(__file__).resolve().parents[1]
@@ -10,6 +12,16 @@ HISTORY_DIR = BASE_DIR / 'data' / 'history'
 PLAYOFF_DIR = BASE_DIR / 'data' / 'playoffs'
 PLAYER_WEEK_DIR = BASE_DIR / 'data' / 'matchups' / 'player_week_stats'
 ANALYSIS_DIR = PLAYER_WEEK_DIR / 'analysis'
+
+# Season boundaries come from the shared league configuration.
+CURRENT_SEASON = int(getattr(season_cfg, "CURRENT_SEASON", pd.Timestamp.now().year))
+COMPLETED_SEASON_THROUGH = int(
+    getattr(
+        season_cfg,
+        "SEASON_FINAL_THROUGH",
+        getattr(season_cfg, "LAST_COMPLETED_SEASON", CURRENT_SEASON - 1),
+    )
+)
 
 FILES = {
     'team_games': HISTORY_DIR / 'team_games.csv',
@@ -87,6 +99,9 @@ FRANCHISE_ALIASES = {
     "Ur The Best Bellows": "Joe Mantegna",
     "You Better Park It": "Buttermilk Puuump",
     "Buttermilk Pump": "Buttermilk Puuump",
+    "Ginger FC": "Ginger FC 🏆🏆",
+    "Ginger FC Trophy Trophy": "Ginger FC 🏆🏆",
+    "Ginger FC 🏆🏆": "Ginger FC 🏆🏆",
 }
 
 
@@ -169,8 +184,8 @@ st.markdown('''
 
 st.caption('Regular-season records come from clean historical game data. Roster records use validated weekly player data where available.')
 
-(tab_league, tab_season, tab_roster, tab_streaks, tab_milestones) = st.tabs([
-    '🏛️ League','📅 Season','🧍 Roster','🔥 Streaks','🎯 Milestones'
+(tab_watch, tab_league, tab_season, tab_roster, tab_streaks, tab_milestones) = st.tabs([
+    '👀 Watch','🏛️ League','📅 Season','🧍 Roster','🔥 Streaks','🎯 Milestones'
 ])
 
 # ============================================================
@@ -213,6 +228,13 @@ with tab_league:
         regular["loss_add"] = (
             regular["result"].eq("L").astype(int)
         )
+
+        # Career counts of weekly league-high and league-low scores.
+        # Ties count for every franchise sharing that week's extreme.
+        weekly_high = regular.groupby(["year", "week"])["points_for"].transform("max")
+        weekly_low = regular.groupby(["year", "week"])["points_for"].transform("min")
+        regular["weekly_high_add"] = np.isclose(regular["points_for"], weekly_high).astype(int)
+        regular["weekly_low_add"] = np.isclose(regular["points_for"], weekly_low).astype(int)
 
     if not luck_team_week.empty:
         numeric(
@@ -2124,6 +2146,8 @@ with tab_league:
                 "🛡️ Points Against",
                 "🌐 All-Play Wins",
                 "🌐 All-Play Losses",
+                "🥇 Weekly High Scores",
+                "🥶 Weekly Low Scores",
             ],
         ),
         (
@@ -2166,6 +2190,8 @@ with tab_league:
         "🛡️ Points Against": "🛡️ PA",
         "🌐 All-Play Wins": "🌐 AP Wins",
         "🌐 All-Play Losses": "🌐 AP Losses",
+        "🥇 Weekly High Scores": "🥇 Weekly Highs",
+        "🥶 Weekly Low Scores": "🥶 Weekly Lows",
         "🔥 Highest Single-Game Score": "🔥 High Score",
         "🧊 Lowest Single-Game Score": "🧊 Low Score",
         "💥 Biggest Blowout Win": "💥 Blowout",
@@ -2252,6 +2278,18 @@ with tab_league:
             "POINTS AGAINST",
             "The franchise that has faced the most cumulative opponent scoring.",
             lambda x: f"{x:,.2f}",
+        ),
+        "🥇 Weekly High Scores": (
+            "weekly_high_add",
+            "WEEKS AS LEAGUE HIGH SCORER",
+            "Most regular-season weeks finishing as the highest-scoring franchise in the league. Ties count for each tied franchise.",
+            lambda x: f"{int(round(x)):,}",
+        ),
+        "🥶 Weekly Low Scores": (
+            "weekly_low_add",
+            "WEEKS AS LEAGUE LOW SCORER",
+            "Most regular-season weeks finishing as the lowest-scoring franchise in the league. Ties count for each tied franchise.",
+            lambda x: f"{int(round(x)):,}",
         ),
     }
 
@@ -3068,6 +3106,16 @@ with tab_season:
             season_records.copy()
         )
 
+        # Official single-season records use completed seasons only.
+        # The active season remains available to the Watch tab below.
+        if "year" in season_work.columns:
+            season_work["year"] = pd.to_numeric(
+                season_work["year"], errors="coerce"
+            )
+            season_work = season_work[
+                season_work["year"] <= COMPLETED_SEASON_THROUGH
+            ].copy()
+
         scol = team_col(
             season_work
         )
@@ -3086,6 +3134,7 @@ with tab_season:
                     "ties",
                     "points_for",
                     "points_against",
+                    "point_diff",
                     "win_pct",
                 ],
             )
@@ -3104,6 +3153,11 @@ with tab_season:
                         "all_play_losses",
                     ],
                 )
+
+                if "year" in luck_for_season.columns:
+                    luck_for_season = luck_for_season[
+                        luck_for_season["year"] <= COMPLETED_SEASON_THROUGH
+                    ].copy()
 
                 if {
                     "year",
@@ -3166,6 +3220,20 @@ with tab_season:
                     ],
                 ),
                 (
+                    "Points Against",
+                    [
+                        "🛡️ Most Points Against",
+                        "🍀 Least Points Against",
+                    ],
+                ),
+                (
+                    "Point Differential",
+                    [
+                        "📈 Highest Point Differential",
+                        "📉 Lowest Point Differential",
+                    ],
+                ),
+                (
                     "All-Play",
                     [
                         "🌐 Most All-Play Wins",
@@ -3188,6 +3256,14 @@ with tab_season:
                     "🔥 Points",
                 "🧊 Least Points":
                     "🧊 Low Points",
+                "🛡️ Most Points Against":
+                    "🛡️ Most PA",
+                "🍀 Least Points Against":
+                    "🍀 Least PA",
+                "📈 Highest Point Differential":
+                    "📈 Best Diff",
+                "📉 Lowest Point Differential":
+                    "📉 Worst Diff",
                 "🌐 Most All-Play Wins":
                     "🌐 AP Wins",
                 "🌐 Most All-Play Losses":
@@ -3311,6 +3387,34 @@ with tab_season:
                     "format":
                         lambda x:
                             f"{x:,.2f}",
+                },
+                "🛡️ Most Points Against": {
+                    "value_col": "points_against",
+                    "ascending": False,
+                    "label": "POINTS AGAINST",
+                    "description": "Most regular-season points faced by one franchise in a single season.",
+                    "format": lambda x: f"{x:,.2f}",
+                },
+                "🍀 Least Points Against": {
+                    "value_col": "points_against",
+                    "ascending": True,
+                    "label": "POINTS AGAINST",
+                    "description": "Fewest regular-season points faced by one franchise in a single season.",
+                    "format": lambda x: f"{x:,.2f}",
+                },
+                "📈 Highest Point Differential": {
+                    "value_col": "point_diff",
+                    "ascending": False,
+                    "label": "POINT DIFFERENTIAL",
+                    "description": "Best regular-season point differential by one franchise in a single season.",
+                    "format": lambda x: f"{x:+,.2f}",
+                },
+                "📉 Lowest Point Differential": {
+                    "value_col": "point_diff",
+                    "ascending": True,
+                    "label": "POINT DIFFERENTIAL",
+                    "description": "Worst regular-season point differential by one franchise in a single season.",
+                    "format": lambda x: f"{x:+,.2f}",
                 },
                 "🌐 Most All-Play Wins": {
                     "value_col":
@@ -5635,6 +5739,372 @@ with tab_milestones:
 
                 if i < len(timeline) - 1:
                     st.divider()
+
+
+# ============================================================
+# WATCH BOARD
+# ============================================================
+with tab_watch:
+    st.header("👀 Records & Milestones Watch")
+    st.caption(
+        "The live league-history radar: active streaks, approaching career milestones, "
+        "and all-time records that are close enough to change soon. No projections are invented."
+    )
+
+    active_season = CURRENT_SEASON
+    completed_regular_week = 0
+    if not team_games.empty and {"year", "week"}.issubset(team_games.columns):
+        current_games = team_games[
+            pd.to_numeric(team_games["year"], errors="coerce").eq(active_season)
+        ].copy()
+        if not current_games.empty:
+            completed_regular_week = int(
+                pd.to_numeric(current_games["week"], errors="coerce").dropna().max()
+            )
+
+    streak_alerts = []
+    milestone_alerts = []
+    record_alerts = []
+
+    def watch_urgency(away, brink=1, close=2):
+        if away <= brink:
+            return "🚨 ON THE BRINK", 0
+        if away <= close:
+            return "🔥 CLOSE", 1
+        return "👀 WATCHING", 2
+
+    # ------------------------------------------------------------
+    # ACTIVE STREAK CHASES
+    # ------------------------------------------------------------
+    for streak_name, streak_config in streak_configs.items():
+        streak_kind = streak_config["kind"]
+        streak_runs = pd.DataFrame()
+        streak_source = pd.DataFrame()
+
+        if streak_kind == "regular":
+            streak_source = games
+            streak_runs, _ = build_game_streak_history(
+                streak_source, streak_config["condition"]
+            )
+        elif streak_kind == "playoff":
+            streak_source = playoff_streak_games
+            streak_runs, _ = build_game_streak_history(
+                streak_source, streak_config["condition"]
+            )
+        elif streak_kind == "season":
+            streak_source = season_streaks
+            streak_runs, _ = build_season_streak_history(
+                streak_source, streak_config["condition_col"]
+            )
+
+        if streak_runs.empty or streak_source.empty:
+            continue
+
+        record_value = int(streak_runs["length"].max())
+
+        if streak_kind == "regular":
+            # A regular-season streak is live only if it reaches the latest completed
+            # game period of the active season. This prevents 2025 streaks from being
+            # presented as active before the first completed 2026 game.
+            if completed_regular_week <= 0:
+                continue
+            for team, group in streak_source.groupby("team"):
+                group = group.sort_values(["year", "week"])
+                last = group.iloc[-1]
+                if (
+                    int(last["year"]) != active_season
+                    or int(last["week"]) != completed_regular_week
+                    or not streak_config["condition"](last)
+                ):
+                    continue
+                current = 0
+                for _, row in group.iloc[::-1].iterrows():
+                    if not streak_config["condition"](row):
+                        break
+                    current += 1
+                away = max(record_value - current, 0)
+                if away <= 2:
+                    urgency, urgency_rank = watch_urgency(away)
+                    streak_alerts.append({
+                        "Urgency": urgency, "_urgency": urgency_rank,
+                        "Franchise": team, "Streak": streak_name,
+                        "Current": current, "Record": record_value, "Away": away,
+                    })
+
+        elif streak_kind == "playoff":
+            latest_playoff_year = int(streak_source["year"].max())
+            if latest_playoff_year != active_season:
+                continue
+            for team, group in streak_source.groupby("team"):
+                group = group.sort_values(["year", "week"])
+                last = group.iloc[-1]
+                if int(last["year"]) != active_season or not streak_config["condition"](last):
+                    continue
+                current = 0
+                for _, row in group.iloc[::-1].iterrows():
+                    if not streak_config["condition"](row):
+                        break
+                    current += 1
+                away = max(record_value - current, 0)
+                if away <= 2:
+                    urgency, urgency_rank = watch_urgency(away)
+                    streak_alerts.append({
+                        "Urgency": urgency, "_urgency": urgency_rank,
+                        "Franchise": team, "Streak": streak_name,
+                        "Current": current, "Record": record_value, "Away": away,
+                    })
+
+        elif streak_kind == "season":
+            # Season-result streaks are final-season records. They remain visible only
+            # when the source itself contains the active season as a completed result.
+            latest_season = int(streak_source["year"].max())
+            if latest_season != active_season:
+                continue
+            for team, group in streak_source.groupby("team"):
+                group = group.sort_values("year")
+                last = group.iloc[-1]
+                if int(last["year"]) != active_season or not bool(last[streak_config["condition_col"]]):
+                    continue
+                current = 0
+                expected_year = active_season
+                for _, row in group.iloc[::-1].iterrows():
+                    if int(row["year"]) != expected_year or not bool(row[streak_config["condition_col"]]):
+                        break
+                    current += 1
+                    expected_year -= 1
+                away = max(record_value - current, 0)
+                if away <= 1:
+                    urgency, urgency_rank = watch_urgency(away, brink=1, close=1)
+                    streak_alerts.append({
+                        "Urgency": urgency, "_urgency": urgency_rank,
+                        "Franchise": team, "Streak": streak_name,
+                        "Current": current, "Record": record_value, "Away": away,
+                    })
+
+    # ------------------------------------------------------------
+    # APPROACHING MILESTONES
+    # ------------------------------------------------------------
+    team_career = pd.DataFrame()
+    if not team_games.empty:
+        career_source = normalize_franchise_columns(team_games.copy())
+        numeric(career_source, ["year", "week", "points_for"])
+        team_career = (
+            career_source.groupby("team", as_index=False)
+            .agg(
+                wins=("result", lambda s: int((s == "W").sum())),
+                points=("points_for", "sum"),
+            )
+        )
+
+        for _, row in team_career.iterrows():
+            team = row["team"]
+            for milestone_name, cfg in milestone_configs.items():
+                if cfg["kind"] not in {"team_wins", "team_points"}:
+                    continue
+                current = float(row["wins"] if cfg["kind"] == "team_wins" else row["points"])
+                threshold = float(cfg["threshold"])
+                if current >= threshold:
+                    continue
+                remaining = threshold - current
+                qualifies = (
+                    remaining <= 5
+                    if cfg["kind"] == "team_wins"
+                    else remaining <= 500
+                )
+                if qualifies:
+                    progress = current / threshold if threshold else 0.0
+                    urgency = "🚨 ON THE BRINK" if progress >= .98 else ("🔥 CLOSE" if progress >= .95 else "👀 WATCHING")
+                    urgency_rank = 0 if progress >= .98 else (1 if progress >= .95 else 2)
+                    milestone_alerts.append({
+                        "Urgency": urgency, "_urgency": urgency_rank,
+                        "Member": team, "Milestone": milestone_name,
+                        "Current": current, "To Go": remaining, "Progress": progress,
+                        "Kind": cfg["kind"],
+                    })
+
+    # Player milestones use validated starter history only.
+    if not weekly_lineups.empty:
+        watch_roster = weekly_lineups[
+            weekly_lineups["player"].astype(str).str.strip().ne("(Empty)")
+        ].copy()
+        if "is_starter" in watch_roster.columns:
+            watch_starter_mask = (
+                watch_roster["is_starter"].astype(str).str.strip().str.lower()
+                .isin(["true", "1", "yes"])
+            )
+        else:
+            watch_starter_mask = ~watch_roster["lineup_slot"].astype(str).str.upper().isin(["BN", "IR", "IR+"])
+        watch_starters = watch_roster[watch_starter_mask].copy()
+        numeric(watch_starters, ["fantasy_points"])
+        player_career = (
+            watch_starters.groupby("player", as_index=False)
+            .agg(points=("fantasy_points", "sum"), starts=("player", "size"))
+        )
+        for _, row in player_career.iterrows():
+            for milestone_name, cfg in milestone_configs.items():
+                if cfg["kind"] not in {"player_points", "player_starts"}:
+                    continue
+                current = float(row["points"] if cfg["kind"] == "player_points" else row["starts"])
+                threshold = float(cfg["threshold"])
+                if current >= threshold:
+                    continue
+                remaining = threshold - current
+                qualifies = remaining <= (100 if cfg["kind"] == "player_points" else 10)
+                if qualifies:
+                    progress = current / threshold if threshold else 0.0
+                    urgency = "🚨 ON THE BRINK" if progress >= .98 else ("🔥 CLOSE" if progress >= .95 else "👀 WATCHING")
+                    urgency_rank = 0 if progress >= .98 else (1 if progress >= .95 else 2)
+                    milestone_alerts.append({
+                        "Urgency": urgency, "_urgency": urgency_rank,
+                        "Member": row["player"], "Milestone": milestone_name,
+                        "Current": current, "To Go": remaining, "Progress": progress,
+                        "Kind": cfg["kind"],
+                    })
+
+    # ------------------------------------------------------------
+    # ALL-TIME RECORDS IN RANGE
+    # ------------------------------------------------------------
+    if not team_career.empty and len(team_career) > 1:
+        for metric, label, close_gap, value_format in [
+            ("wins", "🏆 Career Wins Record", 5.0, lambda x: f"{int(round(x)):,}"),
+            ("points", "📈 Career Points Record", 500.0, lambda x: f"{x:,.2f}"),
+        ]:
+            board = team_career.sort_values(metric, ascending=False).reset_index(drop=True)
+            record_value = float(board.iloc[0][metric])
+            record_holder = str(board.iloc[0]["team"])
+            for _, row in board.iloc[1:].iterrows():
+                gap = record_value - float(row[metric])
+                if 0 < gap <= close_gap:
+                    urgency, urgency_rank = watch_urgency(
+                        gap, brink=1.0 if metric == "wins" else 100.0,
+                        close=2.0 if metric == "wins" else 250.0,
+                    )
+                    record_alerts.append({
+                        "Urgency": urgency, "_urgency": urgency_rank,
+                        "Franchise": row["team"], "Record": label,
+                        "Current": value_format(float(row[metric])),
+                        "Leader": f"{record_holder} — {value_format(record_value)}",
+                        "Gap": value_format(gap),
+                    })
+
+    # Current-season cumulative records become meaningful only from actual results.
+    if completed_regular_week > 0 and not season_records.empty:
+        sr = normalize_franchise_columns(season_records.copy())
+        numeric(sr, ["year", "wins", "points_for"])
+        historical_sr = sr[pd.to_numeric(sr["year"], errors="coerce") < active_season].copy()
+        current_sr = sr[pd.to_numeric(sr["year"], errors="coerce").eq(active_season)].copy()
+        for metric, label, close_gap, fmt in [
+            ("wins", "📅 Single-Season Wins Record", 2.0, lambda x: f"{int(round(x))}"),
+            ("points_for", "📅 Single-Season Points Record", 250.0, lambda x: f"{x:,.2f}"),
+        ]:
+            if historical_sr.empty or current_sr.empty or metric not in historical_sr.columns:
+                continue
+            record_value = float(historical_sr[metric].max())
+            holders = historical_sr[np.isclose(historical_sr[metric], record_value)]["team"].astype(str).unique().tolist()
+            for _, row in current_sr.dropna(subset=[metric]).iterrows():
+                gap = record_value - float(row[metric])
+                if 0 < gap <= close_gap:
+                    urgency, urgency_rank = watch_urgency(
+                        gap, brink=1.0 if metric == "wins" else 100.0,
+                        close=2.0 if metric == "wins" else 250.0,
+                    )
+                    record_alerts.append({
+                        "Urgency": urgency, "_urgency": urgency_rank,
+                        "Franchise": row["team"], "Record": label,
+                        "Current": fmt(float(row[metric])),
+                        "Leader": f"{' & '.join(holders)} — {fmt(record_value)}",
+                        "Gap": fmt(gap),
+                    })
+
+    streak_watch = pd.DataFrame(streak_alerts)
+    milestone_watch = pd.DataFrame(milestone_alerts)
+    record_watch = pd.DataFrame(record_alerts)
+
+    m1, m2, m3 = st.columns(3)
+    m1.metric("🔥 Active Streak Chases", len(streak_watch))
+    m2.metric("🎯 Milestones Approaching", len(milestone_watch))
+    m3.metric("🏆 Records in Range", len(record_watch))
+
+    if completed_regular_week > 0:
+        st.success(f"2026 watch board is live through Week {completed_regular_week}.")
+    else:
+        st.info(
+            f"No completed {active_season} regular-season games are loaded yet. "
+            "Weekly streak and season-record chases will activate automatically after the first completed week; "
+            "career milestone and career-record chases can still appear below."
+        )
+
+    st.divider()
+    st.subheader("🔥 Streaks in Danger")
+    if streak_watch.empty:
+        st.caption("No active streak is currently within the watch threshold of an all-time record.")
+    else:
+        streak_watch = streak_watch.sort_values(
+            ["_urgency", "Away", "Current", "Franchise"],
+            ascending=[True, True, False, True],
+        ).drop(columns="_urgency")
+        st.dataframe(
+            streak_watch, hide_index=True, use_container_width=True,
+            column_config={
+                "Urgency": st.column_config.TextColumn("Status", width="medium"),
+                "Franchise": st.column_config.TextColumn("Franchise", width="large"),
+                "Streak": st.column_config.TextColumn("Streak", width="large"),
+                "Current": st.column_config.NumberColumn("Current", format="%d", width="small"),
+                "Record": st.column_config.NumberColumn("Record", format="%d", width="small"),
+                "Away": st.column_config.NumberColumn("Away", format="%d", width="small"),
+            },
+        )
+
+    st.divider()
+    st.subheader("🎯 Milestones Approaching")
+    if milestone_watch.empty:
+        st.caption("No tracked career milestone is currently inside the watch threshold.")
+    else:
+        milestone_watch = milestone_watch.sort_values(
+            ["_urgency", "Progress", "To Go", "Member"],
+            ascending=[True, False, True, True],
+        ).head(15).copy()
+        milestone_watch["Current"] = milestone_watch.apply(
+            lambda r: f"{r['Current']:,.2f}" if r["Kind"] in {"team_points", "player_points"} else f"{int(round(r['Current'])):,}",
+            axis=1,
+        )
+        milestone_watch["To Go"] = milestone_watch.apply(
+            lambda r: f"{r['To Go']:,.2f}" if r["Kind"] in {"team_points", "player_points"} else f"{int(round(r['To Go'])):,}",
+            axis=1,
+        )
+        milestone_watch["Progress"] = milestone_watch["Progress"].apply(lambda x: f"{x:.0%}")
+        st.dataframe(
+            milestone_watch[["Urgency", "Member", "Milestone", "Current", "To Go", "Progress"]],
+            hide_index=True, use_container_width=True,
+            column_config={
+                "Urgency": st.column_config.TextColumn("Status", width="medium"),
+                "Member": st.column_config.TextColumn("Franchise / Player", width="large"),
+                "Milestone": st.column_config.TextColumn("Milestone", width="large"),
+                "Current": st.column_config.TextColumn("Current", width="small"),
+                "To Go": st.column_config.TextColumn("To Go", width="small"),
+                "Progress": st.column_config.TextColumn("Progress", width="small"),
+            },
+        )
+
+    st.divider()
+    st.subheader("🏆 Records in Range")
+    if record_watch.empty:
+        st.caption("No tracked all-time record is currently inside the watch threshold.")
+    else:
+        record_watch = record_watch.sort_values(
+            ["_urgency", "Record", "Franchise"]
+        ).drop(columns="_urgency")
+        st.dataframe(
+            record_watch, hide_index=True, use_container_width=True,
+            column_config={
+                "Urgency": st.column_config.TextColumn("Status", width="medium"),
+                "Franchise": st.column_config.TextColumn("Challenger", width="large"),
+                "Record": st.column_config.TextColumn("Record", width="large"),
+                "Current": st.column_config.TextColumn("Current", width="small"),
+                "Leader": st.column_config.TextColumn("Current Record", width="large"),
+                "Gap": st.column_config.TextColumn("Gap", width="small"),
+            },
+        )
 
 
 

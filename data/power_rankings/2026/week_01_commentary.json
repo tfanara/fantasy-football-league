@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "season": 2026,
+  "week": 1,
+  "commentary": [
+    {
+      "power_rank": 1,
+      "team": "Pop Lockett Drop it",
+      "commentary": "Pop Lockett Drop it destroyed Voldemort 169.76 to 98.6 behind a monstrous 32.6 points from Kenneth Walker. A flawless 100 percent lineup efficiency leaves the rest of the league on notice.",
+      "evidence_tags": [
+        "player_performance",
+        "matchup",
+        "lineup",
+        "standings",
+        "season_context"
+      ]
+    },
+    {
+      "power_rank": 2,
+      "team": "Ginger FC 🏆🏆",
+      "commentary": "Derrick Henry hammered out 34.8 points to power Ginger FC past Malle ❤️ 🐸 164.54 to 120.52. Even with a few points left on the bench, this squad looks terrifying out of the gate.",
+      "evidence_tags": [
+        "player_performance",
+        "matchup",
+        "lineup",
+        "standings",
+        "season_context"
+      ]
+    },
+    {
+      "power_rank": 3,
+      "team": "Patty Primetimes",
+      "commentary": "Josh Allen put on a clinic with 39.66 points, supplemented by Isaiah Likely and Evan McPherson, to cruise past Uncle Rico 149.86 to 107.46.",
+      "evidence_tags": [
+        "player_performance",
+        "matchup",
+        "lineup",
+        "standings",
+        "season_context"
+      ]
+    },
+    {
+      "power_rank": 4,
+      "team": "malle_dips_pouches",
+      "commentary": "Jahmyr Gibbs and Jalen Coker carried the load with 31.1 and 29.8 points respectively in a 149.44 to 111.76 victory over Joe Mantegna. Tank Dell was also added ahead of the action.",
+      "evidence_tags": [
+        "player_performance",
+        "matchup",
+        "lineup",
+        "transaction",
+        "standings",
+        "season_context"
+      ]
+    },
+    {
+      "power_rank": 5,
+      "team": "Joe Mantegna",
+      "commentary": "Caleb Williams dropped an incredible 41.26 points, but it wasn't enough to avoid a brutal 149.44 to 111.76 loss against malle_dips_pouches. That qualifies as a severe bad beat.",
+      "evidence_tags": [
+        "player_performance",
+        "matchup",
+        "luck",
+        "lineup",
+        "transaction",
+        "standings",
+        "season_context"
+      ]
+    },
+    {
+      "power_rank": 6,
+      "team": "Malle ❤️ 🐸",
+      "commentary": "Despite 31.9 points from D'Andre Swift and 30.72 from Jalen Hurts, Malle ran straight into a buzzsaw against Ginger FC, suffering a tough 164.54 to 120.52 bad beat.",
+      "evidence_tags": [
+        "player_performance",
+        "matchup",
+        "luck",
+        "lineup",
+        "standings",
+        "season_context"
+      ]
+    },
+    {
+      "power_rank": 7,
+      "team": "Uncle Rico",
+      "commentary": "The Steelers defense tried to spark a comeback with 18 points, but a sluggish overall output led to a 149.86 to 107.46 defeat at the hands of Patty Primetimes.",
+      "evidence_tags": [
+        "player_performance",
+        "matchup",
+        "lineup",
+        "standings",
+        "season_context"
+      ]
+    },
+    {
+      "power_rank": 8,
+      "team": "Post Mahomes",
+      "commentary": "It wasn't pretty, but Post Mahomes scraped together a 98.36 to 71.4 win over Buttermilk Puuump. Winning while ranking near the bottom in scoring makes this a classic lucky win.",
+      "evidence_tags": [
+        "matchup",
+        "luck",
+        "lineup",
+        "standings",
+        "season_context"
+      ]
+    },
+    {
+      "power_rank": 9,
+      "team": "Voldemort",
+      "commentary": "Voldemort ran into a freight train named Pop Lockett Drop it, absorbing a 71.16-point blowout defeat. To make matters worse, the franchise officially crossed 50 career losses.",
+      "evidence_tags": [
+        "matchup",
+        "lineup",
+        "milestone",
+        "standings",
+        "season_context"
+      ]
+    },
+    {
+      "power_rank": 10,
+      "team": "ThreatLevelMidnight",
+      "commentary": "ThreatLevelMidnight squeaked out a 92.46 to 84.52 nail-biter against The Big Gronkowski. The low-scoring escape counts as a lucky win and successfully snaps a two-game losing streak.",
+      "evidence_tags": [
+        "matchup",
+        "luck",
+        "lineup",
+        "transaction",
+        "milestone",
+        "standings",
+        "season_context"
+      ]
+    },
+    {
+      "power_rank": 11,
+      "team": "The Big Gronkowski",
+      "commentary": "A sluggish 84.52-point effort resulted in a narrow 7.94-point loss to ThreatLevelMidnight. Better lineup management could have salvaged a win from the bench.",
+      "evidence_tags": [
+        "matchup",
+        "lineup",
+        "standings",
+        "season_context"
+      ]
+    },
+    {
+      "power_rank": 12,
+      "team": "Buttermilk Puuump",
+      "commentary": "Things got ugly fast as Buttermilk Puuump posted a league-low 71.4 points in a 26.96-point loss to Post Mahomes. Serious adjustments are needed after a dismal 77.61 percent lineup efficiency.",
+      "evidence_tags": [
+        "matchup",
+        "lineup",
+        "standings",
+        "season_context"
+      ]
+    }
+  ]
+}

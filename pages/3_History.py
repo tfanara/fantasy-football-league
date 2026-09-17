@@ -3,6 +3,7 @@ import pandas as pd
 from pathlib import Path
 
 from season_config import CURRENT_SEASON, LAST_COMPLETED_SEASON
+from team_aliases import canonical_team
 
 
 # ============================================================
@@ -129,6 +130,46 @@ for df in [
 
 
 # ============================================================
+# FRANCHISE IDENTITY NORMALIZATION
+# ============================================================
+
+def normalize_team_columns(df):
+    """Apply the league-wide canonical franchise names to team-bearing columns."""
+    if df is None or df.empty:
+        return df
+
+    out = df.copy()
+    team_columns = [
+        "team",
+        "fantasy_team",
+        "franchise",
+        "opponent",
+        "champion",
+        "runner_up",
+        "winner",
+        "loser",
+    ]
+
+    for col in team_columns:
+        if col in out.columns:
+            out[col] = out[col].map(
+                lambda value: canonical_team(value)
+                if not pd.isna(value)
+                else value
+            )
+
+    return out
+
+
+season_records = normalize_team_columns(season_records)
+all_time = normalize_team_columns(all_time)
+team_games = normalize_team_columns(team_games)
+championships = normalize_team_columns(championships)
+playoff_records = normalize_team_columns(playoff_records)
+playoff_appearances = normalize_team_columns(playoff_appearances)
+
+
+# ============================================================
 # HELPERS
 # ============================================================
 
@@ -160,7 +201,10 @@ st.header("League Overview")
 
 
 seasons = sorted(
-    season_records["year"]
+    season_records.loc[
+        season_records["year"].le(LAST_COMPLETED_SEASON),
+        "year",
+    ]
     .dropna()
     .astype(int)
     .unique()
@@ -260,6 +304,55 @@ st.dataframe(
         "Margin": st.column_config.NumberColumn(
             format="%.2f"
         ),
+    },
+)
+
+
+# ============================================================
+# CELLAR BOYS
+# ============================================================
+
+st.subheader("🗑️ Cellar Boys")
+st.caption(
+    "Worst regular-season record by year. If teams are tied for the worst "
+    "record, the tiebreaker is fewest points scored."
+)
+
+cellar_source = season_records[
+    season_records["year"].le(LAST_COMPLETED_SEASON)
+].copy()
+
+cellar_source = cellar_source.sort_values(
+    ["year", "win_pct", "points_for", "team"],
+    ascending=[False, True, True, True],
+)
+
+cellar_boys = (
+    cellar_source
+    .groupby("year", as_index=False, sort=False)
+    .first()
+)
+
+cellar_boys["Record"] = cellar_boys.apply(format_record, axis=1)
+cellar_boys["Win %"] = (cellar_boys["win_pct"] * 100).round(1)
+cellar_boys["PF"] = cellar_boys["points_for"].round(2)
+cellar_boys["PA"] = cellar_boys["points_against"].round(2)
+cellar_boys["Diff"] = cellar_boys["point_diff"].round(2)
+
+cellar_display = cellar_boys[
+    ["year", "team", "Record", "Win %", "PF", "PA", "Diff"]
+].rename(columns={"year": "Season", "team": "Cellar Boy"})
+
+st.dataframe(
+    cellar_display,
+    hide_index=True,
+    use_container_width=True,
+    column_config={
+        "Season": st.column_config.NumberColumn(format="%d"),
+        "Win %": st.column_config.NumberColumn(format="%.1f%%"),
+        "PF": st.column_config.NumberColumn(format="%.2f"),
+        "PA": st.column_config.NumberColumn(format="%.2f"),
+        "Diff": st.column_config.NumberColumn(format="%+.2f"),
     },
 )
 
@@ -1063,13 +1156,17 @@ team_history_display = (
 
 team_history_display[
     "Postseason"
-] = (
-    team_history_display[
-        "Postseason"
-    ]
-    .fillna(
-        "Missed Playoffs"
-    )
+] = team_history_display.apply(
+    lambda row: (
+        row["Postseason"]
+        if pd.notna(row["Postseason"])
+        else (
+            ""
+            if int(row["Season"]) > LAST_COMPLETED_SEASON
+            else "Missed Playoffs"
+        )
+    ),
+    axis=1,
 )
 
 

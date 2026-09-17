@@ -1,8 +1,8 @@
 {
-  "schema_version": 1,
+  "schema_version": 4,
   "season": 2026,
   "week": 1,
-  "editorial_guardrail": "AI may add satire, but factual claims must be supported by this packet. Predictions must be labeled.",
+  "editorial_guardrail": "AI may add satire, but factual claims must be supported by this packet. Predictions and opinions must be clearly labeled.",
   "week_summary": {
     "highest_scoring_team": {
       "team": "Pop Lockett Drop it",
@@ -19,8 +19,15 @@
       "loser_score": 84.52,
       "margin": 7.94,
       "historical_h2h_before_game": {
+        "team": "ThreatLevelMidnight",
+        "opponent": "The Big Gronkowski",
         "games": 11,
-        "record": "7-4-0"
+        "wins": 7,
+        "losses": 4,
+        "ties": 0,
+        "record": "7-4-0",
+        "points_for": 1190.22,
+        "points_against": 1122.98
       }
     },
     "biggest_blowout": {
@@ -30,8 +37,15 @@
       "loser_score": 98.6,
       "margin": 71.16,
       "historical_h2h_before_game": {
+        "team": "Pop Lockett Drop it",
+        "opponent": "Voldemort",
         "games": 9,
-        "record": "4-5-0"
+        "wins": 4,
+        "losses": 5,
+        "ties": 0,
+        "record": "4-5-0",
+        "points_for": 946.28,
+        "points_against": 991.38
       }
     }
   },
@@ -43,8 +57,15 @@
       "loser_score": 84.52,
       "margin": 7.94,
       "historical_h2h_before_game": {
+        "team": "ThreatLevelMidnight",
+        "opponent": "The Big Gronkowski",
         "games": 11,
-        "record": "7-4-0"
+        "wins": 7,
+        "losses": 4,
+        "ties": 0,
+        "record": "7-4-0",
+        "points_for": 1190.22,
+        "points_against": 1122.98
       }
     },
     {
@@ -54,8 +75,15 @@
       "loser_score": 71.4,
       "margin": 26.96,
       "historical_h2h_before_game": {
+        "team": "Post Mahomes",
+        "opponent": "Buttermilk Puuump",
         "games": 3,
-        "record": "1-2-0"
+        "wins": 1,
+        "losses": 2,
+        "ties": 0,
+        "record": "1-2-0",
+        "points_for": 358.88,
+        "points_against": 344.12
       }
     },
     {
@@ -65,8 +93,15 @@
       "loser_score": 111.76,
       "margin": 37.68,
       "historical_h2h_before_game": {
+        "team": "malle_dips_pouches",
+        "opponent": "Joe Mantegna",
         "games": 13,
-        "record": "6-7-0"
+        "wins": 6,
+        "losses": 7,
+        "ties": 0,
+        "record": "6-7-0",
+        "points_for": 1249.44,
+        "points_against": 1306.26
       }
     },
     {
@@ -76,8 +111,15 @@
       "loser_score": 107.46,
       "margin": 42.4,
       "historical_h2h_before_game": {
+        "team": "Patty Primetimes",
+        "opponent": "Uncle Rico",
         "games": 10,
-        "record": "7-3-0"
+        "wins": 7,
+        "losses": 3,
+        "ties": 0,
+        "record": "7-3-0",
+        "points_for": 1068.84,
+        "points_against": 967.12
       }
     },
     {
@@ -87,8 +129,15 @@
       "loser_score": 120.52,
       "margin": 44.02,
       "historical_h2h_before_game": {
+        "team": "Ginger FC 🏆🏆",
+        "opponent": "Malle ❤️ 🐸",
         "games": 10,
-        "record": "6-4-0"
+        "wins": 6,
+        "losses": 4,
+        "ties": 0,
+        "record": "6-4-0",
+        "points_for": 1169.16,
+        "points_against": 972.16
       }
     },
     {
@@ -98,12 +147,400 @@
       "loser_score": 98.6,
       "margin": 71.16,
       "historical_h2h_before_game": {
+        "team": "Pop Lockett Drop it",
+        "opponent": "Voldemort",
         "games": 9,
-        "record": "4-5-0"
+        "wins": 4,
+        "losses": 5,
+        "ties": 0,
+        "record": "4-5-0",
+        "points_for": 946.28,
+        "points_against": 991.38
       }
     }
   ],
-  "player_facts": {},
+  "player_facts": {
+    "available": true,
+    "top_starter": {
+      "player": "Caleb Williams",
+      "team": "Joe Mantegna",
+      "position": "QB",
+      "points": 41.26
+    },
+    "top_starters": [
+      {
+        "player": "Caleb Williams",
+        "team": "Joe Mantegna",
+        "position": "QB",
+        "points": 41.26
+      },
+      {
+        "player": "Josh Allen",
+        "team": "Patty Primetimes",
+        "position": "QB",
+        "points": 39.66
+      },
+      {
+        "player": "Derrick Henry",
+        "team": "Ginger FC 🏆🏆",
+        "position": "RB",
+        "points": 34.8
+      },
+      {
+        "player": "Kenneth Walker",
+        "team": "Pop Lockett Drop it",
+        "position": "RB",
+        "points": 32.6
+      },
+      {
+        "player": "D'Andre Swift",
+        "team": "Malle ❤️ 🐸",
+        "position": "RB",
+        "points": 31.9
+      },
+      {
+        "player": "Jahmyr Gibbs",
+        "team": "malle_dips_pouches",
+        "position": "RB",
+        "points": 31.1
+      },
+      {
+        "player": "Jalen Hurts",
+        "team": "Malle ❤️ 🐸",
+        "position": "QB",
+        "points": 30.72
+      },
+      {
+        "player": "Jalen Coker",
+        "team": "malle_dips_pouches",
+        "position": "WR",
+        "points": 29.8
+      }
+    ],
+    "position_leaders": [
+      {
+        "player": "Caleb Williams",
+        "team": "Joe Mantegna",
+        "position": "QB",
+        "points": 41.26
+      },
+      {
+        "player": "Derrick Henry",
+        "team": "Ginger FC 🏆🏆",
+        "position": "RB",
+        "points": 34.8
+      },
+      {
+        "player": "Jalen Coker",
+        "team": "malle_dips_pouches",
+        "position": "WR",
+        "points": 29.8
+      },
+      {
+        "player": "Isaiah Likely",
+        "team": "Patty Primetimes",
+        "position": "TE",
+        "points": 23.8
+      },
+      {
+        "player": "Evan McPherson",
+        "team": "Patty Primetimes",
+        "position": "K",
+        "points": 19.0
+      },
+      {
+        "player": "Steelers",
+        "team": "Uncle Rico",
+        "position": "DEF",
+        "points": 18.0
+      }
+    ]
+  },
+  "bad_beats": {
+    "available": true,
+    "bad_beats": [
+      {
+        "team": "Malle ❤️ 🐸",
+        "opponent": "Ginger FC 🏆🏆",
+        "score": 120.52,
+        "opponent_score": 164.54,
+        "margin": -44.02,
+        "weekly_score_rank": 5,
+        "expected_win_rate": 0.6364,
+        "all_play_wins": 7,
+        "all_play_losses": 4,
+        "severity": "bad_beat"
+      },
+      {
+        "team": "Joe Mantegna",
+        "opponent": "malle_dips_pouches",
+        "score": 111.76,
+        "opponent_score": 149.44,
+        "margin": -37.68,
+        "weekly_score_rank": 6,
+        "expected_win_rate": 0.5455,
+        "all_play_wins": 6,
+        "all_play_losses": 5,
+        "severity": "bad_beat"
+      }
+    ],
+    "lucky_wins": [
+      {
+        "team": "ThreatLevelMidnight",
+        "opponent": "The Big Gronkowski",
+        "score": 92.46,
+        "opponent_score": 84.52,
+        "margin": 7.94,
+        "weekly_score_rank": 10,
+        "expected_win_rate": 0.1818,
+        "all_play_wins": 2,
+        "all_play_losses": 9,
+        "severity": "severe"
+      },
+      {
+        "team": "Post Mahomes",
+        "opponent": "Buttermilk Puuump",
+        "score": 98.36,
+        "opponent_score": 71.4,
+        "margin": 26.96,
+        "weekly_score_rank": 9,
+        "expected_win_rate": 0.2727,
+        "all_play_wins": 3,
+        "all_play_losses": 8,
+        "severity": "lucky"
+      }
+    ]
+  },
+  "managerial_decisions": {
+    "available": true,
+    "worst_decision_week": {
+      "team": "Malle ❤️ 🐸",
+      "opponent": "Ginger FC 🏆🏆",
+      "actual_score": 120.52,
+      "optimal_score": 145.2,
+      "points_left_on_bench": 24.68,
+      "lineup_efficiency_pct": 83.0,
+      "avoidable_start_count": 3,
+      "missed_start_count": 3,
+      "should_have_benched": "Jalen Hurts (QB) | Omarion Hampton (RB) | Davante Adams (WR)",
+      "should_have_started": "Jaxson Dart (QB) | Stefon Diggs (WR) | Dallas Goedert (TE)"
+    },
+    "decisions": [
+      {
+        "team": "Malle ❤️ 🐸",
+        "opponent": "Ginger FC 🏆🏆",
+        "actual_score": 120.52,
+        "optimal_score": 145.2,
+        "points_left_on_bench": 24.68,
+        "lineup_efficiency_pct": 83.0,
+        "avoidable_start_count": 3,
+        "missed_start_count": 3,
+        "should_have_benched": "Jalen Hurts (QB) | Omarion Hampton (RB) | Davante Adams (WR)",
+        "should_have_started": "Jaxson Dart (QB) | Stefon Diggs (WR) | Dallas Goedert (TE)"
+      },
+      {
+        "team": "Buttermilk Puuump",
+        "opponent": "Post Mahomes",
+        "actual_score": 71.4,
+        "optimal_score": 92.0,
+        "points_left_on_bench": 20.6,
+        "lineup_efficiency_pct": 77.61,
+        "avoidable_start_count": 3,
+        "missed_start_count": 3,
+        "should_have_benched": "Terry McLaurin (WR) | George Pickens (WR) | Luther Burden III (WR)",
+        "should_have_started": "Alec Pierce (WR) | Deebo Samuel Sr. (WR) | Jakobi Meyers (WR)"
+      },
+      {
+        "team": "The Big Gronkowski",
+        "opponent": "ThreatLevelMidnight",
+        "actual_score": 84.52,
+        "optimal_score": 101.38,
+        "points_left_on_bench": 16.86,
+        "lineup_efficiency_pct": 83.37,
+        "avoidable_start_count": 3,
+        "missed_start_count": 3,
+        "should_have_benched": "Drake Maye (QB) | Bhayshul Tuten (RB) | DK Metcalf (WR)",
+        "should_have_started": "Aaron Jones Sr. (RB) | Matthew Golden (WR) | Jordan Love (QB)"
+      },
+      {
+        "team": "Voldemort",
+        "opponent": "Pop Lockett Drop it",
+        "actual_score": 98.6,
+        "optimal_score": 115.0,
+        "points_left_on_bench": 16.4,
+        "lineup_efficiency_pct": 85.74,
+        "avoidable_start_count": 2,
+        "missed_start_count": 2,
+        "should_have_benched": "Kyle Pitts Sr. (TE) | Jaylen Waddle (WR)",
+        "should_have_started": "Juwan Johnson (TE) | Jalen Nailor (WR)"
+      },
+      {
+        "team": "ThreatLevelMidnight",
+        "opponent": "The Big Gronkowski",
+        "actual_score": 92.46,
+        "optimal_score": 108.66,
+        "points_left_on_bench": 16.2,
+        "lineup_efficiency_pct": 85.09,
+        "avoidable_start_count": 1,
+        "missed_start_count": 1,
+        "should_have_benched": "Quinshon Judkins (RB)",
+        "should_have_started": "Chuba Hubbard (RB)"
+      },
+      {
+        "team": "Uncle Rico",
+        "opponent": "Patty Primetimes",
+        "actual_score": 107.46,
+        "optimal_score": 120.66,
+        "points_left_on_bench": 13.2,
+        "lineup_efficiency_pct": 89.06,
+        "avoidable_start_count": 2,
+        "missed_start_count": 2,
+        "should_have_benched": "Chris Godwin Jr. (WR) | Rome Odunze (WR)",
+        "should_have_started": "Kyle Monangai (RB) | Wan'Dale Robinson (WR)"
+      },
+      {
+        "team": "Joe Mantegna",
+        "opponent": "malle_dips_pouches",
+        "actual_score": 111.76,
+        "optimal_score": 123.86,
+        "points_left_on_bench": 12.1,
+        "lineup_efficiency_pct": 90.23,
+        "avoidable_start_count": 1,
+        "missed_start_count": 1,
+        "should_have_benched": "Ja'Marr Chase (WR)",
+        "should_have_started": "Dontayvion Wicks (WR)"
+      },
+      {
+        "team": "malle_dips_pouches",
+        "opponent": "Joe Mantegna",
+        "actual_score": 149.44,
+        "optimal_score": 159.34,
+        "points_left_on_bench": 9.9,
+        "lineup_efficiency_pct": 93.79,
+        "avoidable_start_count": 3,
+        "missed_start_count": 3,
+        "should_have_benched": "Tucker Kraft (TE) | Drake London (WR) | Garrett Wilson (WR)",
+        "should_have_started": "Jacory Croskey-Merritt (RB) | Caleb Douglas (WR) | Brenton Strange (TE)"
+      },
+      {
+        "team": "Ginger FC 🏆🏆",
+        "opponent": "Malle ❤️ 🐸",
+        "actual_score": 164.54,
+        "optimal_score": 173.34,
+        "points_left_on_bench": 8.8,
+        "lineup_efficiency_pct": 94.92,
+        "avoidable_start_count": 1,
+        "missed_start_count": 1,
+        "should_have_benched": "Tetairoa McMillan (WR)",
+        "should_have_started": "Parker Washington (WR)"
+      },
+      {
+        "team": "Post Mahomes",
+        "opponent": "Buttermilk Puuump",
+        "actual_score": 98.36,
+        "optimal_score": 102.06,
+        "points_left_on_bench": 3.7,
+        "lineup_efficiency_pct": 96.37,
+        "avoidable_start_count": 1,
+        "missed_start_count": 1,
+        "should_have_benched": "A.J. Brown (WR)",
+        "should_have_started": "Jaylen Warren (RB)"
+      },
+      {
+        "team": "Patty Primetimes",
+        "opponent": "Uncle Rico",
+        "actual_score": 149.86,
+        "optimal_score": 153.16,
+        "points_left_on_bench": 3.3,
+        "lineup_efficiency_pct": 97.85,
+        "avoidable_start_count": 1,
+        "missed_start_count": 1,
+        "should_have_benched": "Josh Downs (WR)",
+        "should_have_started": "Tyler Allgeier (RB)"
+      },
+      {
+        "team": "Pop Lockett Drop it",
+        "opponent": "Voldemort",
+        "actual_score": 169.76,
+        "optimal_score": 169.76,
+        "points_left_on_bench": 0.0,
+        "lineup_efficiency_pct": 100.0,
+        "avoidable_start_count": 0,
+        "missed_start_count": 0,
+        "should_have_benched": null,
+        "should_have_started": null
+      }
+    ]
+  },
+  "recent_transactions": {
+    "available": true,
+    "as_of": "2026-09-08T03:59:59+00:00",
+    "as_of_et": "2026-09-07T23:59:59-04:00",
+    "transactions": [
+      {
+        "transaction_id": 15,
+        "date": "2026-09-04T07:16:42+00:00",
+        "team": "malle_dips_pouches",
+        "transaction_type": "add",
+        "added_player": "Tank Dell",
+        "acquisition_type": "waiver",
+        "dropped_player": null
+      },
+      {
+        "transaction_id": 16,
+        "date": "2026-09-04T15:59:41+00:00",
+        "team": "ThreatLevelMidnight",
+        "transaction_type": "add",
+        "added_player": "Tre Tucker",
+        "acquisition_type": "free_agent",
+        "dropped_player": null
+      },
+      {
+        "transaction_id": 17,
+        "date": "2026-09-07T14:29:46+00:00",
+        "team": "Joe Mantegna",
+        "transaction_type": "add/drop",
+        "added_player": "Dontayvion Wicks",
+        "acquisition_type": "free_agent",
+        "dropped_player": "Kyler Murray"
+      }
+    ],
+    "team_transactions": {
+      "malle_dips_pouches": [
+        {
+          "transaction_id": 15,
+          "date": "2026-09-04T07:16:42+00:00",
+          "team": "malle_dips_pouches",
+          "transaction_type": "add",
+          "added_player": "Tank Dell",
+          "acquisition_type": "waiver",
+          "dropped_player": null
+        }
+      ],
+      "ThreatLevelMidnight": [
+        {
+          "transaction_id": 16,
+          "date": "2026-09-04T15:59:41+00:00",
+          "team": "ThreatLevelMidnight",
+          "transaction_type": "add",
+          "added_player": "Tre Tucker",
+          "acquisition_type": "free_agent",
+          "dropped_player": null
+        }
+      ],
+      "Joe Mantegna": [
+        {
+          "transaction_id": 17,
+          "date": "2026-09-07T14:29:46+00:00",
+          "team": "Joe Mantegna",
+          "transaction_type": "add/drop",
+          "added_player": "Dontayvion Wicks",
+          "acquisition_type": "free_agent",
+          "dropped_player": "Kyler Murray"
+        }
+      ]
+    }
+  },
   "streaks_snapped": [
     {
       "team": "ThreatLevelMidnight",
@@ -111,6 +548,19 @@
       "length": 2
     }
   ],
+  "records_and_milestones": {
+    "records_broken": [],
+    "records_tied": [],
+    "near_records": [],
+    "career_milestones": [
+      {
+        "team": "Voldemort",
+        "milestone": "Career Losses",
+        "threshold": 50,
+        "current": 50.0
+      }
+    ]
+  },
   "standings": [
     {
       "rank": 1.0,
@@ -285,7 +735,7 @@
       "ties": 0,
       "points_for": 149.86,
       "points_against": 107.46,
-      "point_diff": 42.40000000000002,
+      "point_diff": 42.4,
       "win_pct": 1.0
     },
     {
@@ -295,7 +745,7 @@
       "ties": 0,
       "points_for": 149.44,
       "points_against": 111.76,
-      "point_diff": 37.67999999999999,
+      "point_diff": 37.68,
       "win_pct": 1.0
     },
     {
@@ -305,7 +755,7 @@
       "ties": 0,
       "points_for": 98.36,
       "points_against": 71.4,
-      "point_diff": 26.959999999999994,
+      "point_diff": 26.96,
       "win_pct": 1.0
     },
     {
@@ -315,7 +765,7 @@
       "ties": 0,
       "points_for": 92.46,
       "points_against": 84.52,
-      "point_diff": 7.939999999999998,
+      "point_diff": 7.94,
       "win_pct": 1.0
     },
     {
@@ -335,7 +785,7 @@
       "ties": 0,
       "points_for": 111.76,
       "points_against": 149.44,
-      "point_diff": -37.67999999999999,
+      "point_diff": -37.68,
       "win_pct": 0.0
     },
     {
@@ -345,7 +795,7 @@
       "ties": 0,
       "points_for": 107.46,
       "points_against": 149.86,
-      "point_diff": -42.40000000000002,
+      "point_diff": -42.4,
       "win_pct": 0.0
     },
     {
@@ -365,7 +815,7 @@
       "ties": 0,
       "points_for": 84.52,
       "points_against": 92.46,
-      "point_diff": -7.939999999999998,
+      "point_diff": -7.94,
       "win_pct": 0.0
     },
     {
@@ -375,15 +825,119 @@
       "ties": 0,
       "points_for": 71.4,
       "points_against": 98.36,
-      "point_diff": -26.959999999999994,
+      "point_diff": -26.96,
       "win_pct": 0.0
     }
   ],
+  "future_matchups": {
+    "available": true,
+    "week": 2,
+    "matchups": [
+      {
+        "team_1": "The Big Gronkowski",
+        "team_2": "Joe Mantegna",
+        "historical_h2h_before_matchup": {
+          "team": "The Big Gronkowski",
+          "opponent": "Joe Mantegna",
+          "games": 12,
+          "wins": 6,
+          "losses": 6,
+          "ties": 0,
+          "record": "6-6-0",
+          "points_for": 1364.58,
+          "points_against": 1307.62
+        },
+        "team_1_projection": 100.85,
+        "team_2_projection": 106.34
+      },
+      {
+        "team_1": "Malle ❤️ 🐸",
+        "team_2": "Uncle Rico",
+        "historical_h2h_before_matchup": {
+          "team": "Malle ❤️ 🐸",
+          "opponent": "Uncle Rico",
+          "games": 11,
+          "wins": 9,
+          "losses": 2,
+          "ties": 0,
+          "record": "9-2-0",
+          "points_for": 1282.36,
+          "points_against": 1134.72
+        },
+        "team_1_projection": 103.22,
+        "team_2_projection": 102.07
+      },
+      {
+        "team_1": "Voldemort",
+        "team_2": "ThreatLevelMidnight",
+        "historical_h2h_before_matchup": {
+          "team": "Voldemort",
+          "opponent": "ThreatLevelMidnight",
+          "games": 10,
+          "wins": 5,
+          "losses": 5,
+          "ties": 0,
+          "record": "5-5-0",
+          "points_for": 1186.14,
+          "points_against": 1173.62
+        },
+        "team_1_projection": 109.8,
+        "team_2_projection": 114.39
+      },
+      {
+        "team_1": "Pop Lockett Drop it",
+        "team_2": "Buttermilk Puuump",
+        "historical_h2h_before_matchup": {
+          "team": "Pop Lockett Drop it",
+          "opponent": "Buttermilk Puuump",
+          "games": 4,
+          "wins": 4,
+          "losses": 0,
+          "ties": 0,
+          "record": "4-0-0",
+          "points_for": 524.42,
+          "points_against": 411.24
+        },
+        "team_1_projection": 108.25,
+        "team_2_projection": 112.96
+      },
+      {
+        "team_1": "Post Mahomes",
+        "team_2": "Patty Primetimes",
+        "historical_h2h_before_matchup": {
+          "team": "Post Mahomes",
+          "opponent": "Patty Primetimes",
+          "games": 10,
+          "wins": 6,
+          "losses": 4,
+          "ties": 0,
+          "record": "6-4-0",
+          "points_for": 1019.78,
+          "points_against": 1031.56
+        },
+        "team_1_projection": 99.3,
+        "team_2_projection": 113.88
+      },
+      {
+        "team_1": "Ginger FC 🏆🏆",
+        "team_2": "malle_dips_pouches",
+        "historical_h2h_before_matchup": {
+          "team": "Ginger FC 🏆🏆",
+          "opponent": "malle_dips_pouches",
+          "games": 10,
+          "wins": 8,
+          "losses": 2,
+          "ties": 0,
+          "record": "8-2-0",
+          "points_for": 1051.14,
+          "points_against": 916.5
+        },
+        "team_1_projection": 110.25,
+        "team_2_projection": 112.9
+      }
+    ]
+  },
   "planned_adapters": {
-    "bad_beats": "Phase 1B: connect validated bad-beat output",
-    "managerial_decisions": "Phase 1B: connect validated lineup-efficiency output",
-    "records_and_milestones": "Phase 1B: connect Records-page watch logic",
-    "future_matchups": "Phase 1B: connect authoritative schedule source",
-    "power_rankings": "Phase 2: deterministic ranking model"
+    "power_rankings": "Phase 2: deterministic 1-12 ranking model using results, scoring, all-play/luck, lineup quality, and recent form."
   }
 }
