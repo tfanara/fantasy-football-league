@@ -858,6 +858,26 @@ def main() -> None:
     if not args.skip_editorial:
         all_steps.extend(EDITORIAL_STEPS)
 
+    # ---------------------------------------------------------
+    # Final project-wide freshness gate
+    # ---------------------------------------------------------
+    #
+    # This is deliberately the LAST executable step.
+    # It verifies that every deterministic production dataset
+    # agrees with the latest completed fantasy week before the
+    # weekly update is allowed to report success.
+    #
+    # Event-driven datasets such as Keepers and currently-empty
+    # Waiver Value output may produce non-blocking warnings.
+    #
+    freshness_audit_step = Step(
+        "Project freshness audit",
+        "audit_project_freshness.py",
+        "AUDIT",
+    )
+
+    all_steps.append(freshness_audit_step)
+
     validate_scripts(all_steps)
 
     total = len(all_steps)
@@ -881,10 +901,20 @@ def main() -> None:
     validate_api_collection(week)
 
     # ---------------------------------------------------------
-    # Remaining steps
+    # Remaining production steps
     # ---------------------------------------------------------
 
-    for step in all_steps[1:]:
+    #
+    # The final entry in all_steps is always the project-wide
+    # freshness audit. Run the production pipeline first, then
+    # perform editorial validation, and only then allow the
+    # freshness audit to act as the final gate.
+    #
+
+    production_steps = all_steps[1:-1]
+    freshness_step = all_steps[-1]
+
+    for step in production_steps:
         number += 1
 
         run_step(step, number, total)
@@ -903,11 +933,22 @@ def main() -> None:
             validate_power_rankings(week)
 
     # ---------------------------------------------------------
-    # Final editorial check
+    # Editorial validation
     # ---------------------------------------------------------
 
     if not args.skip_editorial:
         validate_editorial(week)
+
+    # ---------------------------------------------------------
+    # FINAL GATE — PROJECT-WIDE FRESHNESS AUDIT
+    # ---------------------------------------------------------
+
+    number += 1
+    run_step(
+        freshness_step,
+        number,
+        total,
+    )
 
     # ---------------------------------------------------------
     # Final page report

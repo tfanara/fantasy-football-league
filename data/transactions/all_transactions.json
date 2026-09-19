@@ -21625,5 +21625,14 @@
     "acquisition_type":"free_agent",
     "dropped_player":"",
     "raw_text":"ADD Mike Gesicki (free_agent)"
+  },
+  {
+    "year":2026,
+    "date":"2026-09-17T23:29:45-04:00",
+    "team":"Ginger FC 🏆🏆",
+    "added_player":"C.J. Stroud",
+    "acquisition_type":"free_agent",
+    "dropped_player":"",
+    "raw_text":"ADD C.J. Stroud (free_agent)"
   }
 ]

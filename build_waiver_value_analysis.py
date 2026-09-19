@@ -650,9 +650,27 @@ for (year, team, key), g in events.groupby(
 
             # Only Waiver / Free Agent acquisitions
             # qualify as Waiver Value stints.
+            # Normalize acquisition source across historical Yahoo
+            # transaction data and the current Yahoo Fantasy API.
+            #
+            # Historical values:
+            #   "Waiver"
+            #   "Free Agent"
+            #
+            # Current API values:
+            #   "waiver"
+            #   "free_agent"
+            #
+            acquisition_type_normalized = (
+                str(row.acquisition_type)
+                .strip()
+                .lower()
+                .replace("_", " ")
+            )
+
             qualifying = (
-                row.acquisition_type
-                in {"Waiver", "Free Agent"}
+                acquisition_type_normalized
+                in {"waiver", "free agent"}
             )
 
             if qualifying:

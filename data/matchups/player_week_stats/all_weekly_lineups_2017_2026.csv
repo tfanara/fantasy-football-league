@@ -22835,7 +22835,7 @@ year,week,table_index,row_index,side,fantasy_team,opponent,matchup_id,player,pla
 2026,1,,15.0,api,Pop Lockett Drop it,Voldemort,2026-W01-03,Lions,DEF,DEF,True,False,False,,10.0,,Lions,DEF,,3,,169.76,98.6,470.p.100008,100008.0,Det,yahoo_fantasy_api
 2026,1,,14.0,api,Pop Lockett Drop it,Voldemort,2026-W01-03,Jason Myers,K,K,True,False,False,,7.0,,Jason Myers,K,,3,,169.76,98.6,470.p.28378,28378.0,Sea,yahoo_fantasy_api
 2026,1,,1.0,api,Pop Lockett Drop it,Voldemort,2026-W01-03,Justin Herbert,QB,QB,True,False,False,,16.26,,Justin Herbert,QB,,3,,169.76,98.6,470.p.32676,32676.0,LAC,yahoo_fantasy_api
-2026,1,,2.0,api,Pop Lockett Drop it,Voldemort,2026-W01-03,Kenneth Walker,RB,RB,True,False,False,,32.6,,Kenneth Walker,RB,,3,,169.76,98.6,470.p.33996,33996.0,KC,yahoo_fantasy_api
+2026,1,,2.0,api,Pop Lockett Drop it,Voldemort,2026-W01-03,Kenneth Walker III,RB,RB,True,False,False,,32.6,,Kenneth Walker III,RB,,3,,169.76,98.6,470.p.33996,33996.0,KC,yahoo_fantasy_api
 2026,1,,3.0,api,Pop Lockett Drop it,Voldemort,2026-W01-03,Javonte Williams,RB,RB,True,False,False,,21.7,,Javonte Williams,RB,,3,,169.76,98.6,470.p.33423,33423.0,Dal,yahoo_fantasy_api
 2026,1,,6.0,api,Pop Lockett Drop it,Voldemort,2026-W01-03,Trey McBride,TE,TE,True,False,False,,20.0,,Trey McBride,TE,,3,,169.76,98.6,470.p.34010,34010.0,Ari,yahoo_fantasy_api
 2026,1,,7.0,api,Pop Lockett Drop it,Voldemort,2026-W01-03,Christian Watson,WR,W/R/T,True,False,False,,29.7,,Christian Watson,WR,,3,,169.76,98.6,470.p.33989,33989.0,GB,yahoo_fantasy_api

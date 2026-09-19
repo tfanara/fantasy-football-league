@@ -138,5 +138,19 @@
     "dropped_player": NaN,
     "status": "successful",
     "source": "yahoo_fantasy_api"
+  },
+  {
+    "year": 2026,
+    "transaction_id": 25,
+    "transaction_key": "470.l.742546.tr.25",
+    "timestamp": 1789702185,
+    "date": "2026-09-17T23:29:45-04:00",
+    "team": "Ginger FC 🏆🏆",
+    "transaction_type": "add",
+    "added_player": "C.J. Stroud",
+    "acquisition_type": "free_agent",
+    "dropped_player": NaN,
+    "status": "successful",
+    "source": "yahoo_fantasy_api"
   }
 ]
