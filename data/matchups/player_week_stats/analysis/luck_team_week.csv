@@ -1475,3 +1475,15 @@ year,week,fantasy_team,opponent,team_score,opponent_score,actual_win,actual_loss
 2026,1,ThreatLevelMidnight,The Big Gronkowski,92.46,84.52,1.0,0.0,0.0,1.0,7.939999999999998,2,9,0,0.18181818181818182,0.8181818181818181,10,False,True,11,False,True,False,True,,1.0
 2026,1,Patty Primetimes,Uncle Rico,149.86,107.46,1.0,0.0,0.0,1.0,42.40000000000002,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,7,False,False,False,False,,
 2026,1,Pop Lockett Drop it,Voldemort,169.76,98.6,1.0,0.0,0.0,1.0,71.16,11,0,0,1.0,0.0,1,True,False,8,False,False,False,False,,
+2026,2,Ginger FC 🏆🏆,malle_dips_pouches,103.82,124.58,0.0,1.0,0.0,0.0,-20.760000000000005,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,4,False,False,False,False,,
+2026,2,Malle ❤️ 🐸,Uncle Rico,138.16,80.2,1.0,0.0,0.0,1.0,57.959999999999994,11,0,0,1.0,0.0,1,True,False,12,False,True,False,False,,
+2026,2,Pop Lockett Drop it,Buttermilk Puuump,113.88,97.86,1.0,0.0,0.0,1.0,16.019999999999996,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,10,False,True,False,False,,
+2026,2,Post Mahomes,Patty Primetimes,99.78,113.82,0.0,1.0,0.0,0.0,-14.039999999999992,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,6,False,False,False,False,,
+2026,2,The Big Gronkowski,Joe Mantegna,96.42,107.32,0.0,1.0,0.0,0.0,-10.899999999999991,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,7,False,False,False,False,,
+2026,2,Voldemort,ThreatLevelMidnight,131.98,132.88,0.0,1.0,0.0,0.0,-0.9000000000000057,9,2,0,0.8181818181818182,-0.8181818181818182,3,True,False,2,True,False,True,True,0.0,0.0
+2026,2,malle_dips_pouches,Ginger FC 🏆🏆,124.58,103.82,1.0,0.0,0.0,1.0,20.760000000000005,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,8,False,False,False,False,,
+2026,2,Uncle Rico,Malle ❤️ 🐸,80.2,138.16,0.0,1.0,0.0,0.0,-57.959999999999994,0,11,0,0.0,0.0,12,False,True,1,True,False,False,False,,
+2026,2,Buttermilk Puuump,Pop Lockett Drop it,97.86,113.88,0.0,1.0,0.0,0.0,-16.019999999999996,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,5,False,False,False,False,,
+2026,2,Patty Primetimes,Post Mahomes,113.82,99.78,1.0,0.0,0.0,1.0,14.039999999999992,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,9,False,False,False,False,,
+2026,2,Joe Mantegna,The Big Gronkowski,107.32,96.42,1.0,0.0,0.0,1.0,10.899999999999991,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,11,False,True,False,False,,
+2026,2,ThreatLevelMidnight,Voldemort,132.88,131.98,1.0,0.0,0.0,1.0,0.9000000000000057,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,3,True,False,True,True,1.0,1.0

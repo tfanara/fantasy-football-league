@@ -14,7 +14,7 @@ DATA = ROOT / "data"
 NEWS = DATA / "news"
 
 DEFAULT_MODEL = "gemini-2.5-flash-lite"
-EXPECTED_SCHEMA_VERSION = 3
+EXPECTED_SCHEMA_VERSION = 4
 
 
 def load_season_config():
@@ -93,8 +93,8 @@ def load_context(year, week):
 
 def compact_packet(packet):
     """
-    Send the complete schema-v3 packet. It is already curated specifically
-    for editorial use and is the sole league-fact evidence source.
+    Send the complete current Weekly News Intelligence packet. It is already
+    curated specifically for editorial use and is the sole league-fact evidence source.
     """
     return json.dumps(
         packet,

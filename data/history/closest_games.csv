@@ -1,6 +1,6 @@
 year,week,team_1,team_1_score,team_2,team_2_score,winner,margin
-2019,10,The Big Gronkowski,79.38,malle_dips_pouches,79.32,The Big Gronkowski,0.060000000000002274
 2025,13,malle_dips_pouches,95.0,Buttermilk Puuump,94.94,malle_dips_pouches,0.060000000000002274
+2019,10,The Big Gronkowski,79.38,malle_dips_pouches,79.32,The Big Gronkowski,0.060000000000002274
 2020,1,Uncle Rico,91.28,Voldemort,91.14,Uncle Rico,0.14000000000000057
 2023,1,Ginger FC 🏆🏆,85.26,Buttermilk Puuump,85.42,Buttermilk Puuump,0.1599999999999966
 2024,5,Voldemort,79.04,Buttermilk Puuump,79.26,Buttermilk Puuump,0.21999999999999886
@@ -13,6 +13,7 @@ year,week,team_1,team_1_score,team_2,team_2_score,winner,margin
 2022,13,ThreatLevelMidnight,88.2,Patty Primetimes,87.44,ThreatLevelMidnight,0.7600000000000051
 2017,12,Dillon Panthers,80.8,Ginger FC 🏆🏆,81.56,Ginger FC 🏆🏆,0.7600000000000051
 2024,7,Ginger FC 🏆🏆,113.3,malle_dips_pouches,112.46,Ginger FC 🏆🏆,0.8400000000000034
+2026,2,Voldemort,131.98,ThreatLevelMidnight,132.88,ThreatLevelMidnight,0.9000000000000057
 2025,5,Voldemort,121.9,Joe Mantegna,122.88,Joe Mantegna,0.9799999999999898
 2018,7,The Big Gronkowski,87.64,Post Mahomes,86.66,The Big Gronkowski,0.980000000000004
 2021,8,Voldemort,99.38,Post Mahomes,100.36,Post Mahomes,0.980000000000004
@@ -23,4 +24,3 @@ year,week,team_1,team_1_score,team_2,team_2_score,winner,margin
 2018,13,The Big Gronkowski,91.76,Voldemort,93.0,Voldemort,1.2399999999999949
 2018,9,Voldemort,98.74,Post Mahomes,97.48,Voldemort,1.259999999999991
 2018,5,Pop Lockett Drop it,100.88,Big Sack Jack,102.22,Big Sack Jack,1.3400000000000034
-2017,3,Pop Lockett Drop it,71.26,Hello Harvard,69.86,Pop Lockett Drop it,1.4000000000000057

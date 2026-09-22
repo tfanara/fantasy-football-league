@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "season": 2026,
+  "week": 2,
+  "commentary": [
+    {
+      "power_rank": 1,
+      "team": "Pop Lockett Drop it",
+      "commentary": "Pop Lockett Drop it continues to set the pace at 2-0 after a 16.02-point victory over Buttermilk Puuump, maintaining absolute dominance across the league.",
+      "evidence_tags": [
+        "matchup",
+        "season_context"
+      ]
+    },
+    {
+      "power_rank": 2,
+      "team": "malle_dips_pouches",
+      "commentary": "Jared Goff carried the load with a massive 37.78-point performance to secure a 20.76-point win against Ginger FC 🏆🏆.",
+      "evidence_tags": [
+        "player_performance",
+        "matchup"
+      ]
+    },
+    {
+      "power_rank": 3,
+      "team": "Patty Primetimes",
+      "commentary": "Josh Allen put on a clinic with 46.82 points, helping overcome some bench management headaches to defeat Post Mahomes.",
+      "evidence_tags": [
+        "player_performance",
+        "matchup",
+        "lineup"
+      ]
+    },
+    {
+      "power_rank": 4,
+      "team": "Ginger FC 🏆🏆",
+      "commentary": "A tough 20.76-point loss to malle_dips_pouches brought a sudden halt to a four-game winning streak.",
+      "evidence_tags": [
+        "matchup",
+        "milestone"
+      ]
+    },
+    {
+      "power_rank": 5,
+      "team": "Malle ❤️ 🐸",
+      "commentary": "Davante Adams exploded for 35.5 points and Travis Kelce led the tight end position as Malle ❤️ 🐸 bounced back in a blowout win over Uncle Rico.",
+      "evidence_tags": [
+        "player_performance",
+        "matchup",
+        "milestone"
+      ]
+    },
+    {
+      "power_rank": 6,
+      "team": "ThreatLevelMidnight",
+      "commentary": "ThreatLevelMidnight escaped with a razor-thin 0.9-point win over Voldemort, running a pristine, flawless lineup with zero points left on the bench.",
+      "evidence_tags": [
+        "matchup",
+        "lineup",
+        "season_context"
+      ]
+    },
+    {
+      "power_rank": 7,
+      "team": "Voldemort",
+      "commentary": "Despite stellar outings from Jaxon Smith-Njigba and Brock Purdy, Voldemort suffered a brutal bad-beat loss by a mere 0.9 points.",
+      "evidence_tags": [
+        "player_performance",
+        "matchup",
+        "luck"
+      ]
+    },
+    {
+      "power_rank": 8,
+      "team": "Joe Mantegna",
+      "commentary": "Joe Mantegna caught some fortune with a lucky win over The Big Gronkowski, bolstered by a 21-point defensive masterpiece from the Patriots.",
+      "evidence_tags": [
+        "player_performance",
+        "matchup",
+        "luck"
+      ]
+    },
+    {
+      "power_rank": 9,
+      "team": "Post Mahomes",
+      "commentary": "Patrick Mahomes chipped in 34.98 points, but it wasn't enough to prevent a 14.04-point defeat against Patty Primetimes.",
+      "evidence_tags": [
+        "player_performance",
+        "matchup"
+      ]
+    },
+    {
+      "power_rank": 10,
+      "team": "Uncle Rico",
+      "commentary": "Jonathan Taylor did his part with 27.2 points, but a dreadful lineup efficiency left nearly 37 points on the bench in a heavy loss to Malle ❤️ 🐸.",
+      "evidence_tags": [
+        "player_performance",
+        "matchup",
+        "lineup"
+      ]
+    },
+    {
+      "power_rank": 11,
+      "team": "The Big Gronkowski",
+      "commentary": "CeeDee Lamb and Harrison Butker put up respectable numbers, but a sloppy roster strategy wasted over 32 bench points in a loss to Joe Mantegna.",
+      "evidence_tags": [
+        "player_performance",
+        "matchup",
+        "lineup"
+      ]
+    },
+    {
+      "power_rank": 12,
+      "team": "Buttermilk Puuump",
+      "commentary": "Dak Prescott threw everything he had into a 37.76-point effort, but Buttermilk Puuump still fell 16.02 points short against Pop Lockett Drop it.",
+      "evidence_tags": [
+        "player_performance",
+        "matchup"
+      ]
+    }
+  ]
+}

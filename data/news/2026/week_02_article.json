@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "season": 2026,
+  "week": 2,
+  "publication_title": "The Commissioner’s Mistake",
+  "issue_headline": "Margins of Error and Managerial Despair",
+  "issue_deck": "Week 2 brings a razor-thin thriller, a 57-point clubbing, and benches full of regrets.",
+  "lead_story": {
+    "headline": "A Nail-Biter and a Megawatt Blowout Define Week 2 Chaos",
+    "body": [
+      "Fantasy football continues its tradition of offering zero middle ground, splitting Week 2 between heart-stopping decimals and absolute industrial-grade blowouts. While most of the league found various ways to mismanage their Sundays, ThreatLevelMidnight and Voldemort engaged in a knife-fight that ended in a 0.9-point margin, good for the narrowest win of the week.",
+      "At the opposite end of human dignity stood Malle ❤️ 🐸, who flattened Uncle Rico by a staggering 57.96 points. It was a stark reminder that while some managers spend their weekends sweating every single yard, others simply prefer to build a 138.16-point fortress and watch the rubble smoke."
+    ]
+  },
+  "matchup_recaps": [
+    {
+      "winner": "ThreatLevelMidnight",
+      "loser": "Voldemort",
+      "headline": "A 0.9-Point Heart Stopper",
+      "body": "History entering the week showed a dead-even 5-5-0 series between these two, and they refused to break the script until the final whistle. ThreatLevelMidnight squeezed out a 132.88 to 131.98 victory, surviving a monster 38.0-point outing from Voldemort's Jaxon Smith-Njigba by managing a pristine 100% lineup efficiency."
+    },
+    {
+      "winner": "Joe Mantegna",
+      "loser": "The Big Gronkowski",
+      "headline": "A Fortunate Escape in the Meadowlands",
+      "body": "Joe Mantegna collected a 107.32 to 96.42 win despite leaving points on the table. The Big Gronkowski will be staring into the middle distance wondering how a roster featuring CeeDee Lamb's 31.3 points managed to slide backward."
+    },
+    {
+      "winner": "Patty Primetimes",
+      "loser": "Post Mahomes",
+      "headline": "Josh Allen Does the Heavy Lifting",
+      "body": "Patty Primetimes cruised to a 113.82 to 99.78 victory, fueled almost entirely by Josh Allen's astronomical 46.82-point explosion. Post Mahomes countered with Patrick Mahomes's respectable 34.98 points, but it wasn't enough to bridge the gap."
+    },
+    {
+      "winner": "Pop Lockett Drop it",
+      "loser": "Buttermilk Puuump",
+      "headline": "A Routine Separation",
+      "body": "Pop Lockett Drop it kept their momentum rolling with a clean 113.88 to 97.86 win over Buttermilk Puuump. Dak Prescott tried to drag Buttermilk Puuump across the finish line with 37.76 points, but the rest of the lineup hit a collective speed bump."
+    },
+    {
+      "winner": "malle_dips_pouches",
+      "loser": "Ginger FC 🏆🏆",
+      "headline": "Goff Guides the Way",
+      "body": "malle_dips_pouches handed Ginger FC 🏆🏆 a 124.58 to 103.82 defeat, snapping Ginger FC's four-game winning streak in the process. Jared Goff orchestrated the attack with 37.78 points, rendering Justin Jefferson's efforts for Ginger FC a footnote."
+    },
+    {
+      "winner": "Malle ❤️ 🐸",
+      "loser": "Uncle Rico",
+      "headline": "A Historic Shellacking",
+      "body": "Entering the week 9-2-0 historically against Uncle Rico, Malle ❤️ 🐸 decided to pad the stats in the most violent way possible. Piling up a league-high 138.16 points against Uncle Rico's meager 80.2, Malle ❤️ 🐸 turned this historic rivalry into a public service announcement."
+    }
+  ],
+  "managerial_desk": {
+    "headline": "The Weekly Bench Autopsy: Leaving Wins in the Locker Room",
+    "body": "Uncle Rico endured the most agonizing Sunday in the league, leaving 36.98 points on the bench while posting an optimal score of 117.18 against a pathetic actual output of 80.2. Starting Lamar Jackson, Jonathon Brooks, and Colston Loveland while letting Matthew Stafford, Kyle Monangai, and Terrance Ferguson outscore them from the pine is a masterclass in how not to play fantasy football. Meanwhile, The Big Gronkowski wasn't far behind, wasting 32.38 optimal points by benching Jordan Love, Xavier Worthy, Tank Bigsby, and Bhayshul Tuten."
+  },
+  "luck_report": {
+    "headline": "Brutal Beats and Underved Escapes",
+    "body": "Voldemort earned the week's most agonizing badge of dishonor, absorbing a brutal bad beat with 131.98 points—the third-highest score of the slate—only to run straight into ThreatLevelMidnight's buzzsaw. Voldemort boasts an 81.82% expected win rate and an 9-2 all-play record, proving that the fantasy gods simply harbor a personal vendetta. On the flip side, Joe Mantegna scraped together a lucky win, posting the seventh-best score of the week (107.32) while managing a meager 5-6 all-play record."
+  },
+  "players_of_the_week": {
+    "headline": "Individual Brilliance Amid Managerial Ruin",
+    "body": "Josh Allen put the entire league on his back for Patty Primetimes, dropping a slate-best 46.82 points. He was joined in the winner's circle of individual performers by Jaxon Smith-Njigba (38.0 points for Voldemort) and Jared Goff (37.78 points for malle_dips_pouches). On the ground, Jonathan Taylor paced all running backs with 27.2 points for Uncle Rico, while Travis Kelce led tight ends with 20.6 points for Malle ❤️ 🐸."
+  },
+  "record_book": {
+    "headline": "Streaks Snap and Rivalries Burn",
+    "body": "Ginger FC 🏆🏆 saw their four-game winning streak evaporate at the hands of malle_dips_pouches, while Malle ❤️ 🐸 successfully snapped a two-game losing skid by demolishing Uncle Rico. ThreatLevelMidnight and Voldemort flirted with history, finishing just 0.84 points away from the all-time narrowest win record of 0.06."
+  },
+  "next_week": {
+    "headline": "Week 3 Previews: History Collides With Projections",
+    "previews": [
+      {
+        "team_1": "The Big Gronkowski",
+        "team_2": "Ginger FC 🏆🏆",
+        "headline": "Historical Dead Heat Meets Model Expectations",
+        "body": "History shows these two locked in a dead-even 5-5-0 all-time series with 986.32 points for The Big Gronkowski and 1058.48 for Ginger FC 🏆🏆. Yahoo projects Ginger FC 🏆🏆 to edge this one out with 113.35 points to 101.7."
+      },
+      {
+        "team_1": "Malle ❤️ 🐸",
+        "team_2": "malle_dips_pouches",
+        "headline": "Chasing the Historical Deficit",
+        "body": "malle_dips_pouches holds a 7-4-0 historical edge in 11 prior meetings against Malle ❤️ 🐸. The projection model likes malle_dips_pouches to build on that momentum, sitting at 118.51 compared to Malle ❤️ 🐸's 90.21."
+      },
+      {
+        "team_1": "Voldemort",
+        "team_2": "Joe Mantegna",
+        "headline": "A Slim Edge in a Tight History",
+        "body": "Voldemort enters with a 6-5-0 historical advantage across 11 games. Yahoo projects Voldemort to take care of business at 109.09 to Joe Mantegna's 99.42."
+      },
+      {
+        "team_1": "ThreatLevelMidnight",
+        "team_2": "Buttermilk Puuump",
+        "headline": "Defending Past Precedent",
+        "body": "ThreatLevelMidnight holds a 2-1-0 historical lead over Buttermilk Puuump. The projections have Buttermilk Puuump narrowly favored at 105.14 against ThreatLevelMidnight's 100.21."
+      },
+      {
+        "team_1": "Pop Lockett Drop it",
+        "team_2": "Patty Primetimes",
+        "headline": "Overcoming the Series Ledger",
+        "body": "Historically, Patty Primetimes leads the head-to-head 5-3-0. Despite the past history, Yahoo projects Pop Lockett Drop it to lead the charge with 117.05 points to 111.62."
+      },
+      {
+        "team_1": "Post Mahomes",
+        "team_2": "Uncle Rico",
+        "headline": "A Lopsided History Seeks Resolution",
+        "body": "Post Mahomes commands a comfortable 6-2-0 historical lead over Uncle Rico. The projection model favors Post Mahomes again at 107.33 over Uncle Rico's 92.16."
+      }
+    ]
+  },
+  "closing_shot": "If your lineup efficiency starts with a 6, do everyone a favor and let a random generator pick your starters next week."
+}

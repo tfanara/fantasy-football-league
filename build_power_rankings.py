@@ -149,7 +149,68 @@ def build_snapshot(luck, efficiency, year, week):
         + WEIGHT_EFFICIENCY * w.efficiency_strength
         + WEIGHT_RESULTS * w.results_strength
     )
-    w["power_rank"] = rank_desc(w.power_score)
+    # --------------------------------------------------------
+    # DETERMINISTIC POWER RANK
+    # --------------------------------------------------------
+    #
+    # Power Score may legitimately tie because component
+    # strengths are percentile ranks. Power Rankings, however,
+    # must always contain exactly one team at each rank 1-12.
+    #
+    # Preserve Power Score exactly as calculated above and use
+    # the underlying performance metrics only as deterministic
+    # tiebreakers:
+    #
+    #   1. Power Score
+    #   2. Average points
+    #   3. All-play percentage
+    #   4. Lineup efficiency
+    #   5. Actual win percentage
+    #   6. Team name (final deterministic fallback)
+    #
+    # Team name should almost never matter; it simply guarantees
+    # reproducible ordering if every performance metric is equal.
+    #
+    rank_order = (
+        w[
+            [
+                "fantasy_team",
+                "power_score",
+                "avg_points",
+                "all_play_pct",
+                "lineup_efficiency_pct",
+                "actual_win_pct",
+            ]
+        ]
+        .sort_values(
+            [
+                "power_score",
+                "avg_points",
+                "all_play_pct",
+                "lineup_efficiency_pct",
+                "actual_win_pct",
+                "fantasy_team",
+            ],
+            ascending=[
+                False,
+                False,
+                False,
+                False,
+                False,
+                True,
+            ],
+            kind="stable",
+        )
+        .index
+    )
+
+    w["power_rank"] = 0
+
+    for rank, idx in enumerate(rank_order, start=1):
+        w.loc[idx, "power_rank"] = rank
+
+    w["power_rank"] = w["power_rank"].astype(int)
+
     w["scoring_rank"] = rank_desc(w.avg_points)
     w["all_play_rank"] = rank_desc(w.all_play_pct)
     w["efficiency_rank"] = rank_desc(w.lineup_efficiency_pct)

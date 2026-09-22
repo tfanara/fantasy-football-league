@@ -326,7 +326,39 @@ def resolve_position(row):
     ):
         return "", "empty_flex"
 
-    # Historical fixed-slot appearances are preferred.
+    # --------------------------------------------------------
+    # YAHOO LINEUP PLAYER POSITION
+    # --------------------------------------------------------
+    #
+    # Current-season Yahoo API lineup rows already provide the
+    # player's actual fantasy position separately from the
+    # lineup slot. For example, an RB started in W/R/T has:
+    #
+    #     player_position = "RB"
+    #     lineup_slot     = "W/R/T"
+    #
+    # Use that authoritative row-level position before falling
+    # back to historical or external NFL position mappings.
+    #
+    yahoo_position = str(
+        row.get(
+            "player_position",
+            "",
+        )
+    ).strip().upper()
+
+    if yahoo_position in {
+        "RB",
+        "WR",
+        "TE",
+    }:
+        return (
+            yahoo_position,
+            "yahoo_player_position",
+        )
+
+    # Historical fixed-slot appearances are preferred when
+    # Yahoo does not provide a usable player position.
     historical_position = historical.get(
         player,
         "",

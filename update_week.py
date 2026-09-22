@@ -42,6 +42,11 @@ CORE_STEPS = [
         "CORE",
     ),
     Step(
+        "Weekly-current matchup master",
+        "merge_matchups.py",
+        "CORE",
+    ),
+    Step(
         "Master transactions",
         "build_master_transactions.py",
         "CORE",
