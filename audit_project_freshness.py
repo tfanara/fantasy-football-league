@@ -354,6 +354,132 @@ validate_current_season(
     team_column="team",
 )
 
+# The website reads data/all_standings.csv rather than the
+# season-specific Yahoo file. Merely finding 12 rows labeled
+# with the current season is insufficient: stale standings
+# from an earlier week would otherwise pass.
+#
+# Require the page-facing current-season rows to agree with
+# the authoritative Yahoo current-season standings.
+
+standings_master = read_csv(
+    "data/all_standings.csv"
+)
+
+standings_current = read_csv(
+    f"data/{SEASON}/standings.csv"
+)
+
+if (
+    standings_master is not None
+    and standings_current is not None
+):
+
+    master_year = numeric(
+        standings_master["year"]
+    )
+
+    master_current = standings_master[
+        master_year.eq(SEASON)
+    ].copy()
+
+    aliases = {
+        "Ginger FC": "Ginger FC 🏆🏆",
+        "Ginger FC 🏆🏆": "Ginger FC 🏆🏆",
+        "PickUpYourBratsMalle": "ThreatLevelMidnight",
+        "Little Red Fournette": "Post Mahomes",
+        "Ur The Best Bellows": "Joe Mantegna",
+        "You Better Park It": "Buttermilk Puuump",
+        "Buttermilk Pump": "Buttermilk Puuump",
+    }
+
+    for frame in (
+        master_current,
+        standings_current,
+    ):
+        frame["team"] = (
+            frame["team"]
+            .astype(str)
+            .str.strip()
+            .replace(aliases)
+        )
+
+    compare_columns = [
+        "team",
+        "record",
+        "points_for",
+        "points_against",
+    ]
+
+    missing_master = [
+        col
+        for col in compare_columns
+        if col not in master_current.columns
+    ]
+
+    missing_current = [
+        col
+        for col in compare_columns
+        if col not in standings_current.columns
+    ]
+
+    if missing_master or missing_current:
+
+        fail(
+            "Standings freshness comparison is missing "
+            "required columns."
+        )
+
+    master_compare = (
+        master_current[compare_columns]
+        .sort_values("team")
+        .reset_index(drop=True)
+    )
+
+    current_compare = (
+        standings_current[compare_columns]
+        .sort_values("team")
+        .reset_index(drop=True)
+    )
+
+    for col in (
+        "points_for",
+        "points_against",
+    ):
+        master_compare[col] = numeric(
+            master_compare[col]
+        )
+
+        current_compare[col] = numeric(
+            current_compare[col]
+        )
+
+    try:
+
+        pd.testing.assert_frame_equal(
+            master_compare,
+            current_compare,
+            check_dtype=False,
+            check_exact=False,
+            atol=0.001,
+            rtol=0.0,
+        )
+
+    except AssertionError as exc:
+
+        fail(
+            "Home / Standings master is stale relative "
+            "to current Yahoo standings. "
+            f"{exc}"
+        )
+
+    else:
+
+        passed(
+            "Page-facing standings exactly match "
+            f"Yahoo {SEASON} standings"
+        )
+
 
 validate_current_season(
     "Master Transactions",

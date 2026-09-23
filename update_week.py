@@ -37,6 +37,11 @@ CORE_STEPS = [
         "COLLECTION",
     ),
     Step(
+        "Master standings",
+        "build_master_standings.py",
+        "CORE",
+    ),
+    Step(
         "Master weekly matchup / lineup data",
         "build_master_weekly_data.py",
         "CORE",
