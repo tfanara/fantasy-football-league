@@ -21634,5 +21634,77 @@
     "acquisition_type":"free_agent",
     "dropped_player":"",
     "raw_text":"ADD C.J. Stroud (free_agent)"
+  },
+  {
+    "year":2026,
+    "date":"2026-09-23T03:27:35-04:00",
+    "team":"Post Mahomes",
+    "added_player":"Adonai Mitchell",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Mike Gesicki",
+    "raw_text":"ADD Adonai Mitchell (free_agent) | DROP Mike Gesicki"
+  },
+  {
+    "year":2026,
+    "date":"2026-09-23T03:28:04-04:00",
+    "team":"Post Mahomes",
+    "added_player":"Tyquan Thornton",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Cyrus Allen",
+    "raw_text":"ADD Tyquan Thornton (free_agent) | DROP Cyrus Allen"
+  },
+  {
+    "year":2026,
+    "date":"2026-09-23T04:40:53-04:00",
+    "team":"Pop Lockett Drop it",
+    "added_player":"Bryce Young",
+    "acquisition_type":"waiver",
+    "dropped_player":"",
+    "raw_text":"ADD Bryce Young (waiver)"
+  },
+  {
+    "year":2026,
+    "date":"2026-09-23T21:37:29-04:00",
+    "team":"Joe Mantegna",
+    "added_player":"Chiefs",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Patriots",
+    "raw_text":"ADD Chiefs (free_agent) | DROP Patriots"
+  },
+  {
+    "year":2026,
+    "date":"2026-09-24T14:18:46-04:00",
+    "team":"Post Mahomes",
+    "added_player":"Emanuel Wilson",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Tyquan Thornton",
+    "raw_text":"ADD Emanuel Wilson (free_agent) | DROP Tyquan Thornton"
+  },
+  {
+    "year":2026,
+    "date":"2026-09-24T16:43:34-04:00",
+    "team":"Uncle Rico",
+    "added_player":"Rashod Bateman",
+    "acquisition_type":"free_agent",
+    "dropped_player":"",
+    "raw_text":"ADD Rashod Bateman (free_agent)"
+  },
+  {
+    "year":2026,
+    "date":"2026-09-24T16:44:11-04:00",
+    "team":"Uncle Rico",
+    "added_player":"Lions",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Steelers",
+    "raw_text":"ADD Lions (free_agent) | DROP Steelers"
+  },
+  {
+    "year":2026,
+    "date":"2026-09-24T20:51:31-04:00",
+    "team":"Pop Lockett Drop it",
+    "added_player":"Panthers",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Buccaneers",
+    "raw_text":"ADD Panthers (free_agent) | DROP Buccaneers"
   }
 ]

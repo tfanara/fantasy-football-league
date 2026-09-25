@@ -1,0 +1,31 @@
+trade_id,year,transaction_id,transaction_key,timestamp,date,status,team_count,asset_count,teams,source
+2018-69,2018,69,380.l.941496.tr.69,1538637864,2018-10-04T03:24:24-04:00,successful,2,3,Ginger FC 🏆🏆 | Voldemort,yahoo_fantasy_api
+2018-94,2018,94,380.l.941496.tr.94,1539502256,2018-10-14T03:30:56-04:00,successful,2,5,Malle ❤️ 🐸 | Post Mahomes,yahoo_fantasy_api
+2018-124,2018,124,380.l.941496.tr.124,1539934156,2018-10-19T03:29:16-04:00,successful,2,2,Joe Mantegna | ThreatLevelMidnight,yahoo_fantasy_api
+2018-125,2018,125,380.l.941496.tr.125,1540022046,2018-10-20T03:54:06-04:00,successful,2,5,Ginger FC 🏆🏆 | Post Mahomes,yahoo_fantasy_api
+2018-214,2018,214,380.l.941496.tr.214,1542272160,2018-11-15T03:56:00-05:00,successful,2,2,Malle ❤️ 🐸 | malle_dips_pouches,yahoo_fantasy_api
+2018-222,2018,222,380.l.941496.tr.222,1542357987,2018-11-16T03:46:27-05:00,successful,2,4,Joe Mantegna | ThreatLevelMidnight,yahoo_fantasy_api
+2018-227,2018,227,380.l.941496.tr.227,1542731880,2018-11-20T11:38:00-05:00,successful,2,6,Pop Lockett Drop it | ThreatLevelMidnight,yahoo_fantasy_api
+2019-50,2019,50,390.l.322794.tr.50,1568964834,2019-09-20T03:33:54-04:00,successful,2,2,Pop Lockett Drop it | Post Mahomes,yahoo_fantasy_api
+2019-168,2019,168,390.l.322794.tr.168,1571902144,2019-10-24T03:29:04-04:00,successful,2,3,Post Mahomes | The Big Gronkowski,yahoo_fantasy_api
+2019-172,2019,172,390.l.322794.tr.172,1572076885,2019-10-26T04:01:25-04:00,successful,2,2,Malle ❤️ 🐸 | ThreatLevelMidnight,yahoo_fantasy_api
+2019-187,2019,187,390.l.322794.tr.187,1572506916,2019-10-31T03:28:36-04:00,successful,2,4,Uncle Rico | malle_dips_pouches,yahoo_fantasy_api
+2020-39,2020,39,399.l.510142.tr.39,1600501178,2020-09-19T03:39:38-04:00,successful,2,2,Big Sack Jack | The Big Gronkowski,yahoo_fantasy_api
+2020-110,2020,110,399.l.510142.tr.110,1602400966,2020-10-11T03:22:46-04:00,successful,2,2,Pop Lockett Drop it | Voldemort,yahoo_fantasy_api
+2020-172,2020,172,399.l.510142.tr.172,1603437912,2020-10-23T03:25:12-04:00,successful,2,5,Patty Primetimes | Post Mahomes,yahoo_fantasy_api
+2020-182,2020,182,399.l.510142.tr.182,1603788336,2020-10-27T04:45:36-04:00,successful,2,6,Patty Primetimes | Uncle Rico,yahoo_fantasy_api
+2020-263,2020,263,399.l.510142.tr.263,1605255933,2020-11-13T03:25:33-05:00,successful,2,3,Pop Lockett Drop it | malle_dips_pouches,yahoo_fantasy_api
+2021-79,2021,79,406.l.410355.tr.79,1633590615,2021-10-07T03:10:15-04:00,successful,2,3,Post Mahomes | Uncle Rico,yahoo_fantasy_api
+2021-104,2021,104,406.l.410355.tr.104,1634234130,2021-10-14T13:55:30-04:00,successful,2,2,Patty Primetimes | Post Mahomes,yahoo_fantasy_api
+2022-59,2022,59,414.l.854563.tr.59,1663962407,2022-09-23T15:46:47-04:00,successful,2,3,Malle ❤️ 🐸 | Voldemort,yahoo_fantasy_api
+2022-81,2022,81,414.l.854563.tr.81,1664461127,2022-09-29T10:18:47-04:00,successful,2,3,Pop Lockett Drop it | Post Mahomes,yahoo_fantasy_api
+2022-112,2022,112,414.l.854563.tr.112,1665060497,2022-10-06T08:48:17-04:00,successful,2,3,Pop Lockett Drop it | Uncle Rico,yahoo_fantasy_api
+2022-149,2022,149,414.l.854563.tr.149,1666129431,2022-10-18T17:43:51-04:00,successful,2,3,Malle ❤️ 🐸 | Post Mahomes,yahoo_fantasy_api
+2022-224,2022,224,414.l.854563.tr.224,1667492991,2022-11-03T12:29:51-04:00,successful,2,2,Post Mahomes | Uncle Rico,yahoo_fantasy_api
+2022-284,2022,284,414.l.854563.tr.284,1668706630,2022-11-17T12:37:10-05:00,successful,2,2,Ginger FC 🏆🏆 | Voldemort,yahoo_fantasy_api
+2023-87,2023,87,423.l.684195.tr.87,1695972099,2023-09-29T03:21:39-04:00,successful,2,2,Pop Lockett Drop it | ThreatLevelMidnight,yahoo_fantasy_api
+2023-232,2023,232,423.l.684195.tr.232,1700143549,2023-11-16T09:05:49-05:00,successful,2,2,Pop Lockett Drop it | Voldemort,yahoo_fantasy_api
+2023-242,2023,242,423.l.684195.tr.242,1700554881,2023-11-21T03:21:21-05:00,successful,2,2,Pop Lockett Drop it | Uncle Rico,yahoo_fantasy_api
+2024-84,2024,84,449.l.673480.tr.84,1728501887,2024-10-09T15:24:47-04:00,successful,2,3,Ginger FC 🏆🏆 | Post Mahomes,yahoo_fantasy_api
+2024-168,2024,168,449.l.673480.tr.168,1731676085,2024-11-15T08:08:05-05:00,successful,2,3,Joe Mantegna | Malle ❤️ 🐸,yahoo_fantasy_api
+2025-74,2025,74,461.l.637567.tr.74,1759476333,2025-10-03T03:25:33-04:00,successful,2,3,Pop Lockett Drop it | Post Mahomes,yahoo_fantasy_api

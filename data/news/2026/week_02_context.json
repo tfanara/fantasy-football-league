@@ -299,7 +299,7 @@
       "avoidable_start_count": 3,
       "missed_start_count": 3,
       "should_have_benched": "Lamar Jackson (QB) | Jonathon Brooks (RB) | Colston Loveland (TE)",
-      "should_have_started": "Kyle Monangai (RB) | Matthew Stafford (QB) | Terrance Ferguson (TE)"
+      "should_have_started": "Matthew Stafford (QB) | Kyle Monangai (RB) | Terrance Ferguson (TE)"
     },
     "decisions": [
       {
@@ -312,7 +312,7 @@
         "avoidable_start_count": 3,
         "missed_start_count": 3,
         "should_have_benched": "Lamar Jackson (QB) | Jonathon Brooks (RB) | Colston Loveland (TE)",
-        "should_have_started": "Kyle Monangai (RB) | Matthew Stafford (QB) | Terrance Ferguson (TE)"
+        "should_have_started": "Matthew Stafford (QB) | Kyle Monangai (RB) | Terrance Ferguson (TE)"
       },
       {
         "team": "The Big Gronkowski",
@@ -324,7 +324,7 @@
         "avoidable_start_count": 4,
         "missed_start_count": 4,
         "should_have_benched": "Drake Maye (QB) | Travis Etienne Jr. (RB) | DK Metcalf (WR) | Malik Nabers (WR)",
-        "should_have_started": "Bhayshul Tuten (RB) | Xavier Worthy (WR) | Tank Bigsby (RB) | Jordan Love (QB)"
+        "should_have_started": "Jordan Love (QB) | Xavier Worthy (WR) | Bhayshul Tuten (RB) | Tank Bigsby (RB)"
       },
       {
         "team": "Malle ❤️ 🐸",
@@ -348,7 +348,7 @@
         "avoidable_start_count": 2,
         "missed_start_count": 2,
         "should_have_benched": "Courtland Sutton (WR) | DJ Moore (WR)",
-        "should_have_started": "George Kittle (TE) | Josh Downs (WR)"
+        "should_have_started": "Josh Downs (WR) | George Kittle (TE)"
       },
       {
         "team": "Ginger FC 🏆🏆",
@@ -360,7 +360,7 @@
         "avoidable_start_count": 4,
         "missed_start_count": 4,
         "should_have_benched": "C.J. Stroud (QB) | David Montgomery (RB) | Justin Jefferson (WR) | Tetairoa McMillan (WR)",
-        "should_have_started": "Tyjae Spears (RB) | Bo Nix (QB) | Parker Washington (WR) | Denzel Boston (WR)"
+        "should_have_started": "Bo Nix (QB) | Denzel Boston (WR) | Tyjae Spears (RB) | Parker Washington (WR)"
       },
       {
         "team": "Joe Mantegna",
@@ -408,7 +408,7 @@
         "avoidable_start_count": 2,
         "missed_start_count": 2,
         "should_have_benched": "Javonte Williams (RB) | Emeka Egbuka (WR)",
-        "should_have_started": "MarShawn Lloyd (RB) | Romeo Doubs (WR)"
+        "should_have_started": "Romeo Doubs (WR) | MarShawn Lloyd (RB)"
       },
       {
         "team": "Buttermilk Puuump",
@@ -591,7 +591,7 @@
       "points_against": 196.46,
       "streak": "win",
       "waiver": 12,
-      "moves": 1,
+      "moves": 3,
       "year": 2026,
       "league_id": 742546
     },
@@ -663,7 +663,7 @@
       "points_against": 245.86,
       "streak": "win",
       "waiver": 9,
-      "moves": 1,
+      "moves": 2,
       "year": 2026,
       "league_id": 742546
     },
@@ -675,7 +675,7 @@
       "points_against": 185.22,
       "streak": "loss",
       "waiver": 3,
-      "moves": 2,
+      "moves": 5,
       "year": 2026,
       "league_id": 742546
     },
@@ -699,7 +699,7 @@
       "points_against": 288.02,
       "streak": "loss",
       "waiver": 2,
-      "moves": 0,
+      "moves": 2,
       "year": 2026,
       "league_id": 742546
     },
@@ -868,8 +868,8 @@
           "points_for": 986.32,
           "points_against": 1058.48
         },
-        "team_1_projection": 103.94,
-        "team_2_projection": 115.45
+        "team_1_projection": 101.1,
+        "team_2_projection": 115.09
       },
       {
         "team_1": "Malle ❤️ 🐸",
@@ -885,8 +885,8 @@
           "points_for": 1003.24,
           "points_against": 1052.7
         },
-        "team_1_projection": 106.69,
-        "team_2_projection": 118.51
+        "team_1_projection": 106.63,
+        "team_2_projection": 120.39
       },
       {
         "team_1": "Voldemort",
@@ -902,8 +902,8 @@
           "points_for": 1190.06,
           "points_against": 1166.04
         },
-        "team_1_projection": 111.76,
-        "team_2_projection": 84.16
+        "team_1_projection": 112.52,
+        "team_2_projection": 107.5
       },
       {
         "team_1": "ThreatLevelMidnight",
@@ -919,8 +919,8 @@
           "points_for": 363.66,
           "points_against": 346.18
         },
-        "team_1_projection": 115.01,
-        "team_2_projection": 107.54
+        "team_1_projection": 107.96,
+        "team_2_projection": 109.03
       },
       {
         "team_1": "Pop Lockett Drop it",
@@ -936,8 +936,8 @@
           "points_for": 826.24,
           "points_against": 958.46
         },
-        "team_1_projection": 116.83,
-        "team_2_projection": 112.22
+        "team_1_projection": 118.31,
+        "team_2_projection": 111.89
       },
       {
         "team_1": "Post Mahomes",
@@ -953,8 +953,8 @@
           "points_for": 1000.42,
           "points_against": 874.8
         },
-        "team_1_projection": 108.17,
-        "team_2_projection": 92.46
+        "team_1_projection": 111.07,
+        "team_2_projection": 100.99
       }
     ]
   },

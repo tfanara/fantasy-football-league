@@ -10,3 +10,11 @@ year,transaction_id,transaction_key,timestamp,date,team,transaction_type,added_p
 2026,23,470.l.742546.tr.23,1789566876,2026-09-16T09:54:36-04:00,Post Mahomes,add,Devaughn Vele,free_agent,,successful,yahoo_fantasy_api
 2026,24,470.l.742546.tr.24,1789567061,2026-09-16T09:57:41-04:00,Post Mahomes,add,Mike Gesicki,free_agent,,successful,yahoo_fantasy_api
 2026,25,470.l.742546.tr.25,1789702185,2026-09-17T23:29:45-04:00,Ginger FC 🏆🏆,add,C.J. Stroud,free_agent,,successful,yahoo_fantasy_api
+2026,26,470.l.742546.tr.26,1790148455,2026-09-23T03:27:35-04:00,Post Mahomes,add/drop,Adonai Mitchell,free_agent,Mike Gesicki,successful,yahoo_fantasy_api
+2026,27,470.l.742546.tr.27,1790148484,2026-09-23T03:28:04-04:00,Post Mahomes,add/drop,Tyquan Thornton,free_agent,Cyrus Allen,successful,yahoo_fantasy_api
+2026,28,470.l.742546.tr.28,1790152853,2026-09-23T04:40:53-04:00,Pop Lockett Drop it,add,Bryce Young,waiver,,successful,yahoo_fantasy_api
+2026,29,470.l.742546.tr.29,1790213849,2026-09-23T21:37:29-04:00,Joe Mantegna,add/drop,Chiefs,free_agent,Patriots,successful,yahoo_fantasy_api
+2026,30,470.l.742546.tr.30,1790273926,2026-09-24T14:18:46-04:00,Post Mahomes,add/drop,Emanuel Wilson,free_agent,Tyquan Thornton,successful,yahoo_fantasy_api
+2026,31,470.l.742546.tr.31,1790282614,2026-09-24T16:43:34-04:00,Uncle Rico,add,Rashod Bateman,free_agent,,successful,yahoo_fantasy_api
+2026,32,470.l.742546.tr.32,1790282651,2026-09-24T16:44:11-04:00,Uncle Rico,add/drop,Lions,free_agent,Steelers,successful,yahoo_fantasy_api
+2026,33,470.l.742546.tr.33,1790297491,2026-09-24T20:51:31-04:00,Pop Lockett Drop it,add/drop,Panthers,free_agent,Buccaneers,successful,yahoo_fantasy_api

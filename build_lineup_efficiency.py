@@ -215,6 +215,72 @@ def normalize_position(value) -> str:
 
 
 
+def parse_position_eligibility(value) -> set[str]:
+
+    """Preserve every Yahoo fantasy position in a position field."""
+
+    if pd.isna(value):
+        return set()
+
+    position_text = str(value).strip().upper()
+
+    if not position_text:
+        return set()
+
+    import re
+
+    position_text = position_text.replace("D/ST", "DEF")
+    position_text = position_text.replace("DST", "DEF")
+
+    return set(
+        re.findall(
+            r"(?<![A-Z])(QB|WR|RB|TE|K|DEF)(?![A-Z])",
+            position_text,
+        )
+    )
+
+
+def infer_player_eligibility(
+    row: pd.Series,
+    historical_lookup: dict[str, str] | None = None,
+) -> set[str]:
+
+    """Return every lineup position for which this row is eligible."""
+
+    # Explicit Yahoo fields are authoritative and can be multi-position.
+    # IMPORTANT: combine BOTH fields instead of returning the first match.
+    # main() normalizes player_position to one primary position for reporting,
+    # while raw_position retains Yahoo values such as WR,RB or QB,TE.
+    explicit_positions = set()
+    for field in ["player_position", "raw_position"]:
+        explicit_positions |= parse_position_eligibility(row.get(field))
+
+    if explicit_positions:
+        return explicit_positions
+
+    player = str(row.get("player", "")).strip()
+
+    if historical_lookup and player and player in historical_lookup:
+        positions = parse_position_eligibility(historical_lookup[player])
+        if positions:
+            return positions
+
+    slot_raw = str(row.get("lineup_slot", "")).strip().upper()
+
+    if slot_raw in {"QB", "WR", "RB", "TE", "K", "DEF"}:
+        return {slot_raw}
+
+    if slot_raw == "W/R/T":
+        return {"FLEX"}
+
+    for field in ["raw_player_text", "raw_cells"]:
+        positions = parse_position_eligibility(row.get(field))
+        if positions:
+            return positions
+
+    return set()
+
+
 def scoring_value(value) -> float:
 
     """
@@ -513,21 +579,16 @@ def build_optimal_lineup(
 
     """
 
-    Find the best legal 9-player lineup.
-
-    Brute-force is feasible because fantasy rosters are small. We enumerate
-
-    candidate players by slot eligibility and search combinations for the
-
-    fixed positional counts + one flex.
+    Find the best legal 9-player lineup while preserving Yahoo
+    multi-position eligibility such as WR,RB and QB,TE.
 
     """
 
     roster = roster.copy()
 
-    roster["opt_position"] = roster.apply(
+    roster["opt_positions"] = roster.apply(
 
-        lambda row: infer_player_position(
+        lambda row: infer_player_eligibility(
 
             row,
 
@@ -539,53 +600,27 @@ def build_optimal_lineup(
 
     )
 
-    roster["opt_points"] = roster[
-
-        "fantasy_points"
-
-    ].apply(
-
-        scoring_value
-
-    )
-
-    # Exclude empty roster placeholders.
+    roster["opt_points"] = roster["fantasy_points"].apply(scoring_value)
 
     roster = roster[
 
-        ~roster["player"]
-
-        .astype(str)
-
-        .str.strip()
-
-        .eq("(Empty)")
+        ~roster["player"].astype(str).str.strip().eq("(Empty)")
 
     ].copy()
 
-    # Exclude rows with no usable positional information.
-
-    roster = roster[
-
-        roster["opt_position"].ne("")
-
-    ].copy()
-
-    # Candidate lists by fixed slot.
+    roster = roster[roster["opt_positions"].map(bool)].copy()
 
     candidates = {
 
         slot: roster[
 
-            roster["opt_position"].eq(slot)
+            roster["opt_positions"].map(lambda positions: slot in positions)
 
         ].index.tolist()
 
         for slot in FIXED_SLOT_REQUIREMENTS
 
     }
-
-    # Defensive checks.
 
     for slot, needed in FIXED_SLOT_REQUIREMENTS.items():
 
@@ -598,74 +633,24 @@ def build_optimal_lineup(
             )
 
     best_indices = None
-
     best_score = float("-inf")
 
-    qb_combos = combinations(
-
-        candidates["QB"],
-
-        FIXED_SLOT_REQUIREMENTS["QB"],
-
-    )
+    qb_combos = combinations(candidates["QB"], FIXED_SLOT_REQUIREMENTS["QB"])
 
     for qb in qb_combos:
+        for wr in combinations(candidates["WR"], FIXED_SLOT_REQUIREMENTS["WR"]):
+            for rb in combinations(candidates["RB"], FIXED_SLOT_REQUIREMENTS["RB"]):
+                for te in combinations(candidates["TE"], FIXED_SLOT_REQUIREMENTS["TE"]):
+                    for k in combinations(candidates["K"], FIXED_SLOT_REQUIREMENTS["K"]):
+                        for deff in combinations(candidates["DEF"], FIXED_SLOT_REQUIREMENTS["DEF"]):
 
-        for wr in combinations(
+                            fixed_list = list(qb + wr + rb + te + k + deff)
+                            fixed = set(fixed_list)
 
-            candidates["WR"],
-
-            FIXED_SLOT_REQUIREMENTS["WR"],
-
-        ):
-
-            for rb in combinations(
-
-                candidates["RB"],
-
-                FIXED_SLOT_REQUIREMENTS["RB"],
-
-            ):
-
-                for te in combinations(
-
-                    candidates["TE"],
-
-                    FIXED_SLOT_REQUIREMENTS["TE"],
-
-                ):
-
-                    for k in combinations(
-
-                        candidates["K"],
-
-                        FIXED_SLOT_REQUIREMENTS["K"],
-
-                    ):
-
-                        for deff in combinations(
-
-                            candidates["DEF"],
-
-                            FIXED_SLOT_REQUIREMENTS["DEF"],
-
-                        ):
-
-                            fixed = set(
-
-                                qb
-
-                                + wr
-
-                                + rb
-
-                                + te
-
-                                + k
-
-                                + deff
-
-                            )
+                            # A multi-position player may appear in more than one
+                            # candidate list, but one player cannot fill two slots.
+                            if len(fixed) != len(fixed_list):
+                                continue
 
                             flex_candidates = roster[
 
@@ -674,17 +659,10 @@ def build_optimal_lineup(
                                     lambda idx: (
 
                                         idx not in fixed
-
-                                        and roster.at[
-
-                                            idx,
-
-                                            "opt_position",
-
-                                        ]
-
-                                        in FLEX_ELIGIBLE
-
+                                        and bool(
+                                            roster.at[idx, "opt_positions"]
+                                            & FLEX_ELIGIBLE
+                                        )
                                     )
 
                                 )
@@ -692,61 +670,25 @@ def build_optimal_lineup(
                             ]
 
                             if flex_candidates.empty:
-
                                 continue
 
-                            flex_idx = (
-
-                                flex_candidates[
-
-                                    "opt_points"
-
-                                ]
-
-                                .idxmax()
-
-                            )
-
-                            lineup_indices = list(
-
-                                fixed
-
-                            ) + [flex_idx]
-
+                            flex_idx = flex_candidates["opt_points"].idxmax()
+                            lineup_indices = fixed_list + [flex_idx]
                             score = float(
-
-                                roster.loc[
-
-                                    lineup_indices,
-
-                                    "opt_points",
-
-                                ].sum()
-
+                                roster.loc[lineup_indices, "opt_points"].sum()
                             )
 
                             if score > best_score:
-
                                 best_score = score
-
                                 best_indices = lineup_indices
 
     if best_indices is None:
 
-        raise RuntimeError(
+        raise RuntimeError("Could not build a legal optimal lineup.")
 
-            "Could not build a legal optimal lineup."
-
-        )
-
-    optimal = roster.loc[
-
-        best_indices
-
-    ].copy()
+    optimal = roster.loc[best_indices].copy()
 
     return optimal, best_score
-
 
 
 def build_decision_rows(
@@ -1212,7 +1154,14 @@ def main():
 
         ].copy()
 
-        if len(actual_starters) != 9:
+        # Historical Yahoo lineups can legitimately contain an
+        # unfilled starting slot. The actual score remains Yahoo's
+        # authoritative submitted-lineup result, while the optimizer
+        # still builds the best legal 9-player lineup from the roster.
+        #
+        # More than 9 occupied starters is invalid and must not enter
+        # the efficiency analysis.
+        if len(actual_starters) > 9:
 
             skipped.append(
 
@@ -1650,7 +1599,7 @@ def main():
             ].to_string(index=False))
             print("\nOPTIMIZER SELECTED")
             print(optimal[
-                ["lineup_slot", "player", "opt_position", "opt_points"]
+                ["lineup_slot", "player", "opt_positions", "opt_points"]
             ].to_string(index=False))
 
             actual_indices = set(actual_starters.index)
@@ -1667,7 +1616,7 @@ def main():
             ].to_string(index=False))
             print("\nOPTIMAL-ONLY PLAYERS")
             print("NONE" if optimal_only.empty else optimal_only[
-                ["lineup_slot", "player", "opt_position", "opt_points"]
+                ["lineup_slot", "player", "opt_positions", "opt_points"]
             ].to_string(index=False))
 
         raise RuntimeError(

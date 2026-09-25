@@ -22,3 +22,9 @@ data/analysis/waiver_value_model_comparison.csv
 backups/
 data/2026/transactions_yahoo_raw.xml
 data/*/transactions_yahoo_raw.xml
+# Local patch/recovery backups
+*.before_*
+
+# Historical Yahoo API rebuild/recovery data
+data/matchups/player_week_stats/api_rebuild/
+data/matchups/player_week_stats/pre_api_rebuild_backup_*/

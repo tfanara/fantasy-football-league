@@ -3,7 +3,7 @@ import pandas as pd
 
 from season_config import CURRENT_SEASON, LAST_COMPLETED_SEASON, REGULAR_SEASON_END_WEEK, print_season_config
 
-START_YEAR = 2017
+START_YEAR = 2018
 END_YEAR = CURRENT_SEASON
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -264,17 +264,36 @@ def main():
         .reset_index(name="starters")
     )
 
-    bad_starters = starter_counts[
-        starter_counts["starters"] != STARTERS_PER_TEAM
+    # Historical Yahoo rosters can legitimately contain an
+    # unfilled starting slot. Yahoo API reconstruction identified
+    # a small number of such team-weeks. More than the configured
+    # number of starters is still invalid.
+    too_many_starters = starter_counts[
+        starter_counts["starters"] > STARTERS_PER_TEAM
     ]
 
-    if not bad_starters.empty:
-        print(bad_starters.to_string(index=False))
-        fail("At least one team-week does not contain exactly 9 starters.")
+    if not too_many_starters.empty:
+        print(too_many_starters.to_string(index=False))
+        fail(
+            f"At least one team-week contains more than "
+            f"{STARTERS_PER_TEAM} occupied starters."
+        )
+
+    short_lineups = starter_counts[
+        starter_counts["starters"] < STARTERS_PER_TEAM
+    ]
+
+    if not short_lineups.empty:
+        print("Historical team-weeks with unfilled starter slots:")
+        print(short_lineups.to_string(index=False))
+        print(
+            f"[INFO] {len(short_lineups)} team-week(s) contain "
+            f"fewer than {STARTERS_PER_TEAM} occupied starters."
+        )
 
     expected_team_weeks = sum(
         weeks * TEAMS
-        for weeks in REGULAR_SEASON_WEEKS.values()
+        for weeks in included_weeks.values()
     )
 
     if len(starter_counts) != expected_team_weeks:
@@ -283,18 +302,30 @@ def main():
             f"expected {expected_team_weeks}."
         )
 
-    expected_starters = expected_team_weeks * STARTERS_PER_TEAM
+    expected_max_starters = (
+        expected_team_weeks * STARTERS_PER_TEAM
+    )
 
-    if len(starters) != expected_starters:
+    missing_starter_slots = (
+        expected_max_starters - len(starters)
+    )
+
+    if missing_starter_slots < 0:
         fail(
-            f"Found {len(starters)} starter rows; "
-            f"expected {expected_starters}."
+            f"Found {len(starters)} starter rows; maximum expected "
+            f"is {expected_max_starters}."
         )
 
     print(
-        f"[PASS] {expected_team_weeks:,} team-weeks with "
-        f"{expected_starters:,} starter rows."
+        f"[PASS] Starter coverage: {len(starters):,} occupied "
+        f"starter rows across {expected_team_weeks:,} team-weeks."
     )
+
+    if missing_starter_slots:
+        print(
+            f"[INFO] {missing_starter_slots} historical starter "
+            f"slot(s) were legitimately unfilled."
+        )
 
     banner("7. DUPLICATE CHECKS")
 

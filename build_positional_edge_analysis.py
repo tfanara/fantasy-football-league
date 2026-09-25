@@ -196,45 +196,80 @@ starter_counts = (
 )
 
 
-# Validate every individual team-week, not just the league-wide
-# total. This catches missing or duplicated starter slots.
+# Validate every individual team-week.
+#
+# Yahoo historical roster data contains a small number of legitimate
+# team-weeks where a manager left one starting slot empty. These have
+# 8 occupied starters rather than 9. Do not fabricate an empty-player
+# row simply to force every lineup to nine occupied starters.
+#
+# Eight or nine occupied starters is therefore valid. Anything below
+# eight or above nine indicates a real data-integrity problem.
 
-bad_starter_counts = starter_counts[
-    starter_counts != 9
+invalid_starter_counts = starter_counts[
+    (starter_counts < 8)
+    | (starter_counts > 9)
 ]
 
-if not bad_starter_counts.empty:
+if not invalid_starter_counts.empty:
     raise RuntimeError(
-        "Expected exactly 9 starters per team-week. "
-        f"Found {len(bad_starter_counts):,} invalid "
+        "Expected 8 or 9 occupied starters per team-week. "
+        f"Found {len(invalid_starter_counts):,} invalid "
         "team-weeks:\n"
-        + bad_starter_counts.to_string()
+        + invalid_starter_counts.to_string()
     )
 
 
-# Validate the overall total against the dynamically discovered
-# number of completed team-weeks.
+short_lineups = starter_counts[
+    starter_counts == 8
+]
+
+if not short_lineups.empty:
+    print()
+    print("Historical team-weeks with unfilled starter slots:")
+    print(short_lineups.to_string())
+    print(
+        f"[INFO] {len(short_lineups):,} team-week(s) contain "
+        "8 occupied starters; one starting slot was left empty."
+    )
+
+
+# Validate the overall starter total by accounting for legitimate
+# unfilled slots rather than assuming every team-week has nine
+# occupied players.
 
 team_week_count = len(starter_counts)
 
-expected_starters = team_week_count * 9
+full_capacity_starters = team_week_count * 9
+unfilled_starter_slots = int(
+    (9 - starter_counts).sum()
+)
+expected_starters = (
+    full_capacity_starters
+    - unfilled_starter_slots
+)
 actual_starters = len(starters)
 
 if actual_starters != expected_starters:
     raise RuntimeError(
         f"Starter row count mismatch: "
         f"{actual_starters:,} rows found, "
-        f"{expected_starters:,} expected from "
-        f"{team_week_count:,} team-weeks × 9 starters."
+        f"{expected_starters:,} expected after accounting for "
+        f"{unfilled_starter_slots:,} unfilled starter slot(s)."
     )
 
 
 print(
     f"[PASS] Starter coverage: "
-    f"{actual_starters:,} starter rows across "
-    f"{team_week_count:,} team-weeks "
-    f"({team_week_count:,} × 9)."
+    f"{actual_starters:,} occupied starter rows across "
+    f"{team_week_count:,} team-weeks."
 )
+
+if unfilled_starter_slots:
+    print(
+        f"[INFO] {unfilled_starter_slots:,} historical starter "
+        "slot(s) were legitimately unfilled."
+    )
 
 
 # ============================================================

@@ -1,0 +1,61 @@
+trade_id,year,date,team,players_received,players_received_count,roster_weeks,starts,bench_weeks,ir_weeks,fantasy_points,started_points,bench_points,projected_points
+2018-124,2018,2018-10-19T03:29:16-04:00,Joe Mantegna,Jared Cook,1,7,2,5,0,54.9,15.4,39.5,36.09
+2018-124,2018,2018-10-19T03:29:16-04:00,ThreatLevelMidnight,O.J. Howard,1,5,4,1,0,46.1,38.3,7.8,33.44
+2018-125,2018,2018-10-20T03:54:06-04:00,Ginger FC 🏆🏆,Allen Robinson | Kenny Golladay | Phillip Lindsay,3,21,16,5,0,205.3,164.4,40.9,169.26
+2018-125,2018,2018-10-20T03:54:06-04:00,Post Mahomes,Chris Thompson | DeAndre Hopkins,2,10,6,4,0,76.0,73.8,2.2,88.98
+2018-214,2018,2018-11-15T03:56:00-05:00,Malle ❤️ 🐸,Eric Ebron,1,3,3,0,0,21.7,21.7,0.0,20.83
+2018-214,2018,2018-11-15T03:56:00-05:00,malle_dips_pouches,T.Y. Hilton,1,3,2,1,0,47.7,40.0,7.7,32.15
+2018-222,2018,2018-11-16T03:46:27-05:00,Joe Mantegna,Jordan Howard | Marvin Jones Jr.,2,6,1,5,0,16.0,8.0,8.0,27.92
+2018-222,2018,2018-11-16T03:46:27-05:00,ThreatLevelMidnight,Corey Davis | Zach Ertz,2,4,4,0,0,35.3,35.3,0.0,36.11
+2018-227,2018,2018-11-20T11:38:00-05:00,Pop Lockett Drop it,Adam Thielen | Kirk Cousins | Zach Ertz,3,6,6,0,0,96.12,96.12,0.0,96.59
+2018-227,2018,2018-11-20T11:38:00-05:00,ThreatLevelMidnight,James White | Josh Gordon | Matt Ryan,3,6,5,1,0,73.72,61.92,11.8,91.38
+2018-69,2018,2018-10-04T03:24:24-04:00,Ginger FC 🏆🏆,Jordan Reed | Marshawn Lynch,2,12,11,1,0,55.0,55.0,0.0,82.87
+2018-69,2018,2018-10-04T03:24:24-04:00,Voldemort,Rob Gronkowski,1,9,5,4,0,35.7,35.7,0.0,47.07
+2018-94,2018,2018-10-14T03:30:56-04:00,Malle ❤️ 🐸,Andrew Luck | Isaiah Crowell | T.Y. Hilton,3,21,6,15,0,265.06,83.82,181.24,260.04
+2018-94,2018,2018-10-14T03:30:56-04:00,Post Mahomes,Allen Robinson | Cam Newton,2,9,8,1,0,229.54,197.58,31.96,220.83
+2019-168,2019,2019-10-24T03:29:04-04:00,Post Mahomes,Marlon Mack,1,6,4,0,2,49.0,49.0,0.0,47.71
+2019-168,2019,2019-10-24T03:29:04-04:00,The Big Gronkowski,DJ Chark | James White,2,12,7,5,0,107.5,72.3,35.2,92.05
+2019-172,2019,2019-10-26T04:01:25-04:00,Malle ❤️ 🐸,James Conner,1,6,5,1,0,22.6,22.6,0.0,25.02
+2019-172,2019,2019-10-26T04:01:25-04:00,ThreatLevelMidnight,Le'Veon Bell,1,6,6,0,0,61.1,61.1,0.0,73.71
+2019-187,2019,2019-10-31T03:28:36-04:00,Uncle Rico,DJ Moore | LeSean McCoy,2,10,6,4,0,91.8,68.1,23.7,51.44
+2019-187,2019,2019-10-31T03:28:36-04:00,malle_dips_pouches,Peyton Barber | Tyler Boyd,2,7,3,4,0,45.4,19.1,26.3,34.79
+2019-50,2019,2019-09-20T03:33:54-04:00,Pop Lockett Drop it,Rashaad Penny,1,3,0,3,0,4.9,0.0,4.9,6.37
+2019-50,2019,2019-09-20T03:33:54-04:00,Post Mahomes,George Kittle,1,11,8,3,0,77.4,77.4,0.0,75.73
+2020-110,2020,2020-10-11T03:22:46-04:00,Pop Lockett Drop it,Darrell Henderson Jr.,1,5,3,2,0,44.4,24.1,20.3,42.16
+2020-110,2020,2020-10-11T03:22:46-04:00,Voldemort,Justin Jefferson,1,9,5,4,0,129.8,70.7,59.1,99.79
+2020-172,2020,2020-10-23T03:25:12-04:00,Patty Primetimes,DJ Moore | Noah Fant | Phillip Lindsay,3,21,10,11,0,154.7,99.8,54.9,155.56
+2020-172,2020,2020-10-23T03:25:12-04:00,Post Mahomes,Mark Andrews | T.Y. Hilton,2,8,4,3,1,36.1,36.1,0.0,41.9
+2020-182,2020,2020-10-27T04:45:36-04:00,Patty Primetimes,D'Andre Swift | Josh Allen | Travis Fulgham,3,18,14,4,0,205.3,163.3,42.0,177.75
+2020-182,2020,2020-10-27T04:45:36-04:00,Uncle Rico,Austin Ekeler | Christian Kirk | Lamar Jackson,3,18,7,9,2,179.9,143.3,36.6,145.08
+2020-263,2020,2020-11-13T03:25:33-05:00,Pop Lockett Drop it,Devin Singletary | Robbie Chosen,2,8,3,5,0,50.6,29.6,21.0,59.68
+2020-263,2020,2020-11-13T03:25:33-05:00,malle_dips_pouches,Darrell Henderson Jr.,1,4,3,1,0,28.0,13.6,14.4,39.17
+2020-39,2020,2020-09-19T03:39:38-04:00,Big Sack Jack,Keenan Allen,1,12,11,1,0,171.6,171.6,0.0,157.09
+2020-39,2020,2020-09-19T03:39:38-04:00,The Big Gronkowski,Odell Beckham Jr.,1,6,4,2,0,71.62,48.32,23.3,78.22
+2021-104,2021,2021-10-14T13:55:30-04:00,Patty Primetimes,Alex Collins,1,9,6,3,0,38.0,35.8,2.2,67.4
+2021-104,2021,2021-10-14T13:55:30-04:00,Post Mahomes,Dallas Goedert,1,0,0,0,0,0.0,0.0,0.0,0.0
+2021-79,2021,2021-10-07T03:10:15-04:00,Post Mahomes,Odell Beckham Jr.,1,10,2,7,1,63.7,19.7,44.0,83.43
+2021-79,2021,2021-10-07T03:10:15-04:00,Uncle Rico,Brandon Aiyuk | Latavius Murray,2,13,4,9,0,38.5,18.9,19.6,65.15
+2022-112,2022,2022-10-06T08:48:17-04:00,Pop Lockett Drop it,Nick Chubb,1,10,9,1,0,131.9,131.9,0.0,134.96
+2022-112,2022,2022-10-06T08:48:17-04:00,Uncle Rico,Christian Kirk | Najee Harris,2,20,16,4,0,203.66,166.16,37.5,153.6
+2022-149,2022,2022-10-18T17:43:51-04:00,Malle ❤️ 🐸,Allen Lazard | Ezekiel Elliott,2,16,10,6,0,135.1,117.9,17.2,121.15
+2022-149,2022,2022-10-18T17:43:51-04:00,Post Mahomes,CeeDee Lamb,1,8,7,1,0,102.8,102.8,0.0,108.0
+2022-224,2022,2022-11-03T12:29:51-04:00,Post Mahomes,Tua Tagovailoa,1,6,5,1,0,111.84,111.84,0.0,115.23
+2022-224,2022,2022-11-03T12:29:51-04:00,Uncle Rico,Clyde Edwards-Helaire,1,2,1,1,0,2.4,2.4,0.0,19.12
+2022-284,2022,2022-11-17T12:37:10-05:00,Ginger FC 🏆🏆,Curtis Samuel,1,4,2,2,0,22.2,10.6,11.6,24.56
+2022-284,2022,2022-11-17T12:37:10-05:00,Voldemort,Dalton Schultz,1,4,4,0,0,36.8,36.8,0.0,32.63
+2022-59,2022,2022-09-23T15:46:47-04:00,Malle ❤️ 🐸,Antonio Gibson | James Robinson,2,24,15,9,0,156.4,127.0,29.4,176.17
+2022-59,2022,2022-09-23T15:46:47-04:00,Voldemort,D'Andre Swift,1,12,4,5,3,75.6,31.0,44.6,88.48
+2022-81,2022,2022-09-29T10:18:47-04:00,Pop Lockett Drop it,Gabe Davis | Gerald Everett,2,22,18,4,0,163.1,146.7,16.4,180.28
+2022-81,2022,2022-09-29T10:18:47-04:00,Post Mahomes,Dameon Pierce,1,11,9,2,0,121.7,110.7,11.0,122.57
+2023-232,2023,2023-11-16T09:05:49-05:00,Pop Lockett Drop it,Tyler Lockett,1,4,4,0,0,31.2,31.2,0.0,38.21
+2023-232,2023,2023-11-16T09:05:49-05:00,Voldemort,Isiah Pacheco,1,4,3,0,1,52.8,52.8,0.0,38.52
+2023-242,2023,2023-11-21T03:21:21-05:00,Pop Lockett Drop it,Gus Edwards,1,3,2,1,0,5.7,5.7,0.0,17.42
+2023-242,2023,2023-11-21T03:21:21-05:00,Uncle Rico,Justin Fields,1,3,2,1,0,37.3,37.3,0.0,0.0
+2023-87,2023,2023-09-29T03:21:39-04:00,Pop Lockett Drop it,Raheem Mostert,1,11,10,1,0,147.5,147.5,0.0,121.96
+2023-87,2023,2023-09-29T03:21:39-04:00,ThreatLevelMidnight,Chris Olave,1,11,9,2,0,110.6,103.5,7.1,115.09
+2024-168,2024,2024-11-15T08:08:05-05:00,Joe Mantegna,Brock Purdy | Malik Nabers,2,2,1,1,0,10.4,10.4,0.0,13.38
+2024-168,2024,2024-11-15T08:08:05-05:00,Malle ❤️ 🐸,Breece Hall,1,1,1,0,0,9.5,9.5,0.0,16.09
+2024-84,2024,2024-10-09T15:24:47-04:00,Ginger FC 🏆🏆,Kareem Hunt,1,1,0,1,0,0.0,0.0,0.0,0.0
+2024-84,2024,2024-10-09T15:24:47-04:00,Post Mahomes,Amari Cooper | Deebo Samuel Sr.,2,6,3,3,0,26.0,11.4,14.6,45.24
+2025-74,2025,2025-10-03T03:25:33-04:00,Pop Lockett Drop it,Jordan Mason | Tee Higgins,2,6,4,2,0,59.8,41.2,18.6,54.54
+2025-74,2025,2025-10-03T03:25:33-04:00,Post Mahomes,Tetairoa McMillan,1,5,4,1,0,68.0,59.5,8.5,64.18

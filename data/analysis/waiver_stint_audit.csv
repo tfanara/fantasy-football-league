@@ -2009,12 +2009,20 @@ W02007,2025,malle_dips_pouches,DJ Moore,WR,Free Agent,2025-12-07 12:24:00,,14,14
 W02008,2025,malle_dips_pouches,Jason Myers,,Free Agent,2025-10-30 18:24:00,,9,9,BEFORE_GAME_DATE,6.0,6.0,0.0,6.0,0.0,6.0,0.0,1.0,0.0,0.0,False
 W02009,2025,malle_dips_pouches,Jayden Reed,,Free Agent,2025-12-07 15:22:00,,14,14,SAME_DAY_AS_GAME,1.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,False
 W02010,2026,Ginger FC 🏆🏆,C.J. Stroud,,free_agent,2026-09-17 23:29:45,,2,2,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02011,2026,Joe Mantegna,Dontayvion Wicks,,free_agent,2026-09-07 10:29:46,,1,1,NO_NFL_TEAM_MATCH,2.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
-W02012,2026,Pop Lockett Drop it,Buccaneers,,waiver,2026-09-16 04:34:32,,2,2,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02013,2026,Post Mahomes,Devaughn Vele,,free_agent,2026-09-16 09:54:36,,2,2,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02014,2026,Post Mahomes,Mike Gesicki,,free_agent,2026-09-16 09:57:41,,2,2,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02015,2026,ThreatLevelMidnight,49ers,,free_agent,2026-09-16 09:32:45,,2,2,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02016,2026,ThreatLevelMidnight,Kaelon Black,,free_agent,2026-09-08 10:43:22,,1,1,NO_NFL_TEAM_MATCH,2.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
-W02017,2026,ThreatLevelMidnight,Tre Tucker,,free_agent,2026-09-04 11:59:41,,1,1,NO_NFL_TEAM_MATCH,2.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
-W02018,2026,Voldemort,Jalen Nailor,,free_agent,2026-09-08 07:22:22,,1,1,NO_NFL_TEAM_MATCH,2.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
-W02019,2026,malle_dips_pouches,Tank Dell,,waiver,2026-09-04 03:16:42,,1,1,NO_NFL_TEAM_MATCH,2.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
+W02011,2026,Joe Mantegna,Chiefs,,free_agent,2026-09-23 21:37:29,,3,3,NO_NFL_TEAM_MATCH,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,False
+W02012,2026,Joe Mantegna,Dontayvion Wicks,,free_agent,2026-09-07 10:29:46,,1,1,NO_NFL_TEAM_MATCH,2.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
+W02013,2026,Pop Lockett Drop it,Bryce Young,,waiver,2026-09-23 04:40:53,,3,3,NO_NFL_TEAM_MATCH,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,False
+W02014,2026,Pop Lockett Drop it,Buccaneers,,waiver,2026-09-16 04:34:32,2026-09-24 20:51:31,2,2,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02015,2026,Pop Lockett Drop it,Panthers,,free_agent,2026-09-24 20:51:31,,3,3,NO_NFL_TEAM_MATCH,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,False
+W02016,2026,Post Mahomes,Adonai Mitchell,,free_agent,2026-09-23 03:27:35,,3,3,NO_NFL_TEAM_MATCH,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,False
+W02017,2026,Post Mahomes,Devaughn Vele,,free_agent,2026-09-16 09:54:36,,2,2,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02018,2026,Post Mahomes,Emanuel Wilson,,free_agent,2026-09-24 14:18:46,,3,3,NO_NFL_TEAM_MATCH,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,False
+W02019,2026,Post Mahomes,Mike Gesicki,,free_agent,2026-09-16 09:57:41,2026-09-23 03:27:35,2,2,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02020,2026,Post Mahomes,Tyquan Thornton,,free_agent,2026-09-23 03:28:04,2026-09-24 14:18:46,3,3,NO_NFL_TEAM_MATCH,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,False
+W02021,2026,ThreatLevelMidnight,49ers,,free_agent,2026-09-16 09:32:45,,2,2,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02022,2026,ThreatLevelMidnight,Kaelon Black,,free_agent,2026-09-08 10:43:22,,1,1,NO_NFL_TEAM_MATCH,2.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
+W02023,2026,ThreatLevelMidnight,Tre Tucker,,free_agent,2026-09-04 11:59:41,,1,1,NO_NFL_TEAM_MATCH,2.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
+W02024,2026,Uncle Rico,Lions,,free_agent,2026-09-24 16:44:11,,3,3,NO_NFL_TEAM_MATCH,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,False
+W02025,2026,Uncle Rico,Rashod Bateman,,free_agent,2026-09-24 16:43:34,,3,3,NO_NFL_TEAM_MATCH,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,False
+W02026,2026,Voldemort,Jalen Nailor,,free_agent,2026-09-08 07:22:22,,1,1,NO_NFL_TEAM_MATCH,2.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
+W02027,2026,malle_dips_pouches,Tank Dell,,waiver,2026-09-04 03:16:42,,1,1,NO_NFL_TEAM_MATCH,2.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False

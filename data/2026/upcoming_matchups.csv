@@ -1,7 +1,7 @@
 year,week,team_1,team_2,team_1_projected,team_2_projected,status,is_playoffs,source
-2026,3,The Big Gronkowski,Ginger FC 🏆🏆,103.94,115.45,midevent,False,yahoo_fantasy_api
-2026,3,Malle ❤️ 🐸,malle_dips_pouches,106.69,118.51,midevent,False,yahoo_fantasy_api
-2026,3,Voldemort,Joe Mantegna,111.76,84.16,midevent,False,yahoo_fantasy_api
-2026,3,ThreatLevelMidnight,Buttermilk Puuump,115.01,107.54,midevent,False,yahoo_fantasy_api
-2026,3,Pop Lockett Drop it,Patty Primetimes,116.83,112.22,midevent,False,yahoo_fantasy_api
-2026,3,Post Mahomes,Uncle Rico,108.17,92.46,midevent,False,yahoo_fantasy_api
+2026,3,The Big Gronkowski,Ginger FC 🏆🏆,101.1,115.09,midevent,False,yahoo_fantasy_api
+2026,3,Malle ❤️ 🐸,malle_dips_pouches,106.63,120.39,midevent,False,yahoo_fantasy_api
+2026,3,Voldemort,Joe Mantegna,112.52,107.5,midevent,False,yahoo_fantasy_api
+2026,3,ThreatLevelMidnight,Buttermilk Puuump,107.96,109.03,midevent,False,yahoo_fantasy_api
+2026,3,Pop Lockett Drop it,Patty Primetimes,118.31,111.89,midevent,False,yahoo_fantasy_api
+2026,3,Post Mahomes,Uncle Rico,111.07,100.99,midevent,False,yahoo_fantasy_api

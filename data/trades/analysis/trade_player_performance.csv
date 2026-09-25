@@ -1,0 +1,93 @@
+trade_id,year,date,player,source_team,destination_team,position,position_source,attribution_status,first_week_with_acquiring_team,last_week_with_acquiring_team,roster_weeks,starts,bench_weeks,ir_weeks,fantasy_points,started_points,bench_points,projected_points,points_per_roster_week,points_per_start
+2018-69,2018,2018-10-04T03:24:24-04:00,Rob Gronkowski,Ginger FC 🏆🏆,Voldemort,TE,acquired_stint_fixed_slot,matched_post_trade_roster_stint,5.0,13.0,9,5,4,0,35.7,35.7,0.0,47.07,3.97,7.14
+2018-69,2018,2018-10-04T03:24:24-04:00,Jordan Reed,Voldemort,Ginger FC 🏆🏆,TE,acquired_stint_fixed_slot,matched_post_trade_roster_stint,5.0,13.0,9,9,0,0,45.0,45.0,0.0,60.16,5.0,5.0
+2018-69,2018,2018-10-04T03:24:24-04:00,Marshawn Lynch,Voldemort,Ginger FC 🏆🏆,RB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,5.0,7.0,3,2,1,0,10.0,10.0,0.0,22.71,3.33,5.0
+2018-94,2018,2018-10-14T03:30:56-04:00,Allen Robinson,Malle ❤️ 🐸,Post Mahomes,WR,acquired_stint_fixed_slot,matched_post_trade_roster_stint,6.0,6.0,1,1,0,0,12.4,12.4,0.0,8.62,12.4,12.4
+2018-94,2018,2018-10-14T03:30:56-04:00,Cam Newton,Malle ❤️ 🐸,Post Mahomes,QB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,6.0,13.0,8,7,1,0,217.14,185.18,31.96,212.21,27.14,26.45
+2018-94,2018,2018-10-14T03:30:56-04:00,Andrew Luck,Post Mahomes,Malle ❤️ 🐸,QB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,6.0,13.0,8,3,5,0,193.06,70.62,122.44,174.71,24.13,23.54
+2018-94,2018,2018-10-14T03:30:56-04:00,Isaiah Crowell,Post Mahomes,Malle ❤️ 🐸,RB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,6.0,13.0,8,2,6,0,46.4,9.8,36.6,55.68,5.8,4.9
+2018-94,2018,2018-10-14T03:30:56-04:00,T.Y. Hilton,Post Mahomes,Malle ❤️ 🐸,WR,acquired_stint_fixed_slot,matched_post_trade_roster_stint,6.0,10.0,5,1,4,0,25.6,3.4,22.2,29.65,5.12,3.4
+2018-124,2018,2018-10-19T03:29:16-04:00,O.J. Howard,Joe Mantegna,ThreatLevelMidnight,TE,acquired_stint_fixed_slot,matched_post_trade_roster_stint,7.0,11.0,5,4,1,0,46.1,38.3,7.8,33.44,9.22,9.57
+2018-124,2018,2018-10-19T03:29:16-04:00,Jared Cook,ThreatLevelMidnight,Joe Mantegna,TE,historical_fixed_slot,matched_post_trade_roster_stint,7.0,13.0,7,2,5,0,54.9,15.4,39.5,36.09,7.84,7.7
+2018-125,2018,2018-10-20T03:54:06-04:00,Chris Thompson,Ginger FC 🏆🏆,Post Mahomes,RB,historical_fixed_slot,matched_post_trade_roster_stint,7.0,9.0,3,0,3,0,2.2,0.0,2.2,8.8,0.73,0.0
+2018-125,2018,2018-10-20T03:54:06-04:00,DeAndre Hopkins,Ginger FC 🏆🏆,Post Mahomes,WR,acquired_stint_fixed_slot,matched_post_trade_roster_stint,7.0,13.0,7,6,1,0,73.8,73.8,0.0,80.18,10.54,12.3
+2018-125,2018,2018-10-20T03:54:06-04:00,Allen Robinson,Post Mahomes,Ginger FC 🏆🏆,WR,acquired_stint_fixed_slot,matched_post_trade_roster_stint,7.0,13.0,7,4,3,0,41.2,15.9,25.3,40.6,5.89,3.98
+2018-125,2018,2018-10-20T03:54:06-04:00,Kenny Golladay,Post Mahomes,Ginger FC 🏆🏆,WR,acquired_stint_fixed_slot,matched_post_trade_roster_stint,7.0,13.0,7,7,0,0,55.4,55.4,0.0,63.55,7.91,7.91
+2018-125,2018,2018-10-20T03:54:06-04:00,Phillip Lindsay,Post Mahomes,Ginger FC 🏆🏆,RB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,7.0,13.0,7,5,2,0,108.7,93.1,15.6,65.11,15.53,18.62
+2018-214,2018,2018-11-15T03:56:00-05:00,T.Y. Hilton,Malle ❤️ 🐸,malle_dips_pouches,WR,acquired_stint_fixed_slot,matched_post_trade_roster_stint,11.0,13.0,3,2,1,0,47.7,40.0,7.7,32.15,15.9,20.0
+2018-214,2018,2018-11-15T03:56:00-05:00,Eric Ebron,malle_dips_pouches,Malle ❤️ 🐸,TE,acquired_stint_fixed_slot,matched_post_trade_roster_stint,11.0,13.0,3,3,0,0,21.7,21.7,0.0,20.83,7.23,7.23
+2018-222,2018,2018-11-16T03:46:27-05:00,Corey Davis,Joe Mantegna,ThreatLevelMidnight,WR,acquired_stint_fixed_slot,matched_post_trade_roster_stint,11.0,13.0,3,3,0,0,33.8,33.8,0.0,25.51,11.27,11.27
+2018-222,2018,2018-11-16T03:46:27-05:00,Zach Ertz,Joe Mantegna,ThreatLevelMidnight,TE,acquired_stint_fixed_slot,matched_post_trade_roster_stint,11.0,11.0,1,1,0,0,1.5,1.5,0.0,10.6,1.5,1.5
+2018-222,2018,2018-11-16T03:46:27-05:00,Jordan Howard,ThreatLevelMidnight,Joe Mantegna,RB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,11.0,13.0,3,1,2,0,16.0,8.0,8.0,27.92,5.33,8.0
+2018-222,2018,2018-11-16T03:46:27-05:00,Marvin Jones Jr.,ThreatLevelMidnight,Joe Mantegna,WR,historical_fixed_slot,matched_post_trade_roster_stint,11.0,13.0,3,0,3,0,0.0,0.0,0.0,0.0,0.0,0.0
+2018-227,2018,2018-11-20T11:38:00-05:00,James White,Pop Lockett Drop it,ThreatLevelMidnight,RB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,12.0,13.0,2,1,1,0,19.6,7.8,11.8,23.7,9.8,7.8
+2018-227,2018,2018-11-20T11:38:00-05:00,Josh Gordon,Pop Lockett Drop it,ThreatLevelMidnight,WR,acquired_stint_fixed_slot,matched_post_trade_roster_stint,12.0,13.0,2,2,0,0,18.8,18.8,0.0,18.0,9.4,9.4
+2018-227,2018,2018-11-20T11:38:00-05:00,Matt Ryan,Pop Lockett Drop it,ThreatLevelMidnight,QB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,12.0,13.0,2,2,0,0,35.32,35.32,0.0,49.68,17.66,17.66
+2018-227,2018,2018-11-20T11:38:00-05:00,Adam Thielen,ThreatLevelMidnight,Pop Lockett Drop it,WR,acquired_stint_fixed_slot,matched_post_trade_roster_stint,12.0,13.0,2,2,0,0,27.3,27.3,0.0,26.95,13.65,13.65
+2018-227,2018,2018-11-20T11:38:00-05:00,Kirk Cousins,ThreatLevelMidnight,Pop Lockett Drop it,QB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,12.0,13.0,2,2,0,0,45.42,45.42,0.0,49.55,22.71,22.71
+2018-227,2018,2018-11-20T11:38:00-05:00,Zach Ertz,ThreatLevelMidnight,Pop Lockett Drop it,TE,acquired_stint_fixed_slot,matched_post_trade_roster_stint,12.0,13.0,2,2,0,0,23.4,23.4,0.0,20.09,11.7,11.7
+2019-50,2019,2019-09-20T03:33:54-04:00,George Kittle,Pop Lockett Drop it,Post Mahomes,TE,acquired_stint_fixed_slot,matched_post_trade_roster_stint,3.0,13.0,11,8,3,0,77.4,77.4,0.0,75.73,7.04,9.68
+2019-50,2019,2019-09-20T03:33:54-04:00,Rashaad Penny,Post Mahomes,Pop Lockett Drop it,RB,historical_fixed_slot,matched_post_trade_roster_stint,3.0,5.0,3,0,3,0,4.9,0.0,4.9,6.37,1.63,0.0
+2019-168,2019,2019-10-24T03:29:04-04:00,DJ Chark,Post Mahomes,The Big Gronkowski,WR,acquired_stint_fixed_slot,matched_post_trade_roster_stint,8.0,13.0,6,5,1,0,50.0,50.0,0.0,51.9,8.33,10.0
+2019-168,2019,2019-10-24T03:29:04-04:00,James White,Post Mahomes,The Big Gronkowski,RB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,8.0,13.0,6,2,4,0,57.5,22.3,35.2,40.15,9.58,11.15
+2019-168,2019,2019-10-24T03:29:04-04:00,Marlon Mack,The Big Gronkowski,Post Mahomes,RB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,8.0,13.0,6,4,0,2,49.0,49.0,0.0,47.71,8.17,12.25
+2019-172,2019,2019-10-26T04:01:25-04:00,Le'Veon Bell,Malle ❤️ 🐸,ThreatLevelMidnight,RB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,8.0,13.0,6,6,0,0,61.1,61.1,0.0,73.71,10.18,10.18
+2019-172,2019,2019-10-26T04:01:25-04:00,James Conner,ThreatLevelMidnight,Malle ❤️ 🐸,RB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,8.0,13.0,6,5,1,0,22.6,22.6,0.0,25.02,3.77,4.52
+2019-187,2019,2019-10-31T03:28:36-04:00,Peyton Barber,Uncle Rico,malle_dips_pouches,RB,historical_fixed_slot,matched_post_trade_roster_stint,9.0,10.0,2,0,2,0,12.2,0.0,12.2,4.09,6.1,0.0
+2019-187,2019,2019-10-31T03:28:36-04:00,Tyler Boyd,Uncle Rico,malle_dips_pouches,WR,acquired_stint_fixed_slot,matched_post_trade_roster_stint,9.0,13.0,5,3,2,0,33.2,19.1,14.1,30.7,6.64,6.37
+2019-187,2019,2019-10-31T03:28:36-04:00,DJ Moore,malle_dips_pouches,Uncle Rico,WR,historical_fixed_slot,matched_post_trade_roster_stint,9.0,13.0,5,4,1,0,70.2,58.2,12.0,36.21,14.04,14.55
+2019-187,2019,2019-10-31T03:28:36-04:00,LeSean McCoy,malle_dips_pouches,Uncle Rico,RB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,9.0,13.0,5,2,3,0,21.6,9.9,11.7,15.23,4.32,4.95
+2020-39,2020,2020-09-19T03:39:38-04:00,Odell Beckham Jr.,Big Sack Jack,The Big Gronkowski,WR,historical_fixed_slot,matched_post_trade_roster_stint,2.0,7.0,6,4,2,0,71.62,48.32,23.3,78.22,11.94,12.08
+2020-39,2020,2020-09-19T03:39:38-04:00,Keenan Allen,The Big Gronkowski,Big Sack Jack,WR,acquired_stint_fixed_slot,matched_post_trade_roster_stint,2.0,13.0,12,11,1,0,171.6,171.6,0.0,157.09,14.3,15.6
+2020-110,2020,2020-10-11T03:22:46-04:00,Justin Jefferson,Pop Lockett Drop it,Voldemort,WR,acquired_stint_fixed_slot,matched_post_trade_roster_stint,5.0,13.0,9,5,4,0,129.8,70.7,59.1,99.79,14.42,14.14
+2020-110,2020,2020-10-11T03:22:46-04:00,Darrell Henderson Jr.,Voldemort,Pop Lockett Drop it,RB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,5.0,9.0,5,3,2,0,44.4,24.1,20.3,42.16,8.88,8.03
+2020-172,2020,2020-10-23T03:25:12-04:00,Mark Andrews,Patty Primetimes,Post Mahomes,TE,acquired_stint_fixed_slot,matched_post_trade_roster_stint,7.0,13.0,7,4,2,1,36.1,36.1,0.0,41.9,5.16,9.03
+2020-172,2020,2020-10-23T03:25:12-04:00,T.Y. Hilton,Patty Primetimes,Post Mahomes,WR,historical_fixed_slot,matched_post_trade_roster_stint,7.0,7.0,1,0,1,0,0.0,0.0,0.0,0.0,0.0,0.0
+2020-172,2020,2020-10-23T03:25:12-04:00,DJ Moore,Post Mahomes,Patty Primetimes,WR,acquired_stint_fixed_slot,matched_post_trade_roster_stint,7.0,13.0,7,6,1,0,76.6,76.6,0.0,60.99,10.94,12.77
+2020-172,2020,2020-10-23T03:25:12-04:00,Noah Fant,Post Mahomes,Patty Primetimes,TE,acquired_stint_fixed_slot,matched_post_trade_roster_stint,7.0,13.0,7,2,5,0,39.8,13.0,26.8,50.79,5.69,6.5
+2020-172,2020,2020-10-23T03:25:12-04:00,Phillip Lindsay,Post Mahomes,Patty Primetimes,RB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,7.0,13.0,7,2,5,0,38.3,10.2,28.1,43.78,5.47,5.1
+2020-182,2020,2020-10-27T04:45:36-04:00,Austin Ekeler,Patty Primetimes,Uncle Rico,RB,historical_fixed_slot,matched_post_trade_roster_stint,8.0,13.0,6,2,2,2,27.2,27.2,0.0,29.51,4.53,13.6
+2020-182,2020,2020-10-27T04:45:36-04:00,Christian Kirk,Patty Primetimes,Uncle Rico,WR,historical_fixed_slot,matched_post_trade_roster_stint,8.0,13.0,6,0,6,0,36.6,0.0,36.6,40.93,6.1,0.0
+2020-182,2020,2020-10-27T04:45:36-04:00,Lamar Jackson,Patty Primetimes,Uncle Rico,QB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,8.0,13.0,6,5,1,0,116.1,116.1,0.0,74.64,19.35,23.22
+2020-182,2020,2020-10-27T04:45:36-04:00,D'Andre Swift,Uncle Rico,Patty Primetimes,RB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,8.0,13.0,6,5,1,0,38.4,38.4,0.0,21.35,6.4,7.68
+2020-182,2020,2020-10-27T04:45:36-04:00,Josh Allen,Uncle Rico,Patty Primetimes,QB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,8.0,13.0,6,4,2,0,144.9,102.9,42.0,103.09,24.15,25.73
+2020-182,2020,2020-10-27T04:45:36-04:00,Travis Fulgham,Uncle Rico,Patty Primetimes,WR,acquired_stint_fixed_slot,matched_post_trade_roster_stint,8.0,13.0,6,5,1,0,22.0,22.0,0.0,53.31,3.67,4.4
+2020-263,2020,2020-11-13T03:25:33-05:00,Darrell Henderson Jr.,Pop Lockett Drop it,malle_dips_pouches,RB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,10.0,13.0,4,3,1,0,28.0,13.6,14.4,39.17,7.0,4.53
+2020-263,2020,2020-11-13T03:25:33-05:00,Devin Singletary,malle_dips_pouches,Pop Lockett Drop it,RB,historical_fixed_slot,matched_post_trade_roster_stint,10.0,13.0,4,0,4,0,21.0,0.0,21.0,22.75,5.25,0.0
+2020-263,2020,2020-11-13T03:25:33-05:00,Robbie Chosen,malle_dips_pouches,Pop Lockett Drop it,WR,acquired_stint_fixed_slot,matched_post_trade_roster_stint,10.0,13.0,4,3,1,0,29.6,29.6,0.0,36.93,7.4,9.87
+2021-79,2021,2021-10-07T03:10:15-04:00,Brandon Aiyuk,Post Mahomes,Uncle Rico,WR,historical_fixed_slot,matched_post_trade_roster_stint,5.0,7.0,3,0,3,0,5.6,0.0,5.6,20.18,1.87,0.0
+2021-79,2021,2021-10-07T03:10:15-04:00,Latavius Murray,Post Mahomes,Uncle Rico,RB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,5.0,14.0,10,4,6,0,32.9,18.9,14.0,44.97,3.29,4.72
+2021-79,2021,2021-10-07T03:10:15-04:00,Odell Beckham Jr.,Uncle Rico,Post Mahomes,WR,historical_fixed_slot,matched_post_trade_roster_stint,5.0,14.0,10,2,7,1,63.7,19.7,44.0,83.43,6.37,9.85
+2021-104,2021,2021-10-14T13:55:30-04:00,Dallas Goedert,Patty Primetimes,Post Mahomes,TE,historical_fixed_slot,no_post_trade_roster_stint,,,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0
+2021-104,2021,2021-10-14T13:55:30-04:00,Alex Collins,Post Mahomes,Patty Primetimes,RB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,6.0,14.0,9,6,3,0,38.0,35.8,2.2,67.4,4.22,5.97
+2022-59,2022,2022-09-23T15:46:47-04:00,D'Andre Swift,Malle ❤️ 🐸,Voldemort,RB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,3.0,14.0,12,4,5,3,75.6,31.0,44.6,88.48,6.3,7.75
+2022-59,2022,2022-09-23T15:46:47-04:00,Antonio Gibson,Voldemort,Malle ❤️ 🐸,RB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,3.0,14.0,12,8,4,0,107.5,80.1,27.4,100.53,8.96,10.01
+2022-59,2022,2022-09-23T15:46:47-04:00,James Robinson,Voldemort,Malle ❤️ 🐸,RB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,3.0,14.0,12,7,5,0,48.9,46.9,2.0,75.64,4.08,6.7
+2022-81,2022,2022-09-29T10:18:47-04:00,Dameon Pierce,Pop Lockett Drop it,Post Mahomes,RB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,4.0,14.0,11,9,2,0,121.7,110.7,11.0,122.57,11.06,12.3
+2022-81,2022,2022-09-29T10:18:47-04:00,Gabe Davis,Post Mahomes,Pop Lockett Drop it,WR,acquired_stint_fixed_slot,matched_post_trade_roster_stint,4.0,14.0,11,9,2,0,102.6,100.8,1.8,108.18,9.33,11.2
+2022-81,2022,2022-09-29T10:18:47-04:00,Gerald Everett,Post Mahomes,Pop Lockett Drop it,TE,acquired_stint_fixed_slot,matched_post_trade_roster_stint,4.0,14.0,11,9,2,0,60.5,45.9,14.6,72.1,5.5,5.1
+2022-112,2022,2022-10-06T08:48:17-04:00,Christian Kirk,Pop Lockett Drop it,Uncle Rico,WR,acquired_stint_fixed_slot,matched_post_trade_roster_stint,5.0,14.0,10,9,1,0,100.6,100.6,0.0,74.41,10.06,11.18
+2022-112,2022,2022-10-06T08:48:17-04:00,Najee Harris,Pop Lockett Drop it,Uncle Rico,RB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,5.0,14.0,10,7,3,0,103.06,65.56,37.5,79.19,10.31,9.37
+2022-112,2022,2022-10-06T08:48:17-04:00,Nick Chubb,Uncle Rico,Pop Lockett Drop it,RB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,5.0,14.0,10,9,1,0,131.9,131.9,0.0,134.96,13.19,14.66
+2022-149,2022,2022-10-18T17:43:51-04:00,CeeDee Lamb,Malle ❤️ 🐸,Post Mahomes,WR,acquired_stint_fixed_slot,matched_post_trade_roster_stint,7.0,14.0,8,7,1,0,102.8,102.8,0.0,108.0,12.85,14.69
+2022-149,2022,2022-10-18T17:43:51-04:00,Allen Lazard,Post Mahomes,Malle ❤️ 🐸,WR,acquired_stint_fixed_slot,matched_post_trade_roster_stint,7.0,14.0,8,6,2,0,52.0,52.0,0.0,62.92,6.5,8.67
+2022-149,2022,2022-10-18T17:43:51-04:00,Ezekiel Elliott,Post Mahomes,Malle ❤️ 🐸,RB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,7.0,14.0,8,4,4,0,83.1,65.9,17.2,58.23,10.39,16.48
+2022-224,2022,2022-11-03T12:29:51-04:00,Clyde Edwards-Helaire,Post Mahomes,Uncle Rico,RB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,9.0,10.0,2,1,1,0,2.4,2.4,0.0,19.12,1.2,2.4
+2022-224,2022,2022-11-03T12:29:51-04:00,Tua Tagovailoa,Uncle Rico,Post Mahomes,QB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,9.0,14.0,6,5,1,0,111.84,111.84,0.0,115.23,18.64,22.37
+2022-284,2022,2022-11-17T12:37:10-05:00,Dalton Schultz,Ginger FC 🏆🏆,Voldemort,TE,acquired_stint_fixed_slot,matched_post_trade_roster_stint,11.0,14.0,4,4,0,0,36.8,36.8,0.0,32.63,9.2,9.2
+2022-284,2022,2022-11-17T12:37:10-05:00,Curtis Samuel,Voldemort,Ginger FC 🏆🏆,WR,acquired_stint_fixed_slot,matched_post_trade_roster_stint,11.0,14.0,4,2,2,0,22.2,10.6,11.6,24.56,5.55,5.3
+2023-87,2023,2023-09-29T03:21:39-04:00,Chris Olave,Pop Lockett Drop it,ThreatLevelMidnight,WR,acquired_stint_fixed_slot,matched_post_trade_roster_stint,4.0,14.0,11,9,2,0,110.6,103.5,7.1,115.09,10.05,11.5
+2023-87,2023,2023-09-29T03:21:39-04:00,Raheem Mostert,ThreatLevelMidnight,Pop Lockett Drop it,RB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,4.0,14.0,11,10,1,0,147.5,147.5,0.0,121.96,13.41,14.75
+2023-232,2023,2023-11-16T09:05:49-05:00,Isiah Pacheco,Pop Lockett Drop it,Voldemort,RB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,11.0,14.0,4,3,0,1,52.8,52.8,0.0,38.52,13.2,17.6
+2023-232,2023,2023-11-16T09:05:49-05:00,Tyler Lockett,Voldemort,Pop Lockett Drop it,WR,acquired_stint_fixed_slot,matched_post_trade_roster_stint,11.0,14.0,4,4,0,0,31.2,31.2,0.0,38.21,7.8,7.8
+2023-242,2023,2023-11-21T03:21:21-05:00,Justin Fields,Pop Lockett Drop it,Uncle Rico,QB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,12.0,14.0,3,2,1,0,37.3,37.3,0.0,0.0,12.43,18.65
+2023-242,2023,2023-11-21T03:21:21-05:00,Gus Edwards,Uncle Rico,Pop Lockett Drop it,RB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,12.0,14.0,3,2,1,0,5.7,5.7,0.0,17.42,1.9,2.85
+2024-84,2024,2024-10-09T15:24:47-04:00,Amari Cooper,Ginger FC 🏆🏆,Post Mahomes,WR,acquired_stint_fixed_slot,matched_post_trade_roster_stint,7.0,9.0,3,1,2,0,15.4,0.8,14.6,21.71,5.13,0.8
+2024-84,2024,2024-10-09T15:24:47-04:00,Deebo Samuel Sr.,Ginger FC 🏆🏆,Post Mahomes,WR,historical_fixed_slot,matched_post_trade_roster_stint,7.0,9.0,3,2,1,0,10.6,10.6,0.0,23.53,3.53,5.3
+2024-84,2024,2024-10-09T15:24:47-04:00,Kareem Hunt,Post Mahomes,Ginger FC 🏆🏆,RB,historical_fixed_slot,matched_post_trade_roster_stint,6.0,6.0,1,0,1,0,0.0,0.0,0.0,0.0,0.0,0.0
+2024-168,2024,2024-11-15T08:08:05-05:00,Breece Hall,Joe Mantegna,Malle ❤️ 🐸,RB,acquired_stint_fixed_slot,matched_post_trade_roster_stint,9.0,9.0,1,1,0,0,9.5,9.5,0.0,16.09,9.5,9.5
+2024-168,2024,2024-11-15T08:08:05-05:00,Brock Purdy,Malle ❤️ 🐸,Joe Mantegna,QB,historical_fixed_slot,matched_post_trade_roster_stint,9.0,9.0,1,0,1,0,0.0,0.0,0.0,0.0,0.0,0.0
+2024-168,2024,2024-11-15T08:08:05-05:00,Malik Nabers,Malle ❤️ 🐸,Joe Mantegna,WR,acquired_stint_fixed_slot,matched_post_trade_roster_stint,9.0,9.0,1,1,0,0,10.4,10.4,0.0,13.38,10.4,10.4
+2025-74,2025,2025-10-03T03:25:33-04:00,Tetairoa McMillan,Pop Lockett Drop it,Post Mahomes,WR,acquired_stint_fixed_slot,matched_post_trade_roster_stint,8.0,12.0,5,4,1,0,68.0,59.5,8.5,64.18,13.6,14.88
+2025-74,2025,2025-10-03T03:25:33-04:00,Jordan Mason,Post Mahomes,Pop Lockett Drop it,RB,historical_fixed_slot,matched_post_trade_roster_stint,5.0,7.0,3,2,1,0,22.8,22.8,0.0,24.37,7.6,11.4
+2025-74,2025,2025-10-03T03:25:33-04:00,Tee Higgins,Post Mahomes,Pop Lockett Drop it,WR,acquired_stint_fixed_slot,matched_post_trade_roster_stint,5.0,7.0,3,2,1,0,37.0,18.4,18.6,30.17,12.33,9.2
