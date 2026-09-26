@@ -686,6 +686,1318 @@ def recent_transaction_facts(transactions, lineups, year, week):
         "team_transactions": by_team,
     }
 
+
+# ============================================================
+# WEEKLY STORY ENGINE
+# ============================================================
+
+def special_teams_facts(lineups, games, year, week):
+    """
+    Find noteworthy kicker and defense performances.
+
+    These are deterministic fantasy-data facts.  The detector
+    emphasizes performances that were large relative to the
+    team's score or the matchup margin.
+    """
+
+    if lineups.empty:
+        return []
+
+    df = normalize(lineups)
+
+    required = {
+        "year",
+        "week",
+        "fantasy_team",
+        "player",
+        "lineup_slot",
+        "fantasy_points",
+        "is_starter",
+    }
+
+    if not required.issubset(df.columns):
+        return []
+
+    df["year"] = pd.to_numeric(df["year"], errors="coerce")
+    df["week"] = pd.to_numeric(df["week"], errors="coerce")
+    df["fantasy_points"] = pd.to_numeric(
+        df["fantasy_points"],
+        errors="coerce",
+    ).fillna(0.0)
+
+    wk = df[
+        df["year"].eq(year)
+        & df["week"].eq(week)
+    ].copy()
+
+    if wk.empty:
+        return []
+
+    # Handle bools that may have been serialized as strings.
+    wk["_starter"] = (
+        wk["is_starter"]
+        .astype(str)
+        .str.strip()
+        .str.lower()
+        .isin({"true", "1", "yes"})
+    )
+
+    wk = wk[wk["_starter"]].copy()
+
+    wk["lineup_slot"] = (
+        wk["lineup_slot"]
+        .astype(str)
+        .str.strip()
+        .str.upper()
+        .replace({
+            "DST": "DEF",
+            "D/ST": "DEF",
+        })
+    )
+
+    wk = wk[
+        wk["lineup_slot"].isin({"K", "DEF"})
+    ].copy()
+
+    if wk.empty:
+        return []
+
+    game_df = normalize(games)
+
+    if not game_df.empty:
+        for col in [
+            "year",
+            "week",
+            "team_1_score",
+            "team_2_score",
+            "margin",
+        ]:
+            if col in game_df.columns:
+                game_df[col] = pd.to_numeric(
+                    game_df[col],
+                    errors="coerce",
+                )
+
+        game_df = game_df[
+            game_df["year"].eq(year)
+            & game_df["week"].eq(week)
+        ].copy()
+
+    facts = []
+
+    for _, row in wk.iterrows():
+
+        team = row["fantasy_team"]
+        points = float(row["fantasy_points"])
+
+        team_score = pd.to_numeric(
+            row.get("team_score"),
+            errors="coerce",
+        )
+
+        opponent = row.get("opponent")
+        margin = None
+        won = None
+
+        if not game_df.empty:
+            match = game_df[
+                game_df["team_1"].eq(team)
+                | game_df["team_2"].eq(team)
+            ]
+
+            if not match.empty:
+                game = match.iloc[0]
+
+                if game["team_1"] == team:
+                    team_score = game["team_1_score"]
+                    opponent = game["team_2"]
+                    opp_score = game["team_2_score"]
+                else:
+                    team_score = game["team_2_score"]
+                    opponent = game["team_1"]
+                    opp_score = game["team_1_score"]
+
+                if pd.notna(team_score) and pd.notna(opp_score):
+                    margin = abs(
+                        float(team_score)
+                        - float(opp_score)
+                    )
+                    won = float(team_score) > float(opp_score)
+
+        share = None
+
+        if pd.notna(team_score) and float(team_score) != 0:
+            share = (
+                points / float(team_score) * 100.0
+            )
+
+        # Only surface legitimately interesting special-team
+        # performances.
+        notable = (
+            points >= 15
+            or (
+                margin is not None
+                and won
+                and points > margin
+            )
+            or (
+                share is not None
+                and share >= 15
+            )
+        )
+
+        if not notable:
+            continue
+
+        importance = 5.0
+
+        if points >= 20:
+            importance += 2.0
+        elif points >= 15:
+            importance += 1.0
+
+        if (
+            margin is not None
+            and won
+            and points > margin
+        ):
+            importance += 1.5
+
+        if share is not None and share >= 15:
+            importance += 0.5
+
+        slot = row["lineup_slot"]
+
+        facts.append({
+            "category": (
+                "kicker_impact"
+                if slot == "K"
+                else "defense_impact"
+            ),
+            "importance": round(
+                min(10.0, importance),
+                2,
+            ),
+            "evidence_type": "derived_fact",
+            "team": team,
+            "opponent": opponent,
+            "player": row["player"],
+            "position": slot,
+            "points": number(points),
+            "team_score": number(team_score),
+            "share_of_team_score_pct": (
+                number(share)
+                if share is not None
+                else None
+            ),
+            "matchup_margin": (
+                number(margin)
+                if margin is not None
+                else None
+            ),
+            "team_won": won,
+            "headline_fact": (
+                f"{row['player']} scored {points:.2f} "
+                f"points at {slot} for {team}"
+                + (
+                    f", accounting for {share:.1f}% "
+                    f"of the team's score"
+                    if share is not None
+                    else ""
+                )
+                + (
+                    f" in a game decided by "
+                    f"{margin:.2f} points."
+                    if margin is not None
+                    else "."
+                )
+            ),
+        })
+
+    return sorted(
+        facts,
+        key=lambda x: x["importance"],
+        reverse=True,
+    )
+
+
+def acquisition_impact_facts(
+    transactions,
+    lineups,
+    year,
+    week,
+):
+    """
+    Connect recent additions to same-week fantasy production.
+
+    This does not claim the transaction caused the win/loss.
+    It only records the acquisition and subsequent production.
+    """
+
+    if transactions.empty or lineups.empty:
+        return []
+
+    tx = normalize(transactions)
+    lu = normalize(lineups)
+
+    required_tx = {
+        "year",
+        "team",
+        "added_player",
+    }
+
+    required_lu = {
+        "year",
+        "week",
+        "fantasy_team",
+        "player",
+        "fantasy_points",
+        "is_starter",
+    }
+
+    if (
+        not required_tx.issubset(tx.columns)
+        or not required_lu.issubset(lu.columns)
+    ):
+        return []
+
+    tx["year"] = pd.to_numeric(
+        tx["year"],
+        errors="coerce",
+    )
+
+    lu["year"] = pd.to_numeric(
+        lu["year"],
+        errors="coerce",
+    )
+
+    lu["week"] = pd.to_numeric(
+        lu["week"],
+        errors="coerce",
+    )
+
+    lu["fantasy_points"] = pd.to_numeric(
+        lu["fantasy_points"],
+        errors="coerce",
+    ).fillna(0.0)
+
+    tx = tx[tx["year"].eq(year)].copy()
+
+    wk = lu[
+        lu["year"].eq(year)
+        & lu["week"].eq(week)
+    ].copy()
+
+    if tx.empty or wk.empty:
+        return []
+
+    if "date" in tx.columns:
+        tx["_date"] = pd.to_datetime(
+            tx["date"],
+            errors="coerce",
+            utc=True,
+        )
+    elif "timestamp" in tx.columns:
+        tx["_date"] = pd.to_datetime(
+            tx["timestamp"],
+            errors="coerce",
+            utc=True,
+        )
+    else:
+        tx["_date"] = pd.NaT
+
+    # Enforce the same editorial as-of boundary used by recent_transaction_facts.
+    # This prevents future-week acquisitions from leaking into an earlier story desk.
+    september_first = pd.Timestamp(year=year, month=9, day=1, tz="America/New_York")
+    days_until_tuesday = (1 - september_first.weekday()) % 7
+    week1_start_et = september_first + pd.Timedelta(days=days_until_tuesday)
+    week_start_et = week1_start_et + pd.Timedelta(weeks=week - 1)
+    cutoff_et = week_start_et + pd.Timedelta(days=6, hours=23, minutes=59, seconds=59)
+    cutoff = cutoff_et.tz_convert("UTC")
+    tx = tx[tx["_date"].notna() & tx["_date"].le(cutoff)].copy()
+    if tx.empty:
+        return []
+
+    wk["_starter"] = (
+        wk["is_starter"]
+        .astype(str)
+        .str.strip()
+        .str.lower()
+        .isin({"true", "1", "yes"})
+    )
+
+    facts = []
+
+    for _, move in tx.iterrows():
+
+        player = clean_optional_text(
+            move.get("added_player")
+        )
+
+        team = clean_optional_text(
+            move.get("team")
+        )
+
+        if not player or not team:
+            continue
+
+        match = wk[
+            wk["fantasy_team"].eq(team)
+            & wk["player"].eq(player)
+        ]
+
+        if match.empty:
+            continue
+
+        player_week = match.iloc[0]
+
+        points = float(
+            player_week["fantasy_points"]
+        )
+
+        started = bool(
+            player_week["_starter"]
+        )
+
+        # Keep only additions that actually produced something
+        # noteworthy that week.
+        if started:
+            if points < 10:
+                continue
+        else:
+            if points < 15:
+                continue
+
+        importance = 5.0
+
+        if started:
+            importance += 1.0
+
+        if points >= 20:
+            importance += 2.0
+        elif points >= 15:
+            importance += 1.0
+
+        acquisition_type = clean_optional_text(
+            move.get("acquisition_type")
+        )
+
+        facts.append({
+            "category": (
+                "acquisition_hero"
+                if started
+                else "acquisition_bench_explosion"
+            ),
+            "importance": round(
+                min(10.0, importance),
+                2,
+            ),
+            "evidence_type": "fact",
+            "team": team,
+            "player": player,
+            "points": number(points),
+            "started": started,
+            "lineup_slot": clean_optional_text(
+                player_week.get("lineup_slot")
+            ),
+            "acquisition_type": acquisition_type,
+            "transaction_date": (
+                move["_date"].isoformat()
+                if pd.notna(move["_date"])
+                else None
+            ),
+            "dropped_player": clean_optional_text(
+                move.get("dropped_player")
+            ),
+            "headline_fact": (
+                f"{team} recently acquired {player}"
+                + (
+                    f" via {acquisition_type}"
+                    if acquisition_type
+                    else ""
+                )
+                + (
+                    f" and started him for "
+                    f"{points:.2f} points."
+                    if started
+                    else
+                    f", but his {points:.2f}-point "
+                    f"performance remained on the bench."
+                )
+            ),
+        })
+
+    # Avoid duplicate player/team facts if a transaction feed
+    # contains multiple related rows.
+    deduped = {}
+
+    for fact in facts:
+        key = (
+            fact["team"],
+            fact["player"],
+            fact["category"],
+        )
+
+        current = deduped.get(key)
+
+        if (
+            current is None
+            or fact["importance"]
+            > current["importance"]
+        ):
+            deduped[key] = fact
+
+    return sorted(
+        deduped.values(),
+        key=lambda x: x["importance"],
+        reverse=True,
+    )
+
+
+def lineup_anomaly_facts(
+    lineups,
+    bench_decisions,
+    year,
+    week,
+):
+    """
+    Find unusual scoring distributions and lineup events.
+    """
+
+    if lineups.empty:
+        return []
+
+    df = normalize(lineups)
+
+    required = {
+        "year",
+        "week",
+        "fantasy_team",
+        "player",
+        "fantasy_points",
+        "is_starter",
+        "is_bench",
+    }
+
+    if not required.issubset(df.columns):
+        return []
+
+    df["year"] = pd.to_numeric(
+        df["year"],
+        errors="coerce",
+    )
+
+    df["week"] = pd.to_numeric(
+        df["week"],
+        errors="coerce",
+    )
+
+    df["fantasy_points"] = pd.to_numeric(
+        df["fantasy_points"],
+        errors="coerce",
+    ).fillna(0.0)
+
+    wk = df[
+        df["year"].eq(year)
+        & df["week"].eq(week)
+    ].copy()
+
+    if wk.empty:
+        return []
+
+    wk["_starter"] = (
+        wk["is_starter"]
+        .astype(str)
+        .str.strip()
+        .str.lower()
+        .isin({"true", "1", "yes"})
+    )
+
+    wk["_bench"] = (
+        wk["is_bench"]
+        .astype(str)
+        .str.strip()
+        .str.lower()
+        .isin({"true", "1", "yes"})
+    )
+
+    facts = []
+
+    # --------------------------------------------------------
+    # Individual starter/bench anomalies
+    # --------------------------------------------------------
+
+    starters = wk[wk["_starter"]].copy()
+    bench = wk[wk["_bench"]].copy()
+
+    for _, row in bench[
+        bench["fantasy_points"].ge(20)
+    ].iterrows():
+
+        points = float(row["fantasy_points"])
+
+        facts.append({
+            "category": "bench_explosion",
+            "importance": round(
+                min(10.0, 6.0 + points / 20.0),
+                2,
+            ),
+            "evidence_type": "fact",
+            "team": row["fantasy_team"],
+            "player": row["player"],
+            "points": number(points),
+            "headline_fact": (
+                f"{row['fantasy_team']} had "
+                f"{row['player']}'s {points:.2f} "
+                f"points on the bench."
+            ),
+        })
+
+    for _, row in starters[
+        starters["fantasy_points"].le(1)
+    ].iterrows():
+
+        points = float(row["fantasy_points"])
+
+        facts.append({
+            "category": "starter_dud",
+            "importance": 5.5,
+            "evidence_type": "fact",
+            "team": row["fantasy_team"],
+            "player": row["player"],
+            "points": number(points),
+            "headline_fact": (
+                f"{row['fantasy_team']} started "
+                f"{row['player']}, who scored only "
+                f"{points:.2f} points."
+            ),
+        })
+
+    # --------------------------------------------------------
+    # One-player carry jobs
+    # --------------------------------------------------------
+
+    for team, group in starters.groupby(
+        "fantasy_team"
+    ):
+
+        if group.empty:
+            continue
+
+        team_score = pd.to_numeric(
+            group["team_score"],
+            errors="coerce",
+        ).dropna()
+
+        if team_score.empty:
+            total = group["fantasy_points"].sum()
+        else:
+            total = float(team_score.iloc[0])
+
+        if not total:
+            continue
+
+        top = group.sort_values(
+            "fantasy_points",
+            ascending=False,
+        ).iloc[0]
+
+        top_points = float(top["fantasy_points"])
+        share = top_points / total * 100.0
+
+        # Ordinary star performances should not crowd the story desk.
+        # 30-35% is mildly notable, 35-40% strong, 40%+ major.
+        if share >= 30:
+            if share >= 40:
+                carry_importance = 9.0 + min(1.0, (share - 40.0) / 10.0)
+            elif share >= 35:
+                carry_importance = 7.5 + (share - 35.0) * 0.30
+            else:
+                carry_importance = 6.0 + (share - 30.0) * 0.30
+
+            facts.append({
+                "category": "one_player_carry",
+                "importance": round(min(10.0, carry_importance), 2),
+                "evidence_type": "derived_fact",
+                "team": team,
+                "player": top["player"],
+                "points": number(top_points),
+                "team_score": number(total),
+                "share_of_team_score_pct": number(
+                    share
+                ),
+                "headline_fact": (
+                    f"{top['player']} supplied "
+                    f"{share:.1f}% of {team}'s "
+                    f"entire score."
+                ),
+            })
+
+    # --------------------------------------------------------
+    # Existing validated managerial analysis, when available
+    # --------------------------------------------------------
+
+    if not bench_decisions.empty:
+
+        bd = normalize(bench_decisions)
+
+        if {"year", "week"}.issubset(bd.columns):
+
+            bd["year"] = pd.to_numeric(
+                bd["year"],
+                errors="coerce",
+            )
+
+            bd["week"] = pd.to_numeric(
+                bd["week"],
+                errors="coerce",
+            )
+
+            current = bd[
+                bd["year"].eq(year)
+                & bd["week"].eq(week)
+            ].copy()
+
+            if not current.empty:
+
+                for col in [
+                    "points_left_on_bench",
+                    "optimization_gain",
+                    "loss_margin",
+                ]:
+                    if col in current.columns:
+                        current[col] = pd.to_numeric(
+                            current[col],
+                            errors="coerce",
+                        )
+
+                if "manager_caused_loss" in current.columns:
+                    caused = current[
+                        current["manager_caused_loss"]
+                        .astype(str)
+                        .str.lower()
+                        .isin({"true", "1", "yes"})
+                    ]
+
+                    for _, row in caused.iterrows():
+
+                        team = row.get(
+                            "canonical_team",
+                            row.get("fantasy_team"),
+                        )
+
+                        gain = row.get(
+                            "optimization_gain"
+                        )
+
+                        facts.append({
+                            "category":
+                                "manager_caused_loss",
+                            "importance": 9.0,
+                            "evidence_type":
+                                "derived_fact",
+                            "team": team,
+                            "opponent": row.get(
+                                "canonical_opponent",
+                                row.get("opponent"),
+                            ),
+                            "optimization_gain":
+                                number(gain),
+                            "should_have_started":
+                                clean_optional_text(
+                                    row.get(
+                                        "should_have_started"
+                                    )
+                                ),
+                            "should_have_benched":
+                                clean_optional_text(
+                                    row.get(
+                                        "should_have_benched"
+                                    )
+                                ),
+                            "headline_fact": (
+                                f"{team} had a validated "
+                                f"manager-caused loss"
+                                + (
+                                    f" with {float(gain):.2f} "
+                                    f"points of available "
+                                    f"optimization."
+                                    if pd.notna(gain)
+                                    else "."
+                                )
+                            ),
+                        })
+
+    return sorted(
+        facts,
+        key=lambda x: x["importance"],
+        reverse=True,
+    )
+
+
+def historical_rarity_facts(games, year, week):
+    """
+    Compare this week's completed games with prior league history.
+
+    This intentionally focuses on facts that can be proven from
+    the canonical matchup history.
+    """
+
+    if games.empty:
+        return []
+
+    df = normalize(games)
+
+    required = {
+        "year",
+        "week",
+        "team_1",
+        "team_2",
+        "team_1_score",
+        "team_2_score",
+    }
+
+    if not required.issubset(df.columns):
+        return []
+
+    for col in [
+        "year",
+        "week",
+        "team_1_score",
+        "team_2_score",
+    ]:
+        df[col] = pd.to_numeric(
+            df[col],
+            errors="coerce",
+        )
+
+    current = df[
+        df["year"].eq(year)
+        & df["week"].eq(week)
+    ].copy()
+
+    prior = df[
+        (df["year"] < year)
+        | (
+            df["year"].eq(year)
+            & df["week"].lt(week)
+        )
+    ].copy()
+
+    if current.empty:
+        return []
+
+    # Convert historical matchups to team-game rows.
+    historical_scores = []
+
+    for _, game in prior.iterrows():
+        for team_col, score_col, opp_col, opp_score_col in [
+            (
+                "team_1",
+                "team_1_score",
+                "team_2",
+                "team_2_score",
+            ),
+            (
+                "team_2",
+                "team_2_score",
+                "team_1",
+                "team_1_score",
+            ),
+        ]:
+            score = game.get(score_col)
+            opp_score = game.get(opp_score_col)
+
+            if pd.isna(score) or pd.isna(opp_score):
+                continue
+
+            historical_scores.append({
+                "team": game.get(team_col),
+                "score": float(score),
+                "opponent": game.get(opp_col),
+                "opponent_score": float(opp_score),
+                "won": float(score) > float(opp_score),
+                "lost": float(score) < float(opp_score),
+            })
+
+    hist = pd.DataFrame(historical_scores)
+
+    facts = []
+
+    for _, game in current.iterrows():
+
+        for team_col, score_col, opp_col, opp_score_col in [
+            (
+                "team_1",
+                "team_1_score",
+                "team_2",
+                "team_2_score",
+            ),
+            (
+                "team_2",
+                "team_2_score",
+                "team_1",
+                "team_1_score",
+            ),
+        ]:
+
+            team = game[team_col]
+            opponent = game[opp_col]
+            score = float(game[score_col])
+            opp_score = float(game[opp_score_col])
+
+            won = score > opp_score
+            lost = score < opp_score
+
+            if hist.empty:
+                continue
+
+            if lost:
+                higher_losing_scores = hist[
+                    hist["lost"]
+                    & hist["score"].gt(score)
+                ]
+
+                losing_scores = hist[
+                    hist["lost"]
+                ]
+
+                rank = (
+                    len(higher_losing_scores) + 1
+                )
+
+                if rank <= 10:
+                    facts.append({
+                        "category":
+                            "historically_high_losing_score",
+                        "importance": round(
+                            9.0
+                            if rank <= 3
+                            else 8.0
+                            if rank <= 5
+                            else 7.0,
+                            2,
+                        ),
+                        "evidence_type":
+                            "historical_fact",
+                        "team": team,
+                        "opponent": opponent,
+                        "score": number(score),
+                        "opponent_score":
+                            number(opp_score),
+                        "historical_rank": rank,
+                        "historical_sample":
+                            len(losing_scores),
+                        "headline_fact": (
+                            f"{team}'s {score:.2f}-point "
+                            f"loss ranks #{rank} among "
+                            f"the highest losing scores "
+                            f"before this week."
+                        ),
+                    })
+
+            if won:
+                lower_winning_scores = hist[
+                    hist["won"]
+                    & hist["score"].lt(score)
+                ]
+
+                winning_scores = hist[
+                    hist["won"]
+                ]
+
+                rank = (
+                    len(lower_winning_scores) + 1
+                )
+
+                if rank <= 10:
+                    facts.append({
+                        "category":
+                            "historically_low_winning_score",
+                        "importance": round(
+                            8.5
+                            if rank <= 3
+                            else 7.5
+                            if rank <= 5
+                            else 6.5,
+                            2,
+                        ),
+                        "evidence_type":
+                            "historical_fact",
+                        "team": team,
+                        "opponent": opponent,
+                        "score": number(score),
+                        "opponent_score":
+                            number(opp_score),
+                        "historical_rank": rank,
+                        "historical_sample":
+                            len(winning_scores),
+                        "headline_fact": (
+                            f"{team}'s {score:.2f}-point "
+                            f"win ranks #{rank} among "
+                            f"the lowest winning scores "
+                            f"before this week."
+                        ),
+                    })
+
+    return sorted(
+        facts,
+        key=lambda x: x["importance"],
+        reverse=True,
+    )
+
+
+def compound_story_facts(
+    lineups,
+    bench_decisions,
+    games,
+    special_teams,
+    acquisitions,
+    anomalies,
+    year,
+    week,
+):
+    """Synthesize related deterministic facts into editorially useful stories."""
+    facts = []
+
+    # Canonical matchup lookup, one row per team.
+    matchup_by_team = {}
+    g = normalize(games)
+    if not g.empty and {"year", "week", "team_1", "team_2", "team_1_score", "team_2_score"}.issubset(g.columns):
+        for col in ["year", "week", "team_1_score", "team_2_score"]:
+            g[col] = pd.to_numeric(g[col], errors="coerce")
+        current_games = g[g["year"].eq(year) & g["week"].eq(week)].copy()
+        for _, row in current_games.iterrows():
+            a, b = row["team_1"], row["team_2"]
+            sa, sb = float(row["team_1_score"]), float(row["team_2_score"])
+            matchup_by_team[a] = {"opponent": b, "score": sa, "opponent_score": sb, "margin": abs(sa-sb), "won": sa > sb, "lost": sa < sb}
+            matchup_by_team[b] = {"opponent": a, "score": sb, "opponent_score": sa, "margin": abs(sa-sb), "won": sb > sa, "lost": sb < sa}
+
+    # Manager-caused losses / multiple mistakes. Use validated optimization output.
+    bd = normalize(bench_decisions)
+    if not bd.empty and {"year", "week", "fantasy_team"}.issubset(bd.columns):
+        bd["year"] = pd.to_numeric(bd["year"], errors="coerce")
+        bd["week"] = pd.to_numeric(bd["week"], errors="coerce")
+        current = bd[bd["year"].eq(year) & bd["week"].eq(week)].copy()
+        for _, row in current.iterrows():
+            team = canon(row.get("canonical_team", row.get("fantasy_team")))
+            game = matchup_by_team.get(team)
+            if not game:
+                continue
+            gain = pd.to_numeric(row.get("optimization_gain"), errors="coerce")
+            if pd.isna(gain):
+                actual = pd.to_numeric(row.get("actual_score"), errors="coerce")
+                optimal = pd.to_numeric(row.get("optimal_score"), errors="coerce")
+                gain = optimal - actual if pd.notna(actual) and pd.notna(optimal) else np.nan
+            left = pd.to_numeric(row.get("points_left_on_bench"), errors="coerce")
+            avoidable = pd.to_numeric(row.get("avoidable_start_count"), errors="coerce")
+            missed = pd.to_numeric(row.get("missed_start_count"), errors="coerce")
+            caused_flag = str(row.get("manager_caused_loss", "")).strip().lower() in {"true", "1", "yes"}
+            reversed_result = bool(game["lost"] and pd.notna(gain) and float(gain) > float(game["margin"]))
+
+            if caused_flag or reversed_result:
+                would_win_by = float(gain) - float(game["margin"]) if pd.notna(gain) else None
+                facts.append({
+                    "category": "manager_blew_game",
+                    "importance": round(min(10.0, 9.0 + min(1.0, max(0.0, (would_win_by or 0) / 15.0))), 2),
+                    "evidence_type": "compound_derived_fact",
+                    "team": team,
+                    "opponent": game["opponent"],
+                    "loss_margin": number(game["margin"]),
+                    "optimization_gain": number(gain),
+                    "points_left_on_bench": number(left),
+                    "would_have_won_by": number(would_win_by),
+                    "avoidable_start_count": integer(avoidable),
+                    "missed_start_count": integer(missed),
+                    "should_have_started": clean_optional_text(row.get("should_have_started")),
+                    "should_have_benched": clean_optional_text(row.get("should_have_benched")),
+                    "headline_fact": f"{team} lost to {game['opponent']} by {game['margin']:.2f} despite {float(gain):.2f} points of validated lineup optimization being available, enough to flip the result" + (f" into a {would_win_by:.2f}-point win." if would_win_by is not None else "."),
+                    "suppresses": ["manager_caused_loss", "bench_explosion", "starter_dud"],
+                })
+            elif game["lost"] and pd.notna(left) and float(left) >= 20 and ((pd.notna(avoidable) and avoidable >= 2) or (pd.notna(missed) and missed >= 2)):
+                facts.append({
+                    "category": "multiple_managerial_mistakes",
+                    "importance": round(min(8.5, 6.5 + float(left) / 25.0), 2),
+                    "evidence_type": "compound_derived_fact",
+                    "team": team,
+                    "opponent": game["opponent"],
+                    "loss_margin": number(game["margin"]),
+                    "points_left_on_bench": number(left),
+                    "avoidable_start_count": integer(avoidable),
+                    "missed_start_count": integer(missed),
+                    "headline_fact": f"{team} lost by {game['margin']:.2f} while leaving {float(left):.2f} points on the bench across multiple avoidable lineup decisions.",
+                    "suppresses": ["bench_explosion", "starter_dud"],
+                })
+
+    # Combine K + DEF when their contribution mattered to a win.
+    by_team = {}
+    for item in special_teams:
+        if item.get("position") in {"K", "DEF"}:
+            by_team.setdefault(item.get("team"), {})[item.get("position")] = item
+    for team, slots in by_team.items():
+        if not {"K", "DEF"}.issubset(slots):
+            continue
+        game = matchup_by_team.get(team)
+        if not game or not game["won"]:
+            continue
+        combined = float(slots["K"].get("points", 0)) + float(slots["DEF"].get("points", 0))
+        if combined <= game["margin"] and combined < 20:
+            continue
+        leverage = combined / max(game["margin"], 0.5)
+        importance = min(10.0, 7.0 + min(2.0, leverage / 4.0) + (1.0 if game["margin"] <= 3 else 0.0))
+        facts.append({
+            "category": "special_teams_game_swing",
+            "importance": round(importance, 2),
+            "evidence_type": "compound_derived_fact",
+            "team": team,
+            "opponent": game["opponent"],
+            "matchup_margin": number(game["margin"]),
+            "kicker": slots["K"].get("player"),
+            "kicker_points": slots["K"].get("points"),
+            "defense": slots["DEF"].get("player"),
+            "defense_points": slots["DEF"].get("points"),
+            "combined_k_def_points": number(combined),
+            "headline_fact": f"{team} beat {game['opponent']} by {game['margin']:.2f} while getting {combined:.2f} combined points from {slots['K'].get('player')} at kicker and {slots['DEF'].get('player')} at defense.",
+            "suppresses": ["kicker_impact", "defense_impact"],
+        })
+
+    # Acquisition payoff with result/margin context.
+    for item in acquisitions:
+        if not item.get("started"):
+            continue
+        team = item.get("team")
+        game = matchup_by_team.get(team)
+        if not game:
+            continue
+        pts = float(item.get("points", 0) or 0)
+        materially_close = pts > game["margin"]
+        if not game["won"] and not materially_close:
+            continue
+        importance = min(9.5, float(item.get("importance", 5)) + (1.0 if game["won"] else 0) + (0.75 if materially_close else 0))
+        facts.append({
+            **{k: v for k, v in item.items() if k not in {"category", "importance", "headline_fact"}},
+            "category": "acquisition_payoff_win" if game["won"] else "acquisition_payoff_close_game",
+            "importance": round(importance, 2),
+            "evidence_type": "compound_derived_fact",
+            "opponent": game["opponent"],
+            "matchup_margin": number(game["margin"]),
+            "team_won": game["won"],
+            "headline_fact": f"{team} recently acquired {item.get('player')} and started him for {pts:.2f} points" + (f" in a {game['margin']:.2f}-point win over {game['opponent']}." if game["won"] else f" in a game decided by {game['margin']:.2f} points."),
+            "suppresses": ["acquisition_hero"],
+        })
+
+    # Carry jobs become richer when the team lost / scored poorly / had lineup failures.
+    for item in anomalies:
+        if item.get("category") != "one_player_carry":
+            continue
+        team = item.get("team")
+        game = matchup_by_team.get(team)
+        if not game or not game["lost"]:
+            continue
+        share = float(item.get("share_of_team_score_pct", 0) or 0)
+        if share < 35:
+            continue
+        related_manager = next((x for x in facts if x.get("team") == team and x.get("category") in {"manager_blew_game", "multiple_managerial_mistakes"}), None)
+        facts.append({
+            **{k: v for k, v in item.items() if k not in {"category", "importance", "headline_fact"}},
+            "category": "carry_job_in_loss",
+            "importance": round(min(9.5, float(item.get("importance", 6)) + 0.75 + (0.5 if related_manager else 0)), 2),
+            "evidence_type": "compound_derived_fact",
+            "opponent": game["opponent"],
+            "loss_margin": number(game["margin"]),
+            "headline_fact": f"{item.get('player')} supplied {share:.1f}% of {team}'s score, but {team} still lost to {game['opponent']} by {game['margin']:.2f}." + (" The same team also had multiple validated lineup mistakes." if related_manager else ""),
+            "suppresses": ["one_player_carry"],
+        })
+
+    # Consequential starter dud: only if validated replacement gain could matter.
+    for item in anomalies:
+        if item.get("category") != "starter_dud":
+            continue
+        team = item.get("team")
+        game = matchup_by_team.get(team)
+        if not game or not game["lost"]:
+            continue
+        # A manager_blew_game story already owns this team's lineup-failure narrative.
+        # Keep the dud as supporting evidence rather than a second headline.
+        if any(x.get("category") == "manager_blew_game" and x.get("team") == team for x in facts):
+            continue
+        row = None
+        if not bd.empty and "fantasy_team" in bd.columns:
+            rows = bd[(bd["year"].eq(year)) & (bd["week"].eq(week)) & (bd["fantasy_team"].map(canon).eq(team))]
+            if not rows.empty:
+                row = rows.iloc[0]
+        if row is None:
+            continue
+        gain = pd.to_numeric(row.get("optimization_gain"), errors="coerce")
+        if pd.isna(gain):
+            actual = pd.to_numeric(row.get("actual_score"), errors="coerce")
+            optimal = pd.to_numeric(row.get("optimal_score"), errors="coerce")
+            gain = optimal - actual if pd.notna(actual) and pd.notna(optimal) else np.nan
+        if pd.isna(gain) or float(gain) <= game["margin"]:
+            continue
+        facts.append({
+            "category": "starter_dud_cost_win",
+            "importance": 8.75,
+            "evidence_type": "compound_derived_fact",
+            "team": team,
+            "opponent": game["opponent"],
+            "player": item.get("player"),
+            "points": item.get("points"),
+            "loss_margin": number(game["margin"]),
+            "optimization_gain": number(gain),
+            "headline_fact": f"{team} lost by {game['margin']:.2f} after starting {item.get('player')} for only {float(item.get('points', 0)):.2f} points; validated lineup optimization offered {float(gain):.2f} points, enough to change the result.",
+            "suppresses": ["starter_dud"],
+        })
+
+    # Opponent contrast: a winner's special-teams edge paired with an opponent's
+    # validated manager-caused loss is a richer matchup story than either fragment alone.
+    blew_by_team = {x.get("team"): x for x in facts if x.get("category") == "manager_blew_game"}
+    for st in special_teams:
+        winner = st.get("team")
+        game = matchup_by_team.get(winner)
+        if not game or not game.get("won"):
+            continue
+        loser_story = blew_by_team.get(game.get("opponent"))
+        if not loser_story:
+            continue
+        pts = float(st.get("points", 0) or 0)
+        if pts < 15:
+            continue
+        facts.append({
+            "category": "opponent_contrast",
+            "importance": round(min(9.4, 8.2 + min(1.2, pts / 20.0)), 2),
+            "evidence_type": "compound_derived_fact",
+            "team": winner,
+            "opponent": game["opponent"],
+            "player": st.get("player"),
+            "position": st.get("position"),
+            "points": st.get("points"),
+            "matchup_margin": number(game["margin"]),
+            "opponent_optimization_gain": loser_story.get("optimization_gain"),
+            "headline_fact": f"{winner} beat {game['opponent']} by {game['margin']:.2f} with {st.get('player')} scoring {pts:.2f} at {st.get('position')}, while {game['opponent']} had {float(loser_story.get('optimization_gain') or 0):.2f} points of validated lineup optimization available.",
+            "suppresses": [],
+        })
+
+    # De-duplicate compound stories by category/team/player while keeping strongest.
+    deduped = {}
+    for fact in facts:
+        key = (fact.get("category"), fact.get("team"), fact.get("player"))
+        if key not in deduped or float(fact.get("importance", 0)) > float(deduped[key].get("importance", 0)):
+            deduped[key] = fact
+    return sorted(deduped.values(), key=lambda x: float(x.get("importance", 0)), reverse=True)
+
+
+def build_story_candidates(
+    special_teams,
+    acquisitions,
+    anomalies,
+    historical_rarity,
+    compound_stories=None,
+):
+    """Merge raw and compound facts into a diverse ranked editorial news desk."""
+    compound_stories = compound_stories or []
+    candidates = []
+
+    # Compound stories lead the desk and can suppress weaker raw fragments
+    # for the same team/category relationship.
+    suppressed = set()
+    for fact in compound_stories:
+        item = dict(fact)
+        item["source_section"] = "compound_stories"
+        candidates.append(item)
+        team = item.get("team")
+        for category in item.get("suppresses", []):
+            suppressed.add((team, category))
+
+    for source_name, facts in [
+        ("special_teams", special_teams),
+        ("acquisitions", acquisitions),
+        ("lineup_anomalies", anomalies),
+        ("historical_rarity", historical_rarity),
+    ]:
+        for fact in facts:
+            if (fact.get("team"), fact.get("category")) in suppressed:
+                continue
+            item = dict(fact)
+            item["source_section"] = source_name
+            candidates.append(item)
+
+    candidates.sort(key=lambda x: (-float(x.get("importance", 0)), str(x.get("category", "")), str(x.get("team", ""))))
+
+    # Diversity pass: no single raw category should monopolize the desk.
+    selected = []
+    category_counts = {}
+    team_counts = {}
+    matchup_counts = {}
+    deferred = []
+
+    def matchup_key(item):
+        team, opp = item.get("team"), item.get("opponent")
+        return tuple(sorted((str(team), str(opp)))) if team and opp else None
+
+    for item in candidates:
+        category = item.get("category", "")
+        team = item.get("team", "")
+        is_compound = item.get("source_section") == "compound_stories"
+        category_cap = 4 if is_compound else 3
+        team_cap = 3
+        mkey = matchup_key(item)
+        # In the headline portion of the desk, cap a matchup at two stories.
+        # Defer additional good angles rather than deleting them entirely.
+        if len(selected) < 6 and mkey and matchup_counts.get(mkey, 0) >= 2:
+            deferred.append(item)
+            continue
+        if category_counts.get(category, 0) >= category_cap:
+            continue
+        if team and team_counts.get(team, 0) >= team_cap and not is_compound:
+            continue
+        selected.append(item)
+        category_counts[category] = category_counts.get(category, 0) + 1
+        if team:
+            team_counts[team] = team_counts.get(team, 0) + 1
+        if mkey:
+            matchup_counts[mkey] = matchup_counts.get(mkey, 0) + 1
+        # Once the six-story headline window is filled, immediately release
+        # any high-value stories deferred only for matchup diversity. This
+        # keeps one matchup from monopolizing the headlines without burying
+        # a strong third angle at the bottom of the desk.
+        if len(selected) >= 6 and deferred:
+            for deferred_item in deferred:
+                if len(selected) >= 30:
+                    break
+                d_category = deferred_item.get("category", "")
+                d_team = deferred_item.get("team", "")
+                d_is_compound = deferred_item.get("source_section") == "compound_stories"
+                if category_counts.get(d_category, 0) >= (4 if d_is_compound else 3):
+                    continue
+                if d_team and team_counts.get(d_team, 0) >= 4:
+                    continue
+                selected.append(deferred_item)
+                category_counts[d_category] = category_counts.get(d_category, 0) + 1
+                if d_team:
+                    team_counts[d_team] = team_counts.get(d_team, 0) + 1
+            deferred = []
+
+        if len(selected) >= 30:
+            break
+
+    for item in deferred:
+        if len(selected) >= 30:
+            break
+        category = item.get("category", "")
+        team = item.get("team", "")
+        is_compound = item.get("source_section") == "compound_stories"
+        if category_counts.get(category, 0) >= (4 if is_compound else 3):
+            continue
+        if team and team_counts.get(team, 0) >= 4:
+            continue
+        selected.append(item)
+        category_counts[category] = category_counts.get(category, 0) + 1
+        if team:
+            team_counts[team] = team_counts.get(team, 0) + 1
+
+    return selected
+
 def future_matchup_facts(matchups, games, year, completed_week):
     next_week = completed_week + 1
     if matchups.empty:
@@ -863,6 +2175,27 @@ def main():
     upcoming_matchups = normalize(load(UPCOMING_MATCHUPS))
     transactions = normalize(load(TRANSACTIONS))
 
+    # Weekly Story Engine: deterministic, evidence-backed color for the writers.
+    special_teams = special_teams_facts(
+        lineups, matchups, CURRENT_SEASON, week
+    )
+    acquisitions = acquisition_impact_facts(
+        transactions, lineups, CURRENT_SEASON, week
+    )
+    anomalies = lineup_anomaly_facts(
+        lineups, efficiency, CURRENT_SEASON, week
+    )
+    historical_rarity = historical_rarity_facts(
+        matchups, CURRENT_SEASON, week
+    )
+    compound_stories = compound_story_facts(
+        lineups, efficiency, matchups, special_teams, acquisitions, anomalies,
+        CURRENT_SEASON, week
+    )
+    story_candidates = build_story_candidates(
+        special_teams, acquisitions, anomalies, historical_rarity, compound_stories
+    )
+
     packet = {
         "schema_version": 4,
         "season": CURRENT_SEASON,
@@ -892,6 +2225,14 @@ def main():
         "recent_transactions": recent_transaction_facts(
             transactions, lineups, CURRENT_SEASON, week
         ),
+        "weekly_story_engine": {
+            "special_teams": special_teams,
+            "acquisition_impact": acquisitions,
+            "lineup_anomalies": anomalies,
+            "historical_rarity": historical_rarity,
+            "compound_stories": compound_stories,
+            "story_candidates": story_candidates,
+        },
         "streaks_snapped": snapped,
         "records_and_milestones": record_and_milestone_facts(
             games, CURRENT_SEASON, week
@@ -988,6 +2329,11 @@ def main():
         "PASS — recent transactions: "
         f"{len(packet['recent_transactions'].get('transactions', []))} "
         f"through {packet['recent_transactions'].get('as_of_et') or packet['recent_transactions'].get('as_of') or 'safe cutoff unavailable'}"
+    )
+    print(
+        "PASS — story candidates: "
+        f"{len(packet['weekly_story_engine']['story_candidates'])} "
+        "ranked nuggets"
     )
     print(
         "PASS — future matchups: "

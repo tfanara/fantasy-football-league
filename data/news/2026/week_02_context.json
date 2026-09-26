@@ -555,6 +555,665 @@
       ]
     }
   },
+  "weekly_story_engine": {
+    "special_teams": [
+      {
+        "category": "defense_impact",
+        "importance": 9.0,
+        "evidence_type": "derived_fact",
+        "team": "Joe Mantegna",
+        "opponent": "The Big Gronkowski",
+        "player": "Patriots",
+        "position": "DEF",
+        "points": 21.0,
+        "team_score": 107.32,
+        "share_of_team_score_pct": 19.57,
+        "matchup_margin": 10.9,
+        "team_won": true,
+        "headline_fact": "Patriots scored 21.00 points at DEF for Joe Mantegna, accounting for 19.6% of the team's score in a game decided by 10.90 points."
+      },
+      {
+        "category": "kicker_impact",
+        "importance": 6.5,
+        "evidence_type": "derived_fact",
+        "team": "The Big Gronkowski",
+        "opponent": "Joe Mantegna",
+        "player": "Harrison Butker",
+        "position": "K",
+        "points": 17.0,
+        "team_score": 96.42,
+        "share_of_team_score_pct": 17.63,
+        "matchup_margin": 10.9,
+        "team_won": false,
+        "headline_fact": "Harrison Butker scored 17.00 points at K for The Big Gronkowski, accounting for 17.6% of the team's score in a game decided by 10.90 points."
+      },
+      {
+        "category": "defense_impact",
+        "importance": 6.5,
+        "evidence_type": "derived_fact",
+        "team": "ThreatLevelMidnight",
+        "opponent": "Voldemort",
+        "player": "49ers",
+        "position": "DEF",
+        "points": 8.0,
+        "team_score": 132.88,
+        "share_of_team_score_pct": 6.02,
+        "matchup_margin": 0.9,
+        "team_won": true,
+        "headline_fact": "49ers scored 8.00 points at DEF for ThreatLevelMidnight, accounting for 6.0% of the team's score in a game decided by 0.90 points."
+      },
+      {
+        "category": "kicker_impact",
+        "importance": 6.5,
+        "evidence_type": "derived_fact",
+        "team": "ThreatLevelMidnight",
+        "opponent": "Voldemort",
+        "player": "Ka'imi Fairbairn",
+        "position": "K",
+        "points": 7.0,
+        "team_score": 132.88,
+        "share_of_team_score_pct": 5.27,
+        "matchup_margin": 0.9,
+        "team_won": true,
+        "headline_fact": "Ka'imi Fairbairn scored 7.00 points at K for ThreatLevelMidnight, accounting for 5.3% of the team's score in a game decided by 0.90 points."
+      },
+      {
+        "category": "defense_impact",
+        "importance": 6.0,
+        "evidence_type": "derived_fact",
+        "team": "Malle ❤️ 🐸",
+        "opponent": "Uncle Rico",
+        "player": "Vikings",
+        "position": "DEF",
+        "points": 17.0,
+        "team_score": 138.16,
+        "share_of_team_score_pct": 12.3,
+        "matchup_margin": 57.96,
+        "team_won": true,
+        "headline_fact": "Vikings scored 17.00 points at DEF for Malle ❤️ 🐸, accounting for 12.3% of the team's score in a game decided by 57.96 points."
+      },
+      {
+        "category": "kicker_impact",
+        "importance": 6.0,
+        "evidence_type": "derived_fact",
+        "team": "malle_dips_pouches",
+        "opponent": "Ginger FC 🏆🏆",
+        "player": "Brandon Aubrey",
+        "position": "K",
+        "points": 16.0,
+        "team_score": 124.58,
+        "share_of_team_score_pct": 12.84,
+        "matchup_margin": 20.76,
+        "team_won": true,
+        "headline_fact": "Brandon Aubrey scored 16.00 points at K for malle_dips_pouches, accounting for 12.8% of the team's score in a game decided by 20.76 points."
+      }
+    ],
+    "acquisition_impact": [
+      {
+        "category": "acquisition_hero",
+        "importance": 8.0,
+        "evidence_type": "fact",
+        "team": "ThreatLevelMidnight",
+        "player": "Tre Tucker",
+        "points": 20.4,
+        "started": true,
+        "lineup_slot": "WR",
+        "acquisition_type": "free_agent",
+        "transaction_date": "2026-09-04T15:59:41+00:00",
+        "dropped_player": null,
+        "headline_fact": "ThreatLevelMidnight recently acquired Tre Tucker via free_agent and started him for 20.40 points."
+      }
+    ],
+    "lineup_anomalies": [
+      {
+        "category": "one_player_carry",
+        "importance": 9.11,
+        "evidence_type": "derived_fact",
+        "team": "Patty Primetimes",
+        "player": "Josh Allen",
+        "points": 46.82,
+        "team_score": 113.82,
+        "share_of_team_score_pct": 41.14,
+        "headline_fact": "Josh Allen supplied 41.1% of Patty Primetimes's entire score."
+      },
+      {
+        "category": "one_player_carry",
+        "importance": 8.58,
+        "evidence_type": "derived_fact",
+        "team": "Buttermilk Puuump",
+        "player": "Dak Prescott",
+        "points": 37.76,
+        "team_score": 97.86,
+        "share_of_team_score_pct": 38.59,
+        "headline_fact": "Dak Prescott supplied 38.6% of Buttermilk Puuump's entire score."
+      },
+      {
+        "category": "bench_explosion",
+        "importance": 7.8,
+        "evidence_type": "fact",
+        "team": "Uncle Rico",
+        "player": "Matthew Stafford",
+        "points": 35.98,
+        "headline_fact": "Uncle Rico had Matthew Stafford's 35.98 points on the bench."
+      },
+      {
+        "category": "one_player_carry",
+        "importance": 7.52,
+        "evidence_type": "derived_fact",
+        "team": "Post Mahomes",
+        "player": "Patrick Mahomes",
+        "points": 34.98,
+        "team_score": 99.78,
+        "share_of_team_score_pct": 35.06,
+        "headline_fact": "Patrick Mahomes supplied 35.1% of Post Mahomes's entire score."
+      },
+      {
+        "category": "one_player_carry",
+        "importance": 7.17,
+        "evidence_type": "derived_fact",
+        "team": "Uncle Rico",
+        "player": "Jonathan Taylor",
+        "points": 27.2,
+        "team_score": 80.2,
+        "share_of_team_score_pct": 33.92,
+        "headline_fact": "Jonathan Taylor supplied 33.9% of Uncle Rico's entire score."
+      },
+      {
+        "category": "bench_explosion",
+        "importance": 7.0,
+        "evidence_type": "fact",
+        "team": "Joe Mantegna",
+        "player": "Dalton Schultz",
+        "points": 20.0,
+        "headline_fact": "Joe Mantegna had Dalton Schultz's 20.00 points on the bench."
+      },
+      {
+        "category": "one_player_carry",
+        "importance": 6.74,
+        "evidence_type": "derived_fact",
+        "team": "The Big Gronkowski",
+        "player": "CeeDee Lamb",
+        "points": 31.3,
+        "team_score": 96.42,
+        "share_of_team_score_pct": 32.46,
+        "headline_fact": "CeeDee Lamb supplied 32.5% of The Big Gronkowski's entire score."
+      },
+      {
+        "category": "one_player_carry",
+        "importance": 6.1,
+        "evidence_type": "derived_fact",
+        "team": "malle_dips_pouches",
+        "player": "Jared Goff",
+        "points": 37.78,
+        "team_score": 124.58,
+        "share_of_team_score_pct": 30.33,
+        "headline_fact": "Jared Goff supplied 30.3% of malle_dips_pouches's entire score."
+      },
+      {
+        "category": "starter_dud",
+        "importance": 5.5,
+        "evidence_type": "fact",
+        "team": "The Big Gronkowski",
+        "player": "Malik Nabers",
+        "points": 0.6,
+        "headline_fact": "The Big Gronkowski started Malik Nabers, who scored only 0.60 points."
+      },
+      {
+        "category": "starter_dud",
+        "importance": 5.5,
+        "evidence_type": "fact",
+        "team": "Malle ❤️ 🐸",
+        "player": "Puka Nacua",
+        "points": 0.0,
+        "headline_fact": "Malle ❤️ 🐸 started Puka Nacua, who scored only 0.00 points."
+      },
+      {
+        "category": "starter_dud",
+        "importance": 5.5,
+        "evidence_type": "fact",
+        "team": "Uncle Rico",
+        "player": "Colston Loveland",
+        "points": 0.8,
+        "headline_fact": "Uncle Rico started Colston Loveland, who scored only 0.80 points."
+      },
+      {
+        "category": "starter_dud",
+        "importance": 5.5,
+        "evidence_type": "fact",
+        "team": "Patty Primetimes",
+        "player": "DJ Moore",
+        "points": -0.1,
+        "headline_fact": "Patty Primetimes started DJ Moore, who scored only -0.10 points."
+      }
+    ],
+    "historical_rarity": [],
+    "compound_stories": [
+      {
+        "category": "manager_blew_game",
+        "importance": 10.0,
+        "evidence_type": "compound_derived_fact",
+        "team": "The Big Gronkowski",
+        "opponent": "Joe Mantegna",
+        "loss_margin": 10.9,
+        "optimization_gain": 32.38,
+        "points_left_on_bench": 32.38,
+        "would_have_won_by": 21.48,
+        "avoidable_start_count": 4,
+        "missed_start_count": 4,
+        "should_have_started": "Jordan Love (QB) | Xavier Worthy (WR) | Bhayshul Tuten (RB) | Tank Bigsby (RB)",
+        "should_have_benched": "Drake Maye (QB) | Travis Etienne Jr. (RB) | DK Metcalf (WR) | Malik Nabers (WR)",
+        "headline_fact": "The Big Gronkowski lost to Joe Mantegna by 10.90 despite 32.38 points of validated lineup optimization being available, enough to flip the result into a 21.48-point win.",
+        "suppresses": [
+          "manager_caused_loss",
+          "bench_explosion",
+          "starter_dud"
+        ]
+      },
+      {
+        "category": "special_teams_game_swing",
+        "importance": 10.0,
+        "evidence_type": "compound_derived_fact",
+        "team": "ThreatLevelMidnight",
+        "opponent": "Voldemort",
+        "matchup_margin": 0.9,
+        "kicker": "Ka'imi Fairbairn",
+        "kicker_points": 7.0,
+        "defense": "49ers",
+        "defense_points": 8.0,
+        "combined_k_def_points": 15.0,
+        "headline_fact": "ThreatLevelMidnight beat Voldemort by 0.90 while getting 15.00 combined points from Ka'imi Fairbairn at kicker and 49ers at defense.",
+        "suppresses": [
+          "kicker_impact",
+          "defense_impact"
+        ]
+      },
+      {
+        "category": "manager_blew_game",
+        "importance": 9.53,
+        "evidence_type": "compound_derived_fact",
+        "team": "Voldemort",
+        "opponent": "ThreatLevelMidnight",
+        "loss_margin": 0.9,
+        "optimization_gain": 8.8,
+        "points_left_on_bench": 8.8,
+        "would_have_won_by": 7.9,
+        "avoidable_start_count": 1,
+        "missed_start_count": 1,
+        "should_have_started": "Rachaad White (RB)",
+        "should_have_benched": "Saquon Barkley (RB)",
+        "headline_fact": "Voldemort lost to ThreatLevelMidnight by 0.90 despite 8.80 points of validated lineup optimization being available, enough to flip the result into a 7.90-point win.",
+        "suppresses": [
+          "manager_caused_loss",
+          "bench_explosion",
+          "starter_dud"
+        ]
+      },
+      {
+        "evidence_type": "compound_derived_fact",
+        "team": "ThreatLevelMidnight",
+        "player": "Tre Tucker",
+        "points": 20.4,
+        "started": true,
+        "lineup_slot": "WR",
+        "acquisition_type": "free_agent",
+        "transaction_date": "2026-09-04T15:59:41+00:00",
+        "dropped_player": null,
+        "category": "acquisition_payoff_win",
+        "importance": 9.5,
+        "opponent": "Voldemort",
+        "matchup_margin": 0.9,
+        "team_won": true,
+        "headline_fact": "ThreatLevelMidnight recently acquired Tre Tucker and started him for 20.40 points in a 0.90-point win over Voldemort.",
+        "suppresses": [
+          "acquisition_hero"
+        ]
+      },
+      {
+        "evidence_type": "compound_derived_fact",
+        "team": "Buttermilk Puuump",
+        "player": "Dak Prescott",
+        "points": 37.76,
+        "team_score": 97.86,
+        "share_of_team_score_pct": 38.59,
+        "category": "carry_job_in_loss",
+        "importance": 9.33,
+        "opponent": "Pop Lockett Drop it",
+        "loss_margin": 16.02,
+        "headline_fact": "Dak Prescott supplied 38.6% of Buttermilk Puuump's score, but Buttermilk Puuump still lost to Pop Lockett Drop it by 16.02.",
+        "suppresses": [
+          "one_player_carry"
+        ]
+      },
+      {
+        "category": "opponent_contrast",
+        "importance": 9.25,
+        "evidence_type": "compound_derived_fact",
+        "team": "Joe Mantegna",
+        "opponent": "The Big Gronkowski",
+        "player": "Patriots",
+        "position": "DEF",
+        "points": 21.0,
+        "matchup_margin": 10.9,
+        "opponent_optimization_gain": 32.38,
+        "headline_fact": "Joe Mantegna beat The Big Gronkowski by 10.90 with Patriots scoring 21.00 at DEF, while The Big Gronkowski had 32.38 points of validated lineup optimization available.",
+        "suppresses": []
+      },
+      {
+        "evidence_type": "compound_derived_fact",
+        "team": "Post Mahomes",
+        "player": "Patrick Mahomes",
+        "points": 34.98,
+        "team_score": 99.78,
+        "share_of_team_score_pct": 35.06,
+        "category": "carry_job_in_loss",
+        "importance": 8.27,
+        "opponent": "Patty Primetimes",
+        "loss_margin": 14.04,
+        "headline_fact": "Patrick Mahomes supplied 35.1% of Post Mahomes's score, but Post Mahomes still lost to Patty Primetimes by 14.04.",
+        "suppresses": [
+          "one_player_carry"
+        ]
+      },
+      {
+        "category": "multiple_managerial_mistakes",
+        "importance": 7.98,
+        "evidence_type": "compound_derived_fact",
+        "team": "Uncle Rico",
+        "opponent": "Malle ❤️ 🐸",
+        "loss_margin": 57.96,
+        "points_left_on_bench": 36.98,
+        "avoidable_start_count": 3,
+        "missed_start_count": 3,
+        "headline_fact": "Uncle Rico lost by 57.96 while leaving 36.98 points on the bench across multiple avoidable lineup decisions.",
+        "suppresses": [
+          "bench_explosion",
+          "starter_dud"
+        ]
+      }
+    ],
+    "story_candidates": [
+      {
+        "category": "manager_blew_game",
+        "importance": 10.0,
+        "evidence_type": "compound_derived_fact",
+        "team": "The Big Gronkowski",
+        "opponent": "Joe Mantegna",
+        "loss_margin": 10.9,
+        "optimization_gain": 32.38,
+        "points_left_on_bench": 32.38,
+        "would_have_won_by": 21.48,
+        "avoidable_start_count": 4,
+        "missed_start_count": 4,
+        "should_have_started": "Jordan Love (QB) | Xavier Worthy (WR) | Bhayshul Tuten (RB) | Tank Bigsby (RB)",
+        "should_have_benched": "Drake Maye (QB) | Travis Etienne Jr. (RB) | DK Metcalf (WR) | Malik Nabers (WR)",
+        "headline_fact": "The Big Gronkowski lost to Joe Mantegna by 10.90 despite 32.38 points of validated lineup optimization being available, enough to flip the result into a 21.48-point win.",
+        "suppresses": [
+          "manager_caused_loss",
+          "bench_explosion",
+          "starter_dud"
+        ],
+        "source_section": "compound_stories"
+      },
+      {
+        "category": "special_teams_game_swing",
+        "importance": 10.0,
+        "evidence_type": "compound_derived_fact",
+        "team": "ThreatLevelMidnight",
+        "opponent": "Voldemort",
+        "matchup_margin": 0.9,
+        "kicker": "Ka'imi Fairbairn",
+        "kicker_points": 7.0,
+        "defense": "49ers",
+        "defense_points": 8.0,
+        "combined_k_def_points": 15.0,
+        "headline_fact": "ThreatLevelMidnight beat Voldemort by 0.90 while getting 15.00 combined points from Ka'imi Fairbairn at kicker and 49ers at defense.",
+        "suppresses": [
+          "kicker_impact",
+          "defense_impact"
+        ],
+        "source_section": "compound_stories"
+      },
+      {
+        "category": "manager_blew_game",
+        "importance": 9.53,
+        "evidence_type": "compound_derived_fact",
+        "team": "Voldemort",
+        "opponent": "ThreatLevelMidnight",
+        "loss_margin": 0.9,
+        "optimization_gain": 8.8,
+        "points_left_on_bench": 8.8,
+        "would_have_won_by": 7.9,
+        "avoidable_start_count": 1,
+        "missed_start_count": 1,
+        "should_have_started": "Rachaad White (RB)",
+        "should_have_benched": "Saquon Barkley (RB)",
+        "headline_fact": "Voldemort lost to ThreatLevelMidnight by 0.90 despite 8.80 points of validated lineup optimization being available, enough to flip the result into a 7.90-point win.",
+        "suppresses": [
+          "manager_caused_loss",
+          "bench_explosion",
+          "starter_dud"
+        ],
+        "source_section": "compound_stories"
+      },
+      {
+        "evidence_type": "compound_derived_fact",
+        "team": "Buttermilk Puuump",
+        "player": "Dak Prescott",
+        "points": 37.76,
+        "team_score": 97.86,
+        "share_of_team_score_pct": 38.59,
+        "category": "carry_job_in_loss",
+        "importance": 9.33,
+        "opponent": "Pop Lockett Drop it",
+        "loss_margin": 16.02,
+        "headline_fact": "Dak Prescott supplied 38.6% of Buttermilk Puuump's score, but Buttermilk Puuump still lost to Pop Lockett Drop it by 16.02.",
+        "suppresses": [
+          "one_player_carry"
+        ],
+        "source_section": "compound_stories"
+      },
+      {
+        "category": "opponent_contrast",
+        "importance": 9.25,
+        "evidence_type": "compound_derived_fact",
+        "team": "Joe Mantegna",
+        "opponent": "The Big Gronkowski",
+        "player": "Patriots",
+        "position": "DEF",
+        "points": 21.0,
+        "matchup_margin": 10.9,
+        "opponent_optimization_gain": 32.38,
+        "headline_fact": "Joe Mantegna beat The Big Gronkowski by 10.90 with Patriots scoring 21.00 at DEF, while The Big Gronkowski had 32.38 points of validated lineup optimization available.",
+        "suppresses": [],
+        "source_section": "compound_stories"
+      },
+      {
+        "category": "one_player_carry",
+        "importance": 9.11,
+        "evidence_type": "derived_fact",
+        "team": "Patty Primetimes",
+        "player": "Josh Allen",
+        "points": 46.82,
+        "team_score": 113.82,
+        "share_of_team_score_pct": 41.14,
+        "headline_fact": "Josh Allen supplied 41.1% of Patty Primetimes's entire score.",
+        "source_section": "lineup_anomalies"
+      },
+      {
+        "evidence_type": "compound_derived_fact",
+        "team": "ThreatLevelMidnight",
+        "player": "Tre Tucker",
+        "points": 20.4,
+        "started": true,
+        "lineup_slot": "WR",
+        "acquisition_type": "free_agent",
+        "transaction_date": "2026-09-04T15:59:41+00:00",
+        "dropped_player": null,
+        "category": "acquisition_payoff_win",
+        "importance": 9.5,
+        "opponent": "Voldemort",
+        "matchup_margin": 0.9,
+        "team_won": true,
+        "headline_fact": "ThreatLevelMidnight recently acquired Tre Tucker and started him for 20.40 points in a 0.90-point win over Voldemort.",
+        "suppresses": [
+          "acquisition_hero"
+        ],
+        "source_section": "compound_stories"
+      },
+      {
+        "category": "defense_impact",
+        "importance": 9.0,
+        "evidence_type": "derived_fact",
+        "team": "Joe Mantegna",
+        "opponent": "The Big Gronkowski",
+        "player": "Patriots",
+        "position": "DEF",
+        "points": 21.0,
+        "team_score": 107.32,
+        "share_of_team_score_pct": 19.57,
+        "matchup_margin": 10.9,
+        "team_won": true,
+        "headline_fact": "Patriots scored 21.00 points at DEF for Joe Mantegna, accounting for 19.6% of the team's score in a game decided by 10.90 points.",
+        "source_section": "special_teams"
+      },
+      {
+        "evidence_type": "compound_derived_fact",
+        "team": "Post Mahomes",
+        "player": "Patrick Mahomes",
+        "points": 34.98,
+        "team_score": 99.78,
+        "share_of_team_score_pct": 35.06,
+        "category": "carry_job_in_loss",
+        "importance": 8.27,
+        "opponent": "Patty Primetimes",
+        "loss_margin": 14.04,
+        "headline_fact": "Patrick Mahomes supplied 35.1% of Post Mahomes's score, but Post Mahomes still lost to Patty Primetimes by 14.04.",
+        "suppresses": [
+          "one_player_carry"
+        ],
+        "source_section": "compound_stories"
+      },
+      {
+        "category": "multiple_managerial_mistakes",
+        "importance": 7.98,
+        "evidence_type": "compound_derived_fact",
+        "team": "Uncle Rico",
+        "opponent": "Malle ❤️ 🐸",
+        "loss_margin": 57.96,
+        "points_left_on_bench": 36.98,
+        "avoidable_start_count": 3,
+        "missed_start_count": 3,
+        "headline_fact": "Uncle Rico lost by 57.96 while leaving 36.98 points on the bench across multiple avoidable lineup decisions.",
+        "suppresses": [
+          "bench_explosion",
+          "starter_dud"
+        ],
+        "source_section": "compound_stories"
+      },
+      {
+        "category": "one_player_carry",
+        "importance": 7.17,
+        "evidence_type": "derived_fact",
+        "team": "Uncle Rico",
+        "player": "Jonathan Taylor",
+        "points": 27.2,
+        "team_score": 80.2,
+        "share_of_team_score_pct": 33.92,
+        "headline_fact": "Jonathan Taylor supplied 33.9% of Uncle Rico's entire score.",
+        "source_section": "lineup_anomalies"
+      },
+      {
+        "category": "bench_explosion",
+        "importance": 7.0,
+        "evidence_type": "fact",
+        "team": "Joe Mantegna",
+        "player": "Dalton Schultz",
+        "points": 20.0,
+        "headline_fact": "Joe Mantegna had Dalton Schultz's 20.00 points on the bench.",
+        "source_section": "lineup_anomalies"
+      },
+      {
+        "category": "one_player_carry",
+        "importance": 6.74,
+        "evidence_type": "derived_fact",
+        "team": "The Big Gronkowski",
+        "player": "CeeDee Lamb",
+        "points": 31.3,
+        "team_score": 96.42,
+        "share_of_team_score_pct": 32.46,
+        "headline_fact": "CeeDee Lamb supplied 32.5% of The Big Gronkowski's entire score.",
+        "source_section": "lineup_anomalies"
+      },
+      {
+        "category": "kicker_impact",
+        "importance": 6.5,
+        "evidence_type": "derived_fact",
+        "team": "The Big Gronkowski",
+        "opponent": "Joe Mantegna",
+        "player": "Harrison Butker",
+        "position": "K",
+        "points": 17.0,
+        "team_score": 96.42,
+        "share_of_team_score_pct": 17.63,
+        "matchup_margin": 10.9,
+        "team_won": false,
+        "headline_fact": "Harrison Butker scored 17.00 points at K for The Big Gronkowski, accounting for 17.6% of the team's score in a game decided by 10.90 points.",
+        "source_section": "special_teams"
+      },
+      {
+        "category": "defense_impact",
+        "importance": 6.0,
+        "evidence_type": "derived_fact",
+        "team": "Malle ❤️ 🐸",
+        "opponent": "Uncle Rico",
+        "player": "Vikings",
+        "position": "DEF",
+        "points": 17.0,
+        "team_score": 138.16,
+        "share_of_team_score_pct": 12.3,
+        "matchup_margin": 57.96,
+        "team_won": true,
+        "headline_fact": "Vikings scored 17.00 points at DEF for Malle ❤️ 🐸, accounting for 12.3% of the team's score in a game decided by 57.96 points.",
+        "source_section": "special_teams"
+      },
+      {
+        "category": "kicker_impact",
+        "importance": 6.0,
+        "evidence_type": "derived_fact",
+        "team": "malle_dips_pouches",
+        "opponent": "Ginger FC 🏆🏆",
+        "player": "Brandon Aubrey",
+        "position": "K",
+        "points": 16.0,
+        "team_score": 124.58,
+        "share_of_team_score_pct": 12.84,
+        "matchup_margin": 20.76,
+        "team_won": true,
+        "headline_fact": "Brandon Aubrey scored 16.00 points at K for malle_dips_pouches, accounting for 12.8% of the team's score in a game decided by 20.76 points.",
+        "source_section": "special_teams"
+      },
+      {
+        "category": "starter_dud",
+        "importance": 5.5,
+        "evidence_type": "fact",
+        "team": "Malle ❤️ 🐸",
+        "player": "Puka Nacua",
+        "points": 0.0,
+        "headline_fact": "Malle ❤️ 🐸 started Puka Nacua, who scored only 0.00 points.",
+        "source_section": "lineup_anomalies"
+      },
+      {
+        "category": "starter_dud",
+        "importance": 5.5,
+        "evidence_type": "fact",
+        "team": "Patty Primetimes",
+        "player": "DJ Moore",
+        "points": -0.1,
+        "headline_fact": "Patty Primetimes started DJ Moore, who scored only -0.10 points.",
+        "source_section": "lineup_anomalies"
+      }
+    ]
+  },
   "streaks_snapped": [
     {
       "team": "Ginger FC 🏆🏆",

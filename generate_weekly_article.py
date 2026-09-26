@@ -93,11 +93,19 @@ def load_context(year, week):
 
 def compact_packet(packet):
     """
-    Send the complete current Weekly News Intelligence packet. It is already
-    curated specifically for editorial use and is the sole league-fact evidence source.
+    Send the complete authoritative packet, but put the ranked story desk first so
+    Gemini sees Python's editorial synthesis before the supporting evidence.
     """
+    story_engine = packet.get("weekly_story_engine", {})
+    editorial_packet = {
+        "editorial_assignment_desk": {
+            "story_candidates": story_engine.get("story_candidates", []),
+            "compound_stories": story_engine.get("compound_stories", []),
+        },
+        "authoritative_weekly_intelligence": packet,
+    }
     return json.dumps(
-        packet,
+        editorial_packet,
         ensure_ascii=False,
         separators=(",", ":"),
     )
@@ -168,6 +176,74 @@ ABSOLUTE FACTUAL RULES:
 21. Aggregate H2H wins/losses and total points do NOT prove the individual games
     were blowouts, close games, dominant performances, or collapses. Only make such
     claims when the supplied evidence explicitly establishes them.
+22. MANAGEMENT CAUSALITY IS STRICT:
+    - "manager_blew_game" means validated lineup optimization was sufficient to reverse
+      the result. Only this kind of evidence supports language such as "cost the game",
+      "left a win on the bench", "blew the win", or equivalent outcome-changing claims.
+    - "multiple_managerial_mistakes", low lineup efficiency, or many unused points can
+      support roasting bad lineup execution, but DO NOT say it cost a win unless the
+      supplied evidence explicitly shows the optimized score would have beaten the opponent.
+    - A losing team's optimized score remaining below the opponent's actual score means
+      the manager still would have lost. State or imply that distinction when relevant.
+23. CAUSAL VERBS ARE EVIDENCE-DEPENDENT. Do not say a player/DEF/kicker "saved",
+    "rescued", "stole", "caused", "delivered", or was "the difference" in a result merely
+    because they scored well. Use those causal formulations only when the supplied
+    compound evidence mathematically connects the contribution to the game margin.
+24. Do not call a lineup "optimal", "nearly optimal", "clean", or equivalent unless the
+    supplied lineup-efficiency/optimization evidence reasonably supports that description.
+    Prefer the exact efficiency or unused-points fact when in doubt.
+25. H2H RECORD INTERPRETATION IS MATHEMATICAL:
+    - If the named team's record is W-L-T and W > L, that named team holds the historical edge.
+    - If W < L, the OPPONENT holds the historical edge. Never say the named team holds it.
+    - If W = L, the series is even; history favors neither side.
+    - A record such as 4-7 is a historical deficit, never a historical edge.
+26. Do not call a projected matchup a "toss-up", "coin flip", "dead even", or equivalent
+    unless the supplied projection gap is 2.00 points or less. Otherwise state the actual
+    projected edge without upgrading it into a certainty.
+27. RANK DIRECTION IS LITERAL. A weekly_score_rank of 1 means highest-scoring team,
+    2 means second-highest, etc. Never convert "7th-highest" into "7th-worst" or otherwise
+    reverse an ordinal. If the direction is not explicit enough to state safely, omit the
+    ordinal and use the supplied score/all-play/expected-win evidence instead.
+28. Historical matchup records in future_matchups are HEAD-TO-HEAD records. Never
+    call a historical H2H record an "all-play" record.
+29. If a losing team's validated optimal_score still trails the winner's actual score,
+    lineup mistakes may be mocked as wasted points or poor execution, but they did NOT
+    change the winner. Do not say they cost the game, left a win on the bench, turned
+    a winnable game into the loss, or otherwise caused the result.
+
+EDITORIAL ASSIGNMENT DESK:
+- Python has already ranked and synthesized the week's strongest factual story angles
+  in editorial_assignment_desk.story_candidates.
+- Treat that ranked list as your assignment desk, NOT as another section to summarize.
+- Start with the highest-ranked compound stories when choosing the issue headline,
+  lead story, and major angles.
+- Ranking is strong editorial guidance, not a requirement to mechanically write
+  candidate #1, then #2, then #3.
+- compound_derived_fact candidates are especially valuable because they connect
+  multiple verified facts into one supported story. Preserve those relationships.
+- A candidate's headline_fact is factual scaffolding, NOT publication-ready prose.
+  Rewrite it with personality rather than copying it verbatim.
+- Do not decompose a strong compound story back into weaker isolated facts when the
+  compound relationship is the interesting part.
+- Use lower-ranked candidates when they give another matchup or section a distinctive
+  angle, but do not crowd out stronger stories merely to mention every candidate.
+- story_candidates are NOT additional facts. Every factual statement still comes
+  from the authoritative intelligence packet embedded below.
+- Do not mention "story candidates", "importance", "compound stories", "the packet",
+  "the data", or the editorial assignment desk in the published article.
+- Do not turn deterministic labels such as manager_blew_game, opponent_contrast,
+  carry_job_in_loss, or special_teams_game_swing into visible newspaper terminology.
+  Those are internal classifications; write natural prose.
+- When a compound story says validated lineup optimization was enough to flip a game,
+  you may roast the lineup decision as consequential. Do not generalize that into
+  unsupported claims about the manager's overall competence or preparation.
+- Internal story types are semantically meaningful. In particular:
+  manager_blew_game = management could mathematically reverse the result;
+  multiple_managerial_mistakes = bad lineup execution that may NOT have changed the winner.
+  Never merge those two ideas merely because both are funny.
+- A high-ranked story may appear in both the lead and its natural specialist section,
+  but the lead should establish the theme while the specialist section supplies the
+  detailed autopsy. Do not repeat the same numbers and joke twice.
 
 EDITORIAL OWNERSHIP / ANTI-REPETITION:
 Each major fact has a primary editorial home, but this is a NEWSPAPER, not a
@@ -194,8 +270,13 @@ Example of the desired relationship:
   decisions, with a different joke.
 
 EDITORIAL PRIORITIES:
-- Select the lead story based on genuine newsworthiness in the supplied packet.
-  It does not have to be the highest score.
+- Select the lead story from the strongest ranked assignment-desk material based
+  on genuine newsworthiness. It does not have to be the week's highest score or
+  automatically candidate #1.
+- Prefer a lead with consequence, contradiction, absurdity, or a game-changing
+  relationship over a merely large standalone player score.
+- The issue headline and deck should sell the same central story/theme as the lead,
+  rather than introducing an unrelated fact.
 - Use bad-beat/all-play facts when they reveal misleading wins or losses.
 - Use managerial-decision facts to identify strong or disastrous lineup choices.
 - Use player facts and position leaders selectively rather than dumping a table.
@@ -203,15 +284,26 @@ EDITORIAL PRIORITIES:
 - Preview all six upcoming matchups when future_matchups is available.
 - Historical H2H and Yahoo projections should enrich previews, not turn them
   into spreadsheet prose.
+- Vary preview syntax. Do not write six versions of "Team X holds record Y and the
+  projection model favors Team Z." Express the supported relationship naturally.
+- closing_shot should pay off a verified Week-specific absurdity already established
+  in the article. It must not invent a new factual setup.
 - Do not manufacture awards that imply unsupported factual criteria.
 - Give every matchup recap its own angle instead of forcing identical templates.
 - Headlines should sound like THIS league's newspaper. Avoid generic headlines
   such as "A Classic Clash", "Heavyweights Collide", "Offensive Fireworks",
   "Comfortable Win", or "Looking to Bounce Back" when a specific joke or
   statistical contradiction is available.
-- Avoid generic filler such as "statement win", "occupational hazard",
-  "desperately needs", "sent a message", "drafted with a blindfold", or
-  "anything can happen" unless a fresh, league-specific joke makes it worthwhile.
+- Avoid generic filler and stock fantasy/sports clichés. In particular, avoid
+  "statement win", "occupational hazard", "desperately needs", "sent a message",
+  "drafted with a blindfold", "anything can happen", "fantasy gods", "buzzsaw",
+  "flip the script", "snatch defeat from the jaws of victory", "points on the pine",
+  "masterclass", "self-sabotage", "search for traction", "shake it off", and
+  "looking to bounce back" unless the phrase is genuinely transformed into a specific,
+  original joke that could only apply to this league and this week.
+- Build humor from the numerical absurdity itself: tiny margins, huge bench gaps,
+  disproportionate scoring shares, contradictory luck, recent acquisitions, and
+  specific start/sit decisions. Specificity is funnier than a stock metaphor.
 - Use fewer facts better. A paragraph does not need every available statistic.
 - Ruthless does not mean repetitive: vary between dry sarcasm, absurd comparison,
   understated mockery, and direct statistical indictment.
@@ -228,6 +320,13 @@ COMPLETED-GAME H2H RULE:
 - Prefer saving H2H detail for NEXT WEEK unless it materially improves the recap.
 
 NEXT-WEEK STORYTELLING:
+- Before writing each preview, interpret the historical record from the perspective
+  of the explicit team field that owns that W-L-T record. Check the arithmetic:
+  more wins = that team has the edge; more losses = its opponent has the edge;
+  equal wins/losses = even series.
+- After establishing which side owns the historical edge, keep ALL later wording
+  consistent with it. Do not later call that same team the historical underdog, say it
+  faces a historical deficit, or otherwise contradict the record indirectly.
 - Do more than list H2H records and Yahoo projections.
 - Look for SUPPORTED tension between the two: historical dominance versus a close
   projection, a historical underdog projected to win, or a dead-even rivalry
@@ -293,7 +392,11 @@ Use exactly this top-level structure:
 If a non-matchup optional section lacks usable evidence, use an empty headline
 and body rather than inventing material.
 
-WEEKLY NEWS INTELLIGENCE:
+EDITORIALLY ORDERED WEEKLY NEWS INTELLIGENCE:
+The JSON below begins with editorial_assignment_desk, followed by the complete
+authoritative_weekly_intelligence evidence packet. The latter remains the sole
+authority for league facts.
+
 {league_data}
 """
 
@@ -396,6 +499,442 @@ def validate_proper_name_integrity(article, packet):
         )
 
     return True
+
+
+
+def validate_preview_h2h_language(article, packet):
+    """
+    Catch the clearest H2H-direction mistakes in generated Week+1 previews.
+
+    This deliberately validates only explicit "historical edge/favors" language.
+    It does not attempt to fact-check arbitrary prose.
+    """
+    future = packet.get("future_matchups", {})
+    if not future.get("available"):
+        return True
+
+    source_by_pair = {}
+    for matchup in future.get("matchups", []):
+        pair = (matchup.get("team_1"), matchup.get("team_2"))
+        source_by_pair[pair] = matchup
+
+    edge_patterns = (
+        r"\bholds? (?:a |the )?(?:historical )?edge\b",
+        r"\bhistory favors\b",
+        r"\bhistorical advantage\b",
+        r"\bhistorical dominance\b",
+    )
+
+    for preview in article.get("next_week", {}).get("previews", []):
+        team_1 = preview.get("team_1")
+        team_2 = preview.get("team_2")
+        source = source_by_pair.get((team_1, team_2))
+        if not source:
+            continue
+
+        combined = f"{preview.get('headline', '')} {preview.get('body', '')}"
+        lowered = combined.casefold()
+
+        # Collect any explicit historical_h2h object(s) attached to this matchup.
+        h2h_objects = []
+
+        def walk(value):
+            if isinstance(value, dict):
+                if (
+                    isinstance(value.get("team"), str)
+                    and isinstance(value.get("wins"), (int, float))
+                    and isinstance(value.get("losses"), (int, float))
+                ):
+                    h2h_objects.append(value)
+                for item in value.values():
+                    walk(item)
+            elif isinstance(value, list):
+                for item in value:
+                    walk(item)
+
+        walk(source)
+
+        for h2h in h2h_objects:
+            team = h2h["team"]
+            wins = h2h["wins"]
+            losses = h2h["losses"]
+
+            if wins == losses:
+                # If an even series is explicitly described as favoring either side,
+                # reject it. Generic "history" wording without an edge claim is fine.
+                if any(re.search(p, lowered) for p in edge_patterns):
+                    raise RuntimeError(
+                        f"Preview {team_1} vs {team_2} describes an even historical "
+                        f"series ({wins}-{losses}) as having an edge."
+                    )
+                continue
+
+            opponent = team_2 if team == team_1 else team_1 if team == team_2 else None
+            if not opponent:
+                continue
+
+            favored = team if wins > losses else opponent
+            unfavored = opponent if wins > losses else team
+
+            # Detect explicit constructions such as
+            # "Malle holds a 4-7 historical edge" or "history favors Malle".
+            escaped_unfavored = re.escape(unfavored.casefold())
+            bad_patterns = (
+                rf"{escaped_unfavored}.{{0,45}}(?:historical )?edge",
+                rf"{escaped_unfavored}.{{0,45}}historical advantage",
+                rf"history favors.{{0,20}}{escaped_unfavored}",
+                rf"historical dominance.{{0,25}}{escaped_unfavored}",
+            )
+            if any(re.search(p, lowered) for p in bad_patterns):
+                raise RuntimeError(
+                    f"Preview {team_1} vs {team_2} assigns the historical edge to "
+                    f"{unfavored}, but the supplied H2H record favors {favored}."
+                )
+
+            # Catch indirect contradictions such as:
+            # "History favors Voldemort..." followed by "despite the historical deficit".
+            escaped_favored = re.escape(favored.casefold())
+            contradiction_patterns = (
+                rf"{escaped_favored}.{{0,80}}historical (?:deficit|underdog)",
+                rf"historical (?:deficit|underdog).{{0,80}}{escaped_favored}",
+            )
+            if any(re.search(p, lowered) for p in contradiction_patterns):
+                raise RuntimeError(
+                    f"Preview {team_1} vs {team_2} contradicts the supplied H2H record "
+                    f"by describing historically favored {favored} as disadvantaged."
+                )
+
+    return True
+
+
+
+def validate_score_rank_language(article, packet):
+    """
+    Catch reversed weekly-score ordinals such as calling weekly_score_rank=7
+    the '7th-worst' score. Packet score ranks are descending: rank 1 is highest.
+    """
+    rank_by_team = {}
+
+    def walk(value):
+        if isinstance(value, dict):
+            team = value.get("team")
+            rank = value.get("weekly_score_rank")
+            if isinstance(team, str) and isinstance(rank, int):
+                rank_by_team[team] = rank
+            for item in value.values():
+                walk(item)
+        elif isinstance(value, list):
+            for item in value:
+                walk(item)
+
+    walk(packet)
+
+    blob = article_text_blob(article).casefold()
+    for team, rank in rank_by_team.items():
+        ordinal = (
+            f"{rank}th" if 10 <= rank % 100 <= 20
+            else f"{rank}{ {1:'st', 2:'nd', 3:'rd'}.get(rank % 10, 'th') }"
+        )
+        team_cf = team.casefold()
+        bad = (
+            rf"{re.escape(team_cf)}.{{0,100}}\b{re.escape(ordinal)}[- ](?:worst|lowest)\b",
+            rf"\b{re.escape(ordinal)}[- ](?:worst|lowest)\b.{{0,100}}{re.escape(team_cf)}",
+        )
+        if any(re.search(p, blob) for p in bad):
+            raise RuntimeError(
+                f"Generated prose reverses weekly_score_rank for {team}: rank {rank} "
+                f"is {ordinal}-highest, not {ordinal}-worst/lowest."
+            )
+    return True
+
+
+def build_copy_edit_prompt(packet, article):
+    """
+    Second-pass editorial polish. Facts and JSON structure are locked; the task is
+    purely to improve voice, specificity, rhythm, and originality.
+    """
+    return f"""
+You are the COPY EDITOR for The Commissioner’s Mistake, a private fantasy-football
+league newspaper.
+
+The article below has ALREADY passed deterministic factual/structural validation.
+Your job is to improve the prose WITHOUT changing its facts.
+
+COPY-EDIT MISSION:
+- Make the article sound specific to this league and this week.
+- You MAY substantially rewrite STYLE: sentence structure, jokes, headlines, rhythm,
+  transitions, and paragraph flow. The facts are locked; the wording is not.
+- Sharpen jokes, headlines, rhythm, and transitions.
+- Remove generic sportswriter/fantasy clichés and repeated joke constructions.
+- Prefer dry specificity, numerical absurdity, understated mockery, and fresh images
+  that arise directly from the supplied facts.
+- Keep the ruthless tone, but do not make every sentence shout.
+- Preserve useful jokes that are already specific and effective.
+- Do not add a new story merely because you see unused facts in the packet.
+
+LOCKED FACTUAL RULES:
+1. Return ONLY the complete JSON article, with exactly the same schema and section structure.
+2. Do not change any winner, loser, team_1, team_2, franchise name, player name, score,
+   projection, percentage, record, rank, transaction, lineup decision, or other factual value.
+3. Do not add any league-specific factual claim that is absent from the authoritative packet.
+4. Do not turn bad management into a manager-caused loss unless validated optimization
+   explicitly shows the result could flip.
+5. Do not reverse H2H direction. W>L favors the named team; W<L favors its opponent;
+   W=L is even.
+6. weekly_score_rank is descending: rank 1 is highest. Never convert an Nth-highest
+   rank into Nth-worst/Nth-lowest.
+7. Avoid unsupported causal language such as saved, rescued, stole, caused, or
+   difference-maker unless the supplied compound evidence supports that relationship.
+8. Preserve the distinction between projections and results.
+9. Historical matchup records are head-to-head records; never relabel them as all-play.
+10. If validated optimal_score still trails the winner's actual score, lineup mistakes
+    did not change the winner. Preserve that distinction.
+11. Preserve the meaning of the draft. This is a COPY EDIT, not a rewrite from scratch.
+
+STYLE CLEANUP:
+Actively replace or remove stock phrases such as:
+- masterclass
+- self-sabotage
+- points on the pine
+- fantasy gods
+- buzzsaw
+- flip the script
+- snatch defeat from the jaws of victory
+- strapped the team to his back / put on a cape / heavy lifting
+- clean ship
+- train on the tracks
+- within a whisker
+- statement win
+- looking to bounce back
+- search for traction
+- anything can happen
+
+Do not merely swap one cliché for another. If a plain, specific sentence is funnier,
+use the plain sentence.
+
+- The six Week+1 previews must not all use the same history-plus-projection sentence
+  template. Vary their construction while preserving every number and direction.
+- Preview headlines should exploit the actual supported tension when one exists.
+  Do not manufacture tension where none exists.
+- The closing_shot must be anchored to one of THIS WEEK'S strongest verified absurdities
+  already established in the article. Do not introduce a new factual premise merely
+  to manufacture a final joke.
+
+CURRENT VALIDATED ARTICLE:
+{json.dumps(article, ensure_ascii=False, indent=2)}
+
+AUTHORITATIVE WEEKLY INTELLIGENCE:
+{compact_packet(packet)}
+"""
+
+
+def copy_edit_and_validate(client, model, packet, article):
+    """
+    Run one narrow prose-polish pass. If the copy edit fails deterministic validation,
+    repair it once using the existing repair machinery. The original validated draft
+    remains available as a safe fallback.
+    """
+    prompt = build_copy_edit_prompt(packet, article)
+    print("Running second-pass copy edit...")
+
+    response = client.models.generate_content(
+        model=model,
+        contents=prompt,
+        config=types.GenerateContentConfig(
+            temperature=0.55,
+            max_output_tokens=6500,
+            response_mime_type="application/json",
+        ),
+    )
+
+    try:
+        edited = extract_json(response.text)
+    except RuntimeError as exc:
+        print(
+            f"[WARN] Copy edit returned invalid JSON ({exc}); "
+            "using the original validated draft."
+        )
+        return article
+
+    edited, error = validate_with_deterministic_repairs(edited, packet)
+    if error is None:
+        print("[PASS] Copy-edited article validated")
+        return edited
+
+    print(f"Copy edit failed validation; attempting one repair: {error}")
+    repair_prompt = build_repair_prompt(packet, edited, error)
+    response = client.models.generate_content(
+        model=model,
+        contents=repair_prompt,
+        config=types.GenerateContentConfig(
+            temperature=0.10,
+            max_output_tokens=6500,
+            response_mime_type="application/json",
+        ),
+    )
+    try:
+        repaired = extract_json(response.text)
+    except RuntimeError as exc:
+        print(
+            f"[WARN] Copy-edit repair returned invalid JSON ({exc}); "
+            "using the original validated draft."
+        )
+        return article
+
+    repaired, error = validate_with_deterministic_repairs(
+        repaired, packet
+    )
+    if error is None:
+        print("[PASS] Copy-edited article repaired and validated")
+        return repaired
+
+    print(
+        "[WARN] Copy edit could not be validated after repair; "
+        "using the original validated draft."
+    )
+    return article
+
+
+
+def validate_franchise_name_mutations(article, packet):
+    """Catch likely one-edit franchise-name typos in prose/headlines."""
+    teams, _ = collect_authoritative_names(packet)
+    text = article_text_blob(article)
+
+    scrubbed = text
+    for team in sorted(teams, key=len, reverse=True):
+        scrubbed = re.sub(re.escape(team), " ", scrubbed, flags=re.I)
+
+    def one_edit_apart(a, b):
+        a, b = a.casefold(), b.casefold()
+        if a == b or abs(len(a) - len(b)) > 1:
+            return False
+        if len(a) == len(b):
+            return sum(x != y for x, y in zip(a, b)) == 1
+        if len(a) > len(b):
+            a, b = b, a
+        i = j = edits = 0
+        while i < len(a) and j < len(b):
+            if a[i] == b[j]:
+                i += 1
+                j += 1
+            else:
+                edits += 1
+                j += 1
+                if edits > 1:
+                    return False
+        return True
+
+    tokens = re.findall(r"[A-Za-z][A-Za-z']*", scrubbed)
+    lowered = [x.casefold() for x in tokens]
+
+    for team in teams:
+        team_tokens = re.findall(r"[A-Za-z][A-Za-z']*", team)
+        if len(team_tokens) < 2:
+            continue
+        team_lower = [x.casefold() for x in team_tokens]
+
+        for i, token in enumerate(tokens):
+            for j, target in enumerate(team_tokens):
+                if len(target) < 5 or not one_edit_apart(token, target):
+                    continue
+                nearby = lowered[max(0, i - 4): i + 5]
+                companions = [
+                    x for k, x in enumerate(team_lower)
+                    if k != j and len(x) >= 4
+                ]
+                if any(x in nearby for x in companions):
+                    raise RuntimeError(
+                        f"Generated prose contains likely franchise-name mutation "
+                        f"'{token}' near authoritative franchise '{team}'. "
+                        "Preserve franchise names exactly."
+                    )
+    return True
+
+
+
+
+def validate_h2h_stat_labels(article, packet):
+    """Future matchup historical records are H2H, never all-play records."""
+    for preview in article.get("next_week", {}).get("previews", []):
+        combined = f"{preview.get('headline', '')} {preview.get('body', '')}"
+        if re.search(r"(?i)\ball[- ]play\b", combined):
+            raise RuntimeError(
+                f"Preview {preview.get('team_1')} vs {preview.get('team_2')} "
+                "labels historical H2H evidence as all-play."
+            )
+    return True
+
+
+def validate_management_causality(article, packet):
+    """
+    Prevent a losing team's lineup mistakes from being described as outcome-changing
+    when its validated optimal score still would not have beaten the winner.
+    """
+    decisions = {
+        x.get("team"): x
+        for x in packet.get("managerial_decisions", {}).get("decisions", [])
+        if isinstance(x, dict) and isinstance(x.get("team"), str)
+    }
+
+    games = {
+        x.get("loser"): x
+        for x in packet.get("matchups", [])
+        if isinstance(x, dict) and isinstance(x.get("loser"), str)
+    }
+
+    # Phrases that imply lineup management changed the winner or created the result.
+    causal_patterns = (
+        r"\bcost (?:them|him|her|the team)? ?(?:the )?(?:game|win|victory)\b",
+        r"\bleft (?:a|the) win on the bench\b",
+        r"\bblew (?:the )?(?:game|win|victory)\b",
+        r"\bthrew away (?:the )?(?:game|win|victory)\b",
+        r"\bturned (?:a|the|what could have been).{0,80}\binto\b",
+        r"\bchanged the outcome\b",
+        r"\bflipped the result\b",
+        r"\bwould have won\b",
+    )
+
+    management_terms = (
+        "bench", "lineup", "start", "started", "starting", "manager",
+        "management", "mismanaged", "miscue", "efficiency", "optimal"
+    )
+
+    # Check prose sentence-by-sentence so unrelated causal language elsewhere does not
+    # get attributed to the wrong franchise.
+    blob = article_text_blob(article)
+    sentences = re.split(r"(?<=[.!?])\s+", blob)
+
+    for team, decision in decisions.items():
+        game = games.get(team)
+        if not game:
+            continue
+
+        optimal = decision.get("optimal_score")
+        winner_score = game.get("winner_score")
+        if not isinstance(optimal, (int, float)) or not isinstance(winner_score, (int, float)):
+            continue
+
+        # If optimization could actually reverse the result, causal language is allowed.
+        if optimal > winner_score:
+            continue
+
+        for sentence in sentences:
+            lowered = sentence.casefold()
+            if team.casefold() not in lowered:
+                continue
+            if not any(term in lowered for term in management_terms):
+                continue
+            if any(re.search(pattern, lowered) for pattern in causal_patterns):
+                raise RuntimeError(
+                    f"Management causality overstatement for {team}: validated optimal "
+                    f"score {optimal:.2f} would still trail the opponent's "
+                    f"{winner_score:.2f}. Lineup mistakes may be criticized, but cannot "
+                    "be described as changing the winner."
+                )
+
+    return True
+
 
 
 def validate_article(article, packet):
@@ -504,12 +1043,17 @@ def validate_article(article, packet):
         raise RuntimeError("Generated article contains invalid headline text.")
 
     validate_proper_name_integrity(article, packet)
+    validate_franchise_name_mutations(article, packet)
+    validate_preview_h2h_language(article, packet)
+    validate_h2h_stat_labels(article, packet)
+    validate_score_rank_language(article, packet)
+    validate_management_causality(article, packet)
 
     return True
 
 
 
-MAX_GENERATION_ATTEMPTS = 3
+MAX_GENERATION_ATTEMPTS = 4
 
 
 def article_validation_error(article, packet):
@@ -571,22 +1115,49 @@ AUTHORITATIVE MATCHUP MANIFEST:
 
 REPAIR RULES:
 1. Return ONLY the complete corrected JSON article. No Markdown fences.
-2. Preserve the existing article's good prose wherever it does not need repair.
-3. The final matchup_recaps array MUST contain exactly one entry for every
+2. SURGICAL REPAIR ONLY: fix the specific VALIDATION ERROR above and any text that
+   directly depends on that error. Do not rewrite unrelated headlines, sections,
+   jokes, matchup recaps, previews, or prose.
+3. Preserve the existing article's good prose verbatim wherever it does not need repair.
+4. The final matchup_recaps array MUST contain exactly one entry for every
    required_completed_matchup above: exactly 6 total, no duplicates.
-4. Each completed recap MUST preserve the exact winner and loser strings from
+5. Each completed recap MUST preserve the exact winner and loser strings from
    the manifest. Never reverse, rename, omit, or invent a matchup.
-5. If required_upcoming_matchups is non-empty, next_week.previews MUST contain
+6. If required_upcoming_matchups is non-empty, next_week.previews MUST contain
    exactly one entry for every listed matchup: exactly 6 total, no duplicates.
-6. Preserve exact team_1/team_2 orientation for upcoming matchups.
-7. Do not invent any league fact while repairing.
-8. WEEKLY NEWS INTELLIGENCE below remains the sole factual source.
-9. Keep schema_version=1 and preserve the requested season/week.
-10. Keep exactly the same top-level article structure as the draft.
-11. Preserve every franchise and player name EXACTLY as supplied in WEEKLY NEWS
+7. Preserve exact team_1/team_2 orientation for upcoming matchups.
+8. Do not invent any league fact while repairing.
+9. The authoritative_weekly_intelligence object below remains the sole factual
+   source. editorial_assignment_desk only ranks/synthesizes facts already supported
+   there and must not be treated as an independent source.
+10. Keep schema_version=1 and preserve the requested season/week.
+11. Keep exactly the same top-level article structure as the draft.
+12. Preserve every franchise and player name EXACTLY as supplied in WEEKLY NEWS
     INTELLIGENCE. Never blend or mutate proper names while repairing prose.
-12. Treat historical H2H as past evidence, never as a prediction, and do not infer
+13. Treat historical H2H as past evidence, never as a prediction, and do not infer
     individual-game blowouts/closeness from aggregate H2H totals alone.
+14. A manager may be described as costing/blowing a win ONLY when supplied validated
+    optimization explicitly shows the lineup change could reverse the result.
+15. Interpret W-L-T H2H records from the named team's perspective: W>L favors that
+    team, W<L favors its opponent, W=L favors neither side.
+16. Avoid unsupported causal verbs such as saved/rescued/stole/caused/difference-maker.
+17. weekly_score_rank is descending: rank 1 is highest. Never rewrite an Nth-highest
+    rank as Nth-worst or Nth-lowest.
+18. Keep every sentence in a preview consistent with the same H2H direction; do not
+    correctly state an edge and then call that favored team historically disadvantaged.
+19. When the validation error names one specific preview, leave all other previews
+    unchanged unless they independently violate one of the factual rules above.
+20. When the validation error concerns an even series, remove edge/favored/underdog
+    language for that series. When it concerns a directional series, change only the
+    contradictory historical wording; do not alter the supplied record or projections.
+21. If validation identifies a likely franchise-name mutation, replace only the typo
+    with the exact authoritative franchise name; do not rewrite the surrounding passage.
+22. Do not repair a closing_shot by inventing a new factual premise. Anchor it to a fact
+    already supported by the authoritative packet.
+23. Historical H2H records must never be labeled all-play.
+24. If a losing team's validated optimal score still trails the winner's actual score,
+    preserve criticism of the lineup if warranted but remove any claim that management
+    changed the winner or cost a victory.
 
 CURRENT DRAFT:
 {json.dumps(article, ensure_ascii=False, indent=2)}
@@ -594,6 +1165,290 @@ CURRENT DRAFT:
 WEEKLY NEWS INTELLIGENCE:
 {compact_packet(packet)}
 """
+
+
+
+def _replace_h2h_edge_language_for_even_preview(preview, wins, losses, ties):
+    """
+    Deterministically neutralize historical-edge language for an even H2H series.
+    Keep projections and unrelated preview prose intact.
+    """
+    record = f"{wins}-{losses}-{ties}"
+    headline = preview.get("headline", "")
+    body = preview.get("body", "")
+
+    # Headline: replace common edge/dominance framing with neutral history framing.
+    headline_patterns = (
+        r"(?i)\bhistorical edge\b",
+        r"(?i)\bhistory(?:'s)? edge\b",
+        r"(?i)\bhistorical advantage\b",
+        r"(?i)\bhistorical dominance\b",
+        r"(?i)\bhistory favors\b",
+    )
+    for pattern in headline_patterns:
+        headline = re.sub(pattern, "Even History", headline)
+
+    # Body: neutralize explicit even-record edge constructions while preserving
+    # the rest of the preview, especially projections.
+    body = re.sub(
+        rf"(?i)(?:[A-Za-z0-9_ ❤️🏆'.-]+\s+)?holds?\s+(?:a|the)?\s*"
+        rf"{re.escape(record)}\s+(?:historical\s+)?(?:edge|advantage)",
+        f"the historical series is even at {record}",
+        body,
+    )
+    body = re.sub(
+        rf"(?i)history\s+favors\s+[^,.]+(?:,|\s)+(?:with\s+)?(?:a\s+)?"
+        rf"{re.escape(record)}(?:\s+(?:record|edge|advantage))?",
+        f"the historical series is even at {record}",
+        body,
+    )
+    body = re.sub(
+        rf"(?i)(?:historical\s+)?(?:edge|advantage|dominance)\s+"
+        rf"(?:at|of|with)\s+{re.escape(record)}",
+        f"even historical series at {record}",
+        body,
+    )
+
+    # If edge language survived but the exact record is present, replace the
+    # offending sentence conservatively with a neutral statement.
+    sentences = re.split(r"(?<=[.!?])\s+", body)
+    repaired = []
+    for sentence in sentences:
+        lowered = sentence.casefold()
+        if record in sentence and any(
+            phrase in lowered
+            for phrase in (
+                "historical edge",
+                "historical advantage",
+                "historical dominance",
+                "history favors",
+            )
+        ):
+            repaired.append(f"The historical series is even at {record}.")
+        else:
+            repaired.append(sentence)
+    body = " ".join(s for s in repaired if s)
+
+    preview["headline"] = headline
+    preview["body"] = body
+
+
+def apply_deterministic_article_repairs(article, packet, validation_error):
+    """
+    Repair only factual errors that have one deterministic interpretation.
+
+    Returns (article, repaired_bool, message).
+    """
+    if not isinstance(validation_error, str):
+        return article, False, None
+
+    # Historical H2H evidence mislabeled as all-play.
+    stat_label = re.search(
+        r"Preview (.+?) vs (.+?) labels historical H2H evidence as all-play\.",
+        validation_error,
+    )
+    if stat_label:
+        team_1, team_2 = stat_label.groups()
+        for preview in article.get("next_week", {}).get("previews", []):
+            if preview.get("team_1") == team_1 and preview.get("team_2") == team_2:
+                preview["headline"] = re.sub(
+                    r"(?i)\ball[- ]play\b", "Head-to-Head", preview.get("headline", "")
+                )
+                preview["body"] = re.sub(
+                    r"(?i)\ball[- ]play\b", "head-to-head", preview.get("body", "")
+                )
+                return (
+                    article,
+                    True,
+                    f"corrected H2H/all-play terminology for {team_1} vs {team_2}",
+                )
+
+    # Directional H2H series assigned to the wrong team.
+    directional = re.search(
+        r"Preview (.+?) vs (.+?) assigns the historical edge to (.+?), "
+        r"but the supplied H2H record favors (.+?)\.",
+        validation_error,
+    )
+    if directional:
+        team_1, team_2, unfavored, favored = directional.groups()
+
+        source = None
+        for matchup in packet.get("future_matchups", {}).get("matchups", []):
+            if matchup.get("team_1") == team_1 and matchup.get("team_2") == team_2:
+                source = matchup
+                break
+
+        record = None
+        if source:
+            h2h_objects = []
+
+            def walk_directional(value):
+                if isinstance(value, dict):
+                    if (
+                        isinstance(value.get("team"), str)
+                        and isinstance(value.get("wins"), (int, float))
+                        and isinstance(value.get("losses"), (int, float))
+                    ):
+                        h2h_objects.append(value)
+                    for item in value.values():
+                        walk_directional(item)
+                elif isinstance(value, list):
+                    for item in value:
+                        walk_directional(item)
+
+            walk_directional(source)
+
+            for h2h in h2h_objects:
+                team = h2h.get("team")
+                wins = int(h2h.get("wins", 0))
+                losses = int(h2h.get("losses", 0))
+                ties = int(h2h.get("ties", 0) or 0)
+                opponent = team_2 if team == team_1 else team_1 if team == team_2 else None
+                if not opponent or wins == losses:
+                    continue
+                actual_favored = team if wins > losses else opponent
+                if actual_favored == favored:
+                    record = f"{wins}-{losses}-{ties}"
+                    # If the record is stored from the unfavored team's perspective,
+                    # reverse W/L so the neutral replacement is from favored's perspective.
+                    if team != favored:
+                        record = f"{losses}-{wins}-{ties}"
+                    break
+
+        for preview in article.get("next_week", {}).get("previews", []):
+            if preview.get("team_1") != team_1 or preview.get("team_2") != team_2:
+                continue
+
+            headline = preview.get("headline", "")
+            body = preview.get("body", "")
+
+            # Replace only explicit wrong-edge clauses. Keep projections and other
+            # matchup context untouched.
+            wrong_name = re.escape(unfavored)
+            favored_name = favored
+            body = re.sub(
+                rf"(?i){wrong_name}\s+holds?\s+(?:a|the)\s+"
+                rf"(?:\d+-\d+(?:-\d+)?\s+)?(?:historical\s+)?"
+                rf"(?:edge|advantage|dominance)",
+                (
+                    f"{favored_name} holds the historical edge"
+                    if not record
+                    else f"{favored_name} holds a {record} historical edge"
+                ),
+                body,
+            )
+            body = re.sub(
+                rf"(?i)history\s+favors\s+{wrong_name}",
+                f"history favors {favored_name}",
+                body,
+            )
+            body = re.sub(
+                rf"(?i){wrong_name}.{{0,35}}(?:historical\s+)?"
+                rf"(?:edge|advantage|dominance)",
+                (
+                    f"{favored_name} holds the historical edge"
+                    if not record
+                    else f"{favored_name} holds a {record} historical edge"
+                ),
+                body,
+            )
+
+            # Headlines that explicitly assign history to the wrong side get a
+            # neutral replacement; no need to manufacture a new joke in Python.
+            if (
+                unfavored.casefold() in headline.casefold()
+                and any(
+                    phrase in headline.casefold()
+                    for phrase in ("historical edge", "history favors",
+                                   "historical advantage", "historical dominance")
+                )
+            ):
+                headline = "The Historical Ledger"
+
+            preview["headline"] = headline
+            preview["body"] = body
+            return (
+                article,
+                True,
+                f"corrected H2H edge direction for {team_1} vs {team_2}; "
+                f"history favors {favored}",
+            )
+
+    # Even H2H series incorrectly described as having an edge.
+    match = re.search(
+        r"Preview (.+?) vs (.+?) describes an even historical series "
+        r"\((\d+)-(\d+)\) as having an edge\.",
+        validation_error,
+    )
+    if match:
+        team_1, team_2 = match.group(1), match.group(2)
+        wins, losses = int(match.group(3)), int(match.group(4))
+
+        future = packet.get("future_matchups", {})
+        source = None
+        for matchup in future.get("matchups", []):
+            if matchup.get("team_1") == team_1 and matchup.get("team_2") == team_2:
+                source = matchup
+                break
+
+        ties = 0
+        if source:
+            h2h_objects = []
+
+            def walk(value):
+                if isinstance(value, dict):
+                    if (
+                        isinstance(value.get("team"), str)
+                        and isinstance(value.get("wins"), (int, float))
+                        and isinstance(value.get("losses"), (int, float))
+                    ):
+                        h2h_objects.append(value)
+                    for item in value.values():
+                        walk(item)
+                elif isinstance(value, list):
+                    for item in value:
+                        walk(item)
+
+            walk(source)
+            for h2h in h2h_objects:
+                if int(h2h.get("wins", -1)) == wins and int(h2h.get("losses", -1)) == losses:
+                    ties = int(h2h.get("ties", 0) or 0)
+                    break
+
+        for preview in article.get("next_week", {}).get("previews", []):
+            if preview.get("team_1") == team_1 and preview.get("team_2") == team_2:
+                _replace_h2h_edge_language_for_even_preview(
+                    preview, wins, losses, ties
+                )
+                return (
+                    article,
+                    True,
+                    f"neutralized even-series H2H language for "
+                    f"{team_1} vs {team_2} ({wins}-{losses}-{ties})",
+                )
+
+    return article, False, None
+
+
+def validate_with_deterministic_repairs(article, packet, max_passes=4):
+    """
+    Validate, applying safe Python repairs when the validation error has exactly
+    one factual interpretation. Revalidate after every repair.
+    """
+    for _ in range(max_passes):
+        error = article_validation_error(article, packet)
+        if error is None:
+            return article, None
+
+        article, repaired, message = apply_deterministic_article_repairs(
+            article, packet, error
+        )
+        if not repaired:
+            return article, error
+
+        print(f"[FIX] Python repair: {message}")
+
+    return article, article_validation_error(article, packet)
 
 
 def generate_and_validate(client, model, packet):
@@ -618,14 +1473,31 @@ def generate_and_validate(client, model, packet):
             model=model,
             contents=prompt,
             config=types.GenerateContentConfig(
-                temperature=0.70 if attempt == 1 else 0.25,
+                temperature=0.70 if attempt == 1 else 0.10,
                 max_output_tokens=6500,
                 response_mime_type="application/json",
             ),
         )
 
-        article = extract_json(response.text)
-        last_error = article_validation_error(article, packet)
+        try:
+            article = extract_json(response.text)
+        except RuntimeError as exc:
+            # Invalid JSON is a generation failure, not a reason to abort the whole run.
+            # There is no usable draft to repair, so retry from the original generation
+            # prompt on the next attempt.
+            last_error = str(exc)
+            if attempt < MAX_GENERATION_ATTEMPTS:
+                print(
+                    f"Generation attempt {attempt} returned invalid JSON; "
+                    "retrying from the original article prompt."
+                )
+                prompt = build_prompt(packet)
+                continue
+            break
+
+        article, last_error = validate_with_deterministic_repairs(
+            article, packet
+        )
 
         if last_error is None:
             if attempt > 1:
@@ -670,12 +1542,21 @@ def generate_article(year, week):
     model = get_model()
 
     print(f"Gemini model: {model}")
-    print("Generating article with automatic validation/repair...")
+    print("Generating article with automatic validation/repair + copy edit...")
 
     article = generate_and_validate(
         client=client,
         model=model,
         packet=packet,
+    )
+
+    # The first pass owns story selection and factual assembly. The second pass has
+    # the narrower job of making the already-valid article sound like a newspaper.
+    article = copy_edit_and_validate(
+        client=client,
+        model=model,
+        packet=packet,
+        article=article,
     )
 
     print("[PASS] Gemini returned valid JSON")
