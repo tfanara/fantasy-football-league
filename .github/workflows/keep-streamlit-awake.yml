@@ -1,0 +1,26 @@
+name: Keep Streamlit Awake
+
+on:
+  schedule:
+    # Ping every 6 hours, at :17 to avoid GitHub's top-of-hour congestion
+    - cron: "17 */6 * * *"
+
+  # Lets us test it manually from the GitHub Actions page
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+
+    steps:
+      - name: Ping Streamlit app
+        run: |
+          curl \
+            --location \
+            --fail \
+            --silent \
+            --show-error \
+            --max-time 60 \
+            --retry 2 \
+            "https://malle-is-the-worst-commissioner.streamlit.app/"
