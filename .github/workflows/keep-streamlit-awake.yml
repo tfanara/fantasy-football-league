@@ -2,10 +2,10 @@ name: Keep Streamlit Awake
 
 on:
   schedule:
-    # Ping every 6 hours, at :17 to avoid GitHub's top-of-hour congestion
+    # Every 6 hours, offset from the top of the hour
     - cron: "17 */6 * * *"
 
-  # Lets us test it manually from the GitHub Actions page
+  # Keep the manual Run workflow button
   workflow_dispatch:
 
 jobs:
