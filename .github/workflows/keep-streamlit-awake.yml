@@ -17,9 +17,14 @@ jobs:
       - name: Ping Streamlit app
         run: |
           curl \
-            --head \
+            --request GET \
+            --cookie-jar cookies.txt \
+            --cookie cookies.txt \
             --location \
-            --max-redirs 10 \
+            --max-redirs 20 \
             --max-time 60 \
-            --verbose \
+            --user-agent "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/140.0 Safari/537.36" \
+            --header "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8" \
+            --output /dev/null \
+            --write-out "Final HTTP status: %{http_code}\nFinal URL: %{url_effective}\n" \
             "https://malle-is-the-worst-commissioner.streamlit.app/"
