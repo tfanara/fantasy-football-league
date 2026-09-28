@@ -17,10 +17,9 @@ jobs:
       - name: Ping Streamlit app
         run: |
           curl \
+            --head \
             --location \
-            --fail \
-            --silent \
-            --show-error \
+            --max-redirs 10 \
             --max-time 60 \
-            --retry 2 \
+            --verbose \
             "https://malle-is-the-worst-commissioner.streamlit.app/"
