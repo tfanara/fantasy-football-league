@@ -1487,3 +1487,15 @@ year,week,fantasy_team,opponent,team_score,opponent_score,actual_win,actual_loss
 2026,2,Patty Primetimes,Post Mahomes,113.82,99.78,1.0,0.0,0.0,1.0,14.039999999999992,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,9,False,False,False,False,,
 2026,2,Joe Mantegna,The Big Gronkowski,107.32,96.42,1.0,0.0,0.0,1.0,10.899999999999991,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,11,False,True,False,False,,
 2026,2,ThreatLevelMidnight,Voldemort,132.88,131.98,1.0,0.0,0.0,1.0,0.9000000000000057,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,3,True,False,True,True,1.0,1.0
+2026,3,Malle ❤️ 🐸,malle_dips_pouches,117.02,138.06,0.0,1.0,0.0,0.0,-21.040000000000006,7,4,0,0.6363636363636364,-0.6363636363636364,5,False,False,1,True,False,False,False,,
+2026,3,Pop Lockett Drop it,Patty Primetimes,116.04,136.66,0.0,1.0,0.0,0.0,-20.61999999999999,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,2,True,False,False,False,,
+2026,3,Post Mahomes,Uncle Rico,122.64,68.14,1.0,0.0,0.0,1.0,54.5,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,12,False,True,False,False,,
+2026,3,The Big Gronkowski,Ginger FC 🏆🏆,102.98,97.58,1.0,0.0,0.0,1.0,5.400000000000006,2,9,0,0.18181818181818182,0.8181818181818181,10,False,True,11,False,True,False,True,,1.0
+2026,3,ThreatLevelMidnight,Buttermilk Puuump,112.38,106.94,1.0,0.0,0.0,1.0,5.439999999999998,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,8,False,False,False,True,,1.0
+2026,3,Voldemort,Joe Mantegna,123.04,103.68,1.0,0.0,0.0,1.0,19.36,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,9,False,False,False,False,,
+2026,3,malle_dips_pouches,Malle ❤️ 🐸,138.06,117.02,1.0,0.0,0.0,1.0,21.040000000000006,11,0,0,1.0,0.0,1,True,False,5,False,False,False,False,,
+2026,3,Patty Primetimes,Pop Lockett Drop it,136.66,116.04,1.0,0.0,0.0,1.0,20.61999999999999,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,6,False,False,False,False,,
+2026,3,Uncle Rico,Post Mahomes,68.14,122.64,0.0,1.0,0.0,0.0,-54.5,0,11,0,0.0,0.0,12,False,True,4,False,False,False,False,,
+2026,3,Ginger FC 🏆🏆,The Big Gronkowski,97.58,102.98,0.0,1.0,0.0,0.0,-5.400000000000006,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,10,False,True,False,True,,0.0
+2026,3,Buttermilk Puuump,ThreatLevelMidnight,106.94,112.38,0.0,1.0,0.0,0.0,-5.439999999999998,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,7,False,False,False,True,,0.0
+2026,3,Joe Mantegna,Voldemort,103.68,123.04,0.0,1.0,0.0,0.0,-19.36,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,3,True,False,False,False,,

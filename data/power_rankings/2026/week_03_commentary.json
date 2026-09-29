@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "season": 2026,
+  "week": 3,
+  "commentary": [
+    {
+      "power_rank": 1,
+      "team": "malle_dips_pouches",
+      "commentary": "Sitting pretty at 3-0 with the league's top-ranked scoring, malle_dips_pouches rolled past Malle ❤️ 🐸 by 21.04 points. Even leaving 18.3 points on the bench couldn't slow down this juggernaut.",
+      "evidence_tags": [
+        "matchup",
+        "standings",
+        "lineup",
+        "season_context"
+      ]
+    },
+    {
+      "power_rank": 2,
+      "team": "Patty Primetimes",
+      "commentary": "Patty Primetimes hit a massive career milestone by securing win number 50, marching to 3-0 after a 20.62-point victory over Pop Lockett Drop it. A nearly flawless lineup efficiency of 98.63% proved they mean business.",
+      "evidence_tags": [
+        "matchup",
+        "milestone",
+        "standings",
+        "lineup"
+      ]
+    },
+    {
+      "power_rank": 3,
+      "team": "Pop Lockett Drop it",
+      "commentary": "Pop Lockett Drop it suffered a tough bad-beat loss to Patty Primetimes, snapping a four-game winning streak. Despite the stumble, they managed a league-high 98.78% efficiency rate across the first three weeks.",
+      "evidence_tags": [
+        "matchup",
+        "luck",
+        "milestone",
+        "standings"
+      ]
+    },
+    {
+      "power_rank": 4,
+      "team": "Malle ❤️ 🐸",
+      "commentary": "Malle ❤️ 🐸 ran into a buzzsaw against malle_dips_pouches, suffering a harsh bad-beat defeat despite a perfect 100% lineup efficiency. They will look to rebound from a 1-2 record.",
+      "evidence_tags": [
+        "matchup",
+        "luck",
+        "lineup",
+        "standings"
+      ]
+    },
+    {
+      "power_rank": 5,
+      "team": "ThreatLevelMidnight",
+      "commentary": "ThreatLevelMidnight escaped with a narrow 5.44-point win over Buttermilk Puuump to maintain an unblemished 3-0 record. It was a decidedly lucky win according to the metrics, but a win is a win.",
+      "evidence_tags": [
+        "matchup",
+        "luck",
+        "standings",
+        "season_context"
+      ]
+    },
+    {
+      "power_rank": 6,
+      "team": "Voldemort",
+      "commentary": "Voldemort snapped a two-game losing skid by comfortably dispatching Joe Mantegna 123.04 to 103.68. Adding Jalen Nailor prior to the matchup clearly didn't hurt the cause.",
+      "evidence_tags": [
+        "matchup",
+        "milestone",
+        "transaction",
+        "standings"
+      ]
+    },
+    {
+      "power_rank": 7,
+      "team": "Ginger FC 🏆🏆",
+      "commentary": "Ginger FC 🏆🏆 dropped a tight 5.4-point decision to The Big Gronkowski despite picking up C.J. Stroud mid-week. Leaving 18.36 points on the bench certainly didn't help their cause.",
+      "evidence_tags": [
+        "matchup",
+        "transaction",
+        "lineup",
+        "standings"
+      ]
+    },
+    {
+      "power_rank": 8,
+      "team": "Post Mahomes",
+      "commentary": "Post Mahomes delivered a statement blowout, demolishing Uncle Rico by 54.5 points with a pristine 100% lineup efficiency. They sit comfortably at 2-1 after churning the roster with several recent additions.",
+      "evidence_tags": [
+        "matchup",
+        "lineup",
+        "transaction",
+        "standings"
+      ]
+    },
+    {
+      "power_rank": 9,
+      "team": "Joe Mantegna",
+      "commentary": "Joe Mantegna fell to 1-2 after a 19.36-point loss to Voldemort. Leaving 24.6 points stranded on the bench proved to be a costly managerial misstep.",
+      "evidence_tags": [
+        "matchup",
+        "lineup",
+        "standings"
+      ]
+    },
+    {
+      "power_rank": 10,
+      "team": "Buttermilk Puuump",
+      "commentary": "Buttermilk Puuump remains in search of their first victory at 0-3 after a heartbreaking 5.44-point loss to ThreatLevelMidnight. At least their 95.11% lineup efficiency showed signs of life.",
+      "evidence_tags": [
+        "matchup",
+        "standings",
+        "lineup",
+        "season_context"
+      ]
+    },
+    {
+      "power_rank": 11,
+      "team": "The Big Gronkowski",
+      "commentary": "The Big Gronkowski finally snapped a three-game losing streak with a very fortunate 5.4-point victory over Ginger FC 🏆🏆. They caught a massive break in the win-probability department to grab their first win.",
+      "evidence_tags": [
+        "matchup",
+        "luck",
+        "milestone",
+        "standings"
+      ]
+    },
+    {
+      "power_rank": 12,
+      "team": "Uncle Rico",
+      "commentary": "Uncle Rico endured a disastrous 54.5-point shellacking against Post Mahomes to fall to 0-3. A brutal 79.14% lineup efficiency and four avoidable starting errors capped off a miserable week.",
+      "evidence_tags": [
+        "matchup",
+        "lineup",
+        "standings",
+        "season_context"
+      ]
+    }
+  ]
+}

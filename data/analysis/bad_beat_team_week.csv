@@ -1487,3 +1487,15 @@ year,week,fantasy_team,opponent,score,opponent_score,canonical_team,canonical_op
 2026,2,Joe Mantegna,The Big Gronkowski,107.32,96.42,Joe Mantegna,The Big Gronkowski,10.899999999999991,1,0,0,5.0,6.0,0.0,0.45454545454545453,7.0,12.0,-0.5454545454545454,0,0,0,1,0
 2026,2,Voldemort,ThreatLevelMidnight,131.98,132.88,Voldemort,ThreatLevelMidnight,-0.9000000000000057,0,1,0,9.0,2.0,0.0,0.8181818181818182,3.0,12.0,0.8181818181818182,1,1,1,0,0
 2026,2,ThreatLevelMidnight,Voldemort,132.88,131.98,ThreatLevelMidnight,Voldemort,0.9000000000000057,1,0,0,10.0,1.0,0.0,0.9090909090909091,2.0,12.0,-0.09090909090909094,0,0,0,0,0
+2026,3,Malle ❤️ 🐸,malle_dips_pouches,117.02,138.06,Malle ❤️ 🐸,malle_dips_pouches,-21.040000000000006,0,1,0,7.0,4.0,0.0,0.6363636363636364,5.0,12.0,0.6363636363636364,1,0,0,0,0
+2026,3,malle_dips_pouches,Malle ❤️ 🐸,138.06,117.02,malle_dips_pouches,Malle ❤️ 🐸,21.040000000000006,1,0,0,11.0,0.0,0.0,1.0,1.0,12.0,0.0,0,0,0,0,0
+2026,3,Pop Lockett Drop it,Patty Primetimes,116.04,136.66,Pop Lockett Drop it,Patty Primetimes,-20.61999999999999,0,1,0,6.0,5.0,0.0,0.5454545454545454,6.0,12.0,0.5454545454545454,1,0,0,0,0
+2026,3,Patty Primetimes,Pop Lockett Drop it,136.66,116.04,Patty Primetimes,Pop Lockett Drop it,20.61999999999999,1,0,0,10.0,1.0,0.0,0.9090909090909091,2.0,12.0,-0.09090909090909094,0,0,0,0,0
+2026,3,Post Mahomes,Uncle Rico,122.64,68.14,Post Mahomes,Uncle Rico,54.5,1,0,0,8.0,3.0,0.0,0.7272727272727273,4.0,12.0,-0.2727272727272727,0,0,0,0,0
+2026,3,Uncle Rico,Post Mahomes,68.14,122.64,Uncle Rico,Post Mahomes,-54.5,0,1,0,0.0,11.0,0.0,0.0,12.0,12.0,0.0,0,0,0,0,0
+2026,3,The Big Gronkowski,Ginger FC 🏆🏆,102.98,97.58,The Big Gronkowski,Ginger FC 🏆🏆,5.400000000000006,1,0,0,2.0,9.0,0.0,0.18181818181818182,10.0,12.0,-0.8181818181818181,0,0,0,1,1
+2026,3,Ginger FC 🏆🏆,The Big Gronkowski,97.58,102.98,Ginger FC 🏆🏆,The Big Gronkowski,-5.400000000000006,0,1,0,1.0,10.0,0.0,0.09090909090909091,11.0,12.0,0.09090909090909091,0,0,0,0,0
+2026,3,ThreatLevelMidnight,Buttermilk Puuump,112.38,106.94,ThreatLevelMidnight,Buttermilk Puuump,5.439999999999998,1,0,0,5.0,6.0,0.0,0.45454545454545453,7.0,12.0,-0.5454545454545454,0,0,0,1,0
+2026,3,Buttermilk Puuump,ThreatLevelMidnight,106.94,112.38,Buttermilk Puuump,ThreatLevelMidnight,-5.439999999999998,0,1,0,4.0,7.0,0.0,0.36363636363636365,8.0,12.0,0.36363636363636365,0,0,0,0,0
+2026,3,Voldemort,Joe Mantegna,123.04,103.68,Voldemort,Joe Mantegna,19.36,1,0,0,9.0,2.0,0.0,0.8181818181818182,3.0,12.0,-0.18181818181818177,0,0,0,0,0
+2026,3,Joe Mantegna,Voldemort,103.68,123.04,Joe Mantegna,Voldemort,-19.36,0,1,0,3.0,8.0,0.0,0.2727272727272727,9.0,12.0,0.2727272727272727,0,0,0,0,0

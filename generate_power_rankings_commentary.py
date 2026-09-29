@@ -687,6 +687,108 @@ def validate_output(article, evidence):
     return True
 
 
+
+def deterministic_fallback_row(team_evidence):
+    """Build a conservative evidence-only row after Gemini exhausts retries."""
+    team = team_evidence["team"]
+    ranking = team_evidence["ranking"]
+    matchup = team_evidence.get("latest_matchup")
+
+    if matchup:
+        result = matchup.get("result")
+        opponent = matchup.get("opponent")
+        team_score = matchup.get("team_score")
+        opponent_score = matchup.get("opponent_score")
+        if result in {"win", "loss"} and opponent and team_score is not None and opponent_score is not None:
+            verb = "beat" if result == "win" else "lost to"
+            return {
+                "power_rank": ranking["power_rank"],
+                "team": team,
+                "commentary": f"{team} {verb} {opponent} {team_score}-{opponent_score} in the latest matchup.",
+                "evidence_tags": ["matchup"],
+            }
+        if result in {"win", "loss"} and opponent:
+            verb = "beat" if result == "win" else "lost to"
+            return {
+                "power_rank": ranking["power_rank"],
+                "team": team,
+                "commentary": f"{team} {verb} {opponent} in the latest matchup.",
+                "evidence_tags": ["matchup"],
+            }
+
+    if team_evidence.get("standings") and ranking.get("record"):
+        return {
+            "power_rank": ranking["power_rank"],
+            "team": team,
+            "commentary": f"{team} sits at No. {ranking['power_rank']} with a {ranking['record']} record.",
+            "evidence_tags": ["standings"],
+        }
+
+    if team_evidence.get("season_context"):
+        return {
+            "power_rank": ranking["power_rank"],
+            "team": team,
+            "commentary": f"{team} checks in at No. {ranking['power_rank']} as the season continues.",
+            "evidence_tags": ["season_context"],
+        }
+
+    raise RuntimeError(f"No safe deterministic fallback evidence is available for {team}.")
+
+
+def repair_failed_commentary(result, evidence):
+    """Replace only team rows that fail validation, then revalidate."""
+    if not isinstance(result, dict) or not isinstance(result.get("commentary"), list):
+        raise RuntimeError("Cannot repair commentary because Gemini returned no usable commentary list.")
+
+    evidence_by_team = {team["team"]: team for team in evidence["teams"]}
+    expected = [(team["ranking"]["power_rank"], team["team"]) for team in evidence["teams"]]
+    rows = result["commentary"]
+    actual = [(row.get("power_rank"), row.get("team")) for row in rows if isinstance(row, dict)]
+
+    if len(rows) != 12 or actual != expected:
+        print("[REPAIR] Invalid structure/order; rebuilding all 12 rows safely.")
+        repaired = {
+            "schema_version": 1, "season": evidence["season"], "week": evidence["week"],
+            "commentary": [deterministic_fallback_row(team) for team in evidence["teams"]],
+        }
+        validate_output(repaired, evidence)
+        return repaired
+
+    repaired = {
+        "schema_version": 1, "season": evidence["season"], "week": evidence["week"],
+        "commentary": [dict(row) for row in rows],
+    }
+    replaced = set()
+
+    for _ in range(12):
+        try:
+            validate_output(repaired, evidence)
+            return repaired
+        except Exception as exc:
+            message = str(exc)
+            match = re.search(r"Commentary for (.+?) (?:mentions|claims|contains|uses|discusses|must|is too long|reveals)", message)
+            if not match:
+                match = re.search(r"Empty commentary for\s*(.+?)\.$", message)
+            if not match:
+                raise RuntimeError(
+                    "Deterministic repair could not identify the failing team. "
+                    f"Validation error: {message}"
+                ) from exc
+
+            team = match.group(1).strip()
+            if team not in evidence_by_team or team in replaced:
+                raise RuntimeError(f"Could not safely repair {team!r}: {message}") from exc
+
+            print(f"[REPAIR] Replacing invalid commentary for {team}: {message}")
+            fallback = deterministic_fallback_row(evidence_by_team[team])
+            for idx, row in enumerate(repaired["commentary"]):
+                if row.get("team") == team:
+                    repaired["commentary"][idx] = fallback
+                    break
+            replaced.add(team)
+
+    raise RuntimeError("Deterministic commentary repair exceeded 12 replacements.")
+
 def generate(year, week):
     evidence = build_evidence(year, week)
     client = get_client()
@@ -702,6 +804,7 @@ def generate(year, week):
     print()
 
     last_error = None
+    result = None
 
     for attempt in range(1, MAX_ATTEMPTS + 1):
         print(f"Generation attempt {attempt}/{MAX_ATTEMPTS}...")
@@ -738,10 +841,11 @@ Repair the output. Return all 12 teams exactly once, use only supported evidence
             last_error = str(exc)
             print(f"[RETRY] {last_error}")
     else:
-        raise RuntimeError(
-            "Power Rankings commentary generation failed after "
-            f"{MAX_ATTEMPTS} attempts. Last error: {last_error}"
-        )
+        print("[REPAIR] Gemini exhausted all attempts; applying deterministic row-level repair.")
+        result = repair_failed_commentary(result, evidence)
+        print("[PASS] Deterministic commentary repair validated")
+        print("[PASS] All 12 teams/ranks validated after repair")
+        print("[PASS] Evidence tags validated after repair")
 
     output_dir = DATA / "power_rankings" / str(year)
     output_dir.mkdir(parents=True, exist_ok=True)

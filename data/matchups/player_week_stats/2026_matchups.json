@@ -130,5 +130,71 @@
     "right_score": 124.58,
     "matchup_id": "2026-W02-06",
     "source": "yahoo_fantasy_api"
+  },
+  {
+    "year": 2026,
+    "week": 3,
+    "matchup_number": 1,
+    "left_team": "The Big Gronkowski",
+    "right_team": "Ginger FC 🏆🏆",
+    "left_score": 102.98,
+    "right_score": 97.58,
+    "matchup_id": "2026-W03-01",
+    "source": "yahoo_fantasy_api"
+  },
+  {
+    "year": 2026,
+    "week": 3,
+    "matchup_number": 2,
+    "left_team": "Malle ❤️ 🐸",
+    "right_team": "malle_dips_pouches",
+    "left_score": 117.02,
+    "right_score": 138.06,
+    "matchup_id": "2026-W03-02",
+    "source": "yahoo_fantasy_api"
+  },
+  {
+    "year": 2026,
+    "week": 3,
+    "matchup_number": 3,
+    "left_team": "Voldemort",
+    "right_team": "Joe Mantegna",
+    "left_score": 123.04,
+    "right_score": 103.68,
+    "matchup_id": "2026-W03-03",
+    "source": "yahoo_fantasy_api"
+  },
+  {
+    "year": 2026,
+    "week": 3,
+    "matchup_number": 4,
+    "left_team": "ThreatLevelMidnight",
+    "right_team": "Buttermilk Puuump",
+    "left_score": 112.38,
+    "right_score": 106.94,
+    "matchup_id": "2026-W03-04",
+    "source": "yahoo_fantasy_api"
+  },
+  {
+    "year": 2026,
+    "week": 3,
+    "matchup_number": 5,
+    "left_team": "Pop Lockett Drop it",
+    "right_team": "Patty Primetimes",
+    "left_score": 116.04,
+    "right_score": 136.66,
+    "matchup_id": "2026-W03-05",
+    "source": "yahoo_fantasy_api"
+  },
+  {
+    "year": 2026,
+    "week": 3,
+    "matchup_number": 6,
+    "left_team": "Post Mahomes",
+    "right_team": "Uncle Rico",
+    "left_score": 122.64,
+    "right_score": 68.14,
+    "matchup_id": "2026-W03-06",
+    "source": "yahoo_fantasy_api"
   }
 ]
