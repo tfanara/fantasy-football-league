@@ -61,6 +61,7 @@ year,week,fantasy_team,opponent,score,opponent_score,canonical_team,canonical_op
 2021,3,Voldemort,Malle ❤️ 🐸,99.62,94.08,Voldemort,Malle ❤️ 🐸,5.540000000000006,1,0,0,3.0,8.0,0.0,0.2727272727272727,9.0,12.0,-0.7272727272727273,0,0,0,1,0
 2020,5,Post Mahomes,Uncle Rico,102.1,65.12,Post Mahomes,Uncle Rico,36.97999999999999,1,0,0,3.0,8.0,0.0,0.2727272727272727,9.0,12.0,-0.7272727272727273,0,0,0,1,0
 2020,7,The Big Gronkowski,Ginger FC 🏆🏆,103.5,101.02,The Big Gronkowski,Ginger FC 🏆🏆,2.480000000000004,1,0,0,3.0,8.0,0.0,0.2727272727272727,9.0,12.0,-0.7272727272727273,0,0,0,1,0
+2026,4,Joe Mantegna,Buttermilk Puuump,104.68,58.2,Joe Mantegna,Buttermilk Puuump,46.480000000000004,1,0,0,3.0,8.0,0.0,0.2727272727272727,9.0,12.0,-0.7272727272727273,0,0,0,1,0
 2025,5,Patty Primetimes,The Big Gronkowski,107.12,66.12,Patty Primetimes,The Big Gronkowski,41.0,1,0,0,3.0,8.0,0.0,0.2727272727272727,9.0,12.0,-0.7272727272727273,0,0,0,1,0
 2022,8,Voldemort,Joe Mantegna,107.72,87.82,Voldemort,Joe Mantegna,19.900000000000006,1,0,0,3.0,8.0,0.0,0.2727272727272727,9.0,12.0,-0.7272727272727273,0,0,0,1,0
 2024,8,malle_dips_pouches,The Big Gronkowski,110.34,82.36,malle_dips_pouches,The Big Gronkowski,27.980000000000004,1,0,0,3.0,8.0,0.0,0.2727272727272727,9.0,12.0,-0.7272727272727273,0,0,0,1,0
@@ -300,6 +301,7 @@ year,week,fantasy_team,opponent,score,opponent_score,canonical_team,canonical_op
 2021,5,Pop Lockett Drop it,The Big Gronkowski,124.24,104.3,Pop Lockett Drop it,The Big Gronkowski,19.939999999999998,1,0,0,7.0,4.0,0.0,0.6363636363636364,5.0,12.0,-0.36363636363636365,0,0,0,0,0
 2022,13,Post Mahomes,Ginger FC 🏆🏆,124.54,106.5,Post Mahomes,Ginger FC 🏆🏆,18.040000000000006,1,0,0,7.0,4.0,0.0,0.6363636363636364,5.0,12.0,-0.36363636363636365,0,0,0,0,0
 2020,1,Joe Mantegna,malle_dips_pouches,124.72,115.36,Joe Mantegna,malle_dips_pouches,9.36,1,0,0,7.0,4.0,0.0,0.6363636363636364,5.0,12.0,-0.36363636363636365,0,0,0,0,0
+2026,4,Pop Lockett Drop it,Post Mahomes,125.26,105.2,Pop Lockett Drop it,Post Mahomes,20.060000000000002,1,0,0,7.0,4.0,0.0,0.6363636363636364,5.0,12.0,-0.36363636363636365,0,0,0,0,0
 2025,7,ThreatLevelMidnight,malle_dips_pouches,125.42,57.74,ThreatLevelMidnight,malle_dips_pouches,67.68,1,0,0,7.0,4.0,0.0,0.6363636363636364,5.0,12.0,-0.36363636363636365,0,0,0,0,0
 2024,14,Uncle Rico,Pop Lockett Drop it,125.8,94.02,Uncle Rico,Pop Lockett Drop it,31.78,1,0,0,7.0,4.0,0.0,0.6363636363636364,5.0,12.0,-0.36363636363636365,0,0,0,0,0
 2021,1,Voldemort,Uncle Rico,127.66,102.4,Voldemort,Uncle Rico,25.25999999999999,1,0,0,7.0,4.0,0.0,0.6363636363636364,5.0,12.0,-0.36363636363636365,0,0,0,0,0
@@ -385,6 +387,7 @@ year,week,fantasy_team,opponent,score,opponent_score,canonical_team,canonical_op
 2026,2,malle_dips_pouches,Ginger FC 🏆🏆,124.58,103.82,malle_dips_pouches,Ginger FC 🏆🏆,20.760000000000005,1,0,0,8.0,3.0,0.0,0.7272727272727273,4.0,12.0,-0.2727272727272727,0,0,0,0,0
 2025,14,Joe Mantegna,The Big Gronkowski,124.88,101.34,Joe Mantegna,The Big Gronkowski,23.539999999999992,1,0,0,8.0,3.0,0.0,0.7272727272727273,4.0,12.0,-0.2727272727272727,0,0,0,0,0
 2023,12,ThreatLevelMidnight,Malle ❤️ 🐸,125.36,121.8,ThreatLevelMidnight,Malle ❤️ 🐸,3.5600000000000023,1,0,0,8.0,3.0,0.0,0.7272727272727273,4.0,12.0,-0.2727272727272727,0,0,0,0,0
+2026,4,Uncle Rico,malle_dips_pouches,125.78,120.58,Uncle Rico,malle_dips_pouches,5.200000000000003,1,0,0,8.0,3.0,0.0,0.7272727272727273,4.0,12.0,-0.2727272727272727,0,0,0,0,0
 2024,14,malle_dips_pouches,Joe Mantegna,126.18,57.44,malle_dips_pouches,Joe Mantegna,68.74000000000001,1,0,0,8.0,3.0,0.0,0.7272727272727273,4.0,12.0,-0.2727272727272727,0,0,0,0,0
 2020,11,Big Sack Jack,Joe Mantegna,126.32,81.36,Big Sack Jack,Joe Mantegna,44.959999999999994,1,0,0,8.0,3.0,0.0,0.7272727272727273,4.0,12.0,-0.2727272727272727,0,0,0,0,0
 2021,5,Patty Primetimes,Big Sack Jack,126.7,114.88,Patty Primetimes,Big Sack Jack,11.820000000000007,1,0,0,8.0,3.0,0.0,0.7272727272727273,4.0,12.0,-0.2727272727272727,0,0,0,0,0
@@ -471,6 +474,7 @@ year,week,fantasy_team,opponent,score,opponent_score,canonical_team,canonical_op
 2023,8,ThreatLevelMidnight,Post Mahomes,127.28,107.3,ThreatLevelMidnight,Post Mahomes,19.980000000000004,1,0,0,9.0,2.0,0.0,0.8181818181818182,3.0,12.0,-0.18181818181818177,0,0,0,0,0
 2021,6,Big Sack Jack,malle_dips_pouches,127.48,101.84,Big Sack Jack,malle_dips_pouches,25.64,1,0,0,9.0,2.0,0.0,0.8181818181818182,3.0,12.0,-0.18181818181818177,0,0,0,0,0
 2021,11,Voldemort,malle_dips_pouches,127.64,93.42,Voldemort,malle_dips_pouches,34.22,1,0,0,9.0,2.0,0.0,0.8181818181818182,3.0,12.0,-0.18181818181818177,0,0,0,0,0
+2026,4,Ginger FC 🏆🏆,Voldemort,127.78,81.42,Ginger FC 🏆🏆,Voldemort,46.36,1,0,0,9.0,2.0,0.0,0.8181818181818182,3.0,12.0,-0.18181818181818177,0,0,0,0,0
 2025,11,ThreatLevelMidnight,Ginger FC 🏆🏆,127.92,98.94,ThreatLevelMidnight,Ginger FC 🏆🏆,28.980000000000004,1,0,0,9.0,2.0,0.0,0.8181818181818182,3.0,12.0,-0.18181818181818177,0,0,0,0,0
 2024,9,Patty Primetimes,ThreatLevelMidnight,127.96,69.06,Patty Primetimes,ThreatLevelMidnight,58.89999999999999,1,0,0,9.0,2.0,0.0,0.8181818181818182,3.0,12.0,-0.18181818181818177,0,0,0,0,0
 2024,6,Uncle Rico,Voldemort,127.98,108.6,Uncle Rico,Voldemort,19.38000000000001,1,0,0,9.0,2.0,0.0,0.8181818181818182,3.0,12.0,-0.18181818181818177,0,0,0,0,0
@@ -589,6 +593,7 @@ year,week,fantasy_team,opponent,score,opponent_score,canonical_team,canonical_op
 2025,14,Voldemort,Post Mahomes,135.46,117.7,Voldemort,Post Mahomes,17.760000000000005,1,0,0,10.0,1.0,0.0,0.9090909090909091,2.0,12.0,-0.09090909090909094,0,0,0,0,0
 2018,11,Post Mahomes,Dillon Panthers,135.48,105.82,Post Mahomes,Dillon Panthers,29.659999999999997,1,0,0,10.0,1.0,0.0,0.9090909090909091,2.0,12.0,-0.09090909090909094,0,0,0,0,0
 2019,3,The Big Gronkowski,Joe Mantegna,135.98,102.96,The Big Gronkowski,Joe Mantegna,33.019999999999996,1,0,0,10.0,1.0,0.0,0.9090909090909091,2.0,12.0,-0.09090909090909094,0,0,0,0,0
+2026,4,The Big Gronkowski,Malle ❤️ 🐸,136.58,100.12,The Big Gronkowski,Malle ❤️ 🐸,36.46000000000001,1,0,0,10.0,1.0,0.0,0.9090909090909091,2.0,12.0,-0.09090909090909094,0,0,0,0,0
 2026,3,Patty Primetimes,Pop Lockett Drop it,136.66,116.04,Patty Primetimes,Pop Lockett Drop it,20.61999999999999,1,0,0,10.0,1.0,0.0,0.9090909090909091,2.0,12.0,-0.09090909090909094,0,0,0,0,0
 2020,9,Voldemort,Ginger FC 🏆🏆,136.74,119.2,Voldemort,Ginger FC 🏆🏆,17.540000000000006,1,0,0,10.0,1.0,0.0,0.9090909090909091,2.0,12.0,-0.09090909090909094,0,0,0,0,0
 2021,7,malle_dips_pouches,Patty Primetimes,137.2,119.92,malle_dips_pouches,Patty Primetimes,17.279999999999987,1,0,0,10.0,1.0,0.0,0.9090909090909091,2.0,12.0,-0.09090909090909094,0,0,0,0,0
@@ -689,6 +694,7 @@ year,week,fantasy_team,opponent,score,opponent_score,canonical_team,canonical_op
 2025,3,Uncle Rico,Buttermilk Puuump,141.02,76.28,Uncle Rico,Buttermilk Puuump,64.74000000000001,1,0,0,11.0,0.0,0.0,1.0,1.0,12.0,0.0,0,0,0,0,0
 2023,4,Post Mahomes,Buttermilk Puuump,141.82,101.44,Post Mahomes,Buttermilk Puuump,40.379999999999995,1,0,0,11.0,0.0,0.0,1.0,1.0,12.0,0.0,0,0,0,0,0
 2018,7,Pop Lockett Drop it,Malle ❤️ 🐸,142.86,107.34,Pop Lockett Drop it,Malle ❤️ 🐸,35.52000000000001,1,0,0,11.0,0.0,0.0,1.0,1.0,12.0,0.0,0,0,0,0,0
+2026,4,ThreatLevelMidnight,Patty Primetimes,143.12,107.52,ThreatLevelMidnight,Patty Primetimes,35.60000000000001,1,0,0,11.0,0.0,0.0,1.0,1.0,12.0,0.0,0,0,0,0,0
 2021,4,Ginger FC 🏆🏆,Big Sack Jack,143.62,131.22,Ginger FC 🏆🏆,Big Sack Jack,12.400000000000006,1,0,0,11.0,0.0,0.0,1.0,1.0,12.0,0.0,0,0,0,0,0
 2024,4,Patty Primetimes,Pop Lockett Drop it,143.72,117.0,Patty Primetimes,Pop Lockett Drop it,26.72,1,0,0,11.0,0.0,0.0,1.0,1.0,12.0,0.0,0,0,0,0,0
 2025,4,Buttermilk Puuump,Malle ❤️ 🐸,144.62,123.26,Buttermilk Puuump,Malle ❤️ 🐸,21.36,1,0,0,11.0,0.0,0.0,1.0,1.0,12.0,0.0,0,0,0,0,0

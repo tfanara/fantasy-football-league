@@ -20540,3 +20540,190 @@ year,week,table_index,row_index,side,fantasy_team,opponent,matchup_id,matchup_nu
 2026,3,,7,api,Uncle Rico,Post Mahomes,2026-W03-06,6,68.14,122.64,Rashod Bateman,WR,W/R/T,True,False,False,,4.7,,Rashod Bateman,WR,,470.p.33415,33415,Bal,yahoo_fantasy_api
 2026,3,,4,api,Uncle Rico,Post Mahomes,2026-W03-06,6,68.14,122.64,Chris Godwin Jr.,WR,WR,True,False,False,,4.0,,Chris Godwin Jr.,WR,,470.p.30197,30197,TB,yahoo_fantasy_api
 2026,3,,5,api,Uncle Rico,Post Mahomes,2026-W03-06,6,68.14,122.64,Rome Odunze,WR,WR,True,False,False,,5.9,,Rome Odunze,WR,,470.p.40901,40901,Chi,yahoo_fantasy_api
+2026,4,,8,api,Malle ❤️ 🐸,The Big Gronkowski,2026-W04-01,1,100.12,136.58,Quentin Johnston,WR,BN,False,True,False,,4.5,,Quentin Johnston,WR,,470.p.40051,40051,LAC,yahoo_fantasy_api
+2026,4,,9,api,Malle ❤️ 🐸,The Big Gronkowski,2026-W04-01,1,100.12,136.58,Stefon Diggs,WR,BN,False,True,False,,6.0,,Stefon Diggs,WR,,470.p.28534,28534,Was,yahoo_fantasy_api
+2026,4,,10,api,Malle ❤️ 🐸,The Big Gronkowski,2026-W04-01,1,100.12,136.58,Dallas Goedert,TE,BN,False,True,False,,0.0,,Dallas Goedert,TE,,470.p.31019,31019,Phi,yahoo_fantasy_api
+2026,4,,11,api,Malle ❤️ 🐸,The Big Gronkowski,2026-W04-01,1,100.12,136.58,Rashid Shaheed,WR,BN,False,True,False,,11.8,,Rashid Shaheed,WR,,470.p.34659,34659,Sea,yahoo_fantasy_api
+2026,4,,12,api,Malle ❤️ 🐸,The Big Gronkowski,2026-W04-01,1,100.12,136.58,Jaxson Dart,QB,BN,False,True,False,,0.0,,Jaxson Dart,QB,,470.p.41810,41810,NYG,yahoo_fantasy_api
+2026,4,,13,api,Malle ❤️ 🐸,The Big Gronkowski,2026-W04-01,1,100.12,136.58,Jonah Coleman,RB,BN,False,True,False,,0.0,,Jonah Coleman,RB,,470.p.42730,42730,Den,yahoo_fantasy_api
+2026,4,,15,api,Malle ❤️ 🐸,The Big Gronkowski,2026-W04-01,1,100.12,136.58,Vikings,DEF,DEF,True,False,False,,8.0,,Vikings,DEF,,470.p.100016,100016,Min,yahoo_fantasy_api
+2026,4,,14,api,Malle ❤️ 🐸,The Big Gronkowski,2026-W04-01,1,100.12,136.58,Will Reichard,K,K,True,False,False,,19.0,,Will Reichard,K,,470.p.41093,41093,Min,yahoo_fantasy_api
+2026,4,,1,api,Malle ❤️ 🐸,The Big Gronkowski,2026-W04-01,1,100.12,136.58,Jalen Hurts,QB,QB,True,False,False,,17.52,,Jalen Hurts,QB,,470.p.32723,32723,Phi,yahoo_fantasy_api
+2026,4,,2,api,Malle ❤️ 🐸,The Big Gronkowski,2026-W04-01,1,100.12,136.58,Omarion Hampton,RB,RB,True,False,False,,12.3,,Omarion Hampton,RB,,470.p.41807,41807,LAC,yahoo_fantasy_api
+2026,4,,3,api,Malle ❤️ 🐸,The Big Gronkowski,2026-W04-01,1,100.12,136.58,Jeremiyah Love,RB,RB,True,False,False,,6.0,,Jeremiyah Love,RB,,470.p.42625,42625,Ari,yahoo_fantasy_api
+2026,4,,6,api,Malle ❤️ 🐸,The Big Gronkowski,2026-W04-01,1,100.12,136.58,Travis Kelce,TE,TE,True,False,False,,2.5,,Travis Kelce,TE,,470.p.26686,26686,KC,yahoo_fantasy_api
+2026,4,,7,api,Malle ❤️ 🐸,The Big Gronkowski,2026-W04-01,1,100.12,136.58,D'Andre Swift,RB,W/R/T,True,False,False,,6.4,,D'Andre Swift,RB,,470.p.32705,32705,Chi,yahoo_fantasy_api
+2026,4,,4,api,Malle ❤️ 🐸,The Big Gronkowski,2026-W04-01,1,100.12,136.58,Davante Adams,WR,WR,True,False,False,,5.2,,Davante Adams,WR,,470.p.27581,27581,LAR,yahoo_fantasy_api
+2026,4,,5,api,Malle ❤️ 🐸,The Big Gronkowski,2026-W04-01,1,100.12,136.58,Puka Nacua,WR,WR,True,False,False,,23.2,,Puka Nacua,WR,,470.p.40168,40168,LAR,yahoo_fantasy_api
+2026,4,,8,api,The Big Gronkowski,Malle ❤️ 🐸,2026-W04-01,1,136.58,100.12,Tony Pollard,RB,BN,False,True,False,,12.0,,Tony Pollard,RB,,470.p.31960,31960,Ten,yahoo_fantasy_api
+2026,4,,9,api,The Big Gronkowski,Malle ❤️ 🐸,2026-W04-01,1,136.58,100.12,Travis Etienne Jr.,RB,BN,False,True,False,,0.0,,Travis Etienne Jr.,RB,,470.p.33413,33413,NO,yahoo_fantasy_api
+2026,4,,10,api,The Big Gronkowski,Malle ❤️ 🐸,2026-W04-01,1,136.58,100.12,DK Metcalf,WR,BN,False,True,False,,14.0,,DK Metcalf,WR,,470.p.31896,31896,Pit,yahoo_fantasy_api
+2026,4,,11,api,The Big Gronkowski,Malle ❤️ 🐸,2026-W04-01,1,136.58,100.12,Drake Maye,QB,BN,False,True,False,,33.16,,Drake Maye,QB,,470.p.40881,40881,NE,yahoo_fantasy_api
+2026,4,,12,api,The Big Gronkowski,Malle ❤️ 🐸,2026-W04-01,1,136.58,100.12,Xavier Worthy,WR,BN,False,True,False,,9.0,,Xavier Worthy,WR,,470.p.40877,40877,KC,yahoo_fantasy_api
+2026,4,,13,api,The Big Gronkowski,Malle ❤️ 🐸,2026-W04-01,1,136.58,100.12,Tank Bigsby,RB,BN,False,True,False,,5.5,,Tank Bigsby,RB,,470.p.40095,40095,Phi,yahoo_fantasy_api
+2026,4,,15,api,The Big Gronkowski,Malle ❤️ 🐸,2026-W04-01,1,136.58,100.12,Ravens,DEF,DEF,True,False,False,,6.0,,Ravens,DEF,,470.p.100033,100033,Bal,yahoo_fantasy_api
+2026,4,,14,api,The Big Gronkowski,Malle ❤️ 🐸,2026-W04-01,1,136.58,100.12,Harrison Butker,K,K,True,False,False,,6.0,,Harrison Butker,K,,470.p.30346,30346,KC,yahoo_fantasy_api
+2026,4,,1,api,The Big Gronkowski,Malle ❤️ 🐸,2026-W04-01,1,136.58,100.12,Jordan Love,QB,QB,True,False,False,,18.08,,Jordan Love,QB,,470.p.32696,32696,GB,yahoo_fantasy_api
+2026,4,,2,api,The Big Gronkowski,Malle ❤️ 🐸,2026-W04-01,1,136.58,100.12,Aaron Jones Sr.,RB,RB,True,False,False,,14.8,,Aaron Jones Sr.,RB,,470.p.30295,30295,Min,yahoo_fantasy_api
+2026,4,,3,api,The Big Gronkowski,Malle ❤️ 🐸,2026-W04-01,1,136.58,100.12,Bhayshul Tuten,RB,RB,True,False,False,,10.1,,Bhayshul Tuten,RB,,470.p.41900,41900,Jax,yahoo_fantasy_api
+2026,4,,6,api,The Big Gronkowski,Malle ❤️ 🐸,2026-W04-01,1,136.58,100.12,Sam LaPorta,TE,TE,True,False,False,,18.4,,Sam LaPorta,TE,,470.p.40064,40064,Det,yahoo_fantasy_api
+2026,4,,7,api,The Big Gronkowski,Malle ❤️ 🐸,2026-W04-01,1,136.58,100.12,Matthew Golden,WR,W/R/T,True,False,False,,10.2,,Matthew Golden,WR,,470.p.41808,41808,GB,yahoo_fantasy_api
+2026,4,,4,api,The Big Gronkowski,Malle ❤️ 🐸,2026-W04-01,1,136.58,100.12,CeeDee Lamb,WR,WR,True,False,False,,32.8,,CeeDee Lamb,WR,,470.p.32687,32687,Dal,yahoo_fantasy_api
+2026,4,,5,api,The Big Gronkowski,Malle ❤️ 🐸,2026-W04-01,1,136.58,100.12,Malik Nabers,WR,WR,True,False,False,,20.2,,Malik Nabers,WR,,470.p.40899,40899,NYG,yahoo_fantasy_api
+2026,4,,8,api,Ginger FC 🏆🏆,Voldemort,2026-W04-02,2,127.78,81.42,Justin Jefferson,WR,BN,False,True,False,,0.0,,Justin Jefferson,WR,,470.p.32692,32692,Min,yahoo_fantasy_api
+2026,4,,9,api,Ginger FC 🏆🏆,Voldemort,2026-W04-02,2,127.78,81.42,Bo Nix,QB,BN,False,True,False,,15.56,,Bo Nix,QB,,470.p.40875,40875,Den,yahoo_fantasy_api
+2026,4,,10,api,Ginger FC 🏆🏆,Voldemort,2026-W04-02,2,127.78,81.42,J.K. Dobbins,RB,BN,False,True,False,,6.2,,J.K. Dobbins,RB,,470.p.32725,32725,Den,yahoo_fantasy_api
+2026,4,,11,api,Ginger FC 🏆🏆,Voldemort,2026-W04-02,2,127.78,81.42,Tyjae Spears,RB,BN,False,True,False,,1.1,,Tyjae Spears,RB,,470.p.40119,40119,Ten,yahoo_fantasy_api
+2026,4,,12,api,Ginger FC 🏆🏆,Voldemort,2026-W04-02,2,127.78,81.42,Denzel Boston,WR,BN,False,True,False,,10.9,,Denzel Boston,WR,,470.p.42661,42661,Cle,yahoo_fantasy_api
+2026,4,,13,api,Ginger FC 🏆🏆,Voldemort,2026-W04-02,2,127.78,81.42,Jalen McMillan,WR,BN,False,True,False,,0.0,,Jalen McMillan,WR,,470.p.40954,40954,TB,yahoo_fantasy_api
+2026,4,,16,api,Ginger FC 🏆🏆,Voldemort,2026-W04-02,2,127.78,81.42,Jaguars,DEF,DEF,True,False,False,,7.0,,Jaguars,DEF,,470.p.100030,100030,Jax,yahoo_fantasy_api
+2026,4,,14,api,Ginger FC 🏆🏆,Voldemort,2026-W04-02,2,127.78,81.42,Jordan Mason,RB,IR,False,False,True,,0.0,,Jordan Mason,RB,,470.p.34320,34320,Min,yahoo_fantasy_api
+2026,4,,15,api,Ginger FC 🏆🏆,Voldemort,2026-W04-02,2,127.78,81.42,Jake Bates,K,K,True,False,False,,18.0,,Jake Bates,K,,470.p.40835,40835,Det,yahoo_fantasy_api
+2026,4,,1,api,Ginger FC 🏆🏆,Voldemort,2026-W04-02,2,127.78,81.42,C.J. Stroud,QB,QB,True,False,False,,27.08,,C.J. Stroud,QB,,470.p.40030,40030,Hou,yahoo_fantasy_api
+2026,4,,2,api,Ginger FC 🏆🏆,Voldemort,2026-W04-02,2,127.78,81.42,Derrick Henry,RB,RB,True,False,False,,14.9,,Derrick Henry,RB,,470.p.29279,29279,Bal,yahoo_fantasy_api
+2026,4,,3,api,Ginger FC 🏆🏆,Voldemort,2026-W04-02,2,127.78,81.42,David Montgomery,RB,RB,True,False,False,,4.3,,David Montgomery,RB,,470.p.31905,31905,Hou,yahoo_fantasy_api
+2026,4,,6,api,Ginger FC 🏆🏆,Voldemort,2026-W04-02,2,127.78,81.42,Dalton Kincaid,TE,TE,True,False,False,,1.2,,Dalton Kincaid,TE,,470.p.40048,40048,Buf,yahoo_fantasy_api
+2026,4,,7,api,Ginger FC 🏆🏆,Voldemort,2026-W04-02,2,127.78,81.42,Chris Olave,WR,W/R/T,True,False,False,,15.6,,Chris Olave,WR,,470.p.33966,33966,NO,yahoo_fantasy_api
+2026,4,,4,api,Ginger FC 🏆🏆,Voldemort,2026-W04-02,2,127.78,81.42,Parker Washington,WR,WR,True,False,False,,1.5,,Parker Washington,WR,,470.p.40234,40234,Jax,yahoo_fantasy_api
+2026,4,,5,api,Ginger FC 🏆🏆,Voldemort,2026-W04-02,2,127.78,81.42,Tetairoa McMillan,WR,WR,True,False,False,,38.2,,Tetairoa McMillan,WR,,470.p.41793,41793,Car,yahoo_fantasy_api
+2026,4,,8,api,Voldemort,Ginger FC 🏆🏆,2026-W04-02,2,81.42,127.78,Michael Pittman Jr.,WR,BN,False,True,False,,2.5,,Michael Pittman Jr.,WR,,470.p.32704,32704,Pit,yahoo_fantasy_api
+2026,4,,9,api,Voldemort,Ginger FC 🏆🏆,2026-W04-02,2,81.42,127.78,Kyle Pitts Sr.,TE,BN,False,True,False,,6.2,,Kyle Pitts Sr.,TE,,470.p.33392,33392,Atl,yahoo_fantasy_api
+2026,4,,10,api,Voldemort,Ginger FC 🏆🏆,2026-W04-02,2,81.42,127.78,Jayden Daniels,QB,BN,False,True,False,,0.0,,Jayden Daniels,QB,,470.p.40896,40896,Was,yahoo_fantasy_api
+2026,4,,11,api,Voldemort,Ginger FC 🏆🏆,2026-W04-02,2,81.42,127.78,Josh Jacobs,RB,BN,False,True,False,,0.0,,Josh Jacobs,RB,,470.p.31856,31856,GB,yahoo_fantasy_api
+2026,4,,12,api,Voldemort,Ginger FC 🏆🏆,2026-W04-02,2,81.42,127.78,Rachaad White,RB,BN,False,True,False,,0.0,,Rachaad White,RB,,470.p.34047,34047,Was,yahoo_fantasy_api
+2026,4,,13,api,Voldemort,Ginger FC 🏆🏆,2026-W04-02,2,81.42,127.78,Jalen Nailor,WR,BN,False,True,False,,0.0,,Jalen Nailor,WR,,470.p.34147,34147,LV,yahoo_fantasy_api
+2026,4,,16,api,Voldemort,Ginger FC 🏆🏆,2026-W04-02,2,81.42,127.78,Bills,DEF,DEF,True,False,False,,4.0,,Bills,DEF,,470.p.100002,100002,Buf,yahoo_fantasy_api
+2026,4,,14,api,Voldemort,Ginger FC 🏆🏆,2026-W04-02,2,81.42,127.78,Jordyn Tyson,WR,IR,False,False,True,,0.0,,Jordyn Tyson,WR,,470.p.42630,42630,NO,yahoo_fantasy_api
+2026,4,,15,api,Voldemort,Ginger FC 🏆🏆,2026-W04-02,2,81.42,127.78,Cairo Santos,K,K,True,False,False,,11.0,,Cairo Santos,K,,470.p.28227,28227,Chi,yahoo_fantasy_api
+2026,4,,1,api,Voldemort,Ginger FC 🏆🏆,2026-W04-02,2,81.42,127.78,Brock Purdy,QB,QB,True,False,False,,23.62,,Brock Purdy,QB,,470.p.34218,34218,SF,yahoo_fantasy_api
+2026,4,,2,api,Voldemort,Ginger FC 🏆🏆,2026-W04-02,2,81.42,127.78,Saquon Barkley,RB,RB,True,False,False,,1.5,,Saquon Barkley,RB,,470.p.30972,30972,Phi,yahoo_fantasy_api
+2026,4,,3,api,Voldemort,Ginger FC 🏆🏆,2026-W04-02,2,81.42,127.78,Bucky Irving,RB,RB,True,False,False,,6.1,,Bucky Irving,RB,,470.p.40993,40993,TB,yahoo_fantasy_api
+2026,4,,6,api,Voldemort,Ginger FC 🏆🏆,2026-W04-02,2,81.42,127.78,Juwan Johnson,TE,TE,True,False,False,,8.9,,Juwan Johnson,TE,,470.p.33113,33113,NO,yahoo_fantasy_api
+2026,4,,7,api,Voldemort,Ginger FC 🏆🏆,2026-W04-02,2,81.42,127.78,TreVeyon Henderson,RB,W/R/T,True,False,False,,4.2,,TreVeyon Henderson,RB,,470.p.41823,41823,NE,yahoo_fantasy_api
+2026,4,,4,api,Voldemort,Ginger FC 🏆🏆,2026-W04-02,2,81.42,127.78,Jaylen Waddle,WR,WR,True,False,False,,12.0,,Jaylen Waddle,WR,,470.p.33394,33394,Den,yahoo_fantasy_api
+2026,4,,5,api,Voldemort,Ginger FC 🏆🏆,2026-W04-02,2,81.42,127.78,Jaxon Smith-Njigba,WR,WR,True,False,False,,10.1,,Jaxon Smith-Njigba,WR,,470.p.40041,40041,Sea,yahoo_fantasy_api
+2026,4,,8,api,Buttermilk Puuump,Joe Mantegna,2026-W04-03,3,58.2,104.68,Rico Dowdle,RB,BN,False,True,False,,0.0,,Rico Dowdle,RB,,470.p.33100,33100,Pit,yahoo_fantasy_api
+2026,4,,9,api,Buttermilk Puuump,Joe Mantegna,2026-W04-03,3,58.2,104.68,Deebo Samuel Sr.,WR,BN,False,True,False,,15.5,,Deebo Samuel Sr.,WR,,470.p.31868,31868,SF,yahoo_fantasy_api
+2026,4,,10,api,Buttermilk Puuump,Joe Mantegna,2026-W04-03,3,58.2,104.68,Jakobi Meyers,WR,BN,False,True,False,,4.8,,Jakobi Meyers,WR,,470.p.32231,32231,Jax,yahoo_fantasy_api
+2026,4,,11,api,Buttermilk Puuump,Joe Mantegna,2026-W04-03,3,58.2,104.68,Hunter Henry,TE,BN,False,True,False,,8.7,,Hunter Henry,TE,,470.p.29269,29269,NE,yahoo_fantasy_api
+2026,4,,12,api,Buttermilk Puuump,Joe Mantegna,2026-W04-03,3,58.2,104.68,Malik Willis,QB,BN,False,True,False,,2.5,,Malik Willis,QB,,470.p.34042,34042,Mia,yahoo_fantasy_api
+2026,4,,13,api,Buttermilk Puuump,Joe Mantegna,2026-W04-03,3,58.2,104.68,Kenny Gainwell,RB,BN,False,True,False,,9.7,,Kenny Gainwell,RB,,470.p.33538,33538,TB,yahoo_fantasy_api
+2026,4,,15,api,Buttermilk Puuump,Joe Mantegna,2026-W04-03,3,58.2,104.68,Broncos,DEF,DEF,True,False,False,,2.0,,Broncos,DEF,,470.p.100007,100007,Den,yahoo_fantasy_api
+2026,4,,14,api,Buttermilk Puuump,Joe Mantegna,2026-W04-03,3,58.2,104.68,Harrison Mevis,K,K,True,False,False,,7.0,,Harrison Mevis,K,,470.p.41312,41312,LAR,yahoo_fantasy_api
+2026,4,,1,api,Buttermilk Puuump,Joe Mantegna,2026-W04-03,3,58.2,104.68,Dak Prescott,QB,QB,True,False,False,,20.1,,Dak Prescott,QB,,470.p.29369,29369,Dal,yahoo_fantasy_api
+2026,4,,2,api,Buttermilk Puuump,Joe Mantegna,2026-W04-03,3,58.2,104.68,Breece Hall,RB,RB,True,False,False,,0.0,,Breece Hall,RB,,470.p.33991,33991,NYJ,yahoo_fantasy_api
+2026,4,,3,api,Buttermilk Puuump,Joe Mantegna,2026-W04-03,3,58.2,104.68,Isaiah Davis,RB,RB,True,False,False,,0.0,,Isaiah Davis,RB,,470.p.41031,41031,NYJ,yahoo_fantasy_api
+2026,4,,6,api,Buttermilk Puuump,Joe Mantegna,2026-W04-03,3,58.2,104.68,Mark Andrews,TE,TE,True,False,False,,11.2,,Mark Andrews,TE,,470.p.31056,31056,Bal,yahoo_fantasy_api
+2026,4,,7,api,Buttermilk Puuump,Joe Mantegna,2026-W04-03,3,58.2,104.68,Terry McLaurin,WR,W/R/T,True,False,False,,0.0,,Terry McLaurin,WR,,470.p.31908,31908,Was,yahoo_fantasy_api
+2026,4,,4,api,Buttermilk Puuump,Joe Mantegna,2026-W04-03,3,58.2,104.68,George Pickens,WR,WR,True,False,False,,8.5,,George Pickens,WR,,470.p.34007,34007,Dal,yahoo_fantasy_api
+2026,4,,5,api,Buttermilk Puuump,Joe Mantegna,2026-W04-03,3,58.2,104.68,Luther Burden III,WR,WR,True,False,False,,9.4,,Luther Burden III,WR,,470.p.41824,41824,Chi,yahoo_fantasy_api
+2026,4,,8,api,Joe Mantegna,Buttermilk Puuump,2026-W04-03,3,104.68,58.2,Keaton Mitchell,RB,BN,False,True,False,,8.8,,Keaton Mitchell,RB,,470.p.40641,40641,LAC,yahoo_fantasy_api
+2026,4,,9,api,Joe Mantegna,Buttermilk Puuump,2026-W04-03,3,104.68,58.2,DeVonta Smith,WR,BN,False,True,False,,0.0,,DeVonta Smith,WR,,470.p.33398,33398,Phi,yahoo_fantasy_api
+2026,4,,10,api,Joe Mantegna,Buttermilk Puuump,2026-W04-03,3,104.68,58.2,Jadarian Price,RB,BN,False,True,False,,0.0,,Jadarian Price,RB,,470.p.42654,42654,Sea,yahoo_fantasy_api
+2026,4,,11,api,Joe Mantegna,Buttermilk Puuump,2026-W04-03,3,104.68,58.2,Tyler Warren,TE,BN,False,True,False,,6.6,,Tyler Warren,TE,,470.p.41799,41799,Ind,yahoo_fantasy_api
+2026,4,,12,api,Joe Mantegna,Buttermilk Puuump,2026-W04-03,3,104.68,58.2,Caleb Williams,QB,BN,False,True,False,,0.0,,Caleb Williams,QB,,470.p.40900,40900,Chi,yahoo_fantasy_api
+2026,4,,13,api,Joe Mantegna,Buttermilk Puuump,2026-W04-03,3,104.68,58.2,Makai Lemon,WR,BN,False,True,False,,4.2,,Makai Lemon,WR,,470.p.42642,42642,Phi,yahoo_fantasy_api
+2026,4,,15,api,Joe Mantegna,Buttermilk Puuump,2026-W04-03,3,104.68,58.2,Chiefs,DEF,DEF,True,False,False,,4.0,,Chiefs,DEF,,470.p.100012,100012,KC,yahoo_fantasy_api
+2026,4,,14,api,Joe Mantegna,Buttermilk Puuump,2026-W04-03,3,104.68,58.2,Tyler Loop,K,K,True,False,False,,8.0,,Tyler Loop,K,,470.p.41988,41988,Bal,yahoo_fantasy_api
+2026,4,,1,api,Joe Mantegna,Buttermilk Puuump,2026-W04-03,3,104.68,58.2,Trevor Lawrence,QB,QB,True,False,False,,15.08,,Trevor Lawrence,QB,,470.p.33389,33389,Jax,yahoo_fantasy_api
+2026,4,,2,api,Joe Mantegna,Buttermilk Puuump,2026-W04-03,3,104.68,58.2,Rhamondre Stevenson,RB,RB,True,False,False,,16.9,,Rhamondre Stevenson,RB,,470.p.33508,33508,NE,yahoo_fantasy_api
+2026,4,,3,api,Joe Mantegna,Buttermilk Puuump,2026-W04-03,3,104.68,58.2,Emanuel Wilson,RB,RB,True,False,False,,25.5,,Emanuel Wilson,RB,,470.p.40707,40707,Sea,yahoo_fantasy_api
+2026,4,,6,api,Joe Mantegna,Buttermilk Puuump,2026-W04-03,3,104.68,58.2,Brock Bowers,TE,TE,True,False,False,,17.6,,Brock Bowers,TE,,470.p.40878,40878,LV,yahoo_fantasy_api
+2026,4,,7,api,Joe Mantegna,Buttermilk Puuump,2026-W04-03,3,104.68,58.2,Mike Evans,WR,W/R/T,True,False,False,,10.1,,Mike Evans,WR,,470.p.27535,27535,SF,yahoo_fantasy_api
+2026,4,,4,api,Joe Mantegna,Buttermilk Puuump,2026-W04-03,3,104.68,58.2,Dontayvion Wicks,WR,WR,True,False,False,,3.3,,Dontayvion Wicks,WR,,470.p.40201,40201,Phi,yahoo_fantasy_api
+2026,4,,5,api,Joe Mantegna,Buttermilk Puuump,2026-W04-03,3,104.68,58.2,Ja'Marr Chase,WR,WR,True,False,False,,4.2,,Ja'Marr Chase,WR,,470.p.33393,33393,Cin,yahoo_fantasy_api
+2026,4,,8,api,Patty Primetimes,ThreatLevelMidnight,2026-W04-04,4,107.52,143.12,Courtland Sutton,WR,BN,False,True,False,,0.9,,Courtland Sutton,WR,,470.p.31010,31010,Den,yahoo_fantasy_api
+2026,4,,9,api,Patty Primetimes,ThreatLevelMidnight,2026-W04-04,4,107.52,143.12,Isaiah Likely,TE,BN,False,True,False,,10.1,,Isaiah Likely,TE,,470.p.34095,34095,NYG,yahoo_fantasy_api
+2026,4,,10,api,Patty Primetimes,ThreatLevelMidnight,2026-W04-04,4,107.52,143.12,Carnell Tate,WR,BN,False,True,False,,17.0,,Carnell Tate,WR,,470.p.42626,42626,Ten,yahoo_fantasy_api
+2026,4,,11,api,Patty Primetimes,ThreatLevelMidnight,2026-W04-04,4,107.52,143.12,Tyler Allgeier,RB,BN,False,True,False,,11.9,,Tyler Allgeier,RB,,470.p.34107,34107,Ari,yahoo_fantasy_api
+2026,4,,12,api,Patty Primetimes,ThreatLevelMidnight,2026-W04-04,4,107.52,143.12,Emmett Johnson,RB,BN,False,True,False,,1.5,,Emmett Johnson,RB,,470.p.42796,42796,KC,yahoo_fantasy_api
+2026,4,,13,api,Patty Primetimes,ThreatLevelMidnight,2026-W04-04,4,107.52,143.12,Baker Mayfield,QB,BN,False,True,False,,0.0,,Baker Mayfield,QB,,470.p.30971,30971,TB,yahoo_fantasy_api
+2026,4,,15,api,Patty Primetimes,ThreatLevelMidnight,2026-W04-04,4,107.52,143.12,Rams,DEF,DEF,True,False,False,,5.0,,Rams,DEF,,470.p.100014,100014,LAR,yahoo_fantasy_api
+2026,4,,14,api,Patty Primetimes,ThreatLevelMidnight,2026-W04-04,4,107.52,143.12,Evan McPherson,K,K,True,False,False,,5.0,,Evan McPherson,K,,470.p.33537,33537,Cin,yahoo_fantasy_api
+2026,4,,1,api,Patty Primetimes,ThreatLevelMidnight,2026-W04-04,4,107.52,143.12,Josh Allen,QB,QB,True,False,False,,21.52,,Josh Allen,QB,,470.p.30977,30977,Buf,yahoo_fantasy_api
+2026,4,,2,api,Patty Primetimes,ThreatLevelMidnight,2026-W04-04,4,107.52,143.12,Bijan Robinson,RB,RB,True,False,False,,27.2,,Bijan Robinson,RB,,470.p.40055,40055,Atl,yahoo_fantasy_api
+2026,4,,3,api,Patty Primetimes,ThreatLevelMidnight,2026-W04-04,4,107.52,143.12,James Cook III,RB,RB,True,False,False,,15.3,,James Cook III,RB,,470.p.34019,34019,Buf,yahoo_fantasy_api
+2026,4,,6,api,Patty Primetimes,ThreatLevelMidnight,2026-W04-04,4,107.52,143.12,George Kittle,TE,TE,True,False,False,,15.0,,George Kittle,TE,,470.p.30259,30259,SF,yahoo_fantasy_api
+2026,4,,7,api,Patty Primetimes,ThreatLevelMidnight,2026-W04-04,4,107.52,143.12,DJ Moore,WR,W/R/T,True,False,False,,2.2,,DJ Moore,WR,,470.p.30994,30994,Buf,yahoo_fantasy_api
+2026,4,,4,api,Patty Primetimes,ThreatLevelMidnight,2026-W04-04,4,107.52,143.12,Jameson Williams,WR,WR,True,False,False,,13.2,,Jameson Williams,WR,,470.p.33967,33967,Det,yahoo_fantasy_api
+2026,4,,5,api,Patty Primetimes,ThreatLevelMidnight,2026-W04-04,4,107.52,143.12,Josh Downs,WR,WR,True,False,False,,3.1,,Josh Downs,WR,,470.p.40126,40126,Ind,yahoo_fantasy_api
+2026,4,,8,api,ThreatLevelMidnight,Patty Primetimes,2026-W04-04,4,143.12,107.52,Jake Ferguson,TE,BN,False,True,False,,2.6,,Jake Ferguson,TE,,470.p.34085,34085,Dal,yahoo_fantasy_api
+2026,4,,9,api,ThreatLevelMidnight,Patty Primetimes,2026-W04-04,4,143.12,107.52,Quinshon Judkins,RB,BN,False,True,False,,18.6,,Quinshon Judkins,RB,,470.p.41821,41821,Cle,yahoo_fantasy_api
+2026,4,,10,api,ThreatLevelMidnight,Patty Primetimes,2026-W04-04,4,143.12,107.52,Jordan Addison,WR,BN,False,True,False,,7.1,,Jordan Addison,WR,,470.p.40042,40042,Min,yahoo_fantasy_api
+2026,4,,11,api,ThreatLevelMidnight,Patty Primetimes,2026-W04-04,4,143.12,107.52,Kaelon Black,RB,BN,False,True,False,,1.3,,Kaelon Black,RB,,470.p.42712,42712,SF,yahoo_fantasy_api
+2026,4,,12,api,ThreatLevelMidnight,Patty Primetimes,2026-W04-04,4,143.12,107.52,Kalif Raymond,WR,BN,False,True,False,,1.6,,Kalif Raymond,WR,,470.p.29631,29631,Chi,yahoo_fantasy_api
+2026,4,,13,api,ThreatLevelMidnight,Patty Primetimes,2026-W04-04,4,143.12,107.52,Tyler Shough,QB,BN,False,True,False,,17.94,,Tyler Shough,QB,,470.p.41825,41825,NO,yahoo_fantasy_api
+2026,4,,16,api,ThreatLevelMidnight,Patty Primetimes,2026-W04-04,4,143.12,107.52,Steelers,DEF,DEF,True,False,False,,6.0,,Steelers,DEF,,470.p.100023,100023,Pit,yahoo_fantasy_api
+2026,4,,14,api,ThreatLevelMidnight,Patty Primetimes,2026-W04-04,4,143.12,107.52,Zach Charbonnet,RB,IR,False,False,True,,0.0,,Zach Charbonnet,RB,,470.p.40075,40075,Sea,yahoo_fantasy_api
+2026,4,,15,api,ThreatLevelMidnight,Patty Primetimes,2026-W04-04,4,143.12,107.52,Ka'imi Fairbairn,K,K,True,False,False,,16.0,,Ka'imi Fairbairn,K,,470.p.29792,29792,Hou,yahoo_fantasy_api
+2026,4,,1,api,ThreatLevelMidnight,Patty Primetimes,2026-W04-04,4,143.12,107.52,Joe Burrow,QB,QB,True,False,False,,27.72,,Joe Burrow,QB,,470.p.32671,32671,Cin,yahoo_fantasy_api
+2026,4,,2,api,ThreatLevelMidnight,Patty Primetimes,2026-W04-04,4,143.12,107.52,Christian McCaffrey,RB,RB,True,False,False,,14.5,,Christian McCaffrey,RB,,470.p.30121,30121,SF,yahoo_fantasy_api
+2026,4,,3,api,ThreatLevelMidnight,Patty Primetimes,2026-W04-04,4,143.12,107.52,Kyren Williams,RB,RB,True,False,False,,31.7,,Kyren Williams,RB,,470.p.34120,34120,LAR,yahoo_fantasy_api
+2026,4,,6,api,ThreatLevelMidnight,Patty Primetimes,2026-W04-04,4,143.12,107.52,Kenyon Sadiq,TE,TE,True,False,False,,0.0,,Kenyon Sadiq,TE,,470.p.42638,42638,NYJ,yahoo_fantasy_api
+2026,4,,7,api,ThreatLevelMidnight,Patty Primetimes,2026-W04-04,4,143.12,107.52,Chuba Hubbard,RB,W/R/T,True,False,False,,25.4,,Chuba Hubbard,RB,,470.p.33514,33514,Car,yahoo_fantasy_api
+2026,4,,4,api,ThreatLevelMidnight,Patty Primetimes,2026-W04-04,4,143.12,107.52,Rashee Rice,WR,WR,True,False,False,,0.0,,Rashee Rice,WR,,470.p.40084,40084,KC,yahoo_fantasy_api
+2026,4,,5,api,ThreatLevelMidnight,Patty Primetimes,2026-W04-04,4,143.12,107.52,Zay Flowers,WR,WR,True,False,False,,21.8,,Zay Flowers,WR,,470.p.40039,40039,Bal,yahoo_fantasy_api
+2026,4,,8,api,Pop Lockett Drop it,Post Mahomes,2026-W04-05,5,125.26,105.2,Justin Herbert,QB,BN,False,True,False,,13.56,,Justin Herbert,QB,,470.p.32676,32676,LAC,yahoo_fantasy_api
+2026,4,,9,api,Pop Lockett Drop it,Post Mahomes,2026-W04-05,5,125.26,105.2,MarShawn Lloyd,RB,BN,False,True,False,,7.4,,MarShawn Lloyd,RB,,470.p.40971,40971,GB,yahoo_fantasy_api
+2026,4,,10,api,Pop Lockett Drop it,Post Mahomes,2026-W04-05,5,125.26,105.2,Woody Marks,RB,BN,False,True,False,,8.2,,Woody Marks,RB,,470.p.41902,41902,Hou,yahoo_fantasy_api
+2026,4,,11,api,Pop Lockett Drop it,Post Mahomes,2026-W04-05,5,125.26,105.2,Romeo Doubs,WR,BN,False,True,False,,20.8,,Romeo Doubs,WR,,470.p.34088,34088,NE,yahoo_fantasy_api
+2026,4,,12,api,Pop Lockett Drop it,Post Mahomes,2026-W04-05,5,125.26,105.2,Khalil Shakir,WR,BN,False,True,False,,9.7,,Khalil Shakir,WR,,470.p.34104,34104,Buf,yahoo_fantasy_api
+2026,4,,13,api,Pop Lockett Drop it,Post Mahomes,2026-W04-05,5,125.26,105.2,Kayshon Boutte,WR,BN,False,True,False,,5.1,,Kayshon Boutte,WR,,470.p.40224,40224,Hou,yahoo_fantasy_api
+2026,4,,16,api,Pop Lockett Drop it,Post Mahomes,2026-W04-05,5,125.26,105.2,Packers,DEF,DEF,True,False,False,,8.0,,Packers,DEF,,470.p.100009,100009,GB,yahoo_fantasy_api
+2026,4,,14,api,Pop Lockett Drop it,Post Mahomes,2026-W04-05,5,125.26,105.2,De'Zhaun Stribling,WR,IR,False,False,True,,0.0,,De'Zhaun Stribling,WR,,470.p.42655,42655,SF,yahoo_fantasy_api
+2026,4,,15,api,Pop Lockett Drop it,Post Mahomes,2026-W04-05,5,125.26,105.2,Jason Myers,K,K,True,False,False,,6.0,,Jason Myers,K,,470.p.28378,28378,Sea,yahoo_fantasy_api
+2026,4,,1,api,Pop Lockett Drop it,Post Mahomes,2026-W04-05,5,125.26,105.2,Bryce Young,QB,QB,True,False,False,,25.46,,Bryce Young,QB,,470.p.40029,40029,Car,yahoo_fantasy_api
+2026,4,,2,api,Pop Lockett Drop it,Post Mahomes,2026-W04-05,5,125.26,105.2,Kenneth Walker III,RB,RB,True,False,False,,30.4,,Kenneth Walker III,RB,,470.p.33996,33996,KC,yahoo_fantasy_api
+2026,4,,3,api,Pop Lockett Drop it,Post Mahomes,2026-W04-05,5,125.26,105.2,Javonte Williams,RB,RB,True,False,False,,28.8,,Javonte Williams,RB,,470.p.33423,33423,Dal,yahoo_fantasy_api
+2026,4,,6,api,Pop Lockett Drop it,Post Mahomes,2026-W04-05,5,125.26,105.2,Trey McBride,TE,TE,True,False,False,,6.6,,Trey McBride,TE,,470.p.34010,34010,Ari,yahoo_fantasy_api
+2026,4,,7,api,Pop Lockett Drop it,Post Mahomes,2026-W04-05,5,125.26,105.2,Christian Watson,WR,W/R/T,True,False,False,,6.2,,Christian Watson,WR,,470.p.33989,33989,GB,yahoo_fantasy_api
+2026,4,,4,api,Pop Lockett Drop it,Post Mahomes,2026-W04-05,5,125.26,105.2,Amon-Ra St. Brown,WR,WR,True,False,False,,11.5,,Amon-Ra St. Brown,WR,,470.p.33500,33500,Det,yahoo_fantasy_api
+2026,4,,5,api,Pop Lockett Drop it,Post Mahomes,2026-W04-05,5,125.26,105.2,Emeka Egbuka,WR,WR,True,False,False,,2.3,,Emeka Egbuka,WR,,470.p.41804,41804,TB,yahoo_fantasy_api
+2026,4,,8,api,Post Mahomes,Pop Lockett Drop it,2026-W04-05,5,105.2,125.26,Devaughn Vele,WR,BN,False,True,False,,14.4,,Devaughn Vele,WR,,470.p.41097,41097,NO,yahoo_fantasy_api
+2026,4,,9,api,Post Mahomes,Pop Lockett Drop it,2026-W04-05,5,105.2,125.26,Marvin Harrison Jr.,WR,BN,False,True,False,,7.7,,Marvin Harrison Jr.,WR,,470.p.40893,40893,Ari,yahoo_fantasy_api
+2026,4,,10,api,Post Mahomes,Pop Lockett Drop it,2026-W04-05,5,105.2,125.26,RJ Harvey,RB,BN,False,True,False,,14.3,,RJ Harvey,RB,,470.p.41845,41845,Den,yahoo_fantasy_api
+2026,4,,11,api,Post Mahomes,Pop Lockett Drop it,2026-W04-05,5,105.2,125.26,Adonai Mitchell,WR,BN,False,True,False,,0.0,,Adonai Mitchell,WR,,470.p.40915,40915,NYJ,yahoo_fantasy_api
+2026,4,,12,api,Post Mahomes,Pop Lockett Drop it,2026-W04-05,5,105.2,125.26,Ollie Gordon II,RB,BN,False,True,False,,17.0,,Ollie Gordon II,RB,,470.p.41969,41969,Mia,yahoo_fantasy_api
+2026,4,,13,api,Post Mahomes,Pop Lockett Drop it,2026-W04-05,5,105.2,125.26,Alvin Kamara,RB,BN,False,True,False,,20.3,,Alvin Kamara,RB,,470.p.30180,30180,NO,yahoo_fantasy_api
+2026,4,,16,api,Post Mahomes,Pop Lockett Drop it,2026-W04-05,5,105.2,125.26,Texans,DEF,DEF,True,False,False,,4.0,,Texans,DEF,,470.p.100034,100034,Hou,yahoo_fantasy_api
+2026,4,,14,api,Post Mahomes,Pop Lockett Drop it,2026-W04-05,5,105.2,125.26,A.J. Brown,WR,IR,False,False,True,,0.0,,A.J. Brown,WR,,470.p.31883,31883,NE,yahoo_fantasy_api
+2026,4,,15,api,Post Mahomes,Pop Lockett Drop it,2026-W04-05,5,105.2,125.26,Cam Little,K,K,True,False,False,,14.0,,Cam Little,K,,470.p.41062,41062,Jax,yahoo_fantasy_api
+2026,4,,1,api,Post Mahomes,Pop Lockett Drop it,2026-W04-05,5,105.2,125.26,Patrick Mahomes,QB,QB,True,False,False,,21.0,,Patrick Mahomes,QB,,470.p.30123,30123,KC,yahoo_fantasy_api
+2026,4,,2,api,Post Mahomes,Pop Lockett Drop it,2026-W04-05,5,105.2,125.26,Chase Brown,RB,RB,True,False,False,,13.6,,Chase Brown,RB,,470.p.40196,40196,Cin,yahoo_fantasy_api
+2026,4,,3,api,Post Mahomes,Pop Lockett Drop it,2026-W04-05,5,105.2,125.26,Jaylen Warren,RB,RB,True,False,False,,14.1,,Jaylen Warren,RB,,470.p.34447,34447,Pit,yahoo_fantasy_api
+2026,4,,6,api,Post Mahomes,Pop Lockett Drop it,2026-W04-05,5,105.2,125.26,Harold Fannin Jr.,TE,TE,True,False,False,,10.2,,Harold Fannin Jr.,TE,,470.p.41877,41877,Cle,yahoo_fantasy_api
+2026,4,,7,api,Post Mahomes,Pop Lockett Drop it,2026-W04-05,5,105.2,125.26,Cam Skattebo,RB,W/R/T,True,False,False,,7.1,,Cam Skattebo,RB,,470.p.41922,41922,NYG,yahoo_fantasy_api
+2026,4,,4,api,Post Mahomes,Pop Lockett Drop it,2026-W04-05,5,105.2,125.26,Tee Higgins,WR,WR,True,False,False,,21.2,,Tee Higgins,WR,,470.p.32703,32703,Cin,yahoo_fantasy_api
+2026,4,,5,api,Post Mahomes,Pop Lockett Drop it,2026-W04-05,5,105.2,125.26,Ladd McConkey,WR,WR,True,False,False,,0.0,,Ladd McConkey,WR,,470.p.40908,40908,LAC,yahoo_fantasy_api
+2026,4,,8,api,Uncle Rico,malle_dips_pouches,2026-W04-06,6,125.78,120.58,Keenan Allen,WR,BN,False,True,False,,0.0,,Keenan Allen,WR,,470.p.26699,26699,Ind,yahoo_fantasy_api
+2026,4,,9,api,Uncle Rico,malle_dips_pouches,2026-W04-06,6,125.78,120.58,Kyle Monangai,RB,BN,False,True,False,,27.5,,Kyle Monangai,RB,,470.p.42025,42025,Chi,yahoo_fantasy_api
+2026,4,,10,api,Uncle Rico,malle_dips_pouches,2026-W04-06,6,125.78,120.58,Blake Corum,RB,BN,False,True,False,,2.6,,Blake Corum,RB,,470.p.40962,40962,LAR,yahoo_fantasy_api
+2026,4,,11,api,Uncle Rico,malle_dips_pouches,2026-W04-06,6,125.78,120.58,Chris Godwin Jr.,WR,BN,False,True,False,,6.1,,Chris Godwin Jr.,WR,,470.p.30197,30197,TB,yahoo_fantasy_api
+2026,4,,12,api,Uncle Rico,malle_dips_pouches,2026-W04-06,6,125.78,120.58,Wan'Dale Robinson,WR,BN,False,True,False,,9.5,,Wan'Dale Robinson,WR,,470.p.33998,33998,Ten,yahoo_fantasy_api
+2026,4,,13,api,Uncle Rico,malle_dips_pouches,2026-W04-06,6,125.78,120.58,Matthew Stafford,QB,BN,False,True,False,,11.68,,Matthew Stafford,QB,,470.p.9265,9265,LAR,yahoo_fantasy_api
+2026,4,,16,api,Uncle Rico,malle_dips_pouches,2026-W04-06,6,125.78,120.58,Bears,DEF,DEF,True,False,False,,7.0,,Bears,DEF,,470.p.100003,100003,Chi,yahoo_fantasy_api
+2026,4,,14,api,Uncle Rico,malle_dips_pouches,2026-W04-06,6,125.78,120.58,Jonathon Brooks,RB,IR,False,False,True,,0.0,,Jonathon Brooks,RB,,470.p.40926,40926,Car,yahoo_fantasy_api
+2026,4,,15,api,Uncle Rico,malle_dips_pouches,2026-W04-06,6,125.78,120.58,Cameron Dicker,K,K,True,False,False,,12.0,,Cameron Dicker,K,,470.p.34344,34344,LAC,yahoo_fantasy_api
+2026,4,,1,api,Uncle Rico,malle_dips_pouches,2026-W04-06,6,125.78,120.58,Lamar Jackson,QB,QB,True,False,False,,22.88,,Lamar Jackson,QB,,470.p.31002,31002,Bal,yahoo_fantasy_api
+2026,4,,2,api,Uncle Rico,malle_dips_pouches,2026-W04-06,6,125.78,120.58,Jonathan Taylor,RB,RB,True,False,False,,22.2,,Jonathan Taylor,RB,,470.p.32711,32711,Ind,yahoo_fantasy_api
+2026,4,,3,api,Uncle Rico,malle_dips_pouches,2026-W04-06,6,125.78,120.58,Braelon Allen,RB,RB,True,False,False,,7.7,,Braelon Allen,RB,,470.p.40981,40981,NYJ,yahoo_fantasy_api
+2026,4,,6,api,Uncle Rico,malle_dips_pouches,2026-W04-06,6,125.78,120.58,Colston Loveland,TE,TE,True,False,False,,8.7,,Colston Loveland,TE,,470.p.41795,41795,Chi,yahoo_fantasy_api
+2026,4,,7,api,Uncle Rico,malle_dips_pouches,2026-W04-06,6,125.78,120.58,Rashod Bateman,WR,W/R/T,True,False,False,,5.6,,Rashod Bateman,WR,,470.p.33415,33415,Bal,yahoo_fantasy_api
+2026,4,,4,api,Uncle Rico,malle_dips_pouches,2026-W04-06,6,125.78,120.58,Nico Collins,WR,WR,True,False,False,,27.3,,Nico Collins,WR,,470.p.33477,33477,Hou,yahoo_fantasy_api
+2026,4,,5,api,Uncle Rico,malle_dips_pouches,2026-W04-06,6,125.78,120.58,Rome Odunze,WR,WR,True,False,False,,12.4,,Rome Odunze,WR,,470.p.40901,40901,Chi,yahoo_fantasy_api
+2026,4,,8,api,malle_dips_pouches,Uncle Rico,2026-W04-06,6,120.58,125.78,Jalen Coker,WR,BN,False,True,False,,0.0,,Jalen Coker,WR,,470.p.41293,41293,Car,yahoo_fantasy_api
+2026,4,,9,api,malle_dips_pouches,Uncle Rico,2026-W04-06,6,120.58,125.78,Jacory Croskey-Merritt,RB,BN,False,True,False,,6.0,,Jacory Croskey-Merritt,RB,,470.p.42010,42010,Was,yahoo_fantasy_api
+2026,4,,10,api,malle_dips_pouches,Uncle Rico,2026-W04-06,6,120.58,125.78,Brian Thomas Jr.,WR,BN,False,True,False,,8.7,,Brian Thomas Jr.,WR,,470.p.40883,40883,Jax,yahoo_fantasy_api
+2026,4,,11,api,malle_dips_pouches,Uncle Rico,2026-W04-06,6,120.58,125.78,Mike Washington Jr.,RB,BN,False,True,False,,2.2,,Mike Washington Jr.,RB,,470.p.42744,42744,LV,yahoo_fantasy_api
+2026,4,,12,api,malle_dips_pouches,Uncle Rico,2026-W04-06,6,120.58,125.78,Caleb Douglas,WR,BN,False,True,False,,0.0,,Caleb Douglas,WR,,470.p.42697,42697,Mia,yahoo_fantasy_api
+2026,4,,13,api,malle_dips_pouches,Uncle Rico,2026-W04-06,6,120.58,125.78,Brenton Strange,TE,BN,False,True,False,,13.0,,Brenton Strange,TE,,470.p.40078,40078,Jax,yahoo_fantasy_api
+2026,4,,16,api,malle_dips_pouches,Uncle Rico,2026-W04-06,6,120.58,125.78,Seahawks,DEF,DEF,True,False,False,,12.0,,Seahawks,DEF,,470.p.100026,100026,Sea,yahoo_fantasy_api
+2026,4,,14,api,malle_dips_pouches,Uncle Rico,2026-W04-06,6,120.58,125.78,Tank Dell,WR,IR,False,False,True,,0.0,,Tank Dell,WR,,470.p.40097,40097,Hou,yahoo_fantasy_api
+2026,4,,15,api,malle_dips_pouches,Uncle Rico,2026-W04-06,6,120.58,125.78,Brandon Aubrey,K,K,True,False,False,,12.0,,Brandon Aubrey,K,,470.p.40819,40819,Dal,yahoo_fantasy_api
+2026,4,,1,api,malle_dips_pouches,Uncle Rico,2026-W04-06,6,120.58,125.78,Jared Goff,QB,QB,True,False,False,,22.48,,Jared Goff,QB,,470.p.29235,29235,Det,yahoo_fantasy_api
+2026,4,,2,api,malle_dips_pouches,Uncle Rico,2026-W04-06,6,120.58,125.78,Jahmyr Gibbs,RB,RB,True,False,False,,15.7,,Jahmyr Gibbs,RB,,470.p.40059,40059,Det,yahoo_fantasy_api
+2026,4,,3,api,malle_dips_pouches,Uncle Rico,2026-W04-06,6,120.58,125.78,Ashton Jeanty,RB,RB,True,False,False,,15.6,,Ashton Jeanty,RB,,470.p.41791,41791,LV,yahoo_fantasy_api
+2026,4,,6,api,malle_dips_pouches,Uncle Rico,2026-W04-06,6,120.58,125.78,Tucker Kraft,TE,TE,True,False,False,,13.5,,Tucker Kraft,TE,,470.p.40102,40102,GB,yahoo_fantasy_api
+2026,4,,7,api,malle_dips_pouches,Uncle Rico,2026-W04-06,6,120.58,125.78,Michael Wilson,WR,W/R/T,True,False,False,,13.0,,Michael Wilson,WR,,470.p.40121,40121,Ari,yahoo_fantasy_api
+2026,4,,4,api,malle_dips_pouches,Uncle Rico,2026-W04-06,6,120.58,125.78,Drake London,WR,WR,True,False,False,,12.1,,Drake London,WR,,470.p.33963,33963,Atl,yahoo_fantasy_api
+2026,4,,5,api,malle_dips_pouches,Uncle Rico,2026-W04-06,6,120.58,125.78,Garrett Wilson,WR,WR,True,False,False,,4.2,,Garrett Wilson,WR,,470.p.33965,33965,NYJ,yahoo_fantasy_api

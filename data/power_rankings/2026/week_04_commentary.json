@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "season": 2026,
+  "week": 4,
+  "commentary": [
+    {
+      "power_rank": 1,
+      "team": "malle_dips_pouches",
+      "commentary": "Despite suffering a tough 120.58 to 125.78 loss to Uncle Rico, this squad remains at the top of the scoring rank.",
+      "evidence_tags": [
+        "matchup",
+        "standings",
+        "season_context"
+      ]
+    },
+    {
+      "power_rank": 2,
+      "team": "Pop Lockett Drop it",
+      "commentary": "A solid 125.26 to 105.2 win over Post Mahomes keeps the momentum rolling at 3-1.",
+      "evidence_tags": [
+        "matchup",
+        "standings",
+        "season_context"
+      ]
+    },
+    {
+      "power_rank": 3,
+      "team": "Patty Primetimes",
+      "commentary": "A heavy 107.52 to 143.12 defeat against ThreatLevelMidnight halted a four-game winning streak and handed the franchise its 50th career loss.",
+      "evidence_tags": [
+        "matchup",
+        "milestone",
+        "standings"
+      ]
+    },
+    {
+      "power_rank": 4,
+      "team": "ThreatLevelMidnight",
+      "commentary": "Remaining undefeated at 4-0 following a dominant 143.12 to 107.52 victory over Patty Primetimes.",
+      "evidence_tags": [
+        "matchup",
+        "standings",
+        "season_context"
+      ]
+    },
+    {
+      "power_rank": 5,
+      "team": "Malle ❤️ 🐸",
+      "commentary": "Struggling to find consistency after a 100.12 to 136.58 loss to The Big Gronkowski drops the record to 1-3.",
+      "evidence_tags": [
+        "matchup",
+        "standings",
+        "season_context"
+      ]
+    },
+    {
+      "power_rank": 6,
+      "team": "Ginger FC 🏆🏆",
+      "commentary": "Snapped a two-game losing streak in style by crushing Voldemort 127.78 to 81.42.",
+      "evidence_tags": [
+        "matchup",
+        "milestone",
+        "standings"
+      ]
+    },
+    {
+      "power_rank": 7,
+      "team": "Voldemort",
+      "commentary": "Managed only 81.42 points in a lopsided loss to Ginger FC 🏆🏆, falling to 1-3 on the year.",
+      "evidence_tags": [
+        "matchup",
+        "standings",
+        "season_context"
+      ]
+    },
+    {
+      "power_rank": 8,
+      "team": "Post Mahomes",
+      "commentary": "Left 31.2 points on the bench in a 105.2 to 125.26 setback against Pop Lockett Drop it.",
+      "evidence_tags": [
+        "matchup",
+        "lineup",
+        "standings"
+      ]
+    },
+    {
+      "power_rank": 9,
+      "team": "Joe Mantegna",
+      "commentary": "Secured a fortunate win over Buttermilk Puuump despite ranking near the bottom for the week in scoring.",
+      "evidence_tags": [
+        "matchup",
+        "luck",
+        "standings"
+      ]
+    },
+    {
+      "power_rank": 10,
+      "team": "The Big Gronkowski",
+      "commentary": "Bounced back to a 2-2 record by taking down Malle ❤️ 🐸 with a strong 136.58 points.",
+      "evidence_tags": [
+        "matchup",
+        "standings",
+        "season_context"
+      ]
+    },
+    {
+      "power_rank": 11,
+      "team": "Uncle Rico",
+      "commentary": "Snapped a three-game losing streak by pulling off a narrow 125.78 to 120.58 victory over malle_dips_pouches.",
+      "evidence_tags": [
+        "matchup",
+        "milestone",
+        "standings"
+      ]
+    },
+    {
+      "power_rank": 12,
+      "team": "Buttermilk Puuump",
+      "commentary": "Still searching for a win at 0-4 following a dismal 58.2-point showing against Joe Mantegna.",
+      "evidence_tags": [
+        "matchup",
+        "standings",
+        "season_context"
+      ]
+    }
+  ]
+}

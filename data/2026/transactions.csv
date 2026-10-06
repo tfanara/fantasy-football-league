@@ -18,3 +18,17 @@ year,transaction_id,transaction_key,timestamp,date,team,transaction_type,added_p
 2026,31,470.l.742546.tr.31,1790282614,2026-09-24T16:43:34-04:00,Uncle Rico,add,Rashod Bateman,free_agent,,successful,yahoo_fantasy_api
 2026,32,470.l.742546.tr.32,1790282651,2026-09-24T16:44:11-04:00,Uncle Rico,add/drop,Lions,free_agent,Steelers,successful,yahoo_fantasy_api
 2026,33,470.l.742546.tr.33,1790297491,2026-09-24T20:51:31-04:00,Pop Lockett Drop it,add/drop,Panthers,free_agent,Buccaneers,successful,yahoo_fantasy_api
+2026,34,470.l.742546.tr.34,1790755188,2026-09-30T03:59:48-04:00,Uncle Rico,add/drop,Braelon Allen,waiver,Terrance Ferguson,successful,yahoo_fantasy_api
+2026,35,470.l.742546.tr.35,1790755188,2026-09-30T03:59:48-04:00,Post Mahomes,add/drop,Ollie Gordon II,waiver,Emanuel Wilson,successful,yahoo_fantasy_api
+2026,36,470.l.742546.tr.36,1790755188,2026-09-30T03:59:48-04:00,ThreatLevelMidnight,add/drop,Kenyon Sadiq,waiver,Chris Rodriguez Jr.,successful,yahoo_fantasy_api
+2026,37,470.l.742546.tr.37,1790755188,2026-09-30T03:59:48-04:00,Uncle Rico,add/drop,Keenan Allen,waiver,KC Concepcion Jr.,successful,yahoo_fantasy_api
+2026,38,470.l.742546.tr.38,1790755188,2026-09-30T03:59:48-04:00,ThreatLevelMidnight,add/drop,Kalif Raymond,waiver,Jayden Reed,successful,yahoo_fantasy_api
+2026,41,470.l.742546.tr.41,1790767191,2026-09-30T07:19:51-04:00,ThreatLevelMidnight,add/drop,Steelers,free_agent,49ers,successful,yahoo_fantasy_api
+2026,42,470.l.742546.tr.42,1790769089,2026-09-30T07:51:29-04:00,Uncle Rico,add/drop,Bears,free_agent,Lions,successful,yahoo_fantasy_api
+2026,43,470.l.742546.tr.43,1790771576,2026-09-30T08:32:56-04:00,Post Mahomes,add/drop,Alvin Kamara,free_agent,Kenny Gainwell,successful,yahoo_fantasy_api
+2026,44,470.l.742546.tr.44,1790875206,2026-10-01T13:20:06-04:00,Voldemort,add/drop,Bills,free_agent,Eagles,successful,yahoo_fantasy_api
+2026,45,470.l.742546.tr.45,1790883548,2026-10-01T15:39:08-04:00,ThreatLevelMidnight,add/drop,Tyler Shough,free_agent,Tre Tucker,successful,yahoo_fantasy_api
+2026,46,470.l.742546.tr.46,1790888437,2026-10-01T17:00:37-04:00,Pop Lockett Drop it,add/drop,Packers,free_agent,Panthers,successful,yahoo_fantasy_api
+2026,47,470.l.742546.tr.47,1790898874,2026-10-01T19:54:34-04:00,Buttermilk Puuump,add/drop,Isaiah Davis,free_agent,Alec Pierce,successful,yahoo_fantasy_api
+2026,48,470.l.742546.tr.48,1791012810,2026-10-03T03:33:30-04:00,Buttermilk Puuump,add/drop,Kenny Gainwell,waiver,De'Von Achane,successful,yahoo_fantasy_api
+2026,49,470.l.742546.tr.49,1791121130,2026-10-04T09:38:50-04:00,Joe Mantegna,add/drop,Emanuel Wilson,free_agent,Dalton Schultz,successful,yahoo_fantasy_api

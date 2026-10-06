@@ -1,9 +1,9 @@
 year,team,actual_wins,actual_losses,actual_ties,games,average_schedule_wins,best_schedule_wins,worst_schedule_wins,schedule_win_std,schedules_tested,actual_win_equivalent,schedule_luck,schedule_range,best_schedule_team,best_schedule_record_wins,worst_schedule_team,worst_schedule_record_wins,schedule_luck_rank,schedule_difficulty_rank,extreme_type
-2018,malle_dips_pouches,11.0,2.0,0.0,13,7.25,11.0,5.0,1.9128750375000736,12,11.0,3.75,6.0,malle_dips_pouches,11.0,Ginger FC 🏆🏆,5.0,1,12,Most Helped
 2023,Joe Mantegna,13.0,1.0,0.0,14,9.25,13.0,5.0,2.2207697273283835,12,13.0,3.75,8.0,Joe Mantegna,13.0,malle_dips_pouches,5.0,1,12,Most Helped
+2018,malle_dips_pouches,11.0,2.0,0.0,13,7.25,11.0,5.0,1.9128750375000736,12,11.0,3.75,6.0,malle_dips_pouches,11.0,Ginger FC 🏆🏆,5.0,1,12,Most Helped
 2019,Voldemort,12.0,1.0,0.0,13,8.916666666666666,12.0,7.0,1.2401124093721456,12,12.0,3.083333333333334,5.0,Voldemort,12.0,Joe Mantegna,7.0,1,12,Most Helped
-2017,Pop Lockett Drop it,9.0,4.0,0.0,13,5.916666666666667,9.0,4.0,1.6213537179739277,12,9.0,3.083333333333333,5.0,Pop Lockett Drop it,9.0,The Big Gronkowski,4.0,1,12,Most Helped
 2021,Malle ❤️ 🐸,11.0,3.0,0.0,14,7.916666666666667,11.0,5.0,2.0652243256245835,12,11.0,3.083333333333333,6.0,Malle ❤️ 🐸,11.0,The Big Gronkowski,5.0,1,12,Most Helped
+2017,Pop Lockett Drop it,9.0,4.0,0.0,13,5.916666666666667,9.0,4.0,1.6213537179739277,12,9.0,3.083333333333333,5.0,Pop Lockett Drop it,9.0,The Big Gronkowski,4.0,1,12,Most Helped
 2017,Ginger FC 🏆🏆,10.0,3.0,0.0,13,7.166666666666667,10.0,5.0,1.6422453217986943,12,10.0,2.833333333333333,5.0,Ginger FC 🏆🏆,10.0,Malle ❤️ 🐸,5.0,2,11,Most Helped
 2021,ThreatLevelMidnight,11.0,3.0,0.0,14,8.333333333333334,11.0,5.0,2.015094553763188,12,11.0,2.666666666666666,6.0,Malle ❤️ 🐸,11.0,Ginger FC 🏆🏆,5.0,2,11,Most Helped
 2025,Patty Primetimes,12.0,2.0,0.0,14,9.416666666666666,12.0,7.0,1.3113721705515067,12,12.0,2.583333333333334,5.0,Patty Primetimes,12.0,Malle ❤️ 🐸,7.0,1,12,Most Helped
@@ -38,4 +38,4 @@ year,team,actual_wins,actual_losses,actual_ties,games,average_schedule_wins,best
 2022,Patty Primetimes,3.0,11.0,0.0,14,4.5,8.0,1.0,1.834021909257456,12,3.0,-1.5,7.0,Big Sack Jack,8.0,Uncle Rico,1.0,10,3,Most Hurt
 2023,Pop Lockett Drop it,5.0,9.0,0.0,14,6.416666666666667,9.0,5.0,1.378954368902449,12,5.0,-1.416666666666667,4.0,Buttermilk Puuump,9.0,Pop Lockett Drop it,5.0,11,2,Most Hurt
 2020,Malle ❤️ 🐸,8.0,5.0,0.0,13,9.416666666666666,12.0,7.0,1.8319554050414562,12,8.0,-1.416666666666666,5.0,Post Mahomes,12.0,Ginger FC 🏆🏆,7.0,11,2,Most Hurt
-2020,Ginger FC 🏆🏆,5.0,8.0,0.0,13,6.333333333333333,9.0,4.0,1.4974726182552531,12,5.0,-1.333333333333333,5.0,Big Sack Jack,9.0,ThreatLevelMidnight,4.0,10,3,Most Hurt
+2026,Malle ❤️ 🐸,1.0,3.0,0.0,4,2.3333333333333335,3.0,1.0,0.7784989441615229,12,1.0,-1.3333333333333335,2.0,Buttermilk Puuump,3.0,Malle ❤️ 🐸,1.0,12,1,Most Hurt

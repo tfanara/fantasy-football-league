@@ -1499,3 +1499,15 @@ year,week,fantasy_team,opponent,score,opponent_score,canonical_team,canonical_op
 2026,3,Buttermilk Puuump,ThreatLevelMidnight,106.94,112.38,Buttermilk Puuump,ThreatLevelMidnight,-5.439999999999998,0,1,0,4.0,7.0,0.0,0.36363636363636365,8.0,12.0,0.36363636363636365,0,0,0,0,0
 2026,3,Voldemort,Joe Mantegna,123.04,103.68,Voldemort,Joe Mantegna,19.36,1,0,0,9.0,2.0,0.0,0.8181818181818182,3.0,12.0,-0.18181818181818177,0,0,0,0,0
 2026,3,Joe Mantegna,Voldemort,103.68,123.04,Joe Mantegna,Voldemort,-19.36,0,1,0,3.0,8.0,0.0,0.2727272727272727,9.0,12.0,0.2727272727272727,0,0,0,0,0
+2026,4,Joe Mantegna,Buttermilk Puuump,104.68,58.2,Joe Mantegna,Buttermilk Puuump,46.480000000000004,1,0,0,3.0,8.0,0.0,0.2727272727272727,9.0,12.0,-0.7272727272727273,0,0,0,1,0
+2026,4,Buttermilk Puuump,Joe Mantegna,58.2,104.68,Buttermilk Puuump,Joe Mantegna,-46.480000000000004,0,1,0,0.0,11.0,0.0,0.0,12.0,12.0,0.0,0,0,0,0,0
+2026,4,Pop Lockett Drop it,Post Mahomes,125.26,105.2,Pop Lockett Drop it,Post Mahomes,20.060000000000002,1,0,0,7.0,4.0,0.0,0.6363636363636364,5.0,12.0,-0.36363636363636365,0,0,0,0,0
+2026,4,Post Mahomes,Pop Lockett Drop it,105.2,125.26,Post Mahomes,Pop Lockett Drop it,-20.060000000000002,0,1,0,4.0,7.0,0.0,0.36363636363636365,8.0,12.0,0.36363636363636365,0,0,0,0,0
+2026,4,The Big Gronkowski,Malle ❤️ 🐸,136.58,100.12,The Big Gronkowski,Malle ❤️ 🐸,36.46000000000001,1,0,0,10.0,1.0,0.0,0.9090909090909091,2.0,12.0,-0.09090909090909094,0,0,0,0,0
+2026,4,Malle ❤️ 🐸,The Big Gronkowski,100.12,136.58,Malle ❤️ 🐸,The Big Gronkowski,-36.46000000000001,0,1,0,2.0,9.0,0.0,0.18181818181818182,10.0,12.0,0.18181818181818182,0,0,0,0,0
+2026,4,ThreatLevelMidnight,Patty Primetimes,143.12,107.52,ThreatLevelMidnight,Patty Primetimes,35.60000000000001,1,0,0,11.0,0.0,0.0,1.0,1.0,12.0,0.0,0,0,0,0,0
+2026,4,Patty Primetimes,ThreatLevelMidnight,107.52,143.12,Patty Primetimes,ThreatLevelMidnight,-35.60000000000001,0,1,0,5.0,6.0,0.0,0.45454545454545453,7.0,12.0,0.45454545454545453,0,0,0,0,0
+2026,4,Voldemort,Ginger FC 🏆🏆,81.42,127.78,Voldemort,Ginger FC 🏆🏆,-46.36,0,1,0,1.0,10.0,0.0,0.09090909090909091,11.0,12.0,0.09090909090909091,0,0,0,0,0
+2026,4,Ginger FC 🏆🏆,Voldemort,127.78,81.42,Ginger FC 🏆🏆,Voldemort,46.36,1,0,0,9.0,2.0,0.0,0.8181818181818182,3.0,12.0,-0.18181818181818177,0,0,0,0,0
+2026,4,malle_dips_pouches,Uncle Rico,120.58,125.78,malle_dips_pouches,Uncle Rico,-5.200000000000003,0,1,0,6.0,5.0,0.0,0.5454545454545454,6.0,12.0,0.5454545454545454,1,0,0,0,0
+2026,4,Uncle Rico,malle_dips_pouches,125.78,120.58,Uncle Rico,malle_dips_pouches,5.200000000000003,1,0,0,8.0,3.0,0.0,0.7272727272727273,4.0,12.0,-0.2727272727272727,0,0,0,0,0

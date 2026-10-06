@@ -1,2 +1,2 @@
 team_seasons,stack_weeks,nonstack_weeks,mean_team_season_score_difference,median_team_season_score_difference,team_seasons_stack_scored_more,pct_team_seasons_stack_scored_more,mean_team_season_win_rate_difference,mean_team_season_margin_difference,mean_team_season_top_quartile_difference
-40,184,339,3.96429201770452,0.9440000000000026,22,0.55,0.032672397047397043,2.0549945471195477,0.08373605561105561
+40,186,339,5.10479201770452,2.1925000000000097,23,0.575,0.045172397047397034,3.1894945471195473,0.10873605561105562
