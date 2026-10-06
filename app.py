@@ -61,14 +61,25 @@ CHAMPIONSHIPS_FILE = (
 # ============================================================
 
 @st.cache_data
+def _read_csv_cached(path_string, modified_ns):
+    # modified_ns is intentionally part of the cache key.
+    try:
+        return pd.read_csv(path_string)
+    except Exception:
+        return pd.DataFrame()
+
+
 def load_csv(path):
+    path = Path(path)
     if not path.exists():
         return pd.DataFrame()
 
     try:
-        return pd.read_csv(path)
-    except Exception:
+        modified_ns = path.stat().st_mtime_ns
+    except OSError:
         return pd.DataFrame()
+
+    return _read_csv_cached(str(path), modified_ns)
 
 
 def normalize_team(value):

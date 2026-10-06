@@ -49,14 +49,29 @@ div[data-testid="stMetric"]{background:rgba(148,163,184,.08);border:1px solid rg
 ''', unsafe_allow_html=True)
 
 @st.cache_data
-def load_data():
+def _load_data_cached(file_fingerprint):
+    # file_fingerprint contains each source path plus its modification time.
     out = {}
-    for name, path in FILES.items():
+    for name, path_string, _modified_ns in file_fingerprint:
+        path = Path(path_string)
         try:
             out[name] = pd.read_csv(path) if path.exists() else pd.DataFrame()
         except Exception:
             out[name] = pd.DataFrame()
     return out
+
+
+def load_data():
+    fingerprint = []
+    for name, path in FILES.items():
+        try:
+            modified_ns = path.stat().st_mtime_ns if path.exists() else None
+        except OSError:
+            modified_ns = None
+        fingerprint.append((name, str(path), modified_ns))
+
+    return _load_data_cached(tuple(fingerprint))
+
 
 data = load_data()
 team_games = data['team_games'].copy()
