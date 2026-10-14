@@ -151,7 +151,12 @@ def fail(message: str) -> None:
     print(message)
     print()
     print("Downstream processing has stopped.")
-    print("Fix the problem and rerun:")
+    print("Fix the problem and rerun.")
+    print("If deterministic weekly data already completed and the failure was editorial/Gemini, use:")
+    print()
+    print("    python update_week.py --resume-editorial")
+    print()
+    print("Otherwise use:")
     print()
     print("    python update_week.py")
     print()
@@ -830,6 +835,16 @@ def main() -> None:
         ),
     )
 
+    parser.add_argument(
+        "--resume-editorial",
+        action="store_true",
+        help=(
+            "Resume from the editorial stage using already-built weekly data. "
+            "Skips Yahoo collection and deterministic rebuilds, reruns Power "
+            "Rankings commentary + Commissioner's Mistake, then the freshness audit."
+        ),
+    )
+
     args = parser.parse_args()
 
     banner(
@@ -843,6 +858,65 @@ def main() -> None:
     print("  No browser scraping")
     print("  No manual HTML collection")
     print()
+
+    if args.resume_editorial:
+        if args.skip_editorial:
+            fail("--resume-editorial cannot be combined with --skip-editorial.")
+
+        week = detect_completed_week()
+        banner("RESUMING FROM EDITORIAL STAGE")
+        print(f"Season:         {SEASON}")
+        print(f"Completed week: {week}")
+        print("Using existing deterministic Week data; collection/build stages are skipped.")
+        print()
+
+        # Guard against resuming on incomplete/stale deterministic inputs.
+        validate_master_weekly(week)
+        validate_master_transactions()
+        validate_core_analysis(week)
+        validate_power_rankings(week)
+
+        resume_steps = list(EDITORIAL_STEPS)
+        freshness_step = Step(
+            "Project freshness audit",
+            "audit_project_freshness.py",
+            "AUDIT",
+        )
+        validate_scripts(resume_steps + [freshness_step])
+
+        total = len(resume_steps) + 1
+        for number, step in enumerate(resume_steps, start=1):
+            banner(f"[{number}/{total}] {step.name}  —  RESUME", "-")
+            path = ROOT / step.script
+            command = [sys.executable, str(path)]
+            if step.script == "generate_power_rankings_commentary.py":
+                command.extend([str(SEASON), str(week)])
+            elif step.script == "generate_weekly_article.py":
+                command.append(str(week))
+
+            started = time.time()
+            result = subprocess.run(command, cwd=ROOT)
+            elapsed = time.time() - started
+            if result.returncode != 0:
+                fail(
+                    f"{step.name} failed during editorial resume.\n\n"
+                    f"Script: {step.script}\n"
+                    f"Exit code: {result.returncode}\n\n"
+                    "After the temporary problem is resolved, rerun only:\n\n"
+                    "    python update_week.py --resume-editorial"
+                )
+            pass_line(f"{step.name} completed in {elapsed:.1f}s")
+
+        validate_editorial(week)
+        run_step(freshness_step, total, total)
+        page_readiness(week, skip_editorial=False)
+        banner(f"{SEASON} WEEK {week} EDITORIAL RESUME COMPLETE")
+        print("Editorial generation and final freshness audit completed successfully.")
+        print()
+        print("Next:")
+        print("    git status --short")
+        print()
+        return
 
     # ---------------------------------------------------------
     # Assemble pipeline

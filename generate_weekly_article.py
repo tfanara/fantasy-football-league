@@ -2,6 +2,7 @@ import json
 import os
 import re
 import sys
+import time
 from pathlib import Path
 
 import streamlit as st
@@ -15,6 +16,45 @@ NEWS = DATA / "news"
 
 DEFAULT_MODEL = "gemini-2.5-flash-lite"
 EXPECTED_SCHEMA_VERSION = 4
+API_MAX_ATTEMPTS = 6
+API_RETRY_DELAYS = (10, 20, 40, 60, 90)
+
+
+def _is_retryable_api_error(exc):
+    """Return True for temporary Gemini/API failures worth retrying."""
+    status = getattr(exc, "status_code", None)
+    if status in {429, 500, 502, 503, 504}:
+        return True
+
+    text = f"{type(exc).__name__}: {exc}".upper()
+    return any(token in text for token in (
+        "429", "500", "502", "503", "504",
+        "RESOURCE_EXHAUSTED", "UNAVAILABLE", "DEADLINE_EXCEEDED",
+        "INTERNAL", "BAD GATEWAY", "GATEWAY TIMEOUT",
+    ))
+
+
+def generate_content_with_retry(client, *, model, contents, config, label="Gemini request"):
+    """Retry transient API failures without consuming a generation/repair attempt."""
+    for api_attempt in range(1, API_MAX_ATTEMPTS + 1):
+        try:
+            return client.models.generate_content(
+                model=model, contents=contents, config=config
+            )
+        except Exception as exc:
+            if not _is_retryable_api_error(exc) or api_attempt >= API_MAX_ATTEMPTS:
+                raise
+
+            delay = API_RETRY_DELAYS[min(api_attempt - 1, len(API_RETRY_DELAYS) - 1)]
+            print(
+                f"[API RETRY] {label} failed with a temporary API error: "
+                f"{type(exc).__name__}: {exc}"
+            )
+            print(
+                f"[API RETRY] Waiting {delay}s before retry "
+                f"{api_attempt + 1}/{API_MAX_ATTEMPTS}..."
+            )
+            time.sleep(delay)
 
 
 def load_season_config():
@@ -737,7 +777,8 @@ def copy_edit_and_validate(client, model, packet, article):
     prompt = build_copy_edit_prompt(packet, article)
     print("Running second-pass copy edit...")
 
-    response = client.models.generate_content(
+    response = generate_content_with_retry(
+        client,
         model=model,
         contents=prompt,
         config=types.GenerateContentConfig(
@@ -763,7 +804,8 @@ def copy_edit_and_validate(client, model, packet, article):
 
     print(f"Copy edit failed validation; attempting one repair: {error}")
     repair_prompt = build_repair_prompt(packet, edited, error)
-    response = client.models.generate_content(
+    response = generate_content_with_retry(
+        client,
         model=model,
         contents=repair_prompt,
         config=types.GenerateContentConfig(
@@ -1469,7 +1511,8 @@ def generate_and_validate(client, model, packet):
                 f"after validation failure: {last_error}"
             )
 
-        response = client.models.generate_content(
+        response = generate_content_with_retry(
+            client,
             model=model,
             contents=prompt,
             config=types.GenerateContentConfig(

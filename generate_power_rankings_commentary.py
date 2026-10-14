@@ -25,6 +25,7 @@ from __future__ import annotations
 import json
 import re
 import sys
+import time
 from pathlib import Path
 
 import pandas as pd
@@ -39,6 +40,45 @@ POWER_RANKINGS = DATA / "analysis" / "power_rankings_weekly.csv"
 
 DEFAULT_MODEL = "gemini-3.5-flash-lite"
 MAX_ATTEMPTS = 3
+API_MAX_ATTEMPTS = 6
+API_RETRY_DELAYS = (10, 20, 40, 60, 90)
+
+
+def _is_retryable_api_error(exc):
+    """Return True for temporary Gemini/API failures worth retrying."""
+    status = getattr(exc, "status_code", None)
+    if status in {429, 500, 502, 503, 504}:
+        return True
+
+    text = f"{type(exc).__name__}: {exc}".upper()
+    return any(token in text for token in (
+        "429", "500", "502", "503", "504",
+        "RESOURCE_EXHAUSTED", "UNAVAILABLE", "DEADLINE_EXCEEDED",
+        "INTERNAL", "BAD GATEWAY", "GATEWAY TIMEOUT",
+    ))
+
+
+def generate_content_with_retry(client, *, model, contents, config, label="Gemini request"):
+    """Retry transient API failures without consuming a content-validation attempt."""
+    for api_attempt in range(1, API_MAX_ATTEMPTS + 1):
+        try:
+            return client.models.generate_content(
+                model=model, contents=contents, config=config
+            )
+        except Exception as exc:
+            if not _is_retryable_api_error(exc) or api_attempt >= API_MAX_ATTEMPTS:
+                raise
+
+            delay = API_RETRY_DELAYS[min(api_attempt - 1, len(API_RETRY_DELAYS) - 1)]
+            print(
+                f"[API RETRY] {label} failed with a temporary API error: "
+                f"{type(exc).__name__}: {exc}"
+            )
+            print(
+                f"[API RETRY] Waiting {delay}s before retry "
+                f"{api_attempt + 1}/{API_MAX_ATTEMPTS}..."
+            )
+            time.sleep(delay)
 
 
 def clean(value):
@@ -818,7 +858,8 @@ The previous attempt failed validation:
 Repair the output. Return all 12 teams exactly once, use only supported evidence_tags, and obey every grounding rule.
 """
 
-        response = client.models.generate_content(
+        response = generate_content_with_retry(
+            client,
             model=model,
             contents=prompt_for(evidence) + "\n\n" + extra,
             config=types.GenerateContentConfig(
@@ -827,6 +868,7 @@ Repair the output. Return all 12 teams exactly once, use only supported evidence
                 response_mime_type="application/json",
                 response_schema=response_schema(),
             ),
+            label=f"Power Rankings generation attempt {attempt}",
         )
 
         try:

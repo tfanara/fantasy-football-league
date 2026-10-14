@@ -21832,5 +21832,167 @@
     "acquisition_type":"free_agent",
     "dropped_player":"Dalton Schultz",
     "raw_text":"ADD Emanuel Wilson (free_agent) | DROP Dalton Schultz"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-06T12:36:42-04:00",
+    "team":"Post Mahomes",
+    "added_player":"",
+    "acquisition_type":"",
+    "dropped_player":"Adonai Mitchell",
+    "raw_text":"DROP Adonai Mitchell"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-07T03:58:31-04:00",
+    "team":"Pop Lockett Drop it",
+    "added_player":"KC Concepcion Jr.",
+    "acquisition_type":"waiver",
+    "dropped_player":"Kayshon Boutte",
+    "raw_text":"ADD KC Concepcion Jr. (waiver) | DROP Kayshon Boutte"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-07T03:58:31-04:00",
+    "team":"ThreatLevelMidnight",
+    "added_player":"Jacoby Brissett",
+    "acquisition_type":"waiver",
+    "dropped_player":"Tyler Shough",
+    "raw_text":"ADD Jacoby Brissett (waiver) | DROP Tyler Shough"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-07T03:58:31-04:00",
+    "team":"ThreatLevelMidnight",
+    "added_player":"Dohnte Meyers",
+    "acquisition_type":"waiver",
+    "dropped_player":"Kalif Raymond",
+    "raw_text":"ADD Dohnte Meyers (waiver) | DROP Kalif Raymond"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-07T03:58:31-04:00",
+    "team":"Uncle Rico",
+    "added_player":"Tyreek Hill",
+    "acquisition_type":"waiver",
+    "dropped_player":"Rashod Bateman",
+    "raw_text":"ADD Tyreek Hill (waiver) | DROP Rashod Bateman"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-07T06:32:10-04:00",
+    "team":"Joe Mantegna",
+    "added_player":"Bengals",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Chiefs",
+    "raw_text":"ADD Bengals (free_agent) | DROP Chiefs"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-07T06:33:22-04:00",
+    "team":"Joe Mantegna",
+    "added_player":"Will Shipley",
+    "acquisition_type":"free_agent",
+    "dropped_player":"",
+    "raw_text":"ADD Will Shipley (free_agent)"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-07T09:57:10-04:00",
+    "team":"Patty Primetimes",
+    "added_player":"Keon Coleman",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Baker Mayfield",
+    "raw_text":"ADD Keon Coleman (free_agent) | DROP Baker Mayfield"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-07T10:26:10-04:00",
+    "team":"ThreatLevelMidnight",
+    "added_player":"Brian Robinson",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Dohnte Meyers",
+    "raw_text":"ADD Brian Robinson (free_agent) | DROP Dohnte Meyers"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-07T11:32:13-04:00",
+    "team":"Pop Lockett Drop it",
+    "added_player":"Cowboys",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Packers",
+    "raw_text":"ADD Cowboys (free_agent) | DROP Packers"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-08T13:48:10-04:00",
+    "team":"Post Mahomes",
+    "added_player":"Aaron Rodgers",
+    "acquisition_type":"free_agent",
+    "dropped_player":"",
+    "raw_text":"ADD Aaron Rodgers (free_agent)"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-08T16:45:41-04:00",
+    "team":"The Big Gronkowski",
+    "added_player":"Spencer Shrader",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Travis Etienne Jr.",
+    "raw_text":"ADD Spencer Shrader (free_agent) | DROP Travis Etienne Jr."
+  },
+  {
+    "year":2026,
+    "date":"2026-10-08T20:59:39-04:00",
+    "team":"Post Mahomes",
+    "added_player":"Malik Washington",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Alvin Kamara",
+    "raw_text":"ADD Malik Washington (free_agent) | DROP Alvin Kamara"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-11T03:16:17-04:00",
+    "team":"Voldemort",
+    "added_player":"Alvin Kamara",
+    "acquisition_type":"waiver",
+    "dropped_player":"Jalen Nailor",
+    "raw_text":"ADD Alvin Kamara (waiver) | DROP Jalen Nailor"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-11T11:24:02-04:00",
+    "team":"Buttermilk Puuump",
+    "added_player":"Kaleb Johnson",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Isaiah Davis",
+    "raw_text":"ADD Kaleb Johnson (free_agent) | DROP Isaiah Davis"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-11T11:53:04-04:00",
+    "team":"ThreatLevelMidnight",
+    "added_player":"Tre' Harris",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Kenyon Sadiq",
+    "raw_text":"ADD Tre' Harris (free_agent) | DROP Kenyon Sadiq"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-13T08:19:13-04:00",
+    "team":"ThreatLevelMidnight",
+    "added_player":"",
+    "acquisition_type":"",
+    "dropped_player":"Tre' Harris",
+    "raw_text":"DROP Tre' Harris"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-13T10:04:31-04:00",
+    "team":"Ginger FC 🏆🏆",
+    "added_player":"",
+    "acquisition_type":"",
+    "dropped_player":"Jalen McMillan",
+    "raw_text":"DROP Jalen McMillan"
   }
 ]

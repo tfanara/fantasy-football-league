@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "season": 2026,
+  "week": 5,
+  "commentary": [
+    {
+      "power_rank": 1,
+      "team": "malle_dips_pouches",
+      "commentary": "Suffered a brutal 5.94-point bad beat against The Big Gronkowski despite posting 142.92 points. Leaving 10.12 points on the bench definitely hurt.",
+      "evidence_tags": [
+        "matchup",
+        "luck",
+        "lineup"
+      ]
+    },
+    {
+      "power_rank": 2,
+      "team": "Pop Lockett Drop it",
+      "commentary": "Rolled to a 34.12-point victory over Uncle Rico, improving to 4-1-0. Active on the waiver wire adding Bryce Young and the Packers recently.",
+      "evidence_tags": [
+        "matchup",
+        "standings",
+        "transaction"
+      ]
+    },
+    {
+      "power_rank": 3,
+      "team": "Patty Primetimes",
+      "commentary": "Ran into a tough matchup against Joe Mantegna, dropping a 30.04-point decision to fall to 3-2-0. Leaving 23.0 points on the bench made things much harder.",
+      "evidence_tags": [
+        "matchup",
+        "lineup",
+        "standings"
+      ]
+    },
+    {
+      "power_rank": 4,
+      "team": "ThreatLevelMidnight",
+      "commentary": "Suffered a narrow 4.5-point loss to Post Mahomes, snapping a four-game winning streak. Despite the setback, the roster put up a completely efficient lineup.",
+      "evidence_tags": [
+        "matchup",
+        "milestone",
+        "lineup"
+      ]
+    },
+    {
+      "power_rank": 5,
+      "team": "Malle ❤️ 🐸",
+      "commentary": "Snapped a two-game losing streak by taking down Voldemort 119.5 to 88.26. A nearly spotless lineup efficiency of 99.09 percent paced the victory.",
+      "evidence_tags": [
+        "matchup",
+        "milestone",
+        "lineup"
+      ]
+    },
+    {
+      "power_rank": 6,
+      "team": "Ginger FC 🏆🏆",
+      "commentary": "Claimed a 17.5-point win over Buttermilk Puuump to move to 3-2-0 on the season. Classified as a lucky win based on expected performance metrics.",
+      "evidence_tags": [
+        "matchup",
+        "luck",
+        "standings"
+      ]
+    },
+    {
+      "power_rank": 7,
+      "team": "Joe Mantegna",
+      "commentary": "Notched a strong 145.24-point performance to defeat Patty Primetimes by 30.04 points. Added Emanuel Wilson ahead of the weekend.",
+      "evidence_tags": [
+        "matchup",
+        "transaction"
+      ]
+    },
+    {
+      "power_rank": 8,
+      "team": "The Big Gronkowski",
+      "commentary": "Outdueled malle_dips_pouches 148.86 to 142.92 in a high-scoring thriller. The 3-2-0 squad continues to find ways to win.",
+      "evidence_tags": [
+        "matchup",
+        "standings"
+      ]
+    },
+    {
+      "power_rank": 9,
+      "team": "Post Mahomes",
+      "commentary": "Escaped with a narrow 4.5-point win over ThreatLevelMidnight in a classified lucky victory. Recent waiver activity brought in Ollie Gordon II.",
+      "evidence_tags": [
+        "matchup",
+        "luck",
+        "transaction"
+      ]
+    },
+    {
+      "power_rank": 10,
+      "team": "Voldemort",
+      "commentary": "Voldemort lost to Malle ❤️ 🐸 88.26-119.5 in the latest matchup.",
+      "evidence_tags": [
+        "matchup"
+      ]
+    },
+    {
+      "power_rank": 11,
+      "team": "Uncle Rico",
+      "commentary": "Struggled in a 34.12-point loss to Pop Lockett Drop it to slide further in the standings. Recent moves brought in Keenan Allen and Braelon Allen.",
+      "evidence_tags": [
+        "matchup",
+        "standings",
+        "transaction"
+      ]
+    },
+    {
+      "power_rank": 12,
+      "team": "Buttermilk Puuump",
+      "commentary": "Still searching for win number one after a 17.5-point defeat against Ginger FC 🏆🏆. Kenny Gainwell was brought in via waivers ahead of the matchup.",
+      "evidence_tags": [
+        "matchup",
+        "standings",
+        "transaction"
+      ]
+    }
+  ]
+}

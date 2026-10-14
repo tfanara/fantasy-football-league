@@ -32,3 +32,21 @@ year,transaction_id,transaction_key,timestamp,date,team,transaction_type,added_p
 2026,47,470.l.742546.tr.47,1790898874,2026-10-01T19:54:34-04:00,Buttermilk Puuump,add/drop,Isaiah Davis,free_agent,Alec Pierce,successful,yahoo_fantasy_api
 2026,48,470.l.742546.tr.48,1791012810,2026-10-03T03:33:30-04:00,Buttermilk Puuump,add/drop,Kenny Gainwell,waiver,De'Von Achane,successful,yahoo_fantasy_api
 2026,49,470.l.742546.tr.49,1791121130,2026-10-04T09:38:50-04:00,Joe Mantegna,add/drop,Emanuel Wilson,free_agent,Dalton Schultz,successful,yahoo_fantasy_api
+2026,50,470.l.742546.tr.50,1791304602,2026-10-06T12:36:42-04:00,Post Mahomes,drop,,,Adonai Mitchell,successful,yahoo_fantasy_api
+2026,51,470.l.742546.tr.51,1791359911,2026-10-07T03:58:31-04:00,Pop Lockett Drop it,add/drop,KC Concepcion Jr.,waiver,Kayshon Boutte,successful,yahoo_fantasy_api
+2026,52,470.l.742546.tr.52,1791359911,2026-10-07T03:58:31-04:00,Uncle Rico,add/drop,Tyreek Hill,waiver,Rashod Bateman,successful,yahoo_fantasy_api
+2026,53,470.l.742546.tr.53,1791359911,2026-10-07T03:58:31-04:00,ThreatLevelMidnight,add/drop,Jacoby Brissett,waiver,Tyler Shough,successful,yahoo_fantasy_api
+2026,54,470.l.742546.tr.54,1791359911,2026-10-07T03:58:31-04:00,ThreatLevelMidnight,add/drop,Dohnte Meyers,waiver,Kalif Raymond,successful,yahoo_fantasy_api
+2026,58,470.l.742546.tr.58,1791369130,2026-10-07T06:32:10-04:00,Joe Mantegna,add/drop,Bengals,free_agent,Chiefs,successful,yahoo_fantasy_api
+2026,59,470.l.742546.tr.59,1791369202,2026-10-07T06:33:22-04:00,Joe Mantegna,add,Will Shipley,free_agent,,successful,yahoo_fantasy_api
+2026,60,470.l.742546.tr.60,1791381430,2026-10-07T09:57:10-04:00,Patty Primetimes,add/drop,Keon Coleman,free_agent,Baker Mayfield,successful,yahoo_fantasy_api
+2026,61,470.l.742546.tr.61,1791383170,2026-10-07T10:26:10-04:00,ThreatLevelMidnight,add/drop,Brian Robinson,free_agent,Dohnte Meyers,successful,yahoo_fantasy_api
+2026,62,470.l.742546.tr.62,1791387133,2026-10-07T11:32:13-04:00,Pop Lockett Drop it,add/drop,Cowboys,free_agent,Packers,successful,yahoo_fantasy_api
+2026,63,470.l.742546.tr.63,1791481690,2026-10-08T13:48:10-04:00,Post Mahomes,add,Aaron Rodgers,free_agent,,successful,yahoo_fantasy_api
+2026,64,470.l.742546.tr.64,1791492341,2026-10-08T16:45:41-04:00,The Big Gronkowski,add/drop,Spencer Shrader,free_agent,Travis Etienne Jr.,successful,yahoo_fantasy_api
+2026,65,470.l.742546.tr.65,1791507579,2026-10-08T20:59:39-04:00,Post Mahomes,add/drop,Malik Washington,free_agent,Alvin Kamara,successful,yahoo_fantasy_api
+2026,66,470.l.742546.tr.66,1791702977,2026-10-11T03:16:17-04:00,Voldemort,add/drop,Alvin Kamara,waiver,Jalen Nailor,successful,yahoo_fantasy_api
+2026,67,470.l.742546.tr.67,1791732242,2026-10-11T11:24:02-04:00,Buttermilk Puuump,add/drop,Kaleb Johnson,free_agent,Isaiah Davis,successful,yahoo_fantasy_api
+2026,68,470.l.742546.tr.68,1791733984,2026-10-11T11:53:04-04:00,ThreatLevelMidnight,add/drop,Tre' Harris,free_agent,Kenyon Sadiq,successful,yahoo_fantasy_api
+2026,69,470.l.742546.tr.69,1791893953,2026-10-13T08:19:13-04:00,ThreatLevelMidnight,drop,,,Tre' Harris,successful,yahoo_fantasy_api
+2026,70,470.l.742546.tr.70,1791900271,2026-10-13T10:04:31-04:00,Ginger FC 🏆🏆,drop,,,Jalen McMillan,successful,yahoo_fantasy_api
