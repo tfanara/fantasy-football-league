@@ -1523,3 +1523,15 @@ year,week,fantasy_team,opponent,team_score,opponent_score,actual_win,actual_loss
 2026,5,Uncle Rico,Pop Lockett Drop it,90.92,125.04,0.0,1.0,0.0,0.0,-34.120000000000005,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,4,False,False,False,False,,
 2026,5,malle_dips_pouches,The Big Gronkowski,142.92,148.86,0.0,1.0,0.0,0.0,-5.940000000000026,9,2,0,0.8181818181818182,-0.8181818181818182,3,True,False,1,True,False,False,True,,0.0
 2026,5,Post Mahomes,ThreatLevelMidnight,110.6,106.1,1.0,0.0,0.0,1.0,4.5,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,9,False,False,True,True,1.0,1.0
+2026,6,Ginger FC 🏆🏆,Patty Primetimes,104.18,100.4,1.0,0.0,0.0,1.0,3.780000000000001,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,8,False,False,True,True,1.0,1.0
+2026,6,Joe Mantegna,Post Mahomes,116.24,61.78,1.0,0.0,0.0,1.0,54.459999999999994,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,11,False,True,False,False,,
+2026,6,Malle ❤️ 🐸,Buttermilk Puuump,106.66,78.32,1.0,0.0,0.0,1.0,28.340000000000003,6,5,0,0.5454545454545454,0.4545454545454546,6,False,False,10,False,True,False,False,,
+2026,6,The Big Gronkowski,Uncle Rico,133.7,111.88,1.0,0.0,0.0,1.0,21.819999999999993,11,0,0,1.0,0.0,1,True,False,4,False,False,False,False,,
+2026,6,ThreatLevelMidnight,Pop Lockett Drop it,110.62,125.84,0.0,1.0,0.0,0.0,-15.219999999999999,7,4,0,0.6363636363636364,-0.6363636363636364,5,False,False,2,True,False,False,False,,
+2026,6,Voldemort,malle_dips_pouches,86.66,45.8,1.0,0.0,0.0,1.0,40.86,3,8,0,0.2727272727272727,0.7272727272727273,9,False,False,12,False,True,False,False,,
+2026,6,Patty Primetimes,Ginger FC 🏆🏆,100.4,104.18,0.0,1.0,0.0,0.0,-3.780000000000001,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,7,False,False,True,True,0.0,0.0
+2026,6,Post Mahomes,Joe Mantegna,61.78,116.24,0.0,1.0,0.0,0.0,-54.459999999999994,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,3,True,False,False,False,,
+2026,6,Buttermilk Puuump,Malle ❤️ 🐸,78.32,106.66,0.0,1.0,0.0,0.0,-28.340000000000003,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,6,False,False,False,False,,
+2026,6,Uncle Rico,The Big Gronkowski,111.88,133.7,0.0,1.0,0.0,0.0,-21.819999999999993,8,3,0,0.7272727272727273,-0.7272727272727273,4,False,False,1,True,False,False,False,,
+2026,6,Pop Lockett Drop it,ThreatLevelMidnight,125.84,110.62,1.0,0.0,0.0,1.0,15.219999999999999,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,5,False,False,False,False,,
+2026,6,malle_dips_pouches,Voldemort,45.8,86.66,0.0,1.0,0.0,0.0,-40.86,0,11,0,0.0,0.0,12,False,True,9,False,False,False,False,,

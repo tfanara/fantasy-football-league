@@ -1,0 +1,1758 @@
+{
+  "schema_version": 4,
+  "season": 2026,
+  "week": 6,
+  "editorial_guardrail": "AI may add satire, but factual claims must be supported by this packet. Predictions and opinions must be clearly labeled.",
+  "week_summary": {
+    "highest_scoring_team": {
+      "team": "The Big Gronkowski",
+      "points": 133.7
+    },
+    "lowest_scoring_team": {
+      "team": "malle_dips_pouches",
+      "points": 45.8
+    },
+    "closest_game": {
+      "winner": "Ginger FC 🏆🏆",
+      "loser": "Patty Primetimes",
+      "winner_score": 104.18,
+      "loser_score": 100.4,
+      "margin": 3.78,
+      "historical_h2h_before_game": {
+        "team": "Ginger FC 🏆🏆",
+        "opponent": "Patty Primetimes",
+        "games": 9,
+        "wins": 1,
+        "losses": 8,
+        "ties": 0,
+        "record": "1-8-0",
+        "points_for": 899.28,
+        "points_against": 1037.5
+      }
+    },
+    "biggest_blowout": {
+      "winner": "Joe Mantegna",
+      "loser": "Post Mahomes",
+      "winner_score": 116.24,
+      "loser_score": 61.78,
+      "margin": 54.46,
+      "historical_h2h_before_game": {
+        "team": "Joe Mantegna",
+        "opponent": "Post Mahomes",
+        "games": 11,
+        "wins": 7,
+        "losses": 4,
+        "ties": 0,
+        "record": "7-4-0",
+        "points_for": 1180.46,
+        "points_against": 1140.12
+      }
+    }
+  },
+  "matchups": [
+    {
+      "winner": "Ginger FC 🏆🏆",
+      "loser": "Patty Primetimes",
+      "winner_score": 104.18,
+      "loser_score": 100.4,
+      "margin": 3.78,
+      "historical_h2h_before_game": {
+        "team": "Ginger FC 🏆🏆",
+        "opponent": "Patty Primetimes",
+        "games": 9,
+        "wins": 1,
+        "losses": 8,
+        "ties": 0,
+        "record": "1-8-0",
+        "points_for": 899.28,
+        "points_against": 1037.5
+      }
+    },
+    {
+      "winner": "Pop Lockett Drop it",
+      "loser": "ThreatLevelMidnight",
+      "winner_score": 125.84,
+      "loser_score": 110.62,
+      "margin": 15.22,
+      "historical_h2h_before_game": {
+        "team": "Pop Lockett Drop it",
+        "opponent": "ThreatLevelMidnight",
+        "games": 9,
+        "wins": 4,
+        "losses": 5,
+        "ties": 0,
+        "record": "4-5-0",
+        "points_for": 921.86,
+        "points_against": 963.76
+      }
+    },
+    {
+      "winner": "The Big Gronkowski",
+      "loser": "Uncle Rico",
+      "winner_score": 133.7,
+      "loser_score": 111.88,
+      "margin": 21.82,
+      "historical_h2h_before_game": {
+        "team": "The Big Gronkowski",
+        "opponent": "Uncle Rico",
+        "games": 8,
+        "wins": 5,
+        "losses": 3,
+        "ties": 0,
+        "record": "5-3-0",
+        "points_for": 872.94,
+        "points_against": 828.04
+      }
+    },
+    {
+      "winner": "Malle ❤️ 🐸",
+      "loser": "Buttermilk Puuump",
+      "winner_score": 106.66,
+      "loser_score": 78.32,
+      "margin": 28.34,
+      "historical_h2h_before_game": {
+        "team": "Malle ❤️ 🐸",
+        "opponent": "Buttermilk Puuump",
+        "games": 4,
+        "wins": 3,
+        "losses": 1,
+        "ties": 0,
+        "record": "3-1-0",
+        "points_for": 452.5,
+        "points_against": 408.54
+      }
+    },
+    {
+      "winner": "Voldemort",
+      "loser": "malle_dips_pouches",
+      "winner_score": 86.66,
+      "loser_score": 45.8,
+      "margin": 40.86,
+      "historical_h2h_before_game": {
+        "team": "Voldemort",
+        "opponent": "malle_dips_pouches",
+        "games": 12,
+        "wins": 8,
+        "losses": 4,
+        "ties": 0,
+        "record": "8-4-0",
+        "points_for": 1316.78,
+        "points_against": 1194.08
+      }
+    },
+    {
+      "winner": "Joe Mantegna",
+      "loser": "Post Mahomes",
+      "winner_score": 116.24,
+      "loser_score": 61.78,
+      "margin": 54.46,
+      "historical_h2h_before_game": {
+        "team": "Joe Mantegna",
+        "opponent": "Post Mahomes",
+        "games": 11,
+        "wins": 7,
+        "losses": 4,
+        "ties": 0,
+        "record": "7-4-0",
+        "points_for": 1180.46,
+        "points_against": 1140.12
+      }
+    }
+  ],
+  "player_facts": {
+    "available": false,
+    "reason": "Weekly lineup master contains no validated starters for this week.",
+    "top_starters": [],
+    "position_leaders": []
+  },
+  "bad_beats": {
+    "available": true,
+    "bad_beats": [
+      {
+        "team": "Uncle Rico",
+        "opponent": "The Big Gronkowski",
+        "score": 111.88,
+        "opponent_score": 133.7,
+        "margin": -21.82,
+        "weekly_score_rank": 4,
+        "expected_win_rate": 0.7273,
+        "all_play_wins": 8,
+        "all_play_losses": 3,
+        "severity": "bad_beat"
+      },
+      {
+        "team": "ThreatLevelMidnight",
+        "opponent": "Pop Lockett Drop it",
+        "score": 110.62,
+        "opponent_score": 125.84,
+        "margin": -15.22,
+        "weekly_score_rank": 5,
+        "expected_win_rate": 0.6364,
+        "all_play_wins": 7,
+        "all_play_losses": 4,
+        "severity": "bad_beat"
+      }
+    ],
+    "lucky_wins": [
+      {
+        "team": "Voldemort",
+        "opponent": "malle_dips_pouches",
+        "score": 86.66,
+        "opponent_score": 45.8,
+        "margin": 40.86,
+        "weekly_score_rank": 9,
+        "expected_win_rate": 0.2727,
+        "all_play_wins": 3,
+        "all_play_losses": 8,
+        "severity": "lucky"
+      },
+      {
+        "team": "Ginger FC 🏆🏆",
+        "opponent": "Patty Primetimes",
+        "score": 104.18,
+        "opponent_score": 100.4,
+        "margin": 3.78,
+        "weekly_score_rank": 7,
+        "expected_win_rate": 0.4545,
+        "all_play_wins": 5,
+        "all_play_losses": 6,
+        "severity": "lucky"
+      }
+    ]
+  },
+  "managerial_decisions": {
+    "available": true,
+    "worst_decision_week": {
+      "team": "Voldemort",
+      "opponent": "malle_dips_pouches",
+      "actual_score": 86.66,
+      "optimal_score": 112.8,
+      "points_left_on_bench": 26.14,
+      "lineup_efficiency_pct": 76.83,
+      "avoidable_start_count": 2,
+      "missed_start_count": 2,
+      "should_have_benched": "Brock Purdy (QB) | Juwan Johnson (TE)",
+      "should_have_started": "Jayden Daniels (QB) | Kyle Pitts Sr. (TE)"
+    },
+    "decisions": [
+      {
+        "team": "Voldemort",
+        "opponent": "malle_dips_pouches",
+        "actual_score": 86.66,
+        "optimal_score": 112.8,
+        "points_left_on_bench": 26.14,
+        "lineup_efficiency_pct": 76.83,
+        "avoidable_start_count": 2,
+        "missed_start_count": 2,
+        "should_have_benched": "Brock Purdy (QB) | Juwan Johnson (TE)",
+        "should_have_started": "Jayden Daniels (QB) | Kyle Pitts Sr. (TE)"
+      },
+      {
+        "team": "Patty Primetimes",
+        "opponent": "Ginger FC 🏆🏆",
+        "actual_score": 100.4,
+        "optimal_score": 125.6,
+        "points_left_on_bench": 25.2,
+        "lineup_efficiency_pct": 79.94,
+        "avoidable_start_count": 2,
+        "missed_start_count": 2,
+        "should_have_benched": "Courtland Sutton (WR) | Josh Downs (WR)",
+        "should_have_started": "Keon Coleman (WR) | Isaiah Likely (TE)"
+      },
+      {
+        "team": "Buttermilk Puuump",
+        "opponent": "Malle ❤️ 🐸",
+        "actual_score": 78.32,
+        "optimal_score": 97.82,
+        "points_left_on_bench": 19.5,
+        "lineup_efficiency_pct": 80.07,
+        "avoidable_start_count": 2,
+        "missed_start_count": 2,
+        "should_have_benched": "Mark Andrews (TE) | Terry McLaurin (WR)",
+        "should_have_started": "Jakobi Meyers (WR) | Hunter Henry (TE)"
+      },
+      {
+        "team": "Post Mahomes",
+        "opponent": "Joe Mantegna",
+        "actual_score": 61.78,
+        "optimal_score": 75.58,
+        "points_left_on_bench": 13.8,
+        "lineup_efficiency_pct": 81.74,
+        "avoidable_start_count": 2,
+        "missed_start_count": 2,
+        "should_have_benched": "Cam Skattebo (RB) | A.J. Brown (WR)",
+        "should_have_started": "Marvin Harrison Jr. (WR) | RJ Harvey (RB)"
+      },
+      {
+        "team": "malle_dips_pouches",
+        "opponent": "Voldemort",
+        "actual_score": 45.8,
+        "optimal_score": 59.5,
+        "points_left_on_bench": 13.7,
+        "lineup_efficiency_pct": 76.97,
+        "avoidable_start_count": 3,
+        "missed_start_count": 3,
+        "should_have_benched": "Jahmyr Gibbs (RB) | Tucker Kraft (TE) | Michael Wilson (WR)",
+        "should_have_started": "Jalen Coker (WR) | Mike Washington Jr. (RB) | Brenton Strange (TE)"
+      },
+      {
+        "team": "Malle ❤️ 🐸",
+        "opponent": "Buttermilk Puuump",
+        "actual_score": 106.66,
+        "optimal_score": 116.66,
+        "points_left_on_bench": 10.0,
+        "lineup_efficiency_pct": 91.43,
+        "avoidable_start_count": 2,
+        "missed_start_count": 2,
+        "should_have_benched": "Travis Kelce (TE) | Davante Adams (WR)",
+        "should_have_started": "Rashid Shaheed (WR) | Stefon Diggs (WR)"
+      },
+      {
+        "team": "Uncle Rico",
+        "opponent": "The Big Gronkowski",
+        "actual_score": 111.88,
+        "optimal_score": 119.48,
+        "points_left_on_bench": 7.6,
+        "lineup_efficiency_pct": 93.64,
+        "avoidable_start_count": 1,
+        "missed_start_count": 1,
+        "should_have_benched": "Rome Odunze (WR)",
+        "should_have_started": "Blake Corum (RB)"
+      },
+      {
+        "team": "The Big Gronkowski",
+        "opponent": "Uncle Rico",
+        "actual_score": 133.7,
+        "optimal_score": 141.0,
+        "points_left_on_bench": 7.3,
+        "lineup_efficiency_pct": 94.82,
+        "avoidable_start_count": 2,
+        "missed_start_count": 2,
+        "should_have_benched": "Spencer Shrader (K) | CeeDee Lamb (WR)",
+        "should_have_started": "DK Metcalf (WR) | Harrison Butker (K)"
+      },
+      {
+        "team": "Pop Lockett Drop it",
+        "opponent": "ThreatLevelMidnight",
+        "actual_score": 125.84,
+        "optimal_score": 130.94,
+        "points_left_on_bench": 5.1,
+        "lineup_efficiency_pct": 96.11,
+        "avoidable_start_count": 2,
+        "missed_start_count": 2,
+        "should_have_benched": "Woody Marks (RB) | Christian Watson (WR)",
+        "should_have_started": "Romeo Doubs (WR) | Khalil Shakir (WR)"
+      },
+      {
+        "team": "Ginger FC 🏆🏆",
+        "opponent": "Patty Primetimes",
+        "actual_score": 104.18,
+        "optimal_score": 104.18,
+        "points_left_on_bench": 0.0,
+        "lineup_efficiency_pct": 100.0,
+        "avoidable_start_count": 0,
+        "missed_start_count": 0,
+        "should_have_benched": null,
+        "should_have_started": null
+      },
+      {
+        "team": "Joe Mantegna",
+        "opponent": "Post Mahomes",
+        "actual_score": 116.24,
+        "optimal_score": 116.24,
+        "points_left_on_bench": 0.0,
+        "lineup_efficiency_pct": 100.0,
+        "avoidable_start_count": 0,
+        "missed_start_count": 0,
+        "should_have_benched": null,
+        "should_have_started": null
+      },
+      {
+        "team": "ThreatLevelMidnight",
+        "opponent": "Pop Lockett Drop it",
+        "actual_score": 110.62,
+        "optimal_score": 110.62,
+        "points_left_on_bench": 0.0,
+        "lineup_efficiency_pct": 100.0,
+        "avoidable_start_count": 0,
+        "missed_start_count": 0,
+        "should_have_benched": null,
+        "should_have_started": null
+      }
+    ]
+  },
+  "recent_transactions": {
+    "available": true,
+    "as_of": "2026-10-13T03:59:59+00:00",
+    "as_of_et": "2026-10-12T23:59:59-04:00",
+    "transactions": [
+      {
+        "transaction_id": 15,
+        "date": "2026-09-04T07:16:42+00:00",
+        "team": "malle_dips_pouches",
+        "transaction_type": "add",
+        "added_player": "Tank Dell",
+        "acquisition_type": "waiver",
+        "dropped_player": null
+      },
+      {
+        "transaction_id": 16,
+        "date": "2026-09-04T15:59:41+00:00",
+        "team": "ThreatLevelMidnight",
+        "transaction_type": "add",
+        "added_player": "Tre Tucker",
+        "acquisition_type": "free_agent",
+        "dropped_player": null
+      },
+      {
+        "transaction_id": 17,
+        "date": "2026-09-07T14:29:46+00:00",
+        "team": "Joe Mantegna",
+        "transaction_type": "add/drop",
+        "added_player": "Dontayvion Wicks",
+        "acquisition_type": "free_agent",
+        "dropped_player": "Kyler Murray"
+      },
+      {
+        "transaction_id": 18,
+        "date": "2026-09-08T11:22:22+00:00",
+        "team": "Voldemort",
+        "transaction_type": "add",
+        "added_player": "Jalen Nailor",
+        "acquisition_type": "free_agent",
+        "dropped_player": null
+      },
+      {
+        "transaction_id": 19,
+        "date": "2026-09-08T14:43:22+00:00",
+        "team": "ThreatLevelMidnight",
+        "transaction_type": "add/drop",
+        "added_player": "Kaelon Black",
+        "acquisition_type": "free_agent",
+        "dropped_player": "Ray Davis"
+      },
+      {
+        "transaction_id": 20,
+        "date": "2026-09-15T14:00:01+00:00",
+        "team": "Post Mahomes",
+        "transaction_type": "drop",
+        "added_player": null,
+        "acquisition_type": null,
+        "dropped_player": "Dylan Sampson"
+      },
+      {
+        "transaction_id": 21,
+        "date": "2026-09-16T08:34:32+00:00",
+        "team": "Pop Lockett Drop it",
+        "transaction_type": "add/drop",
+        "added_player": "Buccaneers",
+        "acquisition_type": "waiver",
+        "dropped_player": "Lions"
+      },
+      {
+        "transaction_id": 22,
+        "date": "2026-09-16T13:32:45+00:00",
+        "team": "ThreatLevelMidnight",
+        "transaction_type": "add/drop",
+        "added_player": "49ers",
+        "acquisition_type": "free_agent",
+        "dropped_player": "Chargers"
+      },
+      {
+        "transaction_id": 23,
+        "date": "2026-09-16T13:54:36+00:00",
+        "team": "Post Mahomes",
+        "transaction_type": "add",
+        "added_player": "Devaughn Vele",
+        "acquisition_type": "free_agent",
+        "dropped_player": null
+      },
+      {
+        "transaction_id": 24,
+        "date": "2026-09-16T13:57:41+00:00",
+        "team": "Post Mahomes",
+        "transaction_type": "add",
+        "added_player": "Mike Gesicki",
+        "acquisition_type": "free_agent",
+        "dropped_player": null
+      },
+      {
+        "transaction_id": 25,
+        "date": "2026-09-18T03:29:45+00:00",
+        "team": "Ginger FC 🏆🏆",
+        "transaction_type": "add",
+        "added_player": "C.J. Stroud",
+        "acquisition_type": "free_agent",
+        "dropped_player": null
+      },
+      {
+        "transaction_id": 26,
+        "date": "2026-09-23T07:27:35+00:00",
+        "team": "Post Mahomes",
+        "transaction_type": "add/drop",
+        "added_player": "Adonai Mitchell",
+        "acquisition_type": "free_agent",
+        "dropped_player": "Mike Gesicki"
+      },
+      {
+        "transaction_id": 27,
+        "date": "2026-09-23T07:28:04+00:00",
+        "team": "Post Mahomes",
+        "transaction_type": "add/drop",
+        "added_player": "Tyquan Thornton",
+        "acquisition_type": "free_agent",
+        "dropped_player": "Cyrus Allen"
+      },
+      {
+        "transaction_id": 28,
+        "date": "2026-09-23T08:40:53+00:00",
+        "team": "Pop Lockett Drop it",
+        "transaction_type": "add",
+        "added_player": "Bryce Young",
+        "acquisition_type": "waiver",
+        "dropped_player": null
+      },
+      {
+        "transaction_id": 29,
+        "date": "2026-09-24T01:37:29+00:00",
+        "team": "Joe Mantegna",
+        "transaction_type": "add/drop",
+        "added_player": "Chiefs",
+        "acquisition_type": "free_agent",
+        "dropped_player": "Patriots"
+      },
+      {
+        "transaction_id": 30,
+        "date": "2026-09-24T18:18:46+00:00",
+        "team": "Post Mahomes",
+        "transaction_type": "add/drop",
+        "added_player": "Emanuel Wilson",
+        "acquisition_type": "free_agent",
+        "dropped_player": "Tyquan Thornton"
+      },
+      {
+        "transaction_id": 31,
+        "date": "2026-09-24T20:43:34+00:00",
+        "team": "Uncle Rico",
+        "transaction_type": "add",
+        "added_player": "Rashod Bateman",
+        "acquisition_type": "free_agent",
+        "dropped_player": null
+      },
+      {
+        "transaction_id": 32,
+        "date": "2026-09-24T20:44:11+00:00",
+        "team": "Uncle Rico",
+        "transaction_type": "add/drop",
+        "added_player": "Lions",
+        "acquisition_type": "free_agent",
+        "dropped_player": "Steelers"
+      },
+      {
+        "transaction_id": 33,
+        "date": "2026-09-25T00:51:31+00:00",
+        "team": "Pop Lockett Drop it",
+        "transaction_type": "add/drop",
+        "added_player": "Panthers",
+        "acquisition_type": "free_agent",
+        "dropped_player": "Buccaneers"
+      },
+      {
+        "transaction_id": 34,
+        "date": "2026-09-30T07:59:48+00:00",
+        "team": "Uncle Rico",
+        "transaction_type": "add/drop",
+        "added_player": "Braelon Allen",
+        "acquisition_type": "waiver",
+        "dropped_player": "Terrance Ferguson"
+      },
+      {
+        "transaction_id": 35,
+        "date": "2026-09-30T07:59:48+00:00",
+        "team": "Post Mahomes",
+        "transaction_type": "add/drop",
+        "added_player": "Ollie Gordon II",
+        "acquisition_type": "waiver",
+        "dropped_player": "Emanuel Wilson"
+      },
+      {
+        "transaction_id": 36,
+        "date": "2026-09-30T07:59:48+00:00",
+        "team": "ThreatLevelMidnight",
+        "transaction_type": "add/drop",
+        "added_player": "Kenyon Sadiq",
+        "acquisition_type": "waiver",
+        "dropped_player": "Chris Rodriguez Jr."
+      },
+      {
+        "transaction_id": 37,
+        "date": "2026-09-30T07:59:48+00:00",
+        "team": "Uncle Rico",
+        "transaction_type": "add/drop",
+        "added_player": "Keenan Allen",
+        "acquisition_type": "waiver",
+        "dropped_player": "KC Concepcion Jr."
+      },
+      {
+        "transaction_id": 38,
+        "date": "2026-09-30T07:59:48+00:00",
+        "team": "ThreatLevelMidnight",
+        "transaction_type": "add/drop",
+        "added_player": "Kalif Raymond",
+        "acquisition_type": "waiver",
+        "dropped_player": "Jayden Reed"
+      },
+      {
+        "transaction_id": 41,
+        "date": "2026-09-30T11:19:51+00:00",
+        "team": "ThreatLevelMidnight",
+        "transaction_type": "add/drop",
+        "added_player": "Steelers",
+        "acquisition_type": "free_agent",
+        "dropped_player": "49ers"
+      },
+      {
+        "transaction_id": 42,
+        "date": "2026-09-30T11:51:29+00:00",
+        "team": "Uncle Rico",
+        "transaction_type": "add/drop",
+        "added_player": "Bears",
+        "acquisition_type": "free_agent",
+        "dropped_player": "Lions"
+      },
+      {
+        "transaction_id": 43,
+        "date": "2026-09-30T12:32:56+00:00",
+        "team": "Post Mahomes",
+        "transaction_type": "add/drop",
+        "added_player": "Alvin Kamara",
+        "acquisition_type": "free_agent",
+        "dropped_player": "Kenny Gainwell"
+      },
+      {
+        "transaction_id": 44,
+        "date": "2026-10-01T17:20:06+00:00",
+        "team": "Voldemort",
+        "transaction_type": "add/drop",
+        "added_player": "Bills",
+        "acquisition_type": "free_agent",
+        "dropped_player": "Eagles"
+      },
+      {
+        "transaction_id": 45,
+        "date": "2026-10-01T19:39:08+00:00",
+        "team": "ThreatLevelMidnight",
+        "transaction_type": "add/drop",
+        "added_player": "Tyler Shough",
+        "acquisition_type": "free_agent",
+        "dropped_player": "Tre Tucker"
+      },
+      {
+        "transaction_id": 46,
+        "date": "2026-10-01T21:00:37+00:00",
+        "team": "Pop Lockett Drop it",
+        "transaction_type": "add/drop",
+        "added_player": "Packers",
+        "acquisition_type": "free_agent",
+        "dropped_player": "Panthers"
+      },
+      {
+        "transaction_id": 47,
+        "date": "2026-10-01T23:54:34+00:00",
+        "team": "Buttermilk Puuump",
+        "transaction_type": "add/drop",
+        "added_player": "Isaiah Davis",
+        "acquisition_type": "free_agent",
+        "dropped_player": "Alec Pierce"
+      },
+      {
+        "transaction_id": 48,
+        "date": "2026-10-03T07:33:30+00:00",
+        "team": "Buttermilk Puuump",
+        "transaction_type": "add/drop",
+        "added_player": "Kenny Gainwell",
+        "acquisition_type": "waiver",
+        "dropped_player": "De'Von Achane"
+      },
+      {
+        "transaction_id": 49,
+        "date": "2026-10-04T13:38:50+00:00",
+        "team": "Joe Mantegna",
+        "transaction_type": "add/drop",
+        "added_player": "Emanuel Wilson",
+        "acquisition_type": "free_agent",
+        "dropped_player": "Dalton Schultz"
+      },
+      {
+        "transaction_id": 50,
+        "date": "2026-10-06T16:36:42+00:00",
+        "team": "Post Mahomes",
+        "transaction_type": "drop",
+        "added_player": null,
+        "acquisition_type": null,
+        "dropped_player": "Adonai Mitchell"
+      },
+      {
+        "transaction_id": 51,
+        "date": "2026-10-07T07:58:31+00:00",
+        "team": "Pop Lockett Drop it",
+        "transaction_type": "add/drop",
+        "added_player": "KC Concepcion Jr.",
+        "acquisition_type": "waiver",
+        "dropped_player": "Kayshon Boutte"
+      },
+      {
+        "transaction_id": 52,
+        "date": "2026-10-07T07:58:31+00:00",
+        "team": "Uncle Rico",
+        "transaction_type": "add/drop",
+        "added_player": "Tyreek Hill",
+        "acquisition_type": "waiver",
+        "dropped_player": "Rashod Bateman"
+      },
+      {
+        "transaction_id": 53,
+        "date": "2026-10-07T07:58:31+00:00",
+        "team": "ThreatLevelMidnight",
+        "transaction_type": "add/drop",
+        "added_player": "Jacoby Brissett",
+        "acquisition_type": "waiver",
+        "dropped_player": "Tyler Shough"
+      },
+      {
+        "transaction_id": 54,
+        "date": "2026-10-07T07:58:31+00:00",
+        "team": "ThreatLevelMidnight",
+        "transaction_type": "add/drop",
+        "added_player": "Dohnte Meyers",
+        "acquisition_type": "waiver",
+        "dropped_player": "Kalif Raymond"
+      },
+      {
+        "transaction_id": 58,
+        "date": "2026-10-07T10:32:10+00:00",
+        "team": "Joe Mantegna",
+        "transaction_type": "add/drop",
+        "added_player": "Bengals",
+        "acquisition_type": "free_agent",
+        "dropped_player": "Chiefs"
+      },
+      {
+        "transaction_id": 59,
+        "date": "2026-10-07T10:33:22+00:00",
+        "team": "Joe Mantegna",
+        "transaction_type": "add",
+        "added_player": "Will Shipley",
+        "acquisition_type": "free_agent",
+        "dropped_player": null
+      },
+      {
+        "transaction_id": 60,
+        "date": "2026-10-07T13:57:10+00:00",
+        "team": "Patty Primetimes",
+        "transaction_type": "add/drop",
+        "added_player": "Keon Coleman",
+        "acquisition_type": "free_agent",
+        "dropped_player": "Baker Mayfield"
+      },
+      {
+        "transaction_id": 61,
+        "date": "2026-10-07T14:26:10+00:00",
+        "team": "ThreatLevelMidnight",
+        "transaction_type": "add/drop",
+        "added_player": "Brian Robinson Jr.",
+        "acquisition_type": "free_agent",
+        "dropped_player": "Dohnte Meyers"
+      },
+      {
+        "transaction_id": 62,
+        "date": "2026-10-07T15:32:13+00:00",
+        "team": "Pop Lockett Drop it",
+        "transaction_type": "add/drop",
+        "added_player": "Cowboys",
+        "acquisition_type": "free_agent",
+        "dropped_player": "Packers"
+      },
+      {
+        "transaction_id": 63,
+        "date": "2026-10-08T17:48:10+00:00",
+        "team": "Post Mahomes",
+        "transaction_type": "add",
+        "added_player": "Aaron Rodgers",
+        "acquisition_type": "free_agent",
+        "dropped_player": null
+      },
+      {
+        "transaction_id": 64,
+        "date": "2026-10-08T20:45:41+00:00",
+        "team": "The Big Gronkowski",
+        "transaction_type": "add/drop",
+        "added_player": "Spencer Shrader",
+        "acquisition_type": "free_agent",
+        "dropped_player": "Travis Etienne Jr."
+      },
+      {
+        "transaction_id": 65,
+        "date": "2026-10-09T00:59:39+00:00",
+        "team": "Post Mahomes",
+        "transaction_type": "add/drop",
+        "added_player": "Malik Washington",
+        "acquisition_type": "free_agent",
+        "dropped_player": "Alvin Kamara"
+      },
+      {
+        "transaction_id": 66,
+        "date": "2026-10-11T07:16:17+00:00",
+        "team": "Voldemort",
+        "transaction_type": "add/drop",
+        "added_player": "Alvin Kamara",
+        "acquisition_type": "waiver",
+        "dropped_player": "Jalen Nailor"
+      },
+      {
+        "transaction_id": 67,
+        "date": "2026-10-11T15:24:02+00:00",
+        "team": "Buttermilk Puuump",
+        "transaction_type": "add/drop",
+        "added_player": "Kaleb Johnson",
+        "acquisition_type": "free_agent",
+        "dropped_player": "Isaiah Davis"
+      },
+      {
+        "transaction_id": 68,
+        "date": "2026-10-11T15:53:04+00:00",
+        "team": "ThreatLevelMidnight",
+        "transaction_type": "add/drop",
+        "added_player": "Tre' Harris",
+        "acquisition_type": "free_agent",
+        "dropped_player": "Kenyon Sadiq"
+      }
+    ],
+    "team_transactions": {
+      "malle_dips_pouches": [
+        {
+          "transaction_id": 15,
+          "date": "2026-09-04T07:16:42+00:00",
+          "team": "malle_dips_pouches",
+          "transaction_type": "add",
+          "added_player": "Tank Dell",
+          "acquisition_type": "waiver",
+          "dropped_player": null
+        }
+      ],
+      "ThreatLevelMidnight": [
+        {
+          "transaction_id": 16,
+          "date": "2026-09-04T15:59:41+00:00",
+          "team": "ThreatLevelMidnight",
+          "transaction_type": "add",
+          "added_player": "Tre Tucker",
+          "acquisition_type": "free_agent",
+          "dropped_player": null
+        },
+        {
+          "transaction_id": 19,
+          "date": "2026-09-08T14:43:22+00:00",
+          "team": "ThreatLevelMidnight",
+          "transaction_type": "add/drop",
+          "added_player": "Kaelon Black",
+          "acquisition_type": "free_agent",
+          "dropped_player": "Ray Davis"
+        },
+        {
+          "transaction_id": 22,
+          "date": "2026-09-16T13:32:45+00:00",
+          "team": "ThreatLevelMidnight",
+          "transaction_type": "add/drop",
+          "added_player": "49ers",
+          "acquisition_type": "free_agent",
+          "dropped_player": "Chargers"
+        },
+        {
+          "transaction_id": 36,
+          "date": "2026-09-30T07:59:48+00:00",
+          "team": "ThreatLevelMidnight",
+          "transaction_type": "add/drop",
+          "added_player": "Kenyon Sadiq",
+          "acquisition_type": "waiver",
+          "dropped_player": "Chris Rodriguez Jr."
+        },
+        {
+          "transaction_id": 38,
+          "date": "2026-09-30T07:59:48+00:00",
+          "team": "ThreatLevelMidnight",
+          "transaction_type": "add/drop",
+          "added_player": "Kalif Raymond",
+          "acquisition_type": "waiver",
+          "dropped_player": "Jayden Reed"
+        },
+        {
+          "transaction_id": 41,
+          "date": "2026-09-30T11:19:51+00:00",
+          "team": "ThreatLevelMidnight",
+          "transaction_type": "add/drop",
+          "added_player": "Steelers",
+          "acquisition_type": "free_agent",
+          "dropped_player": "49ers"
+        },
+        {
+          "transaction_id": 45,
+          "date": "2026-10-01T19:39:08+00:00",
+          "team": "ThreatLevelMidnight",
+          "transaction_type": "add/drop",
+          "added_player": "Tyler Shough",
+          "acquisition_type": "free_agent",
+          "dropped_player": "Tre Tucker"
+        },
+        {
+          "transaction_id": 53,
+          "date": "2026-10-07T07:58:31+00:00",
+          "team": "ThreatLevelMidnight",
+          "transaction_type": "add/drop",
+          "added_player": "Jacoby Brissett",
+          "acquisition_type": "waiver",
+          "dropped_player": "Tyler Shough"
+        },
+        {
+          "transaction_id": 54,
+          "date": "2026-10-07T07:58:31+00:00",
+          "team": "ThreatLevelMidnight",
+          "transaction_type": "add/drop",
+          "added_player": "Dohnte Meyers",
+          "acquisition_type": "waiver",
+          "dropped_player": "Kalif Raymond"
+        },
+        {
+          "transaction_id": 61,
+          "date": "2026-10-07T14:26:10+00:00",
+          "team": "ThreatLevelMidnight",
+          "transaction_type": "add/drop",
+          "added_player": "Brian Robinson Jr.",
+          "acquisition_type": "free_agent",
+          "dropped_player": "Dohnte Meyers"
+        },
+        {
+          "transaction_id": 68,
+          "date": "2026-10-11T15:53:04+00:00",
+          "team": "ThreatLevelMidnight",
+          "transaction_type": "add/drop",
+          "added_player": "Tre' Harris",
+          "acquisition_type": "free_agent",
+          "dropped_player": "Kenyon Sadiq"
+        }
+      ],
+      "Joe Mantegna": [
+        {
+          "transaction_id": 17,
+          "date": "2026-09-07T14:29:46+00:00",
+          "team": "Joe Mantegna",
+          "transaction_type": "add/drop",
+          "added_player": "Dontayvion Wicks",
+          "acquisition_type": "free_agent",
+          "dropped_player": "Kyler Murray"
+        },
+        {
+          "transaction_id": 29,
+          "date": "2026-09-24T01:37:29+00:00",
+          "team": "Joe Mantegna",
+          "transaction_type": "add/drop",
+          "added_player": "Chiefs",
+          "acquisition_type": "free_agent",
+          "dropped_player": "Patriots"
+        },
+        {
+          "transaction_id": 49,
+          "date": "2026-10-04T13:38:50+00:00",
+          "team": "Joe Mantegna",
+          "transaction_type": "add/drop",
+          "added_player": "Emanuel Wilson",
+          "acquisition_type": "free_agent",
+          "dropped_player": "Dalton Schultz"
+        },
+        {
+          "transaction_id": 58,
+          "date": "2026-10-07T10:32:10+00:00",
+          "team": "Joe Mantegna",
+          "transaction_type": "add/drop",
+          "added_player": "Bengals",
+          "acquisition_type": "free_agent",
+          "dropped_player": "Chiefs"
+        },
+        {
+          "transaction_id": 59,
+          "date": "2026-10-07T10:33:22+00:00",
+          "team": "Joe Mantegna",
+          "transaction_type": "add",
+          "added_player": "Will Shipley",
+          "acquisition_type": "free_agent",
+          "dropped_player": null
+        }
+      ],
+      "Voldemort": [
+        {
+          "transaction_id": 18,
+          "date": "2026-09-08T11:22:22+00:00",
+          "team": "Voldemort",
+          "transaction_type": "add",
+          "added_player": "Jalen Nailor",
+          "acquisition_type": "free_agent",
+          "dropped_player": null
+        },
+        {
+          "transaction_id": 44,
+          "date": "2026-10-01T17:20:06+00:00",
+          "team": "Voldemort",
+          "transaction_type": "add/drop",
+          "added_player": "Bills",
+          "acquisition_type": "free_agent",
+          "dropped_player": "Eagles"
+        },
+        {
+          "transaction_id": 66,
+          "date": "2026-10-11T07:16:17+00:00",
+          "team": "Voldemort",
+          "transaction_type": "add/drop",
+          "added_player": "Alvin Kamara",
+          "acquisition_type": "waiver",
+          "dropped_player": "Jalen Nailor"
+        }
+      ],
+      "Post Mahomes": [
+        {
+          "transaction_id": 20,
+          "date": "2026-09-15T14:00:01+00:00",
+          "team": "Post Mahomes",
+          "transaction_type": "drop",
+          "added_player": null,
+          "acquisition_type": null,
+          "dropped_player": "Dylan Sampson"
+        },
+        {
+          "transaction_id": 23,
+          "date": "2026-09-16T13:54:36+00:00",
+          "team": "Post Mahomes",
+          "transaction_type": "add",
+          "added_player": "Devaughn Vele",
+          "acquisition_type": "free_agent",
+          "dropped_player": null
+        },
+        {
+          "transaction_id": 24,
+          "date": "2026-09-16T13:57:41+00:00",
+          "team": "Post Mahomes",
+          "transaction_type": "add",
+          "added_player": "Mike Gesicki",
+          "acquisition_type": "free_agent",
+          "dropped_player": null
+        },
+        {
+          "transaction_id": 26,
+          "date": "2026-09-23T07:27:35+00:00",
+          "team": "Post Mahomes",
+          "transaction_type": "add/drop",
+          "added_player": "Adonai Mitchell",
+          "acquisition_type": "free_agent",
+          "dropped_player": "Mike Gesicki"
+        },
+        {
+          "transaction_id": 27,
+          "date": "2026-09-23T07:28:04+00:00",
+          "team": "Post Mahomes",
+          "transaction_type": "add/drop",
+          "added_player": "Tyquan Thornton",
+          "acquisition_type": "free_agent",
+          "dropped_player": "Cyrus Allen"
+        },
+        {
+          "transaction_id": 30,
+          "date": "2026-09-24T18:18:46+00:00",
+          "team": "Post Mahomes",
+          "transaction_type": "add/drop",
+          "added_player": "Emanuel Wilson",
+          "acquisition_type": "free_agent",
+          "dropped_player": "Tyquan Thornton"
+        },
+        {
+          "transaction_id": 35,
+          "date": "2026-09-30T07:59:48+00:00",
+          "team": "Post Mahomes",
+          "transaction_type": "add/drop",
+          "added_player": "Ollie Gordon II",
+          "acquisition_type": "waiver",
+          "dropped_player": "Emanuel Wilson"
+        },
+        {
+          "transaction_id": 43,
+          "date": "2026-09-30T12:32:56+00:00",
+          "team": "Post Mahomes",
+          "transaction_type": "add/drop",
+          "added_player": "Alvin Kamara",
+          "acquisition_type": "free_agent",
+          "dropped_player": "Kenny Gainwell"
+        },
+        {
+          "transaction_id": 50,
+          "date": "2026-10-06T16:36:42+00:00",
+          "team": "Post Mahomes",
+          "transaction_type": "drop",
+          "added_player": null,
+          "acquisition_type": null,
+          "dropped_player": "Adonai Mitchell"
+        },
+        {
+          "transaction_id": 63,
+          "date": "2026-10-08T17:48:10+00:00",
+          "team": "Post Mahomes",
+          "transaction_type": "add",
+          "added_player": "Aaron Rodgers",
+          "acquisition_type": "free_agent",
+          "dropped_player": null
+        },
+        {
+          "transaction_id": 65,
+          "date": "2026-10-09T00:59:39+00:00",
+          "team": "Post Mahomes",
+          "transaction_type": "add/drop",
+          "added_player": "Malik Washington",
+          "acquisition_type": "free_agent",
+          "dropped_player": "Alvin Kamara"
+        }
+      ],
+      "Pop Lockett Drop it": [
+        {
+          "transaction_id": 21,
+          "date": "2026-09-16T08:34:32+00:00",
+          "team": "Pop Lockett Drop it",
+          "transaction_type": "add/drop",
+          "added_player": "Buccaneers",
+          "acquisition_type": "waiver",
+          "dropped_player": "Lions"
+        },
+        {
+          "transaction_id": 28,
+          "date": "2026-09-23T08:40:53+00:00",
+          "team": "Pop Lockett Drop it",
+          "transaction_type": "add",
+          "added_player": "Bryce Young",
+          "acquisition_type": "waiver",
+          "dropped_player": null
+        },
+        {
+          "transaction_id": 33,
+          "date": "2026-09-25T00:51:31+00:00",
+          "team": "Pop Lockett Drop it",
+          "transaction_type": "add/drop",
+          "added_player": "Panthers",
+          "acquisition_type": "free_agent",
+          "dropped_player": "Buccaneers"
+        },
+        {
+          "transaction_id": 46,
+          "date": "2026-10-01T21:00:37+00:00",
+          "team": "Pop Lockett Drop it",
+          "transaction_type": "add/drop",
+          "added_player": "Packers",
+          "acquisition_type": "free_agent",
+          "dropped_player": "Panthers"
+        },
+        {
+          "transaction_id": 51,
+          "date": "2026-10-07T07:58:31+00:00",
+          "team": "Pop Lockett Drop it",
+          "transaction_type": "add/drop",
+          "added_player": "KC Concepcion Jr.",
+          "acquisition_type": "waiver",
+          "dropped_player": "Kayshon Boutte"
+        },
+        {
+          "transaction_id": 62,
+          "date": "2026-10-07T15:32:13+00:00",
+          "team": "Pop Lockett Drop it",
+          "transaction_type": "add/drop",
+          "added_player": "Cowboys",
+          "acquisition_type": "free_agent",
+          "dropped_player": "Packers"
+        }
+      ],
+      "Ginger FC 🏆🏆": [
+        {
+          "transaction_id": 25,
+          "date": "2026-09-18T03:29:45+00:00",
+          "team": "Ginger FC 🏆🏆",
+          "transaction_type": "add",
+          "added_player": "C.J. Stroud",
+          "acquisition_type": "free_agent",
+          "dropped_player": null
+        }
+      ],
+      "Uncle Rico": [
+        {
+          "transaction_id": 31,
+          "date": "2026-09-24T20:43:34+00:00",
+          "team": "Uncle Rico",
+          "transaction_type": "add",
+          "added_player": "Rashod Bateman",
+          "acquisition_type": "free_agent",
+          "dropped_player": null
+        },
+        {
+          "transaction_id": 32,
+          "date": "2026-09-24T20:44:11+00:00",
+          "team": "Uncle Rico",
+          "transaction_type": "add/drop",
+          "added_player": "Lions",
+          "acquisition_type": "free_agent",
+          "dropped_player": "Steelers"
+        },
+        {
+          "transaction_id": 34,
+          "date": "2026-09-30T07:59:48+00:00",
+          "team": "Uncle Rico",
+          "transaction_type": "add/drop",
+          "added_player": "Braelon Allen",
+          "acquisition_type": "waiver",
+          "dropped_player": "Terrance Ferguson"
+        },
+        {
+          "transaction_id": 37,
+          "date": "2026-09-30T07:59:48+00:00",
+          "team": "Uncle Rico",
+          "transaction_type": "add/drop",
+          "added_player": "Keenan Allen",
+          "acquisition_type": "waiver",
+          "dropped_player": "KC Concepcion Jr."
+        },
+        {
+          "transaction_id": 42,
+          "date": "2026-09-30T11:51:29+00:00",
+          "team": "Uncle Rico",
+          "transaction_type": "add/drop",
+          "added_player": "Bears",
+          "acquisition_type": "free_agent",
+          "dropped_player": "Lions"
+        },
+        {
+          "transaction_id": 52,
+          "date": "2026-10-07T07:58:31+00:00",
+          "team": "Uncle Rico",
+          "transaction_type": "add/drop",
+          "added_player": "Tyreek Hill",
+          "acquisition_type": "waiver",
+          "dropped_player": "Rashod Bateman"
+        }
+      ],
+      "Buttermilk Puuump": [
+        {
+          "transaction_id": 47,
+          "date": "2026-10-01T23:54:34+00:00",
+          "team": "Buttermilk Puuump",
+          "transaction_type": "add/drop",
+          "added_player": "Isaiah Davis",
+          "acquisition_type": "free_agent",
+          "dropped_player": "Alec Pierce"
+        },
+        {
+          "transaction_id": 48,
+          "date": "2026-10-03T07:33:30+00:00",
+          "team": "Buttermilk Puuump",
+          "transaction_type": "add/drop",
+          "added_player": "Kenny Gainwell",
+          "acquisition_type": "waiver",
+          "dropped_player": "De'Von Achane"
+        },
+        {
+          "transaction_id": 67,
+          "date": "2026-10-11T15:24:02+00:00",
+          "team": "Buttermilk Puuump",
+          "transaction_type": "add/drop",
+          "added_player": "Kaleb Johnson",
+          "acquisition_type": "free_agent",
+          "dropped_player": "Isaiah Davis"
+        }
+      ],
+      "Patty Primetimes": [
+        {
+          "transaction_id": 60,
+          "date": "2026-10-07T13:57:10+00:00",
+          "team": "Patty Primetimes",
+          "transaction_type": "add/drop",
+          "added_player": "Keon Coleman",
+          "acquisition_type": "free_agent",
+          "dropped_player": "Baker Mayfield"
+        }
+      ],
+      "The Big Gronkowski": [
+        {
+          "transaction_id": 64,
+          "date": "2026-10-08T20:45:41+00:00",
+          "team": "The Big Gronkowski",
+          "transaction_type": "add/drop",
+          "added_player": "Spencer Shrader",
+          "acquisition_type": "free_agent",
+          "dropped_player": "Travis Etienne Jr."
+        }
+      ]
+    }
+  },
+  "weekly_story_engine": {
+    "special_teams": [],
+    "acquisition_impact": [],
+    "lineup_anomalies": [],
+    "historical_rarity": [],
+    "compound_stories": [
+      {
+        "category": "manager_blew_game",
+        "importance": 10.0,
+        "evidence_type": "compound_derived_fact",
+        "team": "Patty Primetimes",
+        "opponent": "Ginger FC 🏆🏆",
+        "loss_margin": 3.78,
+        "optimization_gain": 25.2,
+        "points_left_on_bench": 25.2,
+        "would_have_won_by": 21.42,
+        "avoidable_start_count": 2,
+        "missed_start_count": 2,
+        "should_have_started": "Keon Coleman (WR) | Isaiah Likely (TE)",
+        "should_have_benched": "Courtland Sutton (WR) | Josh Downs (WR)",
+        "headline_fact": "Patty Primetimes lost to Ginger FC 🏆🏆 by 3.78 despite 25.20 points of validated lineup optimization being available, enough to flip the result into a 21.42-point win.",
+        "suppresses": [
+          "manager_caused_loss",
+          "bench_explosion",
+          "starter_dud"
+        ]
+      }
+    ],
+    "story_candidates": [
+      {
+        "category": "manager_blew_game",
+        "importance": 10.0,
+        "evidence_type": "compound_derived_fact",
+        "team": "Patty Primetimes",
+        "opponent": "Ginger FC 🏆🏆",
+        "loss_margin": 3.78,
+        "optimization_gain": 25.2,
+        "points_left_on_bench": 25.2,
+        "would_have_won_by": 21.42,
+        "avoidable_start_count": 2,
+        "missed_start_count": 2,
+        "should_have_started": "Keon Coleman (WR) | Isaiah Likely (TE)",
+        "should_have_benched": "Courtland Sutton (WR) | Josh Downs (WR)",
+        "headline_fact": "Patty Primetimes lost to Ginger FC 🏆🏆 by 3.78 despite 25.20 points of validated lineup optimization being available, enough to flip the result into a 21.42-point win.",
+        "suppresses": [
+          "manager_caused_loss",
+          "bench_explosion",
+          "starter_dud"
+        ],
+        "source_section": "compound_stories"
+      }
+    ]
+  },
+  "streaks_snapped": [
+    {
+      "team": "Voldemort",
+      "streak_type": "losing",
+      "length": 2
+    }
+  ],
+  "records_and_milestones": {
+    "records_broken": [],
+    "records_tied": [],
+    "near_records": [
+      {
+        "team": "malle_dips_pouches",
+        "opponent": "Voldemort",
+        "value": 45.8,
+        "record": "Lowest Single-Game Score",
+        "record_value": 43.9,
+        "distance": 1.9
+      }
+    ],
+    "career_milestones": [
+      {
+        "team": "Voldemort",
+        "milestone": "Career Wins",
+        "threshold": 75,
+        "current": 75.0
+      }
+    ]
+  },
+  "standings": [
+    {
+      "rank": 1.0,
+      "team": "Pop Lockett Drop it",
+      "record": "5-1-0",
+      "points_for": 775.82,
+      "points_against": 639.86,
+      "streak": "win",
+      "waiver": 12,
+      "moves": 7,
+      "year": 2026,
+      "league_id": 742546
+    },
+    {
+      "rank": 2.0,
+      "team": "Ginger FC 🏆🏆",
+      "record": "4-2-0",
+      "points_for": 707.44,
+      "points_against": 621.94,
+      "streak": "win",
+      "waiver": 10,
+      "moves": 2,
+      "year": 2026,
+      "league_id": 742546
+    },
+    {
+      "rank": 3.0,
+      "team": "The Big Gronkowski",
+      "record": "4-2-0",
+      "points_for": 703.06,
+      "points_against": 652.28,
+      "streak": "win",
+      "waiver": 1,
+      "moves": 2,
+      "year": 2026,
+      "league_id": 742546
+    },
+    {
+      "rank": 4.0,
+      "team": "ThreatLevelMidnight",
+      "record": "4-2-0",
+      "points_for": 697.56,
+      "points_against": 667.4,
+      "streak": "loss",
+      "waiver": 8,
+      "moves": 15,
+      "year": 2026,
+      "league_id": 742546
+    },
+    {
+      "rank": 5.0,
+      "team": "Joe Mantegna",
+      "record": "4-2-0",
+      "points_for": 688.92,
+      "points_against": 604.08,
+      "streak": "win",
+      "waiver": 3,
+      "moves": 7,
+      "year": 2026,
+      "league_id": 742546
+    },
+    {
+      "rank": 6.0,
+      "team": "Patty Primetimes",
+      "record": "3-3-0",
+      "points_for": 723.46,
+      "points_against": 715.82,
+      "streak": "loss",
+      "waiver": 4,
+      "moves": 2,
+      "year": 2026,
+      "league_id": 742546
+    },
+    {
+      "rank": 7.0,
+      "team": "malle_dips_pouches",
+      "record": "3-3-0",
+      "points_for": 721.38,
+      "points_against": 693.9,
+      "streak": "loss",
+      "waiver": 5,
+      "moves": 1,
+      "year": 2026,
+      "league_id": 742546
+    },
+    {
+      "rank": 8.0,
+      "team": "Malle ❤️ 🐸",
+      "record": "3-3-0",
+      "points_for": 701.98,
+      "points_against": 685.96,
+      "streak": "win",
+      "waiver": 2,
+      "moves": 3,
+      "year": 2026,
+      "league_id": 742546
+    },
+    {
+      "rank": 9.0,
+      "team": "Post Mahomes",
+      "record": "3-3-0",
+      "points_for": 598.36,
+      "points_against": 600.96,
+      "streak": "loss",
+      "waiver": 6,
+      "moves": 10,
+      "year": 2026,
+      "league_id": 742546
+    },
+    {
+      "rank": 10.0,
+      "team": "Voldemort",
+      "record": "2-4-0",
+      "points_for": 609.96,
+      "points_against": 699.4,
+      "streak": "win",
+      "waiver": 9,
+      "moves": 3,
+      "year": 2026,
+      "league_id": 742546
+    },
+    {
+      "rank": 11.0,
+      "team": "Uncle Rico",
+      "record": "1-5-0",
+      "points_for": 584.38,
+      "points_against": 789.98,
+      "streak": "loss",
+      "waiver": 7,
+      "moves": 6,
+      "year": 2026,
+      "league_id": 742546
+    },
+    {
+      "rank": 12.0,
+      "team": "Buttermilk Puuump",
+      "record": "0-6-0",
+      "points_for": 504.76,
+      "points_against": 645.5,
+      "streak": "loss",
+      "waiver": 11,
+      "moves": 5,
+      "year": 2026,
+      "league_id": 742546
+    }
+  ],
+  "season_team_context": [
+    {
+      "team": "Pop Lockett Drop it",
+      "wins": 5,
+      "losses": 1,
+      "ties": 0,
+      "points_for": 775.82,
+      "points_against": 639.86,
+      "point_diff": 135.96,
+      "win_pct": 0.8333
+    },
+    {
+      "team": "Ginger FC 🏆🏆",
+      "wins": 4,
+      "losses": 2,
+      "ties": 0,
+      "points_for": 707.44,
+      "points_against": 621.94,
+      "point_diff": 85.5,
+      "win_pct": 0.6667
+    },
+    {
+      "team": "The Big Gronkowski",
+      "wins": 4,
+      "losses": 2,
+      "ties": 0,
+      "points_for": 703.06,
+      "points_against": 652.28,
+      "point_diff": 50.78,
+      "win_pct": 0.6667
+    },
+    {
+      "team": "ThreatLevelMidnight",
+      "wins": 4,
+      "losses": 2,
+      "ties": 0,
+      "points_for": 697.56,
+      "points_against": 667.4,
+      "point_diff": 30.16,
+      "win_pct": 0.6667
+    },
+    {
+      "team": "Joe Mantegna",
+      "wins": 4,
+      "losses": 2,
+      "ties": 0,
+      "points_for": 688.92,
+      "points_against": 604.08,
+      "point_diff": 84.84,
+      "win_pct": 0.6667
+    },
+    {
+      "team": "Patty Primetimes",
+      "wins": 3,
+      "losses": 3,
+      "ties": 0,
+      "points_for": 723.46,
+      "points_against": 715.82,
+      "point_diff": 7.64,
+      "win_pct": 0.5
+    },
+    {
+      "team": "malle_dips_pouches",
+      "wins": 3,
+      "losses": 3,
+      "ties": 0,
+      "points_for": 721.38,
+      "points_against": 693.9,
+      "point_diff": 27.48,
+      "win_pct": 0.5
+    },
+    {
+      "team": "Malle ❤️ 🐸",
+      "wins": 3,
+      "losses": 3,
+      "ties": 0,
+      "points_for": 701.98,
+      "points_against": 685.96,
+      "point_diff": 16.02,
+      "win_pct": 0.5
+    },
+    {
+      "team": "Post Mahomes",
+      "wins": 3,
+      "losses": 3,
+      "ties": 0,
+      "points_for": 598.36,
+      "points_against": 600.96,
+      "point_diff": -2.6,
+      "win_pct": 0.5
+    },
+    {
+      "team": "Voldemort",
+      "wins": 2,
+      "losses": 4,
+      "ties": 0,
+      "points_for": 609.96,
+      "points_against": 699.4,
+      "point_diff": -89.44,
+      "win_pct": 0.3333
+    },
+    {
+      "team": "Uncle Rico",
+      "wins": 1,
+      "losses": 5,
+      "ties": 0,
+      "points_for": 584.38,
+      "points_against": 789.98,
+      "point_diff": -205.6,
+      "win_pct": 0.1667
+    },
+    {
+      "team": "Buttermilk Puuump",
+      "wins": 0,
+      "losses": 6,
+      "ties": 0,
+      "points_for": 504.76,
+      "points_against": 645.5,
+      "point_diff": -140.74,
+      "win_pct": 0.0
+    }
+  ],
+  "future_matchups": {
+    "available": true,
+    "week": 7,
+    "matchups": [
+      {
+        "team_1": "The Big Gronkowski",
+        "team_2": "Voldemort",
+        "historical_h2h_before_matchup": {
+          "team": "The Big Gronkowski",
+          "opponent": "Voldemort",
+          "games": 16,
+          "wins": 6,
+          "losses": 10,
+          "ties": 0,
+          "record": "6-10-0",
+          "points_for": 1657.34,
+          "points_against": 1741.34
+        },
+        "team_1_projection": 95.16,
+        "team_2_projection": 88.74
+      },
+      {
+        "team_1": "Malle ❤️ 🐸",
+        "team_2": "Patty Primetimes",
+        "historical_h2h_before_matchup": {
+          "team": "Malle ❤️ 🐸",
+          "opponent": "Patty Primetimes",
+          "games": 12,
+          "wins": 8,
+          "losses": 4,
+          "ties": 0,
+          "record": "8-4-0",
+          "points_for": 1373.52,
+          "points_against": 1253.72
+        },
+        "team_1_projection": 85.97,
+        "team_2_projection": 71.58
+      },
+      {
+        "team_1": "Joe Mantegna",
+        "team_2": "Pop Lockett Drop it",
+        "historical_h2h_before_matchup": {
+          "team": "Joe Mantegna",
+          "opponent": "Pop Lockett Drop it",
+          "games": 11,
+          "wins": 6,
+          "losses": 5,
+          "ties": 0,
+          "record": "6-5-0",
+          "points_for": 1097.74,
+          "points_against": 1101.04
+        },
+        "team_1_projection": 72.94,
+        "team_2_projection": 121.49
+      },
+      {
+        "team_1": "ThreatLevelMidnight",
+        "team_2": "Uncle Rico",
+        "historical_h2h_before_matchup": {
+          "team": "ThreatLevelMidnight",
+          "opponent": "Uncle Rico",
+          "games": 10,
+          "wins": 7,
+          "losses": 3,
+          "ties": 0,
+          "record": "7-3-0",
+          "points_for": 1175.2,
+          "points_against": 1092.84
+        },
+        "team_1_projection": 110.46,
+        "team_2_projection": 86.62
+      },
+      {
+        "team_1": "Post Mahomes",
+        "team_2": "Ginger FC 🏆🏆",
+        "historical_h2h_before_matchup": {
+          "team": "Post Mahomes",
+          "opponent": "Ginger FC 🏆🏆",
+          "games": 13,
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "record": "9-4-0",
+          "points_for": 1500.9,
+          "points_against": 1338.0
+        },
+        "team_1_projection": 84.54,
+        "team_2_projection": 74.98
+      },
+      {
+        "team_1": "malle_dips_pouches",
+        "team_2": "Buttermilk Puuump",
+        "historical_h2h_before_matchup": {
+          "team": "malle_dips_pouches",
+          "opponent": "Buttermilk Puuump",
+          "games": 4,
+          "wins": 2,
+          "losses": 2,
+          "ties": 0,
+          "record": "2-2-0",
+          "points_for": 368.18,
+          "points_against": 431.78
+        },
+        "team_1_projection": 123.94,
+        "team_2_projection": 70.71
+      }
+    ]
+  },
+  "planned_adapters": {
+    "power_rankings": "Phase 2: deterministic 1-12 ranking model using results, scoring, all-play/luck, lineup quality, and recent form."
+  }
+}

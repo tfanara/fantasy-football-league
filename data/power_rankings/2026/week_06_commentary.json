@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "season": 2026,
+  "week": 6,
+  "commentary": [
+    {
+      "power_rank": 1,
+      "team": "Pop Lockett Drop it",
+      "commentary": "Pop Lockett Drop it secured a 15.22-point victory over ThreatLevelMidnight to advance to a 5-1 record, though they left 5.1 points on the bench by starting Woody Marks and Christian Watson over Romeo Doubs and Khalil Shakir. They also picked up the Cowboys defense off waivers.",
+      "evidence_tags": [
+        "matchup",
+        "standings",
+        "lineup",
+        "transaction"
+      ]
+    },
+    {
+      "power_rank": 2,
+      "team": "ThreatLevelMidnight",
+      "commentary": "ThreatLevelMidnight lost to Pop Lockett Drop it 110.62-125.84 in the latest matchup.",
+      "evidence_tags": [
+        "matchup"
+      ]
+    },
+    {
+      "power_rank": 3,
+      "team": "malle_dips_pouches",
+      "commentary": "malle_dips_pouches crashed to a brutal 40.86-point loss against Voldemort, nearly flirting with the single-game low score record after putting up just 45.8 points. Leaving 13.7 points on the bench by starting Jahmyr Gibbs, Tucker Kraft, and Michael Wilson certainly did not help their cause.",
+      "evidence_tags": [
+        "matchup",
+        "milestone",
+        "lineup",
+        "standings"
+      ]
+    },
+    {
+      "power_rank": 4,
+      "team": "The Big Gronkowski",
+      "commentary": "The Big Gronkowski cruised past Uncle Rico with a 133.7 to 111.88 victory to improve to 4-2 on the season. They managed this win despite leaving 7.3 points on the bench by starting Spencer Shrader and CeeDee Lamb over DK Metcalf and Harrison Butker.",
+      "evidence_tags": [
+        "matchup",
+        "standings",
+        "lineup"
+      ]
+    },
+    {
+      "power_rank": 5,
+      "team": "Patty Primetimes",
+      "commentary": "Patty Primetimes lost to Ginger FC 🏆🏆 100.4-104.18 in the latest matchup.",
+      "evidence_tags": [
+        "matchup"
+      ]
+    },
+    {
+      "power_rank": 6,
+      "team": "Malle ❤️ 🐸",
+      "commentary": "Malle ❤️ 🐸 bounced back into the win column by dominating Buttermilk Puuump 106.66 to 78.32. Even with a comfortable victory, they left 10 points on the bench by starting Travis Kelce and Davante Adams over Rashid Shaheed and Stefon Diggs.",
+      "evidence_tags": [
+        "matchup",
+        "standings",
+        "lineup"
+      ]
+    },
+    {
+      "power_rank": 7,
+      "team": "Ginger FC 🏆🏆",
+      "commentary": "Ginger FC 🏆🏆 caught a break with a lucky 3.78-point win over Patty Primetimes, scraping by with 104.18 points while maintaining a pristine 100% lineup efficiency. The victory lifts their record to 4-2.",
+      "evidence_tags": [
+        "matchup",
+        "luck",
+        "standings",
+        "lineup"
+      ]
+    },
+    {
+      "power_rank": 8,
+      "team": "Joe Mantegna",
+      "commentary": "Joe Mantegna dismantled Post Mahomes in a lopsided 116.24 to 61.78 blowout. Their flawless managerial decision-making left zero points on the bench, propelling them to a 4-2 record.",
+      "evidence_tags": [
+        "matchup",
+        "lineup",
+        "standings"
+      ]
+    },
+    {
+      "power_rank": 9,
+      "team": "Post Mahomes",
+      "commentary": "Post Mahomes endured a disastrous 54.46-point drubbing at the hands of Joe Mantegna, managing only 61.78 total points. Bench decisions compounded their misery as they left 13.8 points stranded by starting Cam Skattebo and A.J. Brown.",
+      "evidence_tags": [
+        "matchup",
+        "lineup",
+        "standings"
+      ]
+    },
+    {
+      "power_rank": 10,
+      "team": "Voldemort",
+      "commentary": "Voldemort beat malle_dips_pouches 86.66-45.8 in the latest matchup.",
+      "evidence_tags": [
+        "matchup"
+      ]
+    },
+    {
+      "power_rank": 11,
+      "team": "Uncle Rico",
+      "commentary": "Uncle Rico suffered a brutal bad beat against The Big Gronkowski, losing 133.7 to 111.88 despite putting up the week's fourth-highest score. Their 1-5 record continues to defy a strong all-play standing.",
+      "evidence_tags": [
+        "matchup",
+        "luck",
+        "standings"
+      ]
+    },
+    {
+      "power_rank": 12,
+      "team": "Buttermilk Puuump",
+      "commentary": "Buttermilk Puuump remains winless at 0-6 after falling 106.66 to 78.32 to Malle ❤️ 🐸. They added Kaleb Johnson off waivers recently, but it did little to fix a lineup that left 19.5 points on the bench.",
+      "evidence_tags": [
+        "matchup",
+        "standings",
+        "transaction",
+        "lineup"
+      ]
+    }
+  ]
+}

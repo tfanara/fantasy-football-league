@@ -21909,10 +21909,10 @@
     "year":2026,
     "date":"2026-10-07T10:26:10-04:00",
     "team":"ThreatLevelMidnight",
-    "added_player":"Brian Robinson",
+    "added_player":"Brian Robinson Jr.",
     "acquisition_type":"free_agent",
     "dropped_player":"Dohnte Meyers",
-    "raw_text":"ADD Brian Robinson (free_agent) | DROP Dohnte Meyers"
+    "raw_text":"ADD Brian Robinson Jr. (free_agent) | DROP Dohnte Meyers"
   },
   {
     "year":2026,
@@ -21994,5 +21994,158 @@
     "acquisition_type":"",
     "dropped_player":"Jalen McMillan",
     "raw_text":"DROP Jalen McMillan"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-14T03:54:38-04:00",
+    "team":"Post Mahomes",
+    "added_player":"Germie Bernard",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Aaron Rodgers",
+    "raw_text":"ADD Germie Bernard (free_agent) | DROP Aaron Rodgers"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-14T03:57:49-04:00",
+    "team":"Buttermilk Puuump",
+    "added_player":"Dameon Pierce",
+    "acquisition_type":"waiver",
+    "dropped_player":"Kaleb Johnson",
+    "raw_text":"ADD Dameon Pierce (waiver) | DROP Kaleb Johnson"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-14T03:57:49-04:00",
+    "team":"Ginger FC 🏆🏆",
+    "added_player":"Tyler Bass",
+    "acquisition_type":"waiver",
+    "dropped_player":"",
+    "raw_text":"ADD Tyler Bass (waiver)"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-14T03:57:49-04:00",
+    "team":"Pop Lockett Drop it",
+    "added_player":"Chiefs",
+    "acquisition_type":"waiver",
+    "dropped_player":"Cowboys",
+    "raw_text":"ADD Chiefs (waiver) | DROP Cowboys"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-14T07:26:08-04:00",
+    "team":"Patty Primetimes",
+    "added_player":"Eddy Pineiro",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Evan McPherson",
+    "raw_text":"ADD Eddy Pineiro (free_agent) | DROP Evan McPherson"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-14T08:57:49-04:00",
+    "team":"ThreatLevelMidnight",
+    "added_player":"Kirk Cousins",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Jacoby Brissett",
+    "raw_text":"ADD Kirk Cousins (free_agent) | DROP Jacoby Brissett"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-15T07:37:47-04:00",
+    "team":"Joe Mantegna",
+    "added_player":"Patriots",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Bengals",
+    "raw_text":"ADD Patriots (free_agent) | DROP Bengals"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-15T07:38:33-04:00",
+    "team":"Joe Mantegna",
+    "added_player":"Tre Tucker",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Makai Lemon",
+    "raw_text":"ADD Tre Tucker (free_agent) | DROP Makai Lemon"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-15T13:24:36-04:00",
+    "team":"Malle ❤️ 🐸",
+    "added_player":"Tyler Shough",
+    "acquisition_type":"free_agent",
+    "dropped_player":"",
+    "raw_text":"ADD Tyler Shough (free_agent)"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-15T14:26:22-04:00",
+    "team":"ThreatLevelMidnight",
+    "added_player":"Pat Freiermuth",
+    "acquisition_type":"free_agent",
+    "dropped_player":"",
+    "raw_text":"ADD Pat Freiermuth (free_agent)"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-15T19:57:02-04:00",
+    "team":"Buttermilk Puuump",
+    "added_player":"Blake Grupe",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Harrison Mevis",
+    "raw_text":"ADD Blake Grupe (free_agent) | DROP Harrison Mevis"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-15T20:31:35-04:00",
+    "team":"The Big Gronkowski",
+    "added_player":"Tyler Higbee",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Tank Bigsby",
+    "raw_text":"ADD Tyler Higbee (free_agent) | DROP Tank Bigsby"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-16T13:49:54-04:00",
+    "team":"ThreatLevelMidnight",
+    "added_player":"Jalen Royals",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Jake Ferguson",
+    "raw_text":"ADD Jalen Royals (free_agent) | DROP Jake Ferguson"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-17T12:40:43-04:00",
+    "team":"ThreatLevelMidnight",
+    "added_player":"Darren Waller",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Pat Freiermuth",
+    "raw_text":"ADD Darren Waller (free_agent) | DROP Pat Freiermuth"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-18T09:34:07-04:00",
+    "team":"Malle ❤️ 🐸",
+    "added_player":"Colts",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Vikings",
+    "raw_text":"ADD Colts (free_agent) | DROP Vikings"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-18T09:34:22-04:00",
+    "team":"Malle ❤️ 🐸",
+    "added_player":"Trey Smack",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Will Reichard",
+    "raw_text":"ADD Trey Smack (free_agent) | DROP Will Reichard"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-18T11:11:17-04:00",
+    "team":"Post Mahomes",
+    "added_player":"",
+    "acquisition_type":"",
+    "dropped_player":"Malik Washington",
+    "raw_text":"DROP Malik Washington"
   }
 ]

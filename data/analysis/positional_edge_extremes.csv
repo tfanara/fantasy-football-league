@@ -17,13 +17,13 @@ year,fantasy_team,edge_position,starter_points,positional_edge,weeks,edge_per_we
 2022,Ginger FC 🏆🏆,TE,227.3,124.4890909090909,14,8.892077922077922,1.0,Best Positional Season
 2023,The Big Gronkowski,WR,554.2,122.53272727272727,14,8.752337662337663,1.0,Best Positional Season
 2022,Voldemort,WR,527.56,121.32363636363637,14,8.665974025974027,1.0,Best Positional Season
+2026,ThreatLevelMidnight,RB,294.9,120.73636363636365,6,20.122727272727275,1.0,Best Positional Season
 2018,Dillon Panthers,WR,434.41999999999996,120.46,13,9.266153846153845,1.0,Best Positional Season
 2020,Voldemort,WR,524.3,120.32363636363635,13,9.255664335664335,1.0,Best Positional Season
 2021,Post Mahomes,RB,531.7,118.63090909090911,14,8.473636363636365,2.0,Best Positional Season
 2022,Uncle Rico,QB,432.58,115.61818181818181,14,8.258441558441557,1.0,Best Positional Season
 2022,The Big Gronkowski,RB,540.1,115.33818181818182,14,8.23844155844156,2.0,Best Positional Season
 2019,ThreatLevelMidnight,RB,465.70000000000005,113.91636363636366,13,8.762797202797204,2.0,Best Positional Season
-2019,Big Sack Jack,WR,404.4,112.72181818181818,13,8.67090909090909,1.0,Best Positional Season
 2025,Malle ❤️ 🐸,RB,248.3,-190.10545454545453,14,-13.578961038961038,12.0,Worst Positional Season
 2021,Malle ❤️ 🐸,RB,248.7,-190.09636363636366,14,-13.57831168831169,12.0,Worst Positional Season
 2021,Big Sack Jack,WR,255.3,-188.9690909090909,14,-13.497792207792207,12.0,Worst Positional Season
@@ -47,5 +47,5 @@ year,fantasy_team,edge_position,starter_points,positional_edge,weeks,edge_per_we
 2024,The Big Gronkowski,RB,330.9,-112.06545454545454,14,-8.004675324675324,11.0,Worst Positional Season
 2023,malle_dips_pouches,RB,300.4,-111.27090909090907,14,-7.947922077922077,11.0,Worst Positional Season
 2025,malle_dips_pouches,WR,321.5,-111.13636363636364,14,-7.938311688311688,11.0,Worst Positional Season
+2026,Buttermilk Puuump,RB,84.9,-108.35454545454547,6,-18.059090909090912,12.0,Worst Positional Season
 2022,Big Sack Jack,RB,337.8,-105.35272727272726,14,-7.525194805194805,11.0,Worst Positional Season
-2020,The Big Gronkowski,QB,238.98,-103.51090909090911,13,-7.962377622377624,12.0,Worst Positional Season
