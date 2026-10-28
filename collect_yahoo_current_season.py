@@ -668,19 +668,39 @@ def save_json(df: pd.DataFrame, path: Path):
     )
 
 
-def collect_transactions(ctx: Context, league_key: str) -> pd.DataFrame:
-    """
-    Collect and normalize successful current-season Yahoo player transactions.
 
-    The authenticated raw XML is always preserved. Commissioner-only actions
-    without player movement remain in the raw XML but are excluded from the
-    normalized player transaction dataset.
-    """
+def collect_transactions(ctx: Context, league_key: str) -> pd.DataFrame:
+    """Normalize single-team Yahoo add/drop transactions without guessing ownership."""
     payload = ctx.make_request(f"league/{league_key}/transactions")
-    (YEAR_DIR / "transactions_yahoo_raw.xml").write_text(payload, encoding="utf-8")
+    (YEAR_DIR / "transactions_yahoo_raw.xml").write_text(
+        payload, encoding="utf-8"
+    )
 
     root = parse_xml(payload)
+    league_teams = collect_league_teams(ctx, league_key)
+    team_by_key = dict(
+        zip(league_teams["team_key"], league_teams["fantasy_team"])
+    )
+    known_names = set(league_teams["fantasy_team"])
     rows = []
+
+    def resolve_team(data, prefix):
+        name = text(data, f"f:{prefix}_team_name")
+        key = text(data, f"f:{prefix}_team_key")
+
+        from_name = canon_team(name) if name else None
+        from_key = team_by_key.get(key) if key else None
+
+        if from_name and from_name not in known_names:
+            from_name = None
+
+        if from_name and from_key and from_name != from_key:
+            fail(
+                f"Yahoo transaction team name/key conflict: "
+                f"{name!r} / {key!r}"
+            )
+
+        return from_key or from_name
 
     for transaction in root.findall(".//f:transaction", NS):
         transaction_id = text(transaction, "f:transaction_id")
@@ -696,46 +716,70 @@ def collect_transactions(ctx: Context, league_key: str) -> pd.DataFrame:
         if not players:
             continue
 
-        added_player = None
-        dropped_player = None
-        team = None
-        acquisition_type = None
+        movements = []
 
         for player in players:
-            player_name = text(player, "f:name/f:full", "")
-            transaction_data = player.find("f:transaction_data", NS)
-            if transaction_data is None:
+            data = player.find("f:transaction_data", NS)
+            if data is None:
                 continue
 
-            action = text(transaction_data, "f:type", "")
-            source_type = text(transaction_data, "f:source_type", "")
-            source_team_name = text(transaction_data, "f:source_team_name")
-            destination_team_name = text(
-                transaction_data, "f:destination_team_name"
+            action = text(data, "f:type", "")
+            if action not in {"add", "drop"}:
+                continue
+
+            source_type = text(data, "f:source_type", "")
+
+            movements.append({
+                "action": action,
+                "player": text(player, "f:name/f:full", ""),
+                "source_type": source_type,
+                "team": resolve_team(
+                    data,
+                    "destination" if action == "add" else "source"
+                ),
+            })
+
+        if not movements:
+            continue
+
+        teams = {m["team"] for m in movements if m["team"]}
+        unresolved = [m for m in movements if not m["team"]]
+        adds = [m for m in movements if m["action"] == "add"]
+        drops = [m for m in movements if m["action"] == "drop"]
+
+        if (
+            unresolved
+            or len(teams) != 1
+            or len(adds) > 1
+            or len(drops) > 1
+        ):
+            diagnostic = (
+                YEAR_DIR /
+                f"transaction_{transaction_id or 'unknown'}_diagnostic.xml"
+            )
+            diagnostic.write_text(
+                ET.tostring(transaction, encoding="unicode"),
+                encoding="utf-8"
             )
 
-            if action == "add":
-                added_player = player_name or None
-                if destination_team_name:
-                    team = canon_team(destination_team_name)
-
-                if source_type == "waivers":
-                    acquisition_type = "waiver"
-                elif source_type == "freeagents":
-                    acquisition_type = "free_agent"
-                else:
-                    acquisition_type = source_type or None
-
-            elif action == "drop":
-                dropped_player = player_name or None
-                if team is None and source_team_name:
-                    team = canon_team(source_team_name)
-
-        if not team:
             fail(
-                f"Yahoo transaction {transaction_id} contains player movement "
-                "but no fantasy team could be identified."
+                f"Yahoo transaction {transaction_id} cannot be safely "
+                f"normalized: type={transaction_type!r}, "
+                f"teams={sorted(teams)}, movements={movements}. "
+                f"XML saved to {diagnostic}. "
+                "No transaction CSV/JSON was overwritten."
             )
+
+        add = adds[0] if adds else None
+        drop = drops[0] if drops else None
+
+        source_type = add["source_type"] if add else ""
+
+        acquisition_type = (
+            "waiver" if source_type == "waivers"
+            else "free_agent" if source_type == "freeagents"
+            else (source_type or None)
+        )
 
         rows.append({
             "year": CURRENT_SEASON,
@@ -746,23 +790,23 @@ def collect_transactions(ctx: Context, league_key: str) -> pd.DataFrame:
                 pd.to_datetime(timestamp, unit="s", utc=True)
                 .tz_convert("America/New_York")
                 .isoformat()
-                if timestamp is not None
-                else None
+                if timestamp is not None else None
             ),
-            "team": team,
+            "team": next(iter(teams)),
             "transaction_type": transaction_type,
-            "added_player": added_player,
+            "added_player": add["player"] if add else None,
             "acquisition_type": acquisition_type,
-            "dropped_player": dropped_player,
+            "dropped_player": drop["player"] if drop else None,
             "status": status,
             "source": "yahoo_fantasy_api",
         })
 
     columns = [
-        "year", "transaction_id", "transaction_key", "timestamp", "date",
-        "team", "transaction_type", "added_player", "acquisition_type",
-        "dropped_player", "status", "source",
+        "year", "transaction_id", "transaction_key", "timestamp",
+        "date", "team", "transaction_type", "added_player",
+        "acquisition_type", "dropped_player", "status", "source",
     ]
+
     out = pd.DataFrame(rows, columns=columns)
 
     if not out.empty:

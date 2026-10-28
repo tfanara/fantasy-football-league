@@ -11,13 +11,13 @@ year,fantasy_team,edge_position,starter_points,positional_edge,weeks,edge_per_we
 2021,The Big Gronkowski,WR,577.8000000000001,162.84909090909093,14,11.632077922077924,2.0,Best Positional Season
 2021,Voldemort,WR,572.5,157.06727272727272,14,11.219090909090909,3.0,Best Positional Season
 2024,Voldemort,RB,555.1,132.51636363636365,14,9.465454545454547,1.0,Best Positional Season
+2026,ThreatLevelMidnight,RB,339.0,132.0909090909091,7,18.87012987012987,1.0,Best Positional Season
 2024,Patty Primetimes,WR,533.7,129.72909090909087,14,9.266363636363634,1.0,Best Positional Season
 2025,Ginger FC 🏆🏆,RB,540.5,128.65818181818182,14,9.18987012987013,4.0,Best Positional Season
 2021,ThreatLevelMidnight,RB,538.8,126.37636363636362,14,9.026883116883116,1.0,Best Positional Season
 2022,Ginger FC 🏆🏆,TE,227.3,124.4890909090909,14,8.892077922077922,1.0,Best Positional Season
 2023,The Big Gronkowski,WR,554.2,122.53272727272727,14,8.752337662337663,1.0,Best Positional Season
 2022,Voldemort,WR,527.56,121.32363636363637,14,8.665974025974027,1.0,Best Positional Season
-2026,ThreatLevelMidnight,RB,294.9,120.73636363636365,6,20.122727272727275,1.0,Best Positional Season
 2018,Dillon Panthers,WR,434.41999999999996,120.46,13,9.266153846153845,1.0,Best Positional Season
 2020,Voldemort,WR,524.3,120.32363636363635,13,9.255664335664335,1.0,Best Positional Season
 2021,Post Mahomes,RB,531.7,118.63090909090911,14,8.473636363636365,2.0,Best Positional Season
@@ -39,6 +39,7 @@ year,fantasy_team,edge_position,starter_points,positional_edge,weeks,edge_per_we
 2021,malle_dips_pouches,WR,308.2,-131.26,14,-9.375714285714285,10.0,Worst Positional Season
 2021,Pop Lockett Drop it,QB,213.76000000000002,-130.51636363636362,14,-9.3225974025974,12.0,Worst Positional Season
 2020,Ginger FC 🏆🏆,RB,260.5,-126.95454545454547,13,-9.765734265734267,12.0,Worst Positional Season
+2026,Buttermilk Puuump,RB,105.3,-122.85454545454547,7,-17.550649350649355,12.0,Worst Positional Season
 2019,ThreatLevelMidnight,WR,189.5,-121.71454545454546,13,-9.362657342657343,12.0,Worst Positional Season
 2023,Post Mahomes,WR,331.36,-120.56545454545454,14,-8.611818181818181,11.0,Worst Positional Season
 2025,Voldemort,RB,314.5,-117.88727272727273,14,-8.42051948051948,9.0,Worst Positional Season
@@ -47,5 +48,4 @@ year,fantasy_team,edge_position,starter_points,positional_edge,weeks,edge_per_we
 2024,The Big Gronkowski,RB,330.9,-112.06545454545454,14,-8.004675324675324,11.0,Worst Positional Season
 2023,malle_dips_pouches,RB,300.4,-111.27090909090907,14,-7.947922077922077,11.0,Worst Positional Season
 2025,malle_dips_pouches,WR,321.5,-111.13636363636364,14,-7.938311688311688,11.0,Worst Positional Season
-2026,Buttermilk Puuump,RB,84.9,-108.35454545454547,6,-18.059090909090912,12.0,Worst Positional Season
 2022,Big Sack Jack,RB,337.8,-105.35272727272726,14,-7.525194805194805,11.0,Worst Positional Season

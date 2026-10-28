@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "season": 2026,
+  "week": 7,
+  "commentary": [
+    {
+      "power_rank": 1,
+      "team": "Pop Lockett Drop it",
+      "commentary": "Pop Lockett Drop it suffered a brutal 6.0-point loss to Joe Mantegna, snapping their three-game winning streak. Leaving 11.5 points on the bench by starting Kenneth Walker III over KC Concepcion Jr. proved costly.",
+      "evidence_tags": [
+        "matchup",
+        "luck",
+        "lineup",
+        "milestone",
+        "standings"
+      ]
+    },
+    {
+      "power_rank": 2,
+      "team": "ThreatLevelMidnight",
+      "commentary": "ThreatLevelMidnight bounced back from a two-game skid by crushing Uncle Rico 155.18 to 103.60. The dominant win marks a major career milestone of 75 wins for the franchise.",
+      "evidence_tags": [
+        "matchup",
+        "milestone",
+        "standings"
+      ]
+    },
+    {
+      "power_rank": 3,
+      "team": "The Big Gronkowski",
+      "commentary": "A four-game winning streak came to a heartbreaking end for The Big Gronkowski after a narrow 131.52 to 126.24 defeat against Voldemort. Despite near-flawless lineup management leaving just 0.1 points on the bench, they suffered a brutal bad beat.",
+      "evidence_tags": [
+        "matchup",
+        "luck",
+        "lineup",
+        "milestone"
+      ]
+    },
+    {
+      "power_rank": 4,
+      "team": "Joe Mantegna",
+      "commentary": "Joe Mantegna pulled off a tight 121.22 to 115.22 victory over Pop Lockett Drop it with a pristine 100 percent lineup efficiency. Active roster tinkering continued mid-week with the additions of the Patriots defense and Tre Tucker.",
+      "evidence_tags": [
+        "matchup",
+        "lineup",
+        "transaction",
+        "standings"
+      ]
+    },
+    {
+      "power_rank": 5,
+      "team": "malle_dips_pouches",
+      "commentary": "malle_dips_pouches finally halted a three-game losing slide by escaping with a narrow 112.32 to 108.88 win against Buttermilk Puuump. Leaving 23.6 points on the bench by starting Jalen Coker and Garrett Wilson nearly blew it.",
+      "evidence_tags": [
+        "matchup",
+        "lineup",
+        "milestone"
+      ]
+    },
+    {
+      "power_rank": 6,
+      "team": "Malle ❤️ 🐸",
+      "commentary": "Malle ❤️ 🐸 saw a two-game winning streak snapped in a low-scoring 90.48 to 86.22 loss against Patty Primetimes. Even a perfect lineup efficiency couldn't save them from a tough defeat.",
+      "evidence_tags": [
+        "matchup",
+        "lineup",
+        "milestone"
+      ]
+    },
+    {
+      "power_rank": 7,
+      "team": "Patty Primetimes",
+      "commentary": "Patty Primetimes snapped a three-game losing skid by pulling off a severely lucky win against Malle ❤️ 🐸, squeaking by 90.48 to 86.22 despite ranking tenth in weekly scoring.",
+      "evidence_tags": [
+        "matchup",
+        "luck",
+        "milestone"
+      ]
+    },
+    {
+      "power_rank": 8,
+      "team": "Ginger FC 🏆🏆",
+      "commentary": "Ginger FC 🏆🏆 saw their three-game winning streak halted in a lopsided 103.50 to 72.22 blowout loss to Post Mahomes. Starting C.J. Stroud over Bo Nix left 7.76 points stranded on the bench.",
+      "evidence_tags": [
+        "matchup",
+        "lineup",
+        "milestone"
+      ]
+    },
+    {
+      "power_rank": 9,
+      "team": "Voldemort",
+      "commentary": "Voldemort picked up a thrilling 131.52 to 126.24 victory over The Big Gronkowski. Recent waiver pickup Alvin Kamara continues to anchor a roster trying to climb out of an early-season hole.",
+      "evidence_tags": [
+        "matchup",
+        "transaction",
+        "standings"
+      ]
+    },
+    {
+      "power_rank": 10,
+      "team": "Post Mahomes",
+      "commentary": "Post Mahomes coasted to a 103.50 to 72.22 victory over Ginger FC 🏆🏆. While categorized as a lucky win based on expected win rates, a 31.28-point margin of victory is hard to complain about.",
+      "evidence_tags": [
+        "matchup",
+        "luck"
+      ]
+    },
+    {
+      "power_rank": 11,
+      "team": "Uncle Rico",
+      "commentary": "Uncle Rico's dismal season continued with a heavy 155.18 to 103.60 shellacking at the hands of ThreatLevelMidnight. Bench mismanagements, including sitting Chris Godwin Jr. in favor of Keenan Allen, summed up a brutal week.",
+      "evidence_tags": [
+        "matchup",
+        "lineup",
+        "standings",
+        "season_context"
+      ]
+    },
+    {
+      "power_rank": 12,
+      "team": "Buttermilk Puuump",
+      "commentary": "Buttermilk Puuump remained winless at 0-7 following a heartbreaking 112.32 to 108.88 loss to malle_dips_pouches. Despite solid lineup decisions overall, the team is still searching for its first breakthrough.",
+      "evidence_tags": [
+        "matchup",
+        "lineup",
+        "standings",
+        "season_context"
+      ]
+    }
+  ]
+}
