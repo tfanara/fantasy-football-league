@@ -22336,5 +22336,113 @@
     "acquisition_type":"",
     "dropped_player":"Brian Robinson Jr.",
     "raw_text":"DROP Brian Robinson Jr."
+  },
+  {
+    "year":2026,
+    "date":"2026-10-28T04:09:29-04:00",
+    "team":"Pop Lockett Drop it",
+    "added_player":"Seth McGowan",
+    "acquisition_type":"waiver",
+    "dropped_player":"Justin Herbert",
+    "raw_text":"ADD Seth McGowan (waiver) | DROP Justin Herbert"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-28T08:32:52-04:00",
+    "team":"Post Mahomes",
+    "added_player":"Jonah Coleman",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Josh Downs",
+    "raw_text":"ADD Jonah Coleman (free_agent) | DROP Josh Downs"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-28T11:06:46-04:00",
+    "team":"Post Mahomes",
+    "added_player":"Bengals",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Texans",
+    "raw_text":"ADD Bengals (free_agent) | DROP Texans"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-28T14:56:11-04:00",
+    "team":"ThreatLevelMidnight",
+    "added_player":"",
+    "acquisition_type":"",
+    "dropped_player":"Kirk Cousins",
+    "raw_text":"DROP Kirk Cousins"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-28T14:58:14-04:00",
+    "team":"ThreatLevelMidnight",
+    "added_player":"Cam Little",
+    "acquisition_type":"free_agent",
+    "dropped_player":"",
+    "raw_text":"ADD Cam Little (free_agent)"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-29T08:34:01-04:00",
+    "team":"The Big Gronkowski",
+    "added_player":"Commanders",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Titans",
+    "raw_text":"ADD Commanders (free_agent) | DROP Titans"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-29T12:46:58-04:00",
+    "team":"Uncle Rico",
+    "added_player":"Raiders",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Bears",
+    "raw_text":"ADD Raiders (free_agent) | DROP Bears"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-29T16:28:09-04:00",
+    "team":"Post Mahomes",
+    "added_player":"Chig Okonkwo",
+    "acquisition_type":"free_agent",
+    "dropped_player":"RJ Harvey",
+    "raw_text":"ADD Chig Okonkwo (free_agent) | DROP RJ Harvey"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-29T19:31:37-04:00",
+    "team":"Malle ❤️ 🐸",
+    "added_player":"Jacoby Brissett",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Jaxson Dart",
+    "raw_text":"ADD Jacoby Brissett (free_agent) | DROP Jaxson Dart"
+  },
+  {
+    "year":2026,
+    "date":"2026-10-31T03:50:33-04:00",
+    "team":"Pop Lockett Drop it",
+    "added_player":"Josh Downs",
+    "acquisition_type":"waiver",
+    "dropped_player":"MarShawn Lloyd",
+    "raw_text":"ADD Josh Downs (waiver) | DROP MarShawn Lloyd"
+  },
+  {
+    "year":2026,
+    "date":"2026-11-01T10:07:49-05:00",
+    "team":"Joe Mantegna",
+    "added_player":"Samaje Perine",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Ted Hurst III",
+    "raw_text":"ADD Samaje Perine (free_agent) | DROP Ted Hurst III"
+  },
+  {
+    "year":2026,
+    "date":"2026-11-01T15:08:44-05:00",
+    "team":"Post Mahomes",
+    "added_player":"Texans",
+    "acquisition_type":"free_agent",
+    "dropped_player":"",
+    "raw_text":"ADD Texans (free_agent)"
   }
 ]

@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "season": 2026,
+  "week": 8,
+  "commentary": [
+    {
+      "power_rank": 1,
+      "team": "ThreatLevelMidnight",
+      "commentary": "ThreatLevelMidnight continues to assert dominance at 6-2-0, cruising past Joe Mantegna by a 130.98 to 104.40 margin. Even with 24.9 points left on the bench and a couple of waiver claims for T.J. Hockenson and Omar Cooper Jr., the squad's league-leading scoring pace remains completely unbothered.",
+      "evidence_tags": [
+        "matchup",
+        "lineup",
+        "transaction",
+        "standings",
+        "season_context"
+      ]
+    },
+    {
+      "power_rank": 2,
+      "team": "Pop Lockett Drop it",
+      "commentary": "A tough 114.58 to 84.26 stumble against Ginger FC 🏆🏆 temporarily halts momentum, though a solid 5-3-0 record keeps this high-scoring roster firmly in the mix. Leaving just 5.1 points on the bench shows the starting lineup was mostly maximized despite the blowout loss.",
+      "evidence_tags": [
+        "matchup",
+        "lineup",
+        "standings",
+        "season_context"
+      ]
+    },
+    {
+      "power_rank": 3,
+      "team": "The Big Gronkowski",
+      "commentary": "The Big Gronkowski put on a clinic with a resounding 129.16 to 80.70 thrashing of Buttermilk Puuump. Improving to 5-3-0 behind strong overall numbers, the team shrugged off having 12.16 points sitting unused on the bench.",
+      "evidence_tags": [
+        "matchup",
+        "lineup",
+        "standings",
+        "season_context"
+      ]
+    },
+    {
+      "power_rank": 4,
+      "team": "Joe Mantegna",
+      "commentary": "Joe Mantegna suffered a brutal bad beat in a 130.98 to 104.40 defeat against ThreatLevelMidnight, snapping a four-game winning streak. Despite near-flawless lineup management yielding only 1.4 points left on the bench, the tough matchup drops the team to 5-3-0.",
+      "evidence_tags": [
+        "matchup",
+        "lineup",
+        "luck",
+        "milestone",
+        "standings",
+        "season_context"
+      ]
+    },
+    {
+      "power_rank": 5,
+      "team": "Patty Primetimes",
+      "commentary": "Patty Primetimes bounced back in style by dismantling malle_dips_pouches 136.76 to 95.14. Even with 33.6 points left stranded on the bench, the 5-3-0 squad secured a comfortable victory.",
+      "evidence_tags": [
+        "matchup",
+        "lineup",
+        "standings",
+        "season_context"
+      ]
+    },
+    {
+      "power_rank": 6,
+      "team": "Ginger FC 🏆🏆",
+      "commentary": "Ginger FC 🏆🏆 beat Pop Lockett Drop it 114.58-84.26 in the latest matchup.",
+      "evidence_tags": [
+        "matchup"
+      ]
+    },
+    {
+      "power_rank": 7,
+      "team": "malle_dips_pouches",
+      "commentary": "A rough 136.76 to 95.14 defeat at the hands of Patty Primetimes drags malle_dips_pouches down to an even 4-4-0 record. Leaving 21.5 points on the bench didn't help an afternoon where the offense sputtered.",
+      "evidence_tags": [
+        "matchup",
+        "lineup",
+        "standings",
+        "season_context"
+      ]
+    },
+    {
+      "power_rank": 8,
+      "team": "Voldemort",
+      "commentary": "Voldemort captured a solid 109.18 to 76.90 victory over Uncle Rico to level their record at 4-4-0. The active roster additions of Alvin Kamara and Makai Lemon preceded a tidy performance where only 5.8 points were left on the bench.",
+      "evidence_tags": [
+        "matchup",
+        "lineup",
+        "transaction",
+        "standings",
+        "season_context"
+      ]
+    },
+    {
+      "power_rank": 9,
+      "team": "Malle ❤️ 🐸",
+      "commentary": "Malle ❤️ 🐸 lost to Post Mahomes 82.86-98.44 in the latest matchup.",
+      "evidence_tags": [
+        "matchup"
+      ]
+    },
+    {
+      "power_rank": 10,
+      "team": "Post Mahomes",
+      "commentary": "Post Mahomes pulled off a lucky win against Malle ❤️ 🐸 by a 98.44 to 82.86 score, marking a milestone 75th career win for the franchise. The 5-3-0 team got away with leaving 11.9 points on the bench thanks to some favorable fortune.",
+      "evidence_tags": [
+        "matchup",
+        "lineup",
+        "luck",
+        "milestone",
+        "standings",
+        "season_context"
+      ]
+    },
+    {
+      "power_rank": 11,
+      "team": "Uncle Rico",
+      "commentary": "Uncle Rico endured another difficult outing in a 109.18 to 76.90 loss to Voldemort, sliding to 1-7-0. Leaving 30.58 points on the bench highlights a frustrating afternoon of roster misfires.",
+      "evidence_tags": [
+        "matchup",
+        "lineup",
+        "standings",
+        "season_context"
+      ]
+    },
+    {
+      "power_rank": 12,
+      "team": "Buttermilk Puuump",
+      "commentary": "Buttermilk Puuump crossed the 5,000 career points threshold, but the celebration was muted by a harsh 129.16 to 80.70 defeat against The Big Gronkowski. The winless 0-8-0 squad continues to search for answers after leaving 15.6 points on the bench.",
+      "evidence_tags": [
+        "matchup",
+        "lineup",
+        "milestone",
+        "standings",
+        "season_context"
+      ]
+    }
+  ]
+}

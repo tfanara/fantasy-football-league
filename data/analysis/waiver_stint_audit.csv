@@ -2009,82 +2009,93 @@ W02007,2025,malle_dips_pouches,DJ Moore,WR,Free Agent,2025-12-07 12:24:00,,14,14
 W02008,2025,malle_dips_pouches,Jason Myers,,Free Agent,2025-10-30 18:24:00,,9,9,BEFORE_GAME_DATE,6.0,6.0,0.0,6.0,0.0,6.0,0.0,1.0,0.0,0.0,False
 W02009,2025,malle_dips_pouches,Jayden Reed,,Free Agent,2025-12-07 15:22:00,,14,14,SAME_DAY_AS_GAME,1.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,False
 W02010,2026,Buttermilk Puuump,Blake Grupe,,free_agent,2026-10-15 19:57:02,2026-10-22 19:36:01,6,6,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02011,2026,Buttermilk Puuump,Chris Boswell,,free_agent,2026-10-22 19:36:01,,7,7,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02011,2026,Buttermilk Puuump,Chris Boswell,,free_agent,2026-10-22 19:36:01,,7,7,NO_NFL_TEAM_MATCH,2.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
 W02012,2026,Buttermilk Puuump,Dameon Pierce,,waiver,2026-10-14 03:57:49,2026-10-22 19:36:29,6,6,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
 W02013,2026,Buttermilk Puuump,Isaiah Davis,,free_agent,2026-10-01 19:54:34,2026-10-11 11:24:02,4,4,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
 W02014,2026,Buttermilk Puuump,Kaleb Johnson,,free_agent,2026-10-11 11:24:02,2026-10-14 03:57:49,5,5,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02015,2026,Buttermilk Puuump,Kenny Gainwell,,waiver,2026-10-03 03:33:30,,4,4,NO_NFL_TEAM_MATCH,4.0,4.0,0.0,4.0,0.0,0.0,4.0,0.0,0.0,0.0,False
-W02016,2026,Buttermilk Puuump,Malik Washington,,free_agent,2026-10-22 19:36:29,,7,7,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02017,2026,Ginger FC 🏆🏆,Browns,,waiver,2026-10-21 04:04:29,2026-10-27 09:36:29,7,7,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02018,2026,Ginger FC 🏆🏆,C.J. Stroud,,free_agent,2026-09-17 23:29:45,,2,2,NO_NFL_TEAM_MATCH,6.0,6.0,0.0,6.0,0.0,0.0,6.0,0.0,0.0,0.0,False
-W02019,2026,Ginger FC 🏆🏆,Pat Freiermuth,,free_agent,2026-10-21 18:13:11,2026-10-27 09:36:59,7,7,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02015,2026,Buttermilk Puuump,Kenny Gainwell,,waiver,2026-10-03 03:33:30,,4,4,NO_NFL_TEAM_MATCH,5.0,5.0,0.0,5.0,0.0,0.0,5.0,0.0,0.0,0.0,False
+W02016,2026,Buttermilk Puuump,Malik Washington,,free_agent,2026-10-22 19:36:29,,7,7,NO_NFL_TEAM_MATCH,2.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
+W02017,2026,Ginger FC 🏆🏆,Browns,,waiver,2026-10-21 04:04:29,2026-10-27 09:36:29,7,7,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02018,2026,Ginger FC 🏆🏆,C.J. Stroud,,free_agent,2026-09-17 23:29:45,,2,2,NO_NFL_TEAM_MATCH,7.0,7.0,0.0,7.0,0.0,0.0,7.0,0.0,0.0,0.0,False
+W02019,2026,Ginger FC 🏆🏆,Pat Freiermuth,,free_agent,2026-10-21 18:13:11,2026-10-27 09:36:59,7,7,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
 W02020,2026,Ginger FC 🏆🏆,Tyler Bass,,waiver,2026-10-14 03:57:49,2026-10-20 19:46:00,6,6,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
 W02021,2026,Joe Mantegna,Bengals,,free_agent,2026-10-07 06:32:10,2026-10-15 07:37:47,5,5,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
 W02022,2026,Joe Mantegna,Chiefs,,free_agent,2026-09-23 21:37:29,2026-10-07 06:32:10,3,3,NO_NFL_TEAM_MATCH,3.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
 W02023,2026,Joe Mantegna,Dontayvion Wicks,,free_agent,2026-09-07 10:29:46,2026-10-25 10:17:09,1,1,NO_NFL_TEAM_MATCH,7.0,6.0,0.0,6.0,0.0,0.0,6.0,0.0,0.0,0.0,False
-W02024,2026,Joe Mantegna,Emanuel Wilson,,free_agent,2026-10-04 09:38:50,,4,4,NO_NFL_TEAM_MATCH,4.0,4.0,0.0,4.0,0.0,0.0,4.0,0.0,0.0,0.0,False
-W02025,2026,Joe Mantegna,Kendre Miller,,free_agent,2026-10-21 20:31:50,,7,7,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02026,2026,Joe Mantegna,Patriots,,free_agent,2026-10-15 07:37:47,,6,6,NO_NFL_TEAM_MATCH,2.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
-W02027,2026,Joe Mantegna,Ted Hurst III,,free_agent,2026-10-25 10:17:09,,7,7,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02028,2026,Joe Mantegna,Tre Tucker,,free_agent,2026-10-15 07:38:33,,6,6,NO_NFL_TEAM_MATCH,2.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
-W02029,2026,Joe Mantegna,Will Shipley,,free_agent,2026-10-07 06:33:22,2026-10-21 20:31:50,5,5,NO_NFL_TEAM_MATCH,3.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
-W02030,2026,Malle ❤️ 🐸,Bam Knight,,free_agent,2026-10-22 20:16:45,,7,7,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02031,2026,Malle ❤️ 🐸,Colts,,free_agent,2026-10-18 09:34:07,,6,6,NO_NFL_TEAM_MATCH,2.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
-W02032,2026,Malle ❤️ 🐸,Trey Smack,,free_agent,2026-10-18 09:34:22,,6,6,NO_NFL_TEAM_MATCH,2.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
-W02033,2026,Malle ❤️ 🐸,Tyler Shough,,free_agent,2026-10-15 13:24:36,,6,6,NO_NFL_TEAM_MATCH,2.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
-W02034,2026,Patty Primetimes,Aaron Rodgers,,free_agent,2026-10-21 12:05:04,,7,7,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02035,2026,Patty Primetimes,Eddy Pineiro,,free_agent,2026-10-14 07:26:08,2026-10-24 07:48:19,6,6,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02036,2026,Patty Primetimes,Evan McPherson,,free_agent,2026-10-24 07:48:19,,7,7,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02037,2026,Patty Primetimes,Keon Coleman,,free_agent,2026-10-07 09:57:10,,5,5,NO_NFL_TEAM_MATCH,3.0,3.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0,False
-W02038,2026,Pop Lockett Drop it,Bryce Young,,waiver,2026-09-23 04:40:53,,3,3,NO_NFL_TEAM_MATCH,5.0,5.0,0.0,5.0,0.0,0.0,5.0,0.0,0.0,0.0,False
-W02039,2026,Pop Lockett Drop it,Buccaneers,,waiver,2026-09-16 04:34:32,2026-09-24 20:51:31,2,2,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02040,2026,Pop Lockett Drop it,Chiefs,,waiver,2026-10-14 03:57:49,2026-10-21 11:37:42,6,6,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02041,2026,Pop Lockett Drop it,Cowboys,,free_agent,2026-10-07 11:32:13,2026-10-14 03:57:49,5,5,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02042,2026,Pop Lockett Drop it,KC Concepcion Jr.,,waiver,2026-10-07 03:58:31,,5,5,NO_NFL_TEAM_MATCH,3.0,3.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0,False
-W02043,2026,Pop Lockett Drop it,Packers,,free_agent,2026-10-01 17:00:37,2026-10-07 11:32:13,4,4,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02044,2026,Pop Lockett Drop it,Panthers,,free_agent,2026-09-24 20:51:31,2026-10-01 17:00:37,3,3,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02045,2026,Pop Lockett Drop it,Vikings,,free_agent,2026-10-21 11:37:42,,7,7,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02046,2026,Post Mahomes,Aaron Rodgers,,free_agent,2026-10-08 13:48:10,2026-10-14 03:54:38,5,5,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02047,2026,Post Mahomes,Adonai Mitchell,,free_agent,2026-09-23 03:27:35,2026-10-06 12:36:42,3,3,NO_NFL_TEAM_MATCH,3.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
-W02048,2026,Post Mahomes,Alvin Kamara,,free_agent,2026-09-30 08:32:56,2026-10-08 20:59:39,4,4,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02049,2026,Post Mahomes,Devaughn Vele,,free_agent,2026-09-16 09:54:36,,2,2,NO_NFL_TEAM_MATCH,6.0,6.0,0.0,6.0,0.0,0.0,6.0,0.0,0.0,0.0,False
-W02050,2026,Post Mahomes,Emanuel Wilson,,free_agent,2026-09-24 14:18:46,2026-09-30 03:59:48,3,3,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02051,2026,Post Mahomes,Germie Bernard,,free_agent,2026-10-14 03:54:38,,6,6,NO_NFL_TEAM_MATCH,2.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
-W02052,2026,Post Mahomes,Malik Washington,,free_agent,2026-10-08 20:59:39,2026-10-18 11:11:17,5,5,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02053,2026,Post Mahomes,Mike Gesicki,,free_agent,2026-09-16 09:57:41,2026-09-23 03:27:35,2,2,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02054,2026,Post Mahomes,Ollie Gordon II,,waiver,2026-09-30 03:59:48,,4,4,NO_NFL_TEAM_MATCH,4.0,4.0,0.0,4.0,0.0,0.0,4.0,0.0,0.0,0.0,False
-W02055,2026,Post Mahomes,Tyquan Thornton,,free_agent,2026-09-23 03:28:04,2026-09-24 14:18:46,3,3,NO_NFL_TEAM_MATCH,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,False
-W02056,2026,Post Mahomes,Will Reichard,,free_agent,2026-10-21 08:32:21,,7,7,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02057,2026,The Big Gronkowski,Spencer Shrader,,free_agent,2026-10-08 16:45:41,,5,5,NO_NFL_TEAM_MATCH,3.0,3.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0,False
-W02058,2026,The Big Gronkowski,Titans,,free_agent,2026-10-22 10:53:40,,7,7,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02059,2026,The Big Gronkowski,Tyler Higbee,,free_agent,2026-10-15 20:31:35,,6,6,NO_NFL_TEAM_MATCH,2.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
-W02060,2026,ThreatLevelMidnight,49ers,,free_agent,2026-09-16 09:32:45,2026-09-30 07:19:51,2,2,NO_NFL_TEAM_MATCH,3.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
-W02061,2026,ThreatLevelMidnight,Brian Robinson Jr.,,free_agent,2026-10-07 10:26:10,2026-10-27 14:52:00,5,5,NO_NFL_TEAM_MATCH,3.0,3.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0,False
-W02062,2026,ThreatLevelMidnight,Darren Waller,,free_agent,2026-10-17 12:40:43,2026-10-21 04:04:29,6,6,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02063,2026,ThreatLevelMidnight,Dohnte Meyers,,waiver,2026-10-07 03:58:31,2026-10-07 10:26:10,5,5,NO_NFL_TEAM_MATCH,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,False
-W02064,2026,ThreatLevelMidnight,Jacoby Brissett,,waiver,2026-10-07 03:58:31,2026-10-14 08:57:49,5,5,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02065,2026,ThreatLevelMidnight,Jalen Royals,,free_agent,2026-10-16 13:49:54,2026-10-21 04:04:29,6,6,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02066,2026,ThreatLevelMidnight,Kaelon Black,,free_agent,2026-09-08 10:43:22,,1,1,NO_NFL_TEAM_MATCH,7.0,7.0,0.0,7.0,0.0,0.0,7.0,0.0,0.0,0.0,False
-W02067,2026,ThreatLevelMidnight,Kalif Raymond,,waiver,2026-09-30 03:59:48,2026-10-07 03:58:31,4,4,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02068,2026,ThreatLevelMidnight,Kenyon Sadiq,,waiver,2026-09-30 03:59:48,2026-10-11 11:53:04,4,4,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02069,2026,ThreatLevelMidnight,Kirk Cousins,,free_agent,2026-10-14 08:57:49,,6,6,NO_NFL_TEAM_MATCH,2.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
-W02070,2026,ThreatLevelMidnight,Omar Cooper Jr.,,waiver,2026-10-21 04:04:29,,7,7,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02071,2026,ThreatLevelMidnight,Pat Freiermuth,,free_agent,2026-10-15 14:26:22,2026-10-17 12:40:43,6,6,NO_NFL_TEAM_MATCH,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,False
-W02072,2026,ThreatLevelMidnight,Steelers,,free_agent,2026-09-30 07:19:51,,4,4,NO_NFL_TEAM_MATCH,4.0,4.0,0.0,4.0,0.0,0.0,4.0,0.0,0.0,0.0,False
-W02073,2026,ThreatLevelMidnight,T.J. Hockenson,,waiver,2026-10-21 04:04:29,,7,7,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02074,2026,ThreatLevelMidnight,Tre' Harris,,free_agent,2026-10-11 11:53:04,2026-10-13 08:19:13,5,5,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02075,2026,ThreatLevelMidnight,Tre Tucker,,free_agent,2026-09-04 11:59:41,2026-10-01 15:39:08,1,1,NO_NFL_TEAM_MATCH,4.0,3.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0,False
-W02076,2026,ThreatLevelMidnight,Tyler Shough,,free_agent,2026-10-01 15:39:08,2026-10-07 03:58:31,4,4,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02077,2026,Uncle Rico,Bears,,free_agent,2026-09-30 07:51:29,,4,4,NO_NFL_TEAM_MATCH,4.0,4.0,0.0,4.0,0.0,0.0,4.0,0.0,0.0,0.0,False
-W02078,2026,Uncle Rico,Braelon Allen,,waiver,2026-09-30 03:59:48,,4,4,NO_NFL_TEAM_MATCH,4.0,4.0,0.0,4.0,0.0,0.0,4.0,0.0,0.0,0.0,False
-W02079,2026,Uncle Rico,Keenan Allen,,waiver,2026-09-30 03:59:48,,4,4,NO_NFL_TEAM_MATCH,4.0,4.0,0.0,4.0,0.0,0.0,4.0,0.0,0.0,0.0,False
-W02080,2026,Uncle Rico,Lions,,free_agent,2026-09-24 16:44:11,2026-09-30 07:51:29,3,3,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02081,2026,Uncle Rico,Matt Gay,,free_agent,2026-10-22 19:36:43,,7,7,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02082,2026,Uncle Rico,Rashod Bateman,,free_agent,2026-09-24 16:43:34,2026-10-07 03:58:31,3,3,NO_NFL_TEAM_MATCH,3.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
-W02083,2026,Uncle Rico,Tyreek Hill,,waiver,2026-10-07 03:58:31,,5,5,NO_NFL_TEAM_MATCH,3.0,3.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0,False
-W02084,2026,Voldemort,Alvin Kamara,,waiver,2026-10-11 03:16:17,,5,5,NO_NFL_TEAM_MATCH,3.0,3.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0,False
-W02085,2026,Voldemort,Bills,,free_agent,2026-10-01 13:20:06,2026-10-25 08:05:35,4,4,NO_NFL_TEAM_MATCH,4.0,3.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0,False
-W02086,2026,Voldemort,Jalen Nailor,,free_agent,2026-09-08 07:22:22,2026-10-11 03:16:17,1,1,NO_NFL_TEAM_MATCH,5.0,4.0,0.0,4.0,0.0,0.0,4.0,0.0,0.0,0.0,False
-W02087,2026,Voldemort,Jets,,free_agent,2026-10-25 08:05:35,,7,7,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02088,2026,Voldemort,Makai Lemon,,free_agent,2026-10-25 08:07:09,,7,7,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
-W02089,2026,malle_dips_pouches,Tank Dell,,waiver,2026-09-04 03:16:42,,1,1,NO_NFL_TEAM_MATCH,7.0,7.0,0.0,7.0,0.0,0.0,7.0,0.0,0.0,0.0,False
+W02024,2026,Joe Mantegna,Emanuel Wilson,,free_agent,2026-10-04 09:38:50,,4,4,NO_NFL_TEAM_MATCH,5.0,5.0,0.0,5.0,0.0,0.0,5.0,0.0,0.0,0.0,False
+W02025,2026,Joe Mantegna,Kendre Miller,,free_agent,2026-10-21 20:31:50,,7,7,NO_NFL_TEAM_MATCH,2.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
+W02026,2026,Joe Mantegna,Patriots,,free_agent,2026-10-15 07:37:47,,6,6,NO_NFL_TEAM_MATCH,3.0,3.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0,False
+W02027,2026,Joe Mantegna,Samaje Perine,,free_agent,2026-11-01 10:07:49,,8,8,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02028,2026,Joe Mantegna,Ted Hurst III,,free_agent,2026-10-25 10:17:09,2026-11-01 10:07:49,7,7,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02029,2026,Joe Mantegna,Tre Tucker,,free_agent,2026-10-15 07:38:33,,6,6,NO_NFL_TEAM_MATCH,3.0,3.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0,False
+W02030,2026,Joe Mantegna,Will Shipley,,free_agent,2026-10-07 06:33:22,2026-10-21 20:31:50,5,5,NO_NFL_TEAM_MATCH,3.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
+W02031,2026,Malle ❤️ 🐸,Bam Knight,,free_agent,2026-10-22 20:16:45,,7,7,NO_NFL_TEAM_MATCH,2.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
+W02032,2026,Malle ❤️ 🐸,Colts,,free_agent,2026-10-18 09:34:07,,6,6,NO_NFL_TEAM_MATCH,3.0,3.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0,False
+W02033,2026,Malle ❤️ 🐸,Jacoby Brissett,,free_agent,2026-10-29 19:31:37,,8,8,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02034,2026,Malle ❤️ 🐸,Trey Smack,,free_agent,2026-10-18 09:34:22,,6,6,NO_NFL_TEAM_MATCH,3.0,3.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0,False
+W02035,2026,Malle ❤️ 🐸,Tyler Shough,,free_agent,2026-10-15 13:24:36,,6,6,NO_NFL_TEAM_MATCH,3.0,3.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0,False
+W02036,2026,Patty Primetimes,Aaron Rodgers,,free_agent,2026-10-21 12:05:04,,7,7,NO_NFL_TEAM_MATCH,2.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
+W02037,2026,Patty Primetimes,Eddy Pineiro,,free_agent,2026-10-14 07:26:08,2026-10-24 07:48:19,6,6,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02038,2026,Patty Primetimes,Evan McPherson,,free_agent,2026-10-24 07:48:19,,7,7,NO_NFL_TEAM_MATCH,2.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
+W02039,2026,Patty Primetimes,Keon Coleman,,free_agent,2026-10-07 09:57:10,,5,5,NO_NFL_TEAM_MATCH,4.0,4.0,0.0,4.0,0.0,0.0,4.0,0.0,0.0,0.0,False
+W02040,2026,Pop Lockett Drop it,Bryce Young,,waiver,2026-09-23 04:40:53,,3,3,NO_NFL_TEAM_MATCH,6.0,6.0,0.0,6.0,0.0,0.0,6.0,0.0,0.0,0.0,False
+W02041,2026,Pop Lockett Drop it,Buccaneers,,waiver,2026-09-16 04:34:32,2026-09-24 20:51:31,2,2,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02042,2026,Pop Lockett Drop it,Chiefs,,waiver,2026-10-14 03:57:49,2026-10-21 11:37:42,6,6,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02043,2026,Pop Lockett Drop it,Cowboys,,free_agent,2026-10-07 11:32:13,2026-10-14 03:57:49,5,5,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02044,2026,Pop Lockett Drop it,Josh Downs,,waiver,2026-10-31 03:50:33,,8,8,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02045,2026,Pop Lockett Drop it,KC Concepcion Jr.,,waiver,2026-10-07 03:58:31,,5,5,NO_NFL_TEAM_MATCH,4.0,4.0,0.0,4.0,0.0,0.0,4.0,0.0,0.0,0.0,False
+W02046,2026,Pop Lockett Drop it,Packers,,free_agent,2026-10-01 17:00:37,2026-10-07 11:32:13,4,4,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02047,2026,Pop Lockett Drop it,Panthers,,free_agent,2026-09-24 20:51:31,2026-10-01 17:00:37,3,3,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02048,2026,Pop Lockett Drop it,Seth McGowan,,waiver,2026-10-28 04:09:29,,8,8,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02049,2026,Pop Lockett Drop it,Vikings,,free_agent,2026-10-21 11:37:42,,7,7,NO_NFL_TEAM_MATCH,2.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
+W02050,2026,Post Mahomes,Aaron Rodgers,,free_agent,2026-10-08 13:48:10,2026-10-14 03:54:38,5,5,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02051,2026,Post Mahomes,Adonai Mitchell,,free_agent,2026-09-23 03:27:35,2026-10-06 12:36:42,3,3,NO_NFL_TEAM_MATCH,3.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
+W02052,2026,Post Mahomes,Alvin Kamara,,free_agent,2026-09-30 08:32:56,2026-10-08 20:59:39,4,4,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02053,2026,Post Mahomes,Bengals,,free_agent,2026-10-28 11:06:46,,8,8,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02054,2026,Post Mahomes,Chig Okonkwo,,free_agent,2026-10-29 16:28:09,,8,8,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02055,2026,Post Mahomes,Devaughn Vele,,free_agent,2026-09-16 09:54:36,,2,2,NO_NFL_TEAM_MATCH,7.0,7.0,0.0,7.0,0.0,0.0,7.0,0.0,0.0,0.0,False
+W02056,2026,Post Mahomes,Emanuel Wilson,,free_agent,2026-09-24 14:18:46,2026-09-30 03:59:48,3,3,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02057,2026,Post Mahomes,Germie Bernard,,free_agent,2026-10-14 03:54:38,,6,6,NO_NFL_TEAM_MATCH,3.0,3.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0,False
+W02058,2026,Post Mahomes,Jonah Coleman,,free_agent,2026-10-28 08:32:52,,8,8,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02059,2026,Post Mahomes,Malik Washington,,free_agent,2026-10-08 20:59:39,2026-10-18 11:11:17,5,5,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02060,2026,Post Mahomes,Mike Gesicki,,free_agent,2026-09-16 09:57:41,2026-09-23 03:27:35,2,2,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02061,2026,Post Mahomes,Ollie Gordon II,,waiver,2026-09-30 03:59:48,,4,4,NO_NFL_TEAM_MATCH,5.0,5.0,0.0,5.0,0.0,0.0,5.0,0.0,0.0,0.0,False
+W02062,2026,Post Mahomes,Texans,,free_agent,2026-11-01 15:08:44,,8,8,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02063,2026,Post Mahomes,Tyquan Thornton,,free_agent,2026-09-23 03:28:04,2026-09-24 14:18:46,3,3,NO_NFL_TEAM_MATCH,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,False
+W02064,2026,Post Mahomes,Will Reichard,,free_agent,2026-10-21 08:32:21,,7,7,NO_NFL_TEAM_MATCH,2.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
+W02065,2026,The Big Gronkowski,Commanders,,free_agent,2026-10-29 08:34:01,,8,8,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02066,2026,The Big Gronkowski,Spencer Shrader,,free_agent,2026-10-08 16:45:41,,5,5,NO_NFL_TEAM_MATCH,4.0,4.0,0.0,4.0,0.0,0.0,4.0,0.0,0.0,0.0,False
+W02067,2026,The Big Gronkowski,Titans,,free_agent,2026-10-22 10:53:40,2026-10-29 08:34:01,7,7,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02068,2026,The Big Gronkowski,Tyler Higbee,,free_agent,2026-10-15 20:31:35,,6,6,NO_NFL_TEAM_MATCH,3.0,3.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0,False
+W02069,2026,ThreatLevelMidnight,49ers,,free_agent,2026-09-16 09:32:45,2026-09-30 07:19:51,2,2,NO_NFL_TEAM_MATCH,3.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
+W02070,2026,ThreatLevelMidnight,Brian Robinson Jr.,,free_agent,2026-10-07 10:26:10,2026-10-27 14:52:00,5,5,NO_NFL_TEAM_MATCH,4.0,3.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0,False
+W02071,2026,ThreatLevelMidnight,Cam Little,,free_agent,2026-10-28 14:58:14,,8,8,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02072,2026,ThreatLevelMidnight,Darren Waller,,free_agent,2026-10-17 12:40:43,2026-10-21 04:04:29,6,6,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02073,2026,ThreatLevelMidnight,Dohnte Meyers,,waiver,2026-10-07 03:58:31,2026-10-07 10:26:10,5,5,NO_NFL_TEAM_MATCH,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,False
+W02074,2026,ThreatLevelMidnight,Jacoby Brissett,,waiver,2026-10-07 03:58:31,2026-10-14 08:57:49,5,5,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02075,2026,ThreatLevelMidnight,Jalen Royals,,free_agent,2026-10-16 13:49:54,2026-10-21 04:04:29,6,6,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02076,2026,ThreatLevelMidnight,Kaelon Black,,free_agent,2026-09-08 10:43:22,,1,1,NO_NFL_TEAM_MATCH,8.0,8.0,0.0,8.0,0.0,0.0,8.0,0.0,0.0,0.0,False
+W02077,2026,ThreatLevelMidnight,Kalif Raymond,,waiver,2026-09-30 03:59:48,2026-10-07 03:58:31,4,4,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02078,2026,ThreatLevelMidnight,Kenyon Sadiq,,waiver,2026-09-30 03:59:48,2026-10-11 11:53:04,4,4,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02079,2026,ThreatLevelMidnight,Kirk Cousins,,free_agent,2026-10-14 08:57:49,2026-10-28 14:56:11,6,6,NO_NFL_TEAM_MATCH,3.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
+W02080,2026,ThreatLevelMidnight,Omar Cooper Jr.,,waiver,2026-10-21 04:04:29,,7,7,NO_NFL_TEAM_MATCH,2.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
+W02081,2026,ThreatLevelMidnight,Pat Freiermuth,,free_agent,2026-10-15 14:26:22,2026-10-17 12:40:43,6,6,NO_NFL_TEAM_MATCH,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,False
+W02082,2026,ThreatLevelMidnight,Steelers,,free_agent,2026-09-30 07:19:51,,4,4,NO_NFL_TEAM_MATCH,5.0,5.0,0.0,5.0,0.0,0.0,5.0,0.0,0.0,0.0,False
+W02083,2026,ThreatLevelMidnight,T.J. Hockenson,,waiver,2026-10-21 04:04:29,,7,7,NO_NFL_TEAM_MATCH,2.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
+W02084,2026,ThreatLevelMidnight,Tre' Harris,,free_agent,2026-10-11 11:53:04,2026-10-13 08:19:13,5,5,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02085,2026,ThreatLevelMidnight,Tre Tucker,,free_agent,2026-09-04 11:59:41,2026-10-01 15:39:08,1,1,NO_NFL_TEAM_MATCH,4.0,3.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0,False
+W02086,2026,ThreatLevelMidnight,Tyler Shough,,free_agent,2026-10-01 15:39:08,2026-10-07 03:58:31,4,4,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02087,2026,Uncle Rico,Bears,,free_agent,2026-09-30 07:51:29,2026-10-29 12:46:58,4,4,NO_NFL_TEAM_MATCH,5.0,4.0,0.0,4.0,0.0,0.0,4.0,0.0,0.0,0.0,False
+W02088,2026,Uncle Rico,Braelon Allen,,waiver,2026-09-30 03:59:48,,4,4,NO_NFL_TEAM_MATCH,5.0,5.0,0.0,5.0,0.0,0.0,5.0,0.0,0.0,0.0,False
+W02089,2026,Uncle Rico,Keenan Allen,,waiver,2026-09-30 03:59:48,,4,4,NO_NFL_TEAM_MATCH,5.0,5.0,0.0,5.0,0.0,0.0,5.0,0.0,0.0,0.0,False
+W02090,2026,Uncle Rico,Lions,,free_agent,2026-09-24 16:44:11,2026-09-30 07:51:29,3,3,NO_NFL_TEAM_MATCH,2.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02091,2026,Uncle Rico,Matt Gay,,free_agent,2026-10-22 19:36:43,,7,7,NO_NFL_TEAM_MATCH,2.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
+W02092,2026,Uncle Rico,Raiders,,free_agent,2026-10-29 12:46:58,,8,8,NO_NFL_TEAM_MATCH,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,False
+W02093,2026,Uncle Rico,Rashod Bateman,,free_agent,2026-09-24 16:43:34,2026-10-07 03:58:31,3,3,NO_NFL_TEAM_MATCH,3.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
+W02094,2026,Uncle Rico,Tyreek Hill,,waiver,2026-10-07 03:58:31,,5,5,NO_NFL_TEAM_MATCH,4.0,4.0,0.0,4.0,0.0,0.0,4.0,0.0,0.0,0.0,False
+W02095,2026,Voldemort,Alvin Kamara,,waiver,2026-10-11 03:16:17,,5,5,NO_NFL_TEAM_MATCH,4.0,4.0,0.0,4.0,0.0,0.0,4.0,0.0,0.0,0.0,False
+W02096,2026,Voldemort,Bills,,free_agent,2026-10-01 13:20:06,2026-10-25 08:05:35,4,4,NO_NFL_TEAM_MATCH,4.0,3.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0,False
+W02097,2026,Voldemort,Jalen Nailor,,free_agent,2026-09-08 07:22:22,2026-10-11 03:16:17,1,1,NO_NFL_TEAM_MATCH,5.0,4.0,0.0,4.0,0.0,0.0,4.0,0.0,0.0,0.0,False
+W02098,2026,Voldemort,Jets,,free_agent,2026-10-25 08:05:35,,7,7,NO_NFL_TEAM_MATCH,2.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
+W02099,2026,Voldemort,Makai Lemon,,free_agent,2026-10-25 08:07:09,,7,7,NO_NFL_TEAM_MATCH,2.0,2.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,False
+W02100,2026,malle_dips_pouches,Tank Dell,,waiver,2026-09-04 03:16:42,,1,1,NO_NFL_TEAM_MATCH,8.0,8.0,0.0,8.0,0.0,0.0,8.0,0.0,0.0,0.0,False

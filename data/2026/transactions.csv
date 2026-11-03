@@ -88,3 +88,15 @@ year,transaction_id,transaction_key,timestamp,date,team,transaction_type,added_p
 2026,110,470.l.742546.tr.110,1793108189,2026-10-27T09:36:29-04:00,Ginger FC 🏆🏆,drop,,,Browns,successful,yahoo_fantasy_api
 2026,111,470.l.742546.tr.111,1793108219,2026-10-27T09:36:59-04:00,Ginger FC 🏆🏆,drop,,,Pat Freiermuth,successful,yahoo_fantasy_api
 2026,112,470.l.742546.tr.112,1793127120,2026-10-27T14:52:00-04:00,ThreatLevelMidnight,drop,,,Brian Robinson Jr.,successful,yahoo_fantasy_api
+2026,113,470.l.742546.tr.113,1793174969,2026-10-28T04:09:29-04:00,Pop Lockett Drop it,add/drop,Seth McGowan,waiver,Justin Herbert,successful,yahoo_fantasy_api
+2026,114,470.l.742546.tr.114,1793190772,2026-10-28T08:32:52-04:00,Post Mahomes,add/drop,Jonah Coleman,free_agent,Josh Downs,successful,yahoo_fantasy_api
+2026,115,470.l.742546.tr.115,1793200006,2026-10-28T11:06:46-04:00,Post Mahomes,add/drop,Bengals,free_agent,Texans,successful,yahoo_fantasy_api
+2026,116,470.l.742546.tr.116,1793213771,2026-10-28T14:56:11-04:00,ThreatLevelMidnight,drop,,,Kirk Cousins,successful,yahoo_fantasy_api
+2026,117,470.l.742546.tr.117,1793213894,2026-10-28T14:58:14-04:00,ThreatLevelMidnight,add,Cam Little,free_agent,,successful,yahoo_fantasy_api
+2026,118,470.l.742546.tr.118,1793277241,2026-10-29T08:34:01-04:00,The Big Gronkowski,add/drop,Commanders,free_agent,Titans,successful,yahoo_fantasy_api
+2026,119,470.l.742546.tr.119,1793292418,2026-10-29T12:46:58-04:00,Uncle Rico,add/drop,Raiders,free_agent,Bears,successful,yahoo_fantasy_api
+2026,120,470.l.742546.tr.120,1793305689,2026-10-29T16:28:09-04:00,Post Mahomes,add/drop,Chig Okonkwo,free_agent,RJ Harvey,successful,yahoo_fantasy_api
+2026,121,470.l.742546.tr.121,1793316697,2026-10-29T19:31:37-04:00,Malle ❤️ 🐸,add/drop,Jacoby Brissett,free_agent,Jaxson Dart,successful,yahoo_fantasy_api
+2026,122,470.l.742546.tr.122,1793433033,2026-10-31T03:50:33-04:00,Pop Lockett Drop it,add/drop,Josh Downs,waiver,MarShawn Lloyd,successful,yahoo_fantasy_api
+2026,124,470.l.742546.tr.124,1793545669,2026-11-01T10:07:49-05:00,Joe Mantegna,add/drop,Samaje Perine,free_agent,Ted Hurst III,successful,yahoo_fantasy_api
+2026,125,470.l.742546.tr.125,1793563724,2026-11-01T15:08:44-05:00,Post Mahomes,add,Texans,free_agent,,successful,yahoo_fantasy_api

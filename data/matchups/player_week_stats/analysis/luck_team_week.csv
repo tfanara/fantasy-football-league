@@ -1547,3 +1547,15 @@ year,week,fantasy_team,opponent,team_score,opponent_score,actual_win,actual_loss
 2026,7,Voldemort,The Big Gronkowski,131.52,126.24,1.0,0.0,0.0,1.0,5.280000000000015,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,3,True,False,False,True,,1.0
 2026,7,Uncle Rico,ThreatLevelMidnight,103.6,155.18,0.0,1.0,0.0,0.0,-51.58000000000001,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,1,True,False,False,False,,
 2026,7,Buttermilk Puuump,malle_dips_pouches,108.88,112.32,0.0,1.0,0.0,0.0,-3.4399999999999977,5,6,0,0.45454545454545453,-0.45454545454545453,7,False,False,6,False,False,True,True,0.0,0.0
+2026,8,Joe Mantegna,ThreatLevelMidnight,104.4,130.98,0.0,1.0,0.0,0.0,-26.579999999999984,6,5,0,0.5454545454545454,-0.5454545454545454,6,False,False,2,True,False,False,False,,
+2026,8,Malle ❤️ 🐸,Post Mahomes,82.86,98.44,0.0,1.0,0.0,0.0,-15.579999999999998,2,9,0,0.18181818181818182,-0.18181818181818182,10,False,True,7,False,False,False,False,,
+2026,8,Pop Lockett Drop it,Ginger FC 🏆🏆,84.26,114.58,0.0,1.0,0.0,0.0,-30.319999999999993,3,8,0,0.2727272727272727,-0.2727272727272727,9,False,False,4,False,False,False,False,,
+2026,8,The Big Gronkowski,Buttermilk Puuump,129.16,80.7,1.0,0.0,0.0,1.0,48.459999999999994,9,2,0,0.8181818181818182,0.18181818181818177,3,True,False,11,False,True,False,False,,
+2026,8,Voldemort,Uncle Rico,109.18,76.9,1.0,0.0,0.0,1.0,32.28,7,4,0,0.6363636363636364,0.36363636363636365,5,False,False,12,False,True,False,False,,
+2026,8,malle_dips_pouches,Patty Primetimes,95.14,136.76,0.0,1.0,0.0,0.0,-41.61999999999999,4,7,0,0.36363636363636365,-0.36363636363636365,8,False,False,1,True,False,False,False,,
+2026,8,ThreatLevelMidnight,Joe Mantegna,130.98,104.4,1.0,0.0,0.0,1.0,26.579999999999984,10,1,0,0.9090909090909091,0.09090909090909094,2,True,False,6,False,False,False,False,,
+2026,8,Post Mahomes,Malle ❤️ 🐸,98.44,82.86,1.0,0.0,0.0,1.0,15.579999999999998,5,6,0,0.45454545454545453,0.5454545454545454,7,False,False,10,False,True,False,False,,
+2026,8,Ginger FC 🏆🏆,Pop Lockett Drop it,114.58,84.26,1.0,0.0,0.0,1.0,30.319999999999993,8,3,0,0.7272727272727273,0.2727272727272727,4,False,False,9,False,False,False,False,,
+2026,8,Buttermilk Puuump,The Big Gronkowski,80.7,129.16,0.0,1.0,0.0,0.0,-48.459999999999994,1,10,0,0.09090909090909091,-0.09090909090909091,11,False,True,3,True,False,False,False,,
+2026,8,Uncle Rico,Voldemort,76.9,109.18,0.0,1.0,0.0,0.0,-32.28,0,11,0,0.0,0.0,12,False,True,5,False,False,False,False,,
+2026,8,Patty Primetimes,malle_dips_pouches,136.76,95.14,1.0,0.0,0.0,1.0,41.61999999999999,11,0,0,1.0,0.0,1,True,False,8,False,False,False,False,,
