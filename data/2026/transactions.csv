@@ -100,3 +100,25 @@ year,transaction_id,transaction_key,timestamp,date,team,transaction_type,added_p
 2026,122,470.l.742546.tr.122,1793433033,2026-10-31T03:50:33-04:00,Pop Lockett Drop it,add/drop,Josh Downs,waiver,MarShawn Lloyd,successful,yahoo_fantasy_api
 2026,124,470.l.742546.tr.124,1793545669,2026-11-01T10:07:49-05:00,Joe Mantegna,add/drop,Samaje Perine,free_agent,Ted Hurst III,successful,yahoo_fantasy_api
 2026,125,470.l.742546.tr.125,1793563724,2026-11-01T15:08:44-05:00,Post Mahomes,add,Texans,free_agent,,successful,yahoo_fantasy_api
+2026,126,470.l.742546.tr.126,1793711203,2026-11-03T08:06:43-05:00,Post Mahomes,drop,,,Bengals,successful,yahoo_fantasy_api
+2026,127,470.l.742546.tr.127,1793711217,2026-11-03T08:06:57-05:00,Post Mahomes,drop,,,Chig Okonkwo,successful,yahoo_fantasy_api
+2026,128,470.l.742546.tr.128,1793783632,2026-11-04T04:13:52-05:00,The Big Gronkowski,add/drop,Chiefs,waiver,Commanders,successful,yahoo_fantasy_api
+2026,129,470.l.742546.tr.129,1793783632,2026-11-04T04:13:52-05:00,ThreatLevelMidnight,add/drop,Bears,waiver,Cam Little,successful,yahoo_fantasy_api
+2026,130,470.l.742546.tr.130,1793783632,2026-11-04T04:13:52-05:00,Pop Lockett Drop it,add/drop,Eagles,waiver,Vikings,successful,yahoo_fantasy_api
+2026,131,470.l.742546.tr.131,1793783632,2026-11-04T04:13:52-05:00,Pop Lockett Drop it,add/drop,Adonai Mitchell,waiver,Romeo Doubs,successful,yahoo_fantasy_api
+2026,133,470.l.742546.tr.133,1793807031,2026-11-04T10:43:51-05:00,Pop Lockett Drop it,add/drop,Sam Darnold,free_agent,Khalil Shakir,successful,yahoo_fantasy_api
+2026,134,470.l.742546.tr.134,1793820894,2026-11-04T14:34:54-05:00,ThreatLevelMidnight,add/drop,Antonio Williams,free_agent,Steelers,successful,yahoo_fantasy_api
+2026,135,470.l.742546.tr.135,1793822380,2026-11-04T14:59:40-05:00,Pop Lockett Drop it,drop,,,Sam Darnold,successful,yahoo_fantasy_api
+2026,136,470.l.742546.tr.136,1793822425,2026-11-04T15:00:25-05:00,Pop Lockett Drop it,add,Drew Lock,free_agent,,successful,yahoo_fantasy_api
+2026,137,470.l.742546.tr.137,1793830548,2026-11-04T17:15:48-05:00,Uncle Rico,add/drop,Saints,free_agent,Raiders,successful,yahoo_fantasy_api
+2026,138,470.l.742546.tr.138,1793840735,2026-11-04T20:05:35-05:00,Joe Mantegna,drop,,,Emanuel Wilson,successful,yahoo_fantasy_api
+2026,139,470.l.742546.tr.139,1793840761,2026-11-04T20:06:01-05:00,Joe Mantegna,drop,,,Tyler Loop,successful,yahoo_fantasy_api
+2026,140,470.l.742546.tr.140,1793840777,2026-11-04T20:06:17-05:00,Joe Mantegna,add,Eddy Pineiro,free_agent,,successful,yahoo_fantasy_api
+2026,141,470.l.742546.tr.141,1793901336,2026-11-05T12:55:36-05:00,Post Mahomes,add,Emmett Johnson,free_agent,,successful,yahoo_fantasy_api
+2026,142,470.l.742546.tr.142,1793929960,2026-11-05T20:52:40-05:00,Buttermilk Puuump,add/drop,Tyler Bass,free_agent,Chris Boswell,successful,yahoo_fantasy_api
+2026,143,470.l.742546.tr.143,1794000964,2026-11-06T16:36:04-05:00,Post Mahomes,add/drop,Devin Singletary,free_agent,Emmett Johnson,successful,yahoo_fantasy_api
+2026,145,470.l.742546.tr.145,1794041578,2026-11-07T03:52:58-05:00,Pop Lockett Drop it,drop,,,KC Concepcion Jr.,successful,yahoo_fantasy_api
+2026,146,470.l.742546.tr.146,1794041578,2026-11-07T03:52:58-05:00,ThreatLevelMidnight,add,Romeo Doubs,waiver,,successful,yahoo_fantasy_api
+2026,147,470.l.742546.tr.147,1794060428,2026-11-07T09:07:08-05:00,Post Mahomes,add,Khalil Shakir,free_agent,,successful,yahoo_fantasy_api
+2026,148,470.l.742546.tr.148,1794089983,2026-11-07T17:19:43-05:00,Voldemort,drop,,,Juwan Johnson,successful,yahoo_fantasy_api
+2026,149,470.l.742546.tr.149,1794089998,2026-11-07T17:19:58-05:00,Voldemort,add/drop,Lions,free_agent,Jets,successful,yahoo_fantasy_api

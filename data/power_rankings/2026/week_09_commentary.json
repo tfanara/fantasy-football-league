@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "season": 2026,
+  "week": 9,
+  "commentary": [
+    {
+      "power_rank": 1,
+      "team": "ThreatLevelMidnight",
+      "commentary": "A brutal 1.5-point loss to Ginger FC 🏆🏆 snapped a two-game winning streak despite leaving just 7.5 points on the bench.",
+      "evidence_tags": [
+        "matchup",
+        "luck",
+        "lineup",
+        "milestone"
+      ]
+    },
+    {
+      "power_rank": 2,
+      "team": "Pop Lockett Drop it",
+      "commentary": "A 6-0 win over Malle ❤️ 🐸 snapped a two-game skid, though leaving 17.44 points on the bench kept things unnecessarily stressful.",
+      "evidence_tags": [
+        "matchup",
+        "lineup",
+        "milestone"
+      ]
+    },
+    {
+      "power_rank": 3,
+      "team": "The Big Gronkowski",
+      "commentary": "A razor-thin 0.8-point bad beat against Patty Primetimes stings all the more when you look at the 26.92 points left stranded on the bench.",
+      "evidence_tags": [
+        "matchup",
+        "luck",
+        "lineup"
+      ]
+    },
+    {
+      "power_rank": 4,
+      "team": "Patty Primetimes",
+      "commentary": "Dodged a massive bullet with a 0.8-point win against The Big Gronkowski, narrowly missing the league record for the narrowest win by a mere 0.74 points.",
+      "evidence_tags": [
+        "matchup",
+        "milestone"
+      ]
+    },
+    {
+      "power_rank": 5,
+      "team": "Joe Mantegna",
+      "commentary": "Cruised to a 38.06-point win over Uncle Rico, pulling off a fortunate victory despite ranking low in weekly scoring.",
+      "evidence_tags": [
+        "matchup",
+        "luck"
+      ]
+    },
+    {
+      "power_rank": 6,
+      "team": "Ginger FC 🏆🏆",
+      "commentary": "Pulled off a tight 1.5-point victory against ThreatLevelMidnight behind a sharp lineup that left a mere 5.5 points on the pine.",
+      "evidence_tags": [
+        "matchup",
+        "lineup"
+      ]
+    },
+    {
+      "power_rank": 7,
+      "team": "Voldemort",
+      "commentary": "Secured a 12.58-point win over Buttermilk Puuump, catching a lucky break despite a lower-tier weekly score.",
+      "evidence_tags": [
+        "matchup",
+        "luck"
+      ]
+    },
+    {
+      "power_rank": 8,
+      "team": "Malle ❤️ 🐸",
+      "commentary": "Suffered a tough 6-0 bad beat against Pop Lockett Drop it, unable to pull out the win despite a stellar 94.72% lineup efficiency.",
+      "evidence_tags": [
+        "matchup",
+        "luck",
+        "lineup"
+      ]
+    },
+    {
+      "power_rank": 9,
+      "team": "malle_dips_pouches",
+      "commentary": "Got thoroughly outmatched in a 42.18-point blowout loss to Post Mahomes while struggling with 16.7 points left on the bench.",
+      "evidence_tags": [
+        "matchup",
+        "lineup"
+      ]
+    },
+    {
+      "power_rank": 10,
+      "team": "Post Mahomes",
+      "commentary": "Cruised to a lopsided 42.18-point victory over malle_dips_pouches to pick up a lucky win.",
+      "evidence_tags": [
+        "matchup",
+        "luck"
+      ]
+    },
+    {
+      "power_rank": 11,
+      "team": "Uncle Rico",
+      "commentary": "Hit an unwanted career milestone with a 75th career loss following a dismal 38.06-point defeat against Joe Mantegna.",
+      "evidence_tags": [
+        "matchup",
+        "milestone"
+      ]
+    },
+    {
+      "power_rank": 12,
+      "team": "Buttermilk Puuump",
+      "commentary": "Remain winless on the season after falling 12.58 points short against Voldemort.",
+      "evidence_tags": [
+        "matchup",
+        "standings"
+      ]
+    }
+  ]
+}

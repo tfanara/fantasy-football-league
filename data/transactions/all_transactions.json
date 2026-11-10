@@ -22444,5 +22444,203 @@
     "acquisition_type":"free_agent",
     "dropped_player":"",
     "raw_text":"ADD Texans (free_agent)"
+  },
+  {
+    "year":2026,
+    "date":"2026-11-03T08:06:43-05:00",
+    "team":"Post Mahomes",
+    "added_player":"",
+    "acquisition_type":"",
+    "dropped_player":"Bengals",
+    "raw_text":"DROP Bengals"
+  },
+  {
+    "year":2026,
+    "date":"2026-11-03T08:06:57-05:00",
+    "team":"Post Mahomes",
+    "added_player":"",
+    "acquisition_type":"",
+    "dropped_player":"Chig Okonkwo",
+    "raw_text":"DROP Chig Okonkwo"
+  },
+  {
+    "year":2026,
+    "date":"2026-11-04T04:13:52-05:00",
+    "team":"Pop Lockett Drop it",
+    "added_player":"Eagles",
+    "acquisition_type":"waiver",
+    "dropped_player":"Vikings",
+    "raw_text":"ADD Eagles (waiver) | DROP Vikings"
+  },
+  {
+    "year":2026,
+    "date":"2026-11-04T04:13:52-05:00",
+    "team":"Pop Lockett Drop it",
+    "added_player":"Adonai Mitchell",
+    "acquisition_type":"waiver",
+    "dropped_player":"Romeo Doubs",
+    "raw_text":"ADD Adonai Mitchell (waiver) | DROP Romeo Doubs"
+  },
+  {
+    "year":2026,
+    "date":"2026-11-04T04:13:52-05:00",
+    "team":"The Big Gronkowski",
+    "added_player":"Chiefs",
+    "acquisition_type":"waiver",
+    "dropped_player":"Commanders",
+    "raw_text":"ADD Chiefs (waiver) | DROP Commanders"
+  },
+  {
+    "year":2026,
+    "date":"2026-11-04T04:13:52-05:00",
+    "team":"ThreatLevelMidnight",
+    "added_player":"Bears",
+    "acquisition_type":"waiver",
+    "dropped_player":"Cam Little",
+    "raw_text":"ADD Bears (waiver) | DROP Cam Little"
+  },
+  {
+    "year":2026,
+    "date":"2026-11-04T10:43:51-05:00",
+    "team":"Pop Lockett Drop it",
+    "added_player":"Sam Darnold",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Khalil Shakir",
+    "raw_text":"ADD Sam Darnold (free_agent) | DROP Khalil Shakir"
+  },
+  {
+    "year":2026,
+    "date":"2026-11-04T14:34:54-05:00",
+    "team":"ThreatLevelMidnight",
+    "added_player":"Antonio Williams",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Steelers",
+    "raw_text":"ADD Antonio Williams (free_agent) | DROP Steelers"
+  },
+  {
+    "year":2026,
+    "date":"2026-11-04T14:59:40-05:00",
+    "team":"Pop Lockett Drop it",
+    "added_player":"",
+    "acquisition_type":"",
+    "dropped_player":"Sam Darnold",
+    "raw_text":"DROP Sam Darnold"
+  },
+  {
+    "year":2026,
+    "date":"2026-11-04T15:00:25-05:00",
+    "team":"Pop Lockett Drop it",
+    "added_player":"Drew Lock",
+    "acquisition_type":"free_agent",
+    "dropped_player":"",
+    "raw_text":"ADD Drew Lock (free_agent)"
+  },
+  {
+    "year":2026,
+    "date":"2026-11-04T17:15:48-05:00",
+    "team":"Uncle Rico",
+    "added_player":"Saints",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Raiders",
+    "raw_text":"ADD Saints (free_agent) | DROP Raiders"
+  },
+  {
+    "year":2026,
+    "date":"2026-11-04T20:05:35-05:00",
+    "team":"Joe Mantegna",
+    "added_player":"",
+    "acquisition_type":"",
+    "dropped_player":"Emanuel Wilson",
+    "raw_text":"DROP Emanuel Wilson"
+  },
+  {
+    "year":2026,
+    "date":"2026-11-04T20:06:01-05:00",
+    "team":"Joe Mantegna",
+    "added_player":"",
+    "acquisition_type":"",
+    "dropped_player":"Tyler Loop",
+    "raw_text":"DROP Tyler Loop"
+  },
+  {
+    "year":2026,
+    "date":"2026-11-04T20:06:17-05:00",
+    "team":"Joe Mantegna",
+    "added_player":"Eddy Pineiro",
+    "acquisition_type":"free_agent",
+    "dropped_player":"",
+    "raw_text":"ADD Eddy Pineiro (free_agent)"
+  },
+  {
+    "year":2026,
+    "date":"2026-11-05T12:55:36-05:00",
+    "team":"Post Mahomes",
+    "added_player":"Emmett Johnson",
+    "acquisition_type":"free_agent",
+    "dropped_player":"",
+    "raw_text":"ADD Emmett Johnson (free_agent)"
+  },
+  {
+    "year":2026,
+    "date":"2026-11-05T20:52:40-05:00",
+    "team":"Buttermilk Puuump",
+    "added_player":"Tyler Bass",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Chris Boswell",
+    "raw_text":"ADD Tyler Bass (free_agent) | DROP Chris Boswell"
+  },
+  {
+    "year":2026,
+    "date":"2026-11-06T16:36:04-05:00",
+    "team":"Post Mahomes",
+    "added_player":"Devin Singletary",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Emmett Johnson",
+    "raw_text":"ADD Devin Singletary (free_agent) | DROP Emmett Johnson"
+  },
+  {
+    "year":2026,
+    "date":"2026-11-07T03:52:58-05:00",
+    "team":"Pop Lockett Drop it",
+    "added_player":"",
+    "acquisition_type":"",
+    "dropped_player":"KC Concepcion Jr.",
+    "raw_text":"DROP KC Concepcion Jr."
+  },
+  {
+    "year":2026,
+    "date":"2026-11-07T03:52:58-05:00",
+    "team":"ThreatLevelMidnight",
+    "added_player":"Romeo Doubs",
+    "acquisition_type":"waiver",
+    "dropped_player":"",
+    "raw_text":"ADD Romeo Doubs (waiver)"
+  },
+  {
+    "year":2026,
+    "date":"2026-11-07T09:07:08-05:00",
+    "team":"Post Mahomes",
+    "added_player":"Khalil Shakir",
+    "acquisition_type":"free_agent",
+    "dropped_player":"",
+    "raw_text":"ADD Khalil Shakir (free_agent)"
+  },
+  {
+    "year":2026,
+    "date":"2026-11-07T17:19:43-05:00",
+    "team":"Voldemort",
+    "added_player":"",
+    "acquisition_type":"",
+    "dropped_player":"Juwan Johnson",
+    "raw_text":"DROP Juwan Johnson"
+  },
+  {
+    "year":2026,
+    "date":"2026-11-07T17:19:58-05:00",
+    "team":"Voldemort",
+    "added_player":"Lions",
+    "acquisition_type":"free_agent",
+    "dropped_player":"Jets",
+    "raw_text":"ADD Lions (free_agent) | DROP Jets"
   }
 ]
